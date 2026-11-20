@@ -1,0 +1,68 @@
+[categoria]
+nombre = "Geografía"
+icono = "🌍"
+color = "#38d9a9"
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Australia?"
+opciones = ["Sídney", "Canberra", "Melbourne", "Perth"]
+correcta = "Canberra"
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más largo de España?"
+opciones = ["Ebro", "Tajo", "Duero", "Guadalquivir"]
+correcta = "Tajo"
+tiempo = 15
+explicacion = "El Tajo recorre unos 1.000 km entre España y Portugal."
+
+[[pregunta]]
+enunciado = "¿Cuál es el país más grande del mundo por superficie?"
+opciones = ["Canadá", "China", "Estados Unidos", "Rusia"]
+correcta = "Rusia"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué continente está Egipto?"
+opciones = ["Asia", "África", "Europa"]
+correcta = "África"
+tiempo = 8
+
+[[pregunta]]
+enunciado = "¿Cuál es el pico más alto de España?"
+opciones = ["Mulhacén", "Aneto", "Teide", "Veleta"]
+correcta = "Teide"
+tiempo = 15
+explicacion = "El Teide, en Tenerife, mide 3.715 m."
+
+[[pregunta]]
+enunciado = "¿Qué océano baña las costas de Japón por el este?"
+opciones = ["Índico", "Atlántico", "Pacífico", "Ártico"]
+correcta = "Pacífico"
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál de estas ciudades NO es una capital europea?"
+opciones = ["Liubliana", "Bratislava", "Oporto", "Riga"]
+correcta = "Oporto"
+tiempo = 15
+dificultad = 2
+
+[[pregunta]]
+enunciado = "¿Cuántas comunidades autónomas tiene España?"
+opciones = ["15", "16", "17", "19"]
+correcta = "17"
+tiempo = 12
+explicacion = "17 comunidades autónomas más las ciudades autónomas de Ceuta y Melilla."
+
+[[pregunta]]
+enunciado = "¿Cuál es el desierto cálido más grande del mundo?"
+opciones = ["Gobi", "Sáhara", "Kalahari", "Atacama"]
+correcta = "Sáhara"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué país tiene forma de bota?"
+opciones = ["Grecia", "Italia", "Portugal", "Croacia"]
+correcta = "Italia"
+tiempo = 5

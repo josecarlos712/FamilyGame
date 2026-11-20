@@ -1,0 +1,68 @@
+[categoria]
+nombre = "Historia"
+icono = "🏛️"
+color = "#ffa94d"
+
+[[pregunta]]
+enunciado = "¿En qué año llegó Colón a América?"
+opciones = ["1453", "1492", "1512", "1588"]
+correcta = "1492"
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer emperador de Roma?"
+opciones = ["Julio César", "Augusto", "Nerón", "Trajano"]
+correcta = "Augusto"
+tiempo = 15
+dificultad = 2
+explicacion = "Julio César fue dictador, pero el primer emperador fue Octavio Augusto."
+
+[[pregunta]]
+enunciado = "¿En qué año cayó el Muro de Berlín?"
+opciones = ["1985", "1989", "1991", "1993"]
+correcta = "1989"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué civilización construyó Machu Picchu?"
+opciones = ["Azteca", "Maya", "Inca", "Olmeca"]
+correcta = "Inca"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué año se aprobó la Constitución española actual?"
+opciones = ["1975", "1977", "1978", "1982"]
+correcta = "1978"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué barco se hundió en 1912 tras chocar con un iceberg?"
+opciones = ["Lusitania", "Titanic", "Britannic", "Olympic"]
+correcta = "Titanic"
+tiempo = 8
+
+[[pregunta]]
+enunciado = "¿Quién pintó el Guernica?"
+opciones = ["Dalí", "Miró", "Picasso", "Goya"]
+correcta = "Picasso"
+tiempo = 8
+
+[[pregunta]]
+enunciado = "¿Qué faraón tiene la tumba más famosa, descubierta en 1922?"
+opciones = ["Ramsés II", "Tutankamón", "Keops", "Akenatón"]
+correcta = "Tutankamón"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué siglo vivió Cervantes?"
+opciones = ["XIV", "XV", "XVI", "XVIII"]
+correcta = "XVI"
+tiempo = 12
+dificultad = 2
+explicacion = "Vivió de 1547 a 1616: casi toda su vida en el siglo XVI."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad fue destruida por el Vesubio en el año 79?"
+opciones = ["Roma", "Pompeya", "Nápoles", "Siracusa"]
+correcta = "Pompeya"
+tiempo = 10

@@ -1,0 +1,32 @@
+# Necesita internet y una clave de Google Maps en config.toml.
+# Sin ella, esta categoría aparece como «no disponible» y no se ofrece.
+[categoria]
+nombre = "¿Dónde está?"
+icono = "📍"
+color = "#ff6b6b"
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Torre Eiffel"
+respuesta = { lat = 48.8584, lng = 2.2945 }
+radio = 30000
+vista = { lat = 46, lng = 2, zoom = 5 }
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Madrid"
+respuesta = { lat = 40.4168, lng = -3.7038 }
+radio = 40000
+vista = { lat = 40, lng = -4, zoom = 5 }
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Nueva York"
+respuesta = { lat = 40.7128, lng = -74.0060 }
+radio = 80000
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Mallorca"
+zona = [[39.96, 2.80], [39.92, 3.20], [39.80, 3.50], [39.30, 3.20], [39.35, 2.40], [39.70, 2.30]]
+vista = { lat = 40, lng = 2, zoom = 6 }

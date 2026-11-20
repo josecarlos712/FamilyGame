@@ -1,0 +1,77 @@
+# Categoría de ejemplo con sliders y dobles sliders.
+[categoria]
+nombre = "¿Cuánto?"
+icono = "🎯"
+color = "#b197fc"
+descripcion = "Acércate todo lo que puedas"
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó el ser humano a la Luna?"
+min = 1950
+max = 2000
+respuesta = 1969
+tolerancia = 2
+inicio = 1975
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide la Torre Eiffel (con antenas)?"
+min = 100
+max = 600
+paso = 5
+unidad = "m"
+respuesta = 330
+tolerancia_pct = 10
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas teclas tiene un piano estándar?"
+min = 40
+max = 120
+respuesta = 88
+tolerancia = 4
+tiempo = 15
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos km/h puede correr un guepardo como máximo?"
+min = 30
+max = 160
+paso = 5
+unidad = "km/h"
+respuesta = 110
+tolerancia = 15
+explicacion = "Ronda los 100-120 km/h en carreras cortas."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Segunda Guerra Mundial?"
+min = 1900
+max = 1970
+respuesta = [1939, 1945]
+criterio = "coincidir"
+margen = 0
+tiempo = 20
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "Marca la temperatura normal del cuerpo humano sano"
+min = 30
+max = 45
+paso = 0.1
+unidad = "°C"
+respuesta = [36.1, 37.2]
+criterio = "solapar"
+solape_min = 50
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "Marca un rango que contenga la población de España (millones)"
+min = 0
+max = 100
+unidad = "M"
+respuesta = [48, 50]
+criterio = "contener"
+ancho_max = 10
+explicacion = "En 2025 superó los 49 millones de habitantes."

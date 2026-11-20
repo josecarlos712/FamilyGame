@@ -1,0 +1,68 @@
+[categoria]
+nombre = "Ciencia"
+icono = "🔬"
+color = "#4dabf7"
+
+[[pregunta]]
+enunciado = "¿Cuál es el símbolo químico del oro?"
+opciones = ["Or", "Ag", "Au", "Go"]
+correcta = "Au"
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué planeta es conocido como el planeta rojo?"
+opciones = ["Venus", "Marte", "Júpiter", "Mercurio"]
+correcta = "Marte"
+tiempo = 6
+
+[[pregunta]]
+enunciado = "¿Cuántos huesos tiene el cuerpo humano adulto?"
+opciones = ["186", "206", "226", "256"]
+correcta = "206"
+tiempo = 12
+dificultad = 2
+
+[[pregunta]]
+enunciado = "¿A qué temperatura hierve el agua al nivel del mar?"
+opciones = ["90 °C", "100 °C", "110 °C", "120 °C"]
+correcta = "100 °C"
+tiempo = 6
+
+[[pregunta]]
+enunciado = "¿Qué gas absorben las plantas para hacer la fotosíntesis?"
+opciones = ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"]
+correcta = "Dióxido de carbono"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es el planeta más grande del sistema solar?"
+opciones = ["Saturno", "Júpiter", "Neptuno", "Urano"]
+correcta = "Júpiter"
+tiempo = 8
+
+[[pregunta]]
+enunciado = "¿Quién formuló la teoría de la relatividad?"
+opciones = ["Newton", "Einstein", "Galileo", "Tesla"]
+correcta = "Einstein"
+tiempo = 8
+
+[[pregunta]]
+enunciado = "La luz del Sol tarda en llegar a la Tierra unos..."
+opciones = ["8 segundos", "8 minutos", "8 horas", "8 días"]
+correcta = "8 minutos"
+tiempo = 12
+dificultad = 2
+
+[[pregunta]]
+enunciado = "¿Qué órgano produce la insulina?"
+opciones = ["Hígado", "Riñón", "Páncreas", "Estómago"]
+correcta = "Páncreas"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "El sonido viaja más rápido en el agua que en el aire"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 8
+explicacion = "En el agua va unas 4 veces más rápido (≈1.480 m/s frente a ≈343 m/s)."

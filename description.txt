@@ -1,0 +1,22 @@
+quiero crear un trivial. pero habrá que hacerlo modular para que yo pueda meter preguntas sin tocar código y varias a la vez en un mismo archivo de texto que puedes escribir tu en el formato adecuado para que el juego lo reconozca. cada archivo puede ser una categoría dentro del juego, y habrá multitud de categorias, no solo 6 como el trivial clasico. tambien tienes que dejarlo abierto para poder meter distintas formas de responder a una pregunta. al principio solo habrá preguntas tipo test como en el trivial. pero más adelante se pueden meter otro tipo de respuestas como buscar y seleccionar en el mapa de google maps (incorporado a la pantalla del jugador en una ventana incrustada para que pueda responder); o por ejemplo un slider que te da la respuesta por valida si está dentro del rango; o un doble slider para establecer un rango como respuesta, etc.
+los usuarios podrán ponerse un nombre y un icono, que podrá ser de los incluidos en el juego (iconos svg variados) o una foto que ellos suban desde la galeria del telefono; y un color para el marco de la foto, color del nombre y cualquier marcador o señal que haya el jugador en la pantalla común para poder diferenciarlo del resto de jugadores.
+
+Cómo es una partida. 6 jugadores maximo, todos responden a la vez para que no se aburran esperando una ronda cada persona, competitividad constante. la categoria sí la elije cada vez una persona y va rotando. el tiempo limite de cada pregunta está definida en la misma pregunta, ya que no todas necesitan el mismo tiempo. puede que alguna necesite un minuto o que otra sea de respuesta rapida sin pensar de tres segundos. para el tablero tendrás que ofrecerme opciones ya que el clasico de trivial no sirve para esto. quizás hay que buscar algo estilo mario party. Condición de victoria: elegible entre X puntos (decidibles por el usuario), X rondas, o categorias a cerrar (se necesitan varios puntos o caer en una casilla especial para cerrar una categoria).
+
+Qué es la pantalla común. las preguntas y el tablero van en la pantalla de la tele (una direccion especifica dentro del servidor web diseñada para el formato de la pantalla, con tipografias claras y gandes para poder ver desde lejos). los usuarios responden cada uno con su movil desde otra dirección del mismo servidor web pero adaptado para el formato vertical.
+
+Cuándo una respuesta cuenta como buena. En el test es la opción correcta. En los otros tipos hay que definirlo ya en el archivo, aunque aún no se implementen:
+ - Mapa: un punto (latitud, longitud) y un radio en metros, o una zona. «Cerca» sin número no se puede puntuar.
+ - Slider: mínimo, máximo, paso, unidad y una tolerancia (valor exacto ± margen, o un porcentaje).
+ - Doble slider: si el rango del jugador tiene que contener al correcto, coincidir del todo, o solaparse en un porcentaje mínimo.
+Cada tipo de pregunta posible irá definida en una carpeta modular que se carga dinamicamente. Dentro irán archivos python que define el formato y el comportamiento y todos los assets necesarios para que el juego cargue el tipo de pregunta y la muestre correctamente en pantalla. para ello el juego ofrecerá un canvas que le pasará al modulo de la pregunta para que este dibuje la pregunta que va en la pantalla principal y las forma de respuesta que va en cada telefono de los jugadores.
+
+Campos que el archivo de preguntas necesita
+esto tendrás que definirlo tú. lo mejore es que crees un blueprint que cada tipo de pregunta que se quiera crear copie y modifique haciendo override en los metodos para adaptarlos a su mecanica de juego. todas las preguntas tienen las mismas funciones necesarias pero internamente cada una funciona distinto y dibuja algo distinto en pantalla y en los moviles.
+
+Huecos de una partida real (estas situaciones debes resolverlas)
+Qué pasa con empates, nombres repetidos, un jugador que se va a medias y una categoría vacía o con el archivo mal formado.
+Si una pregunta ya salió en la partida se descarta o puede repetirse.
+Si se puede activar o desactivar categorías antes de empezar, y si el que tiene 200 preguntas no aplasta al que tiene 10.
+En el mapa incrustado: sin red no hay mapa; hace falta un comportamiento cuando falla (saltar la pregunta, otro tipo, o no ofrecer esa categoría).
+La foto subida se guarda solo en esa partida o queda en el dispositivo; y el color libre puede dejar el nombre ilegible, así que conviene una paleta con contraste suficiente o un ajuste automático del texto.

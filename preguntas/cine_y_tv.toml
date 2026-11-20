@@ -1,0 +1,66 @@
+[categoria]
+nombre = "Cine y TV"
+icono = "🎬"
+color = "#f783ac"
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Parque Jurásico» (1993)?"
+opciones = ["James Cameron", "Steven Spielberg", "George Lucas", "Ridley Scott"]
+correcta = "Steven Spielberg"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el muñeco vaquero de «Toy Story»?"
+opciones = ["Buzz", "Woody", "Jessie", "Slinky"]
+correcta = "Woody"
+tiempo = 8
+
+[[pregunta]]
+enunciado = "¿Cuál fue la primera película en lengua no inglesa en ganar el Óscar a mejor película (2020)?"
+opciones = ["Roma", "Parásitos", "Amélie", "El laberinto del fauno"]
+correcta = "Parásitos"
+tiempo = 15
+dificultad = 3
+
+[[pregunta]]
+enunciado = "¿En qué ciudad vive la familia Simpson?"
+opciones = ["Shelbyville", "Springfield", "Quahog", "South Park"]
+correcta = "Springfield"
+tiempo = 8
+
+[[pregunta]]
+enunciado = "¿Qué director español ganó el Óscar por «Todo sobre mi madre»?"
+opciones = ["Alejandro Amenábar", "Pedro Almodóvar", "Fernando Trueba", "J. A. Bayona"]
+correcta = "Pedro Almodóvar"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el padre de Luke Skywalker?"
+opciones = ["Obi-Wan Kenobi", "Anakin Skywalker", "Han Solo", "Yoda"]
+correcta = "Anakin Skywalker"
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿De qué color es la pastilla que Neo toma en «Matrix»?"
+opciones = ["Azul", "Roja", "Verde", "Blanca"]
+correcta = "Roja"
+tiempo = 5
+
+[[pregunta]]
+enunciado = "¿Qué serie española trata sobre el atraco a la Fábrica Nacional de Moneda y Timbre?"
+opciones = ["Élite", "La casa de papel", "Vis a vis", "El ministerio del tiempo"]
+correcta = "La casa de papel"
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué animal es Nemo?"
+opciones = ["Pez payaso", "Pez cirujano", "Tortuga", "Caballito de mar"]
+correcta = "Pez payaso"
+tiempo = 5
+
+[[pregunta]]
+enunciado = "¿Cuál es la película más taquillera de la historia (sin ajustar inflación)?"
+opciones = ["Titanic", "Avatar", "Avengers: Endgame", "Star Wars: El despertar de la Fuerza"]
+correcta = "Avatar"
+tiempo = 15
+dificultad = 2

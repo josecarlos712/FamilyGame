@@ -1,0 +1,56 @@
+# Preguntas relámpago: poco tiempo, sin pensar.
+[categoria]
+nombre = "Relámpago"
+icono = "⚡"
+color = "#ffd43b"
+descripcion = "Tres segundos y sin pensar"
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tiene una araña?"
+opciones = ["6", "8", "10"]
+correcta = "8"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es el cielo en un día despejado?"
+opciones = ["Verde", "Azul", "Rojo"]
+correcta = "Azul"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "2 + 2 × 2 ="
+opciones = ["6", "8", "4"]
+correcta = "6"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuántos días tiene una semana?"
+opciones = ["5", "7", "10"]
+correcta = "7"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal hace «muu»?"
+opciones = ["Oveja", "Vaca", "Cerdo"]
+correcta = "Vaca"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos meses tienen 28 días?"
+opciones = ["1", "12", "6"]
+correcta = "12"
+tiempo = 5
+lectura = 1.5
+explicacion = "¡Todos los meses tienen al menos 28 días!"
+
+[[pregunta]]
+enunciado = "¿Qué pesa más: un kilo de paja o un kilo de hierro?"
+opciones = ["La paja", "El hierro", "Lo mismo"]
+correcta = "Lo mismo"
+tiempo = 4
+lectura = 2

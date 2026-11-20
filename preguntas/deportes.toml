@@ -1,0 +1,66 @@
+[categoria]
+nombre = "Deportes"
+icono = "⚽"
+color = "#69db7c"
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores tiene un equipo de fútbol en el campo?"
+opciones = ["9", "10", "11", "12"]
+correcta = "11"
+tiempo = 5
+
+[[pregunta]]
+enunciado = "¿En qué año ganó España su primer Mundial de fútbol masculino?"
+opciones = ["2008", "2010", "2012", "2014"]
+correcta = "2010"
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuántos Roland Garros ha ganado Rafa Nadal?"
+opciones = ["10", "12", "14", "16"]
+correcta = "14"
+tiempo = 12
+dificultad = 2
+
+[[pregunta]]
+enunciado = "¿Cada cuántos años se celebran los Juegos Olímpicos de verano?"
+opciones = ["2", "3", "4", "5"]
+correcta = "4"
+tiempo = 6
+
+[[pregunta]]
+enunciado = "¿Cuántos puntos vale un triple en baloncesto?"
+opciones = ["2", "3", "4"]
+correcta = "3"
+tiempo = 4
+
+[[pregunta]]
+enunciado = "¿Qué distancia tiene una maratón?"
+opciones = ["21,097 km", "40 km", "42,195 km", "50 km"]
+correcta = "42,195 km"
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué deporte se usa un «tee»?"
+opciones = ["Tenis", "Golf", "Críquet", "Hockey"]
+correcta = "Golf"
+tiempo = 8
+
+[[pregunta]]
+enunciado = "¿De qué país es el piloto Fernando Alonso?"
+opciones = ["Italia", "España", "Brasil", "Francia"]
+correcta = "España"
+tiempo = 5
+
+[[pregunta]]
+enunciado = "¿Cuántos sets hay que ganar en un partido de tenis masculino de Grand Slam?"
+opciones = ["2", "3", "4", "5"]
+correcta = "3"
+tiempo = 10
+dificultad = 2
+
+[[pregunta]]
+enunciado = "¿Qué ciudad organizó los Juegos Olímpicos de 1992?"
+opciones = ["Madrid", "Sevilla", "Barcelona", "Valencia"]
+correcta = "Barcelona"
+tiempo = 6

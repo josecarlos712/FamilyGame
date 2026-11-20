@@ -1,0 +1,87 @@
+# ==========================================================================
+#  PLANTILLA DE CATEGORÍA  (los archivos que empiezan por _ no se cargan)
+#  Copia este archivo, quítale el guion bajo y escribe tus preguntas.
+#  Cada archivo .toml de la carpeta «preguntas» es una categoría del juego.
+#  Puedes organizarlos en subcarpetas.
+# ==========================================================================
+
+[categoria]
+nombre = "Mi categoría"        # nombre que se ve en el juego
+icono = "🎲"                   # un emoji
+color = "#4dabf7"              # color de la categoría (#rrggbb)
+descripcion = "Frase corta opcional"
+
+# --------------------------------------------------------------------------
+#  Campos comunes a TODAS las preguntas
+#    tipo        = "test" | "slider" | "rango" | "mapa"   (si falta: "test")
+#    enunciado   = "texto de la pregunta"                (obligatorio)
+#    tiempo      = segundos para responder (2 a 300; cada tipo tiene uno por defecto)
+#    lectura     = segundos para leer antes de poder responder (por defecto según longitud)
+#    dificultad  = 1, 2 o 3  (da 100, 150 o 200 puntos base)
+#    puntos      = puntos base exactos (sustituye a la dificultad)
+#    explicacion = "dato curioso que se enseña al revelar"
+#    imagen      = "img/foto.jpg"  (ruta dentro de la carpeta preguntas)
+#    id          = "texto único"   (opcional; si no, se usa el enunciado)
+# --------------------------------------------------------------------------
+
+# ---- TEST: una opción correcta ------------------------------------------
+[[pregunta]]
+tipo = "test"
+enunciado = "¿Cuál es la capital de Australia?"
+opciones = ["Sídney", "Canberra", "Melbourne", "Perth"]
+correcta = "Canberra"          # el texto de la opción, o su número: correcta = 2
+tiempo = 15
+barajar = true                 # false para mantener el orden (p. ej. Verdadero/Falso)
+explicacion = "Se eligió como término medio entre Sídney y Melbourne."
+
+# ---- SLIDER: un número, vale si está dentro de la tolerancia --------------
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó el ser humano a la Luna?"
+min = 1950
+max = 2000
+paso = 1
+unidad = ""
+respuesta = 1969
+tolerancia = 2                 # vale 1967..1971   (o tolerancia_pct = 10 → ±10 %)
+inicio = 1975                  # posición inicial del slider (opcional)
+
+# ---- RANGO (doble slider) -------------------------------------------------
+#  criterio = "solapar"   → el solape (intersección/unión) llega a solape_min %
+#             "contener"  → tu rango contiene el correcto y no es más ancho que ancho_max
+#             "coincidir" → los dos extremos a ± margen de los correctos
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Guerra Civil española?"
+min = 1900
+max = 1960
+respuesta = [1936, 1939]
+criterio = "coincidir"
+margen = 0
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "Marca el rango de temperatura del cuerpo humano sano (°C)"
+min = 30
+max = 45
+paso = 0.1
+unidad = "°C"
+respuesta = [36.1, 37.2]
+criterio = "solapar"
+solape_min = 50
+
+# ---- MAPA (necesita internet y clave de Google Maps en config.toml) --------
+#  Un punto con radio en metros...
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Torre Eiffel"
+respuesta = { lat = 48.8584, lng = 2.2945 }
+radio = 25000
+vista = { lat = 46, lng = 2, zoom = 5 }   # vista inicial (opcional)
+
+#  ...o una zona (polígono de al menos 3 puntos [lat, lng])
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Mallorca"
+zona = [[39.96, 2.80], [39.92, 3.20], [39.80, 3.50], [39.30, 3.20], [39.35, 2.40], [39.70, 2.30]]
+vista = { lat = 40, lng = 2, zoom = 6 }
