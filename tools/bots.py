@@ -2,11 +2,13 @@
 
 Uso:
     .venv\\Scripts\\python tools\\bots.py [--puerto 8765] [--bots 2] [--jugadores 3]
-        [--mecanicas ruleta,moneda,rival,eleccion] [--rondas N]
+        [--mecanicas ruleta,moneda,rival,eleccion] [--rondas N] [--continuar 2]
 
 El primer bot que entra es el anfitrión: activa solo las mecánicas indicadas y empieza la partida
 cuando hay `--jugadores` jugadores (bots + los que entren desde el navegador). Los bots giran la
 ruleta, lanzan la moneda o eligen la primera categoría ofrecida, y responden con la opción 0.
+Tras cada pregunta, el bot al que le toca elegir pulsa «Continuar» a los `--continuar` segundos
+(si le toca a una persona, el bot anfitrión lo hace al doble de tiempo).
 """
 
 from __future__ import annotations
@@ -88,6 +90,15 @@ async def bot(n: int, args: argparse.Namespace) -> None:
                 answered.add(qkey)
                 await asyncio.sleep(1 + n)
                 await ws.send(json.dumps({"t": "answer", "value": answer_for(s.get("question") or {})}))
+            nkey = f"next-{s.get('round', {}).get('question')}"
+            if phase == "board" and s.get("waitingNext") and s.get("canContinue") and nkey not in answered:
+                answered.add(nkey)
+                mine = s.get("nextChooser") == me
+                bots = {p["id"] for p in s.get("players", []) if p.get("name", "").startswith("Bot ")}
+                if mine or s.get("nextChooser") not in bots:
+                    task = asyncio.create_task(press_continue(ws, args.continuar * (1 if mine else 2)))
+                    PENDING.add(task)
+                    task.add_done_callback(PENDING.discard)
 
 
 def answer_for(q: dict) -> object:
@@ -102,6 +113,12 @@ def answer_for(q: dict) -> object:
     if kind == "mapa":
         return {"lat": 40.4, "lng": -3.7}
     return 0  # test, conoces: índice de opción mostrada
+
+
+async def press_continue(ws: websockets.ClientConnection, wait: float) -> None:
+    """Espera `wait` segundos y pulsa «Continuar»."""
+    await asyncio.sleep(wait)
+    await ws.send(json.dumps({"t": "next"}))
 
 
 async def act(ws: websockets.ClientConnection, choice: dict, wait: float = 0.0) -> None:
@@ -120,6 +137,7 @@ async def main() -> None:
     p.add_argument("--jugadores", type=int, default=2)
     p.add_argument("--mecanicas", default=",".join(ALL))
     p.add_argument("--rondas", type=int, default=0)
+    p.add_argument("--continuar", type=float, default=2.0, help="segundos antes de pulsar Continuar")
     args = p.parse_args()
     args.mecanicas = args.mecanicas.split(",")
     tasks = []

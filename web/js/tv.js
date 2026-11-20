@@ -253,6 +253,7 @@ function boardScreen() {
   let stageSig = "";
   const rank = h("div.rank");
   const panel = h("div.panel");
+  const waitNext = h("p.wait-next");
   const round = h("p.round-info");
   const center = h("div.center", { style: { left: CENTER.left + "px", top: CENTER.top + "px", width: CENTER.width + "px", height: CENTER.height + "px" } },
     h("div.center-left", round, rank), panel);
@@ -309,7 +310,7 @@ function boardScreen() {
           animatedFor = qn;
           timers.clear();
           const list = h("div.moves");
-          fill(panel, h("p.kicker", "¡A mover fichas!"), list);
+          fill(panel, h("p.kicker", "¡A mover fichas!"), list, waitNext);
           if (!s.moves.length) list.append(h("p.move-none", "Nadie avanza esta vez"));
           board.play(s.moves, () => state.players, (m) => {
             const p = playerById(m.player);
@@ -318,6 +319,10 @@ function boardScreen() {
             list.append(h("div.move", { style: { "--c": p.color } }, avatar(p, 48), h("span", nameTag(p), " ", text)));
           });
         }
+        const next = playerById(s.nextChooser);
+        fill(waitNext, s.waitingNext
+          ? [next ? h("span", "Le toca a ", nameTag(next), ": ") : null, "pulsa ", h("b", "Continuar"), " en el móvil cuando estéis listos"]
+          : null);
       }
     },
     destroy() { timers.clear(); },

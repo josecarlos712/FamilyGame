@@ -92,6 +92,7 @@ body.phone { min-height: 100dvh; font-size: 17px; }
 .cat-icon { font-size: 2rem; line-height: 1; }
 
 /* ----- question ----- */
+.wait-next { margin-top: 18px; font-weight: 800; color: var(--accent); }
 .q-cat { margin: 4px 0 0; color: var(--cc); font-weight: 900; }
 .q-prompt { margin: 0; font-size: 1.45rem; line-height: 1.2; font-weight: 900; text-wrap: balance; }
 .is-reading .q-prompt { font-size: 1.8rem; padding: 18px 0; }

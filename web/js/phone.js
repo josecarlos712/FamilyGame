@@ -385,9 +385,20 @@ function soundButton(s) {
   }, on ? "🔊" : "🔇");
 }
 
+// «Continuar»: the host, or whoever chooses next, moves the match on (it never moves on by itself)
 function hostBar(s, label = "Continuar ▸") {
-  if (!s.me?.host) return null;
-  return h("div.host-bar", h("button.btn.ghost.block", { type: "button", onclick: () => net.send({ t: "next" }) }, label));
+  if (!s.canContinue) return null;
+  const cls = s.waitingNext ? "button.btn.primary.block" : "button.btn.ghost.block";
+  return h("div.host-bar", h(cls, { type: "button", onclick: () => net.send({ t: "next" }) }, label));
+}
+
+function waitingLine(s) {
+  if (!s.waitingNext) return null;
+  if (s.canContinue) {
+    return h("p.wait-next", s.nextChooser === s.me.id ? "Te toca elegir: pulsa Continuar cuando estéis listos" : "Pulsa Continuar cuando estéis listos");
+  }
+  const next = playerById(s.nextChooser);
+  return h("p.wait-next", "⏳ Esperando a que ", next ? nameTag(next) : "el anfitrión", " pulse Continuar");
 }
 
 function hostEnd(s) {
@@ -776,7 +787,7 @@ function boardScreen() {
         h("p.big", steps ? `${s.myMoves[0].back ? "Retrocedes" : "Avanzas"} ${steps} ${steps === 1 ? "casilla" : "casillas"}` : "Esta vez no avanzas"),
         steps ? h("p", `Caes en ${spaceName}`) : null,
         texts.map((t) => h("p.res-extra", t)),
-        h("p.hint", "Mira la tele 📺")), hostBar(s), hostEnd(s));
+        h("p.hint", "Mira la tele 📺"), waitingLine(s)), hostBar(s), hostEnd(s));
     },
   };
 }

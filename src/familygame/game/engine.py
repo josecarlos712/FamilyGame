@@ -229,6 +229,7 @@ class Game:
         self.current: AskedQuestion | None = None
         self.pending_duels: list[tuple[str, str]] = []
         self.moves: list[dict[str, Any]] = []
+        self.waiting_next = False  # board done: waiting for the host or the next chooser
         self.tiebreak_players: list[str] = []
         self.tiebreak_attempt = 0
         self.winners: list[str] = []
@@ -664,7 +665,9 @@ class Game:
         if self.phase in (LOBBY, FINISHED):
             raise GameError("No hay ninguna partida en curso que guardar")
         for _ in range(4):  # let the reveal and the board movement finish
-            if self.phase in (REVEAL, BOARD):
+            if self.phase == BOARD and self.waiting_next:
+                self._after_board(now)
+            elif self.phase in (REVEAL, BOARD):
                 self.deadline = now
                 self.tick(now)
         cur = self.current
@@ -1420,6 +1423,7 @@ class Game:
         return result
 
     def _after_board(self, now: float) -> None:
+        self.waiting_next = False
         if self._check_end(end_of_round=False, now=now):
             return
         chooser = self._next_chooser()
@@ -1565,20 +1569,59 @@ class Game:
             else:
                 self._apply_board(now)
             return True
-        if self.phase == BOARD and self.deadline is not None and now >= self.deadline:
-            self._after_board(now)
+        if self.phase == BOARD and not self.waiting_next and self.deadline is not None and now >= self.deadline:
+            # the match never moves on by itself: the host or whoever chooses next continues
+            if not self._check_end(end_of_round=False, now=now):
+                self.waiting_next = True
+                self.deadline = None
+                self._touch()
             return True
         if self.phase == TIEBREAK and self.deadline is not None and now >= self.deadline:
             self._ask_tiebreak(now)
             return True
         return False
 
+    def _upcoming_chooser(self) -> str | None:
+        """Who will choose the next category (without starting a new round)."""
+        chooser = self._next_chooser()
+        if chooser is not None or not self.order:
+            return chooser
+        start = self.order.index(self.last_chooser) + 1 if self.last_chooser in self.order else 0
+        for i in range(len(self.order)):
+            pid = self.order[(start + i) % len(self.order)]
+            if self.players[pid].connected:
+                return pid
+        return None
+
+    def _can_continue(self, pid: str) -> bool:
+        """The host always; after a normal question, also whoever chooses next."""
+        if pid == self.host_id:
+            return True
+        cur = self.current
+        return (
+            self.phase in (REVEAL, BOARD) and not (cur and cur.tiebreak)
+            and pid == self._upcoming_chooser()
+        )
+
     def skip_wait(self, pid: str, now: float) -> None:
-        """Host shortens the reveal / board / tie-break intro pause."""
-        self._require_host(pid)
-        if self.phase in (REVEAL, BOARD, TIEBREAK) and not self.paused:
-            self.deadline = now
-            self.tick(now)
+        """«Continuar»: end the reveal / board / tie-break intro and move the match on.
+
+        After the board movement the match waits for this; the host or the player who
+        chooses next can send it.
+
+        Raises:
+            GameError: If ``pid`` may not continue now.
+        """
+        self._player(pid)
+        if not self._can_continue(pid):
+            raise GameError("Solo el anfitrión o quien elige ahora puede continuar")
+        if self.paused or self.phase not in (REVEAL, BOARD, TIEBREAK):
+            return
+        if self.phase == BOARD:
+            self._after_board(now)  # skips any movement left and starts the next turn
+            return
+        self.deadline = now
+        self.tick(now)
 
     def pause(self, pid: str, now: float) -> None:
         """Any player freezes the match (a phone died, someone has to leave for a minute...)."""
@@ -1738,6 +1781,8 @@ class Game:
             "tiebreakPlayers": self.tiebreak_players if in_tiebreak else [],
             "maxPlayers": self.max_players,
             "chooseTime": self.timing.choose,
+            "waitingNext": self.phase == BOARD and self.waiting_next,
+            "nextChooser": self._upcoming_chooser() if self.phase in (REVEAL, BOARD) else None,
             "saved": self.saved_summary() if self.phase in (LOBBY, FINISHED) else None,
             "paused": self.paused,
             "pausedBy": self.paused_by,
@@ -1780,6 +1825,7 @@ class Game:
         view.update(
             {
                 "me": me,
+                "canContinue": self._can_continue(pid),
                 "myAnswer": my_answer,
                 "exempt": bool(cur and pid in cur.exempt),
                 "participant": bool(cur and pid in cur.participants),

@@ -41,8 +41,8 @@ lobby ─► choosing ─► reading ─► answering ─► reveal ─► board
 | `choosing` | Se sortea una mecánica (ruleta, moneda, rival, elección; ver `docs/mecanicas-categoria.md`); quien actúa tiene `elegir_categoria` s tras la intro, o el motor actúa por él (1,5 s si está desconectado). |
 | `reading` | Pasan los segundos de `lectura` de la pregunta. |
 | `answering` | Todos los conectados respondieron (o están exentos), o se acaba `tiempo` + 0,6 s de margen de red. |
-| `reveal` | Pasan `revelar` s (el anfitrión puede saltar). |
-| `board` | Pasan `tablero` s + 1,8 s por cada texto de casilla (el anfitrión puede saltar). |
+| `reveal` | Pasan `revelar` s (el anfitrión o quien elige a continuación pueden saltarlo con «Continuar»). |
+| `board` | Se mueven las fichas (`tablero` s + 1,8 s por cada texto de casilla) y luego **se espera sin límite** a que el anfitrión o quien elige a continuación pulse «Continuar» (`waitingNext`). Si alguien ha ganado, se pasa al podio sin esperar. |
 | `tiebreak` | 4 s de presentación y empieza la pregunta de desempate. |
 
 Si no queda ningún móvil conectado, todos los relojes se congelan.

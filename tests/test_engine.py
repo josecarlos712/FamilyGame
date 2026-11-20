@@ -91,6 +91,9 @@ def play(game: Game, clock: Clock, answers: dict[str, int | None], at: float = 1
     game.tick(clock(game.timing.reveal))
     assert game.phase == E.BOARD
     game.tick(clock(30))
+    if game.phase == E.BOARD:  # the match waits for «Continuar»
+        assert game.waiting_next
+        game.skip_wait(game.host_id, clock())
 
 
 # ----- players ----------------------------------------------------------------
@@ -173,6 +176,7 @@ def test_no_repeats_then_recycle(registry: TypeRegistry, clock: Clock) -> None:
         game.tick(clock())
         game.tick(clock(10))
         game.tick(clock(30))
+        game.skip_wait(a, clock())
     assert asked[0] != asked[1]
     assert any("agotado" in entry["text"] for entry in game.log)
 
@@ -803,3 +807,49 @@ def test_every_phone_gets_the_categories_while_choosing(registry: TypeRegistry, 
         "mechanic", "chooserId", "actorId", "offered", "introUntil", "spinAt", "revealUntil",
         "result", "outcome", "stats",
     }
+
+
+# ----- pace: the match waits for «Continuar» -------------------------------------
+
+def finish_question(game: Game, clock: Clock, answers: dict[str, int]) -> None:
+    """Play a question up to the end of the board movement, without continuing."""
+    act(game, clock)
+    for pid, value in answers.items():
+        game.submit_answer(pid, value, clock() + 1)
+    game.tick(clock(1))
+    game.tick(clock(game.timing.reveal))
+    game.tick(clock(30))
+
+
+def test_after_a_question_the_match_waits_for_continue(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = new_game(registry)
+    game.start(a, clock())
+    plain(game)
+    finish_question(game, clock, {a: 0, b: 1})
+    assert game.phase == E.BOARD and game.waiting_next and game.deadline is None
+    game.tick(clock(600))  # no matter how long
+    assert game.phase == E.BOARD
+    view = game.phone_view(b)
+    assert view["waitingNext"] and view["nextChooser"] == b and view["canContinue"]
+
+
+def test_only_host_or_next_chooser_can_continue(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = new_game(registry, players=3)
+    game.start(a, clock())
+    plain(game)
+    finish_question(game, clock, {a: 0, b: 1, c: 1})
+    assert game.phone_view(b)["canContinue"] and not game.phone_view(c)["canContinue"]
+    with pytest.raises(E.GameError):
+        game.skip_wait(c, clock())
+    assert game.phase == E.BOARD
+    game.skip_wait(b, clock())  # b chooses next
+    assert game.phase == E.CHOOSING and game.chooser_id == b and not game.waiting_next
+
+
+def test_winning_answer_ends_without_waiting(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = new_game(registry)
+    game.set_settings(a, {"mode": "points", "targetPoints": 100})
+    game.start(a, clock())
+    plain(game)
+    finish_question(game, clock, {a: 0, b: 1})
+    assert game.phase == E.FINISHED and game.winners == [a]
