@@ -537,6 +537,7 @@ function questionScreen() {
   const status = h("div.q-status");
   const result = h("div.q-result");
   const prompt = h("h1.q-prompt", q.prompt);
+  const flash = q.flash ? h("p.q-flash", "⚡ ¡Pregunta relámpago!") : null;
   const hint = h("p.q-about"); // questions about a player: whose answer counts
   const timebar = h("div.timebar", { dataset: { timebar: "" } }, h("i"));
   const qnum = h("span.q-num", { dataset: { timenum: "" } });
@@ -545,7 +546,7 @@ function questionScreen() {
   const el = h("div.screen.question", { style: { "--cc": q.category.color } },
     head,
     h("p.q-cat", q.category.icon, " ", q.category.name, q.tiebreak ? " · Desempate" : ""),
-    prompt, hint, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, timebar, result, canvas, status, endSlot);
+    flash, prompt, hint, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, timebar, result, canvas, status, endSlot);
   let mod = null;
   let loading = false;
   let locked = false;
@@ -609,7 +610,7 @@ function questionScreen() {
     if (s.phase === "reading") {
       setTimer(() => [s.question.openAt - s.question.read, s.question.openAt]);
       if (subject) fill(hint, isSubject ? "🎯 Pregunta sobre ti" : h("span", "🎯 Pregunta sobre ", nameTag(subject)));
-      fill(status, h("p.hint.center", "¡Atento! Ya casi…"));
+      fill(status, h("p.hint.center", s.question.flash ? `⚡ Prepárate: solo ${s.question.time} s para responder` : "¡Atento! Ya casi…"));
       return;
     }
     if (s.phase === "answering") setTimer(() => [s.question.openAt, s.question.deadline]);

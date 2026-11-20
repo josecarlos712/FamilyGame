@@ -335,10 +335,11 @@ function questionScreen() {
   const side = h("aside.q-side");
   const explain = h("p.q-explain");
   const prompt = h("h1.q-prompt", q.prompt);
-  const meta = h("span.q-meta", q.tiebreak ? "⚡ Desempate" : `Pregunta ${q.number}` + (s0.round.rounds ? ` · Ronda ${s0.round.round}/${s0.round.rounds}` : ""));
+  const flash = q.flash ? h("p.q-flash", "⚡ ¡Pregunta relámpago! ", h("small", `Solo ${q.time} s para responder`)) : null;
+  const meta = h("span.q-meta", q.tiebreak ? "⚡ Desempate" : `Pregunta ${q.number}` + (q.flash ? " · ⚡ Relámpago" : "") + (s0.round.rounds ? ` · Ronda ${s0.round.round}/${s0.round.rounds}` : ""));
   const pts = h("span.q-points", q.tiebreak ? "" : `${q.points} pts`);
   const about = h("p.q-about"); // questions about a player: who they are about and what is going on
-  const main = h("main.q-main", prompt, about, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, canvas, explain);
+  const main = h("main.q-main", flash, prompt, about, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, canvas, explain);
   const el = h("div.qscreen", { style: { "--cc": cat.color } },
     h("header.q-head", h("span.cat-chip.big", { style: { "--cc": cat.color } }, cat.icon, " ", cat.name), meta, pts, num),
     bar, main, side);

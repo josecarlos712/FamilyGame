@@ -36,7 +36,10 @@ Cada pregunta empieza con `[[pregunta]]` (doble corchete).
 | `imagen` | no | ruta dentro de `preguntas/`, p. ej. `"img/torre.jpg"` | — |
 | `id` | no | identificador único; si cambias el enunciado y quieres que cuente como la misma pregunta | el propio enunciado |
 
-Las preguntas **relámpago** se hacen con poco `tiempo` y poca `lectura`:
+Las preguntas **relámpago** son las que tienen un `tiempo` de 5 segundos o menos. El juego las avisa
+(«⚡ ¡Pregunta relámpago!» en la tele y en los móviles) y nunca deja menos lectura de la que corresponde
+por la longitud del enunciado, más 1,5 s para el aviso: así da tiempo a leerla antes de que salgan las
+respuestas. Una `lectura` más larga sí se respeta.
 
 ```toml
 [[pregunta]]

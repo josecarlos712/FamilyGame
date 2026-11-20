@@ -95,6 +95,8 @@ body.phone { min-height: 100dvh; font-size: 17px; }
 .q-cat { margin: 4px 0 0; color: var(--cc); font-weight: 900; }
 .q-prompt { margin: 0; font-size: 1.45rem; line-height: 1.2; font-weight: 900; text-wrap: balance; }
 .is-reading .q-prompt { font-size: 1.8rem; padding: 18px 0; }
+.q-flash { margin: 8px 0 0; align-self: flex-start; padding: 6px 16px; border-radius: 999px; background: var(--accent); color: #1a1a1a; font-weight: 900; animation: pop 0.4s var(--ease) both, pulse 0.9s 0.4s ease-in-out 2; }
+.question:not(.is-reading) .q-flash { display: none; }
 .q-about { margin: 6px 0 0; font-size: 1.05rem; font-weight: 800; color: var(--muted); }
 .q-about:empty { display: none; }
 .q-image { max-height: 32vh; border-radius: 14px; object-fit: contain; }

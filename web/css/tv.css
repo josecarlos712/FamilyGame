@@ -152,6 +152,9 @@ body.tv { overflow: hidden; background: radial-gradient(1200px 700px at 50% 40%,
 .q-about:empty { display: none; }
 .is-reading .q-about { justify-content: center; font-size: 52px; }
 .is-reading .q-canvas, .is-reading .q-explain { display: none; }
+.q-flash { margin: 0; align-self: center; padding: 14px 34px; border-radius: 999px; background: var(--accent); color: #1a1a1a; font-size: 48px; font-weight: 900; animation: pop 0.4s var(--ease) both, pulse 0.9s 0.4s ease-in-out 2; }
+.q-flash small { font-size: 32px; font-weight: 800; opacity: 0.8; }
+.qscreen:not(.is-reading) .q-flash { display: none; }
 .q-side { display: flex; flex-direction: column; gap: 12px; padding: 24px; border-radius: 26px; background: var(--bg-2); }
 .side-title { margin: 0 0 4px; color: var(--muted); font-size: 22px; text-transform: uppercase; letter-spacing: 0.08em; }
 .side-row { display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; padding: 8px 14px 8px 8px; border-radius: 18px; background: var(--surface); transition: background 0.3s; }

@@ -179,6 +179,10 @@ class QuestionType(ABC):
 
     MIN_TIME: ClassVar[int] = 2
     MAX_TIME: ClassVar[int] = 300
+    FLASH_MAX_TIME: ClassVar[int] = 5
+    """Questions with at most this many seconds to answer are «relámpago»."""
+    FLASH_WARNING: ClassVar[float] = 1.5
+    """Extra reading seconds for the «¡Pregunta relámpago!» warning."""
 
     def __init__(self, raw: Mapping[str, Any], key: str = "") -> None:
         """Validate the raw table from the file.
@@ -199,6 +203,11 @@ class QuestionType(ABC):
         )
         default_read = round(min(6.0, max(2.0, 1.5 + len(self.prompt) / 25)), 1)
         self.read_time = fields.number("lectura", default_read, 0, 30)
+        self.flash = self.time_limit <= self.FLASH_MAX_TIME
+        if self.flash:
+            # Little time to answer: the prompt must be read in full before the
+            # options appear, and players get warned that it will be quick.
+            self.read_time = round(max(self.read_time, default_read) + self.FLASH_WARNING, 1)
         self.difficulty = fields.integer("dificultad", 1, 1, 3)
         self.base_points = fields.integer(
             "puntos", DIFFICULTY_POINTS[self.difficulty], 0, 10000
@@ -276,6 +285,7 @@ class QuestionType(ABC):
             "prompt": self.prompt,
             "time": self.time_limit,
             "read": self.read_time,
+            "flash": self.flash,
             "difficulty": self.difficulty,
             "points": self.base_points,
             "image": f"/media/{self.image}" if self.image else "",

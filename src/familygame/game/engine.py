@@ -1648,7 +1648,7 @@ class Game:
             return None
         info = cur.question.to_public(cur.state)
         if self.phase == READING:
-            info = {k: info[k] for k in ("key", "type", "prompt", "time", "read", "image", "points")}
+            info = {k: info[k] for k in ("key", "type", "prompt", "time", "read", "flash", "image", "points")}
         info.update(
             {
                 "number": cur.number,

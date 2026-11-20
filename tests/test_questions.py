@@ -27,6 +27,18 @@ def test_registry_loads_builtin_types_and_skips_template(registry: TypeRegistry)
     assert registry.get("plantilla") is None
 
 
+
+def test_flash_question_gets_warning_and_full_reading_time(registry: TypeRegistry) -> None:
+    raw = {"enunciado": "¿Cuántas patas tiene una araña?", "opciones": ["6", "8"], "correcta": "8"}
+    flash = make(registry, **raw, tiempo=3, lectura=1.5)
+    normal = make(registry, **raw, tiempo=15, lectura=1.5)
+    assert flash.flash and not normal.flash
+    assert normal.read_time == 1.5
+    # the short «lectura» is raised to the length-based default, plus the warning
+    assert flash.read_time == round(1.5 + len(raw["enunciado"]) / 25 + flash.FLASH_WARNING, 1)
+    assert flash.to_public(flash.prepare(Random(1)))["flash"] is True
+
+
 def test_broken_plugin_is_reported_not_fatal(tmp_path: Path) -> None:
     from familygame.questions.registry import load_question_types
 
