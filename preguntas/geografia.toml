@@ -2940,3 +2940,130 @@ opciones = ["Estados Unidos", "Rusia", "Dinamarca", "Reino Unido"]
 correcta = "Estados Unidos"
 dificultad = 2
 tiempo = 14
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde le gustaría pasar las vacaciones de verano?"
+opciones = ["Playa", "Montaña", "Ciudad", "Pueblo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué destino español elegiría?"
+opciones = ["Benidorm", "Sevilla", "Barcelona", "Islas Canarias"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué clima prefiere?"
+opciones = ["Calor seco", "Frío con nieve", "Templado", "Lluvioso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué viaje prefiere?"
+opciones = ["Crucero", "Ruta en coche", "Camping", "Hotel todo incluido"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué ciudad europea le gustaría ir?"
+opciones = ["París", "Roma", "Londres", "Lisboa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué paisaje prefiere?"
+opciones = ["Bosque", "Desierto", "Costa", "Alta montaña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde le gustaría vivir?"
+opciones = ["Frente al mar", "En el campo", "En el centro de una ciudad", "En la montaña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué continente elegiría explorar?"
+opciones = ["Asia", "América", "África", "Oceanía"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál elegiría como isla de vacaciones?"
+opciones = ["Mallorca", "Tenerife", "Ibiza", "Menorca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué estación del año prefiere?"
+opciones = ["Primavera", "Verano", "Otoño", "Invierno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere viajar?"
+opciones = ["En avión", "En tren", "En coche", "En autocaravana"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué alojamiento elegiría?"
+opciones = ["Hotel", "Apartamento", "Casa rural", "Tienda de campaña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría antes en la playa?"
+opciones = ["Bañarse", "Tumbarse al sol", "Jugar a las palas", "Pasear por la orilla"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde le gustaría ir de escapada de fin de semana?"
+opciones = ["Un pueblo con encanto", "Una gran ciudad", "La costa", "La sierra"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué país le gustaría visitar?"
+opciones = ["Japón", "Estados Unidos", "Italia", "México"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere hacer de vacaciones?"
+opciones = ["Descansar sin más", "Hacer turismo", "Hacer deporte", "Comer bien"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad española elegiría para vivir?"
+opciones = ["Madrid", "Valencia", "Málaga", "San Sebastián"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál elegiría como lugar para una luna de miel?"
+opciones = ["Maldivas", "Nueva York", "Venecia", "Tailandia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué entorno prefiere para desconectar?"
+opciones = ["Un lago", "Un bosque", "Una cala", "Una cabaña nevada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué temperatura del mar prefiere para bañarse?"
+opciones = ["Muy fría", "Fresquita", "Templada", "Como una sopa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo prefiere ir de vacaciones?"
+opciones = ["Julio", "Agosto", "Septiembre", "Semana Santa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ver de cerca?"
+opciones = ["Auroras boreales", "Cataratas del Niágara", "Gran Cañón", "Volcán en erupción"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ruta de senderismo elegiría?"
+opciones = ["Camino de Santiago", "Picos de Europa", "Teide", "Ordesa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde le gustaría pasar la Nochevieja?"
+opciones = ["En casa", "En la Puerta del Sol", "En otro país", "En la playa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría antes en una ciudad nueva?"
+opciones = ["Visitar museos", "Probar la comida local", "Callejear sin rumbo", "Ir de compras"]

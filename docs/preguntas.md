@@ -106,6 +106,25 @@ zona = [[39.96, 2.80], [39.92, 3.20], [39.30, 3.20], [39.35, 2.40]]
 Coordenadas: en Google Maps, clic derecho sobre un sitio → el primer elemento del menú copia
 `lat, lng`.
 
+## Tipo `conoces` («¿Lo conoces?»)
+
+Una pregunta sobre el jugador que eligió la categoría (el *conocido*). No hay respuesta correcta en
+el archivo: primero el conocido elige en secreto lo que de verdad prefiere, y después los demás
+intentan adivinarlo. Escribe el enunciado en tercera persona y sin nombres (la tele ya muestra sobre
+quién es) y con opciones que dividan a la familia.
+
+```toml
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué plato prefiere?"
+opciones = ["Paella", "Tortilla de patatas", "Cocido", "Pizza"]   # de 2 a 6
+barajar = true          # opcional (por defecto true)
+```
+
+Puntos: cada amigo que acierta gana 100; el conocido gana 100 por cada amigo que acierta y pierde 50
+por cada uno que falla (no baja de 0). Si no elige a tiempo, la pregunta se anula y pierde 50. Solo
+salen con dos o más jugadores y nunca en los desempates.
+
 ## Qué pasa si me equivoco
 
 No se cae nada. Al arrancar (o al pulsar «Recargar preguntas» en el lobby):

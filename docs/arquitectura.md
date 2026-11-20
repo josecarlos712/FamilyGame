@@ -58,6 +58,7 @@ Si no queda ningún móvil conectado, todos los relojes se congelan.
 | Pasar por la salida | +50 |
 | Duelo | el ganador roba 50 (gana quien acierta; si ambos, el más rápido; si ninguno, nadie) |
 | Avance | 2 casillas por acierto, +1 al más rápido (empates incluidos) |
+| «¿Lo conoces?» | amigo que acierta +100; conocido +100 por acierto ajeno y −50 por fallo (mín. 0); −50 si no elige |
 
 Constantes en la cabecera de `engine.py`.
 

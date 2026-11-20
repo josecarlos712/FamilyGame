@@ -2288,3 +2288,105 @@ opciones = ["Mar de Galilea", "Mar Muerto", "Mar Rojo", "Mar Mediterráneo"]
 correcta = "Mar de Galilea"
 dificultad = 3
 tiempo = 13
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué estilo de música prefiere?"
+opciones = ["Pop", "Rock", "Reguetón", "Flamenco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué instrumento le gustaría tocar?"
+opciones = ["Guitarra", "Piano", "Batería", "Violín"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué artista española escucharía?"
+opciones = ["Rosalía", "Aitana", "Alejandro Sanz", "Estopa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué género literario prefiere?"
+opciones = ["Novela negra", "Fantasía", "Histórica", "Cómic"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pintor elegiría?"
+opciones = ["Picasso", "Dalí", "Velázquez", "Goya"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué museo visitaría?"
+opciones = ["El Prado", "El Louvre", "Museo Reina Sofía", "Guggenheim"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere escuchar música?"
+opciones = ["Radio", "Spotify", "Vinilos", "Conciertos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con la música?"
+opciones = ["Cantar en la ducha", "Bailar", "Tocar un instrumento", "Escucharla sin más"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué formato de lectura prefiere?"
+opciones = ["Libro en papel", "Libro electrónico", "Audiolibro", "No lee"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría más ser?"
+opciones = ["Pintor", "Escritor", "Músico", "Actor"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué música elegiría para cocinar?"
+opciones = ["Pop español", "Clásica", "Rock", "Latina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué escultura famosa le gustaría ver?"
+opciones = ["El David", "El Pensador", "La Venus de Milo", "Las Meninas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué tipo de concierto iría?"
+opciones = ["Festival", "Estadio", "Sala pequeña", "Ópera"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué década musical prefiere?"
+opciones = ["Años 80", "Años 90", "Años 2000", "Actualidad"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué autor español leería?"
+opciones = ["Cervantes", "García Lorca", "Pérez-Reverte", "Ruiz Zafón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué baile prefiere?"
+opciones = ["Salsa", "Sevillanas", "Pasodoble", "Discoteca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué actividad creativa elegiría?"
+opciones = ["Dibujar", "Escribir", "Fotografiar", "Hacer cerámica"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría cantar en un karaoke?"
+opciones = ["Una balada", "Un clásico español", "Un rock", "Un hit actual"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en un museo?"
+opciones = ["Pintura clásica", "Arte moderno", "Historia natural", "Ciencia interactiva"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué instrumento le parece más bonito?"
+opciones = ["Guitarra española", "Piano", "Saxofón", "Violonchelo"]

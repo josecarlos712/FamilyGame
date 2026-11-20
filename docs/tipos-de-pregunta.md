@@ -46,7 +46,29 @@ class MiPregunta(QuestionType):
     default_time = 20             # si la pregunta no pone «tiempo»
     requires_internet = False     # True: no se ofrece sin conexión
     tiebreak_priority = 0         # >0: preferido para desempates «gana el más cercano»
+    about_chooser = False         # True: pregunta sobre quien eligió la categoría (ver abajo)
 ```
+
+### Preguntas sobre un jugador (`about_chooser = True`)
+
+Para tipos como «¿Lo conoces?» (`question_types/conoces`), donde no hay respuesta correcta en el
+archivo: la respuesta buena es la que elige el jugador que sacó la pregunta (el *conocido*).
+
+1. Tras la lectura, solo el conocido puede responder (`question.stage == "subject"`); a los demás el
+   motor les contesta «Espera: primero elige…» y sus móviles no montan el módulo todavía.
+2. Su respuesta se pasa a `set_reference(respuesta, state)` (por defecto la guarda en
+   `state["reference"]`), y el reloj vuelve a empezar para los amigos (`stage == "guess"`).
+3. `evaluate` y `solution_data` comparan con `state["reference"]`. Si el conocido no llegó a
+   elegir, no existe: `solution_data` debe aguantarlo (la pregunta queda anulada).
+
+Puntuación (constantes en `engine.py`): amigo que acierta +100 (sin bonus de rapidez); conocido
++100 por amigo que acierta y −50 por amigo que falla (nunca baja de 0; quien no responde no cuenta).
+El conocido cuenta como acierto (casillas, progreso, ×2) si acierta al menos la mitad. Si se le acaba
+el tiempo, la pregunta se anula y pierde 50; si se va o no puede verla, se anula sin castigo.
+Estas preguntas nunca salen en desempates ni si no hay al menos dos jugadores conectados.
+
+La tele y el móvil ya muestran «Pregunta sobre X», la espera y el resultado del conocido; `q.subject`
+y `q.stage` llegan en la pregunta, y `reveal.subject` y `reveal.void` en la revelación.
 
 | Método | Obligatorio | Qué hace |
 |---|---|---|

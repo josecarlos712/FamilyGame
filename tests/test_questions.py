@@ -21,7 +21,7 @@ def make(registry: TypeRegistry, **raw):
 # ----- registry ---------------------------------------------------------------
 
 def test_registry_loads_builtin_types_and_skips_template(registry: TypeRegistry) -> None:
-    assert set(registry.types) == {"test", "slider", "rango", "mapa"}
+    assert set(registry.types) == {"test", "slider", "rango", "mapa", "conoces"}
     assert registry.get("Doble Slider").type_id == "rango"
     assert registry.get("TIPO TEST").type_id == "test"
     assert registry.get("plantilla") is None

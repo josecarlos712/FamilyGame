@@ -3142,3 +3142,80 @@ opciones = ["Sudoríparas", "Salivarias", "Lacrimales", "Feromonales"]
 correcta = "Sudoríparas"
 dificultad = 2
 tiempo = 14
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal prefiere como mascota?"
+opciones = ["Perro", "Gato", "Pájaro", "Pez"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal salvaje le gustaría ver?"
+opciones = ["León", "Elefante", "Ballena", "Oso panda"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué invento no podría perder?"
+opciones = ["El móvil", "El coche", "La lavadora", "Internet"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué planeta le gustaría visitar?"
+opciones = ["Marte", "Saturno", "Venus", "Júpiter"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fenómeno natural le gustaría presenciar?"
+opciones = ["Eclipse total", "Aurora boreal", "Lluvia de estrellas", "Arcoíris doble"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal elegiría ser?"
+opciones = ["Águila", "Delfín", "Gato", "Lobo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tecnología le entusiasma más?"
+opciones = ["Inteligencia artificial", "Coches eléctricos", "Realidad virtual", "Robots domésticos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de la naturaleza?"
+opciones = ["El mar", "El bosque", "La montaña", "El río"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué dispositivo prefiere?"
+opciones = ["Móvil", "Portátil", "Tableta", "Consola"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal le da más ternura?"
+opciones = ["Cachorro de perro", "Gatito", "Conejo", "Pingüino"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciencia le gustaría estudiar?"
+opciones = ["Astronomía", "Biología", "Física", "Química"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría inventar?"
+opciones = ["Teletransporte", "Máquina del tiempo", "Casa que se limpia sola", "Traductor de animales"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal le da más respeto?"
+opciones = ["Serpiente", "Tiburón", "Araña", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en un viaje espacial?"
+opciones = ["Pasear por la Luna", "Ver la Tierra desde arriba", "Visitar Marte", "No iría"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué flor o planta prefiere?"
+opciones = ["Rosa", "Girasol", "Cactus", "Orquídea"]

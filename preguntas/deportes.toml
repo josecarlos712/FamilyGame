@@ -2197,3 +2197,105 @@ opciones = ["Saltando desde un helicóptero", "En una lancha por el Támesis", "
 correcta = "Saltando desde un helicóptero"
 dificultad = 3
 tiempo = 16
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte prefiere ver?"
+opciones = ["Fútbol", "Baloncesto", "Tenis", "Motor"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte prefiere practicar?"
+opciones = ["Pádel", "Natación", "Running", "Ciclismo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere hacer?"
+opciones = ["Ver deporte", "Practicar deporte", "Las dos cosas", "Ninguna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde prefiere hacer ejercicio?"
+opciones = ["En el gimnasio", "Al aire libre", "En casa", "En una piscina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte de equipo elegiría?"
+opciones = ["Fútbol", "Baloncesto", "Balonmano", "Voleibol"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte de invierno le gustaría probar?"
+opciones = ["Esquí", "Snowboard", "Patinaje sobre hielo", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo prefiere hacer ejercicio?"
+opciones = ["Por la mañana", "A mediodía", "Por la tarde", "Por la noche"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte de raqueta prefiere?"
+opciones = ["Tenis", "Pádel", "Bádminton", "Pimpón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría antes en una tarde libre?"
+opciones = ["Salir a correr", "Ir en bici", "Jugar un partido", "Dar un paseo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué evento deportivo elegiría ver en directo?"
+opciones = ["Un clásico de fútbol", "Un Gran Premio de F1", "Final de Roland Garros", "Final de la NBA"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte acuático prefiere?"
+opciones = ["Natación", "Surf", "Kayak", "Waterpolo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con quién prefiere hacer deporte?"
+opciones = ["Solo", "Con amigos", "En familia", "En un equipo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría dominar?"
+opciones = ["Un tiro de tres puntos", "Un saque de tenis", "Un gol de chilena", "Una ola de surf"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere después de un partido?"
+opciones = ["Cerveza", "Tapeo", "Ducha y sofá", "Helado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte olímpico elegiría?"
+opciones = ["Atletismo", "Gimnasia", "Natación", "Judo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué actividad suave prefiere?"
+opciones = ["Yoga", "Caminar", "Pilates", "Estiramientos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que le gustaría más ganar?"
+opciones = ["Un Mundial", "Un Roland Garros", "Una medalla olímpica", "Un Tour de Francia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere seguir el fútbol?"
+opciones = ["En el estadio", "En la tele", "En un bar", "Solo los resúmenes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué reto deportivo elegiría?"
+opciones = ["Una maratón", "Subir una montaña", "Cruzar a nado un lago", "Un triatlón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte tradicional prefiere?"
+opciones = ["Pelota vasca", "Petanca", "Bolos", "Tiro con cuerda"]

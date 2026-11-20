@@ -166,6 +166,14 @@ class QuestionType(ABC):
     requires_internet: ClassVar[bool] = False
     tiebreak_priority: ClassVar[int] = 0
     """Higher = preferred for sudden-death tie-breaks (closest-wins types)."""
+    about_chooser: ClassVar[bool] = False
+    """True: the question is about whoever chose the category (the «subject»).
+
+    The subject answers first with their own preference; then the others try to
+    guess it. The engine hands the subject's answer to :meth:`set_reference`, so
+    :meth:`evaluate` and :meth:`solution_data` can compare against it. These
+    questions are never asked without a subject (tie-breaks, a single player).
+    """
     assets_dir: ClassVar[Path | None] = None
     """Set by the registry: folder holding tv.js / phone.js / style.css."""
 
@@ -242,6 +250,15 @@ class QuestionType(ABC):
     def answer_for_display(self, answer: Any, state: dict[str, Any]) -> Any:
         """How a player's answer is shown on the TV at reveal time."""
         return answer
+
+    def set_reference(self, answer: Any, state: dict[str, Any]) -> None:
+        """Store the subject's normalized answer (only for ``about_chooser`` types).
+
+        Args:
+            answer: The subject's answer, already normalized.
+            state: The per-ask state; ``state["reference"]`` holds it afterwards.
+        """
+        state["reference"] = answer
 
     def is_available(self, env: Environment) -> tuple[bool, str]:
         """Whether this question can be asked right now, and why not."""

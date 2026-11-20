@@ -2664,3 +2664,80 @@ opciones = ["Flying Scotsman", "Sir Nigel Gresley", "Blue Peter", "Caerphilly Ca
 correcta = "Flying Scotsman"
 dificultad = 2
 tiempo = 14
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿En qué época le gustaría vivir?"
+opciones = ["Antigua Roma", "Edad Media", "Siglo de Oro", "Años 80"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué personaje histórico cenaría?"
+opciones = ["Cleopatra", "Leonardo da Vinci", "Isabel la Católica", "Napoleón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué civilización le fascina más?"
+opciones = ["Egipcia", "Romana", "Maya", "Griega"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué monumento histórico le gustaría visitar?"
+opciones = ["Pirámides de Giza", "Coliseo", "Alhambra", "Machu Picchu"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ser en la Edad Media?"
+opciones = ["Caballero", "Rey", "Juglar", "Campesino"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué época viajaría un día?"
+opciones = ["Prehistoria", "Antiguo Egipto", "Siglo XIX", "El futuro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué descubridor admira más?"
+opciones = ["Colón", "Magallanes", "Marco Polo", "Amundsen"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué momento histórico le gustaría presenciar?"
+opciones = ["La llegada a la Luna", "La caída del Muro de Berlín", "La construcción de las pirámides", "El Renacimiento"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué científico conocería?"
+opciones = ["Einstein", "Marie Curie", "Newton", "Darwin"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué personaje español charlaría?"
+opciones = ["Cervantes", "Goya", "Picasso", "El Cid"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué disfraz histórico elegiría?"
+opciones = ["Gladiador", "Vikingo", "Faraón", "Pirata"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría más en el pasado?"
+opciones = ["Sin tecnología", "Aventuras", "Banquetes", "Castillos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué asignatura de historia le gustaba más?"
+opciones = ["Prehistoria", "Roma", "Edad Media", "Historia contemporánea"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con una máquina del tiempo?"
+opciones = ["Ver dinosaurios", "Conocer a sus abuelos jóvenes", "Ver el futuro", "Evitar una guerra"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué legado cultural prefiere?"
+opciones = ["Acueductos romanos", "Catedrales góticas", "Castillos medievales", "Arte rupestre"]

@@ -636,3 +636,230 @@ opciones = ["Saab", "Volvo", "Koenigsegg", "Scania"]
 correcta = "Saab"
 dificultad = 2
 tiempo = 14
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué plato prefiere?"
+opciones = ["Paella", "Tortilla de patatas", "Cocido madrileño", "Pizza"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué desayuno prefiere?"
+opciones = ["Tostada con tomate", "Cola Cao con galletas", "Churros con chocolate", "Cafe solo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál elegiría como postre?"
+opciones = ["Flan", "Helado", "Arroz con leche", "Tarta de queso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tortilla de patatas prefiere?"
+opciones = ["Con cebolla", "Sin cebolla", "Poco hecha", "Muy hecha"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué bebida prefiere para acompañar la comida?"
+opciones = ["Agua", "Refresco", "Cerveza", "Vino"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tapa elegiría?"
+opciones = ["Croquetas", "Patatas bravas", "Calamares", "Jamón ibérico"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fruta prefiere?"
+opciones = ["Fresa", "Sandía", "Naranja", "Plátano"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué sabor de helado elegiría?"
+opciones = ["Chocolate", "Vainilla", "Fresa", "Limón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para cenar?"
+opciones = ["Bocadillo", "Ensalada", "Sopa", "Tortilla francesa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué legumbre prefiere?"
+opciones = ["Lentejas", "Garbanzos", "Alubias", "Ninguna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pizza elegiría?"
+opciones = ["Margarita", "Cuatro quesos", "Barbacoa", "Con piña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué dulce navideño prefiere?"
+opciones = ["Turrón", "Polvorones", "Mazapán", "Roscón de Reyes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué marisco prefiere?"
+opciones = ["Gambas", "Mejillones", "Pulpo", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué bocadillo elegiría?"
+opciones = ["Jamón", "Tortilla", "Calamares", "Lomo con queso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué comida rápida prefiere?"
+opciones = ["Hamburguesa", "Kebab", "Pizza", "Perrito caliente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué carne prefiere?"
+opciones = ["Pollo", "Ternera", "Cerdo", "Cordero"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué snack elegiría para el sofá?"
+opciones = ["Palomitas", "Patatas fritas", "Frutos secos", "Gominolas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué bebida caliente prefiere?"
+opciones = ["Café", "Té", "Colacao", "Infusión"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué verdura le gusta más?"
+opciones = ["Pimiento", "Tomate", "Brócoli", "Judías verdes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere los huevos?"
+opciones = ["Fritos", "Revueltos", "Cocidos", "En tortilla"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál elegiría como plato de cuchara?"
+opciones = ["Fabada", "Sopa de pescado", "Gazpacho", "Lentejas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría un domingo por la tarde?"
+opciones = ["Siesta", "Paseo", "Peli en el sofá", "Quedar con amigos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué plan nocturno prefiere?"
+opciones = ["Cena en casa", "Salir de tapas", "Cine", "Quedarse en el sofá"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de fiesta prefiere?"
+opciones = ["Cumpleaños familiar", "Verbena", "Fiesta en casa", "Cena con amigos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fiesta española disfruta más?"
+opciones = ["Semana Santa", "Navidad", "Fallas", "Feria de abril"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo prefiere hacer la compra?"
+opciones = ["Entre semana", "Sábado por la mañana", "Online", "A última hora"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tarea de casa prefiere?"
+opciones = ["Cocinar", "Barrer", "Planchar", "Poner la lavadora"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere pasar una tarde de lluvia?"
+opciones = ["Leyendo", "Jugando a juegos de mesa", "Viendo series", "Durmiendo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hobby elegiría?"
+opciones = ["Cocinar", "Jardinería", "Manualidades", "Videojuegos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué regalo preferiría recibir?"
+opciones = ["Una experiencia", "Ropa", "Un libro", "Tecnología"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría antes un sábado por la noche?"
+opciones = ["Salir de cañas", "Cenar en casa", "Ir al cine", "Dormir pronto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para merendar?"
+opciones = ["Bocadillo de chocolate", "Fruta", "Galletas", "Yogur"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere como transporte diario?"
+opciones = ["Coche", "Transporte público", "Bici", "Andando"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere del campo o la ciudad?"
+opciones = ["Tranquilidad del campo", "Ruido de la ciudad", "Un pueblo costero", "Un barrio con vida"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere celebrar su cumpleaños?"
+opciones = ["Gran fiesta", "Comida familiar", "Escapada", "Como un día normal"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué queso prefiere?"
+opciones = ["Manchego", "Cabrales", "Brie", "Queso fresco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué embutido elegiría?"
+opciones = ["Jamón serrano", "Chorizo", "Salchichón", "Lomo embuchado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué refresco prefiere?"
+opciones = ["Cola", "Naranja", "Limón", "Tónica"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere el café?"
+opciones = ["Solo", "Con leche", "Cortado", "Con hielo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría antes en la sobremesa?"
+opciones = ["Echarse una siesta", "Jugar a las cartas", "Tomar café", "Recoger la mesa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué juego de mesa elegiría?"
+opciones = ["Parchís", "Monopoly", "Cartas", "Dominó"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ropa prefiere para estar en casa?"
+opciones = ["Pijama", "Chándal", "Ropa normal", "Bata"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para celebrar el Año Nuevo?"
+opciones = ["Uvas en casa", "Fiesta con amigos", "Cena familiar", "Dormirse antes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué plan prefiere con el buen tiempo?"
+opciones = ["Terraza con amigos", "Barbacoa", "Picnic", "Paseo en bici"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pasta elegiría?"
+opciones = ["Macarrones", "Espaguetis", "Lasaña", "Raviolis"]

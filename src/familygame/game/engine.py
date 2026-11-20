@@ -15,7 +15,7 @@ from __future__ import annotations
 import secrets
 from dataclasses import dataclass, field
 from random import Random
-from typing import Any, Iterable
+from typing import Any, Callable, Iterable
 
 from familygame.categories import Category, CategoryLibrary
 from familygame.config import TimingConfig
@@ -38,6 +38,11 @@ CLOSE_BONUS = 100      # points for closing a category
 START_BONUS = 50       # points for passing the start
 DUEL_STEAL = 50
 EVENT_PLUS, EVENT_MINUS, EVENT_STEAL = 60, 40, 40
+# questions about a player (QuestionType.about_chooser): the subject answers, the rest guess
+GUESS_POINTS = 100     # a friend who guesses the subject's answer
+SUBJECT_HIT = 100      # the subject, for each friend who guessed right
+SUBJECT_MISS = 50      # the subject loses this for each friend who guessed wrong
+SUBJECT_TIMEOUT = 50   # the subject did not answer in time: the question is void
 MAX_TIEBREAKS = 3
 ANSWER_GRACE = 0.6     # seconds of network latency accepted after the deadline
 AFK_GRACE = 4.0        # seconds a phone may be away before the match pauses by itself
@@ -156,6 +161,9 @@ class AskedQuestion:
     star_players: set[str] = field(default_factory=set)
     duels: list[tuple[str, str]] = field(default_factory=list)
     results: dict[str, Result] = field(default_factory=dict)
+    subject_id: str | None = None  # question about this player (about_chooser types)
+    stage: str = ""  # about_chooser: "subject" (they pick) then "guess" (the others)
+    void: str = ""  # why the question was cancelled ("" = it was not)
 
 
 class Game:
@@ -802,9 +810,18 @@ class Game:
                 return pid
         return None
 
-    def _offer_categories(self) -> list[str]:
-        enabled = self.enabled_categories()
-        available = [c for c in enabled if any(q.key not in self.used for q in c.questions)]
+    def _allowed(self, chooser: str | None) -> Callable[[QuestionType], bool]:
+        """Filter of askable questions: those about a player need one who chose, and someone to guess."""
+        can_be_subject = bool(
+            chooser and chooser in self.players and self.players[chooser].connected
+            and len(self._connected()) >= 2
+        )
+        return lambda q: can_be_subject or not q.about_chooser
+
+    def _offer_categories(self, chooser: str | None) -> list[str]:
+        allowed = self._allowed(chooser)
+        enabled = [c for c in self.enabled_categories() if any(allowed(q) for q in c.questions)]
+        available = [c for c in enabled if any(q.key not in self.used and allowed(q) for q in c.questions)]
         if not available and enabled:
             self.used.clear()
             self._say("Se han agotado las preguntas: a partir de ahora se pueden repetir", None, "warn")
@@ -816,7 +833,7 @@ class Game:
         return [c.id for c in available]
 
     def _begin_choosing(self, chooser: str | None, now: float) -> None:
-        self.offered = self._offer_categories()
+        self.offered = self._offer_categories(chooser)
         if not self.offered:
             self._finish(self._ranking_ids()[:1], now)
             return
@@ -846,10 +863,19 @@ class Game:
             # uniform per category: one with 200 questions is not favoured over one with 10
             category_id = self.rng.choice(self.offered)
         category = self.library.categories[category_id]
-        question = pick_question(category, self.used, self.history, self.rng)
+        allowed = self._allowed(self.chooser_id)
+        question = pick_question(category, self.used, self.history, self.rng, allowed)
         if question is None:  # defensive: category exhausted between offer and pick
             self.used -= {q.key for q in category.questions}
-            question = pick_question(category, self.used, self.history, self.rng)
+            question = pick_question(category, self.used, self.history, self.rng, allowed)
+        if question is None:  # only questions about the chooser, who has just gone
+            others = [c for c in self.enabled_categories() if any(allowed(q) for q in c.questions)]
+            if not others:
+                self._finish(self._ranking_ids()[:1], now)
+                return
+            category = self.rng.choice(others)
+            self.used -= {q.key for q in category.questions}
+            question = pick_question(category, self.used, self.history, self.rng, allowed)
             assert question is not None
         participants = [p.id for p in self._connected()]
         self._start_question(category, question, participants, now, tiebreak=False)
@@ -877,6 +903,9 @@ class Game:
         self.history.mark(question.key, now)
         self.question_no += 0 if tiebreak else 1
         open_at = now + question.read_time
+        subject = None
+        if question.about_chooser and not tiebreak and self.chooser_id in participants:
+            subject = self.chooser_id
         asked = AskedQuestion(
             number=self.question_no,
             category=category,
@@ -887,6 +916,8 @@ class Game:
             deadline=open_at + question.time_limit,
             participants=participants,
             tiebreak=tiebreak,
+            subject_id=subject,
+            stage="subject" if subject else "",
         )
         if not tiebreak:
             asked.star_players = {
@@ -913,12 +944,18 @@ class Game:
             raise GameError("No participas en esta pregunta")
         if pid in cur.answers or pid in cur.exempt:
             raise GameError("Ya has respondido")
+        choosing_self = cur.stage == "subject"
+        if choosing_self and pid != cur.subject_id:
+            subject = self.players.get(cur.subject_id or "")
+            raise GameError(f"Espera: primero elige {subject.name if subject else 'el otro jugador'}")
         if now > cur.deadline + ANSWER_GRACE:
             raise GameError("¡Se acabó el tiempo!")
         try:
             value = cur.question.normalize_answer(raw, cur.state)
         except AnswerError as exc:
             raise GameError(str(exc)) from exc
+        if choosing_self:
+            cur.question.set_reference(value, cur.state)
         elapsed = max(0.0, min(now - cur.open_at, float(cur.question.time_limit)))
         cur.answers[pid] = Answer(
             value,
@@ -926,6 +963,41 @@ class Game:
             elapsed,
             cur.question.evaluate(value, cur.state),
         )
+        if choosing_self:
+            self._begin_guessing(now)
+        self._touch()
+
+    def _begin_guessing(self, now: float) -> None:
+        """The subject has answered: the clock starts again for the others to guess."""
+        cur = self.current
+        assert cur is not None
+        cur.stage = "guess"
+        cur.open_at = now
+        cur.deadline = now + cur.question.time_limit
+        self.deadline = cur.deadline
+        subject = self.players[cur.subject_id or ""]
+        self._say(f"{subject.name} ya ha elegido: ¿lo conocéis?", subject.id, "info")
+
+    def _void(self, now: float, penalty: bool) -> None:
+        """The subject did not answer (time ran out, left or cannot see it): nobody scores."""
+        cur = self.current
+        assert cur is not None
+        subject = self.players.get(cur.subject_id or "")
+        cur.void = "timeout" if penalty else "gone"
+        cur.stage = ""
+        for pid in cur.participants:
+            if pid in self.players:
+                cur.results[pid] = Result(exempt=True)
+        if subject and penalty:
+            lost = min(SUBJECT_TIMEOUT, subject.points)
+            subject.points -= lost
+            cur.results[subject.id] = Result(points=-lost, detail="No elegiste a tiempo")
+            self._say(f"{subject.name} no eligió a tiempo: pregunta anulada (−{lost})", subject.id, "warn")
+        else:
+            name = subject.name if subject else "el jugador"
+            self._say(f"Pregunta anulada: {name} no puede responder", cur.subject_id, "warn")
+        self.phase = REVEAL
+        self.deadline = now + self.timing.reveal
         self._touch()
 
     def report_unavailable(self, pid: str, now: float) -> None:
@@ -957,11 +1029,13 @@ class Game:
         cur = self.current
         assert cur is not None
         q = cur.question
-        correct_times = [a.elapsed for a in cur.answers.values() if a.evaluation.correct]
+        subject = cur.subject_id
+        correct_times = [a.elapsed for pid, a in cur.answers.items() if a.evaluation.correct and pid != subject]
         fastest = min(correct_times) if correct_times else None
+        hits = misses = 0
         for pid in cur.participants:
             player = self.players.get(pid)
-            if player is None:
+            if player is None or pid == subject:
                 continue
             res = Result()
             cur.results[pid] = res
@@ -979,34 +1053,66 @@ class Game:
             if cur.tiebreak:
                 continue
             if res.correct:
-                speed = max(0.0, 1 - answer.elapsed / q.time_limit)
-                res.points = q.base_points + round(q.base_points * SPEED_BONUS * speed)
-                if player.double_next:
-                    res.points *= 2
-                    res.doubled = True
-                res.fastest = answer.elapsed == fastest
-                res.steps = STEPS_CORRECT + (STEPS_FASTEST if res.fastest else 0)
-                player.correct_count += 1
-                cat = cur.category.id
-                player.progress[cat] = player.progress.get(cat, 0) + 1
-                on_star = pid in cur.star_players
-                if cat not in player.closed and (
-                    on_star or player.progress[cat] >= self.settings.hits_to_close
-                ):
-                    player.closed.append(cat)
-                    res.closed = cur.category.name
-                    res.bonus += CLOSE_BONUS
-                    how = "desde la estrella ★" if on_star else f"con {player.progress[cat]} aciertos"
-                    self._say(
-                        f"{player.name} cierra {cur.category.icon} {cur.category.name} {how}", pid, "close"
-                    )
+                assert answer is not None
+                if subject:
+                    hits += 1
+                    res.points = GUESS_POINTS
+                else:
+                    speed = max(0.0, 1 - answer.elapsed / q.time_limit)
+                    res.points = q.base_points + round(q.base_points * SPEED_BONUS * speed)
+                self._credit_hit(cur, player, res, fastest=answer.elapsed == fastest)
+            elif res.answered:
+                misses += 1
             player.double_next = False
             player.points += res.points + res.bonus
+        if subject:
+            self._score_subject(cur, hits, misses)
         if not cur.tiebreak:
             self._resolve_duels(cur)
         self.phase = REVEAL
         self.deadline = now + self.timing.reveal
         self._touch()
+
+    def _credit_hit(self, cur: AskedQuestion, player: Player, res: Result, fastest: bool) -> None:
+        """A good answer: double points, board steps and category progress (``res.points`` already set)."""
+        if player.double_next:
+            res.points *= 2
+            res.doubled = True
+        res.fastest = fastest
+        res.steps = STEPS_CORRECT + (STEPS_FASTEST if fastest else 0)
+        player.correct_count += 1
+        cat = cur.category.id
+        player.progress[cat] = player.progress.get(cat, 0) + 1
+        on_star = player.id in cur.star_players
+        if cat not in player.closed and (on_star or player.progress[cat] >= self.settings.hits_to_close):
+            player.closed.append(cat)
+            res.closed = cur.category.name
+            res.bonus += CLOSE_BONUS
+            how = "desde la estrella ★" if on_star else f"con {player.progress[cat]} aciertos"
+            self._say(f"{player.name} cierra {cur.category.icon} {cur.category.name} {how}", player.id, "close")
+
+    def _score_subject(self, cur: AskedQuestion, hits: int, misses: int) -> None:
+        """The subject wins for each friend who knew them and loses for each who did not.
+
+        It counts as a hit (board steps, category progress, x2) when at least half of
+        those who answered guessed right. Points never drop below zero.
+        """
+        player = self.players.get(cur.subject_id or "")
+        if player is None:
+            return
+        answer = cur.answers.get(player.id)
+        res = Result(answered=True, elapsed=answer.elapsed if answer else None)
+        cur.results[player.id] = res
+        player.asked_count += 1
+        voters = hits + misses
+        res.detail = f"Te han acertado {hits} de {voters}" if voters else "Nadie ha respondido"
+        points = hits * SUBJECT_HIT - misses * SUBJECT_MISS
+        res.points = points if points >= 0 else -min(-points, player.points)
+        res.correct = hits > 0 and 2 * hits >= voters
+        if res.correct:
+            self._credit_hit(cur, player, res, fastest=False)
+        player.double_next = False
+        player.points += res.points + res.bonus
 
     def _duel_key(self, cur: AskedQuestion, pid: str) -> tuple[bool, float, float]:
         answer = cur.answers.get(pid)
@@ -1195,7 +1301,7 @@ class Game:
         self._say(f"¡Empate entre {names}! Pregunta de desempate", None, "tiebreak")
 
     def _ask_tiebreak(self, now: float) -> None:
-        pool = [(c, q) for c in self.enabled_categories() for q in c.questions]
+        pool = [(c, q) for c in self.enabled_categories() for q in c.questions if not q.about_chooser]
         fresh = [(c, q) for c, q in pool if q.key not in self.used] or pool
         players = [p for p in self.tiebreak_players if p in self.players]
         if not fresh or len(players) < 2:
@@ -1260,6 +1366,14 @@ class Game:
             self.deadline = cur.deadline
             self._touch()
             return True
+        if self.phase == ANSWERING and cur and cur.stage == "subject":
+            if cur.subject_id not in self.players or cur.subject_id in cur.exempt:
+                self._void(now, penalty=False)
+                return True
+            if now >= cur.deadline + ANSWER_GRACE:
+                self._void(now, penalty=True)
+                return True
+            return False
         if self.phase == ANSWERING and cur and (now >= cur.deadline + ANSWER_GRACE or self._everyone_answered()):
             self._reveal(now)
             return True
@@ -1393,6 +1507,8 @@ class Game:
                 "tiebreak": cur.tiebreak,
                 "category": {k: cur.category.summary()[k] for k in ("id", "name", "icon", "color")},
                 "chooser": cur.chooser_id,
+                "subject": cur.subject_id,
+                "stage": cur.stage,
                 "starPlayers": sorted(cur.star_players),
                 "duels": [list(d) for d in cur.duels],
             }
@@ -1406,6 +1522,8 @@ class Game:
         reveal = cur.question.to_reveal(cur.state)
         reveal["answers"] = {pid: a.display for pid, a in cur.answers.items()}
         reveal["results"] = {pid: r.public() for pid, r in cur.results.items()}
+        reveal["subject"] = cur.subject_id
+        reveal["void"] = cur.void
         return reveal
 
     def _round_info(self) -> dict[str, Any]:

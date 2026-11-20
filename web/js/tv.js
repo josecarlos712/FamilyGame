@@ -318,7 +318,8 @@ function questionScreen() {
   const prompt = h("h1.q-prompt", q.prompt);
   const meta = h("span.q-meta", q.tiebreak ? "⚡ Desempate" : `Pregunta ${q.number}` + (s0.round.rounds ? ` · Ronda ${s0.round.round}/${s0.round.rounds}` : ""));
   const pts = h("span.q-points", q.tiebreak ? "" : `${q.points} pts`);
-  const main = h("main.q-main", prompt, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, canvas, explain);
+  const about = h("p.q-about"); // questions about a player: who they are about and what is going on
+  const main = h("main.q-main", prompt, about, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, canvas, explain);
   const el = h("div.qscreen", { style: { "--cc": cat.color } },
     h("header.q-head", h("span.cat-chip.big", { style: { "--cc": cat.color } }, cat.icon, " ", cat.name), meta, pts, num),
     bar, main, side);
@@ -348,15 +349,21 @@ function questionScreen() {
     return ids.map(playerById).filter(Boolean).map((p) => {
       let status;
       const r = res[p.id];
+      const isSubject = p.id === s.question.subject;
       if (r) {
         if (r.exempt) status = h("span.st.st-skip", "—");
-        else if (r.correct) status = h("span.st.st-good", q.tiebreak ? "✓" : `+${r.points + Math.max(0, r.bonus)}`);
+        else if (isSubject) {
+          const total = r.points + r.bonus;
+          status = h(total >= 0 ? "span.st.st-good" : "span.st.st-bad", `${total >= 0 ? "+" : "−"}${Math.abs(total)}`);
+        } else if (r.correct) status = h("span.st.st-good", q.tiebreak ? "✓" : `+${r.points + Math.max(0, r.bonus)}`);
         else status = h("span.st.st-bad", r.answered ? "✗" : "⏱");
       } else if (!p.participant) status = h("span.st.st-skip", "espera");
       else if (p.exempt) status = h("span.st.st-skip", "sin mapa");
-      else if (p.answered) status = h("span.st.st-done", "✓");
+      else if (s.question.stage === "subject" && !isSubject) status = h("span.st.st-skip", "espera");
+      else if (p.answered) status = h("span.st.st-done", isSubject ? "🔒" : "✓");
       else status = h("span.st.st-wait", h("i"), h("i"), h("i"));
       const marks = [];
+      if (isSubject) marks.push(h("span.badge.b-subject", "🎯"));
       if (s.question.starPlayers.includes(p.id)) marks.push(h("span.badge.b-star", "★"));
       if (s.question.duels.some((d) => d.includes(p.id))) marks.push(h("span.badge.b-duel", "⚔"));
       if (p.double && !s.question.tiebreak) marks.push(h("span.badge.b-double", "x2"));
@@ -365,11 +372,22 @@ function questionScreen() {
     });
   }
 
+  function aboutLine(s) {
+    const subject = s.question.subject ? playerById(s.question.subject) : null;
+    if (!subject) return null;
+    if (s.reveal?.void) return h("span", "Pregunta anulada: ", nameTag(subject), " no eligió");
+    if (s.phase === "reveal") return h("span", "Lo que eligió ", nameTag(subject), ":");
+    if (s.phase === "reading") return h("span", avatar(subject, 64), " Pregunta sobre ", nameTag(subject));
+    if (s.question.stage === "subject") return h("span", avatar(subject, 64), " ", nameTag(subject), " elige en secreto…");
+    return h("span", avatar(subject, 64), " ¿Qué habrá elegido ", nameTag(subject), "? ¡Adivinad!");
+  }
+
   function update(s) {
     if (!s.question) return;
     el.classList.toggle("is-reading", s.phase === "reading");
     el.classList.toggle("is-reveal", s.phase === "reveal");
     fill(side, h("p.side-title", s.phase === "reveal" ? "Resultados" : "Respuestas"), sideRows(s));
+    fill(about, aboutLine(s));
     timers.clear();
     if (s.phase === "reading") timer(bar, num, () => [s.question.openAt - s.question.read, s.question.openAt]);
     if (s.phase === "answering") timer(bar, num, () => [s.question.openAt, s.question.deadline]);

@@ -13,7 +13,7 @@ descripcion = "Frase corta opcional"
 
 # --------------------------------------------------------------------------
 #  Campos comunes a TODAS las preguntas
-#    tipo        = "test" | "slider" | "rango" | "mapa"   (si falta: "test")
+#    tipo        = "test" | "slider" | "rango" | "mapa" | "conoces"   (si falta: "test")
 #    enunciado   = "texto de la pregunta"                (obligatorio)
 #    tiempo      = segundos para responder (2 a 300; cada tipo tiene uno por defecto)
 #    lectura     = segundos para leer antes de poder responder (por defecto según longitud)
@@ -85,3 +85,12 @@ tipo = "mapa"
 enunciado = "Toca dentro de la isla de Mallorca"
 zona = [[39.96, 2.80], [39.92, 3.20], [39.80, 3.50], [39.30, 3.20], [39.35, 2.40], [39.70, 2.30]]
 vista = { lat = 40, lng = 2, zoom = 6 }
+
+# ---- CONOCES: «¿Lo conoces?», sin respuesta correcta ---------------------
+#  Pregunta sobre quien eligió la categoría: primero elige él su preferencia
+#  en secreto y luego los demás adivinan qué eligió. Escríbela en tercera
+#  persona y sin nombres: la tele ya enseña sobre quién es.
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué plan de domingo prefiere?"
+opciones = ["Sofá y peli", "Comida familiar", "Excursión al campo", "Dormir hasta tarde"]

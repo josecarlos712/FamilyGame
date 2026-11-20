@@ -1846,3 +1846,80 @@ respuesta = [1867, 1934]
 criterio = "coincidir"
 margen = 5
 dificultad = 3
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas horas de sueño considera ideales?"
+opciones = ["Menos de 6 horas", "6 a 7 horas", "7 a 8 horas", "Más de 8 horas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué hora prefiere levantarse?"
+opciones = ["Antes de las 7", "Entre 7 y 8", "Entre 8 y 10", "Después de las 10"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos hijos le parece ideal tener?"
+opciones = ["Ninguno", "Uno", "Dos", "Tres o más"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas mascotas le gustaría tener?"
+opciones = ["Ninguna", "Una", "Dos o tres", "Más de tres"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué temperatura ambiente prefiere?"
+opciones = ["Menos de 18 grados", "18 a 22 grados", "23 a 27 grados", "Más de 27 grados"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué hora prefiere acostarse?"
+opciones = ["Antes de las 22", "Entre 22 y 24", "Entre 24 y 2", "Después de las 2"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuánto tiempo de siesta le parece ideal?"
+opciones = ["No hacer siesta", "Menos de 20 minutos", "20 a 45 minutos", "Más de 45 minutos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos amigos íntimos prefiere tener?"
+opciones = ["Uno o dos", "De tres a cinco", "De seis a diez", "Más de diez"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos días de vacaciones seguidos prefiere?"
+opciones = ["Menos de una semana", "Una semana", "Dos semanas", "Un mes o más"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuánto tiempo le gustaría viajar al año?"
+opciones = ["Menos de una semana", "De una a dos semanas", "De dos a cuatro semanas", "Más de un mes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué hora prefiere cenar?"
+opciones = ["Antes de las 20", "Entre 20 y 21", "Entre 21 y 22", "Después de las 22"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas personas prefiere en una cena?"
+opciones = ["Menos de 4", "De 4 a 6", "De 7 a 10", "Más de 10"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas horas de pantalla al día le parecen razonables?"
+opciones = ["Menos de 2", "De 2 a 4", "De 4 a 6", "Más de 6"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos libros prefiere leer al año?"
+opciones = ["Ninguno", "De 1 a 5", "De 6 a 12", "Más de 12"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos años le gustaría vivir?"
+opciones = ["Menos de 80", "80 a 90", "90 a 100", "Más de 100"]

@@ -1,0 +1,47 @@
+/* «¿Lo conoces?» — TV grid (.qt-know-grid) and phone list (.qt-know-list). */
+
+.qt-know-letter {
+  display: inline-grid; place-items: center; flex: none;
+  width: 1.6em; height: 1.6em; border-radius: 50%;
+  background: var(--oc); color: #fff; font-weight: 800;
+}
+
+/* ----- TV ----- */
+.qt-know-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px;
+  width: 100%; margin-top: 12px;
+}
+.qt-know-grid[data-n="2"], .qt-know-grid[data-n="3"] { grid-template-columns: repeat(var(--cols, 1), 1fr); }
+.qt-know-grid[data-n="3"] { --cols: 3; }
+.qt-know-grid[data-n="2"] { --cols: 2; }
+.qt-know-opt {
+  position: relative; display: flex; align-items: center; gap: 22px; flex-wrap: wrap;
+  min-height: 120px; padding: 22px 28px; border-radius: var(--radius);
+  background: var(--surface); border: 4px solid color-mix(in srgb, var(--oc) 70%, transparent);
+  font-size: 44px; font-weight: 700; color: var(--ink);
+  transition: opacity .5s var(--ease), transform .5s var(--ease), border-color .5s;
+}
+.qt-know-text { flex: 1 1 60%; min-width: 0; }
+.qt-know-voters { display: flex; flex-wrap: wrap; gap: 8px; flex-basis: 100%; }
+.qt-know-voters:empty { display: none; }
+.qt-know-owner { display: flex; animation: pop .5s var(--ease); }
+.qt-know-opt.is-right {
+  border-color: var(--good); background: color-mix(in srgb, var(--good) 22%, var(--surface));
+  transform: scale(1.03); box-shadow: 0 0 0 6px color-mix(in srgb, var(--good) 35%, transparent);
+}
+.qt-know-opt.is-wrong { opacity: .45; }
+.qt-know-grid .qt-know-voters > * { animation: rise .45s var(--ease) both; }
+
+/* ----- phone ----- */
+.qt-know-list { display: grid; gap: 12px; }
+.qt-know-btn {
+  display: flex; align-items: center; gap: 14px; width: 100%;
+  padding: 16px 18px; border-radius: var(--radius); text-align: left;
+  font: inherit; font-size: 1.15rem; font-weight: 700; color: var(--ink);
+  background: var(--surface); border: 3px solid color-mix(in srgb, var(--oc) 70%, transparent);
+  cursor: pointer; transition: transform .15s var(--ease), opacity .3s;
+}
+.qt-know-btn:active { transform: scale(.98); }
+.is-locked .qt-know-btn { cursor: default; opacity: .5; }
+.is-locked .qt-know-btn.is-picked { opacity: 1; background: color-mix(in srgb, var(--oc) 25%, var(--surface)); border-color: var(--oc); }
+.is-locked .qt-know-btn.is-right { opacity: 1; border-color: var(--good); box-shadow: 0 0 0 4px color-mix(in srgb, var(--good) 40%, transparent); }

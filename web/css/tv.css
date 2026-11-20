@@ -25,6 +25,7 @@ body.tv { overflow: hidden; background: radial-gradient(1200px 700px at 50% 40%,
 .badge { display: inline-grid; place-items: center; min-width: 1.6em; height: 1.6em; padding: 0 0.3em; border-radius: 0.5em; font-size: 0.7em; font-weight: 900; margin-left: 0.35em; vertical-align: middle; }
 .b-star { background: var(--star); color: #1b1608; }
 .b-double { background: #3bc9db; color: #0b1d21; }
+.b-subject { background: var(--star); color: #1b1300; }
 .b-duel { background: var(--bad); color: #210808; }
 .b-off { background: var(--surface-2); color: var(--muted); }
 
@@ -147,6 +148,9 @@ body.tv { overflow: hidden; background: radial-gradient(1200px 700px at 50% 40%,
 .q-error { color: var(--bad); }
 .is-reading .q-main { justify-content: center; }
 .is-reading .q-prompt { font-size: 88px; text-align: center; animation: pop 0.5s var(--ease) both; }
+.q-about { display: flex; align-items: center; gap: 16px; margin: 8px 0 0; font-size: 40px; font-weight: 800; color: var(--muted); }
+.q-about:empty { display: none; }
+.is-reading .q-about { justify-content: center; font-size: 52px; }
 .is-reading .q-canvas, .is-reading .q-explain { display: none; }
 .q-side { display: flex; flex-direction: column; gap: 12px; padding: 24px; border-radius: 26px; background: var(--bg-2); }
 .side-title { margin: 0 0 4px; color: var(--muted); font-size: 22px; text-transform: uppercase; letter-spacing: 0.08em; }

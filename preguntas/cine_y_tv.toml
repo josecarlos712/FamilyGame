@@ -2277,3 +2277,130 @@ opciones = ["Matt Groening", "Seth McFarlane", "Justin Roiland", "Nick Kroll"]
 correcta = "Matt Groening"
 dificultad = 1
 tiempo = 13
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué género de películas prefiere?"
+opciones = ["Comedia", "Acción", "Terror", "Drama"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de personaje prefiere?"
+opciones = ["Héroe", "Villano", "Antihéroe", "Gracioso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué película elegiría para una noche de sofá?"
+opciones = ["Una comedia romántica", "Una de superhéroes", "Una de miedo", "Un clásico"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere ver?"
+opciones = ["Series", "Películas", "Documentales", "Programas de concurso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere ver una serie?"
+opciones = ["Un capítulo al día", "Maratón de fin de semana", "Cuando se estrena", "Cuando ya ha terminado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más en el cine?"
+opciones = ["Palomitas", "Nachos", "Refresco grande", "Nada, solo la peli"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué saga elegiría?"
+opciones = ["Star Wars", "El Señor de los Anillos", "Harry Potter", "Marvel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué película de animación prefiere?"
+opciones = ["Disney clásica", "Pixar", "Estudio Ghibli", "DreamWorks"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué programa de tele elegiría?"
+opciones = ["Concurso", "Cocina", "Reality", "Informativos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde prefiere ver una película?"
+opciones = ["En el cine", "En el sofá", "En la cama", "En el móvil"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué serie española prefiere?"
+opciones = ["La casa de papel", "Aquí no hay quien viva", "Cuéntame", "Los Serrano"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de final prefiere en una película?"
+opciones = ["Feliz", "Triste", "Abierto", "Con giro inesperado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere ver las películas extranjeras?"
+opciones = ["Doblada", "Subtituladas", "En versión original", "Le da igual"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué personaje de ficción elegiría ser?"
+opciones = ["Un mago", "Un espía", "Un superhéroe", "Un pirata"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría durante los anuncios?"
+opciones = ["Cambiar de canal", "Mirar el móvil", "Ir a la cocina", "Aguantar y verlos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué película navideña prefiere?"
+opciones = ["Solo en casa", "Qué bello es vivir", "El Grinch", "Elf"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de película elegiría con la familia?"
+opciones = ["Aventuras", "Animación", "Comedia", "Musical"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de una película?"
+opciones = ["La historia", "Los efectos especiales", "Los actores", "La banda sonora"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué superpoder elegiría en una peli?"
+opciones = ["Volar", "Invisibilidad", "Leer mentes", "Viajar en el tiempo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué plataforma elegiría si solo pudiera quedarse con una?"
+opciones = ["Netflix", "Prime Video", "Disney+", "HBO Max"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de serie prefiere?"
+opciones = ["Policíaca", "Comedia", "Ciencia ficción", "Histórica"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere ver el domingo por la noche?"
+opciones = ["Una serie", "Una peli", "Deportes", "Nada, a dormir"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría más ser en una película?"
+opciones = ["Protagonista", "Director", "Compositor de la banda sonora", "Especialista de acción"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué dibujos animados veía de pequeño?"
+opciones = ["Los Simpson", "Bob Esponja", "Dragon Ball", "Doraemon"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere ver con los amigos?"
+opciones = ["Una de terror", "Una comedia", "Un partido", "Un concurso"]

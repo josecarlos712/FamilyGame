@@ -1499,3 +1499,145 @@ correcta = "Verdadero"
 barajar = false
 tiempo = 3
 lectura = 1.5
+
+# ---- ¿Lo conoces? (preferencias del jugador que elige) ----
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere?"
+opciones = ["Playa", "Montaña"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué sabor prefiere?"
+opciones = ["Dulce", "Salado"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué mascota prefiere, perro o gato?"
+opciones = ["Perro", "Gato"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo prefiere trabajar?"
+opciones = ["Madrugar", "Trasnochar"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere, verano o invierno?"
+opciones = ["Verano", "Invierno"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para ver una peli?"
+opciones = ["Cine", "Sofá"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere tomar de beber?"
+opciones = ["Café", "Té"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué elegiría para viajar?"
+opciones = ["Avión", "Tren"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere hacer en casa?"
+opciones = ["Cocinar", "Pedir comida"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere al llegar a casa?"
+opciones = ["Ducha", "Baño"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere la tortilla, con o sin cebolla?"
+opciones = ["Con cebolla", "Sin cebolla"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en vacaciones?"
+opciones = ["Relax", "Aventura"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para una cita?"
+opciones = ["Cena", "Paseo"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué elegiría como plan?"
+opciones = ["Quedarse en casa", "Salir"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere ver cine extranjero?"
+opciones = ["Doblada", "Subtitulada"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para leer?"
+opciones = ["Papel", "Pantalla"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere con el pan?"
+opciones = ["Aceite", "Mantequilla"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere como hora del día?"
+opciones = ["Mañana", "Noche"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere ver, fútbol o baloncesto?"
+opciones = ["Fútbol", "Baloncesto"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere como regalo?"
+opciones = ["Dar", "Recibir"]
+tiempo = 8
+lectura = 2

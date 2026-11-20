@@ -510,6 +510,7 @@ function questionScreen() {
   const status = h("div.q-status");
   const result = h("div.q-result");
   const prompt = h("h1.q-prompt", q.prompt);
+  const hint = h("p.q-about"); // questions about a player: whose answer counts
   const timebar = h("div.timebar", { dataset: { timebar: "" } }, h("i"));
   const qnum = h("span.q-num", { dataset: { timenum: "" } });
   let head = header(s0, qnum);
@@ -517,7 +518,7 @@ function questionScreen() {
   const el = h("div.screen.question", { style: { "--cc": q.category.color } },
     head,
     h("p.q-cat", q.category.icon, " ", q.category.name, q.tiebreak ? " · Desempate" : ""),
-    prompt, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, timebar, result, canvas, status, endSlot);
+    prompt, hint, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, timebar, result, canvas, status, endSlot);
   let mod = null;
   let loading = false;
   let locked = false;
@@ -546,7 +547,19 @@ function questionScreen() {
   function resultBanner(s) {
     const r = s.reveal?.results?.[s.me.id];
     if (!r) return h("p.res.res-none", s.participant ? "Sin respuesta" : "No participabas en esta pregunta");
+    const subject = s.reveal.subject ? playerById(s.reveal.subject) : null;
+    if (s.reveal.void && s.reveal.subject !== s.me.id) {
+      return h("p.res.res-none", "Pregunta anulada: ", subject ? nameTag(subject) : "el jugador", " no eligió");
+    }
     if (r.exempt) return h("p.res.res-none", "Esta pregunta no te cuenta");
+    if (s.reveal.subject === s.me.id) { // the question was about me: points for each friend who knew me
+      const total = r.points + r.bonus;
+      return h("div", h(total >= 0 ? "p.res.res-good" : "p.res.res-bad", `${total >= 0 ? "+" : "−"}${Math.abs(total)} puntos`),
+        r.detail ? h("p.res-detail", r.detail) : null,
+        r.closed ? h("p.res-extra.star", `★ ¡Cierras ${r.closed}! +100`) : null,
+        r.doubled ? h("p.res-extra", "x2 ¡Puntos dobles!") : null,
+        r.duel ? h("p.res-extra", r.duel) : null);
+    }
     const lines = [];
     if (r.closed) lines.push(h("p.res-extra.star", `★ ¡Cierras ${r.closed}! +100`));
     if (r.doubled) lines.push(h("p.res-extra", "x2 ¡Puntos dobles!"));
@@ -564,8 +577,11 @@ function questionScreen() {
     head = newHead;
     fill(endSlot, q.tiebreak ? null : hostEnd(s));
     el.classList.toggle("is-reading", s.phase === "reading");
+    const subject = s.question.subject ? playerById(s.question.subject) : null;
+    const isSubject = s.question.subject === s.me.id;
     if (s.phase === "reading") {
       setTimer(() => [s.question.openAt - s.question.read, s.question.openAt]);
+      if (subject) fill(hint, isSubject ? "🎯 Pregunta sobre ti" : h("span", "🎯 Pregunta sobre ", nameTag(subject)));
       fill(status, h("p.hint.center", "¡Atento! Ya casi…"));
       return;
     }
@@ -576,14 +592,27 @@ function questionScreen() {
       fill(status, h("p.notice", q.tiebreak ? "Desempate: mira la tele" : "Te unes en la siguiente pregunta"));
     } else if (s.exempt && s.phase === "answering") {
       fill(status, h("p.notice", "Esta pregunta no te cuenta"));
+    } else if (subject && !isSubject && s.phase === "answering" && s.question.stage === "subject") {
+      canvas.hidden = true; // the subject picks first; the options open for me afterwards
+      fill(status, h("p.notice", "⏳ ", nameTag(subject), " está eligiendo en secreto…"));
     } else {
+      canvas.hidden = false;
       ensureModule();
       if (mod && s.myAnswer && !locked) {
         locked = true;
         mod.lock(s.myAnswer.display);
       }
-      fill(status, s.myAnswer && s.phase === "answering" ? h("p.sent", "✓ Respuesta enviada") : null);
+      let sent = null;
+      if (s.myAnswer && s.phase === "answering") {
+        sent = h("p.sent", isSubject ? "🔒 Elegido. Ahora adivinan los demás" : "✓ Respuesta enviada");
+      }
+      fill(status, sent);
     }
+    if (subject && s.phase !== "reveal") {
+      fill(hint, isSubject
+        ? (s.question.stage === "subject" ? "🎯 Pregunta sobre ti: elige lo que de verdad prefieres" : "🎯 Pregunta sobre ti")
+        : h("span", "🎯 ¿Qué habrá elegido ", nameTag(subject), "?"));
+    } else fill(hint);
     if (s.phase === "reveal" && s.reveal) {
       if (mod && !revealed) { revealed = true; mod.reveal(s.reveal, s.reveal.results?.[s.me.id]); }
       fill(result, resultBanner(s), s.reveal.explanation ? h("p.explain", "💡 ", s.reveal.explanation) : null, hostBar(s));

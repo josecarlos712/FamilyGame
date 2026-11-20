@@ -6,6 +6,7 @@ import json
 import logging
 from pathlib import Path
 from random import Random
+from typing import Callable
 
 from familygame.categories import Category
 from familygame.questions.base import QuestionType
@@ -45,16 +46,24 @@ def pick_question(
     used: set[str],
     history: QuestionHistory,
     rng: Random,
+    allowed: Callable[[QuestionType], bool] | None = None,
 ) -> QuestionType | None:
     """Pick a question never asked in this game.
 
     Among those, prefer ones never seen in previous games; if all were seen,
     pick among the third that was seen longest ago.
 
+    Args:
+        category: Where to pick from.
+        used: Keys already asked in this game.
+        history: When each question was last asked, across games.
+        rng: Random source.
+        allowed: Optional filter (e.g. no questions about a player when nobody chose).
+
     Returns:
         A question, or None if the category is exhausted for this game.
     """
-    candidates = [q for q in category.questions if q.key not in used]
+    candidates = [q for q in category.questions if q.key not in used and (allowed is None or allowed(q))]
     if not candidates:
         return None
     unseen = [q for q in candidates if q.key not in history.seen]
