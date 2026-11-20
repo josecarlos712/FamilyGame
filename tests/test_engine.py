@@ -323,3 +323,17 @@ def test_board_path_wraps() -> None:
     assert board.path(8, 3) == [9, 0, 1]
     assert board.passes_start(8, 3) and not board.passes_start(2, 3)
     assert board.path(1, -2) == [0, 9]
+
+
+def test_sound_settings_change_during_the_game(registry: TypeRegistry, clock: Clock) -> None:
+    game, (host, other) = new_game(registry)
+    game.start(host, clock())
+    game.set_settings(host, {"music": False, "volume": 250})
+    assert game.settings.music is False and game.settings.volume == 100
+    with pytest.raises(GameError):
+        game.set_settings(host, {"rounds": 5})  # game options stay locked mid-game
+    with pytest.raises(GameError):
+        game.set_settings(other, {"music": True})  # only the host
+    with pytest.raises(GameError):
+        game.set_settings(host, {"sfx": "si"})
+    assert game.settings.public()["music"] is False

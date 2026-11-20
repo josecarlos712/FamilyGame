@@ -5,6 +5,7 @@ import {
   OPTION_COLORS, OPTION_LETTERS,
 } from "./ui.js";
 import { BoardView, CENTER, STAGE_W, STAGE_H } from "./board.js";
+import { sound } from "./sound.js";
 
 const stage = document.getElementById("stage");
 const toasts = h("div.toasts");
@@ -43,7 +44,10 @@ function keyFor(s) {
 }
 
 function render(s) {
+  const prev = state;
   state = s;
+  sound.apply(s.settings);
+  soundCues(prev, s);
   const key = keyFor(s);
   if (key !== screenKey) {
     screen?.destroy?.();
@@ -57,12 +61,67 @@ function render(s) {
   showToasts(s.log);
 }
 
+// ----- sound ------------------------------------------------------------------------------
+// Effects are decided here by comparing the previous and the new state; the music is on from
+// the lobby to the podium and is only quieter while a question is open.
+const LOG_SOUNDS = { close: "estrella", duel: "duelo", warn: "fallo" };
+
+function soundCues(prev, s) {
+  sound.duck(["reading", "answering"].includes(s.phase));
+  if (!prev) return; // first state after loading: nothing happened yet
+  if (prev.phase !== s.phase) {
+    if (s.phase === "choosing") sound.play("turno");
+    else if (s.phase === "reading" || (s.phase === "answering" && prev.phase !== "reading")) sound.play("empieza");
+    else if (s.phase === "reveal") {
+      const results = Object.values(s.reveal?.results || {});
+      sound.play("revelar");
+      setTimeout(() => sound.play(results.some((r) => r.correct) ? "acierto" : "fallo"), 450);
+    } else if (s.phase === "tiebreak") sound.play("desempate");
+    else if (s.phase === "finished") sound.play("fanfarria");
+    else if (s.phase === "board") [0, 250, 500].forEach((d) => setTimeout(() => sound.play("paso"), d));
+  } else if (s.phase === "lobby" && s.players.length > prev.players.length) {
+    sound.play("jugador");
+  } else if (s.phase === "answering") {
+    const count = (st) => st.players.filter((p) => p.answered).length;
+    if (count(s) > count(prev)) sound.play("respuesta");
+  }
+}
+
+// last seconds of a question: one tick per second
+let lastTick = null;
+setInterval(() => {
+  if (state?.phase !== "answering" || !state.question) { lastTick = null; return; }
+  const left = secondsLeft(state.question.deadline);
+  const whole = Math.ceil(left);
+  if (left > 0 && whole <= 3 && whole !== lastTick) { lastTick = whole; sound.play(whole === 1 ? "ticfinal" : "tic"); }
+}, 200);
+
+// event messages from the log (stars, duels...) also make a sound
+function logSound(entry) {
+  const name = entry.kind === "event" ? "evento" : LOG_SOUNDS[entry.kind];
+  if (name) sound.play(name);
+}
+
+// a small badge asks for a click while the browser still blocks audio; M mutes this TV only
+const soundBadge = h("div.sound-badge", { hidden: true }, "🔊 Pulsa una tecla o haz clic para activar el sonido");
+document.body.append(soundBadge);
+sound.onLock((blocked) => { soundBadge.hidden = !blocked; });
+addEventListener("keydown", (e) => {
+  if (e.key.toLowerCase() !== "m" || e.ctrlKey || e.altKey || e.metaKey) return;
+  const muted = sound.toggleLocalMute();
+  soundBadge.textContent = muted ? "🔇 Sonido silenciado en esta tele (M para activarlo)" : "🔊 Sonido activado";
+  soundBadge.hidden = false;
+  clearTimeout(soundBadge._t);
+  soundBadge._t = setTimeout(() => { soundBadge.hidden = true; }, 2500);
+});
+
 // ----- toasts -----------------------------------------------------------------------
 function showToasts(log) {
   if (lastLogId === null) { lastLogId = log.at(-1)?.id ?? 0; return; }
   for (const entry of log) {
     if (entry.id <= lastLogId) continue;
     lastLogId = entry.id;
+    logSound(entry);
     if (["choose", "event"].includes(entry.kind)) continue; // already shown on screen
     const p = entry.player && playerById(entry.player);
     const t = h(`div.toast.k-${entry.kind}`, p ? avatar(p, 40) : null, h("span", entry.text));

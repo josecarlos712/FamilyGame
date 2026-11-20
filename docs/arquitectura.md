@@ -114,3 +114,11 @@ del servidor.
 - Mensajes de más de 700 KB se rechazan.
 
 No hay contraseñas: cualquiera en la misma wifi puede entrar mientras haya sitio.
+
+## Sonido
+
+`web/js/sound.js` sintetiza efectos y música con WebAudio (osciladores, sin archivos). Solo suena
+la tele: `web/js/tv.js` compara el estado anterior con el nuevo y decide qué efecto toca
+(`soundCues`). Los ajustes `music`, `sfx` y `volume` viven en `Settings` del motor, los cambia el
+anfitrión con el mensaje `settings` **en cualquier fase** (el resto de opciones solo en el lobby) y
+llegan a la tele en cada `state`.

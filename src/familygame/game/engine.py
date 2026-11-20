@@ -57,6 +57,9 @@ class Settings:
     hits_to_close: int = 3
     categories_per_turn: int = 0
     disabled: set[str] = field(default_factory=set)
+    music: bool = True
+    sfx: bool = True
+    volume: int = 70
 
     def public(self) -> dict[str, Any]:
         return {
@@ -67,6 +70,9 @@ class Settings:
             "hitsToClose": self.hits_to_close,
             "categoriesPerTurn": self.categories_per_turn,
             "disabled": sorted(self.disabled),
+            "music": self.music,
+            "sfx": self.sfx,
+            "volume": self.volume,
         }
 
 
@@ -330,9 +336,23 @@ class Game:
     def set_settings(self, pid: str, changes: dict[str, Any]) -> None:
         """Host changes lobby options. Unknown keys are ignored."""
         self._require_host(pid)
-        if self.phase not in (LOBBY, FINISHED):
-            raise GameError("Las opciones se cambian antes de empezar")
         s = self.settings
+        # sound can be changed at any moment, the rest only between games
+        for key in ("music", "sfx"):
+            if key in changes:
+                if not isinstance(changes[key], bool):
+                    raise GameError(f"Valor no válido para {key}")
+                setattr(s, key, changes[key])
+        if "volume" in changes:
+            vol = changes["volume"]
+            if isinstance(vol, bool) or not isinstance(vol, (int, float)):
+                raise GameError("Valor no válido para volume")
+            s.volume = max(0, min(100, int(vol)))
+        if self.phase not in (LOBBY, FINISHED):
+            if set(changes) - {"music", "sfx", "volume"}:
+                raise GameError("Las opciones se cambian antes de empezar")
+            self._touch()
+            return
 
         def number(key: str, low: int, high: int) -> int | None:
             if key not in changes:

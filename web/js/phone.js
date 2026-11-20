@@ -109,7 +109,18 @@ function header(s, extra) {
   return h("header.bar", { style: { "--c": me.color } },
     avatar(me, 44),
     h("div.bar-who", nameTag(me), h("small", s.phase === "lobby" ? (me.host ? "👑 Anfitrión" : "En el lobby") : `#${rank} · ${fmt(me.points)} pts`)),
-    extra || null);
+    extra || null,
+    soundButton(s));
+}
+
+// The host mutes or unmutes the music on the TV from any screen.
+function soundButton(s) {
+  if (!s.me.host) return null;
+  const on = s.settings.music && s.settings.volume > 0;
+  return h("button.btn.ghost.mini.sound-btn", {
+    type: "button", "aria-label": on ? "Silenciar la música de la tele" : "Activar la música de la tele",
+    onclick: () => net.send({ t: "settings", changes: { music: !on, ...(!on && s.settings.volume === 0 ? { volume: 70 } : {}) } }),
+  }, on ? "🔊" : "🔇");
 }
 
 function hostBar(s, label = "Continuar ▸") {
@@ -268,6 +279,14 @@ function lobbyScreen() {
             : "Cerrar una categoría (aciertos o casilla ★) da +100 puntos."),
           stepper("Categorías para elegir cada turno", st.categoriesPerTurn, 0, 12, 1, (v) => send({ categoriesPerTurn: v }), (v) => v === 0 ? "Todas" : v));
       }
+      const sendSound = (changes) => net.send({ t: "settings", changes });
+      const soundCard = me.host ? h("div.card",
+        h("p.card-title", "Sonido de la tele"),
+        h("label.crow", h("input", { type: "checkbox", checked: st.music, onchange: (e) => sendSound({ music: e.target.checked }) }),
+          h("span.cicon", "🎵"), h("span.cname", "Música de fondo")),
+        h("label.crow", h("input", { type: "checkbox", checked: st.sfx, onchange: (e) => sendSound({ sfx: e.target.checked }) }),
+          h("span.cicon", "🔔"), h("span.cname", "Efectos de sonido")),
+        stepper("Volumen", st.volume, 0, 100, 10, (v) => sendSound({ volume: v }), (v) => `${v}%`)) : null;
       const cats = h("div.card",
         h("p.card-title", `Categorías (${enabled.length} activas)`),
         h("div.clist", s.categories.map((c) => {
@@ -285,7 +304,7 @@ function lobbyScreen() {
         : h("p.waiting", `Esperando a que ${host ? host.name : "el anfitrión"} empiece… · ${modeText(st)}`);
       fill(el,
         header(s, h("button.btn.ghost.mini", { type: "button", onclick: () => { editing = true; render(true); } }, "Editar")),
-        actions, players, settings || null, cats,
+        actions, players, settings || null, soundCard, cats,
         h("button.btn.danger.block", { type: "button", onclick: () => { if (confirm("¿Salir de la partida?")) net.send({ t: "leave" }); } }, "Salir de la partida"));
     },
   };

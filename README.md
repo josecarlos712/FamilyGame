@@ -83,6 +83,19 @@ Con el servidor arrancado, el anfitrión puede pulsar **«Recargar preguntas»**
 ver los cambios sin reiniciar. Las preguntas con errores se ignoran y la tele las lista en el lobby
 (archivo y motivo); el resto de la categoría sigue funcionando.
 
+## Sonido
+
+La tele reproduce efectos (acierto, fallo, cuenta atrás, eventos del tablero, fanfarria…) y una
+música tranquila de fondo que no se repite exactamente. Todo se genera en el navegador con
+WebAudio: no hay archivos de audio ni licencias.
+
+- **Silenciar o ajustar:** el anfitrión tiene un botón 🔊/🔇 en la cabecera de su móvil (en cualquier
+  pantalla) y, en el lobby, la tarjeta «Sonido de la tele» con música, efectos y volumen.
+- **Solo en esa tele:** pulsa **M** en el teclado de la tele para silenciarla sin tocar el ajuste.
+- **Primer clic:** los navegadores bloquean el audio hasta que hay un clic o una tecla; la tele
+  muestra un aviso abajo a la derecha hasta que se activa.
+- La música baja de volumen mientras hay una pregunta abierta.
+
 ## Mapas
 
 Las preguntas `mapa` usan Google Maps. Pon tu clave de la *Maps JavaScript API* en
