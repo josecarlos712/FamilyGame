@@ -270,6 +270,13 @@ class QuestionType(ABC):
         return {"explanation": self.explanation, "solution": self.solution_data(state)}
 
 
+def snap_to_step(value: float, minimum: float, maximum: float, step: float) -> float:
+    """Round ``value`` to the nearest slider step, staying within the limits."""
+    steps = round((value - minimum) / step)
+    decimals = max(0, -math.floor(math.log10(step))) if step < 1 else 0
+    return round(min(maximum, max(minimum, minimum + steps * step)), decimals + 2)
+
+
 def format_number(value: float, unit: str = "") -> str:
     """Format a number the Spanish way (1.234,5) with an optional unit."""
     if float(value).is_integer():

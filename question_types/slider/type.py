@@ -11,6 +11,7 @@ from familygame.questions.base import (
     QuestionFormatError,
     QuestionType,
     format_number,
+    snap_to_step,
 )
 
 
@@ -72,7 +73,7 @@ class SliderQuestion(QuestionType):
         value = float(raw)
         if not self.minimum <= value <= self.maximum:
             raise AnswerError("valor fuera del slider")
-        return value
+        return snap_to_step(value, self.minimum, self.maximum, self.step)
 
     def evaluate(self, answer: float, state: dict[str, Any]) -> Evaluation:
         diff = abs(answer - self.answer)

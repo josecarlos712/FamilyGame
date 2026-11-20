@@ -333,8 +333,10 @@ function questionScreen() {
   const result = h("div.q-result");
   const prompt = h("h1.q-prompt", q.prompt);
   const timebar = h("div.timebar", { dataset: { timebar: "" } }, h("i"));
+  const qnum = h("span.q-num", { dataset: { timenum: "" } });
+  let head = header(s0, qnum);
   const el = h("div.screen.question", { style: { "--cc": q.category.color } },
-    header(s0, h("span.q-num", { dataset: { timenum: "" } })),
+    head,
     h("p.q-cat", q.category.icon, " ", q.category.name, q.tiebreak ? " · Desempate" : ""),
     prompt, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, timebar, result, canvas, status);
   let mod = null;
@@ -378,6 +380,9 @@ function questionScreen() {
 
   function update(s) {
     if (!s.question) return;
+    const newHead = header(s, qnum);
+    head.replaceWith(newHead);
+    head = newHead;
     el.classList.toggle("is-reading", s.phase === "reading");
     if (s.phase === "reading") {
       setTimer(() => [s.question.openAt - s.question.read, s.question.openAt]);
@@ -385,7 +390,7 @@ function questionScreen() {
       return;
     }
     if (s.phase === "answering") setTimer(() => [s.question.openAt, s.question.deadline]);
-    if (s.phase === "reveal") { setTimer(null); timebar.hidden = true; el.querySelector(".q-num").textContent = ""; }
+    if (s.phase === "reveal") { setTimer(null); timebar.hidden = true; qnum.textContent = ""; }
     if (!s.participant) {
       canvas.hidden = true;
       fill(status, h("p.notice", q.tiebreak ? "Desempate: mira la tele" : "Te unes en la siguiente pregunta"));

@@ -94,6 +94,9 @@ def test_slider_tolerance_absolute_and_percent(registry: TypeRegistry) -> None:
     p = make(registry, tipo="slider", enunciado="¿?", min=0, max=1000, respuesta=200, tolerancia_pct=10)
     assert p.evaluate(220, {}).correct and not p.evaluate(221, {}).correct
     assert q.evaluate(50, {}).closeness == 1
+    assert q.normalize_answer(55.4, {}) == 55  # snapped to «paso»
+    fine = make(registry, tipo="slider", enunciado="¿?", min=30, max=45, paso=0.1, respuesta=36.6)
+    assert fine.normalize_answer(36.6400001, {}) == 36.6
     with pytest.raises(AnswerError):
         q.normalize_answer(101, {})
 

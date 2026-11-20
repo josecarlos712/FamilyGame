@@ -11,6 +11,7 @@ from familygame.questions.base import (
     QuestionFormatError,
     QuestionType,
     format_number,
+    snap_to_step,
 )
 
 CRITERIA = ("solapar", "contener", "coincidir")
@@ -85,7 +86,8 @@ class RangeQuestion(QuestionType):
         low, high = sorted((float(raw[0]), float(raw[1])))
         if low < self.minimum or high > self.maximum:
             raise AnswerError("rango fuera del slider")
-        return low, high
+        snap = lambda v: snap_to_step(v, self.minimum, self.maximum, self.step)  # noqa: E731
+        return snap(low), snap(high)
 
     def overlap_ratio(self, low: float, high: float) -> float:
         """Intersection over union of the player's and the correct range (0..1)."""
