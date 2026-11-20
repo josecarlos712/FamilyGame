@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import logging
+import random
 import unicodedata
 from pathlib import Path
 from typing import Any
@@ -98,6 +99,20 @@ class MusicLibrary:
         if base not in target.parents or not target.is_file():
             return None
         return target
+
+    def pick_next(self, current: str, recent: list[str], rng: random.Random | None = None) -> str:
+        """A random song file to play after ``current``, avoiding the ones heard most recently.
+
+        Up to half of the other songs are skipped if they were among the last played. With a
+        single file the answer is ``current`` again; with none, the built-in tune.
+        """
+        files = [t for t in self.tracks() if t != BUILT_IN]
+        if not files:
+            return BUILT_IN
+        others = [t for t in files if t != current] or files
+        avoid = set(recent[-(len(others) // 2):]) if len(others) > 1 else set()
+        fresh = [t for t in others if t not in avoid] or others
+        return (rng or random).choice(fresh)
 
     def listing(self) -> dict[str, Any]:
         """What the host's phone shows: every track with its title, and the favourites."""

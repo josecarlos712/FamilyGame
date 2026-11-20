@@ -25,13 +25,16 @@ function fit() {
 addEventListener("resize", fit);
 fit();
 
-connect("/ws/tv", {
+const net = connect("/ws/tv", {
   onStatus: (ok) => document.getElementById("offline").hidden = ok,
   onMessage(msg) {
     if (msg.t === "welcome") info = msg;
     if (msg.t === "state") render(msg.state);
   },
 });
+
+// When a song from musica/ ends, the server picks the next one at random for every screen.
+sound.onEnded((track, play) => net.send({ t: "ended", track, play }));
 
 function playerById(id) { return state?.players.find((p) => p.id === id); }
 function catById(id) { return state?.categories.find((c) => c.id === id); }

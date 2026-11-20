@@ -153,6 +153,10 @@ poner tus propias canciones.
   reanuda (sigue por donde iba), hay buscador (sin importar tildes) y ☆ para marcarlas como
   favoritas, que salen las primeras. Los favoritos y la última canción se guardan en
   `data/musica.json`; ↻ vuelve a leer la carpeta sin reiniciar.
+- **Volumen de la música:** un slider en esa misma tarjeta regula solo la música de fondo (el
+  volumen general sigue en la tarjeta «Sonido de la tele» del lobby).
+- **Siguiente canción:** cuando una canción termina, la tele pasa a otra al azar (evita repetir las
+  últimas que sonaron). Si la música está parada, no avanza.
 
 - **Silenciar o ajustar:** el anfitrión tiene un botón 🔊/🔇 en la cabecera de su móvil (en cualquier
   pantalla) y, en el lobby, la tarjeta «Sonido de la tele» con música, efectos y volumen.

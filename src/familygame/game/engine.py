@@ -72,8 +72,10 @@ class Settings:
     disabled: set[str] = field(default_factory=set)
     music: bool = True  # False = the background music is paused
     track: str = ""  # background music: a file in musica/ ("" = the built-in tune)
+    track_play: int = 0  # goes up each time a song starts, so the TV restarts it even if it is the same
     sfx: bool = True
     volume: int = 70
+    music_volume: int = 100  # background music level, on top of the master volume
     late_join: str = "zero"  # points of someone joining a running match: zero | average | fixed
     late_points: int = 0
 
@@ -88,8 +90,10 @@ class Settings:
             "disabled": sorted(self.disabled),
             "music": self.music,
             "track": self.track,
+            "trackPlay": self.track_play,
             "sfx": self.sfx,
             "volume": self.volume,
+            "musicVolume": self.music_volume,
             "lateJoin": self.late_join,
             "latePoints": self.late_points,
         }
@@ -504,6 +508,20 @@ class Game:
 
     # ------------------------------------------------------------------ lobby
 
+    def next_track(self, ended: str, play: int, track: str) -> bool:
+        """A TV says song ``ended`` (start number ``play``) finished: move on to ``track``.
+
+        Several TVs report the same ending; only the first one, still matching the song that is
+        playing, counts. Returns whether the song changed.
+        """
+        s = self.settings
+        if not ended or ended != s.track or play != s.track_play or not s.music:
+            return False
+        s.track = track
+        s.track_play += 1
+        self._touch()
+        return True
+
     def set_settings(self, pid: str, changes: dict[str, Any]) -> None:
         """Host changes lobby options. Unknown keys are ignored."""
         self._require_host(pid)
@@ -519,11 +537,17 @@ class Game:
             if isinstance(vol, bool) or not isinstance(vol, (int, float)):
                 raise GameError("Valor no válido para volume")
             s.volume = max(0, min(100, int(vol)))
+        if "musicVolume" in changes:
+            level = changes["musicVolume"]
+            if isinstance(level, bool) or not isinstance(level, (int, float)):
+                raise GameError("Valor no válido para musicVolume")
+            s.music_volume = max(0, min(100, int(level)))
         if "track" in changes:  # the server checks that the file exists
             track = changes["track"]
             if not isinstance(track, str) or len(track) > MAX_TRACK_LENGTH:
                 raise GameError("Canción no válida")
             s.track = track
+            s.track_play += 1
         if "lateJoin" in changes:
             if changes["lateJoin"] not in LATE_JOIN_MODES:
                 raise GameError("Valor no válido para lateJoin")
@@ -534,7 +558,7 @@ class Game:
                 raise GameError("Valor no válido para latePoints")
             s.late_points = max(0, min(100_000, int(value)))
         if self.phase not in (LOBBY, FINISHED):
-            if set(changes) - {"music", "track", "sfx", "volume", "lateJoin", "latePoints"}:
+            if set(changes) - {"music", "track", "sfx", "volume", "musicVolume", "lateJoin", "latePoints"}:
                 raise GameError("Las opciones se cambian antes de empezar")
             self._touch()
             return

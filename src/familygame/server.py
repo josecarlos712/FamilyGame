@@ -151,6 +151,7 @@ class GameServer:
         self._saved_path: Path | None = None  # file the match shown in the menu came from
         self.last_ip: dict[str, str] = {}  # player id -> address of their phone (kept in memory only)
         self.music = MusicLibrary(paths.music, paths.data / "musica.json")
+        self.recent_tracks: list[str] = []  # songs played, newest last, so the shuffle avoids repeats
         self.game.settings.track = self.music.last_track
         self._load_saved_match()
 
@@ -375,7 +376,7 @@ class GameServer:
                 raise GameError("Esa canción ya no está en la carpeta de música")
             game.set_settings(pid, changes)
             if isinstance(track, str):
-                self.music.remember(track)
+                self._played(track)
         elif kind in ("music", "musicFav"):  # the host's list of songs, and marking favourites
             if pid != game.host_id:
                 raise GameError("Solo el anfitrión puede elegir la música")
@@ -440,6 +441,25 @@ class GameServer:
         else:
             raise GameError("Mensaje desconocido")
 
+    def _played(self, track: str) -> None:
+        self.music.remember(track)
+        if track:
+            self.recent_tracks = [*(t for t in self.recent_tracks if t != track), track][-50:]
+
+    def handle_tv(self, msg: Any) -> None:
+        """A TV only reports that a song finished: {t: "ended", track, play}."""
+        if not isinstance(msg, dict) or msg.get("t") != "ended":
+            return
+        ended, play = msg.get("track"), msg.get("play")
+        if not isinstance(ended, str) or isinstance(play, bool) or not isinstance(play, int):
+            return
+        s = self.game.settings
+        if ended != s.track or play != s.track_play:
+            return  # another TV already moved on
+        track = self.music.pick_next(ended, self.recent_tracks)
+        if self.game.next_track(ended, play, track):
+            self._played(track)
+
     async def phone_socket(self, ws: WebSocket) -> None:
         await ws.accept()
         async with self.lock:
@@ -478,7 +498,11 @@ class GameServer:
             await self.broadcast(force=True)
         try:
             while True:
-                await ws.receive_text()  # the TV only listens
+                text = await ws.receive_text()  # the TV only says when a song has finished
+                async with self.lock:
+                    with contextlib.suppress(ValueError):
+                        self.handle_tv(json.loads(text) if len(text) < 2000 else None)
+                    await self.broadcast()
         except WebSocketDisconnect:
             pass
         finally:

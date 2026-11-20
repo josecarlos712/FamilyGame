@@ -271,18 +271,34 @@ const fold = (text) => text.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase(
 const musicCard = (() => {
   let data = null; // { tracks: [{id, name, folder}], favorites: [id] }
   let asked = false;
-  let current = { track: "", music: true };
+  let current = { track: "", music: true, volume: 100 };
   const search = h("input.music-search", {
     type: "search", placeholder: "Buscar canción…", autocomplete: "off", "aria-label": "Buscar canción",
     oninput: () => drawList(),
   });
   const nowPlaying = h("div.music-now");
+  // volume of the music only (the master volume is in the lobby): sent while dragging, at most every 120 ms
+  let lastSent = 0;
+  let timer = 0;
+  const sendVolume = (value) => { lastSent = Date.now(); net.send({ t: "settings", changes: { musicVolume: value } }); };
+  const volLabel = h("output.music-vol-value", "100%");
+  const volume = h("input.music-vol", {
+    type: "range", min: 0, max: 100, step: 5, value: 100, "aria-label": "Volumen de la música",
+    oninput: () => {
+      const v = Number(volume.value);
+      volLabel.textContent = `${v}%`;
+      clearTimeout(timer);
+      if (Date.now() - lastSent > 120) sendVolume(v);
+      else timer = setTimeout(() => sendVolume(v), 120); // the last position always arrives
+    },
+  });
+  const volRow = h("label.music-volrow", h("span.music-vol-icon", { "aria-hidden": "true" }, "🔈"), volume, volLabel);
   const list = h("div.music-list", { role: "list" });
   const count = h("small.muted");
   const refresh = h("button.btn.ghost.mini", { type: "button", title: "Volver a leer la carpeta musica/", onclick: () => net.send({ t: "music" }) }, "↻");
   const el = h("div.card.music-card",
     h("div.music-head", h("p.card-title", "Música de la tele"), refresh),
-    nowPlaying, search, list, count);
+    nowPlaying, volRow, search, list, count);
 
   const setMusic = (changes) => net.send({ t: "settings", changes });
   const nameOf = (id) => data?.tracks.find((t) => t.id === id)?.name || (id ? id.split("/").pop() : "Melodía tranquila (de serie)");
@@ -327,7 +343,11 @@ const musicCard = (() => {
     el,
     setData(msg) { data = { tracks: msg.tracks || [], favorites: msg.favorites || [] }; drawNow(); drawList(); },
     update(s) {
-      const next = { track: s.settings.track || "", music: !!s.settings.music };
+      const next = { track: s.settings.track || "", music: !!s.settings.music, volume: s.settings.musicVolume ?? 100 };
+      if (document.activeElement !== volume && next.volume !== current.volume) { // not while it is being dragged
+        volume.value = next.volume;
+        volLabel.textContent = `${next.volume}%`;
+      }
       const changed = next.track !== current.track || next.music !== current.music;
       current = next;
       if (!asked) { asked = true; net.send({ t: "music" }); }

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import random
 from pathlib import Path
 
 import pytest
@@ -52,3 +53,26 @@ def test_a_missing_or_broken_store_is_ignored(tmp_path: Path) -> None:
     store.write_text("{roto", encoding="utf-8")
     library = MusicLibrary(tmp_path / "no_hay_carpeta", store)
     assert library.tracks() == [BUILT_IN] and library.favorites == [] and library.last_track == BUILT_IN
+
+
+def test_next_song_is_random_and_avoids_the_last_ones(tmp_path: Path) -> None:
+    folder = tmp_path / "musica"
+    folder.mkdir()
+    names = [f"c{i}.mp3" for i in range(6)]
+    for name in names:
+        (folder / name).write_bytes(b"x")
+    library = MusicLibrary(folder, tmp_path / "musica.json")
+    rng = random.Random(1)
+    picks = {library.pick_next("c0.mp3", ["c0.mp3", "c1.mp3", "c2.mp3"], rng) for _ in range(200)}
+    assert picks == {"c3.mp3", "c4.mp3", "c5.mp3"}  # never the current one nor the recent ones
+    assert len({library.pick_next("c0.mp3", [], rng) for _ in range(200)}) == 5
+
+
+def test_next_song_with_one_or_no_files(tmp_path: Path) -> None:
+    folder = tmp_path / "musica"
+    folder.mkdir()
+    library = MusicLibrary(folder, tmp_path / "musica.json")
+    assert library.pick_next("borrada.mp3", []) == BUILT_IN
+    (folder / "sola.ogg").write_bytes(b"x")
+    assert library.pick_next("sola.ogg", ["sola.ogg"]) == "sola.ogg"
+    assert library.pick_next(BUILT_IN, []) == "sola.ogg"

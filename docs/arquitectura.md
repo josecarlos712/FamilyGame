@@ -125,7 +125,10 @@ El ajuste `track` es la ruta relativa de la canción (`""` = melodía de serie) 
 sonando/parada. `src/familygame/music.py` (`MusicLibrary`) lista la carpeta, valida las rutas (la tele
 pide el archivo en `/music/<ruta>`) y guarda favoritos y última canción en `data/musica.json`. El
 móvil del anfitrión pide la lista con `{t: "music"}` y marca favoritas con `{t: "musicFav", track}`;
-el servidor contesta solo a ese móvil con `{t: "music", tracks, favorites}`. Solo suena
+el servidor contesta solo a ese móvil con `{t: "music", tracks, favorites}`. Al acabar una canción la
+tele envía `{t: "ended", track, play}` (`play` = `trackPlay`, que sube en cada cambio): el servidor
+elige otra al azar (`MusicLibrary.pick_next`) y la publica en el siguiente `state`; si varias teles
+avisan a la vez, solo cuenta la primera. `musicVolume` (0-100) escala solo el bus de música. Solo suena
 la tele: `web/js/tv.js` compara el estado anterior con el nuevo y decide qué efecto toca
 (`soundCues`). Los ajustes `music`, `sfx` y `volume` viven en `Settings` del motor, los cambia el
 anfitrión con el mensaje `settings` **en cualquier fase** (el resto de opciones solo en el lobby) y

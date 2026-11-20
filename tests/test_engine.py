@@ -353,6 +353,21 @@ def test_sound_settings_change_during_the_game(registry: TypeRegistry, clock: Cl
     assert game.settings.public()["music"] is False
     game.set_settings(host, {"track": "algo.mp3"})  # also allowed while playing
     assert game.settings.public()["track"] == "algo.mp3"
+    game.set_settings(host, {"music": True})  # a paused TV does not play, so it never reports an end
+    play = game.settings.track_play
+    assert not game.next_track("otra.mp3", play, "x.mp3")  # not the song that is playing
+    assert not game.next_track("algo.mp3", play - 1, "x.mp3")  # an older start of it
+    assert game.next_track("algo.mp3", play, "x.mp3")
+    assert game.settings.track == "x.mp3" and game.settings.track_play == play + 1
+    game.set_settings(host, {"musicVolume": 300})
+    assert game.settings.music_volume == 100
+    game.set_settings(host, {"musicVolume": 35})
+    assert game.settings.public()["musicVolume"] == 35
+    with pytest.raises(GameError):
+        game.set_settings(host, {"musicVolume": "alto"})
+    with pytest.raises(GameError):
+        game.set_settings(other, {"musicVolume": 10})
+    assert not game.next_track("algo.mp3", play, "y.mp3")  # a second TV reporting the same end
     with pytest.raises(GameError):
         game.set_settings(host, {"track": 5})
 

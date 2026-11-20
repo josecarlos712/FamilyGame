@@ -1,8 +1,10 @@
 // Sound for the TV: effects synthesised with WebAudio and background music, either the built-in
 // synthesised tune or a song from the musica/ folder that the host picks on their phone.
 //
-//   sound.apply({ music, track, sfx, volume })   settings coming from the server (the host's phone)
-//                                                 music = playing (false = paused), track "" = built-in
+//   sound.apply({ music, track, trackPlay, sfx, volume })   settings from the server (the host's phone)
+//                                     music = playing (false = paused), track "" = built-in,
+//                                     trackPlay goes up each time a song (re)starts
+//   sound.onEnded(cb)                 cb(track, trackPlay) when a song finishes: the server picks the next
 //   sound.play("acierto")                 one effect
 //   sound.onLock(cb)                      cb(true) while the browser still blocks audio
 //
@@ -15,7 +17,9 @@ let master = null;
 let sfxBus = null;
 let musicOut = null;
 let reverb = null;
-let settings = { music: true, track: "", sfx: true, volume: 70 };
+let settings = { music: true, track: "", trackPlay: 0, sfx: true, volume: 70, musicVolume: 100 };
+let ducked = false;
+let endedListener = null;
 let localMute = false;
 const lockListeners = new Set();
 
@@ -42,7 +46,7 @@ function ensure() {
   sfxBus = ctx.createGain();
   sfxBus.connect(master);
   musicOut = ctx.createGain();
-  musicOut.gain.value = 0.55;
+  musicOut.gain.value = musicLevel();
   musicOut.connect(master);
   reverb = makeReverb(ctx);
   const wet = ctx.createGain();
@@ -51,6 +55,12 @@ function ensure() {
   ctx.addEventListener("statechange", notifyLock);
   refresh();
   return ctx;
+}
+
+// Level of the music bus: the host's music slider (squared, so it feels even), lower while a question is open.
+function musicLevel() {
+  const slider = Math.pow(settings.musicVolume / 100, 2);
+  return (ducked ? 0.3 : 0.55) * slider;
 }
 
 function locked() { return !!ctx && ctx.state !== "running"; }
@@ -68,12 +78,13 @@ function refresh() {
   if (!ctx) return;
   const level = localMute ? 0 : Math.pow(settings.volume / 100, 1.6) * 0.9;
   master.gain.setTargetAtTime(level, ctx.currentTime, 0.08);
+  musicOut.gain.setTargetAtTime(musicLevel(), ctx.currentTime, 0.15);
   const playing = settings.music && !localMute;
   if (settings.track) {
     stopMusic();
-    playFile(settings.track, playing);
+    playFile(settings.track, settings.trackPlay, playing);
   } else {
-    playFile("", false);
+    playFile("", 0, false);
     if (playing) startMusic();
     else stopMusic();
   }
@@ -229,27 +240,32 @@ function scheduleBar(at, chord) {
 // ----- songs from the musica/ folder ------------------------------------------------------------
 // One <audio> element routed through the music bus, so volume, ducking and the local mute apply.
 // Pausing keeps the position, so "resume" continues the song; a new song starts from the top.
+// When a song ends the TV tells the server, which picks another one at random for everyone.
 let fileAudio = null;
 let fileGain = null;
 let fileTrack = "";
+let filePlay = -1;
 
-function playFile(track, playing) {
+function playFile(track, play, playing) {
   if (!track) {
     if (fileAudio && !fileAudio.paused) fadeOutAndPause();
     return;
   }
   if (!fileAudio) {
     fileAudio = new Audio();
-    fileAudio.loop = true;
     fileAudio.preload = "auto";
     fileAudio.addEventListener("error", () => console.warn("No se pudo reproducir", fileTrack));
+    fileAudio.addEventListener("ended", () => endedListener?.(fileTrack, filePlay));
     fileGain = ctx.createGain();
     ctx.createMediaElementSource(fileAudio).connect(fileGain).connect(musicOut);
   }
   if (track !== fileTrack) {
     fileTrack = track;
     fileAudio.src = "/music/" + track.split("/").map(encodeURIComponent).join("/");
+  } else if (play !== filePlay && filePlay !== -1) {
+    fileAudio.currentTime = 0; // the same song again (the folder has only one)
   }
+  filePlay = play;
   if (!playing) { if (!fileAudio.paused) fadeOutAndPause(); return; }
   if (ctx.state !== "running") return; // refresh() runs again once the browser allows audio
   clearTimeout(fileAudio.__fade);
@@ -271,7 +287,9 @@ export const sound = {
     if (!next) return;
     settings = {
       music: next.music !== false, track: typeof next.track === "string" ? next.track : "",
+      trackPlay: Number.isFinite(next.trackPlay) ? next.trackPlay : 0,
       sfx: next.sfx !== false, volume: Number.isFinite(next.volume) ? next.volume : 70,
+      musicVolume: Number.isFinite(next.musicVolume) ? next.musicVolume : 100,
     };
     refresh();
   },
@@ -279,7 +297,8 @@ export const sound = {
   /** Quiet the music a bit while a question is open. */
   duck(on) {
     if (!ctx) return;
-    musicOut.gain.setTargetAtTime(on ? 0.3 : 0.55, ctx.currentTime, 0.6);
+    ducked = on;
+    musicOut.gain.setTargetAtTime(musicLevel(), ctx.currentTime, 0.6);
   },
   /** Local mute for this TV only (key M), on top of the host's setting. */
   toggleLocalMute() {
@@ -287,6 +306,7 @@ export const sound = {
     refresh();
     return localMute;
   },
+  onEnded(cb) { endedListener = cb; },
   onLock(cb) { lockListeners.add(cb); cb(locked() || !ctx); },
   unlock,
   /** For tests: the audio graph's master node and context. */

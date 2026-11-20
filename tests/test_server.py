@@ -23,6 +23,7 @@ def client(root: Path, tmp_path: Path) -> TestClient:
     paths.music = tmp_path / "musica"
     paths.music.mkdir()
     (paths.music / "Tema_de_prueba.mp3").write_bytes(b"ID3" + b"0" * 64)
+    (paths.music / "Otro_tema.mp3").write_bytes(b"ID3" + b"1" * 64)
     (paths.music / "notas.txt").write_text("no es audio", encoding="utf-8")
     config = AppConfig()
     config.timing.choose = 0.1  # the engine acts for the chooser right after the intro
@@ -248,8 +249,8 @@ def test_host_picks_pauses_and_favourites_music(client: TestClient) -> None:
             recv_until(ws, "joined")
         host.send_json({"t": "music"})
         listing = recv_until(host, "music")
-        assert [t["id"] for t in listing["tracks"]] == ["", "Tema_de_prueba.mp3"]
-        assert listing["tracks"][1]["name"] == "Tema de prueba" and listing["favorites"] == []
+        assert [t["id"] for t in listing["tracks"]] == ["", "Otro_tema.mp3", "Tema_de_prueba.mp3"]
+        assert listing["tracks"][2]["name"] == "Tema de prueba" and listing["favorites"] == []
 
         guest.send_json({"t": "music"})
         assert "anfitrión" in recv_until(guest, "error")["msg"]
@@ -270,6 +271,28 @@ def test_host_picks_pauses_and_favourites_music(client: TestClient) -> None:
             if not st["music"]:
                 break
         assert st["music"] is False and st["track"] == "Tema_de_prueba.mp3"
+        host.send_json({"t": "settings", "changes": {"music": True}})
+
+        # the song ends on two TVs: the server moves on once, to the other song
+        play = st["trackPlay"]
+        with client.websocket_connect("/ws/tv") as tv1, client.websocket_connect("/ws/tv") as tv2:
+            recv_until(tv1, "welcome")
+            recv_until(tv2, "welcome")
+            tv1.send_json({"t": "ended", "track": "Tema_de_prueba.mp3", "play": play})
+            tv2.send_json({"t": "ended", "track": "Tema_de_prueba.mp3", "play": play})
+            tv2.send_text("basura")
+            for _ in range(20):
+                st = recv_until(host, "state")["state"]["settings"]
+                if st["track"] != "Tema_de_prueba.mp3":
+                    break
+            assert st["track"] == "Otro_tema.mp3" and st["trackPlay"] == play + 1
+            tv1.send_json({"t": "ended", "track": "Otro_tema.mp3", "play": play + 1})
+            for _ in range(20):
+                st = recv_until(host, "state")["state"]["settings"]
+                if st["trackPlay"] == play + 2:
+                    break
+            assert st["track"] == "Tema_de_prueba.mp3"
+        assert client.app.state.server.game.settings.track_play == play + 2  # tv2's report was ignored
 
         host.send_json({"t": "musicFav", "track": "Tema_de_prueba.mp3"})
         assert recv_until(host, "music")["favorites"] == ["Tema_de_prueba.mp3"]
