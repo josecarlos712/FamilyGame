@@ -162,6 +162,7 @@ class Game:
         self.players: dict[str, Player] = {}
         self.order: list[str] = []
         self.settings = Settings()
+        self.saved: dict[str, Any] | None = None  # stored match (see save_and_exit)
         self.version = 0
         self.log: list[dict[str, Any]] = []
         self._log_id = 0
@@ -422,6 +423,173 @@ class Game:
         self._require_host(pid)
         self._reset_match()
         self._say("De vuelta al lobby", None, "info")
+
+    # ------------------------------------------------------------------ save / resume
+
+    def save_and_exit(self, pid: str, now: float) -> dict[str, Any]:
+        """Host stores the match in ``self.saved`` and returns everyone to the lobby.
+
+        The match is saved at a question boundary: a question still being played is
+        dropped (its chooser picks again when the match is resumed); a pending reveal
+        or board movement is finished first.
+
+        Args:
+            pid: Player asking (must be the host).
+            now: Current time.
+
+        Returns:
+            The snapshot (JSON-serialisable); the server writes it to disk.
+
+        Raises:
+            GameError: Not host, no match running, or a tie-break in progress.
+        """
+        self._require_host(pid)
+        if self.phase in (LOBBY, FINISHED):
+            raise GameError("No hay ninguna partida en curso que guardar")
+        for _ in range(4):  # let the reveal and the board movement finish
+            if self.phase in (REVEAL, BOARD):
+                self.deadline = now
+                self.tick(now)
+        cur = self.current
+        if self.phase in (TIEBREAK,) or (cur and cur.tiebreak) or self.phase == FINISHED:
+            raise GameError("No se puede guardar durante un desempate; termina antes la pregunta")
+        chooser = self.chooser_id
+        duels = list(self.pending_duels)
+        if self.phase in (READING, ANSWERING) and cur:
+            chooser = cur.chooser_id
+            if chooser:
+                self.chosen_this_round.discard(chooser)
+            duels += cur.duels
+        s = self.settings
+        snapshot = {
+            "version": 1,
+            "savedAt": now,
+            "settings": {
+                "mode": s.mode, "targetPoints": s.target_points, "rounds": s.rounds,
+                "categoriesToClose": s.categories_to_close, "hitsToClose": s.hits_to_close,
+                "categoriesPerTurn": s.categories_per_turn, "disabled": sorted(s.disabled),
+            },
+            "board": list(self.board.spaces),
+            "used": sorted(self.used),
+            "roundNo": self.round_no,
+            "questionNo": self.question_no,
+            "chosen": sorted(self.chosen_this_round),
+            "lastChooser": self.last_chooser,
+            "chooser": chooser,
+            "pendingDuels": [list(d) for d in duels],
+            "order": list(self.order),
+            "players": [
+                {
+                    "id": p.id, "token": p.token, "name": p.name, "color": p.color, "avatar": p.avatar,
+                    "photoVersion": p.photo_version, "points": p.points, "position": p.position,
+                    "closed": list(p.closed), "progress": dict(p.progress), "doubleNext": p.double_next,
+                    "correct": p.correct_count, "asked": p.asked_count,
+                }
+                for p in (self.players[i] for i in self.order)
+            ],
+        }
+        self.saved = snapshot
+        self._reset_match()
+        self._say("Partida guardada. Se puede continuar desde el menú", None, "info")
+        return snapshot
+
+    def saved_summary(self) -> dict[str, Any] | None:
+        """What the menu shows about the stored match."""
+        data = self.saved
+        if not data:
+            return None
+        return {
+            "players": [p["name"] for p in data["players"]],
+            "round": data["roundNo"],
+            "questions": data["questionNo"],
+            "mode": data["settings"]["mode"],
+            "savedAt": data["savedAt"],
+        }
+
+    def load_saved(self, data: dict[str, Any]) -> None:
+        """Adopt a match stored on disk (server start-up).
+
+        Its players are added as disconnected so their phones, which keep the token,
+        get their identity back by themselves; the host can then resume.
+        """
+        self.saved = data
+        for saved in data["players"][: self.max_players]:
+            if saved["id"] in self.players:
+                continue
+            player = Player(saved["id"], saved["token"], saved["name"], saved["color"], saved["avatar"], connected=False)
+            player.photo_version = saved.get("photoVersion", 0)
+            self.players[player.id] = player
+            self.order.append(player.id)
+        self._touch()
+
+    def discard_saved(self, pid: str) -> None:
+        """Host forgets the stored match (and the players that only exist because of it)."""
+        self._require_host(pid)
+        data, self.saved = self.saved, None
+        for saved in (data or {}).get("players", []):
+            player = self.players.get(saved["id"])
+            if player and not player.connected and self.phase in (LOBBY, FINISHED):
+                del self.players[saved["id"]]
+                self.order.remove(saved["id"])
+        self._touch()
+
+    def resume(self, pid: str, now: float) -> None:
+        """Host continues the stored match with whoever is here.
+
+        Players of the save that are not connected stay in the match as disconnected
+        (their phones rejoin by themselves); players who joined since start from 0.
+
+        Raises:
+            GameError: Not host, a match is running, or nothing is saved.
+        """
+        self._require_host(pid)
+        if self.phase not in (LOBBY, FINISHED):
+            raise GameError("Ya hay una partida en marcha")
+        data = self.saved
+        if not data:
+            raise GameError("No hay ninguna partida guardada")
+        s = self.settings
+        cfg = data["settings"]
+        s.mode, s.target_points, s.rounds = cfg["mode"], cfg["targetPoints"], cfg["rounds"]
+        s.categories_to_close, s.hits_to_close = cfg["categoriesToClose"], cfg["hitsToClose"]
+        s.categories_per_turn = cfg["categoriesPerTurn"]
+        s.disabled = {c for c in cfg["disabled"] if c in self.library.categories}
+        self._reset_match()
+        self.board = Board(list(data["board"]))
+        self.used = set(data["used"])
+        self.round_no, self.question_no = data["roundNo"], data["questionNo"]
+        self.chosen_this_round = set(data["chosen"])
+        self.last_chooser = data["lastChooser"]
+        self.pending_duels = [(a, b) for a, b in data["pendingDuels"]]
+        for saved in data["players"]:
+            player = self.players.get(saved["id"])
+            if player is None:
+                if len(self.players) >= self.max_players:
+                    continue
+                name = saved["name"]
+                while any(name_key(o.name) == name_key(name) for o in self.players.values()):
+                    name += "*"
+                color = saved["color"]
+                if color in self.taken_colors(None):
+                    color = next((c for c in PALETTE_COLORS if c not in self.taken_colors(None)), color)
+                player = Player(saved["id"], saved["token"], name, color, saved["avatar"], connected=False)
+                player.photo_version = saved.get("photoVersion", 0)
+                self.players[player.id] = player
+            player.points, player.position = saved["points"], saved["position"]
+            player.closed, player.progress = list(saved["closed"]), dict(saved["progress"])
+            player.double_next = saved["doubleNext"]
+            player.correct_count, player.asked_count = saved["correct"], saved["asked"]
+        self.order = [i for i in data["order"] if i in self.players] + [
+            i for i in self.players if i not in data["order"]
+        ]
+        self.chosen_this_round &= set(self.players)
+        self.pending_duels = [(a, b) for a, b in self.pending_duels if a in self.players and b in self.players]
+        self.saved = None
+        self._say("Se reanuda la partida guardada", None, "start")
+        chooser = data["chooser"]
+        if chooser not in self.players or not self.players[chooser].connected:
+            chooser = self._next_chooser()
+        self._begin_choosing(chooser, now)
 
     # ------------------------------------------------------------------ choosing
 
@@ -990,6 +1158,7 @@ class Game:
             "tiebreakPlayers": self.tiebreak_players if in_tiebreak else [],
             "maxPlayers": self.max_players,
             "chooseTime": self.timing.choose,
+            "saved": self.saved_summary() if self.phase in (LOBBY, FINISHED) else None,
         }
 
     def tv_view(self) -> dict[str, Any]:

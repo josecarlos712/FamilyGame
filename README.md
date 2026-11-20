@@ -83,6 +83,21 @@ Con el servidor arrancado, el anfitrión puede pulsar **«Recargar preguntas»**
 ver los cambios sin reiniciar. Las preguntas con errores se ignoran y la tele las lista en el lobby
 (archivo y motivo); el resto de la categoría sigue funcionando.
 
+## Guardar la partida y volver al menú
+
+El anfitrión tiene en su móvil, durante la partida, el botón **«💾 Guardar y volver al menú»**
+(y «Terminar sin guardar» si no quiere conservarla). La partida se guarda en
+`data/partida_guardada.json` con los puntos, casillas, categorías cerradas, rondas y fotos.
+
+- Si había una pregunta abierta, se descarta y vuelve a elegir quien tenía el turno.
+- En el menú (lobby) aparece la tarjeta **«Partida guardada»** con **Continuar** y **Descartar**.
+  Sobrevive a cerrar y volver a abrir el programa: los móviles recuperan su jugador solos.
+- Al continuar, quien no está conectado queda como «desconectado» y se salta su turno; quien se
+  haya unido después entra con 0 puntos. Solo hay una partida guardada (guardar otra la sustituye).
+- No se puede guardar durante un desempate.
+
+Se puede entrar a mitad de partida (con 0 puntos) mientras haya sitio (máximo 6).
+
 ## Sonido
 
 La tele reproduce efectos (acierto, fallo, cuenta atrás, eventos del tablero, fanfarria…) y una

@@ -130,9 +130,13 @@ function hostBar(s, label = "Continuar ▸") {
 
 function hostEnd(s) {
   if (!s.me?.host) return null;
-  return h("button.btn.danger.small-end", { type: "button", onclick: () => {
-    if (confirm("¿Terminar la partida y volver al lobby? Se pierden los puntos.")) net.send({ t: "lobby" });
-  } }, "Terminar partida");
+  return h("div.end-bar",
+    h("button.btn.ghost.small-end", { type: "button", onclick: () => {
+      if (confirm("¿Guardar la partida y volver al menú? Podréis continuarla más tarde.")) net.send({ t: "save" });
+    } }, "💾 Guardar y volver al menú"),
+    h("button.btn.danger.small-end", { type: "button", onclick: () => {
+      if (confirm("¿Terminar la partida y volver al lobby? Se pierden los puntos.")) net.send({ t: "lobby" });
+    } }, "Terminar sin guardar"));
 }
 
 // ----- profile -----------------------------------------------------------------------------
@@ -279,6 +283,14 @@ function lobbyScreen() {
             : "Cerrar una categoría (aciertos o casilla ★) da +100 puntos."),
           stepper("Categorías para elegir cada turno", st.categoriesPerTurn, 0, 12, 1, (v) => send({ categoriesPerTurn: v }), (v) => v === 0 ? "Todas" : v));
       }
+      const sv = s.saved;
+      const savedCard = sv ? h("div.card.saved-card",
+        h("p.card-title", "💾 Partida guardada"),
+        h("p.hint", `${sv.players.join(", ")} · ronda ${sv.round} · ${modeText({ ...st, mode: sv.mode })}`),
+        me.host ? h("button.btn.primary.block", { type: "button", onclick: () => net.send({ t: "resume" }) }, "▶ Continuar partida guardada") : h("p.waiting", "El anfitrión puede continuarla"),
+        me.host ? h("button.btn.danger.block", { type: "button", onclick: () => {
+          if (confirm("¿Descartar la partida guardada? No se puede recuperar.")) net.send({ t: "discard" });
+        } }, "Descartar partida guardada") : null) : null;
       const sendSound = (changes) => net.send({ t: "settings", changes });
       const soundCard = me.host ? h("div.card",
         h("p.card-title", "Sonido de la tele"),
@@ -304,7 +316,7 @@ function lobbyScreen() {
         : h("p.waiting", `Esperando a que ${host ? host.name : "el anfitrión"} empiece… · ${modeText(st)}`);
       fill(el,
         header(s, h("button.btn.ghost.mini", { type: "button", onclick: () => { editing = true; render(true); } }, "Editar")),
-        actions, players, settings || null, soundCard, cats,
+        savedCard, actions, players, settings || null, soundCard, cats,
         h("button.btn.danger.block", { type: "button", onclick: () => { if (confirm("¿Salir de la partida?")) net.send({ t: "leave" }); } }, "Salir de la partida"));
     },
   };
@@ -332,7 +344,7 @@ function choosingScreen() {
               h("span.cat-icon", c.icon), h("span", c.name));
           }), h("button.cat-btn.random", { type: "button", onclick: () => net.send({ t: "choose", category: "__random__" }) },
             h("span.cat-icon", "🎲"), h("span", "Al azar"))),
-          h("p.hint.center", "Quedan ", h("b", { dataset: { timenum: "" } }), " s; si no, se elige al azar"));
+          h("p.hint.center", "Quedan ", h("b", { dataset: { timenum: "" } }), " s; si no, se elige al azar"), hostEnd(s));
       } else {
         fill(el, header(s), h("div.center-msg",
           chooser ? avatar(chooser, 96) : null,
@@ -354,10 +366,11 @@ function questionScreen() {
   const timebar = h("div.timebar", { dataset: { timebar: "" } }, h("i"));
   const qnum = h("span.q-num", { dataset: { timenum: "" } });
   let head = header(s0, qnum);
+  const endSlot = h("div.end-slot"); // host: save and leave the match from any moment
   const el = h("div.screen.question", { style: { "--cc": q.category.color } },
     head,
     h("p.q-cat", q.category.icon, " ", q.category.name, q.tiebreak ? " · Desempate" : ""),
-    prompt, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, timebar, result, canvas, status);
+    prompt, q.image ? h("img.q-image", { src: q.image, alt: "" }) : null, timebar, result, canvas, status, endSlot);
   let mod = null;
   let loading = false;
   let locked = false;
@@ -402,6 +415,7 @@ function questionScreen() {
     const newHead = header(s, qnum);
     head.replaceWith(newHead);
     head = newHead;
+    fill(endSlot, q.tiebreak ? null : hostEnd(s));
     el.classList.toggle("is-reading", s.phase === "reading");
     if (s.phase === "reading") {
       setTimer(() => [s.question.openAt - s.question.read, s.question.openAt]);

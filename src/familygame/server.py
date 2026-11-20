@@ -144,6 +144,40 @@ class GameServer:
         self._photo_counter = 0
         self._sent_version = -1
         self.join_url = f"http://{lan_ip()}:{config.port}/"
+        self.save_file = paths.data / "partida_guardada.json"
+        self._load_saved_match()
+
+    # ------------------------------------------------------------- saved match
+
+    def _load_saved_match(self) -> None:
+        """Pick up a match saved in an earlier run (ignored if the file is broken)."""
+        if not self.save_file.is_file():
+            return
+        try:
+            data = json.loads(self.save_file.read_text(encoding="utf-8"))
+            photos = data.pop("photos", {})
+            self.game.load_saved(data)
+            for pid, (b64, mime) in photos.items():
+                self.photos[pid] = (base64.b64decode(b64), mime)
+        except (OSError, ValueError, KeyError, TypeError) as exc:
+            log.warning("partida_guardada.json no se puede leer (%s); la ignoro", exc)
+            self.game.saved = None
+
+    def _write_saved_match(self, snapshot: dict[str, Any]) -> None:
+        """Store the match (with the players' photos) so it survives a restart."""
+        photos = {
+            p["id"]: [base64.b64encode(self.photos[p["id"]][0]).decode("ascii"), self.photos[p["id"]][1]]
+            for p in snapshot["players"]
+            if p["id"] in self.photos
+        }
+        self.paths.data.mkdir(parents=True, exist_ok=True)
+        tmp = self.save_file.with_suffix(".tmp")
+        tmp.write_text(json.dumps({**snapshot, "photos": photos}, ensure_ascii=False), encoding="utf-8")
+        tmp.replace(self.save_file)
+
+    def _forget_saved_match(self) -> None:
+        with contextlib.suppress(OSError):
+            self.save_file.unlink()
 
     # ----------------------------------------------------------------- info
 
@@ -283,6 +317,14 @@ class GameServer:
             game.skip_wait(pid, now)
         elif kind == "lobby":
             game.back_to_lobby(pid)
+        elif kind == "save":
+            self._write_saved_match(game.save_and_exit(pid, now))
+        elif kind == "resume":
+            game.resume(pid, now)
+            self._forget_saved_match()
+        elif kind == "discard":
+            game.discard_saved(pid)
+            self._forget_saved_match()
         elif kind == "reload":
             self.reload_questions(pid)
         elif kind in ("kick", "leave"):

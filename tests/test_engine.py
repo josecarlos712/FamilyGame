@@ -337,3 +337,57 @@ def test_sound_settings_change_during_the_game(registry: TypeRegistry, clock: Cl
     with pytest.raises(GameError):
         game.set_settings(host, {"sfx": "si"})
     assert game.settings.public()["music"] is False
+
+
+def test_save_and_resume_keeps_the_match(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = new_game(registry)
+    plain(game)
+    game.settings.rounds = 5
+    game.start(a, clock())
+    play(game, clock, {a: 0, b: 1})  # a correct, b wrong
+    points, position = game.players[a].points, game.players[a].position
+    assert points > 0 and position > 0
+    game.choose(game.chooser_id, game.offered[0], clock())  # a question is open when saving
+    game.tick(clock())
+    assert game.phase == E.ANSWERING
+    chooser = game.chooser_id
+
+    snapshot = game.save_and_exit(a, clock())
+    assert game.phase == E.LOBBY and game.saved is snapshot
+    assert game.players[a].points == 0  # the lobby is clean
+    assert game.saved_summary()["players"] == ["Jugador 0", "Jugador 1"]
+
+    game.resume(a, clock())
+    assert game.phase == E.CHOOSING and game.saved is None
+    assert game.chooser_id == chooser  # the dropped question is picked again by the same player
+    assert (game.players[a].points, game.players[a].position) == (points, position)
+    assert game.settings.rounds == 5 and game.board.spaces == snapshot["board"]
+    json.dumps(snapshot)  # must be storable
+
+
+def test_resume_restores_absent_players_and_adds_new_ones(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = new_game(registry)
+    game.start(a, clock())
+    play(game, clock, {a: 0, b: 0})
+    snapshot = game.save_and_exit(a, clock())
+    token_b = game.players[b].token
+
+    fresh, (a2,) = new_game(registry, players=1)  # a server restart: only the host is back
+    fresh.saved = json.loads(json.dumps(snapshot))
+    fresh.players[a2].id  # new id: not the saved one
+    fresh.join("Nuevo", C[5], ICON, clock())
+    fresh.resume(a2, clock())
+    assert b in fresh.players and not fresh.players[b].connected
+    assert fresh.reconnect(token_b).id == b  # the old phone gets its player back
+    assert any(p.name == "Nuevo" and p.points == 0 for p in fresh.players.values())
+
+
+def test_cannot_save_without_a_match(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = new_game(registry)
+    with pytest.raises(GameError):
+        game.save_and_exit(a, clock())
+    with pytest.raises(GameError):
+        game.resume(a, clock())
+    game.start(a, clock())
+    with pytest.raises(GameError):
+        game.save_and_exit(b, clock())  # only the host

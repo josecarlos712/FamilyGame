@@ -180,7 +180,9 @@ function lobbyScreen() {
           p.host ? h("span.seat-badge", "👑 Anfitrión") : null,
           !p.connected ? h("span.seat-badge.is-off", "Desconectado") : null);
       }));
-      mode.textContent = modeText(s.settings);
+      mode.textContent = s.saved
+        ? `💾 Partida guardada · ronda ${s.saved.round} · el anfitrión puede continuarla`
+        : modeText(s.settings);
       const enabled = s.categories.filter((c) => c.enabled);
       const total = enabled.reduce((n, c) => n + c.count, 0);
       fill(cats,

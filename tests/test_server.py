@@ -110,3 +110,37 @@ def test_config_local_overrides_config(tmp_path):
     cfg = load_config(tmp_path / "config.toml")
     assert cfg.google_maps_api_key == "abc"
     assert cfg.port == 8765
+
+
+def test_saved_match_survives_a_restart(root: Path, tmp_path: Path) -> None:
+    paths = Paths.from_root(root)
+    paths.data = tmp_path
+    app = create_app(AppConfig(), paths, check_internet=False)
+    with TestClient(app) as c, c.websocket_connect("/ws/phone") as phone:
+        phone.send_json({"t": "hello", "token": None})
+        recv_until(phone, "welcome")
+        phone.send_json({"t": "join", "name": "Ana", "color": "#ff6b6b", "avatar": {"kind": "photo", "data": JPEG}})
+        token = recv_until(phone, "joined")["token"]
+        phone.send_json({"t": "settings", "changes": {"disabled": ["mapas"]}})
+        phone.send_json({"t": "start"})
+        recv_until(phone, "state")
+        phone.send_json({"t": "save"})
+        for _ in range(20):
+            state = recv_until(phone, "state")["state"]
+            if state["phase"] == "lobby" and state["saved"]:
+                break
+        assert state["saved"]["players"] == ["Ana"]
+    assert (tmp_path / "partida_guardada.json").is_file()
+
+    app2 = create_app(AppConfig(), paths, check_internet=False)  # "restart"
+    with TestClient(app2) as c2, c2.websocket_connect("/ws/phone") as phone:
+        phone.send_json({"t": "hello", "token": token})
+        assert recv_until(phone, "welcome")["id"] is not None  # the phone gets Ana back
+        phone.send_json({"t": "resume"})
+        for _ in range(20):
+            state = recv_until(phone, "state")["state"]
+            if state["phase"] == "choosing":
+                break
+        assert state["phase"] == "choosing" and state["saved"] is None
+        assert c2.get(state["me"]["avatar"]["url"]).content.startswith(b"\xff\xd8")  # photo restored
+    assert not (tmp_path / "partida_guardada.json").exists()
