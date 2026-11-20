@@ -1,4 +1,4 @@
-﻿starlette>=1.0
+starlette>=1.0
 uvicorn>=0.30
 websockets>=13
 segno>=1.6

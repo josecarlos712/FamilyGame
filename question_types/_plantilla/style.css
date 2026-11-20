@@ -1,0 +1,10 @@
+/* PLANTILLA · estilos del tipo. Usa un prefijo propio (aquí .qt-tpl-) para no chocar con otros tipos.
+   En la tele las medidas son píxeles de una pantalla de 1920x1080. */
+.qt-tpl { width: 100%; }
+.qt-tpl-hint { margin: 0 0 24px; font-size: 40px; color: var(--muted); }
+.qt-tpl-answers { display: grid; gap: 12px; }
+.qt-tpl-row { display: flex; align-items: center; gap: 16px; font-size: 34px; opacity: 0.6; }
+.qt-tpl-row.is-good { opacity: 1; color: var(--good); }
+
+.qt-tpl-phone { display: grid; gap: 12px; }
+.qt-tpl-input { min-height: 56px; padding: 0 16px; border: 0; border-radius: 12px; background: var(--surface); font-size: 1.3rem; }

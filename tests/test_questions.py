@@ -214,3 +214,16 @@ def test_bundled_question_files_are_valid(root: Path, registry: TypeRegistry, en
     no_maps = load_library(root / "preguntas", registry, Environment(google_maps_api_key=""))
     assert not no_maps.categories["mapas"].playable
     assert no_maps.categories["mapas"].unavailable
+
+
+def test_template_works_when_copied(tmp_path: Path, root: Path) -> None:
+    import shutil
+
+    from familygame.questions.registry import load_question_types
+
+    shutil.copytree(root / "question_types" / "_plantilla", tmp_path / "ejemplo")
+    reg = load_question_types(tmp_path)
+    assert not reg.errors and "plantilla" in reg.types
+    q = reg.get("plantilla")({"enunciado": "¿Color del cielo?", "respuesta": "Azul"}, "c:1")
+    assert q.public_data({}) == {"letters": 4}
+    assert q.evaluate(q.normalize_answer(" azul ", {}), {}).correct
