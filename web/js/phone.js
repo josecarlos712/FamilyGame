@@ -49,6 +49,8 @@ const net = connect("/ws/phone", {
       state = msg.state;
       if (state.me) { myId = state.me.id; gate = null; }
       render();
+    } else if (msg.t === "music") {
+      musicCard.setData(msg);
     } else if (msg.t === "error") {
       toast(msg.msg);
     } else if (msg.t === "kicked") {
@@ -169,11 +171,27 @@ function canResume(s) {
   return s.me?.host || (s.pausedReason === "manual" && s.pausedBy === s.me?.id);
 }
 
+// The panel is rebuilt on every state change except the music card, which is kept as it is so the
+// search box keeps its text, focus and the list its scroll.
+const panelTop = h("div.panel-part");
+const panelBottom = h("div.panel-part");
+const panelEl = h("div.panel", panelTop, panelBottom);
+
 function updateOverlay(s) {
-  const panel = showPlayers && s.me ? playersPanel(s) : null;
+  const panel = showPlayers && s.me;
   const paused = !!(s.paused && s.me);
   overlay.hidden = !(panel || paused);
-  if (panel) { fill(overlay, panel); return; }
+  if (panel) {
+    const [top, bottom] = playersPanel(s);
+    fill(panelTop, top);
+    fill(panelBottom, bottom);
+    if (s.me.host) {
+      if (musicCard.el.parentNode !== panelEl) panelEl.insertBefore(musicCard.el, panelBottom);
+      musicCard.update(s);
+    } else musicCard.el.remove();
+    if (panelEl.parentNode !== overlay) fill(overlay, panelEl);
+    return;
+  }
   if (!paused) { fill(overlay); return; }
   const by = s.players.find((p) => p.id === s.pausedBy);
   const afk = s.afk.map((id) => s.players.find((p) => p.id === id)?.name).filter(Boolean);
@@ -230,18 +248,94 @@ function playersPanel(s) {
       ...[["zero", "0 puntos"], ["average", "La media"], ["fixed", "Fijo"]].map(([mode, label]) =>
         h("button.seg-btn", { type: "button", class: st.lateJoin === mode ? "is-on" : "", onclick: () => send("settings", { changes: { lateJoin: mode } }) }, label))),
     st.lateJoin === "fixed" ? stepper("Puntos de inicio", st.latePoints, 0, 5000, 50, (v) => send("settings", { changes: { latePoints: v } })) : null) : null;
-  return h("div.panel",
+  const top = [
     h("div.panel-head", h("h1.title", "Jugadores"),
       h("button.btn.ghost.mini", { type: "button", onclick: () => { showPlayers = false; updateOverlay(state); } }, "✕ Cerrar")),
     h("div.card", h("div.plist", rows)),
-    away, late,
+  ];
+  const bottom = [away, late,
     h("button.btn.danger.block", { type: "button", onclick: () => {
       if (confirm(inMatch ? "¿Salir de la partida? Si vuelves desde este móvil, recuperarás tus puntos." : "¿Salir de la partida?")) {
         showPlayers = false;
         send("leave");
       }
-    } }, "Salir de la partida"));
+    } }, "Salir de la partida")];
+  return [top, bottom];
 }
+
+// ----- music (host only, inside the players panel) ------------------------------------------------
+// The songs come from the server ({t:"music"}) when the panel opens and after a favourite changes.
+// Tapping a song plays it on the TV; tapping the one playing pauses or resumes it.
+const fold = (text) => text.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+
+const musicCard = (() => {
+  let data = null; // { tracks: [{id, name, folder}], favorites: [id] }
+  let asked = false;
+  let current = { track: "", music: true };
+  const search = h("input.music-search", {
+    type: "search", placeholder: "Buscar canción…", autocomplete: "off", "aria-label": "Buscar canción",
+    oninput: () => drawList(),
+  });
+  const nowPlaying = h("div.music-now");
+  const list = h("div.music-list", { role: "list" });
+  const count = h("small.muted");
+  const refresh = h("button.btn.ghost.mini", { type: "button", title: "Volver a leer la carpeta musica/", onclick: () => net.send({ t: "music" }) }, "↻");
+  const el = h("div.card.music-card",
+    h("div.music-head", h("p.card-title", "Música de la tele"), refresh),
+    nowPlaying, search, list, count);
+
+  const setMusic = (changes) => net.send({ t: "settings", changes });
+  const nameOf = (id) => data?.tracks.find((t) => t.id === id)?.name || (id ? id.split("/").pop() : "Melodía tranquila (de serie)");
+
+  function drawNow() {
+    const playing = current.music;
+    fill(nowPlaying,
+      h("span.music-note", { "aria-hidden": "true" }, playing ? "♪" : "⏸"),
+      h("span.music-title", nameOf(current.track)),
+      h("button.btn.mini", { type: "button", class: playing ? "ghost" : "primary", onclick: () => setMusic({ music: !playing }) },
+        playing ? "⏸ Parar" : "▶ Reanudar"));
+  }
+
+  function drawList() {
+    if (!data) { fill(list, h("p.hint", "Cargando canciones…")); fill(count); return; }
+    const favs = new Set(data.favorites);
+    const q = fold(search.value.trim());
+    const rows = data.tracks
+      .filter((t) => !q || fold(`${t.name} ${t.folder}`).includes(q))
+      .sort((a, b) => (favs.has(b.id) - favs.has(a.id)) || (!a.id ? -1 : !b.id ? 1 : 0));
+    fill(list, rows.length ? rows.map((t) => {
+      const on = t.id === current.track;
+      const fav = favs.has(t.id);
+      return h("div.music-row", { role: "listitem", class: on ? "is-on" : "" },
+        h("button.music-pick", {
+          type: "button", "aria-pressed": on ? "true" : "false",
+          onclick: () => setMusic(on ? { music: !current.music } : { track: t.id, music: true }),
+        },
+        h("span.music-icon", { "aria-hidden": "true" }, on ? (current.music ? "♪" : "⏸") : "▶"),
+        h("span.music-name", t.name, t.folder ? h("small", t.folder) : null)),
+        h("button.music-fav", {
+          type: "button", class: fav ? "is-fav" : "", "aria-pressed": fav ? "true" : "false",
+          "aria-label": fav ? `Quitar ${t.name} de favoritas` : `Marcar ${t.name} como favorita`,
+          onclick: () => net.send({ t: "musicFav", track: t.id }),
+        }, fav ? "★" : "☆"));
+    }) : h("p.hint", "Ninguna canción coincide con la búsqueda."));
+    const files = data.tracks.length - 1;
+    fill(count, files ? `${files} canciones en la carpeta musica/` : "Mete MP3 u OGG en la carpeta musica/ del juego y pulsa ↻.");
+  }
+
+  return {
+    el,
+    setData(msg) { data = { tracks: msg.tracks || [], favorites: msg.favorites || [] }; drawNow(); drawList(); },
+    update(s) {
+      const next = { track: s.settings.track || "", music: !!s.settings.music };
+      const changed = next.track !== current.track || next.music !== current.music;
+      current = next;
+      if (!asked) { asked = true; net.send({ t: "music" }); }
+      if (changed || !nowPlaying.firstChild) { drawNow(); drawList(); }
+    },
+    reset() { asked = false; }, // ask again next time (new songs may have been added)
+  };
+})();
 
 // ----- header ------------------------------------------------------------------------------
 function header(s, extra) {
@@ -252,7 +346,7 @@ function header(s, extra) {
     h("div.bar-who", nameTag(me), h("small", s.phase === "lobby" ? (me.host ? "👑 Anfitrión" : "En el lobby") : `#${rank} · ${fmt(me.points)} pts`)),
     extra || null,
     pauseButton(s),
-    h("button.btn.ghost.mini", { type: "button", "aria-label": "Jugadores", onclick: () => { showPlayers = true; updateOverlay(state); } }, "👥"),
+    h("button.btn.ghost.mini", { type: "button", "aria-label": "Jugadores", onclick: () => { showPlayers = true; musicCard.reset(); updateOverlay(state); } }, "👥"),
     soundButton(s));
 }
 

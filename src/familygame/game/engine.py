@@ -70,7 +70,8 @@ class Settings:
     hits_to_close: int = 3
     mechanics: list[str] = field(default_factory=lambda: list(MECHANICS))
     disabled: set[str] = field(default_factory=set)
-    music: bool = True
+    music: bool = True  # False = the background music is paused
+    track: str = ""  # background music: a file in musica/ ("" = the built-in tune)
     sfx: bool = True
     volume: int = 70
     late_join: str = "zero"  # points of someone joining a running match: zero | average | fixed
@@ -86,6 +87,7 @@ class Settings:
             "mechanics": list(self.mechanics),
             "disabled": sorted(self.disabled),
             "music": self.music,
+            "track": self.track,
             "sfx": self.sfx,
             "volume": self.volume,
             "lateJoin": self.late_join,
@@ -103,6 +105,7 @@ class Away:
 
 
 LATE_JOIN_MODES = ("zero", "average", "fixed")
+MAX_TRACK_LENGTH = 400
 
 
 @dataclass
@@ -516,6 +519,11 @@ class Game:
             if isinstance(vol, bool) or not isinstance(vol, (int, float)):
                 raise GameError("Valor no válido para volume")
             s.volume = max(0, min(100, int(vol)))
+        if "track" in changes:  # the server checks that the file exists
+            track = changes["track"]
+            if not isinstance(track, str) or len(track) > MAX_TRACK_LENGTH:
+                raise GameError("Canción no válida")
+            s.track = track
         if "lateJoin" in changes:
             if changes["lateJoin"] not in LATE_JOIN_MODES:
                 raise GameError("Valor no válido para lateJoin")
@@ -526,7 +534,7 @@ class Game:
                 raise GameError("Valor no válido para latePoints")
             s.late_points = max(0, min(100_000, int(value)))
         if self.phase not in (LOBBY, FINISHED):
-            if set(changes) - {"music", "sfx", "volume", "lateJoin", "latePoints"}:
+            if set(changes) - {"music", "track", "sfx", "volume", "lateJoin", "latePoints"}:
                 raise GameError("Las opciones se cambian antes de empezar")
             self._touch()
             return

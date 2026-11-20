@@ -351,6 +351,10 @@ def test_sound_settings_change_during_the_game(registry: TypeRegistry, clock: Cl
     with pytest.raises(GameError):
         game.set_settings(host, {"sfx": "si"})
     assert game.settings.public()["music"] is False
+    game.set_settings(host, {"track": "algo.mp3"})  # also allowed while playing
+    assert game.settings.public()["track"] == "algo.mp3"
+    with pytest.raises(GameError):
+        game.set_settings(host, {"track": 5})
 
 
 def test_save_and_resume_keeps_the_match(registry: TypeRegistry, clock: Clock) -> None:

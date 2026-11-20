@@ -20,6 +20,10 @@ JPEG = "data:image/jpeg;base64," + base64.b64encode(b"\xff\xd8\xff\xe0" + b"0" *
 def client(root: Path, tmp_path: Path) -> TestClient:
     paths = Paths.from_root(root)
     paths.data = tmp_path  # keep the question history out of the repo
+    paths.music = tmp_path / "musica"
+    paths.music.mkdir()
+    (paths.music / "Tema_de_prueba.mp3").write_bytes(b"ID3" + b"0" * 64)
+    (paths.music / "notas.txt").write_text("no es audio", encoding="utf-8")
     config = AppConfig()
     config.timing.choose = 0.1  # the engine acts for the chooser right after the intro
     app = create_app(config, paths, check_internet=False)
@@ -230,3 +234,46 @@ def test_same_player_in_two_tabs_gets_a_notice(client: TestClient) -> None:
             second.send_json({"t": "hello", "token": token})
             assert recv_until(second, "welcome")["id"] is not None
             recv_until(first, "replaced")  # the older tab is told to step aside
+
+
+def test_host_picks_pauses_and_favourites_music(client: TestClient) -> None:
+    assert client.get("/music/Tema_de_prueba.mp3").content.startswith(b"ID3")
+    assert client.get("/music/notas.txt").status_code == 404
+    assert client.get("/music/..%2F..%2Fconfig.toml").status_code == 404
+    with client.websocket_connect("/ws/phone") as host, client.websocket_connect("/ws/phone") as guest:
+        for ws, name, color in ((host, "Ana", "#ff6b6b"), (guest, "Luis", "#ffa94d")):
+            ws.send_json({"t": "hello", "token": None})
+            recv_until(ws, "welcome")
+            ws.send_json({"t": "join", "name": name, "color": color, "avatar": {"kind": "icon", "value": "gato"}})
+            recv_until(ws, "joined")
+        host.send_json({"t": "music"})
+        listing = recv_until(host, "music")
+        assert [t["id"] for t in listing["tracks"]] == ["", "Tema_de_prueba.mp3"]
+        assert listing["tracks"][1]["name"] == "Tema de prueba" and listing["favorites"] == []
+
+        guest.send_json({"t": "music"})
+        assert "anfitrión" in recv_until(guest, "error")["msg"]
+        guest.send_json({"t": "settings", "changes": {"track": "Tema_de_prueba.mp3"}})
+        assert recv_until(guest, "error")
+
+        host.send_json({"t": "settings", "changes": {"track": "../config.toml"}})
+        assert "canción" in recv_until(host, "error")["msg"]
+        host.send_json({"t": "settings", "changes": {"track": "Tema_de_prueba.mp3", "music": True}})
+        for _ in range(20):
+            st = recv_until(host, "state")["state"]["settings"]
+            if st["track"]:
+                break
+        assert st["track"] == "Tema_de_prueba.mp3" and st["music"] is True
+        host.send_json({"t": "settings", "changes": {"music": False}})  # pause
+        for _ in range(20):
+            st = recv_until(host, "state")["state"]["settings"]
+            if not st["music"]:
+                break
+        assert st["music"] is False and st["track"] == "Tema_de_prueba.mp3"
+
+        host.send_json({"t": "musicFav", "track": "Tema_de_prueba.mp3"})
+        assert recv_until(host, "music")["favorites"] == ["Tema_de_prueba.mp3"]
+    server = client.app.state.server
+    assert server.music.last_track == "Tema_de_prueba.mp3"
+    stored = (server.paths.data / "musica.json").read_text(encoding="utf-8")
+    assert "Tema_de_prueba.mp3" in stored

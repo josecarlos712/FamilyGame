@@ -119,7 +119,13 @@ No hay contraseñas: cualquiera en la misma wifi puede entrar mientras haya siti
 
 ## Sonido
 
-`web/js/sound.js` sintetiza efectos y música con WebAudio (osciladores, sin archivos). Solo suena
+`web/js/sound.js` sintetiza efectos y la melodía de serie con WebAudio, y reproduce las canciones de
+`musica/` con un `<audio>` enganchado al mismo bus (volumen, atenuado y silencio local valen igual).
+El ajuste `track` es la ruta relativa de la canción (`""` = melodía de serie) y `music` significa
+sonando/parada. `src/familygame/music.py` (`MusicLibrary`) lista la carpeta, valida las rutas (la tele
+pide el archivo en `/music/<ruta>`) y guarda favoritos y última canción en `data/musica.json`. El
+móvil del anfitrión pide la lista con `{t: "music"}` y marca favoritas con `{t: "musicFav", track}`;
+el servidor contesta solo a ese móvil con `{t: "music", tracks, favorites}`. Solo suena
 la tele: `web/js/tv.js` compara el estado anterior con el nuevo y decide qué efecto toca
 (`soundCues`). Los ajustes `music`, `sfx` y `volume` viven en `Settings` del motor, los cambia el
 anfitrión con el mensaje `settings` **en cualquier fase** (el resto de opciones solo en el lobby) y

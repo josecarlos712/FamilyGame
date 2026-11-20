@@ -5,3 +5,7 @@ __pycache__/
 data/
 config.local.toml
 olvidados/
+
+# background music: your own files stay local, only the note is shared
+musica/*
+!musica/LEEME.md

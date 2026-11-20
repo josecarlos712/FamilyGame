@@ -141,3 +141,39 @@ body.phone { min-height: 100dvh; font-size: 17px; }
 .panel .prow .name { flex: 1; min-width: 0; }
 .panel .prow-actions { flex: 0 0 auto; }
 .panel .seg { width: 100%; }
+
+/* ----- music card (host, players panel) ----- */
+.panel-part { display: grid; gap: 14px; min-width: 0; }
+.music-card { gap: 10px; }
+.music-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.music-head .btn { min-height: 36px; padding: 0 12px; }
+.music-now { display: flex; align-items: center; gap: 10px; min-width: 0; padding: 10px 12px; border-radius: var(--radius-s); background: var(--surface); }
+.music-note { font-size: 1.3rem; color: var(--accent); flex: 0 0 auto; }
+.music-title { flex: 1; min-width: 0; font-weight: 800; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.music-now .btn { flex: 0 0 auto; }
+.music-search {
+  width: 100%; min-height: 44px; padding: 0 14px; border: 0; border-radius: var(--radius-s);
+  background: var(--surface); color: var(--ink); font: inherit; box-shadow: inset 0 0 0 1px var(--line);
+}
+.music-search::placeholder { color: var(--muted); }
+.music-list {
+  display: grid; gap: 2px; max-height: min(44vh, 340px); overflow-y: auto; overscroll-behavior: contain;
+  padding: 4px; border-radius: var(--radius-s); background: var(--bg); box-shadow: inset 0 0 0 1px var(--line);
+}
+.music-list .hint { margin: 10px; }
+.music-row { display: flex; align-items: stretch; min-width: 0; border-radius: 10px; }
+.music-row.is-on { background: var(--surface-2); box-shadow: inset 3px 0 0 var(--accent); }
+.music-pick {
+  flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px; min-height: 46px; padding: 6px 10px;
+  border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; border-radius: 10px;
+}
+.music-pick:active { background: var(--surface); }
+.music-icon { flex: 0 0 1.2em; color: var(--muted); text-align: center; }
+.music-row.is-on .music-icon { color: var(--accent); }
+.music-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.music-row.is-on .music-name { font-weight: 800; }
+.music-name small { display: block; color: var(--muted); font-size: 0.78rem; overflow: hidden; text-overflow: ellipsis; }
+.music-fav {
+  flex: 0 0 46px; border: 0; background: none; color: var(--muted); font-size: 1.35rem; cursor: pointer; border-radius: 10px;
+}
+.music-fav.is-fav { color: var(--accent); }

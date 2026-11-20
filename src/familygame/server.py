@@ -28,6 +28,7 @@ from familygame.categories import load_library
 from familygame.config import AppConfig
 from familygame.game.engine import Game, GameError
 from familygame.game.picker import QuestionHistory
+from familygame.music import AUDIO_TYPES, MusicLibrary
 from familygame.questions.base import Environment
 from familygame.questions.registry import load_question_types
 
@@ -56,10 +57,11 @@ class Paths:
     question_types: Path
     web: Path
     data: Path
+    music: Path
 
     @classmethod
     def from_root(cls, root: Path) -> Paths:
-        return cls(root, root / "preguntas", root / "question_types", root / "web", root / "data")
+        return cls(root, root / "preguntas", root / "question_types", root / "web", root / "data", root / "musica")
 
 
 def lan_ip() -> str:
@@ -148,6 +150,8 @@ class GameServer:
         self.autosave_file = paths.data / "autoguardado.json"
         self._saved_path: Path | None = None  # file the match shown in the menu came from
         self.last_ip: dict[str, str] = {}  # player id -> address of their phone (kept in memory only)
+        self.music = MusicLibrary(paths.music, paths.data / "musica.json")
+        self.game.settings.track = self.music.last_track
         self._load_saved_match()
 
     # ------------------------------------------------------------- saved match
@@ -365,7 +369,22 @@ class GameServer:
             self._store_photo(pid, avatar)
         elif kind == "settings":
             changes = msg.get("changes")
-            game.set_settings(pid, changes if isinstance(changes, dict) else {})
+            changes = changes if isinstance(changes, dict) else {}
+            track = changes.get("track")
+            if "track" in changes and (not isinstance(track, str) or not self.music.exists(track)):
+                raise GameError("Esa canción ya no está en la carpeta de música")
+            game.set_settings(pid, changes)
+            if isinstance(track, str):
+                self.music.remember(track)
+        elif kind in ("music", "musicFav"):  # the host's list of songs, and marking favourites
+            if pid != game.host_id:
+                raise GameError("Solo el anfitrión puede elegir la música")
+            if kind == "musicFav":
+                try:
+                    self.music.toggle_favorite(str(msg.get("track")))
+                except ValueError as exc:
+                    raise GameError(str(exc)) from exc
+            await self._send(ws, {"t": "music", **self.music.listing()})
         elif kind == "start":
             game.start(pid, now)
         elif kind == "choose":
@@ -496,6 +515,12 @@ def create_app(config: AppConfig, paths: Paths, check_internet: bool | None = No
             return Response(status_code=404)
         return FileResponse(target, media_type=MEDIA_TYPES[suffix])
 
+    async def music(request: Request) -> Response:
+        target = server.music.file_for(request.path_params["file"])
+        if target is None:
+            return Response(status_code=404)
+        return FileResponse(target, media_type=AUDIO_TYPES[target.suffix.lower()])
+
     async def avatar(request: Request) -> Response:
         photo = server.photos.get(request.path_params["pid"])
         if photo is None:
@@ -532,6 +557,7 @@ def create_app(config: AppConfig, paths: Paths, check_internet: bool | None = No
             Route("/avatar/{pid}", avatar),
             Route("/qtypes/{qtype}/{file:path}", qtype_asset),
             Route("/media/{file:path}", media),
+            Route("/music/{file:path}", music),
             WebSocketRoute("/ws/phone", server.phone_socket),
             WebSocketRoute("/ws/tv", server.tv_socket),
             Mount("/static", StaticFiles(directory=paths.web), name="static"),

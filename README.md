@@ -143,9 +143,16 @@ El botón **👥** de la cabecera del móvil abre la pantalla **Jugadores**, en 
 
 ## Sonido
 
-La tele reproduce efectos (acierto, fallo, cuenta atrás, eventos del tablero, fanfarria…) y una
-música tranquila de fondo que no se repite exactamente. Todo se genera en el navegador con
-WebAudio: no hay archivos de audio ni licencias.
+La tele reproduce efectos (acierto, fallo, cuenta atrás, eventos del tablero, fanfarria…) y música
+de fondo. Los efectos y la melodía de serie se generan en el navegador con WebAudio; además puedes
+poner tus propias canciones.
+
+- **Tus canciones:** mete MP3, OGG, M4A, WAV, FLAC… en la carpeta `musica/` (vale con subcarpetas;
+  no se sube a GitHub). El anfitrión las ve en su móvil, botón 👥 → «Música de la tele», tanto en el
+  lobby como durante la partida: tocar una la pone en la tele, tocar la que suena la para o la
+  reanuda (sigue por donde iba), hay buscador (sin importar tildes) y ☆ para marcarlas como
+  favoritas, que salen las primeras. Los favoritos y la última canción se guardan en
+  `data/musica.json`; ↻ vuelve a leer la carpeta sin reiniciar.
 
 - **Silenciar o ajustar:** el anfitrión tiene un botón 🔊/🔇 en la cabecera de su móvil (en cualquier
   pantalla) y, en el lobby, la tarjeta «Sonido de la tele» con música, efectos y volumen.

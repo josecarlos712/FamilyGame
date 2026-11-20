@@ -1,7 +1,8 @@
-// Sound for the TV: effects and calm background music, all synthesised with WebAudio
-// (no audio files, nothing to download or license).
+// Sound for the TV: effects synthesised with WebAudio and background music, either the built-in
+// synthesised tune or a song from the musica/ folder that the host picks on their phone.
 //
-//   sound.apply({ music, sfx, volume })   settings coming from the server (the host's phone)
+//   sound.apply({ music, track, sfx, volume })   settings coming from the server (the host's phone)
+//                                                 music = playing (false = paused), track "" = built-in
 //   sound.play("acierto")                 one effect
 //   sound.onLock(cb)                      cb(true) while the browser still blocks audio
 //
@@ -14,7 +15,7 @@ let master = null;
 let sfxBus = null;
 let musicOut = null;
 let reverb = null;
-let settings = { music: true, sfx: true, volume: 70 };
+let settings = { music: true, track: "", sfx: true, volume: 70 };
 let localMute = false;
 const lockListeners = new Set();
 
@@ -67,8 +68,15 @@ function refresh() {
   if (!ctx) return;
   const level = localMute ? 0 : Math.pow(settings.volume / 100, 1.6) * 0.9;
   master.gain.setTargetAtTime(level, ctx.currentTime, 0.08);
-  if (settings.music && !localMute) startMusic();
-  else stopMusic();
+  const playing = settings.music && !localMute;
+  if (settings.track) {
+    stopMusic();
+    playFile(settings.track, playing);
+  } else {
+    playFile("", false);
+    if (playing) startMusic();
+    else stopMusic();
+  }
 }
 
 // ----- effects -----------------------------------------------------------------------------
@@ -218,11 +226,53 @@ function scheduleBar(at, chord) {
   }
 }
 
+// ----- songs from the musica/ folder ------------------------------------------------------------
+// One <audio> element routed through the music bus, so volume, ducking and the local mute apply.
+// Pausing keeps the position, so "resume" continues the song; a new song starts from the top.
+let fileAudio = null;
+let fileGain = null;
+let fileTrack = "";
+
+function playFile(track, playing) {
+  if (!track) {
+    if (fileAudio && !fileAudio.paused) fadeOutAndPause();
+    return;
+  }
+  if (!fileAudio) {
+    fileAudio = new Audio();
+    fileAudio.loop = true;
+    fileAudio.preload = "auto";
+    fileAudio.addEventListener("error", () => console.warn("No se pudo reproducir", fileTrack));
+    fileGain = ctx.createGain();
+    ctx.createMediaElementSource(fileAudio).connect(fileGain).connect(musicOut);
+  }
+  if (track !== fileTrack) {
+    fileTrack = track;
+    fileAudio.src = "/music/" + track.split("/").map(encodeURIComponent).join("/");
+  }
+  if (!playing) { if (!fileAudio.paused) fadeOutAndPause(); return; }
+  if (ctx.state !== "running") return; // refresh() runs again once the browser allows audio
+  clearTimeout(fileAudio.__fade);
+  fileGain.gain.cancelScheduledValues(ctx.currentTime);
+  fileGain.gain.setTargetAtTime(1, ctx.currentTime, 0.25);
+  if (fileAudio.paused) fileAudio.play().catch(() => {});
+}
+
+function fadeOutAndPause() {
+  fileGain.gain.cancelScheduledValues(ctx.currentTime);
+  fileGain.gain.setTargetAtTime(0.0001, ctx.currentTime, 0.15);
+  clearTimeout(fileAudio.__fade);
+  fileAudio.__fade = setTimeout(() => fileAudio.pause(), 500);
+}
+
 // ----- public API ------------------------------------------------------------------------------
 export const sound = {
   apply(next) {
     if (!next) return;
-    settings = { music: next.music !== false, sfx: next.sfx !== false, volume: Number.isFinite(next.volume) ? next.volume : 70 };
+    settings = {
+      music: next.music !== false, track: typeof next.track === "string" ? next.track : "",
+      sfx: next.sfx !== false, volume: Number.isFinite(next.volume) ? next.volume : 70,
+    };
     refresh();
   },
   play,
@@ -240,5 +290,5 @@ export const sound = {
   onLock(cb) { lockListeners.add(cb); cb(locked() || !ctx); },
   unlock,
   /** For tests: the audio graph's master node and context. */
-  _debug() { return { ctx, master }; },
+  _debug() { return { ctx, master, fileAudio }; },
 };
