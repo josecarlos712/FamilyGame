@@ -122,5 +122,8 @@ img { display: block; max-width: 100%; }
 @keyframes pulse { 50% { transform: scale(1.06); } }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+  }
 }

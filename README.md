@@ -3,6 +3,20 @@
 Trivial familiar para jugar en la tele: las preguntas y el tablero se ven en una pantalla común y
 cada jugador (hasta 6) responde a la vez desde su móvil.
 
+![Pregunta en la tele: cuatro opciones y quién ha respondido ya](docs/img/tv-question.png)
+
+| Lobby | Elegir categoría | Resultados |
+|---|---|---|
+| ![Lobby con QR y jugadores](docs/img/tv-lobby.png) | ![Elección de categoría](docs/img/tv-choosing.png) | ![Resultados de la pregunta](docs/img/tv-reveal.png) |
+| **Tablero** | **Podio** | |
+| ![Circuito con las fichas](docs/img/tv-board.png) | ![Podio final](docs/img/tv-finished.png) | |
+
+En el móvil:
+
+| Perfil | Elegir | Responder | Resultado |
+|---|---|---|---|
+| ![Perfil en el móvil](docs/img/movil-lobby.png) | ![Elegir categoría en el móvil](docs/img/movil-choosing.png) | ![Responder en el móvil](docs/img/movil-question.png) | ![Resultado en el móvil](docs/img/movil-reveal.png) |
+
 Documentación detallada:
 
 - [docs/preguntas.md](docs/preguntas.md): todos los campos de los archivos de preguntas, con ejemplos.
@@ -107,6 +121,9 @@ El juego descubre la carpeta al arrancar; el valor de `type_id` es lo que se esc
 ```powershell
 .venv\Scripts\python -m pytest
 ```
+
+Las capturas de este README se regeneran con `.venv\Scripts\python tools\capturas.py` (usa Edge
+en modo headless y las escenas congeladas de `tools/demo.py`).
 
 Estructura: `src/familygame` (motor, carga de preguntas, servidor), `question_types/` (tipos),
 `preguntas/` (categorías), `web/` (pantallas de tele y móvil), `tests/`.
