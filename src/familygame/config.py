@@ -57,6 +57,19 @@ def load_config(path: Path) -> AppConfig:
     except (OSError, tomllib.TOMLDecodeError) as exc:
         log.error("config.toml no válido (%s); uso valores por defecto", exc)
         return cfg
+    # config.local.toml (git-ignored) overrides config.toml: put secrets such as the Maps key there
+    local = path.with_name("config.local.toml")
+    if local.is_file():
+        try:
+            override = tomllib.loads(local.read_text(encoding="utf-8-sig"))
+        except (OSError, tomllib.TOMLDecodeError) as exc:
+            log.error("config.local.toml no válido (%s); lo ignoro", exc)
+            override = {}
+        for name, section in override.items():
+            if isinstance(section, dict) and isinstance(data.get(name), dict):
+                data[name] = {**data[name], **section}
+            else:
+                data[name] = section
     server = _section(data, "servidor")
     maps = _section(data, "mapas")
     game = _section(data, "partida")

@@ -99,3 +99,14 @@ def test_garbage_messages_do_not_crash(client: TestClient) -> None:
         assert "Primero" in recv_until(phone, "error")["msg"]
         phone.send_json(["lista"])
         assert recv_until(phone, "error")
+
+
+def test_config_local_overrides_config(tmp_path):
+    """config.local.toml (git-ignored) overrides config.toml, e.g. for the Maps key."""
+    from familygame.config import load_config
+
+    (tmp_path / "config.toml").write_text('[mapas]\ngoogle_maps_api_key = ""\n[servidor]\npuerto = 8123\n', encoding="utf-8")
+    (tmp_path / "config.local.toml").write_text('[mapas]\ngoogle_maps_api_key = "abc"\n', encoding="utf-8")
+    cfg = load_config(tmp_path / "config.toml")
+    assert cfg.google_maps_api_key == "abc"
+    assert cfg.port == 8123

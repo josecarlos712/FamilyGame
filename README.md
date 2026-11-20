@@ -11,6 +11,13 @@ cada jugador (hasta 6) responde a la vez desde su móvil.
 | **Tablero** | **Podio** | |
 | ![Circuito con las fichas](docs/img/tv-board.png) | ![Podio final](docs/img/tv-finished.png) | |
 
+Preguntas de mapa (Google Maps): la tele revela la solución con la marca de cada jugador y el móvil
+la muestra sobre el mapa.
+
+| Tele | Móvil |
+|---|---|
+| ![Revelación de una pregunta de mapa en la tele](docs/img/tv-mapa-reveal.jpg) | ![Solución en el mapa del móvil](docs/img/movil-mapa-reveal.jpg) |
+
 En el móvil:
 
 | Perfil | Elegir | Responder | Resultado |
@@ -79,8 +86,15 @@ ver los cambios sin reiniciar. Las preguntas con errores se ignoran y la tele la
 ## Mapas
 
 Las preguntas `mapa` usan Google Maps. Pon tu clave de la *Maps JavaScript API* en
-`config.toml` (`[mapas] google_maps_api_key`). Restríngela por referente HTTP en la consola de
-Google, porque la clave viaja a los navegadores. Sin clave o sin internet, esas preguntas no se
+**`config.local.toml`** (archivo local que Git ignora, así la clave no se sube al repositorio):
+
+```toml
+[mapas]
+google_maps_api_key = "tu-clave"
+```
+
+`config.local.toml` pisa los valores de `config.toml`. Restringe la clave por referente HTTP en la
+consola de Google, porque viaja a los navegadores. Sin clave o sin internet, esas preguntas no se
 ofrecen; si el mapa falla en un móvil concreto, a ese jugador la pregunta no le cuenta.
 
 ## Crear un tipo de pregunta nuevo

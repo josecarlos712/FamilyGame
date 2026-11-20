@@ -1,4 +1,4 @@
-"""Regenerate the README screenshots (docs/img) with headless Edge driven over DevTools.
+﻿"""Regenerate the README screenshots (docs/img) with headless Edge driven over DevTools.
 
 Usage::
 
@@ -28,8 +28,10 @@ PYTHON = ROOT / ".venv" / "Scripts" / "python.exe"
 EDGE = Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 GAME_PORT = 8001
 DEBUG_PORT = 9333
-SCENES = ["lobby", "choosing", "question", "reveal", "board", "finished"]
-PHONE_SCENES = {"lobby": "Ana", "choosing": "Ana", "question": "Ana", "reveal": "Marta"}
+SCENES = ["lobby", "choosing", "question", "reveal", "board", "finished"]  # map scenes: see note below
+PHONE_SCENES = {"lobby": "Ana", "choosing": "Ana", "question": "Ana", "reveal": "Marta",
+                "mapa": "Ana", "mapa-reveal": "Ana"}
+MAP_SCENES = {"mapa", "mapa-reveal"}  # Google Maps tiles take longer to load
 
 
 class Tab:
@@ -61,7 +63,8 @@ class Tab:
                     raise RuntimeError(f"{method}: {msg['error']}")
                 return msg.get("result", {})
 
-    def shot(self, url: str, file: Path, width: int, height: int, scale: float, wait: float) -> None:
+    def shot(self, url: str, file: Path, width: int, height: int, scale: float, wait: float,
+             click: tuple[int, int] | None = None) -> None:
         """Load ``url`` at the given viewport and save a PNG.
 
         Args:
@@ -76,6 +79,14 @@ class Tab:
                   deviceScaleFactor=scale, mobile=width < 800)
         self.call("Page.navigate", url=url)
         time.sleep(wait)
+        if click:
+            x, y = click
+            self.call("Input.dispatchMouseEvent", type="mouseMoved", x=x, y=y)
+            time.sleep(0.3)
+            for kind in ("mousePressed", "mouseReleased"):
+                self.call("Input.dispatchMouseEvent", type=kind, x=x, y=y, button="left", clickCount=1)
+                time.sleep(0.1)
+            time.sleep(1.5)
         data = self.call("Page.captureScreenshot", format="png")["data"]
         file.write_bytes(base64.b64decode(data))
         print("OK", file.relative_to(ROOT))
@@ -112,7 +123,8 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     profile = tempfile.mkdtemp(prefix="familygame-capturas-")
     edge = subprocess.Popen(
-        [str(EDGE), "--headless=new", "--disable-gpu", "--hide-scrollbars", "--mute-audio",
+        [str(EDGE), "--headless=new", "--use-angle=swiftshader", "--enable-unsafe-swiftshader",
+         "--ignore-gpu-blocklist", "--hide-scrollbars", "--mute-audio",  # software WebGL for Google Maps
          f"--remote-debugging-port={DEBUG_PORT}", f"--user-data-dir={profile}", "about:blank"],
         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
     )
@@ -123,11 +135,12 @@ def main() -> None:
         tab.call("Emulation.setEmulatedMedia",
                  features=[{"name": "prefers-reduced-motion", "value": "reduce"}])
         base = f"http://127.0.0.1:{GAME_PORT}"
-        for scene in SCENES:
+        for scene in sys.argv[1:] or SCENES:  # optionally only some scenes
             server = subprocess.Popen([str(PYTHON), "tools/demo.py", scene, str(GAME_PORT)], cwd=ROOT)
             try:
                 wait_http(f"{base}/api/info")
-                tab.shot(f"{base}/tv", OUT / f"tv-{scene}.png", 1920, 1080, 1, 3)
+                wait = 14 if scene in MAP_SCENES else 3
+                tab.shot(f"{base}/tv", OUT / f"tv-{scene}.png", 1920, 1080, 1, wait)
                 who = PHONE_SCENES.get(scene)
                 if who:
                     tokens = json.loads((ROOT / "data" / "demo_tokens.json").read_text("utf-8"))
@@ -135,7 +148,8 @@ def main() -> None:
                     time.sleep(0.5)
                     value = json.dumps(json.dumps(tokens[who]))
                     tab.call("Runtime.evaluate", expression=f"localStorage.setItem('fg.token', {value})")
-                    tab.shot(f"{base}/", OUT / f"movil-{scene}.png", 390, 844, 2, 3)
+                    tab.shot(f"{base}/", OUT / f"movil-{scene}.png", 390, 844, 2, wait,
+                             click=(215, 330) if scene == "mapa" else None)
             finally:
                 # the venv launcher spawns a child python: kill the whole tree
                 subprocess.run(["taskkill", "/T", "/F", "/PID", str(server.pid)], capture_output=True)
@@ -146,3 +160,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     sys.exit(main())
+
