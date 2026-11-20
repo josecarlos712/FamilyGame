@@ -2669,3 +2669,4578 @@ enunciado = "¿Qué prefiere ver, fútbol o baloncesto?"
 opciones = ["Fútbol", "Baloncesto"]
 tiempo = 8
 lectura = 2
+
+[[pregunta]]
+enunciado = "¿Qué selección ganó el primer Mundial de fútbol femenino, en 1991?"
+opciones = ["Estados Unidos", "Noruega", "Alemania", "Suecia"]
+correcta = "Estados Unidos"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién ganó el Mundial de MotoGP de 2010 con Yamaha?"
+opciones = ["Jorge Lorenzo", "Dani Pedrosa", "Valentino Rossi", "Casey Stoner"]
+correcta = "Jorge Lorenzo"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién ganó el Tour de Francia de 2008?"
+opciones = ["Carlos Sastre", "Alberto Contador", "Óscar Pereiro", "Samuel Sánchez"]
+correcta = "Carlos Sastre"
+dificultad = 2
+tiempo = 20
+explicacion = "Sastre lo ganó con la subida a l'Alpe d'Huez como golpe decisivo."
+
+[[pregunta]]
+enunciado = "¿Qué selección ganó el Mundial de baloncesto de 2023?"
+opciones = ["Alemania", "Serbia", "Canadá", "Estados Unidos"]
+correcta = "Alemania"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién ganó el Open de Australia de 2024?"
+opciones = ["Jannik Sinner", "Daniil Medvédev", "Novak Djokovic", "Carlos Alcaraz"]
+correcta = "Jannik Sinner"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién ganó el Mundial de Fórmula 1 de 2021 en la última vuelta de la última carrera?"
+opciones = ["Max Verstappen", "Lewis Hamilton", "Charles Leclerc", "Carlos Sainz"]
+correcta = "Max Verstappen"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál de estos clubes NO ha ganado nunca la Liga española de Primera División?"
+opciones = ["Villarreal", "Atlético de Madrid", "Valencia", "Deportivo de La Coruña"]
+correcta = "Villarreal"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué ciudad española fue sede de los Juegos Mediterráneos de 2018?"
+opciones = ["Tarragona", "Valencia", "Almería", "Palma"]
+correcta = "Tarragona"
+dificultad = 3
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿Quién es el máximo anotador de la historia de la NBA hasta 2024?"
+opciones = ["LeBron James", "Kareem Abdul-Jabbar", "Michael Jordan", "Kobe Bryant"]
+correcta = "LeBron James"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué deporte ganó el oro olímpico Gervasio Deferr en Sídney 2000?"
+opciones = ["Gimnasia artística", "Natación", "Judo", "Esgrima"]
+correcta = "Gimnasia artística"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué deporte es campeón del mundo Javier Gómez Noya?"
+opciones = ["Triatlón", "Natación", "Remo", "Ciclismo"]
+correcta = "Triatlón"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué selección ganó la Eurocopa de 2016?"
+opciones = ["Portugal", "Francia", "Alemania", "Italia"]
+correcta = "Portugal"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A quién derrotó España en la final de la Copa Davis de 2019 en Madrid?"
+opciones = ["Canadá", "Croacia", "Argentina", "Gran Bretaña"]
+correcta = "Canadá"
+dificultad = 2
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿Qué torneo de Grand Slam ganó Carlos Alcaraz en 2022, su primer título grande?"
+opciones = ["US Open", "Wimbledon", "Roland Garros", "Open de Australia"]
+correcta = "US Open"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién ganó el primer Mundial de Fórmula 1, en 1950?"
+opciones = ["Giuseppe Farina", "Juan Manuel Fangio", "Alberto Ascari", "Stirling Moss"]
+correcta = "Giuseppe Farina"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién ganó Wimbledon en 2023 y 2024?"
+opciones = ["Carlos Alcaraz", "Novak Djokovic", "Jannik Sinner", "Daniil Medvédev"]
+correcta = "Carlos Alcaraz"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué ciclista ganó La Vuelta a España de 2022?"
+opciones = ["Remco Evenepoel", "Primož Roglič", "Enric Mas", "Juan Ayuso"]
+correcta = "Remco Evenepoel"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Capital de los Juegos Olímpicos de 2024?"
+opciones = ["París", "Londres", "Roma"]
+correcta = "París"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿De qué color es la camiseta de España en fútbol?"
+opciones = ["Roja", "Azul", "Blanca"]
+correcta = "Roja"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la camiseta de la selección de Brasil?"
+opciones = ["Amarilla", "Verde", "Azul"]
+correcta = "Amarilla"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué color es una pelota de tenis?"
+opciones = ["Amarilla", "Blanca", "Naranja"]
+correcta = "Amarilla"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos puntos vale un tiro libre en baloncesto?"
+opciones = ["1", "2", "3"]
+correcta = "1"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Con qué se golpea la bola en golf?"
+opciones = ["Palo", "Raqueta", "Bate"]
+correcta = "Palo"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿En qué ciudad juega el FC Barcelona?"
+opciones = ["Barcelona", "Valencia", "Madrid"]
+correcta = "Barcelona"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Rafa Nadal?"
+opciones = ["Tenis", "Golf", "Pádel"]
+correcta = "Tenis"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Pau Gasol?"
+opciones = ["Baloncesto", "Balonmano", "Voleibol"]
+correcta = "Baloncesto"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practicaba Miguel Induráin?"
+opciones = ["Ciclismo", "Atletismo", "Natación"]
+correcta = "Ciclismo"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Carlos Alcaraz?"
+opciones = ["Tenis", "Pádel", "Golf"]
+correcta = "Tenis"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Fernando Alonso?"
+opciones = ["Fórmula 1", "MotoGP", "Ciclismo"]
+correcta = "Fórmula 1"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Marc Márquez?"
+opciones = ["Motociclismo", "Fórmula 1", "Ciclismo"]
+correcta = "Motociclismo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Jon Rahm?"
+opciones = ["Golf", "Tenis", "Atletismo"]
+correcta = "Golf"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Aitana Bonmatí?"
+opciones = ["Fútbol", "Baloncesto", "Balonmano"]
+correcta = "Fútbol"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Mireia Belmonte?"
+opciones = ["Natación", "Gimnasia", "Remo"]
+correcta = "Natación"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Lamine Yamal?"
+opciones = ["Fútbol", "Baloncesto", "Tenis"]
+correcta = "Fútbol"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practicaba Iker Casillas?"
+opciones = ["Fútbol", "Baloncesto", "Rugby"]
+correcta = "Fútbol"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Carolina Marín?"
+opciones = ["Bádminton", "Tenis", "Squash"]
+correcta = "Bádminton"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practicaba Michael Phelps?"
+opciones = ["Natación", "Atletismo", "Remo"]
+correcta = "Natación"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué color de tarjeta es una amonestación en fútbol?"
+opciones = ["Amarilla", "Roja", "Verde"]
+correcta = "Amarilla"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Cuántos minutos dura un partido de baloncesto FIBA?"
+opciones = ["40", "48", "60"]
+correcta = "40"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué medalla se da al segundo clasificado?"
+opciones = ["Plata", "Bronce", "Oro"]
+correcta = "Plata"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuántas bases hay en un campo de béisbol?"
+opciones = ["4", "3", "5"]
+correcta = "4"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores tiene un equipo de rugby a siete?"
+opciones = ["7", "5", "9"]
+correcta = "7"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "En pádel se juega con…"
+opciones = ["Pala", "Raqueta", "Bate"]
+correcta = "Pala"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿En qué deporte se juega Roland Garros?"
+opciones = ["Tenis", "Golf", "Ciclismo"]
+correcta = "Tenis"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué deporte hay un «caddie»?"
+opciones = ["Golf", "Tenis", "Esgrima"]
+correcta = "Golf"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el campeonato europeo de selecciones?"
+opciones = ["Eurocopa", "Champions", "Europa League"]
+correcta = "Eurocopa"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué trofeo recibe el mejor futbolista del año?"
+opciones = ["Balón de Oro", "Copa del Rey", "Bota de Oro"]
+correcta = "Balón de Oro"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿En qué país se corre el Tour?"
+opciones = ["Francia", "Italia", "España"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué gran vuelta ciclista se corre en Italia?"
+opciones = ["Giro", "Tour", "Vuelta"]
+correcta = "Giro"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Color del maillot del líder de La Vuelta desde 2010?"
+opciones = ["Rojo", "Amarillo", "Verde"]
+correcta = "Rojo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué país es el sumo?"
+opciones = ["Japón", "China", "Corea"]
+correcta = "Japón"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué país procede el taekwondo?"
+opciones = ["Corea del Sur", "Japón", "China"]
+correcta = "Corea del Sur"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores hay en pista en hockey sobre hielo?"
+opciones = ["6", "5", "7"]
+correcta = "6"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué deporte se juega con balón ovalado?"
+opciones = ["Rugby", "Fútbol", "Balonmano"]
+correcta = "Rugby"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte se juega con volante?"
+opciones = ["Bádminton", "Tenis", "Squash"]
+correcta = "Bádminton"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué se lanza en el curling?"
+opciones = ["Piedra", "Bola", "Disco"]
+correcta = "Piedra"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio del FC Barcelona?"
+opciones = ["Camp Nou", "Mestalla", "Anoeta"]
+correcta = "Camp Nou"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué equipo juega en el Wanda Metropolitano?"
+opciones = ["Atlético de Madrid", "Real Madrid", "Getafe"]
+correcta = "Atlético de Madrid"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué club juega en San Mamés?"
+opciones = ["Athletic Club", "Osasuna", "Real Sociedad"]
+correcta = "Athletic Club"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué club juega en Mestalla?"
+opciones = ["Valencia", "Villarreal", "Levante"]
+correcta = "Valencia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué equipo es «el Submarino Amarillo»?"
+opciones = ["Villarreal", "Cádiz", "Las Palmas"]
+correcta = "Villarreal"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué selección es «la Roja»?"
+opciones = ["España", "Chile", "Portugal"]
+correcta = "España"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué selección es «la Albiceleste»?"
+opciones = ["Argentina", "Uruguay", "Grecia"]
+correcta = "Argentina"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el club de Messi desde 2023?"
+opciones = ["Inter Miami", "PSG", "Al Hilal"]
+correcta = "Inter Miami"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores juegan en un equipo de pádel?"
+opciones = ["2", "4", "6"]
+correcta = "2"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas piezas tiene cada jugador en el ajedrez?"
+opciones = ["16", "12", "20"]
+correcta = "16"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Alexia Putellas?"
+opciones = ["Fútbol", "Baloncesto", "Voleibol"]
+correcta = "Fútbol"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Rudy Fernández?"
+opciones = ["Baloncesto", "Balonmano", "Fútbol"]
+correcta = "Baloncesto"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practicaba Ángel Nieto?"
+opciones = ["Motociclismo", "Ciclismo", "Automovilismo"]
+correcta = "Motociclismo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Sergio García?"
+opciones = ["Golf", "Pádel", "Tenis"]
+correcta = "Golf"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Pedri?"
+opciones = ["Fútbol", "Baloncesto", "Tenis"]
+correcta = "Fútbol"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Brasil ha ganado más Mundiales que Alemania."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: un partido de tenis puede acabar en empate."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: en golf gana quien da menos golpes."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Verdadero o falso: la maratón mide más de 40 km."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: en baloncesto se puede caminar con el balón."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: la Vuelta a España se corre en Portugal."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Rafa Nadal nació en Mallorca."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Fernando Alonso es asturiano."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el fútbol sala se juega con cinco por equipo."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: los Juegos de Barcelona 92 fueron en verano."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Pelé era brasileño."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el hockey sobre hielo se juega con pelota."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Induráin ganó cinco Tours seguidos."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el Tour de Francia termina en Madrid."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el balonmano se juega con las manos."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: la Eurocopa se celebra cada cuatro años."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el Mundial de fútbol se celebra cada dos años."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: España ganó la Eurocopa de 2024."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Sergio Busquets es portero."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Pau Gasol jugó en los Lakers."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el Camp Nou está en Madrid."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Messi ganó el Mundial de 2022."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Cristiano Ronaldo es español."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el squash se juega con raqueta."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el waterpolo se juega en el agua."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el portero puede usar las manos en todo el campo."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Wimbledon se juega sobre tierra batida."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Roland Garros se juega sobre tierra batida."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el Real Madrid juega de blanco."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: un triple vale tres puntos."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: en natación hay estilo mariposa."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el Mundial 2022 fue en Rusia."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Verdadero o falso: el Athletic Club juega en Bilbao."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Verdadero o falso: Ruth Beitia es saltadora de altura."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Ruth Beitia?"
+opciones = ["Salto de altura", "Natación", "Judo"]
+correcta = "Salto de altura"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio del Atlético de Madrid?"
+opciones = ["Metropolitano", "Bernabéu", "Vicente Calderón"]
+correcta = "Metropolitano"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué se juega en la NBA?"
+opciones = ["Baloncesto", "Béisbol", "Fútbol americano"]
+correcta = "Baloncesto"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué se juega en la NFL?"
+opciones = ["Fútbol americano", "Rugby", "Béisbol"]
+correcta = "Fútbol americano"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores tiene un equipo de fútbol americano en el campo?"
+opciones = ["11", "9", "15"]
+correcta = "11"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte se juega en La Concha con traineras?"
+opciones = ["Remo", "Vela", "Natación"]
+correcta = "Remo"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué instrumento se usa para golpear en béisbol?"
+opciones = ["Bate", "Raqueta", "Palo"]
+correcta = "Bate"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿En qué mes se corre el Tour de Francia?"
+opciones = ["Julio", "Abril", "Octubre"]
+correcta = "Julio"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde se disputan las 24 Horas de Le Mans?"
+opciones = ["Francia", "Italia", "Bélgica"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué deporte se practica en el Dakar?"
+opciones = ["Rally", "Ciclismo", "Esquí"]
+correcta = "Rally"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué selección ganó la Eurocopa de 2012?"
+opciones = ["España", "Italia", "Alemania"]
+correcta = "España"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué club español tiene sede en el Camp Nou?"
+opciones = ["FC Barcelona", "Espanyol", "Girona"]
+correcta = "FC Barcelona"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿En qué ciudad juega el Valencia Basket?"
+opciones = ["Valencia", "Alicante", "Castellón"]
+correcta = "Valencia"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Marc Gasol?"
+opciones = ["Baloncesto", "Balonmano", "Voleibol"]
+correcta = "Baloncesto"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Ona Carbonell?"
+opciones = ["Natación artística", "Waterpolo", "Gimnasia rítmica"]
+correcta = "Natación artística"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Joan Mir?"
+opciones = ["Motociclismo", "Ciclismo", "Fórmula 1"]
+correcta = "Motociclismo"
+dificultad = 1
+tiempo = 5
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué deporte se juega en el Camp Nou?"
+opciones = ["Fútbol", "Baloncesto", "Rugby"]
+correcta = "Fútbol"
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se disputó la primera Eurocopa de selecciones?"
+min = 1945
+max = 1975
+paso = 1
+respuesta = 1960
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1960."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Atlético de Madrid?"
+min = 1890
+max = 1920
+paso = 1
+respuesta = 1903
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1903."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Athletic Club?"
+min = 1885
+max = 1915
+paso = 1
+respuesta = 1898
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1898."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Sevilla FC?"
+min = 1875
+max = 1905
+paso = 1
+respuesta = 1890
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1890."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Real Betis?"
+min = 1895
+max = 1925
+paso = 1
+respuesta = 1907
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1907."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Valencia CF?"
+min = 1905
+max = 1935
+paso = 1
+respuesta = 1919
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1919."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Celta de Vigo?"
+min = 1910
+max = 1940
+paso = 1
+respuesta = 1923
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1923."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la Real Sociedad?"
+min = 1895
+max = 1925
+paso = 1
+respuesta = 1909
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1909."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el RCD Espanyol?"
+min = 1885
+max = 1915
+paso = 1
+respuesta = 1900
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1900."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Real Zaragoza?"
+min = 1920
+max = 1950
+paso = 1
+respuesta = 1932
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1932."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se disputó el primer Tour de Francia?"
+min = 1890
+max = 1920
+paso = 1
+respuesta = 1903
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1903."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se disputó la primera Vuelta a España?"
+min = 1920
+max = 1950
+paso = 1
+respuesta = 1935
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1935."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebraron los primeros Juegos Olímpicos de Invierno, en Chamonix?"
+min = 1910
+max = 1940
+paso = 1
+respuesta = 1924
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1924."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Miguel Induráin su último Tour de Francia?"
+min = 1985
+max = 2005
+paso = 1
+respuesta = 1995
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Fernando Alonso su segundo título mundial de Fórmula 1?"
+min = 2000
+max = 2012
+paso = 1
+respuesta = 2006
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Rafa Nadal su primer Wimbledon?"
+min = 2000
+max = 2016
+paso = 1
+respuesta = 2008
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 2008."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Marc Márquez su primer título mundial de MotoGP?"
+min = 2005
+max = 2021
+paso = 1
+respuesta = 2013
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 2013."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó España su primera Eurocopa de selecciones?"
+min = 1950
+max = 1980
+paso = 1
+respuesta = 1964
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1964."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó España el Mundial de fútbol femenino?"
+min = 2010
+max = 2026
+paso = 1
+respuesta = 2023
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se jugó el Mundial de fútbol de España?"
+min = 1974
+max = 1990
+paso = 1
+respuesta = 1982
+tolerancia = 2
+dificultad = 1
+explicacion = "Respuesta: 1982."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebraron los Juegos Olímpicos de Moscú?"
+min = 1972
+max = 1988
+paso = 1
+respuesta = 1980
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 1980."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Seve Ballesteros su primer Masters de Augusta?"
+min = 1970
+max = 1990
+paso = 1
+respuesta = 1980
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 1980."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó José María Olazábal su primer Masters de Augusta?"
+min = 1985
+max = 2005
+paso = 1
+respuesta = 1994
+tolerancia = 2
+dificultad = 3
+explicacion = "Respuesta: 1994."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Sergio García el Masters de Augusta?"
+min = 2008
+max = 2024
+paso = 1
+respuesta = 2017
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 2017."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Jon Rahm el US Open?"
+min = 2014
+max = 2026
+paso = 1
+respuesta = 2021
+tolerancia = 2
+dificultad = 1
+explicacion = "Respuesta: 2021."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Federico Bahamontes el Tour de Francia?"
+min = 1945
+max = 1975
+paso = 1
+respuesta = 1959
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1959."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Pedro Delgado el Tour de Francia?"
+min = 1975
+max = 2000
+paso = 1
+respuesta = 1988
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1988."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Arantxa Sánchez Vicario su primer Roland Garros?"
+min = 1980
+max = 2000
+paso = 1
+respuesta = 1989
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 1989."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Conchita Martínez Wimbledon?"
+min = 1985
+max = 2005
+paso = 1
+respuesta = 1994
+tolerancia = 2
+dificultad = 3
+explicacion = "Respuesta: 1994."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Alberto Contador su primer Tour de Francia?"
+min = 1999
+max = 2015
+paso = 1
+respuesta = 2007
+tolerancia = 2
+dificultad = 1
+explicacion = "Respuesta: 2007."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó el Real Madrid la Décima Copa de Europa en Lisboa?"
+min = 2006
+max = 2022
+paso = 1
+respuesta = 2014
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó el Real Madrid su decimocuarta Champions League?"
+min = 2010
+max = 2026
+paso = 1
+respuesta = 2022
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 2022."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año debutó Lionel Messi con el primer equipo del FC Barcelona?"
+min = 1996
+max = 2012
+paso = 1
+respuesta = 2004
+tolerancia = 2
+dificultad = 3
+explicacion = "Respuesta: 2004."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el cabezazo de Zidane a Materazzi en la final del Mundial?"
+min = 1998
+max = 2014
+paso = 1
+respuesta = 2006
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 2006."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se jugó el Mundial en que Maradona marcó el «gol del siglo»?"
+min = 1975
+max = 1995
+paso = 1
+respuesta = 1986
+tolerancia = 2
+dificultad = 1
+explicacion = "Respuesta: 1986."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se retiró por primera vez Michael Jordan?"
+min = 1985
+max = 2000
+paso = 1
+respuesta = 1993
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 1993."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se jugó la primera Copa del Mundo de baloncesto, en Argentina?"
+min = 1935
+max = 1965
+paso = 1
+respuesta = 1950
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1950."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebró el primer Eurobasket masculino?"
+min = 1920
+max = 1950
+paso = 1
+respuesta = 1935
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1935."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año echó a andar la Liga ACB de baloncesto?"
+min = 1970
+max = 1995
+paso = 1
+respuesta = 1983
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1983."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se disputó la primera Liga española de fútbol?"
+min = 1915
+max = 1945
+paso = 1
+respuesta = 1929
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1929."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó el Real Madrid su primera Liga?"
+min = 1920
+max = 1945
+paso = 1
+respuesta = 1932
+tolerancia = 3
+dificultad = 3
+explicacion = "Respuesta: 1932."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año pasó la Copa de Europa a llamarse Champions League?"
+min = 1984
+max = 2000
+paso = 1
+respuesta = 1992
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 1992."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se jugó el primer torneo de Wimbledon?"
+min = 1860
+max = 1895
+paso = 1
+respuesta = 1877
+tolerancia = 4
+dificultad = 3
+explicacion = "Respuesta: 1877."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebraron los primeros Juegos Paralímpicos, en Roma?"
+min = 1945
+max = 1975
+paso = 1
+respuesta = 1960
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 1960."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas medallas en total ganó España en los Juegos de Barcelona 92?"
+min = 10
+max = 35
+paso = 1
+respuesta = 22
+tolerancia = 3
+dificultad = 1
+explicacion = "Respuesta: 22."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Grand Slams de tenis había ganado Novak Djokovic hasta 2024?"
+min = 14
+max = 30
+paso = 1
+respuesta = 24
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 24."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Grand Slams ganó Roger Federer?"
+min = 10
+max = 30
+paso = 1
+respuesta = 20
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 20."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros de largo mide una pista de baloncesto FIBA?"
+min = 20
+max = 36
+paso = 1
+unidad = "m"
+respuesta = 28
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 28 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros de largo mide un campo de fútbol de competición internacional?"
+min = 80
+max = 130
+paso = 1
+unidad = "m"
+respuesta = 105
+tolerancia = 5
+dificultad = 2
+explicacion = "Respuesta: 105 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros de largo mide una pista de tenis?"
+min = 15
+max = 35
+paso = 1
+unidad = "m"
+respuesta = 24
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 24 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos metros del suelo está el borde de la red de voleibol masculino?"
+min = 2.2
+max = 2.7
+paso = 0.01
+unidad = "m"
+respuesta = 2.43
+tolerancia = 0.05
+dificultad = 3
+explicacion = "Respuesta: 2,43 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos centímetros de diámetro tiene el aro de una canasta?"
+min = 30
+max = 70
+paso = 1
+unidad = "cm"
+respuesta = 45
+tolerancia = 5
+dificultad = 2
+explicacion = "Respuesta: 45 cm."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas etapas tiene normalmente el Tour de Francia?"
+min = 12
+max = 32
+paso = 1
+respuesta = 21
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 21."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos minutos dura un partido de balonmano?"
+min = 30
+max = 90
+paso = 1
+unidad = "min"
+respuesta = 60
+tolerancia = 10
+dificultad = 2
+explicacion = "Respuesta: 60 min."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos minutos dura un partido de la NBA?"
+min = 30
+max = 70
+paso = 1
+unidad = "min"
+respuesta = 48
+tolerancia = 5
+dificultad = 1
+explicacion = "Respuesta: 48 min."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es el par habitual de un campo de golf de 18 hoyos?"
+min = 60
+max = 85
+paso = 1
+respuesta = 72
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 72."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto mide Pau Gasol?"
+min = 1.9
+max = 2.4
+paso = 0.01
+unidad = "m"
+respuesta = 2.15
+tolerancia = 0.05
+dificultad = 2
+explicacion = "Respuesta: 2,15 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos espectadores cabían en el Camp Nou antes de su reforma?"
+min = 60000
+max = 130000
+paso = 1000
+respuesta = 99000
+tolerancia_pct = 10
+dificultad = 2
+explicacion = "Respuesta: 99000."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos espectadores cabían en el Bernabéu antes de su reforma?"
+min = 50000
+max = 110000
+paso = 1000
+respuesta = 81000
+tolerancia_pct = 10
+dificultad = 3
+explicacion = "Respuesta: 81000."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos espectadores caben en el estadio de Wembley, en Londres?"
+min = 60000
+max = 120000
+paso = 1000
+respuesta = 90000
+tolerancia_pct = 10
+dificultad = 2
+explicacion = "Respuesta: 90000."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos goles se marcaron en total en el Mundial de Catar 2022?"
+min = 100
+max = 250
+paso = 1
+respuesta = 172
+tolerancia = 15
+dificultad = 3
+explicacion = "Respuesta: 172."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas medallas ganó España en total en los Juegos de Tokio 2020?"
+min = 5
+max = 30
+paso = 1
+respuesta = 17
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 17."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el récord mundial de salto con pértiga de Duplantis en París 2024?"
+min = 5.8
+max = 6.6
+paso = 0.01
+unidad = "m"
+respuesta = 6.25
+tolerancia = 0.1
+dificultad = 3
+explicacion = "Respuesta: 6,25 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos metros está la línea de triple en baloncesto FIBA?"
+min = 5
+max = 9
+paso = 0.05
+unidad = "m"
+respuesta = 6.75
+tolerancia = 0.4
+dificultad = 2
+explicacion = "Respuesta: 6,75 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros de ancho mide una portería de fútbol?"
+min = 6
+max = 9
+paso = 0.01
+unidad = "m"
+respuesta = 7.32
+tolerancia = 0.3
+dificultad = 3
+explicacion = "Respuesta: 7,32 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros de alto mide una portería de fútbol?"
+min = 1.5
+max = 3.5
+paso = 0.01
+unidad = "m"
+respuesta = 2.44
+tolerancia = 0.2
+dificultad = 2
+explicacion = "Respuesta: 2,44 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos metros del gol está el punto de penalti?"
+min = 5
+max = 20
+paso = 1
+unidad = "m"
+respuesta = 11
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas selecciones jugarán el Mundial de fútbol de 2026?"
+min = 24
+max = 64
+paso = 1
+respuesta = 48
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas selecciones juegan la Eurocopa?"
+min = 12
+max = 36
+paso = 1
+respuesta = 24
+tolerancia = 3
+dificultad = 2
+explicacion = "Respuesta: 24."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos equipos tiene la NBA?"
+min = 16
+max = 40
+paso = 1
+respuesta = 30
+tolerancia = 3
+dificultad = 1
+explicacion = "Respuesta: 30."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos equipos juegan la Liga ACB en la temporada 2024-25?"
+min = 10
+max = 28
+paso = 1
+respuesta = 18
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 18."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos equipos juegan la Liga F de fútbol femenino en la temporada 2024-25?"
+min = 8
+max = 24
+paso = 1
+respuesta = 16
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 16."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es el récord mundial de salto de altura masculino, de Javier Sotomayor?"
+min = 2.0
+max = 2.9
+paso = 0.01
+unidad = "m"
+respuesta = 2.45
+tolerancia = 0.1
+dificultad = 3
+explicacion = "Respuesta: 2,45 m."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Dakar en coches había ganado Carlos Sainz hasta 2024?"
+min = 1
+max = 8
+paso = 1
+respuesta = 4
+tolerancia = 1
+dificultad = 2
+explicacion = "Respuesta: 4."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Mundiales de fútbol masculino ha ganado Italia?"
+min = 1
+max = 8
+paso = 1
+respuesta = 4
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué edad tenía Lamine Yamal cuando ganó la Eurocopa de 2024?"
+min = 12
+max = 30
+paso = 1
+unidad = "años"
+respuesta = 17
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 17 años."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó España el Mundial de baloncesto de China?"
+min = 2005
+max = 2025
+paso = 1
+respuesta = 2019
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se jugó el Mundial de fútbol de Catar?"
+min = 2010
+max = 2026
+paso = 1
+respuesta = 2022
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué edad tenía Rafa Nadal cuando ganó su primer Roland Garros?"
+min = 14
+max = 30
+paso = 1
+unidad = "años"
+respuesta = 19
+tolerancia = 2
+dificultad = 2
+explicacion = "Respuesta: 19 años."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Xavi Hernández en el primer equipo del FC Barcelona?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [1998, 2015]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 1998 y 2015."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Andrés Iniesta en el primer equipo del FC Barcelona?"
+min = 1995
+max = 2025
+paso = 1
+respuesta = [2002, 2018]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2002 y 2018."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Carles Puyol en el primer equipo del Barça?"
+min = 1992
+max = 2022
+paso = 1
+respuesta = [1999, 2014]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1999 y 2014."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Raúl González en el Real Madrid?"
+min = 1988
+max = 2016
+paso = 1
+respuesta = [1994, 2010]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 1994 y 2010."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Iker Casillas jugador del primer equipo del Real Madrid?"
+min = 1994
+max = 2022
+paso = 1
+respuesta = [1999, 2015]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1999 y 2015."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Lionel Messi en el FC Barcelona?"
+min = 1998
+max = 2026
+paso = 1
+respuesta = [2004, 2021]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2004 y 2021."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Cristiano Ronaldo en el Real Madrid?"
+min = 2003
+max = 2024
+paso = 1
+respuesta = [2009, 2018]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2009 y 2018."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Zinedine Zidane en el Real Madrid?"
+min = 1996
+max = 2012
+paso = 1
+respuesta = [2001, 2006]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2001 y 2006."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Ronaldinho en el FC Barcelona?"
+min = 1998
+max = 2014
+paso = 1
+respuesta = [2003, 2008]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2003 y 2008."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Johan Cruyff en el FC Barcelona?"
+min = 1968
+max = 1984
+paso = 1
+respuesta = [1973, 1978]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1973 y 1978."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Alfredo Di Stéfano en el Real Madrid?"
+min = 1948
+max = 1970
+paso = 1
+respuesta = [1953, 1964]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1953 y 1964."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Fernando Torres en el Atlético de Madrid en su primera etapa?"
+min = 1996
+max = 2012
+paso = 1
+respuesta = [2001, 2007]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2001 y 2007."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Fernando Torres en el Liverpool?"
+min = 2003
+max = 2015
+paso = 1
+respuesta = [2007, 2011]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2007 y 2011."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Andrés Iniesta en el Vissel Kobe?"
+min = 2014
+max = 2026
+paso = 1
+respuesta = [2018, 2023]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2018 y 2023."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Sergio Ramos en el Real Madrid?"
+min = 2000
+max = 2026
+paso = 1
+respuesta = [2005, 2021]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2005 y 2021."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Gerard Piqué en el primer equipo del Barça, tras volver del United?"
+min = 2002
+max = 2026
+paso = 1
+respuesta = [2008, 2022]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2008 y 2022."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Sergio Busquets en el primer equipo del Barça?"
+min = 2002
+max = 2026
+paso = 1
+respuesta = [2008, 2023]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2008 y 2023."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó David Villa en el FC Barcelona?"
+min = 2004
+max = 2020
+paso = 1
+respuesta = [2010, 2013]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2010 y 2013."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó Pep Guardiola al primer equipo del Barça?"
+min = 2002
+max = 2018
+paso = 1
+respuesta = [2008, 2012]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2008 y 2012."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó Luis Enrique al primer equipo del Barça?"
+min = 2008
+max = 2022
+paso = 1
+respuesta = [2014, 2017]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2014 y 2017."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Vicente del Bosque seleccionador de España?"
+min = 2000
+max = 2020
+paso = 1
+respuesta = [2008, 2016]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2008 y 2016."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Luis Aragonés seleccionador de España?"
+min = 1998
+max = 2014
+paso = 1
+respuesta = [2004, 2008]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2004 y 2008."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó Zinedine Zidane al Real Madrid en su primera etapa?"
+min = 2010
+max = 2024
+paso = 1
+respuesta = [2016, 2018]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2016 y 2018."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó José Mourinho al Real Madrid?"
+min = 2004
+max = 2020
+paso = 1
+respuesta = [2010, 2013]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2010 y 2013."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó Johan Cruyff al FC Barcelona?"
+min = 1980
+max = 2004
+paso = 1
+respuesta = [1988, 1996]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1988 y 1996."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Michael Laudrup en el FC Barcelona?"
+min = 1983
+max = 2003
+paso = 1
+respuesta = [1989, 1994]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1989 y 1994."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Emilio Butragueño en el Real Madrid?"
+min = 1976
+max = 2000
+paso = 1
+respuesta = [1983, 1995]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1983 y 1995."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Hugo Sánchez en el Real Madrid?"
+min = 1980
+max = 1998
+paso = 1
+respuesta = [1985, 1992]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1985 y 1992."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Ronaldo Nazário en el Real Madrid?"
+min = 1998
+max = 2012
+paso = 1
+respuesta = [2002, 2007]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2002 y 2007."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó David Beckham en el Real Madrid?"
+min = 1998
+max = 2012
+paso = 1
+respuesta = [2003, 2007]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2003 y 2007."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Luis Figo en el Real Madrid?"
+min = 1995
+max = 2010
+paso = 1
+respuesta = [2000, 2005]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2000 y 2005."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Luis Figo en el FC Barcelona?"
+min = 1990
+max = 2006
+paso = 1
+respuesta = [1995, 2000]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1995 y 2000."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Samuel Eto'o en el FC Barcelona?"
+min = 1999
+max = 2015
+paso = 1
+respuesta = [2004, 2009]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2004 y 2009."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Neymar en el FC Barcelona?"
+min = 2008
+max = 2022
+paso = 1
+respuesta = [2013, 2017]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2013 y 2017."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Luis Suárez en el FC Barcelona?"
+min = 2008
+max = 2026
+paso = 1
+respuesta = [2014, 2020]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2014 y 2020."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Karim Benzema en el Real Madrid?"
+min = 2004
+max = 2026
+paso = 1
+respuesta = [2009, 2023]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2009 y 2023."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Toni Kroos en el Real Madrid?"
+min = 2009
+max = 2026
+paso = 1
+respuesta = [2014, 2024]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2014 y 2024."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Gareth Bale en el Real Madrid?"
+min = 2008
+max = 2026
+paso = 1
+respuesta = [2013, 2022]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2013 y 2022."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Iker Casillas en el Oporto?"
+min = 2010
+max = 2024
+paso = 1
+respuesta = [2015, 2020]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2015 y 2020."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó David Silva en el Manchester City?"
+min = 2005
+max = 2025
+paso = 1
+respuesta = [2010, 2020]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2010 y 2020."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Xabi Alonso en el Real Madrid?"
+min = 2004
+max = 2020
+paso = 1
+respuesta = [2009, 2014]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2009 y 2014."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Cesc Fàbregas en el Arsenal?"
+min = 1998
+max = 2016
+paso = 1
+respuesta = [2003, 2011]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2003 y 2011."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Fernando Hierro en el Real Madrid?"
+min = 1984
+max = 2008
+paso = 1
+respuesta = [1989, 2003]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1989 y 2003."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó Rafa Benítez al Valencia?"
+min = 1996
+max = 2012
+paso = 1
+respuesta = [2001, 2004]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2001 y 2004."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó Unai Emery al Sevilla?"
+min = 2008
+max = 2020
+paso = 1
+respuesta = [2013, 2016]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2013 y 2016."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó Carlo Ancelotti al Real Madrid en su segunda etapa?"
+min = 2015
+max = 2030
+paso = 1
+respuesta = [2021, 2025]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2021 y 2025."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Pau Gasol en los Lakers?"
+min = 2003
+max = 2020
+paso = 1
+respuesta = [2008, 2014]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2008 y 2014."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Pau Gasol en los Memphis Grizzlies?"
+min = 1996
+max = 2012
+paso = 1
+respuesta = [2001, 2008]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2001 y 2008."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Marc Gasol en los Memphis Grizzlies?"
+min = 2003
+max = 2024
+paso = 1
+respuesta = [2008, 2019]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2008 y 2019."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Pau Gasol en el FC Barcelona de baloncesto?"
+min = 1993
+max = 2008
+paso = 1
+respuesta = [1998, 2001]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1998 y 2001."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Kobe Bryant en los Lakers?"
+min = 1990
+max = 2022
+paso = 1
+respuesta = [1996, 2016]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 1996 y 2016."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Larry Bird en los Boston Celtics?"
+min = 1972
+max = 1996
+paso = 1
+respuesta = [1979, 1992]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1979 y 1992."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Magic Johnson en los Lakers en su primera etapa?"
+min = 1972
+max = 1996
+paso = 1
+respuesta = [1979, 1991]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1979 y 1991."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Felipe Reyes en el Real Madrid de baloncesto?"
+min = 1998
+max = 2026
+paso = 1
+respuesta = [2004, 2021]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2004 y 2021."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años entrenó Pablo Laso al Real Madrid de baloncesto?"
+min = 2005
+max = 2026
+paso = 1
+respuesta = [2011, 2023]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2011 y 2023."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Rafa Nadal?"
+min = 1995
+max = 2030
+paso = 1
+respuesta = [2001, 2024]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2001 y 2024."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Roger Federer?"
+min = 1992
+max = 2028
+paso = 1
+respuesta = [1998, 2022]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1998 y 2022."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Arantxa Sánchez Vicario?"
+min = 1980
+max = 2008
+paso = 1
+respuesta = [1985, 2002]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1985 y 2002."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Conchita Martínez?"
+min = 1982
+max = 2012
+paso = 1
+respuesta = [1988, 2006]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1988 y 2006."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Steffi Graf?"
+min = 1978
+max = 2004
+paso = 1
+respuesta = [1982, 1999]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1982 y 1999."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Serena Williams?"
+min = 1990
+max = 2028
+paso = 1
+respuesta = [1995, 2022]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 1995 y 2022."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional David Ferrer?"
+min = 1995
+max = 2025
+paso = 1
+respuesta = [2000, 2019]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2000 y 2019."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Fernando Alonso en Ferrari?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = [2010, 2014]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2010 y 2014."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Fernando Alonso en Renault en su primera etapa?"
+min = 1999
+max = 2012
+paso = 1
+respuesta = [2003, 2006]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2003 y 2006."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Michael Schumacher en Ferrari?"
+min = 1990
+max = 2012
+paso = 1
+respuesta = [1996, 2006]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1996 y 2006."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Lewis Hamilton en McLaren?"
+min = 2002
+max = 2018
+paso = 1
+respuesta = [2007, 2012]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2007 y 2012."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Lewis Hamilton en Mercedes?"
+min = 2008
+max = 2030
+paso = 1
+respuesta = [2013, 2024]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2013 y 2024."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Ayrton Senna en McLaren?"
+min = 1982
+max = 1998
+paso = 1
+respuesta = [1988, 1993]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1988 y 1993."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Carlos Sainz júnior en Ferrari?"
+min = 2016
+max = 2030
+paso = 1
+respuesta = [2021, 2024]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2021 y 2024."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Carlos Sainz júnior en Toro Rosso?"
+min = 2010
+max = 2022
+paso = 1
+respuesta = [2015, 2017]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2015 y 2017."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Ángel Nieto sus 13 títulos mundiales?"
+min = 1962
+max = 1990
+paso = 1
+respuesta = [1969, 1984]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1969 y 1984."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años compitió Valentino Rossi en el Mundial de motociclismo?"
+min = 1990
+max = 2026
+paso = 1
+respuesta = [1996, 2021]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1996 y 2021."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Marc Márquez en el equipo oficial Honda de MotoGP?"
+min = 2008
+max = 2026
+paso = 1
+respuesta = [2013, 2023]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2013 y 2023."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Dani Pedrosa en MotoGP?"
+min = 2000
+max = 2026
+paso = 1
+respuesta = [2006, 2018]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2006 y 2018."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Jorge Lorenzo en Yamaha?"
+min = 2003
+max = 2022
+paso = 1
+respuesta = [2008, 2016]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2008 y 2016."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Nico Rosberg en la Fórmula 1?"
+min = 2000
+max = 2022
+paso = 1
+respuesta = [2006, 2016]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2006 y 2016."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Sebastian Vettel en la Fórmula 1?"
+min = 2002
+max = 2028
+paso = 1
+respuesta = [2007, 2022]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2007 y 2022."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años corrió Ayrton Senna en la Fórmula 1?"
+min = 1978
+max = 2000
+paso = 1
+respuesta = [1984, 1994]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1984 y 1994."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Miguel Induráin?"
+min = 1978
+max = 2002
+paso = 1
+respuesta = [1984, 1996]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1984 y 1996."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Miguel Induráin sus cinco Tours seguidos?"
+min = 1985
+max = 2002
+paso = 1
+respuesta = [1991, 1995]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1991 y 1995."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Alberto Contador?"
+min = 1998
+max = 2024
+paso = 1
+respuesta = [2003, 2017]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2003 y 2017."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Eddy Merckx sus cinco Tours de Francia?"
+min = 1960
+max = 1985
+paso = 1
+respuesta = [1969, 1974]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1969 y 1974."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Alejandro Valverde?"
+min = 1996
+max = 2030
+paso = 1
+respuesta = [2002, 2022]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2002 y 2022."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Severiano Ballesteros?"
+min = 1968
+max = 2012
+paso = 1
+respuesta = [1974, 2007]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1974 y 2007."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años participó Michael Phelps en los Juegos Olímpicos?"
+min = 1996
+max = 2020
+paso = 1
+respuesta = [2000, 2016]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2000 y 2016."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Carl Lewis medallas de oro en Juegos Olímpicos?"
+min = 1980
+max = 2000
+paso = 1
+respuesta = [1984, 1996]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1984 y 1996."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Pelé en el Santos?"
+min = 1950
+max = 1980
+paso = 1
+respuesta = [1956, 1974]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1956 y 1974."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Pelé en el New York Cosmos?"
+min = 1968
+max = 1985
+paso = 1
+respuesta = [1975, 1977]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1975 y 1977."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Diego Maradona en el Nápoles?"
+min = 1978
+max = 1996
+paso = 1
+respuesta = [1984, 1991]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1984 y 1991."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Diego Maradona en el FC Barcelona?"
+min = 1976
+max = 1990
+paso = 1
+respuesta = [1982, 1984]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1982 y 1984."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años jugó Johan Cruyff en el Ajax?"
+min = 1960
+max = 1980
+paso = 1
+respuesta = [1964, 1973]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1964 y 1973."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue profesional Muhammad Ali en el boxeo?"
+min = 1955
+max = 1985
+paso = 1
+respuesta = [1960, 1981]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1960 y 1981."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó el Real Madrid sus cinco primeras Copas de Europa?"
+min = 1950
+max = 1970
+paso = 1
+respuesta = [1956, 1960]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1956 y 1960."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó el Barça de Cruyff cuatro Ligas seguidas?"
+min = 1985
+max = 2000
+paso = 1
+respuesta = [1991, 1994]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1991 y 1994."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó España la Eurocopa 2008, el Mundial 2010 y la Eurocopa 2012?"
+min = 2000
+max = 2020
+paso = 1
+respuesta = [2008, 2012]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2008 y 2012."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó el Real Madrid tres Champions seguidas con Zidane?"
+min = 2010
+max = 2024
+paso = 1
+respuesta = [2016, 2018]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2016 y 2018."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Brasil sus cinco Mundiales de fútbol?"
+min = 1946
+max = 2010
+paso = 1
+respuesta = [1958, 2002]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1958 y 2002."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Italia sus cuatro Mundiales de fútbol?"
+min = 1926
+max = 2014
+paso = 1
+respuesta = [1934, 2006]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1934 y 2006."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Alemania sus cuatro Mundiales de fútbol?"
+min = 1946
+max = 2022
+paso = 1
+respuesta = [1954, 2014]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1954 y 2014."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Argentina sus tres Mundiales de fútbol?"
+min = 1970
+max = 2030
+paso = 1
+respuesta = [1978, 2022]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1978 y 2022."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Francia sus dos Mundiales de fútbol hasta 2022?"
+min = 1990
+max = 2026
+paso = 1
+respuesta = [1998, 2018]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 1998 y 2018."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó España sus Eurocopas, de la primera a la última hasta 2024?"
+min = 1950
+max = 2030
+paso = 1
+respuesta = [1964, 2024]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1964 y 2024."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó el Sevilla sus seis Europa League o Copa UEFA?"
+min = 1998
+max = 2026
+paso = 1
+respuesta = [2006, 2020]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2006 y 2020."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Rafa Nadal sus 14 Roland Garros?"
+min = 2000
+max = 2026
+paso = 1
+respuesta = [2005, 2022]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2005 y 2022."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Roger Federer sus ocho Wimbledon?"
+min = 1998
+max = 2024
+paso = 1
+respuesta = [2003, 2017]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2003 y 2017."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Serena Williams sus 23 Grand Slams?"
+min = 1990
+max = 2024
+paso = 1
+respuesta = [1999, 2017]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1999 y 2017."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Steffi Graf sus 22 Grand Slams?"
+min = 1980
+max = 2004
+paso = 1
+respuesta = [1987, 1999]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1987 y 1999."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Michael Schumacher sus siete títulos de Fórmula 1?"
+min = 1988
+max = 2010
+paso = 1
+respuesta = [1994, 2004]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1994 y 2004."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Lewis Hamilton sus siete títulos de Fórmula 1?"
+min = 2000
+max = 2026
+paso = 1
+respuesta = [2008, 2020]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2008 y 2020."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Sebastian Vettel sus cuatro títulos de Fórmula 1?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = [2010, 2013]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2010 y 2013."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Fernando Alonso sus dos títulos de Fórmula 1?"
+min = 2000
+max = 2012
+paso = 1
+respuesta = [2005, 2006]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue entre 2005 y 2006."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Juan Manuel Fangio sus cinco títulos de Fórmula 1?"
+min = 1945
+max = 1965
+paso = 1
+respuesta = [1951, 1957]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 1951 y 1957."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Ayrton Senna sus tres títulos de Fórmula 1?"
+min = 1980
+max = 2000
+paso = 1
+respuesta = [1988, 1991]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1988 y 1991."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Marc Márquez sus títulos de MotoGP hasta 2019?"
+min = 2008
+max = 2026
+paso = 1
+respuesta = [2013, 2019]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2013 y 2019."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Valentino Rossi sus títulos de la categoría reina?"
+min = 1995
+max = 2015
+paso = 1
+respuesta = [2001, 2009]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2001 y 2009."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Jorge Lorenzo sus tres títulos de MotoGP?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = [2010, 2015]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue entre 2010 y 2015."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó España sus seis Copas Davis hasta 2019?"
+min = 1990
+max = 2026
+paso = 1
+respuesta = [2000, 2019]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2000 y 2019."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Brasil de Pelé sus tres Mundiales?"
+min = 1950
+max = 1980
+paso = 1
+respuesta = [1958, 1970]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 1958 y 1970."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años ganó Usain Bolt títulos olímpicos?"
+min = 2000
+max = 2024
+paso = 1
+respuesta = [2008, 2016]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue entre 2008 y 2016."
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio Santiago Bernabéu, casa del Real Madrid."
+respuesta = { lat = 40.4531, lng = -3.6883 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio Camp Nou, casa del FC Barcelona."
+respuesta = { lat = 41.3808, lng = 2.1228 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de San Mamés, casa del Athletic Club."
+respuesta = { lat = 43.3503, lng = -3.0953 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde juega el Sevilla FC, en el estadio Ramón Sánchez-Pizjuán."
+respuesta = { lat = 37.3839, lng = -5.9705 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio Benito Villamarín, del Real Betis."
+respuesta = { lat = 37.3564, lng = -5.9816 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de El Sadar, de Osasuna."
+respuesta = { lat = 42.7967, lng = -1.6369 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de la Cerámica, casa del Villarreal."
+respuesta = { lat = 39.9442, lng = -0.1036 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio Carlos Tartiere, del Real Oviedo."
+respuesta = { lat = 43.3608, lng = -5.8702 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de Gran Canaria, de la UD Las Palmas."
+respuesta = { lat = 28.1, lng = -15.4567 }
+radio = 60000
+vista = { lat = 33.0, lng = -9.0, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de La Rosaleda, del Málaga CF."
+respuesta = { lat = 36.7341, lng = -4.4264 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde juega el Cádiz CF, en el estadio Nuevo Mirandilla."
+respuesta = { lat = 36.5028, lng = -6.2731 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Coliseum, estadio del Getafe CF."
+respuesta = { lat = 40.3256, lng = -3.7147 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio José Zorrilla, del Real Valladolid."
+respuesta = { lat = 41.6444, lng = -4.7611 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de El Sardinero, del Racing de Santander."
+respuesta = { lat = 43.4764, lng = -3.7933 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de La Romareda, del Real Zaragoza."
+respuesta = { lat = 41.6366, lng = -0.9018 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de La Cartuja, sede de finales de Copa del Rey."
+respuesta = { lat = 37.4172, lng = -6.0046 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio olímpico de Montjuïc, sede de Barcelona 92."
+respuesta = { lat = 41.3647, lng = 2.1556 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Palau Sant Jordi, construido para los Juegos de 1992."
+respuesta = { lat = 41.3634, lng = 2.1526 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pabellón Fernando Buesa Arena, de baloncesto."
+respuesta = { lat = 42.8644, lng = -2.6412 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito de Barcelona-Catalunya, donde se corre el GP de España de F1."
+respuesta = { lat = 41.57, lng = 2.2611 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito Ricardo Tormo, en Cheste."
+respuesta = { lat = 39.4858, lng = -0.6281 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito del Jarama, en el norte de Madrid."
+respuesta = { lat = 40.6171, lng = -3.5856 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito de Navarra, en Los Arcos."
+respuesta = { lat = 42.5611, lng = -2.1636 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala MotorLand Aragón, circuito de Alcañiz."
+respuesta = { lat = 41.0797, lng = -0.1872 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el velódromo de Horta, sede del ciclismo en pista de Barcelona 92."
+respuesta = { lat = 41.4381, lng = 2.1489 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el lago de Bañolas, sede del remo en Barcelona 92."
+respuesta = { lat = 42.1253, lng = 2.7553 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Canal Olímpico de Castelldefels, usado en Barcelona 92."
+respuesta = { lat = 41.2754, lng = 1.9924 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala La Seu d'Urgell, sede del piragüismo en aguas bravas en 1992."
+respuesta = { lat = 42.3578, lng = 1.4586 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pabellón de Badalona, sede del baloncesto en Barcelona 92."
+respuesta = { lat = 41.4424, lng = 2.2321 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la estación de esquí de Sierra Nevada, sede del Mundial de esquí de 1996."
+respuesta = { lat = 37.0533, lng = -3.3114 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se celebró el Mundial de atletismo de 1999."
+respuesta = { lat = 37.3886, lng = -5.995 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala los Lagos de Covadonga, final de etapa de La Vuelta."
+respuesta = { lat = 43.2683, lng = -4.9859 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Pico Veleta, final de etapa de La Vuelta en Sierra Nevada."
+respuesta = { lat = 37.056, lng = -3.3657 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Formigal, estación pirenaica y final de etapa de La Vuelta."
+respuesta = { lat = 42.7741, lng = -0.3609 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Peña Cabarga, famosa subida de La Vuelta en Cantabria."
+respuesta = { lat = 43.3786, lng = -3.7797 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Manacor, localidad mallorquina donde nació Rafa Nadal."
+respuesta = { lat = 39.57, lng = 3.2089 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad asturiana donde nació Fernando Alonso."
+respuesta = { lat = 43.3625, lng = -5.8503 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Villava, localidad navarra donde nació Miguel Induráin."
+respuesta = { lat = 42.8308, lng = -1.6086 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Pedreña, el pueblo cántabro de Severiano Ballesteros."
+respuesta = { lat = 43.4436, lng = -3.7681 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Barrika, la localidad vizcaína de Jon Rahm."
+respuesta = { lat = 43.4027, lng = -2.9757 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Cervera, la localidad leridana donde nació Marc Márquez."
+respuesta = { lat = 41.6657, lng = 1.271 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde nació Ángel Nieto, 13 veces campeón del mundo."
+respuesta = { lat = 41.5033, lng = -5.7556 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Fuentealbilla, el pueblo albaceteño de Andrés Iniesta."
+respuesta = { lat = 39.2667, lng = -1.5492 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Terrassa, la ciudad catalana donde nació Xavi Hernández."
+respuesta = { lat = 41.5611, lng = 2.0081 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Móstoles, localidad madrileña donde nació Iker Casillas."
+respuesta = { lat = 40.3333, lng = -3.8667 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Fuenlabrada, la ciudad madrileña donde nació Fernando Torres."
+respuesta = { lat = 40.2833, lng = -3.8 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Tuilla, el pueblo asturiano donde nació David Villa."
+respuesta = { lat = 43.3285, lng = -5.6494 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Camas, la localidad sevillana donde nació Sergio Ramos."
+respuesta = { lat = 37.402, lng = -6.0332 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala La Pobla de Segur, el pueblo leridano de Carles Puyol."
+respuesta = { lat = 42.2497, lng = 0.9692 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Mollet del Vallès, donde nació Alexia Putellas."
+respuesta = { lat = 41.5356, lng = 2.2107 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Sant Pere de Ribes, la localidad catalana de Aitana Bonmatí."
+respuesta = { lat = 41.2592, lng = 1.773 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Esplugues de Llobregat, donde nació Lamine Yamal."
+respuesta = { lat = 41.3767, lng = 2.0858 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Tegueste, el municipio de Tenerife donde nació Pedri."
+respuesta = { lat = 28.5233, lng = -16.3408 }
+radio = 50000
+vista = { lat = 33.0, lng = -9.0, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad onubense donde nació Carolina Marín, campeona olímpica de bádminton."
+respuesta = { lat = 37.25, lng = -6.95 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala El Masnou, localidad catalana donde nació el baloncestista Ricky Rubio."
+respuesta = { lat = 41.4817, lng = 2.3178 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Monzón, la ciudad oscense de la tenista Conchita Martínez."
+respuesta = { lat = 41.9, lng = 0.1833 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Pinto, el pueblo madrileño del ciclista Alberto Contador."
+respuesta = { lat = 40.2411, lng = -3.6994 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Sant Boi de Llobregat, donde se crió Pau Gasol."
+respuesta = { lat = 41.3436, lng = 2.0366 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad mallorquina donde nació el motociclista Jorge Lorenzo."
+respuesta = { lat = 39.5526, lng = 2.6246 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad gallega donde juega el Celta."
+respuesta = { lat = 42.2358, lng = -8.7267 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde juega la Real Sociedad."
+respuesta = { lat = 43.32, lng = -1.98 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Vitoria, la ciudad del Deportivo Alavés y el Baskonia."
+respuesta = { lat = 42.8506, lng = -2.6728 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Eibar, la pequeña ciudad guipuzcoana con equipo en Primera División."
+respuesta = { lat = 43.1849, lng = -2.4716 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Villarreal, localidad castellonense campeona de la Europa League 2021."
+respuesta = { lat = 39.9378, lng = -0.1014 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde juega la UD Almería."
+respuesta = { lat = 37.1667, lng = -2.3333 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde juega el Elche CF."
+respuesta = { lat = 38.2654, lng = -0.6989 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Getafe, ciudad madrileña con equipo en Primera."
+respuesta = { lat = 40.3, lng = -3.7167 }
+radio = 30000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad castellana donde jugó en Primera el Numancia."
+respuesta = { lat = 41.7667, lng = -2.4667 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que subió a Primera con la SD Huesca en 2018."
+respuesta = { lat = 42.1401, lng = -0.4089 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital tinerfeña, ciudad del CD Tenerife."
+respuesta = { lat = 28.4667, lng = -16.25 }
+radio = 50000
+vista = { lat = 33.0, lng = -9.0, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad asturiana donde juega el Sporting."
+respuesta = { lat = 43.5293, lng = -5.6773 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Badalona, ciudad del Joventut, la Penya."
+respuesta = { lat = 41.4333, lng = 2.2333 }
+radio = 30000
+vista = { lat = 40.0, lng = -3.5, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Alpe d'Huez, una de las subidas más míticas del Tour de Francia."
+respuesta = { lat = 45.09, lng = 6.07 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Mont Ventoux, el temido «gigante de Provenza» del Tour."
+respuesta = { lat = 44.1667, lng = 5.2833 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Col du Tourmalet, puerto pirenaico del Tour."
+respuesta = { lat = 42.9069, lng = 0.1481 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito de Spa-Francorchamps, sede del GP de Bélgica de F1."
+respuesta = { lat = 50.4372, lng = 5.9714 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se corre el GP de Mónaco de F1."
+respuesta = { lat = 43.7347, lng = 7.4206 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito de Silverstone, sede del GP de Gran Bretaña."
+respuesta = { lat = 52.075, lng = -1.0167 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito de Nürburgring, en Alemania."
+respuesta = { lat = 50.3356, lng = 6.9475 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito de Imola, en Italia."
+respuesta = { lat = 44.3411, lng = 11.7133 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de Wembley, en Londres."
+respuesta = { lat = 51.5556, lng = -0.2797 }
+radio = 40000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio Old Trafford, del Manchester United."
+respuesta = { lat = 53.4631, lng = -2.2914 }
+radio = 40000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de Anfield, del Liverpool."
+respuesta = { lat = 53.4308, lng = -2.9608 }
+radio = 40000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Allianz Arena, del Bayern de Múnich."
+respuesta = { lat = 48.2188, lng = 11.6248 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Stade de France, sede de la final del Mundial 1998."
+respuesta = { lat = 48.9244, lng = 2.36 }
+radio = 40000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Parc des Princes, estadio del París Saint-Germain."
+respuesta = { lat = 48.8415, lng = 2.253 }
+radio = 40000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Signal Iduna Park, estadio del Borussia Dortmund."
+respuesta = { lat = 51.4925, lng = 7.4517 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Stamford Bridge, estadio del Chelsea."
+respuesta = { lat = 51.4817, lng = -0.1911 }
+radio = 40000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio donde juega el Ajax."
+respuesta = { lat = 52.3142, lng = 4.9419 }
+radio = 50000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Estádio da Luz, del Benfica."
+respuesta = { lat = 38.7536, lng = -9.1826 }
+radio = 50000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala La Bombonera, estadio de Boca Juniors."
+respuesta = { lat = -34.6356, lng = -58.3646 }
+radio = 100000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio Azteca, sede de las finales de México 70 y 86."
+respuesta = { lat = 19.3031, lng = -99.1506 }
+radio = 100000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio Centenario, sede de la final del primer Mundial en 1930."
+respuesta = { lat = -34.8944, lng = -56.1528 }
+radio = 100000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estadio de Lusail, sede de la final de Catar 2022."
+respuesta = { lat = 25.4209, lng = 51.4904 }
+radio = 100000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Rose Bowl, sede de la final del Mundial de 1994."
+respuesta = { lat = 34.1614, lng = -118.1675 }
+radio = 100000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el All England Club, sede del torneo de Wimbledon."
+respuesta = { lat = 51.4345, lng = -0.2144 }
+radio = 40000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Augusta National, sede del Masters de golf."
+respuesta = { lat = 33.5025, lng = -82.02 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala St Andrews, la cuna del golf."
+respuesta = { lat = 56.3515, lng = -2.8161 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Madison Square Garden, en Nueva York."
+respuesta = { lat = 40.7505, lng = -73.9935 }
+radio = 100000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito de Indianápolis, sede de las 500 Millas."
+respuesta = { lat = 39.7949, lng = -86.2348 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el circuito de Interlagos, en São Paulo."
+respuesta = { lat = -23.7011, lng = -46.6972 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Olimpia, donde nacieron los Juegos Olímpicos de la Antigüedad."
+respuesta = { lat = 37.6383, lng = 21.63 }
+radio = 100000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Nido de Pájaro, estadio de los Juegos de Pekín 2008."
+respuesta = { lat = 39.9915, lng = 116.3905 }
+radio = 100000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Estadio Olímpico de Tokio, usado en los Juegos de 2021."
+respuesta = { lat = 35.6781, lng = 139.7147 }
+radio = 100000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad suiza que es sede del Comité Olímpico Internacional."
+respuesta = { lat = 46.5333, lng = 6.6333 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde Ali ganó a Foreman en 1974."
+respuesta = { lat = -4.3219, lng = 15.3119 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Melbourne Cricket Ground, en Australia."
+respuesta = { lat = -37.8199, lng = 144.9834 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Twickenham, el templo del rugby inglés."
+respuesta = { lat = 51.4561, lng = -0.3417 }
+radio = 40000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que organizó los Juegos Olímpicos de 2016."
+respuesta = { lat = -22.9111, lng = -43.2056 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que organizó los Juegos Olímpicos del año 2000."
+respuesta = { lat = -33.8678, lng = 151.21 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que organizó los Juegos Olímpicos de 1996."
+respuesta = { lat = 33.7544, lng = -84.3897 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogerá los Juegos Olímpicos de 2028."
+respuesta = { lat = 34.0522, lng = -118.2437 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la zona de Corea del Sur que acogió los Juegos de Invierno de 2018."
+respuesta = { lat = 37.3675, lng = 128.3958 }
+radio = 150000
+vista = { lat = 25.0, lng = 0.0, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad rusa que acogió los Juegos de Invierno de 2014."
+respuesta = { lat = 43.5853, lng = 39.7203 }
+radio = 150000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad austríaca que acogió los Juegos de Invierno de 1964 y 1976."
+respuesta = { lat = 47.2683, lng = 11.3933 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Albertville, ciudad que acogió los Juegos de Invierno de 1992."
+respuesta = { lat = 45.6758, lng = 6.3925 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Chamonix, sede de los primeros Juegos de Invierno en 1924."
+respuesta = { lat = 45.9222, lng = 6.8689 }
+radio = 60000
+vista = { lat = 49.0, lng = 8.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué equipo de fútbol simpatiza?"
+opciones = ["Real Madrid", "FC Barcelona", "Atlético de Madrid", "Otro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué futbolista de todos los tiempos elegiría?"
+opciones = ["Messi", "Cristiano Ronaldo", "Maradona", "Pelé"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué selección le hace más ilusión en un Mundial?"
+opciones = ["España", "Argentina", "Brasil", "Francia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ha hecho más veces?"
+opciones = ["Ir a un estadio", "Ver partidos por la tele", "Jugar partidos", "Ninguna de las tres"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de partido de fútbol prefiere?"
+opciones = ["Un 0-0 de nervios", "Un 4-3 loco", "Ganar por la mínima", "Una goleada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué bebe después de hacer deporte?"
+opciones = ["Agua", "Bebida isotónica", "Cerveza", "Refresco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ropa deportiva prefiere?"
+opciones = ["Chándal", "Mallas", "Pantalón corto", "La que sea"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué piloto de Fórmula 1 le cae mejor?"
+opciones = ["Fernando Alonso", "Carlos Sainz", "Lewis Hamilton", "Max Verstappen"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué piloto de motos admira más?"
+opciones = ["Marc Márquez", "Valentino Rossi", "Ángel Nieto", "Jorge Lorenzo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tenista le gusta más?"
+opciones = ["Rafa Nadal", "Roger Federer", "Novak Djokovic", "Carlos Alcaraz"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciclista admira más?"
+opciones = ["Miguel Induráin", "Alberto Contador", "Tadej Pogačar", "Perico Delgado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué gran vuelta ciclista prefiere?"
+opciones = ["Tour de Francia", "Giro de Italia", "Vuelta a España", "Ninguna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prueba de atletismo prefiere ver?"
+opciones = ["100 metros", "Maratón", "Salto de altura", "Lanzamiento de jabalina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué Juegos Olímpicos le gustan más?"
+opciones = ["Los de verano", "Los de invierno", "Los Paralímpicos", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué torneo de selecciones prefiere?"
+opciones = ["Eurocopa", "Mundial", "Copa América", "Juegos Olímpicos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde prefiere ver un partido?"
+opciones = ["En el estadio", "En un bar", "En casa con la familia", "En el móvil"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte de aventura probaría?"
+opciones = ["Parapente", "Rafting", "Escalada", "Paracaidismo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué plan de montaña prefiere?"
+opciones = ["Senderismo", "Esquí", "Escalada", "Ciclismo de montaña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere hacer en la playa?"
+opciones = ["Voley playa", "Palas", "Nadar", "Tumbarse a leer"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué entrenamiento prefiere?"
+opciones = ["Pesas", "Cardio", "Yoga", "Clases dirigidas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde saldría a correr?"
+opciones = ["Parque", "Cinta del gimnasio", "Montaña", "Por la calle"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué distancia correría?"
+opciones = ["5 km", "10 km", "Media maratón", "Maratón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué clase de gimnasio elegiría?"
+opciones = ["Spinning", "Zumba", "Pilates", "Yoga"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué videojuego deportivo prefiere?"
+opciones = ["EA Sports FC", "NBA 2K", "Mario Kart", "Wii Sports"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte de pelota le gusta más?"
+opciones = ["Voleibol", "Balonmano", "Baloncesto", "Pelota vasca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué se pondría como camiseta de apoyo?"
+opciones = ["La de su equipo", "La de la selección", "La de un jugador", "Ninguna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué es lo mejor de ir al estadio?"
+opciones = ["El ambiente", "El bocadillo", "Ver a su ídolo", "Ir acompañado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué picaría viendo un partido?"
+opciones = ["Pipas", "Bocadillo", "Palomitas", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo se toma una derrota de su equipo?"
+opciones = ["Con deportividad", "Con enfado", "Con tristeza", "Con humor"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo celebra un gol?"
+opciones = ["Gritando", "Abrazando a alguien", "Saltando", "Muy calladito"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué papel tendría en un equipo?"
+opciones = ["Capitán", "Goleador", "Portero", "Entrenador"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿En qué posición jugaría al fútbol?"
+opciones = ["Portero", "Defensa", "Centrocampista", "Delantero"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué se le daría mejor en baloncesto?"
+opciones = ["Tirar triples", "Machacar", "Dar pases", "Defender"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere usar la bici?"
+opciones = ["Paseo tranquilo", "Ruta larga", "Montaña", "Ir por la ciudad"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde nadaría?"
+opciones = ["Piscina", "Mar", "Río", "Lago"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte de combate prefiere?"
+opciones = ["Boxeo", "Judo", "Kárate", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte de precisión elegiría?"
+opciones = ["Dardos", "Tiro con arco", "Golf", "Billar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte con ruedas probaría?"
+opciones = ["Patinete", "Patines", "Skate", "Bicicleta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte de invierno vería en la tele?"
+opciones = ["Esquí", "Patinaje artístico", "Curling", "Hockey sobre hielo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué competición de fútbol prefiere?"
+opciones = ["LaLiga", "Champions League", "Copa del Rey", "Mundial"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué gesta del deporte español le emociona más?"
+opciones = ["Mundial 2010 de fútbol", "Títulos de Nadal", "Mundial de baloncesto 2006", "Tours de Induráin"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué entrenador de fútbol prefiere?"
+opciones = ["Pep Guardiola", "Diego Simeone", "Carlo Ancelotti", "José Mourinho"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué portero admira más?"
+opciones = ["Iker Casillas", "Gianluigi Buffon", "Thibaut Courtois", "Manuel Neuer"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué estadio le gustaría visitar?"
+opciones = ["Santiago Bernabéu", "Camp Nou", "Wembley", "Maracaná"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte jugaría en familia?"
+opciones = ["Pádel", "Fútbol", "Petanca", "Ping-pong"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en vacaciones?"
+opciones = ["Nadar", "Pasear", "Senderismo", "Nada de deporte"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué actividad de verano elegiría?"
+opciones = ["Voley playa", "Buceo", "Paddle surf", "Snorkel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le importa más al competir?"
+opciones = ["Ganar", "Jugar bien", "Divertirse", "El compañerismo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo es de competitivo?"
+opciones = ["Muchísimo", "Bastante", "Poco", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace cuando pierde a un juego?"
+opciones = ["Pide la revancha", "Se ríe", "Se enfada un poco", "Cambia de juego"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué frecuencia hace deporte?"
+opciones = ["A diario", "Varias veces por semana", "De vez en cuando", "Casi nunca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le motiva a hacer deporte?"
+opciones = ["La salud", "La diversión", "Estar con amigos", "Competir"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué es lo que más le frena?"
+opciones = ["La pereza", "La falta de tiempo", "Las lesiones", "El frío o el calor"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué música elige para entrenar?"
+opciones = ["Pop", "Rock", "Reguetón", "Silencio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo mide su ejercicio?"
+opciones = ["Reloj inteligente", "Móvil", "No lo mide", "Con una libreta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte practicó más de niño?"
+opciones = ["Fútbol", "Baloncesto", "Natación", "Atletismo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué se le da peor?"
+opciones = ["Correr", "Nadar", "Jugar con balón", "Flexibilidad"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué deportista quedaría a entrenar?"
+opciones = ["Rafa Nadal", "Carlos Alcaraz", "Marc Márquez", "Aitana Bonmatí"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué recuerdo deportivo guarda?"
+opciones = ["Un gol propio", "Una medalla escolar", "Una lesión", "Un partido inolvidable"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo se informa del deporte?"
+opciones = ["Por la tele", "Por redes sociales", "Por la radio", "Por la prensa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de aficionado es?"
+opciones = ["De toda la vida", "De los que ganan", "De ninguno", "De todos un poco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué liga seguiría?"
+opciones = ["LaLiga", "Premier League", "NBA", "Liga F"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte femenino le gusta ver?"
+opciones = ["Fútbol", "Baloncesto", "Tenis", "Balonmano"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo iría al trabajo o a clase?"
+opciones = ["En bici", "En patinete", "Andando", "En transporte público"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo correría una carrera popular?"
+opciones = ["Solo", "En grupo", "Con una mascota", "Disfrazado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué reto de superación elegiría?"
+opciones = ["Una maratón", "Subir una montaña", "Cruzar a nado un lago", "Un triatlón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría tras ganar un título?"
+opciones = ["Una fiesta", "Una cena en familia", "Descansar", "Salir en autobús descapotable"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace en el descanso de un partido?"
+opciones = ["Ir al baño", "Comer algo", "Comentar la jugada", "Mirar el móvil"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué entrada compraría?"
+opciones = ["Final de Champions", "Final de Roland Garros", "Gran Premio de F1", "Final de la ACB"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo prefiere ver deporte?"
+opciones = ["Domingo por la tarde", "Noche entre semana", "Sábado por la mañana", "Cualquier momento"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué balón preferiría tener en casa?"
+opciones = ["De fútbol", "De baloncesto", "De voleibol", "De rugby"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué deporte nunca probaría?"
+opciones = ["Boxeo", "Rugby", "Esquí", "Surf"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué liga de baloncesto prefiere?"
+opciones = ["ACB", "NBA", "Euroliga", "Ninguna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué trofeo le haría más ilusión alzar?"
+opciones = ["Copa del Mundo", "Champions League", "Copa del Rey", "Medalla olímpica"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere hacer pausas en un partido de pádel?"
+opciones = ["Hablando", "Bebiendo agua", "Estirando", "Sin pausas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un día entero de deporte?"
+opciones = ["Maratón de series de deporte", "Ruta en bici", "Torneo con amigos", "Día de piscina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué equipaje deportivo lleva siempre?"
+opciones = ["Zapatillas", "Botella de agua", "Toalla", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde le gustaría entrenar?"
+opciones = ["En un gran estadio", "En la playa", "En la montaña", "En una pista cubierta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué comida prefiere antes de competir?"
+opciones = ["Pasta", "Plátano", "Bocadillo", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué se le daría mejor en un equipo de relevos?"
+opciones = ["Salir primero", "Hacer el relevo central", "Cerrar la carrera", "Animar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en una final olímpica?"
+opciones = ["Participar", "Entrenar al equipo", "Verla en directo", "Retransmitirla"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué instalación deportiva visitaría?"
+opciones = ["Un velódromo", "Una pista de esquí", "Un circuito de F1", "Una plaza de toros"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué juego de mesa deportivo prefiere?"
+opciones = ["Futbolín", "Ping-pong", "Billar", "Dardos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere recibir una lesión leve?"
+opciones = ["Reposo total", "Seguir entrenando suave", "Fisioterapia", "Ni se entera"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de los Juegos Olímpicos?"
+opciones = ["Las ceremonias", "El atletismo", "La natación", "Los deportes raros"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué disciplina del motor le atrae más?"
+opciones = ["Fórmula 1", "MotoGP", "Rallies", "Dakar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál sería su mascota deportiva?"
+opciones = ["Un león", "Un águila", "Un toro", "Un delfín"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo prefiere jugar un partido amistoso?"
+opciones = ["Por la mañana", "Por la tarde", "Por la noche", "Al amanecer"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué premio le gustaría recibir?"
+opciones = ["MVP", "Mejor jugador joven", "Máximo goleador", "Deportividad"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría un domingo de Vuelta o Tour?"
+opciones = ["Verla entera", "Solo el final", "Ver otra cosa", "Echar la siesta con ella"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si le regalaran entradas?"
+opciones = ["Ir al fútbol", "Ir al baloncesto", "Ir al tenis", "Ir a los toros"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pondría en la tele un domingo de deporte?"
+opciones = ["Fútbol", "Fórmula 1", "Tenis", "Ciclismo"]

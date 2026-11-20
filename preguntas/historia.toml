@@ -3167,3 +3167,4319 @@ respuesta = [1861, 1865]
 criterio = "coincidir"
 margen = 1
 dificultad = 2
+
+[[pregunta]]
+enunciado = "¿Capital del Imperio romano?"
+opciones = ["Roma", "Atenas", "Cartago"]
+correcta = "Roma"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién conquistó el Imperio azteca?"
+opciones = ["Hernán Cortés", "Pizarro", "Balboa"]
+correcta = "Hernán Cortés"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué país fue emperador Napoleón?"
+opciones = ["Francia", "Italia", "Austria"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué reina egipcia fue amante de Julio César?"
+opciones = ["Cleopatra", "Nefertiti", "Hatshepsut"]
+correcta = "Cleopatra"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué pueblo construyó las pirámides de Guiza?"
+opciones = ["Egipcio", "Romano", "Persa"]
+correcta = "Egipcio"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién gobernó España hasta 1975?"
+opciones = ["Franco", "Primo de Rivera", "Azaña"]
+correcta = "Franco"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey de España abdicó en 2014?"
+opciones = ["Juan Carlos I", "Alfonso XIII", "Carlos IV"]
+correcta = "Juan Carlos I"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Alhambra?"
+opciones = ["Granada", "Córdoba", "Sevilla"]
+correcta = "Granada"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué reina era apodada «la Católica»?"
+opciones = ["Isabel I", "Juana I", "Isabel II"]
+correcta = "Isabel I"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué dinastía era Felipe V?"
+opciones = ["Borbón", "Austria", "Trastámara"]
+correcta = "Borbón"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué pueblo invadió Hispania en 711?"
+opciones = ["Los musulmanes", "Los vikingos", "Los hunos"]
+correcta = "Los musulmanes"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país envió la Armada Invencible?"
+opciones = ["España", "Francia", "Portugal"]
+correcta = "España"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué marino dirigió la expedición de la primera vuelta al mundo?"
+opciones = ["Magallanes", "Vasco da Gama", "Colón"]
+correcta = "Magallanes"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué guerra enfrentó al Norte y al Sur en EE. UU.?"
+opciones = ["Guerra de Secesión", "Guerra de Corea", "Guerra de Vietnam"]
+correcta = "Guerra de Secesión"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país lanzó la bomba atómica sobre Hiroshima?"
+opciones = ["Estados Unidos", "Alemania", "Rusia"]
+correcta = "Estados Unidos"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué dictador dirigió la Alemania nazi?"
+opciones = ["Hitler", "Mussolini", "Stalin"]
+correcta = "Hitler"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién fue el líder fascista de Italia?"
+opciones = ["Mussolini", "Franco", "Salazar"]
+correcta = "Mussolini"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país dirigió Stalin?"
+opciones = ["La URSS", "China", "Polonia"]
+correcta = "La URSS"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué invento de Gutenberg cambió la cultura?"
+opciones = ["La imprenta", "La brújula", "La pólvora"]
+correcta = "La imprenta"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién fue el último rey de España antes de 1931?"
+opciones = ["Alfonso XIII", "Amadeo I", "Fernando VII"]
+correcta = "Alfonso XIII"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey era apodado «el Prudente»?"
+opciones = ["Felipe II", "Felipe III", "Carlos II"]
+correcta = "Felipe II"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Dónde nació Napoleón?"
+opciones = ["Córcega", "Elba", "Cerdeña"]
+correcta = "Córcega"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué civilización construyó el Partenón?"
+opciones = ["La griega", "La romana", "La fenicia"]
+correcta = "La griega"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién fue el Cid Campeador?"
+opciones = ["Rodrigo Díaz de Vivar", "Pelayo", "Fernán González"]
+correcta = "Rodrigo Díaz de Vivar"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién escribió el Quijote?"
+opciones = ["Cervantes", "Lope de Vega", "Quevedo"]
+correcta = "Cervantes"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿En qué país nació Hitler?"
+opciones = ["Austria", "Alemania", "Polonia"]
+correcta = "Austria"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué reina reinaba cuando zarpó la Armada Invencible?"
+opciones = ["Isabel I de Inglaterra", "Victoria", "María Estuardo"]
+correcta = "Isabel I de Inglaterra"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país celebra el Grito de Dolores de 1810?"
+opciones = ["México", "Chile", "Perú"]
+correcta = "México"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué general liberó Argentina, Chile y Perú?"
+opciones = ["San Martín", "Bolívar", "Sucre"]
+correcta = "San Martín"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién es el padre de Felipe VI?"
+opciones = ["Juan Carlos I", "Alfonso XIII", "Juan de Borbón"]
+correcta = "Juan Carlos I"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿En qué siglo llegó Colón a América?"
+opciones = ["XV", "XIV", "XVI"]
+correcta = "XV"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué lengua hablaban los romanos?"
+opciones = ["Latín", "Griego", "Etrusco"]
+correcta = "Latín"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Atila fue rey de los...?"
+opciones = ["Hunos", "Godos", "Vándalos"]
+correcta = "Hunos"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién dijo «Vine, vi, vencí»?"
+opciones = ["Julio César", "Augusto", "Nerón"]
+correcta = "Julio César"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué reina dio nombre a una era entre 1837 y 1901?"
+opciones = ["Victoria", "Isabel I", "Ana"]
+correcta = "Victoria"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué arma tradicional usaban los samuráis?"
+opciones = ["Katana", "Cimitarra", "Gladio"]
+correcta = "Katana"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Dónde se aprobó «La Pepa» en 1812?"
+opciones = ["Cádiz", "Sevilla", "Madrid"]
+correcta = "Cádiz"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué príncipe portugués era «el Navegante»?"
+opciones = ["Enrique", "Manuel", "Alfonso"]
+correcta = "Enrique"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país levantó la Gran Muralla?"
+opciones = ["China", "Japón", "Mongolia"]
+correcta = "China"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué pueblo inventó la escritura cuneiforme?"
+opciones = ["Los sumerios", "Los egipcios", "Los fenicios"]
+correcta = "Los sumerios"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿En qué país está Auschwitz?"
+opciones = ["Polonia", "Alemania", "Austria"]
+correcta = "Polonia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país vivió la Revolución de los Claveles en 1974?"
+opciones = ["Portugal", "España", "Grecia"]
+correcta = "Portugal"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién fue la «Dama de Hierro»?"
+opciones = ["Margaret Thatcher", "Angela Merkel", "Indira Gandhi"]
+correcta = "Margaret Thatcher"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué presidente de EE. UU. dimitió por el Watergate?"
+opciones = ["Nixon", "Ford", "Carter"]
+correcta = "Nixon"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién presidió el Gobierno español de 1982 a 1996?"
+opciones = ["Felipe González", "Aznar", "Suárez"]
+correcta = "Felipe González"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién presidió el Gobierno español de 1996 a 2004?"
+opciones = ["José María Aznar", "Zapatero", "Rajoy"]
+correcta = "José María Aznar"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién presidió el Gobierno español de 2011 a 2018?"
+opciones = ["Mariano Rajoy", "Zapatero", "Aznar"]
+correcta = "Mariano Rajoy"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién era el rey al aprobarse la Constitución de 1978?"
+opciones = ["Juan Carlos I", "Alfonso XIII", "Felipe VI"]
+correcta = "Juan Carlos I"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué civilización construyó Chichén Itzá?"
+opciones = ["La maya", "La azteca", "La inca"]
+correcta = "La maya"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuál era la capital del Imperio azteca?"
+opciones = ["Tenochtitlán", "Cuzco", "Tikal"]
+correcta = "Tenochtitlán"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué alimento llegó de América a Europa?"
+opciones = ["La patata", "El arroz", "El trigo"]
+correcta = "La patata"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país llegó primero a la India por mar?"
+opciones = ["Portugal", "España", "Inglaterra"]
+correcta = "Portugal"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey inglés fue decapitado en 1649?"
+opciones = ["Carlos I", "Enrique VIII", "Jacobo II"]
+correcta = "Carlos I"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Dónde nació Cervantes?"
+opciones = ["Alcalá de Henares", "Toledo", "Madrid"]
+correcta = "Alcalá de Henares"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué escritor murió el mismo año que Shakespeare?"
+opciones = ["Cervantes", "Lope de Vega", "Quevedo"]
+correcta = "Cervantes"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué revolucionario murió en Bolivia en 1967?"
+opciones = ["Che Guevara", "Fidel Castro", "Camilo Cienfuegos"]
+correcta = "Che Guevara"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién sucedió a Lenin al frente de la URSS?"
+opciones = ["Stalin", "Jruschov", "Brézhnev"]
+correcta = "Stalin"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿En qué país se celebraron los Juegos de 1936?"
+opciones = ["Alemania", "Francia", "Italia"]
+correcta = "Alemania"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué reina francesa pasó por decir «que coman pasteles»?"
+opciones = ["María Antonieta", "Josefina", "Catalina de Médici"]
+correcta = "María Antonieta"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué enfermedad diezmó a los indígenas americanos?"
+opciones = ["La viruela", "La malaria", "El cólera"]
+correcta = "La viruela"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué ciudad alemana fue dividida en cuatro sectores en 1945?"
+opciones = ["Berlín", "Múnich", "Hamburgo"]
+correcta = "Berlín"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué emperador mandó levantar el Coliseo?"
+opciones = ["Vespasiano", "Augusto", "Nerón"]
+correcta = "Vespasiano"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué dos bandos se enfrentaron en la Guerra Civil española?"
+opciones = ["Republicanos y nacionales", "Carlistas y liberales", "Austrias y Borbones"]
+correcta = "Republicanos y nacionales"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la cultura que dejó la Dama de Elche?"
+opciones = ["Íbera", "Celta", "Fenicia"]
+correcta = "Íbera"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país tuvo a Luis XIV como rey?"
+opciones = ["Francia", "España", "Inglaterra"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey Borbón fue «el Deseado»?"
+opciones = ["Fernando VII", "Carlos IV", "Felipe V"]
+correcta = "Fernando VII"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el monarca que reina hoy en España?"
+opciones = ["Felipe VI", "Juan Carlos I", "Alfonso XIII"]
+correcta = "Felipe VI"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué imperio dominó el Mediterráneo con legiones?"
+opciones = ["El romano", "El persa", "El mongol"]
+correcta = "El romano"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué pintor firmó Las Meninas?"
+opciones = ["Velázquez", "Goya", "El Greco"]
+correcta = "Velázquez"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué pintor retrató a la familia de Carlos IV?"
+opciones = ["Goya", "Murillo", "Zurbarán"]
+correcta = "Goya"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey ordenó construir el palacio de Versalles?"
+opciones = ["Luis XIV", "Luis XVI", "Napoleón"]
+correcta = "Luis XIV"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué dinastía gobernó China bajo la Ciudad Prohibida?"
+opciones = ["Ming y Qing", "Han", "Tang"]
+correcta = "Ming y Qing"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué siglo vio la Revolución francesa?"
+opciones = ["XVIII", "XVII", "XIX"]
+correcta = "XVIII"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué dictador portugués gobernó hasta 1968?"
+opciones = ["Salazar", "Franco", "Pétain"]
+correcta = "Salazar"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué ciudad dio nombre a las guerras con Aníbal?"
+opciones = ["Cartago", "Troya", "Esparta"]
+correcta = "Cartago"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué reino se unió al de Castilla en 1479 por herencia?"
+opciones = ["Aragón", "Navarra", "Portugal"]
+correcta = "Aragón"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué reino anexionó Fernando el Católico en 1512?"
+opciones = ["Navarra", "Portugal", "Granada"]
+correcta = "Navarra"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué río cruzó Aníbal con elefantes?"
+opciones = ["El Ródano", "El Tajo", "El Rin"]
+correcta = "El Ródano"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué presidente de EE. UU. aprobó el New Deal?"
+opciones = ["Roosevelt", "Hoover", "Truman"]
+correcta = "Roosevelt"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país está dividido en Norte y Sur desde 1948?"
+opciones = ["Corea", "Vietnam", "China"]
+correcta = "Corea"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué emperador romano tenía una muralla en Britania?"
+opciones = ["Adriano", "Trajano", "Nerón"]
+correcta = "Adriano"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey visigodo fue derrotado en 711?"
+opciones = ["Rodrigo", "Recaredo", "Leovigildo"]
+correcta = "Rodrigo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué reina fue destronada por La Gloriosa en 1868?"
+opciones = ["Isabel II", "Juana I", "María Cristina"]
+correcta = "Isabel II"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué dictador gobernó España de 1923 a 1930?"
+opciones = ["Primo de Rivera", "Franco", "Berenguer"]
+correcta = "Primo de Rivera"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Fuenteovejuna»?"
+opciones = ["Lope de Vega", "Calderón", "Tirso de Molina"]
+correcta = "Lope de Vega"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey era apodado «el Católico» junto a su esposa Isabel?"
+opciones = ["Fernando II", "Felipe II", "Carlos III"]
+correcta = "Fernando II"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey impulsó el Madrid ilustrado, «el mejor alcalde»?"
+opciones = ["Carlos III", "Felipe V", "Fernando VII"]
+correcta = "Carlos III"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país vendió Luisiana a EE. UU. en 1803?"
+opciones = ["Francia", "España", "Reino Unido"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país perdió Alsacia y Lorena en 1871?"
+opciones = ["Francia", "Alemania", "Bélgica"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país invadió Polonia en 1939 junto a Alemania?"
+opciones = ["La URSS", "Italia", "Japón"]
+correcta = "La URSS"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué ciudad sufrió una bomba atómica tras Hiroshima?"
+opciones = ["Nagasaki", "Tokio", "Osaka"]
+correcta = "Nagasaki"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué faraón mandó construir la Gran Pirámide?"
+opciones = ["Keops", "Ramsés II", "Tutankamón"]
+correcta = "Keops"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué filósofo fue el maestro de Platón?"
+opciones = ["Sócrates", "Aristóteles", "Pitágoras"]
+correcta = "Sócrates"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién fue «el Gran Capitán»?"
+opciones = ["Gonzalo Fernández de Córdoba", "Hernán Cortés", "Álvaro de Bazán"]
+correcta = "Gonzalo Fernández de Córdoba"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey de Aragón conquistó Valencia en 1238?"
+opciones = ["Jaime I", "Pedro III", "Alfonso V"]
+correcta = "Jaime I"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuál fue la capital de la Alemania Occidental?"
+opciones = ["Bonn", "Berlín", "Fráncfort"]
+correcta = "Bonn"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué ciudad rusa se llamó Leningrado?"
+opciones = ["San Petersburgo", "Moscú", "Kiev"]
+correcta = "San Petersburgo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país invadió Napoleón en 1812?"
+opciones = ["Rusia", "Portugal", "Suecia"]
+correcta = "Rusia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué rey fue padre de Carlos II?"
+opciones = ["Felipe IV", "Felipe III", "Felipe V"]
+correcta = "Felipe IV"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué pueblo fundó Cartago?"
+opciones = ["Los fenicios", "Los griegos", "Los romanos"]
+correcta = "Los fenicios"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué emperador romano era el sucesor de Julio César?"
+opciones = ["Augusto", "Nerón", "Trajano"]
+correcta = "Augusto"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué ciudad italiana fue gobernada por los dux?"
+opciones = ["Venecia", "Milán", "Nápoles"]
+correcta = "Venecia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué presidente de EE. UU. fue asesinado en 1865?"
+opciones = ["Lincoln", "Kennedy", "Garfield"]
+correcta = "Lincoln"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Julio César fue el primer emperador de Roma."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "La Guerra Civil española terminó en 1939."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Isabel II reinó antes que Alfonso XII."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Los romanos construyeron el acueducto de Segovia."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Napoleón murió en la batalla de Waterloo."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "La Revolución francesa empezó en 1789."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Felipe II fue hijo de Carlos I."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Los vikingos eran originarios de Escandinavia."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Franco murió en 1985."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Cartago fue una colonia fenicia."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "La Segunda Guerra Mundial terminó en 1945."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "La Armada Invencible venció a Inglaterra."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "La peste negra llegó a Europa en el siglo XIV."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Carlos V fue emperador del Sacro Imperio."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Colón salió de Barcelona en 1492."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se libró la batalla de Covadonga?"
+min = 620
+max = 770
+paso = 1
+respuesta = 722
+tolerancia = 25
+dificultad = 3
+explicacion = "Fue en 722."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año conquistaron los Reyes Católicos Granada?"
+min = 1475
+max = 1505
+paso = 1
+respuesta = 1492
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se libró la batalla de Lepanto?"
+min = 1558
+max = 1578
+paso = 1
+respuesta = 1571
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año venció Felipe II en San Quintín?"
+min = 1548
+max = 1568
+paso = 1
+respuesta = 1557
+tolerancia = 5
+dificultad = 3
+explicacion = "Fue en 1557."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año abdicó Carlos I y dejó el trono a su hijo?"
+min = 1540
+max = 1564
+paso = 1
+respuesta = 1556
+tolerancia = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Felipe II?"
+min = 1590
+max = 1614
+paso = 1
+respuesta = 1598
+tolerancia = 6
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fueron derrotados los comuneros en Villalar?"
+min = 1507
+max = 1537
+paso = 1
+respuesta = 1521
+tolerancia = 5
+dificultad = 3
+explicacion = "Fue en 1521."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fueron derrotados los tercios en Rocroi?"
+min = 1636
+max = 1656
+paso = 1
+respuesta = 1643
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se firmó la Paz de Westfalia?"
+min = 1636
+max = 1672
+paso = 1
+respuesta = 1648
+tolerancia = 6
+dificultad = 3
+explicacion = "Puso fin a la guerra de los Treinta Años."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se firmó la Paz de Utrecht?"
+min = 1699
+max = 1739
+paso = 1
+respuesta = 1713
+tolerancia = 5
+dificultad = 2
+explicacion = "Fue en 1713."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año cayó Barcelona ante Felipe V?"
+min = 1703
+max = 1723
+paso = 1
+respuesta = 1714
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el motín de Esquilache contra Carlos III?"
+min = 1733
+max = 1781
+paso = 1
+respuesta = 1766
+tolerancia = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fueron expulsados los jesuitas de España?"
+min = 1741
+max = 1789
+paso = 1
+respuesta = 1767
+tolerancia = 6
+dificultad = 3
+explicacion = "Fue en 1767."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se libró la batalla de Bailén?"
+min = 1797
+max = 1813
+paso = 1
+respuesta = 1808
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año regresó Fernando VII y abolió la Constitución?"
+min = 1806
+max = 1822
+paso = 1
+respuesta = 1814
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Fernando VII?"
+min = 1825
+max = 1845
+paso = 1
+respuesta = 1833
+tolerancia = 5
+dificultad = 2
+explicacion = "Su muerte desató la primera guerra carlista."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inició la desamortización de Mendizábal?"
+min = 1826
+max = 1846
+paso = 1
+respuesta = 1836
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el ferrocarril Barcelona-Mataró?"
+min = 1831
+max = 1871
+paso = 1
+respuesta = 1848
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año estalló La Gloriosa, que destronó a Isabel II?"
+min = 1856
+max = 1888
+paso = 1
+respuesta = 1868
+tolerancia = 4
+dificultad = 2
+explicacion = "Fue en 1868."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se proclamó la Primera República española?"
+min = 1856
+max = 1888
+paso = 1
+respuesta = 1873
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue proclamado rey Alfonso XII?"
+min = 1867
+max = 1883
+paso = 1
+respuesta = 1874
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue la Semana Trágica de Barcelona?"
+min = 1886
+max = 1926
+paso = 1
+respuesta = 1909
+tolerancia = 5
+dificultad = 3
+explicacion = "Fue en 1909."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el desastre de Annual?"
+min = 1911
+max = 1943
+paso = 1
+respuesta = 1921
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se instauró la dictadura de Primo de Rivera?"
+min = 1915
+max = 1931
+paso = 1
+respuesta = 1923
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se proclamó la Segunda República?"
+min = 1916
+max = 1948
+paso = 1
+respuesta = 1931
+tolerancia = 4
+dificultad = 1
+explicacion = "Fue en 1931."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue bombardeada Guernica?"
+min = 1928
+max = 1946
+paso = 1
+respuesta = 1937
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se libró la batalla del Ebro?"
+min = 1930
+max = 1948
+paso = 1
+respuesta = 1938
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se reunieron Franco y Hitler en Hendaya?"
+min = 1930
+max = 1946
+paso = 1
+respuesta = 1940
+tolerancia = 4
+dificultad = 3
+explicacion = "Fue en 1940."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue asesinado Carrero Blanco?"
+min = 1965
+max = 1981
+paso = 1
+respuesta = 1973
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebró la Marcha Verde sobre el Sáhara?"
+min = 1959
+max = 1991
+paso = 1
+respuesta = 1975
+tolerancia = 4
+dificultad = 3
+explicacion = "Fue en 1975."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ingresó España en la CEE?"
+min = 1972
+max = 1996
+paso = 1
+respuesta = 1986
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebró la Exposición Universal de Sevilla?"
+min = 1979
+max = 2003
+paso = 1
+respuesta = 1992
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se pusieron en circulación los billetes de euro?"
+min = 1998
+max = 2010
+paso = 1
+respuesta = 2002
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 2002."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se aprobó el matrimonio igualitario en España?"
+min = 1996
+max = 2020
+paso = 1
+respuesta = 2005
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año anunció ETA el cese definitivo de la violencia?"
+min = 2005
+max = 2023
+paso = 1
+respuesta = 2011
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año abdicó Juan Carlos I?"
+min = 2006
+max = 2024
+paso = 1
+respuesta = 2014
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 2014."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se decretó el primer estado de alarma por la COVID-19?"
+min = 2015
+max = 2031
+paso = 1
+respuesta = 2020
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se promulgó el Edicto de Milán?"
+min = 228
+max = 388
+paso = 1
+respuesta = 313
+tolerancia = 20
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año comenzó la Hégira, el calendario musulmán?"
+min = 557
+max = 707
+paso = 1
+respuesta = 622
+tolerancia = 25
+dificultad = 3
+explicacion = "Fue en 622."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año detuvo Carlos Martel a los musulmanes en Poitiers?"
+min = 667
+max = 787
+paso = 1
+respuesta = 732
+tolerancia = 20
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se proclamó el califato de Córdoba?"
+min = 830
+max = 990
+paso = 1
+respuesta = 929
+tolerancia = 20
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año venció Guillermo el Conquistador en Hastings?"
+min = 1041
+max = 1081
+paso = 1
+respuesta = 1066
+tolerancia = 10
+dificultad = 2
+explicacion = "Fue en 1066."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año conquistó Alfonso VI la ciudad de Toledo?"
+min = 1056
+max = 1116
+paso = 1
+respuesta = 1085
+tolerancia = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año conquistaron los cruzados Jerusalén?"
+min = 1073
+max = 1153
+paso = 1
+respuesta = 1099
+tolerancia = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se libró la batalla de Las Navas de Tolosa?"
+min = 1166
+max = 1246
+paso = 1
+respuesta = 1212
+tolerancia = 10
+dificultad = 2
+explicacion = "Fue en 1212."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año firmó Juan sin Tierra la Carta Magna?"
+min = 1173
+max = 1253
+paso = 1
+respuesta = 1215
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año conquistó Fernando III la ciudad de Sevilla?"
+min = 1198
+max = 1278
+paso = 1
+respuesta = 1248
+tolerancia = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó la peste negra a la península?"
+min = 1320
+max = 1368
+paso = 1
+respuesta = 1348
+tolerancia = 8
+dificultad = 3
+explicacion = "Fue en 1348."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se firmó el Compromiso de Caspe?"
+min = 1377
+max = 1457
+paso = 1
+respuesta = 1412
+tolerancia = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se casaron Isabel y Fernando?"
+min = 1453
+max = 1489
+paso = 1
+respuesta = 1469
+tolerancia = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Hacia qué año imprimió Gutenberg su Biblia?"
+min = 1427
+max = 1507
+paso = 1
+respuesta = 1455
+tolerancia = 10
+dificultad = 3
+explicacion = "Fue en 1455."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó Vasco da Gama a la India?"
+min = 1489
+max = 1513
+paso = 1
+respuesta = 1498
+tolerancia = 6
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se descubrió el océano Pacífico para los europeos, con Balboa?"
+min = 1502
+max = 1532
+paso = 1
+respuesta = 1513
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año clavó Lutero sus 95 tesis?"
+min = 1506
+max = 1530
+paso = 1
+respuesta = 1517
+tolerancia = 6
+dificultad = 2
+explicacion = "Fue en 1517."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año zarpó la expedición de Magallanes?"
+min = 1509
+max = 1539
+paso = 1
+respuesta = 1519
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año cayó Tenochtitlán ante Cortés?"
+min = 1507
+max = 1537
+paso = 1
+respuesta = 1521
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue capturado el inca Atahualpa?"
+min = 1508
+max = 1544
+paso = 1
+respuesta = 1532
+tolerancia = 6
+dificultad = 3
+explicacion = "Fue en 1532."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fundó Ignacio de Loyola la Compañía de Jesús?"
+min = 1509
+max = 1557
+paso = 1
+respuesta = 1540
+tolerancia = 8
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murieron Cervantes y Shakespeare?"
+min = 1595
+max = 1631
+paso = 1
+respuesta = 1616
+tolerancia = 6
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue decapitado Carlos I de Inglaterra?"
+min = 1628
+max = 1664
+paso = 1
+respuesta = 1649
+tolerancia = 6
+dificultad = 3
+explicacion = "Fue en 1649."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue guillotinado Luis XVI?"
+min = 1777
+max = 1801
+paso = 1
+respuesta = 1793
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se coronó emperador Napoleón?"
+min = 1799
+max = 1815
+paso = 1
+respuesta = 1804
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el Grito de Dolores en México?"
+min = 1804
+max = 1820
+paso = 1
+respuesta = 1810
+tolerancia = 4
+dificultad = 2
+explicacion = "Fue en 1810."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se libró la batalla de Ayacucho?"
+min = 1818
+max = 1838
+paso = 1
+respuesta = 1824
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se unificó Italia con Víctor Manuel II?"
+min = 1846
+max = 1886
+paso = 1
+respuesta = 1861
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año acabó la guerra de Secesión?"
+min = 1858
+max = 1882
+paso = 1
+respuesta = 1865
+tolerancia = 4
+dificultad = 2
+explicacion = "Fue en 1865."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se proclamó el Imperio alemán?"
+min = 1859
+max = 1883
+paso = 1
+respuesta = 1871
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue nombrado Hitler canciller?"
+min = 1920
+max = 1944
+paso = 1
+respuesta = 1933
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó la Segunda Guerra Mundial?"
+min = 1932
+max = 1944
+paso = 1
+respuesta = 1939
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1939."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el desembarco de Normandía?"
+min = 1928
+max = 1952
+paso = 1
+respuesta = 1944
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se lanzó la bomba atómica sobre Hiroshima?"
+min = 1931
+max = 1955
+paso = 1
+respuesta = 1945
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se independizó la India?"
+min = 1941
+max = 1953
+paso = 1
+respuesta = 1947
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1947."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Estado de Israel?"
+min = 1933
+max = 1957
+paso = 1
+respuesta = 1948
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se proclamó la República Popular China?"
+min = 1941
+max = 1959
+paso = 1
+respuesta = 1949
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Stalin?"
+min = 1947
+max = 1965
+paso = 1
+respuesta = 1953
+tolerancia = 3
+dificultad = 3
+explicacion = "Fue en 1953."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el Mayo del 68 francés?"
+min = 1957
+max = 1981
+paso = 1
+respuesta = 1968
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue elegido Mandela presidente de Sudáfrica?"
+min = 1990
+max = 2002
+paso = 1
+respuesta = 1994
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se firmó el Tratado de Maastricht?"
+min = 1986
+max = 1998
+paso = 1
+respuesta = 1992
+tolerancia = 3
+dificultad = 3
+explicacion = "Fue en 1992."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año votó el Reino Unido salir de la UE?"
+min = 2013
+max = 2021
+paso = 1
+respuesta = 2016
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos años tenía Juan Carlos I al ser proclamado rey en 1975?"
+min = 33
+max = 45
+paso = 1
+unidad = "años"
+respuesta = 37
+tolerancia = 3
+dificultad = 3
+explicacion = "Nació en 1938."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos años duró la construcción de El Escorial, de 1563 a 1584?"
+min = 12
+max = 36
+paso = 1
+unidad = "años"
+respuesta = 21
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos años reinó Alfonso XIII, de 1886 a 1931?"
+min = 31
+max = 51
+paso = 1
+unidad = "años"
+respuesta = 45
+tolerancia = 5
+dificultad = 3
+explicacion = "Fue rey desde su nacimiento."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas colonias tenía EE. UU. al declarar la independencia?"
+min = 8
+max = 24
+paso = 1
+unidad = "colonias"
+respuesta = 13
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos años duró el reinado de Luis XIV?"
+min = 59
+max = 83
+paso = 1
+unidad = "años"
+respuesta = 72
+tolerancia = 6
+dificultad = 3
+explicacion = "Reinó de 1643 a 1715."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos años duró la vuelta al mundo de Magallanes y Elcano?"
+min = 1
+max = 5
+paso = 1
+unidad = "años"
+respuesta = 3
+tolerancia = 1
+dificultad = 2
+explicacion = "Zarpó en 1519 y regresó en 1522."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos años tenía Isabel II al heredar el trono en 1833?"
+min = 0
+max = 6
+paso = 1
+unidad = "años"
+respuesta = 3
+tolerancia = 1
+dificultad = 3
+explicacion = "Nació en 1830."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se firmaron las Capitulaciones de Santa Fe con Colón?"
+min = 1482
+max = 1512
+paso = 1
+respuesta = 1492
+tolerancia = 5
+dificultad = 3
+explicacion = "Fue en 1492."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Lenin?"
+min = 1918
+max = 1936
+paso = 1
+respuesta = 1924
+tolerancia = 3
+dificultad = 3
+explicacion = "Fue en 1924."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue asesinado Abraham Lincoln?"
+min = 1858
+max = 1870
+paso = 1
+respuesta = 1865
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Carlos IV?"
+min = 1770
+max = 1830
+paso = 1
+respuesta = [1788, 1808]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1788 a 1808."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Felipe IV?"
+min = 1590
+max = 1690
+paso = 1
+respuesta = [1621, 1665]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1621 a 1665."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Amadeo I de Saboya?"
+min = 1860
+max = 1880
+paso = 1
+respuesta = [1870, 1873]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1870 a 1873."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Alfonso X el Sabio?"
+min = 1230
+max = 1310
+paso = 1
+respuesta = [1252, 1284]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Jaime I el Conquistador?"
+min = 1160
+max = 1330
+paso = 1
+respuesta = [1213, 1276]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Fernando III el Santo?"
+min = 1190
+max = 1280
+paso = 1
+respuesta = [1217, 1252]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1217 a 1252."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Abderramán III en Córdoba?"
+min = 890
+max = 990
+paso = 1
+respuesta = [912, 961]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó la reina Victoria?"
+min = 1810
+max = 1930
+paso = 1
+respuesta = [1837, 1901]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1837 a 1901."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Napoleón emperador de los franceses?"
+min = 1790
+max = 1830
+paso = 1
+respuesta = [1804, 1814]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Enrique VIII de Inglaterra?"
+min = 1480
+max = 1570
+paso = 1
+respuesta = [1509, 1547]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Catalina la Grande de Rusia?"
+min = 1730
+max = 1830
+paso = 1
+respuesta = [1762, 1796]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1762 a 1796."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Isabel II en el Reino Unido?"
+min = 1910
+max = 2060
+paso = 1
+respuesta = [1952, 2022]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años gobernó Justiniano el Imperio bizantino?"
+min = 510
+max = 590
+paso = 1
+respuesta = [527, 565]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Luis XIV de Francia?"
+min = 1600
+max = 1760
+paso = 1
+respuesta = [1643, 1715]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1643 a 1715."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la guerra de los Treinta Años?"
+min = 1600
+max = 1670
+paso = 1
+respuesta = [1618, 1648]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la guerra de los Ochenta Años de los Países Bajos?"
+min = 1510
+max = 1700
+paso = 1
+respuesta = [1568, 1648]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la primera guerra carlista?"
+min = 1820
+max = 1850
+paso = 1
+respuesta = [1833, 1840]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1833 a 1840."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la tercera guerra carlista?"
+min = 1860
+max = 1890
+paso = 1
+respuesta = [1872, 1876]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la guerra de Cuba que acabó en 1898?"
+min = 1880
+max = 1910
+paso = 1
+respuesta = [1895, 1898]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la guerra de Vietnam?"
+min = 1940
+max = 1990
+paso = 1
+respuesta = [1955, 1975]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1955 a 1975."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la guerra de Corea?"
+min = 1940
+max = 1960
+paso = 1
+respuesta = [1950, 1953]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Guerra Fría?"
+min = 1920
+max = 2020
+paso = 1
+respuesta = [1947, 1991]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la guerra de las Dos Rosas?"
+min = 1430
+max = 1510
+paso = 1
+respuesta = [1455, 1485]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1455 a 1485."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la guerra de Independencia de EE. UU.?"
+min = 1760
+max = 1790
+paso = 1
+respuesta = [1775, 1783]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fueron las guerras napoleónicas?"
+min = 1790
+max = 1830
+paso = 1
+respuesta = [1803, 1815]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la guerra de Crimea?"
+min = 1840
+max = 1870
+paso = 1
+respuesta = [1853, 1856]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1853 a 1856."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la guerra de los Siete Años?"
+min = 1750
+max = 1770
+paso = 1
+respuesta = [1756, 1763]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la guerra de Granada?"
+min = 1470
+max = 1500
+paso = 1
+respuesta = [1482, 1492]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró el Trienio Liberal?"
+min = 1810
+max = 1830
+paso = 1
+respuesta = [1820, 1823]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1820 a 1823."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró el Sexenio Democrático?"
+min = 1860
+max = 1880
+paso = 1
+respuesta = [1868, 1874]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Restauración borbónica?"
+min = 1840
+max = 1970
+paso = 1
+respuesta = [1874, 1931]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Década Ominosa de Fernando VII?"
+min = 1810
+max = 1840
+paso = 1
+respuesta = [1823, 1833]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1823 a 1833."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la dictadura de Primo de Rivera?"
+min = 1910
+max = 1940
+paso = 1
+respuesta = [1923, 1930]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años gobernó el Imperio otomano?"
+min = 880
+max = 2340
+paso = 1
+respuesta = [1299, 1922]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Revolución francesa?"
+min = 1780
+max = 1810
+paso = 1
+respuesta = [1789, 1799]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1789 a 1799."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió la república de Weimar?"
+min = 1910
+max = 1940
+paso = 1
+respuesta = [1919, 1933]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Tercer Reich?"
+min = 1920
+max = 1960
+paso = 1
+respuesta = [1933, 1945]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Transición española?"
+min = 1960
+max = 1990
+paso = 1
+respuesta = [1975, 1982]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1975 a 1982."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años presidió el Gobierno Felipe González?"
+min = 1970
+max = 2010
+paso = 1
+respuesta = [1982, 1996]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años presidió el Gobierno José María Aznar?"
+min = 1990
+max = 2010
+paso = 1
+respuesta = [1996, 2004]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años presidió el Gobierno Zapatero?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2004, 2011]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue de 2004 a 2011."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años presidió el Gobierno Mariano Rajoy?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2011, 2018]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años presidió el Gobierno Adolfo Suárez?"
+min = 1970
+max = 1990
+paso = 1
+respuesta = [1976, 1981]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue presidente de EE. UU. Abraham Lincoln?"
+min = 1850
+max = 1880
+paso = 1
+respuesta = [1861, 1865]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1861 a 1865."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue presidente de EE. UU. Franklin D. Roosevelt?"
+min = 1920
+max = 1960
+paso = 1
+respuesta = [1933, 1945]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue primera ministra del Reino Unido Margaret Thatcher?"
+min = 1970
+max = 2000
+paso = 1
+respuesta = [1979, 1990]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Mandela presidente de Sudáfrica?"
+min = 1980
+max = 2010
+paso = 1
+respuesta = [1994, 1999]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1994 a 1999."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue presidente de EE. UU. Barack Obama?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2009, 2017]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue presidente de EE. UU. Ronald Reagan?"
+min = 1970
+max = 2000
+paso = 1
+respuesta = [1981, 1989]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Gorbachov máximo dirigente soviético?"
+min = 1970
+max = 2000
+paso = 1
+respuesta = [1985, 1991]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1985 a 1991."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Cristóbal Colón?"
+min = 1400
+max = 1550
+paso = 1
+respuesta = [1451, 1506]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Isabel la Católica?"
+min = 1410
+max = 1540
+paso = 1
+respuesta = [1451, 1504]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el emperador Carlos V?"
+min = 1460
+max = 1590
+paso = 1
+respuesta = [1500, 1558]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1500 a 1558."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Felipe II?"
+min = 1470
+max = 1650
+paso = 1
+respuesta = [1527, 1598]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Francisco Franco?"
+min = 1840
+max = 2030
+paso = 1
+respuesta = [1892, 1975]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue de 1892 a 1975."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Miguel Ángel?"
+min = 1420
+max = 1620
+paso = 1
+respuesta = [1475, 1564]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Simón Bolívar?"
+min = 1750
+max = 1870
+paso = 1
+respuesta = [1783, 1830]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Hernán Cortés?"
+min = 1460
+max = 1570
+paso = 1
+respuesta = [1485, 1547]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1485 a 1547."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Fernando de Magallanes?"
+min = 1450
+max = 1550
+paso = 1
+respuesta = [1480, 1521]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Juana I la Loca?"
+min = 1450
+max = 1590
+paso = 1
+respuesta = [1479, 1555]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Mahatma Gandhi?"
+min = 1800
+max = 2020
+paso = 1
+respuesta = [1869, 1948]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Fue de 1869 a 1948."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Winston Churchill?"
+min = 1830
+max = 2010
+paso = 1
+respuesta = [1874, 1965]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Vladimir Lenin?"
+min = 1830
+max = 1970
+paso = 1
+respuesta = [1870, 1924]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Adolf Hitler?"
+min = 1870
+max = 1970
+paso = 1
+respuesta = [1889, 1945]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Fue de 1889 a 1945."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió George Washington?"
+min = 1700
+max = 1830
+paso = 1
+respuesta = [1732, 1799]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Abraham Lincoln?"
+min = 1770
+max = 1900
+paso = 1
+respuesta = [1809, 1865]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alfonso XIII?"
+min = 1840
+max = 1980
+paso = 1
+respuesta = [1886, 1941]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1886 a 1941."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Manuel Azaña?"
+min = 1840
+max = 1980
+paso = 1
+respuesta = [1880, 1940]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Clara Campoamor?"
+min = 1830
+max = 2030
+paso = 1
+respuesta = [1888, 1972]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Karl Marx?"
+min = 1780
+max = 1920
+paso = 1
+respuesta = [1818, 1883]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Fue de 1818 a 1883."
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se libró la batalla de Almansa (1707)"
+respuesta = { lat = 38.8744, lng = -1.0937 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la zona de la batalla del Ebro (1938)"
+respuesta = { lat = 41.1639, lng = 0.475 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se libró la batalla de Teruel (1937-1938)"
+respuesta = { lat = 40.35, lng = -1.1 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se libró la batalla de Brunete (1937)"
+respuesta = { lat = 40.4, lng = -3.9833 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde fueron derrotados los italianos en 1937"
+respuesta = { lat = 40.6333, lng = -3.1667 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se libró la batalla que selló la independencia del Perú"
+respuesta = { lat = -13.0425, lng = -74.1317 }
+radio = 100000
+vista = { lat = -15, lng = -65, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde venció Felipe II a los franceses en 1557"
+respuesta = { lat = 49.8486, lng = 3.2864 }
+radio = 75000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde derrotó Portugal a Castilla en 1385"
+respuesta = { lat = 39.6394, lng = -8.8444 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde fue derrotado Napoleón en 1815"
+respuesta = { lat = 50.6781, lng = 4.4122 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde venció Napoleón en la batalla de los Tres Emperadores"
+respuesta = { lat = 49.1281, lng = 16.7625 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se libró la gran batalla de la guerra de Secesión de 1863"
+respuesta = { lat = 39.8114, lng = -77.2258 }
+radio = 100000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se libró la batalla de Stalingrado"
+respuesta = { lat = 48.715, lng = 44.5325 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde Carlos Martel frenó a los musulmanes en 732"
+respuesta = { lat = 46.5222, lng = 0.4033 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde fue derrotada Francia en 1954"
+respuesta = { lat = 21.3869, lng = 103.0156 }
+radio = 150000
+vista = { lat = 20, lng = 15, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde están los yacimientos de Atapuerca"
+respuesta = { lat = 42.3525, lng = -3.5183 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala las ruinas griegas y romanas de Ampurias"
+respuesta = { lat = 42.1347, lng = 3.1206 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad romana de Itálica"
+respuesta = { lat = 37.4412, lng = -6.0445 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el acueducto romano de Segovia"
+respuesta = { lat = 40.9479, lng = -4.1178 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la Torre de Hércules, el faro romano aún en pie"
+respuesta = { lat = 43.3858, lng = -8.4064 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad palatina califal de Medina Azahara"
+respuesta = { lat = 37.8861, lng = -4.8678 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el poblado calcolítico de Los Millares"
+respuesta = { lat = 36.9626, lng = -2.5216 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el dolmen de Menga, uno de los mayores de Europa"
+respuesta = { lat = 37.024, lng = -4.5485 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la cueva de El Castillo, con pinturas de hace más de 40.000 años"
+respuesta = { lat = 43.2923, lng = -3.9655 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad romana de Segóbriga"
+respuesta = { lat = 39.8859, lng = -2.8105 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad romana de Baelo Claudia, junto al Estrecho"
+respuesta = { lat = 36.0899, lng = -5.7746 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad romana de Clunia"
+respuesta = { lat = 41.7766, lng = -3.3694 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la cueva de la Pileta, en la serranía de Ronda"
+respuesta = { lat = 36.6912, lng = -5.2701 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la naveta des Tudons, en Menorca"
+respuesta = { lat = 40.0031, lng = 3.8916 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la muralla romana de Lugo"
+respuesta = { lat = 43.0142, lng = -7.5599 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el círculo de piedras de Stonehenge"
+respuesta = { lat = 51.1789, lng = -1.8261 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudadela inca de Machu Picchu"
+respuesta = { lat = -13.1633, lng = -72.5456 }
+radio = 100000
+vista = { lat = -15, lng = -65, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de las pirámides del Sol y de la Luna"
+respuesta = { lat = 19.6925, lng = -98.8439 }
+radio = 100000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Partenón"
+respuesta = { lat = 37.9715, lng = 23.7266 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la antigua Olimpia, cuna de los Juegos Olímpicos"
+respuesta = { lat = 37.6383, lng = 21.63 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Coliseo"
+respuesta = { lat = 41.8903, lng = 12.4922 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad romana de Herculano"
+respuesta = { lat = 40.8061, lng = 14.3475 }
+radio = 75000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Toledo, capital imperial y ciudad de las tres culturas"
+respuesta = { lat = 39.8667, lng = -4.0333 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Santiago de Compostela, meta del Camino"
+respuesta = { lat = 42.8805, lng = -8.5457 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Córdoba, capital del califato"
+respuesta = { lat = 37.89, lng = -4.78 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Granada, último reino nazarí"
+respuesta = { lat = 37.1764, lng = -3.5999 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Oviedo, capital del reino de Asturias"
+respuesta = { lat = 43.3625, lng = -5.8503 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala León, capital de un reino medieval"
+respuesta = { lat = 42.5989, lng = -5.5669 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Burgos, cuna del Cid y capital de Castilla"
+respuesta = { lat = 42.3408, lng = -3.6997 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Tarragona, la antigua Tarraco"
+respuesta = { lat = 41.1175, lng = 1.2528 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Mérida, la antigua Emerita Augusta"
+respuesta = { lat = 38.9158, lng = -6.3333 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Cádiz, una de las ciudades más antiguas de Occidente"
+respuesta = { lat = 36.535, lng = -6.2975 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Ávila, la ciudad de las murallas"
+respuesta = { lat = 40.6559, lng = -4.6977 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la villa medieval de Santillana del Mar"
+respuesta = { lat = 43.389, lng = -4.1084 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala las ruinas de Numancia, en Soria"
+respuesta = { lat = 41.8094, lng = -2.4444 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Sagunto, atacada por Aníbal en el 219 a. C."
+respuesta = { lat = 39.6833, lng = -0.2667 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Calatayud, de origen andalusí y celtíbero"
+respuesta = { lat = 41.3535, lng = -1.6432 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Alcalá de Henares, cuna de Cervantes"
+respuesta = { lat = 40.4821, lng = -3.36 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Valladolid, capital de la corte de Felipe III"
+respuesta = { lat = 41.652, lng = -4.7286 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Medina del Campo, sede de las ferias medievales"
+respuesta = { lat = 41.3124, lng = -4.9141 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Trujillo, cuna de Pizarro"
+respuesta = { lat = 39.4626, lng = -5.8826 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Medellín (Badajoz), cuna de Hernán Cortés"
+respuesta = { lat = 38.9626, lng = -5.9578 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad colgada de Cuenca"
+respuesta = { lat = 40.0717, lng = -2.1344 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Pamplona, capital del reino de Navarra"
+respuesta = { lat = 42.8167, lng = -1.65 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Roma, capital del Imperio romano"
+respuesta = { lat = 41.8922, lng = 12.4853 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Atenas, cuna de la democracia"
+respuesta = { lat = 37.9842, lng = 23.7281 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Jerusalén, meta de las Cruzadas"
+respuesta = { lat = 31.7767, lng = 35.2342 }
+radio = 120000
+vista = { lat = 20, lng = 15, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Venecia, la antigua república marinera"
+respuesta = { lat = 45.4397, lng = 12.3319 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Florencia, cuna del Renacimiento"
+respuesta = { lat = 43.7714, lng = 11.2542 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde estaba Tenochtitlán, hoy ciudad de México"
+respuesta = { lat = 19.435, lng = -99.1314 }
+radio = 100000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Alcázar de Segovia"
+respuesta = { lat = 40.9525, lng = -4.1325 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Palacio Real de Madrid"
+respuesta = { lat = 40.418, lng = -3.7143 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el palacio de la Aljafería"
+respuesta = { lat = 41.6565, lng = -0.8971 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Loarre, en Huesca"
+respuesta = { lat = 42.3256, lng = -0.6119 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Coca, en Segovia"
+respuesta = { lat = 41.2153, lng = -4.5256 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Real Alcázar de Sevilla"
+respuesta = { lat = 37.3844, lng = -5.9912 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Peñafiel"
+respuesta = { lat = 41.5967, lng = -4.1143 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Javier, cuna de san Francisco Javier"
+respuesta = { lat = 42.594, lng = -1.2158 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de El Escorial"
+respuesta = { lat = 40.5892, lng = -4.1478 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el palacio real de Aranjuez"
+respuesta = { lat = 40.0364, lng = -3.6082 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el palacio de La Granja de San Ildefonso"
+respuesta = { lat = 40.8975, lng = -4.0046 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Bellver, en Palma"
+respuesta = { lat = 39.5637, lng = 2.6193 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Montjuïc"
+respuesta = { lat = 41.3634, lng = 2.1662 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Almodóvar del Río"
+respuesta = { lat = 37.8074, lng = -5.0237 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Gibralfaro"
+respuesta = { lat = 36.7232, lng = -4.4116 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la alcazaba de Almería"
+respuesta = { lat = 36.8411, lng = -2.4719 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Belmonte, en Cuenca"
+respuesta = { lat = 39.5581, lng = -2.6969 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Yuste, donde murió Carlos V"
+respuesta = { lat = 40.1142, lng = -5.7389 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Poblet, panteón de reyes aragoneses"
+respuesta = { lat = 41.3808, lng = 1.0825 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Santo Domingo de Silos"
+respuesta = { lat = 41.9619, lng = -3.4191 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Guadalupe"
+respuesta = { lat = 39.451, lng = -5.3268 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala San Millán de la Cogolla, cuna del castellano escrito"
+respuesta = { lat = 42.3258, lng = -2.8653 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Ripoll"
+respuesta = { lat = 42.2015, lng = 2.1911 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la Alhambra"
+respuesta = { lat = 37.1763, lng = -3.5882 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el palacio de Versalles"
+respuesta = { lat = 48.8047, lng = 2.1203 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Windsor"
+respuesta = { lat = 51.4839, lng = -0.6044 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Kremlin de Moscú"
+respuesta = { lat = 55.7506, lng = 37.6175 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se firmó el Tratado de Tordesillas (1494)"
+respuesta = { lat = 41.5009, lng = -5.0005 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Santa Fe (Granada), donde se firmaron las Capitulaciones con Colón"
+respuesta = { lat = 37.1894, lng = -3.719 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla donde se firmó la Paz de los Pirineos (1659)"
+respuesta = { lat = 43.3428, lng = -1.7655 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se produjo el Abrazo de Vergara (1839)"
+respuesta = { lat = 43.1175, lng = -2.4133 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Hendaya, donde Franco y Hitler se reunieron en 1940"
+respuesta = { lat = 43.3586, lng = -1.7744 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Münster, donde España reconoció a los Países Bajos en 1648"
+respuesta = { lat = 51.9625, lng = 7.6256 }
+radio = 75000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Yalta, donde se reunieron Churchill, Roosevelt y Stalin en 1945"
+respuesta = { lat = 44.498, lng = 34.1694 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Maastricht, donde se firmó el tratado de 1992"
+respuesta = { lat = 50.8497, lng = 5.7056 }
+radio = 75000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Viena, sede del Congreso de 1815"
+respuesta = { lat = 48.2083, lng = 16.3725 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Rastatt, tratado de 1714"
+respuesta = { lat = 48.8572, lng = 8.2031 }
+radio = 75000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Palos de la Frontera, de donde zarpó Colón"
+respuesta = { lat = 37.2346, lng = -6.8947 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el puerto de donde zarpó la expedición de Magallanes en 1519"
+respuesta = { lat = 36.7789, lng = -6.3539 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Sevilla, sede de la Casa de Contratación de Indias"
+respuesta = { lat = 37.3886, lng = -5.995 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala San Sebastián de La Gomera, última escala de Colón en 1492"
+respuesta = { lat = 28.0922, lng = -17.11 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla de las Bahamas donde desembarcó Colón en 1492"
+respuesta = { lat = 24.05, lng = -74.5 }
+radio = 100000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Santo Domingo, la primera ciudad europea permanente de América"
+respuesta = { lat = 18.4625, lng = -69.9361 }
+radio = 100000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala San Juan, capital de Puerto Rico"
+respuesta = { lat = 18.4653, lng = -66.1167 }
+radio = 125000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala La Habana, puerto de reunión de la flota de Indias"
+respuesta = { lat = 23.1367, lng = -82.3589 }
+radio = 100000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Veracruz, donde desembarcó Cortés en 1519"
+respuesta = { lat = 19.1903, lng = -96.1533 }
+radio = 100000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Cartagena de Indias, puerto fortificado de la flota española"
+respuesta = { lat = 10.4236, lng = -75.5253 }
+radio = 100000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Portobelo, puerto de la Ruta del Oro en Panamá"
+respuesta = { lat = 9.55, lng = -79.65 }
+radio = 125000
+vista = { lat = 12, lng = -75, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el estrecho de Magallanes"
+respuesta = { lat = -54.0, lng = -71.0 }
+radio = 100000
+vista = { lat = -15, lng = -65, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Sagres, vinculado a Enrique el Navegante"
+respuesta = { lat = 37.0064, lng = -8.9392 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla de Santa Elena, donde murió Napoleón"
+respuesta = { lat = -15.9639, lng = -5.7069 }
+radio = 120000
+vista = { lat = 20, lng = 15, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla de Elba, primer destierro de Napoleón"
+respuesta = { lat = 42.78, lng = 10.275 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Valparaíso"
+respuesta = { lat = -33.0461, lng = -71.6197 }
+radio = 125000
+vista = { lat = -15, lng = -65, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Buenos Aires, fundada por Pedro de Mendoza en 1536"
+respuesta = { lat = -34.5997, lng = -58.3819 }
+radio = 100000
+vista = { lat = -15, lng = -65, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué época de la historia de España le atrae más?"
+opciones = ["La romana", "Al-Ándalus", "El Siglo de Oro", "Los años ochenta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué reina o rey de España querría conocer?"
+opciones = ["Isabel la Católica", "Felipe II", "Carlos III", "Juan Carlos I"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad histórica española prefiere?"
+opciones = ["Toledo", "Granada", "Santiago de Compostela", "Segovia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué castillo o fortaleza visitaría primero?"
+opciones = ["El Alcázar de Segovia", "La Alhambra", "El castillo de Loarre", "Neuschwanstein"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué personaje del antiguo Egipto charlaría?"
+opciones = ["Cleopatra", "Tutankamón", "Ramsés II", "Keops"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué guerra le parece más interesante de estudiar?"
+opciones = ["La Guerra Civil", "La Segunda Guerra Mundial", "La guerra de Independencia", "Ninguna: prefiere la paz"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ver con sus propios ojos?"
+opciones = ["La construcción de las pirámides", "El Coliseo lleno", "La Alhambra en su esplendor", "El Descubrimiento de América"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué viaje en el tiempo haría?"
+opciones = ["Al pasado remoto", "A la Edad Media", "Al futuro", "A los años de su infancia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un día en la Roma antigua?"
+opciones = ["Ver una lucha de gladiadores", "Pasear por el Foro", "Probar su comida", "Escapar rápido de allí"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué oficio histórico elegiría?"
+opciones = ["Caballero medieval", "Explorador del Nuevo Mundo", "Escriba egipcio", "Pirata del Caribe"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿En qué bando le habría gustado estar en una batalla medieval?"
+opciones = ["Con los caballeros", "Con los arqueros", "Con los asedios y catapultas", "En el castillo, a salvo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué nave histórica elegiría para navegar?"
+opciones = ["La Santa María", "Un galeón de Indias", "Un drakkar vikingo", "El Titanic, pero sin iceberg"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué civilización antigua prefiere?"
+opciones = ["Egipto", "Roma", "Grecia", "Los mayas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué momento de la historia de España presenciaría?"
+opciones = ["La toma de Granada", "La Constitución de Cádiz", "La Transición", "La proclamación de la República"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué museo histórico elegiría para pasar la tarde?"
+opciones = ["El Museo Arqueológico", "El Museo del Prado", "El Museo del Ejército", "Ninguno, mejor una peli"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere aprender historia?"
+opciones = ["Leyendo libros", "Con documentales", "Viajando a los lugares", "Con películas y series"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría descubrir como arqueólogo?"
+opciones = ["Una tumba intacta", "Una ciudad perdida", "Un barco hundido con tesoro", "Un fósil humano"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué momento de la Edad Media le llama más la atención?"
+opciones = ["Las Cruzadas", "La Reconquista", "Los castillos y caballeros", "Los monasterios"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué rey o reina cree que gobernó mejor?"
+opciones = ["Isabel la Católica", "Carlos III", "Felipe II", "Alfonso X"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué explorador se habría embarcado?"
+opciones = ["Colón", "Magallanes y Elcano", "Cortés", "Marco Polo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le habría gustado hacer en el siglo XVIII?"
+opciones = ["Ser cortesano en Versalles", "Pintar con Goya", "Ser marino", "Estudiar en la Ilustración"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué decisión histórica le parece más acertada?"
+opciones = ["El descubrimiento de América", "La unificación de los reinos", "La Constitución de 1978", "Ninguna en particular"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué personaje de la historia sería en una fiesta de disfraces?"
+opciones = ["Cleopatra", "Napoleón", "Un caballero medieval", "Un vikingo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué arma histórica le parece más genial?"
+opciones = ["La espada", "El arco", "La catapulta", "El escudo, para defenderse"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de la Edad Media?"
+opciones = ["Los torneos", "Los banquetes", "Las catedrales", "Nada, prefiere el presente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tesoro histórico querría encontrar?"
+opciones = ["El tesoro de los templarios", "La tumba de Cleopatra", "El oro de El Dorado", "La Atlántida"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál es su monumento español preferido?"
+opciones = ["La Alhambra", "La Sagrada Familia", "La Mezquita de Córdoba", "El acueducto de Segovia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ruta histórica le gustaría recorrer?"
+opciones = ["El Camino de Santiago", "La Ruta de la Plata", "La Ruta de la Seda", "La Ruta del Cid"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad del mundo le gustaría explorar por su historia?"
+opciones = ["Roma", "Atenas", "Estambul", "El Cairo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad europea con historia le atrae más?"
+opciones = ["París", "Londres", "Praga", "Florencia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué parte de la historia le parece más aburrida?"
+opciones = ["Las fechas y los reyes", "Las guerras", "La prehistoria", "Ninguna, todo le interesa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le resultaba más difícil en clase de historia?"
+opciones = ["Memorizar fechas", "Los mapas", "Los nombres de reyes", "Los exámenes de desarrollo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué siglo habría preferido para vivir?"
+opciones = ["El XV", "El XVIII", "El XIX", "El XX"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde le habría gustado nacer, en la historia?"
+opciones = ["En el Antiguo Egipto", "En la Grecia clásica", "En la España de los Reyes Católicos", "En la Roma imperial"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué personaje femenino de la historia admira más?"
+opciones = ["Isabel la Católica", "Marie Curie", "Cleopatra", "Clara Campoamor"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué invento histórico considera el mejor?"
+opciones = ["La rueda", "La imprenta", "La brújula", "La electricidad"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si pudiera cambiar un hecho histórico?"
+opciones = ["Evitaría una guerra", "Salvaría una biblioteca", "Adelantaría una vacuna", "No cambiaría nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué documental histórico vería un domingo?"
+opciones = ["Sobre el Antiguo Egipto", "Sobre los romanos", "Sobre la Segunda Guerra Mundial", "Sobre los vikingos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué película o serie histórica le gusta más?"
+opciones = ["Una de romanos", "Una de la Edad Media", "Una de la Segunda Guerra Mundial", "Una de piratas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que habría sido en la Edad Media?"
+opciones = ["Campesino", "Caballero", "Monje", "Comerciante"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué científico histórico charlaría?"
+opciones = ["Einstein", "Newton", "Ramón y Cajal", "Leonardo da Vinci"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué artista histórico querría ver trabajando?"
+opciones = ["Velázquez", "Goya", "Picasso", "Miguel Ángel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué batalla no querría asistir ni de lejos?"
+opciones = ["Waterloo", "Trafalgar", "Las Navas de Tolosa", "Normandía"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría más de la corte de Felipe II?"
+opciones = ["La comida", "La ropa", "Las fiestas", "Nada, mucho protocolo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere conocer de los romanos?"
+opciones = ["Sus acueductos", "Sus termas", "Su ejército", "Su comida"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad prehistórica visitaría?"
+opciones = ["Atapuerca", "Altamira", "Stonehenge", "Çatalhöyük"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ruina antigua visitaría hoy mismo?"
+opciones = ["Pompeya", "Machu Picchu", "El Partenón", "Petra"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué recuerdo se llevaría de un viaje histórico?"
+opciones = ["Una espada", "Un mapa antiguo", "Una moneda de oro", "Un cuadro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué línea del tiempo le parece más emocionante?"
+opciones = ["La Antigüedad", "La Edad Media", "La Edad Moderna", "La Contemporánea"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué época de la historia reciente de España le parece más curiosa?"
+opciones = ["Los años 60", "La Transición", "Los años 80", "Los años 90"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué habría hecho en la Guerra de Independencia?"
+opciones = ["Luchar en la guerrilla", "Defender una ciudad", "Esconderse", "Redactar la Constitución"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pasaje de la historia le gustaría haber filmado?"
+opciones = ["La llegada de Colón", "La caída del Muro de Berlín", "La llegada a la Luna", "Un día en la Roma antigua"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo viajaría por la España medieval?"
+opciones = ["A caballo", "En carreta", "Andando como peregrino", "En barco por la costa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría degustar de la historia?"
+opciones = ["Un banquete romano", "Una cena medieval", "Una comida de los Reyes Católicos", "La primera pizza"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le parecería lo peor de viajar al pasado?"
+opciones = ["La falta de higiene", "La comida", "No tener móvil", "Las enfermedades"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le parecería lo mejor de viajar al pasado?"
+opciones = ["Conocer a gente famosa", "Ver cómo era todo", "Cambiar algo", "Vivir una aventura"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de libro de historia prefiere?"
+opciones = ["Novela histórica", "Ensayo", "Biografías", "Ninguno, no lee historia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué rey de España le parece más simpático?"
+opciones = ["Carlos III", "Alfonso X el Sabio", "Juan Carlos I", "Felipe VI"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué faceta de Napoleón le resulta más interesante?"
+opciones = ["Estratega", "Emperador", "Legislador", "Ninguna, no le cae bien"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde le gustaría pasar un día en la Antigüedad?"
+opciones = ["En la Atenas de Pericles", "En el Egipto de los faraones", "En la Roma de Augusto", "En Babilonia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué gran viaje histórico le habría gustado vivir?"
+opciones = ["La vuelta al mundo de Elcano", "La travesía de Colón", "Los viajes de Marco Polo", "La expedición a la Luna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hallazgo arqueológico le parece más impresionante?"
+opciones = ["La tumba de Tutankamón", "Los guerreros de terracota", "Pompeya", "Atapuerca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le impresiona más de los vikingos?"
+opciones = ["Sus barcos", "Su valentía", "Sus cascos con cuernos, aunque nunca los llevaron", "Su mitología"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué sitio histórico de Estados Unidos visitaría?"
+opciones = ["La Estatua de la Libertad", "Pearl Harbor", "Gettysburg", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría visitar de la Primera Guerra Mundial?"
+opciones = ["Las trincheras de Verdún", "Ypres", "El Somme", "Ninguno, prefiere no visitarlo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué cuerpo de la historia militar se habría unido?"
+opciones = ["Los tercios", "La legión romana", "Los caballeros templarios", "Los samuráis"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué dinastía le parece más interesante?"
+opciones = ["Los Borbones", "Los Austrias", "Los Tudor", "Los Romanov"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de la Antigua Grecia?"
+opciones = ["Los Juegos Olímpicos", "La filosofía", "La mitología", "La arquitectura"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué mito histórico le parece más fascinante?"
+opciones = ["La Atlántida", "El Santo Grial", "El Dorado", "La Torre de Babel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo le gustaría que lo recordara la historia?"
+opciones = ["Como un gran líder", "Como un gran artista", "Como un gran científico", "Mejor pasar desapercibido"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría descubrir de su propia familia?"
+opciones = ["Un antepasado famoso", "De dónde vienen sus apellidos", "Una historia de aventuras", "Un secreto escondido"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué castillo de cuento elegiría para vivir?"
+opciones = ["Uno medieval con foso", "Uno de cuento alemán", "Uno de la Costa Brava", "Un palacio barroco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de visita turística de historia prefiere?"
+opciones = ["Guiada con experto", "Por libre con audioguía", "Con espectáculo teatral", "Mejor una de teatro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tema de la historia le ha dado más curiosidad?"
+opciones = ["Los misterios sin resolver", "Las grandes batallas", "La vida cotidiana", "Los grandes inventos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría preguntar a Cervantes?"
+opciones = ["Cómo se le ocurrió don Quijote", "Cómo era su vida en Argel", "Qué opina de Lope de Vega", "Si cobró derechos de autor"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría preguntar a un romano?"
+opciones = ["Cómo se vivía", "Qué comían", "Cómo fue Roma", "Si tenían wifi"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría preguntar a Colón?"
+opciones = ["Cómo supo la ruta", "Qué sintió al ver tierra", "Qué comían", "Si tuvo miedo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría que no hubiera desaparecido?"
+opciones = ["La biblioteca de Alejandría", "El coloso de Rodas", "Los jardines colgantes de Babilonia", "El faro de Alejandría"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué evento deportivo de la antigua Grecia vería?"
+opciones = ["Una carrera de carros", "Una prueba de lucha", "Los 200 metros", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le parece lo más curioso de Al-Ándalus?"
+opciones = ["Los palacios y jardines", "La convivencia de culturas", "La ciencia y las traducciones", "La gastronomía"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué personaje del Siglo de Oro prefiere?"
+opciones = ["Cervantes", "Velázquez", "Lope de Vega", "Quevedo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad de Al-Ándalus le gustaría ver en su apogeo?"
+opciones = ["Córdoba", "Granada", "Sevilla", "Toledo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría visitar de la Hispania romana?"
+opciones = ["Mérida", "Tarragona", "Itálica", "Segovia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál de estas fiestas históricas prefiere?"
+opciones = ["Moros y cristianos", "Semana Santa", "Las Fallas", "Los San Fermines"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué edificio histórico de su ciudad le gusta más?"
+opciones = ["Una catedral", "Un castillo", "Un palacio", "Una plaza antigua"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que hay más en su ciudad?"
+opciones = ["Historia romana", "Historia medieval", "Historia moderna", "Poca historia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le pasaría si lo dejaran dos horas solo en un museo?"
+opciones = ["Se pasaría todo el rato mirando", "Buscaría la cafetería", "Se echaría una siesta", "Buscaría la tienda de souvenirs"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ver en directo de la Segunda Guerra Mundial?"
+opciones = ["El desembarco de Normandía", "Un discurso de Churchill", "Nada, prefiere no verlo", "La victoria final"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que fue lo más duro de vivir en el siglo XIX?"
+opciones = ["La salud", "El trabajo", "Los viajes", "Las guerras"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría más de un castillo medieval?"
+opciones = ["La torre del homenaje", "Las mazmorras", "El gran salón", "El foso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué rey medieval se tomaría un café?"
+opciones = ["Alfonso X el Sabio", "Jaime I", "Fernando III", "El Cid, que no era rey"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le parece más emocionante de la historia?"
+opciones = ["Los descubrimientos", "Las revoluciones", "Los imperios", "Los inventos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hecho de la Transición le parece más importante?"
+opciones = ["La Constitución", "Las primeras elecciones", "La legalización de partidos", "El 23-F"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué faro o puerto histórico visitaría?"
+opciones = ["La Torre de Hércules", "El puerto de Palos", "El puerto de Cádiz", "El faro de Alejandría, si existiera"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ejército habría admirado más?"
+opciones = ["El romano", "Los tercios españoles", "El de Napoleón", "El mongol"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad española habría sido más interesante en el Siglo de Oro?"
+opciones = ["Sevilla", "Madrid", "Valladolid", "Toledo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué mapa antiguo colgaría en su casa?"
+opciones = ["Uno del mundo medieval", "Uno de España antigua", "Uno de las rutas de Colón", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo habría sido de joven en la Edad Media?"
+opciones = ["Aprendiz de artesano", "Escudero", "Monje copista", "Trovador"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué gesto histórico repetiría hoy?"
+opciones = ["Un brindis medieval", "Un saludo romano", "Una reverencia de corte", "Un apretón de manos y ya"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hecho de la historia del siglo XX cambiaría?"
+opciones = ["El inicio de una guerra", "Una crisis económica", "Ninguno, no se toca el pasado", "Un descubrimiento científico"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría encontrar en un desván histórico?"
+opciones = ["Cartas antiguas", "Una armadura", "Un mapa del tesoro", "Monedas viejas"]
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Felipe V?"
+min = 1680
+max = 1770
+paso = 1
+respuesta = [1700, 1746]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Alfonso XI de Castilla?"
+min = 1290
+max = 1370
+paso = 1
+respuesta = [1312, 1350]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Pedro I el Cruel en Castilla?"
+min = 1330
+max = 1390
+paso = 1
+respuesta = [1350, 1369]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Enrique IV de Castilla?"
+min = 1430
+max = 1500
+paso = 1
+respuesta = [1454, 1474]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Fernando el Católico rey de Aragón?"
+min = 1450
+max = 1530
+paso = 1
+respuesta = [1479, 1516]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años gobernó Abderramán III en Córdoba, como emir y luego califa?"
+min = 890
+max = 980
+paso = 1
+respuesta = [912, 961]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de los Treinta Años?"
+min = 1590
+max = 1670
+paso = 1
+respuesta = [1618, 1648]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró el Trienio Liberal en España?"
+min = 1800
+max = 1840
+paso = 1
+respuesta = [1820, 1823]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró el Sexenio Democrático en España?"
+min = 1850
+max = 1890
+paso = 1
+respuesta = [1868, 1874]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Guerra de Granada, la última de la Reconquista?"
+min = 1460
+max = 1510
+paso = 1
+respuesta = [1482, 1492]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Primera Guerra Carlista?"
+min = 1810
+max = 1860
+paso = 1
+respuesta = [1833, 1840]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de los Diez Años en Cuba?"
+min = 1850
+max = 1900
+paso = 1
+respuesta = [1868, 1878]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Guerra Fría, según la fecha más habitual?"
+min = 1930
+max = 2010
+paso = 1
+respuesta = [1947, 1991]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Felipe González presidente del Gobierno?"
+min = 1960
+max = 2030
+paso = 1
+respuesta = [1982, 1996]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Adolfo Suárez presidente del Gobierno?"
+min = 1960
+max = 2000
+paso = 1
+respuesta = [1976, 1981]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue José María Aznar presidente del Gobierno?"
+min = 1980
+max = 2030
+paso = 1
+respuesta = [1996, 2004]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Rodríguez Zapatero presidente del Gobierno?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2004, 2011]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Mariano Rajoy presidente del Gobierno?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2011, 2018]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el cardenal Cisneros?"
+min = 1410
+max = 1550
+paso = 1
+respuesta = [1436, 1517]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Carlos III?"
+min = 1680
+max = 1820
+paso = 1
+respuesta = [1716, 1788]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Imperio bizantino, desde la fundación de Constantinopla hasta su caída?"
+min = 300
+max = 1500
+paso = 1
+respuesta = [330, 1453]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió la Triple Alianza o Imperio azteca, hasta la llegada de Cortés?"
+min = 1380
+max = 1560
+paso = 1
+respuesta = [1428, 1521]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Imperio inca, hasta la captura de Atahualpa?"
+min = 1400
+max = 1560
+paso = 1
+respuesta = [1438, 1533]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó la reina Victoria del Reino Unido?"
+min = 1810
+max = 1920
+paso = 1
+respuesta = [1837, 1901]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo unida la corona de Portugal a la de España, la Unión Ibérica?"
+min = 1550
+max = 1670
+paso = 1
+respuesta = [1580, 1640]
+criterio = "solapar"
+dificultad = 2

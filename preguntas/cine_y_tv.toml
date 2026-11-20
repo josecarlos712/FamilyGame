@@ -2690,3 +2690,4113 @@ enunciado = "¿Cómo prefiere ver cine extranjero?"
 opciones = ["Doblada", "Subtitulada"]
 tiempo = 8
 lectura = 2
+
+[[pregunta]]
+enunciado = "¿Qué actriz protagoniza «Thelma y Louise» (1991) junto a Susan Sarandon?"
+opciones = ["Geena Davis", "Meg Ryan", "Julia Roberts", "Demi Moore"]
+correcta = "Geena Davis"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Alien, el octavo pasajero» (1979)?"
+opciones = ["Ridley Scott", "James Cameron", "John Carpenter", "Steven Spielberg"]
+correcta = "Ridley Scott"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Casablanca» (1942)?"
+opciones = ["Michael Curtiz", "Alfred Hitchcock", "John Huston", "Orson Welles"]
+correcta = "Michael Curtiz"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué actor protagoniza «Abre los ojos» (1997), de Alejandro Amenábar?"
+opciones = ["Eduardo Noriega", "Javier Bardem", "Jordi Mollà", "Unax Ugalde"]
+correcta = "Eduardo Noriega"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Atrapado en el tiempo» (1993), con Bill Murray?"
+opciones = ["Harold Ramis", "Ivan Reitman", "John Hughes", "Robert Zemeckis"]
+correcta = "Harold Ramis"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué película ganó el Goya a mejor película en la gala de 2023?"
+opciones = ["As bestas", "Cinco lobitos", "Alcarràs", "Modelo 77"]
+correcta = "As bestas"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué película ganó el Goya a mejor película en la gala de 2020?"
+opciones = ["Dolor y gloria", "Mientras dure la guerra", "Los Japón", "Adiós"]
+correcta = "Dolor y gloria"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué actriz interpreta a Nairobi en «La casa de papel»?"
+opciones = ["Alba Flores", "Úrsula Corberó", "Itziar Ituño", "Esther Acebo"]
+correcta = "Alba Flores"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quiénes adaptaron para la tele «Canción de hielo y fuego» como «Juego de tronos»?"
+opciones = ["David Benioff y D. B. Weiss", "Vince Gilligan y Peter Gould", "Matthew Weiner y Terence Winter", "J. J. Abrams y Damon Lindelof"]
+correcta = "David Benioff y D. B. Weiss"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál de estas películas NO dirigió Steven Spielberg?"
+opciones = ["Tiburón", "E.T., el extraterrestre", "Los Goonies", "Salvar al soldado Ryan"]
+correcta = "Los Goonies"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Forrest Gump?"
+opciones = ["Tom Hanks", "Tom Cruise", "Kevin Costner", "Bill Murray"]
+correcta = "Tom Hanks"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué cadena emite «Cuéntame cómo pasó»?"
+opciones = ["La 1 de TVE", "Antena 3", "Telecinco", "Cuatro"]
+correcta = "La 1 de TVE"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «La lista de Schindler» (1993)?"
+opciones = ["Steven Spielberg", "Martin Scorsese", "Roman Polanski", "Oliver Stone"]
+correcta = "Steven Spielberg"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actriz interpreta a Once (Eleven) en «Stranger Things»?"
+opciones = ["Millie Bobby Brown", "Sadie Sink", "Natalia Dyer", "Maya Hawke"]
+correcta = "Millie Bobby Brown"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta al capitán Jack Sparrow en «Piratas del Caribe»?"
+opciones = ["Johnny Depp", "Orlando Bloom", "Geoffrey Rush", "Brad Pitt"]
+correcta = "Johnny Depp"
+dificultad = 1
+tiempo = 8
+
+[[pregunta]]
+enunciado = "¿Quién dice «Yo soy tu padre»?"
+opciones = ["Darth Vader", "Yoda", "Han Solo"]
+correcta = "Darth Vader"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué come Popeye para ser fuerte?"
+opciones = ["Espinacas", "Brócoli", "Zanahorias"]
+correcta = "Espinacas"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué animal es Scooby-Doo?"
+opciones = ["Un perro", "Un gato", "Un lobo"]
+correcta = "Un perro"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué le falta al Capitán Garfio?"
+opciones = ["Una mano", "Un ojo", "Una pierna"]
+correcta = "Una mano"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Contra qué choca el Titanic?"
+opciones = ["Un iceberg", "Un submarino", "Una ballena"]
+correcta = "Un iceberg"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué es E.T.?"
+opciones = ["Un extraterrestre", "Un robot", "Un fantasma"]
+correcta = "Un extraterrestre"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién es el compañero de Mortadelo?"
+opciones = ["Filemón", "Zipi", "Carpanta"]
+correcta = "Filemón"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué pintor da nombre a los premios del cine español?"
+opciones = ["Goya", "Velázquez", "Picasso"]
+correcta = "Goya"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Con qué canción ganó ABBA Eurovisión en 1974?"
+opciones = ["Waterloo", "Fernando", "Chiquitita"]
+correcta = "Waterloo"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué país ganó Eurovisión en 2023 con Loreen?"
+opciones = ["Suecia", "Finlandia", "Reino Unido"]
+correcta = "Suecia"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué vehículo conduce Batman?"
+opciones = ["El Batmóvil", "Un DeLorean", "Un tractor"]
+correcta = "El Batmóvil"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué es Chewbacca?"
+opciones = ["Un wookiee", "Un ewok", "Un droide"]
+correcta = "Un wookiee"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién forma dúo con Juan Muñoz en «Cruz y Raya»?"
+opciones = ["José Mota", "Josema Yuste", "Millán Salcedo"]
+correcta = "José Mota"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué color es el sable láser de Darth Vader?"
+opciones = ["Rojo", "Azul", "Verde"]
+correcta = "Rojo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién es el eterno enemigo de Batman, de sonrisa pintada?"
+opciones = ["El Joker", "El Pingüino", "Bane"]
+correcta = "El Joker"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué fabrica Willy Wonka?"
+opciones = ["Chocolate", "Juguetes", "Helados"]
+correcta = "Chocolate"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué actor es Indiana Jones?"
+opciones = ["Harrison Ford", "Tom Cruise", "Mel Gibson"]
+correcta = "Harrison Ford"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué actor es el agente 007 en «Casino Royale» (2006)?"
+opciones = ["Daniel Craig", "Sean Connery", "Roger Moore"]
+correcta = "Daniel Craig"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué animal es Dumbo?"
+opciones = ["Un elefante", "Un ratón", "Un ciervo"]
+correcta = "Un elefante"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el perro alto y torpe, amigo de Mickey?"
+opciones = ["Goofy", "Pluto", "Donald"]
+correcta = "Goofy"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién es el mejor amigo de Bob Esponja?"
+opciones = ["Patricio", "Calamardo", "Arenita"]
+correcta = "Patricio"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué serie tiene un trono de hierro?"
+opciones = ["Juego de tronos", "Vikingos", "The Crown"]
+correcta = "Juego de tronos"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el villano de «Frozen» que engaña a Anna?"
+opciones = ["Hans", "Kristoff", "Olaf"]
+correcta = "Hans"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué superhéroe lleva un escudo con una estrella?"
+opciones = ["Capitán América", "Thor", "Iron Man"]
+correcta = "Capitán América"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién rescata a Nemo?"
+opciones = ["Marlin y Dory", "Bruce y Crush", "Gill y Bloat"]
+correcta = "Marlin y Dory"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué famoso robot de «Star Wars» es dorado?"
+opciones = ["C-3PO", "R2-D2", "BB-8"]
+correcta = "C-3PO"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué color es el coche de «Cars», Rayo McQueen?"
+opciones = ["Rojo", "Azul", "Amarillo"]
+correcta = "Rojo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién presenta «Pasapalabra» desde 2020?"
+opciones = ["Roberto Leal", "Jordi Hurtado", "Carlos Sobera"]
+correcta = "Roberto Leal"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el cantante de «Bohemian Rhapsody» en la película?"
+opciones = ["Freddie Mercury", "Elton John", "David Bowie"]
+correcta = "Freddie Mercury"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué serie española trata de una «casa de papel»?"
+opciones = ["La casa de papel", "Élite", "Vis a vis"]
+correcta = "La casa de papel"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿En qué serie vive la familia Alcántara?"
+opciones = ["Cuéntame cómo pasó", "Los Serrano", "Aída"]
+correcta = "Cuéntame cómo pasó"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué animal es Mufasa?"
+opciones = ["Un león", "Un tigre", "Un lobo"]
+correcta = "Un león"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué niño mago lleva una cicatriz de rayo?"
+opciones = ["Harry Potter", "Percy Jackson", "Ron Weasley"]
+correcta = "Harry Potter"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué dibujos tienen a Homer y Marge?"
+opciones = ["Los Simpson", "Padre de familia", "South Park"]
+correcta = "Los Simpson"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el hada de Peter Pan?"
+opciones = ["Campanilla", "Maléfica", "Hada Madrina"]
+correcta = "Campanilla"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué es Spider-Man?"
+opciones = ["Un hombre araña", "Un hombre murciélago", "Un hombre hormiga"]
+correcta = "Un hombre araña"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué mago aparece en «El Señor de los Anillos»?"
+opciones = ["Gandalf", "Merlín", "Dumbledore"]
+correcta = "Gandalf"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Ganó «Titanic» más de diez Óscar?"
+opciones = ["Sí", "No"]
+correcta = "Sí"
+barajar = false
+dificultad = 2
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "«Los Simpson» es una serie de dibujos animados."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "«Shrek» es una película de Pixar."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "«Frozen» es una película de Disney."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Pedro Almodóvar es director de cine."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Penélope Cruz ha ganado un Óscar."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "«El hormiguero» se emite en Telecinco."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "«La casa de papel» es una serie española."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Spielberg dirigió «Parque Jurásico»."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Nemo es una tortuga."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "«Eurovisión» es un concurso de cocina."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 3
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué cantante representó a España en Eurovisión 2022 con «SloMo»?"
+opciones = ["Chanel", "Blanca Paloma", "Rosa López"]
+correcta = "Chanel"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué cadena emite «MasterChef» en España?"
+opciones = ["La 1", "Antena 3", "Cuatro"]
+correcta = "La 1"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién es el villano de «Los Increíbles» (2004)?"
+opciones = ["Síndrome", "Mr. Freeze", "Gargamel"]
+correcta = "Síndrome"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el mono de Aladdín?"
+opciones = ["Abu", "Rafiki", "Timón"]
+correcta = "Abu"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué actor pone la voz a Woody en la versión original de «Toy Story»?"
+opciones = ["Tom Hanks", "Tim Allen", "Robin Williams"]
+correcta = "Tom Hanks"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el profesor del colegio de «Hogwarts» con barba larga?"
+opciones = ["Dumbledore", "Snape", "Hagrid"]
+correcta = "Dumbledore"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué insecto es Pepito Grillo?"
+opciones = ["Un grillo", "Una hormiga", "Una abeja"]
+correcta = "Un grillo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la película de Disney con una sirena pelirroja?"
+opciones = ["La Sirenita", "Frozen", "Mulán"]
+correcta = "La Sirenita"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué color es la piel de Hulk?"
+opciones = ["Verde", "Azul", "Roja"]
+correcta = "Verde"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién interpreta a Joker en «Joker» (2019)?"
+opciones = ["Joaquin Phoenix", "Heath Ledger", "Jared Leto"]
+correcta = "Joaquin Phoenix"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué saga tiene un «anillo único»?"
+opciones = ["El Señor de los Anillos", "Harry Potter", "Narnia"]
+correcta = "El Señor de los Anillos"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién interpreta a la Mujer Maravilla en 2017?"
+opciones = ["Gal Gadot", "Scarlett Johansson", "Margot Robbie"]
+correcta = "Gal Gadot"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuál de estas es una película de terror?"
+opciones = ["It", "Up", "Cars"]
+correcta = "It"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué premio entrega la Academia de Hollywood?"
+opciones = ["Óscar", "Goya", "Grammy"]
+correcta = "Óscar"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué premio entrega la Academia de Cine de España?"
+opciones = ["Goya", "Óscar", "Bafta"]
+correcta = "Goya"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué material es el muñeco Pinocho?"
+opciones = ["Madera", "Hierro", "Cristal"]
+correcta = "Madera"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué serie española trata de un internado llamado Laguna Negra?"
+opciones = ["El internado", "Merlí", "Física o Química"]
+correcta = "El internado"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué profesión tiene Walter White al inicio de «Breaking Bad»?"
+opciones = ["Profesor", "Policía", "Médico"]
+correcta = "Profesor"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién es Leia en «Star Wars»?"
+opciones = ["Hermana de Luke", "Madre de Luke", "Esposa de Han"]
+correcta = "Hermana de Luke"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién es Homer Simpson?"
+opciones = ["El padre", "El abuelo", "El tío"]
+correcta = "El padre"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué ciudad es el escenario de «Gotham»?"
+opciones = ["Gotham City", "Metrópolis", "Springfield"]
+correcta = "Gotham City"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué deporte practica Rocky Balboa?"
+opciones = ["Boxeo", "Lucha libre", "Karate"]
+correcta = "Boxeo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué cantante británica de «Skyfall» ganó el Óscar a mejor canción?"
+opciones = ["Adele", "Dua Lipa", "Amy Winehouse"]
+correcta = "Adele"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué país es el director Guillermo del Toro?"
+opciones = ["México", "España", "Argentina"]
+correcta = "México"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién hace de Spider-Man en «No Way Home»?"
+opciones = ["Tom Holland", "Andrew Garfield", "Tobey Maguire"]
+correcta = "Tom Holland"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿En qué se convierte el Doctor Jekyll?"
+opciones = ["Mr. Hyde", "Drácula", "Frankenstein"]
+correcta = "Mr. Hyde"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién es el hermano de Mario en los videojuegos y el cine?"
+opciones = ["Luigi", "Wario", "Yoshi"]
+correcta = "Luigi"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué actor español pone cara a Torrente?"
+opciones = ["Santiago Segura", "Javier Cámara", "Antonio Resines"]
+correcta = "Santiago Segura"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué actor ganó el Óscar de 2024 por «Oppenheimer»?"
+opciones = ["Cillian Murphy", "Christian Bale", "Matt Damon"]
+correcta = "Cillian Murphy"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué personaje de Disney vive en una lámpara?"
+opciones = ["El Genio", "Abu", "Jafar"]
+correcta = "El Genio"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué cantante famoso es el protagonista de «Rocketman»?"
+opciones = ["Elton John", "Freddie Mercury", "Bruce Springsteen"]
+correcta = "Elton John"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué tipo de animal es Baloo, de «El libro de la selva»?"
+opciones = ["Un oso", "Un tigre", "Un mono"]
+correcta = "Un oso"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿En qué cadena se emite «La Revuelta»?"
+opciones = ["La 1", "Antena 3", "La Sexta"]
+correcta = "La 1"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué actor británico es Mr. Bean?"
+opciones = ["Rowan Atkinson", "Hugh Grant", "Colin Firth"]
+correcta = "Rowan Atkinson"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el ratón protagonista de «Ratatouille»?"
+opciones = ["Remy", "Mickey", "Stuart"]
+correcta = "Remy"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del dragón de «Cómo entrenar a tu dragón»?"
+opciones = ["Desdentao", "Smaug", "Drogon"]
+correcta = "Desdentao"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién derrota a Voldemort en «Harry Potter»?"
+opciones = ["Harry Potter", "Ron Weasley", "Draco Malfoy"]
+correcta = "Harry Potter"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Mar adentro»?"
+opciones = ["Alejandro Amenábar", "Pedro Almodóvar", "Isabel Coixet"]
+correcta = "Alejandro Amenábar"
+dificultad = 2
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Viridiana», de Luis Buñuel?"
+min = 1955
+max = 1970
+paso = 1
+respuesta = 1961
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Los santos inocentes»?"
+min = 1975
+max = 1990
+paso = 1
+respuesta = 1984
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Abre los ojos», de Alejandro Amenábar?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 1997
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Los otros», de Alejandro Amenábar?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 2001
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Hable con ella», de Pedro Almodóvar?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 2002
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Volver», de Pedro Almodóvar?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2006
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El orfanato», de J. A. Bayona?"
+min = 1995
+max = 2010
+paso = 1
+respuesta = 2007
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Celda 211»?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2009
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Lo imposible», de J. A. Bayona?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2012
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Campeones», de Javier Fesser?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2018
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Dolor y gloria», de Pedro Almodóvar?"
+min = 2010
+max = 2025
+paso = 1
+respuesta = 2019
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «La sociedad de la nieve»?"
+min = 2010
+max = 2025
+paso = 1
+respuesta = 2023
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Torrente, el brazo tonto de la ley»?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 1998
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Tesis», de Alejandro Amenábar?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 1996
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El día de la bestia», de Álex de la Iglesia?"
+min = 1985
+max = 2000
+paso = 1
+respuesta = 1995
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Amanece que no es poco»?"
+min = 1975
+max = 1995
+paso = 1
+respuesta = 1989
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Todo sobre mi madre»?"
+min = 1985
+max = 2005
+paso = 1
+respuesta = 1999
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El laberinto del fauno»?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2006
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Los lunes al sol»?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 2002
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Ocho apellidos catalanes»?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2015
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Los Serrano»?"
+min = 1995
+max = 2010
+paso = 1
+respuesta = 2003
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Aquí no hay quien viva»?"
+min = 1995
+max = 2010
+paso = 1
+respuesta = 2003
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Física o Química»?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2008
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Águila Roja»?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2009
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El ministerio del tiempo»?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2015
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Velvet» en Antena 3?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2014
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Las chicas del cable» en Netflix?"
+min = 2010
+max = 2025
+paso = 1
+respuesta = 2017
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Élite» en Netflix?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2018
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Vis a vis»?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2015
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Merlí» en TV3?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2015
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó «El hormiguero»?"
+min = 1995
+max = 2010
+paso = 1
+respuesta = 2006
+tolerancia = 2
+dificultad = 2
+explicacion = "Fue en 2006."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «MasterChef» España?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2013
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó «Pasapalabra» en Antena 3?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 2000
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a emitirse «Saber y ganar»?"
+min = 1985
+max = 2000
+paso = 1
+respuesta = 1997
+tolerancia = 2
+dificultad = 3
+explicacion = "Fue en 1997."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó «Crónicas marcianas»?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 1997
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «La Revuelta» en La 1?"
+min = 2010
+max = 2030
+paso = 1
+respuesta = 2024
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Tu cara me suena»?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2011
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año participó España en Eurovisión por primera vez?"
+min = 1950
+max = 1965
+paso = 1
+respuesta = 1961
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó TVE a emitir con regularidad?"
+min = 1945
+max = 1960
+paso = 1
+respuesta = 1956
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Casablanca»?"
+min = 1935
+max = 1960
+paso = 1
+respuesta = 1942
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Psicosis», de Alfred Hitchcock?"
+min = 1950
+max = 1965
+paso = 1
+respuesta = 1960
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El mago de Oz» con Judy Garland?"
+min = 1925
+max = 1945
+paso = 1
+respuesta = 1939
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «2001: Una odisea del espacio»?"
+min = 1960
+max = 1975
+paso = 1
+respuesta = 1968
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El resplandor», de Stanley Kubrick?"
+min = 1970
+max = 1985
+paso = 1
+respuesta = 1980
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «E.T., el extraterrestre»?"
+min = 1970
+max = 1985
+paso = 1
+respuesta = 1982
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Matrix»?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 1999
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Gladiator», de Ridley Scott?"
+min = 1995
+max = 2010
+paso = 1
+respuesta = 2000
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Shrek»?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 2001
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Vengadores: Endgame»?"
+min = 2015
+max = 2030
+paso = 1
+respuesta = 2019
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Barbie», de Greta Gerwig?"
+min = 2015
+max = 2030
+paso = 1
+respuesta = 2023
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Friends»?"
+min = 1985
+max = 2000
+paso = 1
+respuesta = 1994
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Juego de tronos»?"
+min = 2005
+max = 2020
+paso = 1
+respuesta = 2011
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Breaking Bad»?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2008
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Stranger Things»?"
+min = 2010
+max = 2025
+paso = 1
+respuesta = 2016
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El juego del calamar»?"
+min = 2010
+max = 2025
+paso = 1
+respuesta = 2021
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se emitió el último capítulo de «Friends»?"
+min = 1995
+max = 2010
+paso = 1
+respuesta = 2004
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año terminó «Juego de tronos»?"
+min = 2010
+max = 2025
+paso = 1
+respuesta = 2019
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Indiana Jones: En busca del arca perdida»?"
+min = 1970
+max = 1985
+paso = 1
+respuesta = 1981
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «La vida es bella», de Roberto Benigni?"
+min = 1985
+max = 2000
+paso = 1
+respuesta = 1997
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El Señor de los Anillos: La comunidad del anillo»?"
+min = 1990
+max = 2005
+paso = 1
+respuesta = 2001
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Origen» (Inception)?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2010
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Oppenheimer»?"
+min = 2015
+max = 2030
+paso = 1
+respuesta = 2023
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebró la primera ceremonia de los Óscar?"
+min = 1920
+max = 1935
+paso = 1
+respuesta = 1929
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año debutó Mickey Mouse en «Steamboat Willie»?"
+min = 1920
+max = 1935
+paso = 1
+respuesta = 1928
+tolerancia = 2
+dificultad = 3
+explicacion = "Fue en 1928."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Pedro Almodóvar?"
+min = 1940
+max = 1955
+paso = 1
+respuesta = 1949
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Javier Bardem?"
+min = 1960
+max = 1975
+paso = 1
+respuesta = 1969
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Penélope Cruz?"
+min = 1965
+max = 1980
+paso = 1
+respuesta = 1974
+tolerancia = 2
+dificultad = 2
+explicacion = "Fue en 1974."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Antonio Banderas?"
+min = 1955
+max = 1970
+paso = 1
+respuesta = 1960
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Steven Spielberg?"
+min = 1935
+max = 1950
+paso = 1
+respuesta = 1946
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Alfred Hitchcock?"
+min = 1970
+max = 1985
+paso = 1
+respuesta = 1980
+tolerancia = 2
+dificultad = 2
+explicacion = "Fue en 1980."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Charles Chaplin?"
+min = 1970
+max = 1985
+paso = 1
+respuesta = 1977
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Marilyn Monroe?"
+min = 1955
+max = 1970
+paso = 1
+respuesta = 1962
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Luis Buñuel?"
+min = 1975
+max = 1990
+paso = 1
+respuesta = 1983
+tolerancia = 2
+dificultad = 3
+explicacion = "Fue en 1983."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Luis García Berlanga?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2010
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Lola Flores?"
+min = 1985
+max = 2000
+paso = 1
+respuesta = 1995
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Sara Montiel?"
+min = 2000
+max = 2015
+paso = 1
+respuesta = 2013
+tolerancia = 2
+dificultad = 2
+explicacion = "Fue en 2013."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Walt Disney?"
+min = 1955
+max = 1970
+paso = 1
+respuesta = 1966
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas películas componen la saga principal de Star Wars (episodios I a IX)?"
+min = 4
+max = 13
+paso = 1
+respuesta = 9
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas películas tiene la saga cinematográfica de «Harry Potter»?"
+min = 3
+max = 12
+paso = 1
+respuesta = 8
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas temporadas tuvo «Juego de tronos»?"
+min = 3
+max = 12
+paso = 1
+respuesta = 8
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas temporadas tuvo «Breaking Bad»?"
+min = 2
+max = 9
+paso = 1
+respuesta = 5
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas temporadas tuvo «Los Serrano»?"
+min = 3
+max = 12
+paso = 1
+respuesta = 8
+tolerancia = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas temporadas tuvo «Aquí no hay quien viva»?"
+min = 2
+max = 9
+paso = 1
+respuesta = 5
+tolerancia = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas temporadas tuvo «Física o Química»?"
+min = 2
+max = 11
+paso = 1
+respuesta = 7
+tolerancia = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Óscar a mejor película de habla no inglesa ha ganado España hasta 2025?"
+min = 0
+max = 8
+paso = 1
+respuesta = 4
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas películas oficiales de James Bond (Eon) hay hasta «Sin tiempo para morir»?"
+min = 15
+max = 35
+paso = 1
+respuesta = 25
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto dura «Titanic» (1997)?"
+min = 150
+max = 230
+paso = 1
+unidad = "min"
+respuesta = 194
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto dura «El padrino» (1972)?"
+min = 130
+max = 220
+paso = 1
+unidad = "min"
+respuesta = 175
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto recaudó «Avatar» (2009) en todo el mundo, aproximadamente?"
+min = 1500
+max = 4200
+paso = 100
+unidad = "millones de $"
+respuesta = 2900
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos episodios tuvo «Friends» en total?"
+min = 150
+max = 300
+paso = 1
+respuesta = 236
+tolerancia = 15
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos años cumple Harry Potter al recibir su carta de Hogwarts?"
+min = 5
+max = 15
+paso = 1
+unidad = "años"
+respuesta = 11
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas temporadas tuvo «Perdidos» (Lost)?"
+min = 2
+max = 10
+paso = 1
+respuesta = 6
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Cuéntame cómo pasó» en TVE?"
+min = 1990
+max = 2040
+paso = 1
+respuesta = [2001, 2023]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Médico de familia»?"
+min = 1980
+max = 2010
+paso = 1
+respuesta = [1995, 1999]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 1995 a 1999."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Farmacia de guardia»?"
+min = 1980
+max = 2010
+paso = 1
+respuesta = [1991, 1995]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Los Serrano»?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2003, 2008]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Aquí no hay quien viva»?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2003, 2006]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2003 a 2006."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «7 vidas»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1999, 2006]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Hospital Central»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2000, 2012]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Los hombres de Paco»?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2005, 2010]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 2005 a 2010."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «El internado»?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2007, 2010]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Física o Química»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2008, 2011]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Águila Roja»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2009, 2016]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 2009 a 2016."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Gran Hotel»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2011, 2013]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «El ministerio del tiempo»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2015, 2020]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Velvet»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2014, 2016]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 2014 a 2016."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Las chicas del cable»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2017, 2020]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Vis a vis»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2015, 2019]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «La casa de papel»?"
+min = 2000
+max = 2040
+paso = 1
+respuesta = [2017, 2021]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2017 a 2021."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Élite»?"
+min = 2000
+max = 2040
+paso = 1
+respuesta = [2018, 2024]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Merlí»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2015, 2018]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Aída»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2005, 2014]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2005 a 2014."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Al salir de clase»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1997, 2002]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Compañeros»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1998, 2002]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «El comisario»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1999, 2009]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Se emitió de 1999 a 2009."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Periodistas»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1998, 2002]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Crónicas marcianas»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1997, 2005]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Ana y los 7»?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2002, 2005]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 2002 a 2005."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Un paso adelante»?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2002, 2005]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Isabel» en TVE?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2012, 2014]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Los misterios de Laura»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2009, 2014]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Se emitió de 2009 a 2014."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «El barco»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2011, 2013]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Paquita Salas»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2016, 2019]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se desarrolló la primera edición de «Operación Triunfo»?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2001, 2002]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2001 a 2002."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Friends»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1994, 2004]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Juego de tronos»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2011, 2019]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Breaking Bad»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2008, 2013]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2008 a 2013."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Better Call Saul»?"
+min = 2000
+max = 2040
+paso = 1
+respuesta = [2015, 2022]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Perdidos» (Lost)?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2004, 2010]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Los Soprano»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1999, 2007]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 1999 a 2007."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «The Wire»?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2002, 2008]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Seinfeld»?"
+min = 1970
+max = 2010
+paso = 1
+respuesta = [1989, 1998]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «House»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2004, 2012]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2004 a 2012."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Expediente X» en su etapa original?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1993, 2002]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «The Big Bang Theory»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2007, 2019]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Cómo conocí a vuestra madre»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2005, 2014]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2005 a 2014."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «M*A*S*H»?"
+min = 1960
+max = 2000
+paso = 1
+respuesta = [1972, 1983]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Twin Peaks» en su etapa original?"
+min = 1980
+max = 2010
+paso = 1
+respuesta = [1990, 1991]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Dallas» en su serie original?"
+min = 1960
+max = 2010
+paso = 1
+respuesta = [1978, 1991]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 1978 a 1991."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió la serie original de «Star Trek»?"
+min = 1950
+max = 1980
+paso = 1
+respuesta = [1966, 1969]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «El equipo A»?"
+min = 1970
+max = 2000
+paso = 1
+respuesta = [1983, 1987]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Cheers»?"
+min = 1970
+max = 2010
+paso = 1
+respuesta = [1982, 1993]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 1982 a 1993."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «The Office» (versión estadounidense)?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2005, 2013]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Modern Family»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2009, 2020]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Mad Men»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2007, 2015]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 2007 a 2015."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Dexter»? (etapa original)"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2006, 2013]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «The Walking Dead»? (serie original)"
+min = 2000
+max = 2040
+paso = 1
+respuesta = [2010, 2022]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Downton Abbey»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2010, 2015]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 2010 a 2015."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Peaky Blinders»?"
+min = 2000
+max = 2040
+paso = 1
+respuesta = [2013, 2022]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «The Crown»?"
+min = 2000
+max = 2040
+paso = 1
+respuesta = [2016, 2023]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Stranger Things»?"
+min = 2000
+max = 2040
+paso = 1
+respuesta = [2016, 2025]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2016 a 2025."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Gossip Girl»? (serie original)"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2007, 2012]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Glee»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2009, 2015]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Buffy, cazavampiros»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1997, 2003]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 1997 a 2003."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Urgencias»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1994, 2009]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «El ala oeste de la Casa Blanca»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1999, 2006]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Sexo en Nueva York»?"
+min = 1980
+max = 2020
+paso = 1
+respuesta = [1998, 2004]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 1998 a 2004."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Mujeres desesperadas»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2004, 2012]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Scrubs»? (etapa original)"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2001, 2010]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Dos hombres y medio»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2003, 2015]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Se emitió de 2003 a 2015."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Smallville»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2001, 2011]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Sherlock», con Benedict Cumberbatch?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2010, 2017]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Vikingos»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2013, 2020]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Se emitió de 2013 a 2020."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Narcos»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2015, 2017]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Dark»?"
+min = 2000
+max = 2030
+paso = 1
+respuesta = [2017, 2020]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Hannah Montana»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2006, 2011]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Se emitió de 2006 a 2011."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Fringe»?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2008, 2013]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Sensación de vivir»?"
+min = 1980
+max = 2010
+paso = 1
+respuesta = [1990, 2000]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «El príncipe de Bel-Air»?"
+min = 1980
+max = 2010
+paso = 1
+respuesta = [1990, 1996]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Se emitió de 1990 a 1996."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Merlín», de la BBC?"
+min = 1990
+max = 2030
+paso = 1
+respuesta = [2008, 2012]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué años se emitió «Heroes»? (etapa original)"
+min = 1990
+max = 2020
+paso = 1
+respuesta = [2006, 2010]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Alfred Hitchcock?"
+min = 1850
+max = 2030
+paso = 1
+respuesta = [1899, 1980]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Vivió de 1899 a 1980."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Luis Buñuel?"
+min = 1850
+max = 2030
+paso = 1
+respuesta = [1900, 1983]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Charles Chaplin?"
+min = 1840
+max = 2030
+paso = 1
+respuesta = [1889, 1977]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Marilyn Monroe?"
+min = 1900
+max = 1980
+paso = 1
+respuesta = [1926, 1962]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Vivió de 1926 a 1962."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Luis García Berlanga?"
+min = 1870
+max = 2040
+paso = 1
+respuesta = [1921, 2010]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Fernando Fernán Gómez?"
+min = 1870
+max = 2040
+paso = 1
+respuesta = [1921, 2007]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Lola Flores?"
+min = 1880
+max = 2040
+paso = 1
+respuesta = [1923, 1995]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Vivió de 1923 a 1995."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Sara Montiel?"
+min = 1880
+max = 2040
+paso = 1
+respuesta = [1928, 2013]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Audrey Hepburn?"
+min = 1890
+max = 2030
+paso = 1
+respuesta = [1929, 1993]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió James Dean?"
+min = 1910
+max = 1970
+paso = 1
+respuesta = [1931, 1955]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Vivió de 1931 a 1955."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Orson Welles?"
+min = 1880
+max = 2020
+paso = 1
+respuesta = [1915, 1985]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Stanley Kubrick?"
+min = 1890
+max = 2040
+paso = 1
+respuesta = [1928, 1999]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Walt Disney?"
+min = 1860
+max = 2000
+paso = 1
+respuesta = [1901, 1966]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Vivió de 1901 a 1966."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Paco Martínez Soria?"
+min = 1860
+max = 2030
+paso = 1
+respuesta = [1902, 1982]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Sean Connery?"
+min = 1880
+max = 2040
+paso = 1
+respuesta = [1930, 2020]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Elizabeth Taylor?"
+min = 1890
+max = 2040
+paso = 1
+respuesta = [1932, 2011]
+criterio = "solapar"
+dificultad = 3
+explicacion = "Vivió de 1932 a 2011."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Federico Fellini?"
+min = 1880
+max = 2030
+paso = 1
+respuesta = [1920, 1993]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Akira Kurosawa?"
+min = 1860
+max = 2040
+paso = 1
+respuesta = [1910, 1998]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Humphrey Bogart?"
+min = 1870
+max = 1990
+paso = 1
+respuesta = [1899, 1957]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Vivió de 1899 a 1957."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Ingrid Bergman?"
+min = 1880
+max = 2020
+paso = 1
+respuesta = [1915, 1982]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Grace Kelly?"
+min = 1900
+max = 2010
+paso = 1
+respuesta = [1929, 1982]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Cary Grant?"
+min = 1860
+max = 2030
+paso = 1
+respuesta = [1904, 1986]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Vivió de 1904 a 1986."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió John Wayne?"
+min = 1870
+max = 2020
+paso = 1
+respuesta = [1907, 1979]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Carlos Saura?"
+min = 1880
+max = 2040
+paso = 1
+respuesta = [1932, 2023]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Chiquito de la Calzada?"
+min = 1880
+max = 2040
+paso = 1
+respuesta = [1932, 2017]
+criterio = "solapar"
+dificultad = 1
+explicacion = "Vivió de 1932 a 2017."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Alfredo Landa?"
+min = 1890
+max = 2040
+paso = 1
+respuesta = [1933, 2013]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Rocío Dúrcal?"
+min = 1910
+max = 2040
+paso = 1
+respuesta = [1944, 2006]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Fernando Rey?"
+min = 1870
+max = 2040
+paso = 1
+respuesta = [1917, 1994]
+criterio = "solapar"
+dificultad = 2
+explicacion = "Vivió de 1917 a 1994."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué años vivió Paco Rabal?"
+min = 1880
+max = 2040
+paso = 1
+respuesta = [1926, 2001]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acoge cada septiembre un gran festival internacional de cine en el País Vasco"
+respuesta = { lat = 43.32, lng = -1.98 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad catalana que celebra un famoso festival de cine fantástico y de terror"
+respuesta = { lat = 41.2339, lng = 1.8042 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que organiza el Festival de Málaga de cine en español"
+respuesta = { lat = 36.7167, lng = -4.4167 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la Semana Internacional de Cine, la Seminci"
+respuesta = { lat = 41.652, lng = -4.7286 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad asturiana que celebra su Festival Internacional de Cine cada noviembre"
+respuesta = { lat = 43.5293, lng = -5.6773 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad aragonesa donde nació el director Carlos Saura"
+respuesta = { lat = 42.1401, lng = -0.4089 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que celebra el Festival de Cine Iberoamericano cada noviembre"
+respuesta = { lat = 37.25, lng = -6.95 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad madrileña del festival de cortometrajes Alcine"
+respuesta = { lat = 40.4818, lng = -3.3643 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acoge el Benidorm Fest, la preselección española para Eurovisión"
+respuesta = { lat = 38.5342, lng = -0.1314 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el desierto almeriense donde se rodaron tantos westerns europeos"
+respuesta = { lat = 37.0, lng = -2.45 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad granadina donde se rodaron escenas de «Indiana Jones y la última cruzada»"
+respuesta = { lat = 37.3006, lng = -3.135 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el palacio que fue los Jardines de Dorne en «Juego de tronos»"
+respuesta = { lat = 37.3844, lng = -5.9912 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad catalana que fue Braavos en «Juego de tronos»"
+respuesta = { lat = 41.9833, lng = 2.8167 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad castellonense que hizo de Meereen en «Juego de tronos»"
+respuesta = { lat = 40.3585, lng = 0.4068 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad sevillana que fue Rocadragón y Desembarco del Rey en «Juego de tronos»"
+respuesta = { lat = 37.2372, lng = -5.1031 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad cordobesa cuyo castillo fue Altojardín en «Juego de tronos»"
+respuesta = { lat = 37.811, lng = -5.0194 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad guipuzcoana de la playa de Itzurun, escenario de «Juego de tronos»"
+respuesta = { lat = 43.2833, lng = -2.25 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad turolense donde nació Luis Buñuel"
+respuesta = { lat = 40.9395, lng = -0.2316 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo de Ciudad Real donde nació Pedro Almodóvar"
+respuesta = { lat = 38.7039, lng = -3.7764 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo de Ciudad Real donde nació la actriz Sara Montiel"
+respuesta = { lat = 39.4067, lng = -3.125 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad zaragozana donde nació Paco Martínez Soria, el de «La ciudad no es para mí»"
+respuesta = { lat = 41.9044, lng = -1.7242 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad gaditana donde nació la artista Lola Flores"
+respuesta = { lat = 36.7, lng = -6.1167 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad gaditana de Rosa López, ganadora de la primera «Operación Triunfo»"
+respuesta = { lat = 36.4167, lng = -6.15 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad madrileña donde nació Penélope Cruz"
+respuesta = { lat = 40.5333, lng = -3.6333 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Javier Bardem"
+respuesta = { lat = 28.1272, lng = -15.4314 }
+radio = 35000
+vista = { lat = 28.3, lng = -15.9, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad cántabra donde nació el actor Antonio Resines"
+respuesta = { lat = 43.3506, lng = -4.0492 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde nació el director Alejandro Amenábar"
+respuesta = { lat = -33.4375, lng = -70.65 }
+radio = 150000
+vista = { lat = -20, lng = -30, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde nació el actor y director Fernando Fernán Gómez"
+respuesta = { lat = -12.06, lng = -77.0375 }
+radio = 150000
+vista = { lat = -20, lng = -30, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo madrileño que hizo de Villar del Río en «Bienvenido, Mister Marshall»"
+respuesta = { lat = 40.785, lng = -3.695 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo zaragozano en ruinas donde se rodó «La vaquilla»"
+respuesta = { lat = 41.3065, lng = -0.7546 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad de la sede de TV3, la televisión pública catalana"
+respuesta = { lat = 41.3668, lng = 2.057 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.6, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el barrio de Los Ángeles, símbolo del cine estadounidense"
+respuesta = { lat = 34.0983, lng = -118.3267 }
+radio = 60000
+vista = { lat = 37, lng = -100, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad californiana de los estudios Warner Bros. y Disney"
+respuesta = { lat = 34.1803, lng = -118.3283 }
+radio = 60000
+vista = { lat = 37, lng = -100, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala los célebres estudios de cine de Cinecittà"
+respuesta = { lat = 41.85, lng = 12.5667 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala los estudios británicos donde se ruedan las películas de James Bond"
+respuesta = { lat = 51.5486, lng = -0.535 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad californiana donde está la sede de Pixar"
+respuesta = { lat = 37.8314, lng = -122.2853 }
+radio = 60000
+vista = { lat = 37, lng = -100, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad japonesa donde tiene sede el Estudio Ghibli"
+respuesta = { lat = 35.6995, lng = 139.503 }
+radio = 60000
+vista = { lat = 35, lng = 138, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad inglesa de los estudios Aardman, creadores de Wallace y Gromit"
+respuesta = { lat = 51.4536, lng = -2.5975 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa del festival que otorga la Palma de Oro"
+respuesta = { lat = 43.5525, lng = 7.0214 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que celebra la Mostra de cine y entrega el León de Oro"
+respuesta = { lat = 45.4397, lng = 12.3319 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad del festival de cine que entrega el Oso de Oro"
+respuesta = { lat = 52.5167, lng = 13.3833 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de Utah que acoge el festival de Sundance"
+respuesta = { lat = 40.6594, lng = -111.4997 }
+radio = 100000
+vista = { lat = 38, lng = -100, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad canadiense de uno de los festivales de cine más importantes de América"
+respuesta = { lat = 43.6703, lng = -79.3867 }
+radio = 80000
+vista = { lat = 40, lng = -90, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad india donde se concentra Bollywood"
+respuesta = { lat = 19.0758, lng = 72.8775 }
+radio = 100000
+vista = { lat = 20, lng = 75, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que fue gran centro del cine de artes marciales de Bruce Lee y Jackie Chan"
+respuesta = { lat = 22.2783, lng = 114.1586 }
+radio = 60000
+vista = { lat = 30, lng = 110, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad nigeriana considerada el centro de Nollywood"
+respuesta = { lat = 6.4561, lng = 3.3936 }
+radio = 80000
+vista = { lat = 10, lng = 10, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad surcoreana del mayor festival de cine de Asia"
+respuesta = { lat = 35.18, lng = 129.075 }
+radio = 60000
+vista = { lat = 35, lng = 128, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad suiza del festival que entrega el Leopardo de Oro"
+respuesta = { lat = 46.1664, lng = 8.7997 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad checa de un famoso balneario con festival de cine internacional"
+respuesta = { lat = 50.2306, lng = 12.8725 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa del festival internacional de cine de animación"
+respuesta = { lat = 45.8992, lng = 6.1294 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2023 en nombre de Ucrania"
+respuesta = { lat = 53.4072, lng = -2.9917 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2024"
+respuesta = { lat = 55.5833, lng = 13.0 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad italiana que acogió Eurovisión 2022"
+respuesta = { lat = 45.0792, lng = 7.6761 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2021"
+respuesta = { lat = 51.92, lng = 4.48 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2025"
+respuesta = { lat = 47.5581, lng = 7.5878 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2019"
+respuesta = { lat = 32.08, lng = 34.78 }
+radio = 60000
+vista = { lat = 33, lng = 30, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2018"
+respuesta = { lat = 38.708, lng = -9.139 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2017"
+respuesta = { lat = 50.45, lng = 30.5236 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2012"
+respuesta = { lat = 40.3667, lng = 49.8352 }
+radio = 80000
+vista = { lat = 42, lng = 40, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad alemana que acogió Eurovisión 2011"
+respuesta = { lat = 51.2256, lng = 6.7767 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2008"
+respuesta = { lat = 44.8178, lng = 20.4569 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2007, tras la victoria de Lordi"
+respuesta = { lat = 60.1708, lng = 24.9375 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2006"
+respuesta = { lat = 37.9842, lng = 23.7281 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2004"
+respuesta = { lat = 41.01, lng = 28.9603 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2003"
+respuesta = { lat = 56.9475, lng = 24.1069 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2014"
+respuesta = { lat = 55.6761, lng = 12.5689 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2015"
+respuesta = { lat = 48.2083, lng = 16.3725 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2016"
+respuesta = { lat = 59.3294, lng = 18.0686 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2010, con Lena como ganadora"
+respuesta = { lat = 59.9133, lng = 10.7389 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que acogió Eurovisión 2009"
+respuesta = { lat = 55.7506, lng = 37.6175 }
+radio = 80000
+vista = { lat = 52, lng = 30, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad inglesa donde ABBA ganó Eurovisión en 1974"
+respuesta = { lat = 50.8208, lng = -0.1375 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad inglesa que acogió Eurovisión 1982"
+respuesta = { lat = 53.9919, lng = -1.5378 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad croata que fue Desembarco del Rey en «Juego de tronos»"
+respuesta = { lat = 42.6403, lng = 18.1083 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se construyó el Titanic y se rodaron los interiores de «Juego de tronos»"
+respuesta = { lat = 54.5967, lng = -5.93 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad neozelandesa de la aldea de Hobbiton de «El señor de los anillos»"
+respuesta = { lat = -37.8097, lng = 175.7733 }
+radio = 100000
+vista = { lat = -40, lng = 170, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad tunecina donde se rodó Tatooine, el hogar de Luke Skywalker"
+respuesta = { lat = 33.5426, lng = 9.9668 }
+radio = 100000
+vista = { lat = 30, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el islote irlandés donde Luke se esconde al final de «El despertar de la Fuerza»"
+respuesta = { lat = 51.7711, lng = -10.5406 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla hawaiana donde se rodó «Parque Jurásico»"
+respuesta = { lat = 22.07, lng = -159.4975 }
+radio = 100000
+vista = { lat = 25, lng = -150, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo inglés donde se rodó «Downton Abbey»"
+respuesta = { lat = 51.3267, lng = -1.3614 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo del norte de Inglaterra donde se rodaron las clases de vuelo de «Harry Potter»"
+respuesta = { lat = 55.4158, lng = -1.7061 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el viaducto escocés por donde pasa el tren de Hogwarts en «Harry Potter»"
+respuesta = { lat = 56.8763, lng = -5.4317 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de Nuevo México donde transcurre «Breaking Bad»"
+respuesta = { lat = 35.0844, lng = -106.6503 }
+radio = 60000
+vista = { lat = 38, lng = -100, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad colombiana donde transcurre buena parte de «Narcos»"
+respuesta = { lat = 6.2502, lng = -75.5676 }
+radio = 80000
+vista = { lat = 5, lng = -70, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde transcurre la película «Parásitos»"
+respuesta = { lat = 37.56, lng = 126.99 }
+radio = 60000
+vista = { lat = 36, lng = 128, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad canadiense donde se rodó «Expediente X»"
+respuesta = { lat = 49.2608, lng = -123.1139 }
+radio = 60000
+vista = { lat = 45, lng = -110, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de Oregón donde se rodó «Los Goonies»"
+respuesta = { lat = 46.1833, lng = -123.8347 }
+radio = 60000
+vista = { lat = 42, lng = -115, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla griega donde se rodó «Mamma Mia!»"
+respuesta = { lat = 39.1167, lng = 23.7 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo siciliano donde se rodaron escenas de «El padrino»"
+respuesta = { lat = 37.9558, lng = 15.3396 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad siciliana donde se rodó «Cinema Paradiso»"
+respuesta = { lat = 38.0395, lng = 14.0221 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad jordana excavada en la roca de «Indiana Jones y la última cruzada»"
+respuesta = { lat = 30.3289, lng = 35.4403 }
+radio = 80000
+vista = { lat = 30, lng = 35, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el desierto jordano de «Lawrence de Arabia» y «Dune»"
+respuesta = { lat = 29.5765, lng = 35.4199 }
+radio = 80000
+vista = { lat = 30, lng = 35, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo californiano que inspiró Xanadú en «Ciudadano Kane»"
+respuesta = { lat = 35.6853, lng = -121.1678 }
+radio = 80000
+vista = { lat = 37, lng = -100, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el barrio parisino de la película «Amélie»"
+respuesta = { lat = 48.8869, lng = 2.3411 }
+radio = 35000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde viven los protagonistas de «Friends»"
+respuesta = { lat = 40.7128, lng = -74.0061 }
+radio = 60000
+vista = { lat = 40, lng = -90, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde transcurre «Lost in Translation»"
+respuesta = { lat = 35.6894, lng = 139.6917 }
+radio = 60000
+vista = { lat = 35, lng = 138, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde transcurre «Roma», de Alfonso Cuarón"
+respuesta = { lat = 19.3538, lng = -99.1359 }
+radio = 80000
+vista = { lat = 20, lng = -100, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad marroquí de los estudios donde se rodaron «Gladiator» y «Juego de tronos»"
+respuesta = { lat = 30.9167, lng = -6.9167 }
+radio = 80000
+vista = { lat = 32, lng = -6, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad marroquí que da título al clásico con Humphrey Bogart"
+respuesta = { lat = 33.5992, lng = -7.62 }
+radio = 80000
+vista = { lat = 32, lng = -6, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad fantasma ucraniana de la miniserie «Chernobyl»"
+respuesta = { lat = 51.4061, lng = 30.0572 }
+radio = 80000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad escocesa donde J. K. Rowling escribió parte de «Harry Potter»"
+respuesta = { lat = 55.9533, lng = -3.1892 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se rodó «Amadeus», de Miloš Forman"
+respuesta = { lat = 50.0875, lng = 14.4214 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el valle estadounidense inmortalizado en los westerns de John Ford"
+respuesta = { lat = 36.9833, lng = -110.1 }
+radio = 100000
+vista = { lat = 38, lng = -100, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla de la bahía de San Francisco donde se rodó «La Roca»"
+respuesta = { lat = 37.8267, lng = -122.4228 }
+radio = 60000
+vista = { lat = 37, lng = -100, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo de Washington donde transcurre «Crepúsculo»"
+respuesta = { lat = 47.9511, lng = -124.385 }
+radio = 60000
+vista = { lat = 40, lng = -110, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo escocés de «Highlander»"
+respuesta = { lat = 57.2739, lng = -5.5161 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la catarata venezolana que inspiró el paisaje de «Up»"
+respuesta = { lat = 5.9701, lng = -62.5362 }
+radio = 100000
+vista = { lat = 10, lng = -65, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de «La dolce vita» y «Vacaciones en Roma»"
+respuesta = { lat = 41.8931, lng = 12.4828 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde vive Sherlock Holmes en la calle Baker Street"
+respuesta = { lat = 51.5072, lng = -0.1275 }
+radio = 60000
+vista = { lat = 48, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué película ha visto más veces?"
+opciones = ["Una de Disney o Pixar", "Una de Star Wars o Marvel", "Una española de culto", "Una navideña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si se enfadara con el final de una serie?"
+opciones = ["Verla otra vez", "Quejarse en redes", "Ignorarlo", "Leer teorías sobre el final"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál prefiere de estas series españolas?"
+opciones = ["La casa de papel", "Cuéntame cómo pasó", "Aquí no hay quien viva", "Verano azul"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué protagonista de serie se iría de vacaciones?"
+opciones = ["El Profesor", "Walter White", "Homer Simpson", "Rachel de Friends"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de película le haría llorar más?"
+opciones = ["Una historia de amor", "Una de animales", "Un drama familiar", "Ninguna, no llora"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de película le da más miedo?"
+opciones = ["De fantasmas", "De zombis", "De asesinos en serie", "Ninguna, no se asusta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo elige qué ver esta noche?"
+opciones = ["Lo decide en cinco minutos", "Pasa media hora dudando", "Pone lo de siempre", "Que decida otro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le resulta más molesto en el cine?"
+opciones = ["Gente que habla", "Móviles encendidos", "Palomitas ruidosas", "Los anuncios previos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más del cine de Almodóvar?"
+opciones = ["Los colores", "Las actrices", "El humor", "No le gusta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué personaje de «La casa de papel» elegiría?"
+opciones = ["El Profesor", "Tokio", "Berlín", "Nairobi"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con una entrada para la gala de los Óscar?"
+opciones = ["Ir con traje de gala", "Venderla", "Regalarla", "Quedarse en casa viéndola"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué elegiría llevarse del plató de una serie?"
+opciones = ["Un disfraz", "Un guion firmado", "Un vaso de la cafetería", "Una foto con el reparto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría el sábado por la tarde?"
+opciones = ["Una película en casa", "Una serie de golpe", "Ir al cine", "Un concurso o programa de tele"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué preferiría ser en un concurso de la tele?"
+opciones = ["Concursante", "Presentador", "Público", "Espectador desde casa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué concurso le gustaría ganar?"
+opciones = ["Pasapalabra", "MasterChef", "Saber y ganar", "Operación Triunfo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué serie vio de pequeño con la familia?"
+opciones = ["Verano azul", "Los Simpson", "Médico de familia", "Dibujos de la mañana"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué escena prefiere en una película?"
+opciones = ["Una persecución", "Un beso final", "Una pelea", "Un giro inesperado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de una serie?"
+opciones = ["La trama", "Los personajes", "La banda sonora", "El final"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si se durmiera en mitad de una película?"
+opciones = ["Verla de nuevo desde el principio", "Preguntar cómo acabó", "Buscarlo en internet", "Nada, ya está"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo vería una película de miedo?"
+opciones = ["Con todas las luces encendidas", "Tapándose con una manta", "Con compañía", "Sin problema"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta comer al ver una peli?"
+opciones = ["Palomitas", "Pizza", "Dulces", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un personaje de ficción como amigo?"
+opciones = ["Un detective", "Un mago", "Un superhéroe", "Un pirata"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en la escena de una peli de acción?"
+opciones = ["Ser el héroe", "Ser el villano", "Ser el ayudante gracioso", "Salir corriendo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué disfraz se pondría en una fiesta de cine?"
+opciones = ["Un superhéroe", "Un personaje de Disney", "Un villano famoso", "Un personaje de serie española"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cantante querría ver en un biopic?"
+opciones = ["Freddie Mercury", "Elton John", "Rocío Jurado", "Michael Jackson"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere los finales de las series?"
+opciones = ["Cerrados del todo", "Con final abierto", "Con sorpresa", "Con lágrima"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué suele hacer mientras ve la tele?"
+opciones = ["Mirar el móvil", "Comer", "Dormirse", "Comentar con los demás"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de humor prefiere en la tele?"
+opciones = ["Sketches", "Series de comedia", "Monólogos", "Humor absurdo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en una maratón de películas?"
+opciones = ["Todas de una saga", "Del mismo director", "Un género", "Las que aparezcan"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué sala de cine prefiere?"
+opciones = ["Una gigante con 3D", "Una sala pequeña", "Un autocine", "Un cine de verano"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de Eurovisión?"
+opciones = ["Las canciones", "Los looks", "Las votaciones", "Las bromas de los comentaristas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si le ofrecen un cameo en una película?"
+opciones = ["Aceptar sin dudar", "Pedir un papel de villano", "Pedir un papel de héroe", "Rechazarlo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo escoge una película en la tele?"
+opciones = ["Por el reparto", "Por el título", "Por el cartel", "Por las críticas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de personaje de serie le cae mejor?"
+opciones = ["El listo", "El gracioso", "El simpático", "El misterioso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más en un reparto?"
+opciones = ["Una estrella conocida", "Caras nuevas", "Reparto coral", "Un actor español famoso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si pudiera entrar en una peli?"
+opciones = ["Ser protagonista", "Ser extra", "Entrar y salir", "No entraría"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más: los libros o sus adaptaciones al cine?"
+opciones = ["Los libros", "Las pelis", "Ambos igual", "Ni uno ni otro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un día entero de tele?"
+opciones = ["Series", "Cine", "Documentales", "Concursos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo vive el estreno de una serie que espera?"
+opciones = ["Mirándola a las 00:01", "Esperando a que baje la gente", "Sin spoilers", "Pasa de estrenos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le provocan los reboots y las segundas partes?"
+opciones = ["Ilusión", "Desconfianza", "Nostalgia", "Prefiere lo nuevo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Prefiere ver una película...?"
+opciones = ["En versión doblada", "En versión original con subtítulos", "Con subtítulos en español", "Solo doblada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué actor de comedia le hace más gracia?"
+opciones = ["Santiago Segura", "Eugenio Derbez", "Jim Carrey", "Will Ferrell"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cómico español de la tele prefiere?"
+opciones = ["Chiquito de la Calzada", "Los Morancos", "Cruz y Raya", "Martes y 13"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué presentador le gustaría tener de amigo?"
+opciones = ["Pablo Motos", "Jordi Hurtado", "Roberto Leal", "Ana Rosa Quintana"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué dibujo animado de su infancia vería otra vez?"
+opciones = ["Los Simpson", "Bola de Dragón", "Doraemon", "Los Pitufos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de villano le gusta más?"
+opciones = ["El inteligente", "El loco", "El simpático", "El que da pena"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué elegiría como banda sonora de su vida?"
+opciones = ["Una canción de película", "Una de serie", "Una de Eurovisión", "Una de un musical"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le llamaría más de un cartel de cine?"
+opciones = ["Un rostro conocido", "Un diseño llamativo", "Una frase", "Un monstruo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si en un cine le tocara al lado una persona famosa?"
+opciones = ["Pedirle una foto", "Disimular", "Hablarle", "Cambiar de asiento"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué personaje de Disney se parece más a su carácter?"
+opciones = ["Un príncipe valiente", "Una princesa aventurera", "Un villano elegante", "Un animal gracioso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo elige quién ve la tele?"
+opciones = ["Manda quien tiene el mando", "Se vota", "Se turna", "Cada uno con su pantalla"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué espía le gustaría ser?"
+opciones = ["James Bond", "Ethan Hunt", "Jason Bourne", "Austin Powers"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué detective prefiere?"
+opciones = ["Sherlock Holmes", "Hércules Poirot", "Miss Marple", "Columbo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de una peli de miedo?"
+opciones = ["El suspense", "Los sustos", "Las risas del grupo", "El final"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le parecen las películas de superhéroes?"
+opciones = ["Me encantan", "Alguna", "Cansinas", "No las veo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿En qué época de cine le habría gustado trabajar?"
+opciones = ["Cine mudo", "Edad de oro de Hollywood", "Destape español", "Hoy en día"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué decorado elegiría para una cita en una película?"
+opciones = ["Una playa", "Una ciudad grande", "Un castillo", "Un viaje en tren"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con unas entradas para un estreno?"
+opciones = ["Ir con la familia", "Ir con amigos", "Ir solo", "Regalarlas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere los créditos finales?"
+opciones = ["Verlos enteros", "Se levanta enseguida", "Espera por si hay escena extra", "Depende de la película"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le hace reír más?"
+opciones = ["Un chiste malo", "Una caída", "Una ocurrencia", "Una imitación"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué parque de atracciones de cine prefiere?"
+opciones = ["Un parque de dinosaurios", "Hogwarts", "Un castillo Disney", "Un plató de Hollywood"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si le dieran un Óscar?"
+opciones = ["Dar las gracias a todos", "Un discurso corto", "Bromear", "Emocionarse"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si le dieran un Goya?"
+opciones = ["Dar las gracias", "Un discurso reivindicativo", "Bromear", "Llorar de emoción"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué serie de época le gusta más?"
+opciones = ["La Corona", "Downton Abbey", "Isabel", "Peaky Blinders"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué serie de ciencia ficción prefiere?"
+opciones = ["Stranger Things", "Black Mirror", "Dark", "Star Trek"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué hora suele ver series?"
+opciones = ["Por la tarde", "Por la noche", "De madrugada", "En cualquier hueco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de documentales prefiere?"
+opciones = ["Naturaleza", "Historia", "Crímenes reales", "Viajes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de reality se vería?"
+opciones = ["De cocina", "De citas", "De supervivencia", "De talentos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ver de nuevo en el cine?"
+opciones = ["Un clásico de los 80", "Un estreno de ahora", "Un clásico en blanco y negro", "Una película de dibujos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué programa de madrugada se atrevería a ver?"
+opciones = ["Una película antigua", "Teletienda", "Un documental", "No se queda despierto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué superhéroe prefiere?"
+opciones = ["Spider-Man", "Batman", "Iron Man", "Superman"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué villano de película le cae mejor?"
+opciones = ["Darth Vader", "El Joker", "Voldemort", "Thanos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué casa de Hogwarts elegiría?"
+opciones = ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué película de Disney le emociona más?"
+opciones = ["El rey león", "La bella y la bestia", "Aladdín", "Toy Story"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué serie de dibujos para adultos prefiere?"
+opciones = ["Los Simpson", "Padre de familia", "South Park", "Futurama"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué comedia española prefiere?"
+opciones = ["Aquí no hay quien viva", "La que se avecina", "Aída", "Los Serrano"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué actor español prefiere?"
+opciones = ["Javier Bardem", "Antonio Banderas", "Luis Tosar", "Javier Gutiérrez"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué actriz española prefiere?"
+opciones = ["Penélope Cruz", "Carmen Maura", "Paz Vega", "Marisa Paredes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué director prefiere?"
+opciones = ["Steven Spielberg", "Quentin Tarantino", "Christopher Nolan", "Pedro Almodóvar"]

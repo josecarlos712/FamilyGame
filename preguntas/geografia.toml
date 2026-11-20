@@ -4946,3 +4946,3298 @@ correcta = "Verdadero"
 barajar = false
 tiempo = 3
 lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de los Países Bajos?"
+opciones = ["Ámsterdam", "Utrecht", "Róterdam"]
+correcta = "Ámsterdam"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Rumanía?"
+opciones = ["Bucarest", "Sofía", "Belgrado"]
+correcta = "Bucarest"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Eslovenia?"
+opciones = ["Liubliana", "Zagreb", "Bratislava"]
+correcta = "Liubliana"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de los Emiratos Árabes Unidos?"
+opciones = ["Abu Dabi", "Doha", "Riad"]
+correcta = "Abu Dabi"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Jordania?"
+opciones = ["Amán", "Damasco", "Bagdad"]
+correcta = "Amán"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Honduras?"
+opciones = ["Tegucigalpa", "Managua", "San Salvador"]
+correcta = "Tegucigalpa"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Nicaragua?"
+opciones = ["Managua", "Tegucigalpa", "San José"]
+correcta = "Managua"
+dificultad = 3
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de El Salvador?"
+opciones = ["San Salvador", "Guatemala", "Panamá"]
+correcta = "San Salvador"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Puerto Rico?"
+opciones = ["San Juan", "La Habana", "Santo Domingo"]
+correcta = "San Juan"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Bangladés?"
+opciones = ["Daca", "Katmandú", "Islamabad"]
+correcta = "Daca"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Camboya?"
+opciones = ["Nom Pen", "Hanói", "Bangkok"]
+correcta = "Nom Pen"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Singapur?"
+opciones = ["Singapur", "Kuala Lumpur", "Yakarta"]
+correcta = "Singapur"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Uganda?"
+opciones = ["Kampala", "Nairobi", "Dar es Salaam"]
+correcta = "Kampala"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Madagascar?"
+opciones = ["Antananarivo", "Maputo", "Harare"]
+correcta = "Antananarivo"
+dificultad = 3
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Taiwán?"
+opciones = ["Taipéi", "Pekín", "Hong Kong"]
+correcta = "Taipéi"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Corea del Norte?"
+opciones = ["Pionyang", "Seúl", "Tokio"]
+correcta = "Pionyang"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Armenia?"
+opciones = ["Ereván", "Bakú", "Tiflis"]
+correcta = "Ereván"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Azerbaiyán?"
+opciones = ["Bakú", "Ereván", "Taskent"]
+correcta = "Bakú"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Luxemburgo?"
+opciones = ["Luxemburgo", "Bruselas", "Berna"]
+correcta = "Luxemburgo"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Malta?"
+opciones = ["La Valeta", "Nicosia", "Atenas"]
+correcta = "La Valeta"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Chipre?"
+opciones = ["Nicosia", "La Valeta", "Beirut"]
+correcta = "Nicosia"
+dificultad = 3
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Montenegro?"
+opciones = ["Podgorica", "Skopie", "Sarajevo"]
+correcta = "Podgorica"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Moldavia?"
+opciones = ["Chisináu", "Minsk", "Kiev"]
+correcta = "Chisináu"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Georgia?"
+opciones = ["Tiflis", "Ereván", "Bakú"]
+correcta = "Tiflis"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Capital de Uzbekistán?"
+opciones = ["Taskent", "Astaná", "Biskek"]
+correcta = "Taskent"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué forma tiene la bandera de Suiza?"
+opciones = ["Cuadrada", "Rectangular", "Triangular"]
+correcta = "Cuadrada"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué dibujo hay en el centro de la bandera de Japón?"
+opciones = ["Un círculo rojo", "Un sol con rayos", "Una estrella"]
+correcta = "Un círculo rojo"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué hoja aparece en la bandera de Canadá?"
+opciones = ["De arce", "De roble", "De olivo"]
+correcta = "De arce"
+dificultad = 3
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué colores tiene la bandera de Alemania?"
+opciones = ["Negro, rojo y dorado", "Rojo, blanco y azul", "Verde, blanco y rojo"]
+correcta = "Negro, rojo y dorado"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué colores tiene la bandera de Italia?"
+opciones = ["Verde, blanco y rojo", "Azul, blanco y rojo", "Verde, blanco y naranja"]
+correcta = "Verde, blanco y rojo"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué colores tiene la bandera de Irlanda?"
+opciones = ["Verde, blanco y naranja", "Verde, blanco y rojo", "Azul, blanco y verde"]
+correcta = "Verde, blanco y naranja"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas estrellas tiene la bandera de Estados Unidos?"
+opciones = ["50", "48", "52"]
+correcta = "50"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué símbolo hay en la bandera de Turquía?"
+opciones = ["Media luna y estrella", "Una cruz", "Un sol"]
+correcta = "Media luna y estrella"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué colores tiene la bandera de Brasil?"
+opciones = ["Verde, amarillo y azul", "Verde y blanco", "Rojo y amarillo"]
+correcta = "Verde, amarillo y azul"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué tiene la bandera del Reino Unido?"
+opciones = ["Tres cruces superpuestas", "Una estrella", "Una media luna"]
+correcta = "Tres cruces superpuestas"
+dificultad = 3
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué colores tiene la bandera de Francia?"
+opciones = ["Azul, blanco y rojo", "Rojo, blanco y verde", "Azul, blanco y amarillo"]
+correcta = "Azul, blanco y rojo"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué se ve en la bandera de México?"
+opciones = ["Un águila sobre un nopal", "Un león", "Un sol naciente"]
+correcta = "Un águila sobre un nopal"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El Sáhara está en África"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Nilo desemboca en el mar Mediterráneo"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Amazonas es un río africano"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Everest está en los Alpes"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Danubio pasa por Viena"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 3
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El océano Pacífico es el más grande"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Mónaco es más grande que el Vaticano"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Portugal tiene frontera con Francia"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Tenerife es una isla balear"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Teide está en la isla de Tenerife"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Ceuta está en el continente africano"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Suiza tiene salida al mar"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 3
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Rusia es el país más grande del mundo"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "En Brasil se habla español"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "La Antártida es un desierto"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "España y Marruecos tienen frontera terrestre"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El mar Muerto está bajo el nivel del mar"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Nueva Zelanda forma parte de Australia"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Ebro desemboca en el Mediterráneo"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 3
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Mediterráneo es un océano"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Lisboa está más al oeste que Madrid"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Finlandia tiene frontera con Rusia"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Estambul es la capital de Turquía"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Sídney es la capital de Australia"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Nueva York es la capital de Estados Unidos"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Barcelona es la capital de Cataluña"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 3
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Bilbao está en Cantabria"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Kilimanjaro está en Kenia"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Los Alpes cruzan Suiza"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Cuba es una isla"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Galicia está en el noroeste de España"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Tajo desemboca en Lisboa"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Sudáfrica tiene tres capitales"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 3
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "El Polo Norte está sobre un continente"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Groenlandia es un país independiente"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "Andorra tiene salida al mar"
+opciones = ["Falso", "Verdadero"]
+correcta = "Falso"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1.0
+
+[[pregunta]]
+enunciado = "¿Qué océano es el más grande?"
+opciones = ["Pacífico", "Atlántico", "Índico"]
+correcta = "Pacífico"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué país es famoso por los canguros?"
+opciones = ["Australia", "Brasil", "India"]
+correcta = "Australia"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué ciudad es la «Ciudad Eterna»?"
+opciones = ["Roma", "París", "Atenas"]
+correcta = "Roma"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué ciudad es la «Gran Manzana»?"
+opciones = ["Nueva York", "Chicago", "Los Ángeles"]
+correcta = "Nueva York"
+dificultad = 3
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué ciudad es famosa por sus canales y góndolas?"
+opciones = ["Venecia", "Roma", "Milán"]
+correcta = "Venecia"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde está el Parque Nacional de Doñana?"
+opciones = ["Andalucía", "Aragón", "Galicia"]
+correcta = "Andalucía"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué comunidad está Santiago de Compostela?"
+opciones = ["Galicia", "Asturias", "Cantabria"]
+correcta = "Galicia"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué cordillera está el valle de Ordesa?"
+opciones = ["Pirineos", "Sierra Nevada", "Sistema Ibérico"]
+correcta = "Pirineos"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué continente tiene más habitantes?"
+opciones = ["Asia", "África", "Europa"]
+correcta = "Asia"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué hemisferio está España?"
+opciones = ["Norte", "Sur", "Ninguno"]
+correcta = "Norte"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué hemisferio está Argentina?"
+opciones = ["Sur", "Norte", "Ninguno"]
+correcta = "Sur"
+dificultad = 3
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué país es famoso por tulipanes y molinos?"
+opciones = ["Países Bajos", "Bélgica", "Dinamarca"]
+correcta = "Países Bajos"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué isla canaria es la «Isla Bonita»?"
+opciones = ["La Palma", "La Gomera", "El Hierro"]
+correcta = "La Palma"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué isla es famosa por sus moáis?"
+opciones = ["Isla de Pascua", "Tahití", "Hawái"]
+correcta = "Isla de Pascua"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué país africano está al sur de España?"
+opciones = ["Marruecos", "Argelia", "Túnez"]
+correcta = "Marruecos"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué país está al norte de los Pirineos?"
+opciones = ["Francia", "Italia", "Alemania"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué país está al sur de Estados Unidos?"
+opciones = ["México", "Cuba", "Canadá"]
+correcta = "México"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué país está al norte de Estados Unidos?"
+opciones = ["Canadá", "Groenlandia", "Rusia"]
+correcta = "Canadá"
+dificultad = 3
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué mar está entre España e Italia?"
+opciones = ["Mediterráneo", "Báltico", "Negro"]
+correcta = "Mediterráneo"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué océano separa América de Europa?"
+opciones = ["Atlántico", "Pacífico", "Índico"]
+correcta = "Atlántico"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué océano baña la costa este de EE. UU.?"
+opciones = ["Atlántico", "Pacífico", "Índico"]
+correcta = "Atlántico"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué idioma se habla en Argentina?"
+opciones = ["Español", "Portugués", "Italiano"]
+correcta = "Español"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué idioma se habla en Austria?"
+opciones = ["Alemán", "Húngaro", "Checo"]
+correcta = "Alemán"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué idioma se habla en Egipto?"
+opciones = ["Árabe", "Persa", "Turco"]
+correcta = "Árabe"
+dificultad = 3
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde viven los pingüinos emperador?"
+opciones = ["Antártida", "Ártico", "Groenlandia"]
+correcta = "Antártida"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde viven los osos polares?"
+opciones = ["Ártico", "Antártida", "Sáhara"]
+correcta = "Ártico"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué polo está en la Antártida?"
+opciones = ["Polo Sur", "Polo Norte", "Ninguno"]
+correcta = "Polo Sur"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué punto cardinal es opuesto al norte?"
+opciones = ["Sur", "Este", "Oeste"]
+correcta = "Sur"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Por qué punto cardinal sale el sol?"
+opciones = ["Este", "Oeste", "Norte"]
+correcta = "Este"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué comunidad tiene las Rías Baixas?"
+opciones = ["Galicia", "Asturias", "Cantabria"]
+correcta = "Galicia"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está La Pedrera de Gaudí?"
+opciones = ["Barcelona", "Madrid", "Valencia"]
+correcta = "Barcelona"
+dificultad = 3
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Lisboa?"
+opciones = ["Tajo", "Duero", "Miño"]
+correcta = "Tajo"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Oporto?"
+opciones = ["Duero", "Tajo", "Miño"]
+correcta = "Duero"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Bilbao?"
+opciones = ["Nervión", "Ebro", "Duero"]
+correcta = "Nervión"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Salamanca?"
+opciones = ["Tormes", "Duero", "Tajo"]
+correcta = "Tormes"
+dificultad = 2
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Berlín?"
+opciones = ["Spree", "Rin", "Danubio"]
+correcta = "Spree"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué país es el del sol naciente?"
+opciones = ["Japón", "China", "Corea del Sur"]
+correcta = "Japón"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué país es típico el Oktoberfest?"
+opciones = ["Alemania", "Austria", "Suiza"]
+correcta = "Alemania"
+dificultad = 3
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué ciudad es famoso el Carnaval de Brasil?"
+opciones = ["Río de Janeiro", "São Paulo", "Lima"]
+correcta = "Río de Janeiro"
+dificultad = 1
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Mont Blanc, el pico más alto de los Alpes?"
+min = 3500
+max = 6000
+paso = 10
+unidad = "m"
+respuesta = 4810
+tolerancia = 250
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Aconcagua, el pico más alto de América?"
+min = 5000
+max = 8000
+paso = 10
+unidad = "m"
+respuesta = 6960
+tolerancia = 300
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el K2, la segunda montaña más alta del mundo?"
+min = 6500
+max = 9500
+paso = 10
+unidad = "m"
+respuesta = 8610
+tolerancia = 300
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el monte Fuji?"
+min = 2500
+max = 4500
+paso = 10
+unidad = "m"
+respuesta = 3780
+tolerancia = 200
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Danubio?"
+min = 1500
+max = 4500
+paso = 50
+unidad = "km"
+respuesta = 2850
+tolerancia = 300
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Rin?"
+min = 600
+max = 1800
+paso = 10
+unidad = "km"
+respuesta = 1230
+tolerancia = 150
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Sena?"
+min = 300
+max = 1300
+paso = 10
+unidad = "km"
+respuesta = 780
+tolerancia = 100
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Duero, contando su tramo en Portugal?"
+min = 400
+max = 1400
+paso = 10
+unidad = "km"
+respuesta = 900
+tolerancia = 100
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Támesis?"
+min = 150
+max = 600
+paso = 10
+unidad = "km"
+respuesta = 350
+tolerancia = 50
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Loira, el más largo de Francia?"
+min = 500
+max = 1500
+paso = 10
+unidad = "km"
+respuesta = 1010
+tolerancia = 100
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Volga, el más largo de Europa?"
+min = 2000
+max = 5000
+paso = 10
+unidad = "km"
+respuesta = 3530
+tolerancia = 300
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Yangtsé?"
+min = 4000
+max = 8000
+paso = 100
+unidad = "km"
+respuesta = 6300
+tolerancia = 500
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene Islandia?"
+min = 40000
+max = 180000
+paso = 1000
+unidad = "km²"
+respuesta = 103000
+tolerancia_pct = 15
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene Italia?"
+min = 100000
+max = 500000
+paso = 1000
+unidad = "km²"
+respuesta = 301000
+tolerancia_pct = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene el Reino Unido?"
+min = 100000
+max = 400000
+paso = 1000
+unidad = "km²"
+respuesta = 244000
+tolerancia_pct = 15
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene Portugal, contando sus islas?"
+min = 30000
+max = 160000
+paso = 1000
+unidad = "km²"
+respuesta = 92000
+tolerancia_pct = 15
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene la isla de Cerdeña?"
+min = 8000
+max = 40000
+paso = 100
+unidad = "km²"
+respuesta = 24100
+tolerancia_pct = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene la isla de Sicilia?"
+min = 8000
+max = 40000
+paso = 100
+unidad = "km²"
+respuesta = 25700
+tolerancia_pct = 15
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene Menorca?"
+min = 200
+max = 1200
+paso = 10
+unidad = "km²"
+respuesta = 700
+tolerancia_pct = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene Tenerife, la mayor isla de Canarias?"
+min = 800
+max = 3500
+paso = 10
+unidad = "km²"
+respuesta = 2030
+tolerancia_pct = 15
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene Gran Canaria?"
+min = 600
+max = 2600
+paso = 10
+unidad = "km²"
+respuesta = 1560
+tolerancia_pct = 15
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene Ibiza?"
+min = 200
+max = 1000
+paso = 10
+unidad = "km²"
+respuesta = 570
+tolerancia_pct = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos km² tiene Lanzarote?"
+min = 300
+max = 1400
+paso = 10
+unidad = "km²"
+respuesta = 850
+tolerancia_pct = 15
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Lisboa?"
+min = 200
+max = 900
+paso = 10
+unidad = "km"
+respuesta = 500
+tolerancia = 70
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Roma?"
+min = 600
+max = 2000
+paso = 10
+unidad = "km"
+respuesta = 1360
+tolerancia = 150
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Londres?"
+min = 600
+max = 2000
+paso = 10
+unidad = "km"
+respuesta = 1260
+tolerancia = 150
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Berlín?"
+min = 1000
+max = 3000
+paso = 10
+unidad = "km"
+respuesta = 1870
+tolerancia = 200
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Barcelona y Sevilla?"
+min = 300
+max = 1300
+paso = 10
+unidad = "km"
+respuesta = 830
+tolerancia = 100
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Tokio?"
+min = 5000
+max = 15000
+paso = 50
+unidad = "km"
+respuesta = 10750
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Buenos Aires?"
+min = 5000
+max = 15000
+paso = 50
+unidad = "km"
+respuesta = 10050
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Ciudad de México?"
+min = 5000
+max = 13000
+paso = 50
+unidad = "km"
+respuesta = 9050
+tolerancia_pct = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y El Cairo?"
+min = 1500
+max = 4800
+paso = 50
+unidad = "km"
+respuesta = 3350
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el canal de Suez?"
+min = 80
+max = 300
+paso = 10
+unidad = "km"
+respuesta = 190
+tolerancia = 30
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el estrecho de Gibraltar en su punto más estrecho?"
+min = 5
+max = 40
+paso = 1
+unidad = "km"
+respuesta = 14
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en el punto más estrecho del canal de la Mancha, entre Dover y Calais?"
+min = 10
+max = 80
+paso = 1
+unidad = "km"
+respuesta = 33
+tolerancia = 8
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros de profundidad tiene la fosa de las Marianas, la más profunda del mundo?"
+min = 6000
+max = 14000
+paso = 100
+unidad = "m"
+respuesta = 10900
+tolerancia = 800
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué temperatura máxima se ha registrado en el planeta, en el Valle de la Muerte en 1913?"
+min = 35
+max = 70
+paso = 1
+unidad = "°C"
+respuesta = 57
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué temperatura mínima se ha registrado en la Tierra, en la base Vostok de la Antártida en 1983?"
+min = -120
+max = -50
+paso = 1
+unidad = "°C"
+respuesta = -89
+tolerancia = 8
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Francia en 2024?"
+min = 40
+max = 100
+paso = 1
+unidad = "millones"
+respuesta = 68
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Italia en 2024?"
+min = 30
+max = 90
+paso = 1
+unidad = "millones"
+respuesta = 59
+tolerancia_pct = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía el Reino Unido en 2024?"
+min = 30
+max = 100
+paso = 1
+unidad = "millones"
+respuesta = 69
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Portugal en 2024?"
+min = 4
+max = 18
+paso = 1
+unidad = "millones"
+respuesta = 10
+tolerancia_pct = 15
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía China en 2024?"
+min = 600
+max = 2000
+paso = 10
+unidad = "millones"
+respuesta = 1410
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Estados Unidos en 2024?"
+min = 160
+max = 500
+paso = 5
+unidad = "millones"
+respuesta = 340
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Brasil en 2024?"
+min = 100
+max = 300
+paso = 5
+unidad = "millones"
+respuesta = 210
+tolerancia_pct = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Japón en 2024?"
+min = 60
+max = 180
+paso = 1
+unidad = "millones"
+respuesta = 124
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía México en 2024?"
+min = 60
+max = 190
+paso = 1
+unidad = "millones"
+respuesta = 130
+tolerancia_pct = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Egipto en 2024?"
+min = 60
+max = 160
+paso = 5
+unidad = "millones"
+respuesta = 110
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Nigeria en 2024?"
+min = 110
+max = 340
+paso = 10
+unidad = "millones"
+respuesta = 230
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos millones de habitantes tenía Indonesia en 2024?"
+min = 150
+max = 400
+paso = 10
+unidad = "millones"
+respuesta = 280
+tolerancia_pct = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se alcanzó por primera vez la cima del Everest?"
+min = 1930
+max = 1970
+paso = 1
+respuesta = 1953
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó Amundsen al Polo Sur?"
+min = 1890
+max = 1930
+paso = 1
+respuesta = 1911
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el túnel del Canal de la Mancha?"
+min = 1980
+max = 2010
+paso = 1
+respuesta = 1994
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año entró España en la Comunidad Económica Europea?"
+min = 1970
+max = 2000
+paso = 1
+respuesta = 1986
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezaron a circular los billetes y monedas de euro?"
+min = 1990
+max = 2020
+paso = 1
+respuesta = 2002
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se aprobó la Constitución española?"
+min = 1960
+max = 1990
+paso = 1
+respuesta = 1978
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el primer AVE, entre Madrid y Sevilla?"
+min = 1982
+max = 2002
+paso = 1
+respuesta = 1992
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se convirtieron Alaska y Hawái en estados de EE. UU.?"
+min = 1940
+max = 1975
+paso = 1
+respuesta = 1959
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se independizó Guinea Ecuatorial de España?"
+min = 1950
+max = 1990
+paso = 1
+respuesta = 1968
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año acabó el protectorado español en Marruecos?"
+min = 1940
+max = 1975
+paso = 1
+respuesta = 1956
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año abandonó España el Sáhara Occidental?"
+min = 1965
+max = 1985
+paso = 1
+respuesta = 1975
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se cedió Gibraltar a Gran Bretaña en el Tratado de Utrecht?"
+min = 1650
+max = 1750
+paso = 1
+respuesta = 1713
+tolerancia = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se completó la primera vuelta al mundo de Magallanes y Elcano?"
+min = 1500
+max = 1540
+paso = 1
+respuesta = 1522
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró Brasilia como capital de Brasil?"
+min = 1940
+max = 1980
+paso = 1
+respuesta = 1960
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos países forman la Unión Europea en 2024?"
+min = 15
+max = 40
+paso = 1
+respuesta = 27
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos países tiene África?"
+min = 30
+max = 80
+paso = 1
+respuesta = 54
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos municipios tiene España, aproximadamente?"
+min = 4000
+max = 12000
+paso = 100
+respuesta = 8100
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿En qué meses hay sol de medianoche en Tromsø, Noruega? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [5, 7]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Eslovenia, del punto más bajo al más alto?"
+min = 0
+max = 3800
+paso = 10
+unidad = "m"
+respuesta = [0, 2860]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió Al-Ándalus?"
+min = 240
+max = 1965
+paso = 1
+respuesta = [711, 1492]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el naturalista Charles Darwin?"
+min = 1765
+max = 1930
+paso = 1
+respuesta = [1809, 1882]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar la expedición Balmis para llevar la vacuna de la viruela a América?"
+min = 1790
+max = 1820
+paso = 1
+respuesta = [1803, 1806]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué longitudes se extiende la España peninsular, del cabo de Fisterra al cabo de Creus? (negativo = oeste)"
+min = -15
+max = 10
+paso = 0.1
+unidad = "°"
+respuesta = [-9.3, 3.3]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar el viaje de Humboldt y Bonpland por América?"
+min = 1785
+max = 1815
+paso = 1
+respuesta = [1799, 1804]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Chequia, del punto más bajo al más alto?"
+min = 0
+max = 2100
+paso = 10
+unidad = "m"
+respuesta = [120, 1600]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el edificio Empire State?"
+min = 1920
+max = 1945
+paso = 1
+respuesta = [1930, 1931]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Marco Polo?"
+min = 1210
+max = 1370
+paso = 1
+respuesta = [1254, 1324]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Imperio otomano?"
+min = 925
+max = 2300
+paso = 1
+respuesta = [1299, 1922]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el Taj Mahal?"
+min = 1615
+max = 1670
+paso = 1
+respuesta = [1632, 1653]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Portugal, del punto más bajo al más alto?"
+min = 0
+max = 3100
+paso = 10
+unidad = "m"
+respuesta = [0, 2350]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió Checoslovaquia?"
+min = 1870
+max = 2040
+paso = 1
+respuesta = [1918, 1993]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Suiza, del punto más bajo al más alto?"
+min = 0
+max = 6000
+paso = 10
+unidad = "m"
+respuesta = [200, 4630]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué latitudes norte se extiende Francia metropolitana?"
+min = 35
+max = 58
+paso = 0.1
+unidad = "°N"
+respuesta = [41.3, 51.1]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Grecia, del punto más bajo al más alto?"
+min = 0
+max = 3800
+paso = 10
+unidad = "m"
+respuesta = [0, 2920]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Ibn Battuta?"
+min = 1265
+max = 1410
+paso = 1
+respuesta = [1304, 1369]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Dinamarca, del punto más bajo al más alto?"
+min = 0
+max = 230
+paso = 1
+unidad = "m"
+respuesta = [0, 171]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar la expedición de Amundsen al Polo Sur?"
+min = 1900
+max = 1925
+paso = 1
+respuesta = [1910, 1912]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Vasco da Gama?"
+min = 1435
+max = 1560
+paso = 1
+respuesta = [1469, 1524]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar el primer viaje de Vasco da Gama a la India?"
+min = 1485
+max = 1510
+paso = 1
+respuesta = [1497, 1499]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Alexander von Humboldt?"
+min = 1715
+max = 1915
+paso = 1
+respuesta = [1769, 1859]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Imperio inca?"
+min = 1380
+max = 1590
+paso = 1
+respuesta = [1438, 1533]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador David Livingstone?"
+min = 1775
+max = 1910
+paso = 1
+respuesta = [1813, 1873]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué latitudes norte se extiende la España peninsular?"
+min = 30
+max = 50
+paso = 0.1
+unidad = "°N"
+respuesta = [36, 43.8]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué meses llueve el monzón de verano en la India? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [6, 9]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué meses rige el horario de verano en la Unión Europea? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [3, 10]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Turquía, del punto más bajo al más alto?"
+min = 0
+max = 6700
+paso = 10
+unidad = "m"
+respuesta = [0, 5140]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Eslovaquia, del punto más bajo al más alto?"
+min = 0
+max = 3500
+paso = 10
+unidad = "m"
+respuesta = [90, 2660]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó la presa de Asuán?"
+min = 1950
+max = 1980
+paso = 1
+respuesta = [1960, 1970]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Kenia, del punto más bajo al más alto?"
+min = 0
+max = 6800
+paso = 10
+unidad = "m"
+respuesta = [0, 5200]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué latitudes norte se extiende la zona polar ártica?"
+min = 40
+max = 90
+paso = 0.1
+unidad = "°N"
+respuesta = [66.5, 90]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio de Rusia, del más occidental al más oriental?"
+min = 0
+max = 14
+paso = 1
+unidad = "UTC"
+respuesta = [2, 12]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el reino nazarí de Granada?"
+min = 1085
+max = 1645
+paso = 1
+respuesta = [1238, 1492]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de los Países Bajos, del punto más bajo al más alto?"
+min = -30
+max = 430
+paso = 1
+unidad = "m"
+respuesta = [-7, 322]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Roma, del mes más frío al más cálido?"
+min = -9
+max = 42
+paso = 1
+unidad = "°C"
+respuesta = [8, 25]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar el primer viaje de James Cook por el Pacífico?"
+min = 1755
+max = 1785
+paso = 1
+respuesta = [1768, 1771]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar el primer viaje de Colón a América?"
+min = 1480
+max = 1505
+paso = 1
+respuesta = [1492, 1493]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio de Australia continental, del más occidental al más oriental?"
+min = 5
+max = 13
+paso = 1
+unidad = "UTC"
+respuesta = [8, 10]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el puente de Brooklyn?"
+min = 1860
+max = 1895
+paso = 1
+respuesta = [1870, 1883]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio de Indonesia, del más occidental al más oriental?"
+min = 5
+max = 11
+paso = 1
+unidad = "UTC"
+respuesta = [7, 9]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó la catedral de Santiago de Compostela?"
+min = 990
+max = 1295
+paso = 1
+respuesta = [1075, 1211]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Croacia, del punto más bajo al más alto?"
+min = 0
+max = 2400
+paso = 10
+unidad = "m"
+respuesta = [0, 1830]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Dubái, del mes más frío al más cálido?"
+min = 3
+max = 51
+paso = 1
+unidad = "°C"
+respuesta = [19, 35]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Luxemburgo, del punto más bajo al más alto?"
+min = 0
+max = 700
+paso = 10
+unidad = "m"
+respuesta = [130, 560]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Cristóbal Colón?"
+min = 1415
+max = 1540
+paso = 1
+respuesta = [1451, 1506]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió la República Democrática Alemana?"
+min = 1920
+max = 2015
+paso = 1
+respuesta = [1949, 1990]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio del mundo entero, del más occidental al más oriental?"
+min = -14
+max = 16
+paso = 1
+unidad = "UTC"
+respuesta = [-12, 14]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el canal de Suez?"
+min = 1845
+max = 1880
+paso = 1
+respuesta = [1859, 1869]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en El Cairo, del mes más frío al más cálido?"
+min = -1
+max = 44
+paso = 1
+unidad = "°C"
+respuesta = [14, 29]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el virreinato del Perú?"
+min = 1370
+max = 1995
+paso = 1
+respuesta = [1542, 1824]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Chile, del punto más bajo al más alto?"
+min = 0
+max = 9000
+paso = 10
+unidad = "m"
+respuesta = [0, 6890]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Hernán Cortés?"
+min = 1445
+max = 1585
+paso = 1
+respuesta = [1485, 1547]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio de Francia, con sus territorios de ultramar, del más occidental al más oriental?"
+min = -12
+max = 14
+paso = 1
+unidad = "UTC"
+respuesta = [-10, 12]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Juan Sebastián Elcano?"
+min = 1445
+max = 1560
+paso = 1
+respuesta = [1476, 1526]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Noruega, del punto más bajo al más alto?"
+min = 0
+max = 3300
+paso = 10
+unidad = "m"
+respuesta = [0, 2470]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio de España, con Canarias, del más occidental al más oriental?"
+min = -3
+max = 4
+paso = 1
+unidad = "UTC"
+respuesta = [0, 1]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué meses forman el verano meteorológico en el hemisferio norte? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [6, 8]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Rumanía, del punto más bajo al más alto?"
+min = 0
+max = 3400
+paso = 10
+unidad = "m"
+respuesta = [0, 2540]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar la expedición Endurance de Shackleton?"
+min = 1900
+max = 1930
+paso = 1
+respuesta = [1914, 1917]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Roald Amundsen?"
+min = 1835
+max = 1965
+paso = 1
+respuesta = [1872, 1928]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Ecuador, del punto más bajo al más alto?"
+min = 0
+max = 8200
+paso = 10
+unidad = "m"
+respuesta = [0, 6260]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Sevilla, del mes más frío al más cálido?"
+min = -6
+max = 45
+paso = 1
+unidad = "°C"
+respuesta = [11, 28]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Fernando de Magallanes?"
+min = 1455
+max = 1550
+paso = 1
+respuesta = [1480, 1521]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el virreinato de Nueva España?"
+min = 1360
+max = 1995
+paso = 1
+respuesta = [1535, 1821]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué meses forman la primavera meteorológica en el hemisferio norte? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [3, 5]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Japón, del punto más bajo al más alto?"
+min = 0
+max = 5000
+paso = 10
+unidad = "m"
+respuesta = [0, 3780]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué latitudes norte se extiende Portugal continental?"
+min = 32
+max = 50
+paso = 0.1
+unidad = "°N"
+respuesta = [37, 42.2]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar el viaje del Beagle con Darwin a bordo?"
+min = 1820
+max = 1850
+paso = 1
+respuesta = [1831, 1836]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó la Ópera de Sídney?"
+min = 1945
+max = 1985
+paso = 1
+respuesta = [1959, 1973]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Hungría, del punto más bajo al más alto?"
+min = 0
+max = 1300
+paso = 10
+unidad = "m"
+respuesta = [80, 1010]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué meses rige el horario de verano en Estados Unidos? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [3, 11]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar la expedición Malaspina alrededor del mundo?"
+min = 1775
+max = 1805
+paso = 1
+respuesta = [1789, 1794]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Moscú, del mes más frío al más cálido?"
+min = -31
+max = 44
+paso = 1
+unidad = "°C"
+respuesta = [-6, 19]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Tokio, del mes más frío al más cálido?"
+min = -17
+max = 49
+paso = 1
+unidad = "°C"
+respuesta = [5, 27]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio de México, del más occidental al más oriental?"
+min = -10
+max = 0
+paso = 1
+unidad = "UTC"
+respuesta = [-8, -5]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Ernest Shackleton?"
+min = 1845
+max = 1955
+paso = 1
+respuesta = [1874, 1922]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Andorra, del punto más bajo al más alto?"
+min = 200
+max = 3600
+paso = 10
+unidad = "m"
+respuesta = [840, 2940]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué meses dura la temporada de huracanes del Pacífico oriental? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [5, 11]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el museo Guggenheim de Bilbao?"
+min = 1980
+max = 2010
+paso = 1
+respuesta = [1993, 1997]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador James Cook?"
+min = 1695
+max = 1810
+paso = 1
+respuesta = [1728, 1779]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Islandia, del punto más bajo al más alto?"
+min = 0
+max = 2800
+paso = 10
+unidad = "m"
+respuesta = [0, 2110]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Nepal, del punto más bajo al más alto?"
+min = 0
+max = 11500
+paso = 10
+unidad = "m"
+respuesta = [60, 8850]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Imperio austrohúngaro?"
+min = 1835
+max = 1950
+paso = 1
+respuesta = [1867, 1918]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Reikiavik, del mes más frío al más cálido?"
+min = -11
+max = 22
+paso = 1
+unidad = "°C"
+respuesta = [0, 11]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el protectorado español de Marruecos?"
+min = 1885
+max = 1985
+paso = 1
+respuesta = [1912, 1956]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar la expedición de Lewis y Clark por el oeste de EE. UU.?"
+min = 1790
+max = 1820
+paso = 1
+respuesta = [1804, 1806]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué meses forman el otoño meteorológico en el hemisferio norte? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [9, 11]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué latitudes norte se extiende la España peninsular y Canarias?"
+min = 20
+max = 50
+paso = 0.1
+unidad = "°N"
+respuesta = [27.6, 43.8]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Robert Falcon Scott?"
+min = 1840
+max = 1940
+paso = 1
+respuesta = [1868, 1912]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en París, del mes más frío al más cálido?"
+min = -10
+max = 35
+paso = 1
+unidad = "°C"
+respuesta = [5, 20]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió la Unión Soviética?"
+min = 1880
+max = 2035
+paso = 1
+respuesta = [1922, 1991]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Madrid, del mes más frío al más cálido?"
+min = -13
+max = 44
+paso = 1
+unidad = "°C"
+respuesta = [6, 25]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué meses dura la temporada oficial de huracanes en el Atlántico? (1 = enero, 12 = diciembre)"
+min = 1
+max = 12
+paso = 1
+respuesta = [6, 11]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Austria, del punto más bajo al más alto?"
+min = 0
+max = 5000
+paso = 10
+unidad = "m"
+respuesta = [120, 3800]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué latitudes norte se extiende la zona templada del hemisferio norte, entre los trópicos y el círculo polar?"
+min = 0
+max = 90
+paso = 0.1
+unidad = "°N"
+respuesta = [23.4, 66.5]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó la torre de Pisa?"
+min = 1050
+max = 1495
+paso = 1
+respuesta = [1173, 1372]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de España, del punto más bajo al más alto?"
+min = 0
+max = 4900
+paso = 10
+unidad = "m"
+respuesta = [0, 3720]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Nueva York, del mes más frío al más cálido?"
+min = -26
+max = 52
+paso = 1
+unidad = "°C"
+respuesta = [0, 26]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio de Brasil, del más occidental al más oriental?"
+min = -8
+max = 2
+paso = 1
+unidad = "UTC"
+respuesta = [-5, -2]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Finlandia, del punto más bajo al más alto?"
+min = 0
+max = 1800
+paso = 10
+unidad = "m"
+respuesta = [0, 1320]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el canal de Panamá estadounidense?"
+min = 1890
+max = 1925
+paso = 1
+respuesta = [1904, 1914]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el Palacio Real de Madrid?"
+min = 1725
+max = 1770
+paso = 1
+respuesta = [1738, 1755]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Perú, del punto más bajo al más alto?"
+min = 0
+max = 8900
+paso = 10
+unidad = "m"
+respuesta = [0, 6770]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué altitudes está el territorio de Irlanda, del punto más bajo al más alto?"
+min = 0
+max = 1400
+paso = 10
+unidad = "m"
+respuesta = [0, 1040]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Imperio azteca?"
+min = 1370
+max = 1580
+paso = 1
+respuesta = [1428, 1521]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Vasco Núñez de Balboa?"
+min = 1445
+max = 1550
+paso = 1
+respuesta = [1475, 1519]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el túnel del Canal de la Mancha?"
+min = 1975
+max = 2005
+paso = 1
+respuesta = [1988, 1994]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué husos horarios (UTC, hora estándar) abarca el territorio de Estados Unidos continental, del más occidental al más oriental?"
+min = -10
+max = 0
+paso = 1
+unidad = "UTC"
+respuesta = [-8, -5]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años tuvo lugar la primera vuelta al mundo de Magallanes y Elcano?"
+min = 1505
+max = 1535
+paso = 1
+respuesta = [1519, 1522]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas medias va el año en Londres, del mes más frío al más cálido?"
+min = -9
+max = 33
+paso = 1
+unidad = "°C"
+respuesta = [5, 19]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó la catedral de Sevilla?"
+min = 1335
+max = 1570
+paso = 1
+respuesta = [1401, 1506]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó la ciudad de Brasilia?"
+min = 1945
+max = 1970
+paso = 1
+respuesta = [1956, 1960]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el explorador Américo Vespucio?"
+min = 1415
+max = 1550
+paso = 1
+respuesta = [1454, 1512]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Muro de Berlín?"
+min = 1940
+max = 2010
+paso = 1
+respuesta = [1961, 1989]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál es su medio de transporte favorito para viajar?"
+opciones = ["Avión", "Tren", "Coche", "Barco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Prefiere viajar con maleta grande o con mochila?"
+opciones = ["Maleta grande", "Mochila", "Maleta de cabina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué suele olvidarse al hacer la maleta?"
+opciones = ["El cargador", "La ropa interior", "El neceser", "Nada, es previsor"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere organizar un viaje?"
+opciones = ["Todo planificado", "Solo lo básico", "Improvisando", "Que lo organice otro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué es lo que más le gusta de viajar?"
+opciones = ["Comer", "Ver monumentos", "Descansar", "Conocer gente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué foto haría primero en un viaje?"
+opciones = ["Un paisaje", "Un selfi", "La comida", "Un monumento"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué recuerdo suele traer de un viaje?"
+opciones = ["Un imán de nevera", "Una camiseta", "Comida típica", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuánto debería durar su viaje ideal?"
+opciones = ["Un fin de semana", "Una semana", "Dos semanas", "Un mes o más"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Prefiere un viaje de aventura o de relax?"
+opciones = ["Mucha aventura", "Un poco de cada", "Relax total"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con quién preferiría hacer un gran viaje?"
+opciones = ["Con su pareja", "Con la familia", "Con amigos", "Solo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad del mundo le gustaría visitar?"
+opciones = ["Nueva York", "Tokio", "Río de Janeiro", "Sídney"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué parte de España le gustaría conocer mejor?"
+opciones = ["El norte", "El sur", "El interior", "Las islas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué comunidad autónoma le parece más bonita?"
+opciones = ["Andalucía", "Galicia", "Canarias", "Cataluña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde prefiere pasar la Semana Santa?"
+opciones = ["En casa", "En la playa", "En un pueblo", "De viaje"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué clima soporta peor?"
+opciones = ["El calor extremo", "El frío extremo", "La humedad", "El viento"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace cuando llueve en vacaciones?"
+opciones = ["Va a un museo", "Se toma un café", "Va de compras", "Se queda en el hotel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué tiempo le gusta más pasear?"
+opciones = ["Con sol", "Nublado", "Con lluvia fina", "Con nieve"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué lugar de la naturaleza le gusta más?"
+opciones = ["Un lago", "Un río", "Una cascada", "Un volcán"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere ver frente al mar?"
+opciones = ["Un amanecer", "Un atardecer"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de playa prefiere?"
+opciones = ["De arena fina", "De piedras", "Una cala escondida", "Con chiringuito"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué hora le gusta ir a la playa?"
+opciones = ["A primera hora", "A mediodía", "Por la tarde", "Al anochecer"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Prefiere bañarse en piscina o en el mar?"
+opciones = ["En la piscina", "En el mar", "En un río o lago"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué isla canaria visitaría?"
+opciones = ["Tenerife", "Lanzarote", "La Palma", "Gran Canaria"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué isla balear elegiría?"
+opciones = ["Mallorca", "Menorca", "Ibiza", "Formentera"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad andaluza le gusta más?"
+opciones = ["Sevilla", "Málaga", "Granada", "Córdoba"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad del norte de España prefiere?"
+opciones = ["Bilbao", "San Sebastián", "Santander", "Oviedo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad italiana le gustaría conocer?"
+opciones = ["Roma", "Venecia", "Florencia", "Nápoles"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué ciudad de América le gustaría ir?"
+opciones = ["Nueva York", "Buenos Aires", "Ciudad de México", "La Habana"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciudad asiática le llama más la atención?"
+opciones = ["Tokio", "Bangkok", "Dubái", "Pekín"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué país nórdico le gustaría visitar?"
+opciones = ["Noruega", "Suecia", "Finlandia", "Islandia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué país latinoamericano le gustaría visitar?"
+opciones = ["México", "Argentina", "Perú", "Cuba"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué monumento le gustaría ver en persona?"
+opciones = ["Las pirámides de Guiza", "La Gran Muralla china", "El Taj Mahal", "Machu Picchu"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué maravilla natural elegiría ver?"
+opciones = ["El Gran Cañón", "Las cataratas del Niágara", "Una aurora boreal", "La Gran Barrera de Coral"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde preferiría ir a ver nieve?"
+opciones = ["A los Pirineos", "A los Alpes", "A Sierra Nevada", "A Laponia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué actividad prefiere en la nieve?"
+opciones = ["Esquiar", "Hacer un muñeco", "Caminar con raquetas", "Tomar chocolate en el refugio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué actividad acuática prefiere?"
+opciones = ["Bucear", "Surfear", "Hacer kayak", "Solo tumbarse"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo le gusta recorrer una ciudad?"
+opciones = ["A pie", "En bici", "En autobús turístico", "En transporte público"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué comería primero en un país nuevo?"
+opciones = ["Un plato típico", "Algo callejero", "Un postre", "Lo de siempre"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si se perdiera en una ciudad desconocida?"
+opciones = ["Mirar el móvil", "Preguntar a alguien", "Seguir andando", "Coger un taxi"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué no puede faltar en su equipaje?"
+opciones = ["Gafas de sol", "La cámara", "Los auriculares", "Un libro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué es lo que más le atrae de un hotel?"
+opciones = ["La piscina", "El spa", "El buffet", "Las vistas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Prefiere repetir destino o descubrir uno nuevo?"
+opciones = ["Repetir", "Uno nuevo cada vez", "Depende"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuánto aguanta en un viaje largo en coche?"
+opciones = ["Hasta 2 horas", "Hasta 4 horas", "Hasta 6 horas", "Todo el día"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué asiento prefiere en el avión?"
+opciones = ["Ventanilla", "Pasillo", "El que sea"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace en un viaje largo en tren o autobús?"
+opciones = ["Dormir", "Mirar el paisaje", "Escuchar música", "Mirar el móvil"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué es lo que peor lleva de un viaje?"
+opciones = ["Los aeropuertos", "Hacer la maleta", "Madrugar", "Los atascos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de pueblo visitaría?"
+opciones = ["De pescadores", "De montaña", "Medieval", "Blanco andaluz"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué río le gustaría navegar?"
+opciones = ["El Nilo", "El Amazonas", "El Sena", "El Danubio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué mar le gustaría explorar?"
+opciones = ["El Caribe", "El Mediterráneo", "El mar Rojo", "El Pacífico"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué entorno elegiría para una aventura?"
+opciones = ["Selva tropical", "Desierto", "Polos", "Alta montaña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal le gustaría ver en un safari?"
+opciones = ["Un león", "Un elefante", "Una jirafa", "Una cebra"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué isla exótica le atrae más?"
+opciones = ["Hawái", "Maldivas", "Bali", "Mauricio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace primero al llegar al hotel?"
+opciones = ["Deshace la maleta", "Se asoma al balcón", "Se echa una siesta", "Sale a explorar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le da más pereza de las vacaciones?"
+opciones = ["Hacer la maleta", "Deshacerla", "El viaje de vuelta", "Madrugar para el aeropuerto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué parte del viaje disfruta más?"
+opciones = ["Planificarlo", "El trayecto", "El destino", "Contarlo después"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para una escapada?"
+opciones = ["Un pueblo", "Una ciudad", "La naturaleza"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo aguantaría mejor el calor?"
+opciones = ["En la playa", "Con aire acondicionado", "A la sombra con ventilador", "En la piscina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de montaña prefiere?"
+opciones = ["Con nieve", "Con bosque", "Con lagos", "Rocosa y árida"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Desde dónde le gustaría ver el mundo?"
+opciones = ["Un globo aerostático", "Un helicóptero", "Un teleférico", "Una torre altísima"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿En qué país viviría un año?"
+opciones = ["Italia", "Japón", "Estados Unidos", "Australia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué lengua le gustaría aprender para viajar?"
+opciones = ["Inglés", "Francés", "Italiano", "Japonés"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría descubrir de un lugar?"
+opciones = ["Su historia", "Su gastronomía", "Su naturaleza", "Su gente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere llevar para un día de campo?"
+opciones = ["Bocadillos", "Tortilla", "Barbacoa", "Comer en un restaurante"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde preferiría dormir?"
+opciones = ["En tienda de campaña", "En una cabaña", "En una caravana", "En un hotel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué lago le gustaría visitar?"
+opciones = ["Lago Ness", "Lago de Como", "Titicaca", "Lago Baikal"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué lugar frío iría?"
+opciones = ["Laponia", "Alaska", "La Antártida", "Islandia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué lugar caluroso iría?"
+opciones = ["Dubái", "El Caribe", "El Sáhara", "Andalucía en agosto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de un pueblo costero?"
+opciones = ["El puerto", "El paseo marítimo", "El pescado fresco", "Las calas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de turismo practica más?"
+opciones = ["Cultural", "Gastronómico", "De naturaleza", "De playa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ver por la ventana?"
+opciones = ["El mar", "Las montañas", "Una ciudad iluminada", "Campo y bosque"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo se orienta mejor?"
+opciones = ["Con Google Maps", "Con un mapa de papel", "Preguntando", "Por instinto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en un día libre en Madrid?"
+opciones = ["Visitar museos", "Pasear por el Retiro", "Ir de tapas", "Ir de compras"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en un día libre en Barcelona?"
+opciones = ["Ver la Sagrada Familia", "Ir a la playa", "Pasear por las Ramblas", "Visitar el parque Güell"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué zona de costa elegiría?"
+opciones = ["Costa Brava", "Costa del Sol", "Rías Gallegas", "Costa Blanca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ruta en coche haría?"
+opciones = ["La Ruta 66", "La costa Amalfitana", "El Camino de Santiago", "La Costa Brava"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le emociona más ver?"
+opciones = ["Un mirador", "Un cañón", "Un faro", "Un puente famoso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué probaría en un mercado local?"
+opciones = ["Fruta", "Quesos", "Dulces", "Embutidos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿En qué gasta mejor el dinero de un viaje?"
+opciones = ["En el alojamiento", "En la comida", "En excursiones", "En compras"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace con las fotos del viaje?"
+opciones = ["Las sube a redes", "Las guarda sin mirarlas", "Hace un álbum", "Las manda al grupo de WhatsApp"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué desierto le gustaría cruzar?"
+opciones = ["El Sáhara", "El de Arabia", "El de Atacama", "El de Tabernas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cordillera le gustaría recorrer?"
+opciones = ["Los Pirineos", "Los Alpes", "Los Andes", "Los Picos de Europa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué paisaje español le gusta más?"
+opciones = ["Las rías gallegas", "Los campos de Castilla", "Las dunas de Doñana", "Los volcanes de Lanzarote"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de una ciudad nueva?"
+opciones = ["Sus calles", "Sus museos", "Sus bares", "Sus parques"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo le gusta viajar?"
+opciones = ["Entre semana", "En puente", "En fin de semana", "Fuera de temporada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría encontrarse en la playa?"
+opciones = ["Tranquilidad", "Un buen chiringuito", "Olas para jugar", "Gente y ambiente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué línea imaginaria le gustaría cruzar?"
+opciones = ["El ecuador", "El meridiano de Greenwich", "El círculo polar", "El trópico de Cáncer"]

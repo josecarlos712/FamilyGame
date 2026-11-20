@@ -1431,3 +1431,4421 @@ enunciado = "¿Qué prefiere como regalo?"
 opciones = ["Dar", "Recibir"]
 tiempo = 8
 lectura = 2
+
+[[pregunta]]
+enunciado = "¿Qué dulce típico de Semana Santa se hace con rebanadas de pan empapadas en leche o vino, fritas y con azúcar?"
+opciones = ["Torrijas", "Pestiños", "Buñuelos", "Roscos"]
+correcta = "Torrijas"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál de estos quesos españoles tiene denominación de origen?"
+opciones = ["Idiazabal", "Gouda", "Emmental", "Brie"]
+correcta = "Idiazabal"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué especia da su color amarillo característico a la paella?"
+opciones = ["Azafrán", "Pimentón", "Orégano", "Canela"]
+correcta = "Azafrán"
+dificultad = 1
+tiempo = 15
+explicacion = "El azafrán sale de los estigmas de la flor del Crocus sativus."
+
+[[pregunta]]
+enunciado = "¿Qué se quema en muchas playas y plazas españolas en la noche de San Juan?"
+opciones = ["Hogueras", "Barcos de papel", "Redes de pesca", "Libros"]
+correcta = "Hogueras"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué país se celebra la fiesta de los colores llamada Holi?"
+opciones = ["India", "Japón", "Brasil", "Egipto"]
+correcta = "India"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo termina el refrán «A caballo regalado…»?"
+opciones = ["no le mires el diente", "no le des de comer", "no le pongas montura", "no lo vendas"]
+correcta = "no le mires el diente"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo termina el refrán «En casa del herrero…»?"
+opciones = ["cuchillo de palo", "martillo de oro", "siempre hay lumbre", "no falta el hierro"]
+correcta = "cuchillo de palo"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la fiesta judía de las luces, que dura ocho días?"
+opciones = ["Janucá", "Pésaj", "Yom Kipur", "Purim"]
+correcta = "Janucá"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué se hace la horchata valenciana?"
+opciones = ["Chufas", "Almendras", "Arroz", "Avena"]
+correcta = "Chufas"
+dificultad = 2
+tiempo = 15
+explicacion = "La chufa es un tubérculo que se cultiva en la huerta de Valencia."
+
+[[pregunta]]
+enunciado = "¿Qué vino espumoso catalán se elabora por el método tradicional, con segunda fermentación en botella?"
+opciones = ["Cava", "Prosecco", "Lambrusco", "Asti"]
+correcta = "Cava"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué embutido rojo y untable es típico de Mallorca?"
+opciones = ["Sobrasada", "Chorizo", "Fuet", "Morcilla"]
+correcta = "Sobrasada"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma es típico el pulpo «á feira»?"
+opciones = ["Galicia", "Asturias", "Cantabria", "País Vasco"]
+correcta = "Galicia"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué se celebra en España el 12 de octubre?"
+opciones = ["La Fiesta Nacional", "El Día de la Constitución", "El Día de Andalucía", "El Día del Trabajo"]
+correcta = "La Fiesta Nacional"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué día se celebra el Día de la Constitución Española?"
+opciones = ["6 de diciembre", "12 de octubre", "1 de mayo", "25 de julio"]
+correcta = "6 de diciembre"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué fruto seco es la base del mazapán?"
+opciones = ["Almendra", "Avellana", "Nuez", "Cacahuete"]
+correcta = "Almendra"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué país celebra el Songkran, una fiesta del año nuevo con batallas de agua?"
+opciones = ["Tailandia", "Argentina", "Noruega", "Irlanda"]
+correcta = "Tailandia"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la aerolínea tradicional de bandera de España?"
+opciones = ["Iberia", "Lufthansa", "Alitalia", "Aer Lingus"]
+correcta = "Iberia"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué estación valenciana de alta velocidad lleva el nombre de un pintor?"
+opciones = ["Joaquín Sorolla", "Francisco Goya", "Diego Velázquez", "Pablo Picasso"]
+correcta = "Joaquín Sorolla"
+dificultad = 3
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿Qué plato japonés consiste en lonchas de pescado crudo servidas sin arroz?"
+opciones = ["Sashimi", "Sushi", "Tempura", "Ramen"]
+correcta = "Sashimi"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué bebida lleva vino tinto, fruta troceada y un poco de refresco o licor?"
+opciones = ["Sangría", "Rebujito", "Calimocho", "Zurracapote"]
+correcta = "Sangría"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el ingrediente principal del hummus?"
+opciones = ["Garbanzos", "Lentejas", "Judías blancas", "Guisantes"]
+correcta = "Garbanzos"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué país procede el kimchi, verdura fermentada con chile?"
+opciones = ["Corea", "Japón", "Tailandia", "Vietnam"]
+correcta = "Corea"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo termina el refrán «Más vale pájaro en mano…»?"
+opciones = ["que ciento volando", "que un nido vacío", "que una jaula", "que una pluma"]
+correcta = "que ciento volando"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántas uvas se toman en Nochevieja?"
+opciones = ["12", "10", "7"]
+correcta = "12"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué color es un taxi típico de Nueva York?"
+opciones = ["Amarillo", "Verde", "Blanco"]
+correcta = "Amarillo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Con qué fruta se hace la sidra?"
+opciones = ["Manzana", "Pera", "Uva"]
+correcta = "Manzana"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Con qué se hace el queso?"
+opciones = ["Leche", "Huevos", "Trigo"]
+correcta = "Leche"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué moneda se usa en Estados Unidos?"
+opciones = ["Dólar", "Euro", "Libra"]
+correcta = "Dólar"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué moneda se usa en el Reino Unido?"
+opciones = ["Libra", "Euro", "Dólar"]
+correcta = "Libra"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué vehículo va sobre raíles?"
+opciones = ["Tren", "Autobús", "Barco"]
+correcta = "Tren"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué transporte vuela?"
+opciones = ["Avión", "Tren", "Metro"]
+correcta = "Avión"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué color es el cartel de «Stop»?"
+opciones = ["Rojo", "Azul", "Verde"]
+correcta = "Rojo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuántas ruedas tiene un coche normal?"
+opciones = ["4", "3", "6"]
+correcta = "4"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué día es Nochebuena?"
+opciones = ["24 de diciembre", "25 de diciembre", "31 de diciembre"]
+correcta = "24 de diciembre"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué día es Nochevieja?"
+opciones = ["31 de diciembre", "1 de enero", "24 de diciembre"]
+correcta = "31 de diciembre"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué animal protagoniza los encierros?"
+opciones = ["Toro", "Caballo", "Cerdo"]
+correcta = "Toro"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué ingrediente principal tiene el guacamole?"
+opciones = ["Aguacate", "Tomate", "Pepino"]
+correcta = "Aguacate"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué país es típico el guacamole?"
+opciones = ["México", "Perú", "España"]
+correcta = "México"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué bebida es típica de Escocia?"
+opciones = ["Whisky", "Tequila", "Sake"]
+correcta = "Whisky"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué pasta es larga y fina?"
+opciones = ["Espagueti", "Macarrón", "Lazo"]
+correcta = "Espagueti"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué ingrediente principal lleva el chocolate?"
+opciones = ["Cacao", "Café", "Vainilla"]
+correcta = "Cacao"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué marca tiene una manzana mordida como logo?"
+opciones = ["Apple", "Samsung", "Nokia"]
+correcta = "Apple"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué cadena tiene unos arcos dorados como logo?"
+opciones = ["McDonald's", "Burger King", "Pizza Hut"]
+correcta = "McDonald's"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué marca de ropa deportiva tiene un «tick» como logo?"
+opciones = ["Nike", "Adidas", "Puma"]
+correcta = "Nike"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué marca de coches tiene un toro como logo?"
+opciones = ["Lamborghini", "Ferrari", "Audi"]
+correcta = "Lamborghini"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué marca de coches tiene un caballo rampante?"
+opciones = ["Ferrari", "Seat", "Opel"]
+correcta = "Ferrari"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué país es la tienda de ropa Zara?"
+opciones = ["España", "Italia", "Francia"]
+correcta = "España"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué país es la tienda de muebles Ikea?"
+opciones = ["Suecia", "Noruega", "Dinamarca"]
+correcta = "Suecia"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿De qué país es la marca Volkswagen?"
+opciones = ["Alemania", "Japón", "Italia"]
+correcta = "Alemania"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué impuesto pagamos al comprar casi todo?"
+opciones = ["IVA", "IBI", "IRPF"]
+correcta = "IVA"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cómo se llama lo que se paga cada mes por una casa alquilada?"
+opciones = ["Alquiler", "Herencia", "Multa"]
+correcta = "Alquiler"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuál es la aerolínea de bandera de Portugal?"
+opciones = ["TAP", "Iberia", "Vueling"]
+correcta = "TAP"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué electrodoméstico enfría los alimentos?"
+opciones = ["Nevera", "Horno", "Lavadora"]
+correcta = "Nevera"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué objeto abre una cerradura?"
+opciones = ["Llave", "Tijeras", "Cuchara"]
+correcta = "Llave"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué transporte público va bajo tierra en las ciudades?"
+opciones = ["Metro", "Tranvía", "Autobús"]
+correcta = "Metro"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué tren une Madrid y Barcelona a gran velocidad?"
+opciones = ["AVE", "Cercanías", "Tranvía"]
+correcta = "AVE"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Cuántas ruedas tiene una moto?"
+opciones = ["2", "3", "4"]
+correcta = "2"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Qué vehículo flota en el mar?"
+opciones = ["Barco", "Tren", "Moto"]
+correcta = "Barco"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «A buen hambre, no hay…»"
+opciones = ["pan duro", "postre", "comida"]
+correcta = "pan duro"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Dime con quién andas y te diré…»"
+opciones = ["quién eres", "dónde vas", "cuánto pesas"]
+correcta = "quién eres"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Ojos que no ven…»"
+opciones = ["corazón que no siente", "boca que no habla", "mano que no toca"]
+correcta = "corazón que no siente"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Camarón que se duerme…»"
+opciones = ["se lo lleva la corriente", "no come", "se queda en tierra"]
+correcta = "se lo lleva la corriente"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Más vale tarde que…»"
+opciones = ["nunca", "pronto", "mal"]
+correcta = "nunca"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «El que ríe el último…»"
+opciones = ["ríe mejor", "ríe más", "llora menos"]
+correcta = "ríe mejor"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Perro ladrador…»"
+opciones = ["poco mordedor", "mal pastor", "buen amigo"]
+correcta = "poco mordedor"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «De tal palo…»"
+opciones = ["tal astilla", "tal árbol", "tal leña"]
+correcta = "tal astilla"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Al mal tiempo…»"
+opciones = ["buena cara", "paraguas", "mala suerte"]
+correcta = "buena cara"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «En boca cerrada…»"
+opciones = ["no entran moscas", "no hay dientes", "no cabe pan"]
+correcta = "no entran moscas"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Cuando el río suena…»"
+opciones = ["agua lleva", "peces trae", "hay puente"]
+correcta = "agua lleva"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Agua que no has de beber…»"
+opciones = ["déjala correr", "no la mires", "guárdala"]
+correcta = "déjala correr"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Quien a buen árbol se arrima…»"
+opciones = ["buena sombra le cobija", "mejores frutos coge", "poco se moja"]
+correcta = "buena sombra le cobija"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Al que madruga…»"
+opciones = ["Dios le ayuda", "le duele la cabeza", "le sobra tiempo"]
+correcta = "Dios le ayuda"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «No por mucho madrugar…»"
+opciones = ["amanece más temprano", "se come mejor", "se duerme más"]
+correcta = "amanece más temprano"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Quien bien te quiere te hará…»"
+opciones = ["llorar", "reír", "bailar"]
+correcta = "llorar"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Año de nieves…»"
+opciones = ["año de bienes", "año de males", "año de fiestas"]
+correcta = "año de bienes"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «No hay mal que por bien…»"
+opciones = ["no venga", "se vaya", "se cuente"]
+correcta = "no venga"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Ande yo caliente…»"
+opciones = ["y ríase la gente", "y beba la gente", "y calle la gente"]
+correcta = "y ríase la gente"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Dos no pelean si…»"
+opciones = ["uno no quiere", "no hay motivo", "hay un juez"]
+correcta = "uno no quiere"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Panza llena…»"
+opciones = ["corazón contento", "sueño profundo", "mente en blanco"]
+correcta = "corazón contento"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Donde hay patrón…»"
+opciones = ["no manda marinero", "hay trabajo", "hay barco"]
+correcta = "no manda marinero"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Cría cuervos…»"
+opciones = ["y te sacarán los ojos", "y tendrás plumas", "y volarán"]
+correcta = "y te sacarán los ojos"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Cada oveja…»"
+opciones = ["con su pareja", "en su corral", "con su pastor"]
+correcta = "con su pareja"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "Completa: «Más sabe el diablo por viejo que…»"
+opciones = ["por diablo", "por sabio", "por listo"]
+correcta = "por diablo"
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿La paella es originaria de Valencia?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El gazpacho se suele servir frío?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El tequila es una bebida de México?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Las Fallas se celebran en marzo?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Los Sanfermines se celebran en julio?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Halloween es el 31 de octubre?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El 1 de mayo es el Día del Trabajo?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿San Valentín es el 14 de febrero?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Se usa el euro en el Reino Unido?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Se usa el euro en Francia?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El tofu se hace con soja?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El queso manchego se hace con leche de oveja?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El Concorde era un avión supersónico?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿Un kilo son mil gramos?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El cava es un vino con burbujas?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿La mantequilla se hace con leche?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El Carnaval se celebra después de la Cuaresma?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+enunciado = "¿El sushi lleva siempre arroz?"
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1.2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Metro de Barcelona (Gran Metro)?"
+min = 1899
+max = 1949
+paso = 1
+respuesta = 1924
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó el AVE a Barcelona desde Madrid?"
+min = 2003
+max = 2013
+paso = 1
+respuesta = 2008
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó el AVE a Valencia desde Madrid?"
+min = 2005
+max = 2015
+paso = 1
+respuesta = 2010
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Metro de Londres, el primero del mundo?"
+min = 1838
+max = 1888
+paso = 1
+respuesta = 1863
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se creó la Coca-Cola en Atlanta?"
+min = 1846
+max = 1926
+paso = 1
+respuesta = 1886
+tolerancia = 8
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año abrió su primera tienda Zara en La Coruña?"
+min = 1960
+max = 1990
+paso = 1
+respuesta = 1975
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó El Corte Inglés?"
+min = 1905
+max = 1965
+paso = 1
+respuesta = 1935
+tolerancia = 6
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Mercadona como empresa de alimentación?"
+min = 1952
+max = 2002
+paso = 1
+respuesta = 1977
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la compañía aérea Iberia?"
+min = 1902
+max = 1952
+paso = 1
+respuesta = 1927
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año salió el primer Seat 600?"
+min = 1942
+max = 1972
+paso = 1
+respuesta = 1957
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se creó Renfe?"
+min = 1916
+max = 1966
+paso = 1
+respuesta = 1941
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la Compañía Telefónica Nacional de España?"
+min = 1899
+max = 1949
+paso = 1
+respuesta = 1924
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació el euro como moneda virtual, antes de las monedas físicas?"
+min = 1994
+max = 2004
+paso = 1
+respuesta = 1999
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año abrió el primer McDonald's de España, en Madrid?"
+min = 1971
+max = 1991
+paso = 1
+respuesta = 1981
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año abrió su primera tienda Ikea en España, en Badalona?"
+min = 1986
+max = 2006
+paso = 1
+respuesta = 1996
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la cervecera Mahou?"
+min = 1850
+max = 1930
+paso = 1
+respuesta = 1890
+tolerancia = 8
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la cervecera Damm?"
+min = 1836
+max = 1916
+paso = 1
+respuesta = 1876
+tolerancia = 8
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebró la primera fiesta de la cerveza de Múnich, el Oktoberfest?"
+min = 1770
+max = 1850
+paso = 1
+respuesta = 1810
+tolerancia = 8
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se escaneó por primera vez un código de barras en un supermercado?"
+min = 1954
+max = 1994
+paso = 1
+respuesta = 1974
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año apareció la primera tarjeta de crédito, la Diners Club?"
+min = 1930
+max = 1970
+paso = 1
+respuesta = 1950
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se instaló el primer cajero automático, en Londres?"
+min = 1947
+max = 1987
+paso = 1
+respuesta = 1967
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año hicieron su primer vuelo a motor los hermanos Wright?"
+min = 1888
+max = 1918
+paso = 1
+respuesta = 1903
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Canal de Panamá?"
+min = 1899
+max = 1929
+paso = 1
+respuesta = 1914
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Canal de Suez?"
+min = 1844
+max = 1894
+paso = 1
+respuesta = 1869
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año hizo su primer viaje el Orient Express?"
+min = 1853
+max = 1913
+paso = 1
+respuesta = 1883
+tolerancia = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año salió al mercado el Ford T, el coche popular?"
+min = 1888
+max = 1928
+paso = 1
+respuesta = 1908
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año circuló el primer tren en España, entre Barcelona y Mataró?"
+min = 1828
+max = 1868
+paso = 1
+respuesta = 1848
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el túnel bajo el Canal de la Mancha?"
+min = 1984
+max = 2004
+paso = 1
+respuesta = 1994
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año salió a la venta el primer iPhone?"
+min = 2002
+max = 2012
+paso = 1
+respuesta = 2007
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se presentó el Seat Ibiza?"
+min = 1969
+max = 1999
+paso = 1
+respuesta = 1984
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se creó el servicio de Correos en España?"
+min = 1641
+max = 1791
+paso = 1
+respuesta = 1716
+tolerancia = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se instaló en Londres el primer semáforo del mundo?"
+min = 1838
+max = 1898
+paso = 1
+respuesta = 1868
+tolerancia = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Metro de Bilbao?"
+min = 1985
+max = 2005
+paso = 1
+respuesta = 1995
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Metro de Nueva York?"
+min = 1884
+max = 1924
+paso = 1
+respuesta = 1904
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Metro de París?"
+min = 1880
+max = 1920
+paso = 1
+respuesta = 1900
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Metro de Moscú?"
+min = 1915
+max = 1955
+paso = 1
+respuesta = 1935
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el aeropuerto de Madrid-Barajas?"
+min = 1911
+max = 1951
+paso = 1
+respuesta = 1931
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró la Terminal 4 de Barajas?"
+min = 2001
+max = 2011
+paso = 1
+respuesta = 2006
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la marca Seat?"
+min = 1930
+max = 1970
+paso = 1
+respuesta = 1950
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Ikea?"
+min = 1918
+max = 1968
+paso = 1
+respuesta = 1943
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Adidas?"
+min = 1924
+max = 1974
+paso = 1
+respuesta = 1949
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se creó la Pepsi?"
+min = 1858
+max = 1938
+paso = 1
+respuesta = 1898
+tolerancia = 8
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Apple?"
+min = 1966
+max = 1986
+paso = 1
+respuesta = 1976
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Google?"
+min = 1988
+max = 2008
+paso = 1
+respuesta = 1998
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Samsung?"
+min = 1908
+max = 1968
+paso = 1
+respuesta = 1938
+tolerancia = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Nokia?"
+min = 1815
+max = 1915
+paso = 1
+respuesta = 1865
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Nestlé?"
+min = 1816
+max = 1916
+paso = 1
+respuesta = 1866
+tolerancia = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó H&M?"
+min = 1922
+max = 1972
+paso = 1
+respuesta = 1947
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se implantó la peseta como moneda en España?"
+min = 1838
+max = 1898
+paso = 1
+respuesta = 1868
+tolerancia = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fueron declaradas las Fallas Patrimonio Inmaterial de la Humanidad?"
+min = 2006
+max = 2026
+paso = 1
+respuesta = 2016
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue declarada la Fiesta de los Patios de Córdoba Patrimonio Inmaterial de la Humanidad?"
+min = 2002
+max = 2022
+paso = 1
+respuesta = 2012
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año declaró la UNESCO el flamenco Patrimonio Inmaterial de la Humanidad?"
+min = 2000
+max = 2020
+paso = 1
+respuesta = 2010
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebró la primera Tomatina de Buñol?"
+min = 1915
+max = 1975
+paso = 1
+respuesta = 1945
+tolerancia = 6
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Fiesta», la novela de Hemingway que dio fama internacional a San Fermín?"
+min = 1901
+max = 1951
+paso = 1
+respuesta = 1926
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año adoptó Croacia el euro?"
+min = 2018
+max = 2028
+paso = 1
+respuesta = 2023
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año entró en vigor en España la ley que prohíbe fumar en bares y restaurantes?"
+min = 2001
+max = 2021
+paso = 1
+respuesta = 2011
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se implantó el carné de conducir por puntos en España?"
+min = 1996
+max = 2016
+paso = 1
+respuesta = 2006
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Microsoft?"
+min = 1960
+max = 1990
+paso = 1
+respuesta = 1975
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Amazon?"
+min = 1984
+max = 2004
+paso = 1
+respuesta = 1994
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Netflix?"
+min = 1987
+max = 2007
+paso = 1
+respuesta = 1997
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Toyota?"
+min = 1912
+max = 1962
+paso = 1
+respuesta = 1937
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Volkswagen?"
+min = 1912
+max = 1962
+paso = 1
+respuesta = 1937
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Burger King?"
+min = 1934
+max = 1974
+paso = 1
+respuesta = 1954
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la marca Lacoste?"
+min = 1908
+max = 1958
+paso = 1
+respuesta = 1933
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Ferrari como empresa?"
+min = 1927
+max = 1967
+paso = 1
+respuesta = 1947
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó Lego?"
+min = 1907
+max = 1957
+paso = 1
+respuesta = 1932
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a circular el Shinkansen japonés, el primer tren de alta velocidad?"
+min = 1949
+max = 1979
+paso = 1
+respuesta = 1964
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el TGV París-Lyon?"
+min = 1966
+max = 1996
+paso = 1
+respuesta = 1981
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a volar comercialmente el Concorde?"
+min = 1961
+max = 1991
+paso = 1
+respuesta = 1976
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a operar con pasajeros el Airbus A380?"
+min = 2002
+max = 2012
+paso = 1
+respuesta = 2007
+tolerancia = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a volar comercialmente el Boeing 747?"
+min = 1955
+max = 1985
+paso = 1
+respuesta = 1970
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró la estación de Atocha de Madrid?"
+min = 1826
+max = 1876
+paso = 1
+respuesta = 1851
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró la estación Grand Central Terminal de Nueva York?"
+min = 1898
+max = 1928
+paso = 1
+respuesta = 1913
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró la estación internacional de Canfranc?"
+min = 1908
+max = 1948
+paso = 1
+respuesta = 1928
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó YouTube?"
+min = 2000
+max = 2010
+paso = 1
+respuesta = 2005
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Facebook?"
+min = 1999
+max = 2009
+paso = 1
+respuesta = 2004
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació WhatsApp?"
+min = 2004
+max = 2014
+paso = 1
+respuesta = 2009
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide aproximadamente el Camino Francés de Santiago, desde Saint-Jean-Pied-de-Port?"
+min = 400
+max = 1200
+paso = 10
+unidad = "km"
+respuesta = 780
+tolerancia = 80
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide la línea de alta velocidad Madrid-Barcelona?"
+min = 300
+max = 900
+paso = 10
+unidad = "km"
+respuesta = 620
+tolerancia = 60
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el Canal de Panamá?"
+min = 40
+max = 120
+paso = 5
+unidad = "km"
+respuesta = 80
+tolerancia = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué velocidad máxima comercial circula el AVE en la línea Madrid-Sevilla?"
+min = 150
+max = 450
+paso = 10
+unidad = "km/h"
+respuesta = 300
+tolerancia = 30
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué graduación alcohólica tiene una cerveza típica, en porcentaje de alcohol?"
+min = 1
+max = 9
+paso = 0.5
+unidad = "%"
+respuesta = 5
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué graduación alcohólica suele tener un vino tinto corriente, en porcentaje?"
+min = 5
+max = 25
+paso = 0.5
+unidad = "%"
+respuesta = 13
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué graduación mínima suele tener un whisky, en porcentaje de alcohol?"
+min = 15
+max = 80
+paso = 1
+unidad = "%"
+respuesta = 40
+tolerancia = 8
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es el tipo general del IVA en España?"
+min = 5
+max = 40
+paso = 1
+unidad = "%"
+respuesta = 21
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos países usaban el euro como moneda en 2024?"
+min = 10
+max = 30
+paso = 1
+respuesta = 20
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos países son miembros de la ONU?"
+min = 100
+max = 300
+paso = 1
+respuesta = 193
+tolerancia = 20
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros medía la Ruta 66 estadounidense, de Chicago a Los Ángeles?"
+min = 1500
+max = 5500
+paso = 100
+unidad = "km"
+respuesta = 3900
+tolerancia = 400
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el Transiberiano, de Moscú a Vladivostok?"
+min = 4000
+max = 14000
+paso = 100
+unidad = "km"
+respuesta = 9300
+tolerancia = 1000
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas horas dura aproximadamente un vuelo directo de Madrid a Nueva York?"
+min = 4
+max = 14
+paso = 0.5
+unidad = "horas"
+respuesta = 8.5
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas horas se tarda en coche, por autopista, de Madrid a Barcelona?"
+min = 2
+max = 12
+paso = 0.5
+unidad = "horas"
+respuesta = 6
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es la velocidad máxima permitida en las autopistas españolas?"
+min = 60
+max = 200
+paso = 10
+unidad = "km/h"
+respuesta = 120
+tolerancia = 20
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos días duran los Sanfermines, del 6 al 14 de julio?"
+min = 3
+max = 20
+paso = 1
+unidad = "días"
+respuesta = 9
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos días de vacaciones anuales mínimos tiene un trabajador en España?"
+min = 10
+max = 60
+paso = 1
+unidad = "días"
+respuesta = 30
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas horas semanales es la jornada máxima ordinaria legal en España (2024)?"
+min = 20
+max = 60
+paso = 1
+unidad = "horas"
+respuesta = 40
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos minutos hay que cocer un huevo para que quede duro?"
+min = 2
+max = 25
+paso = 1
+unidad = "min"
+respuesta = 10
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura debería estar el frigorífico en su zona central?"
+min = 0
+max = 15
+paso = 1
+unidad = "°C"
+respuesta = 4
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura debería estar un congelador doméstico?"
+min = -30
+max = -5
+paso = 1
+unidad = "°C"
+respuesta = -18
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos gramos de azúcar tiene una lata de refresco de cola de 330 ml?"
+min = 10
+max = 80
+paso = 5
+unidad = "g"
+respuesta = 35
+tolerancia = 8
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros por carretera hay aproximadamente entre Madrid y Barcelona?"
+min = 300
+max = 900
+paso = 10
+unidad = "km"
+respuesta = 620
+tolerancia = 60
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros de red de alta velocidad tenía España en 2023, aproximadamente?"
+min = 2000
+max = 6000
+paso = 100
+unidad = "km"
+respuesta = 3900
+tolerancia = 500
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo en circulación la peseta como moneda de España?"
+min = 1825
+max = 2050
+paso = 1
+respuesta = [1868, 2002]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo en circulación la lira italiana?"
+min = 1825
+max = 2050
+paso = 1
+respuesta = [1861, 2002]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo en circulación el marco alemán?"
+min = 1900
+max = 2050
+paso = 1
+respuesta = [1948, 2002]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años voló comercialmente el Concorde?"
+min = 1950
+max = 2050
+paso = 1
+respuesta = [1976, 2003]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años operó la aerolínea estadounidense Pan Am?"
+min = 1900
+max = 2025
+paso = 1
+respuesta = [1927, 1991]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué días de marzo se celebran las Fallas de Valencia?"
+min = 0
+max = 31
+paso = 1
+unidad = "marzo"
+respuesta = [15, 19]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué días de julio se celebran los Sanfermines?"
+min = 0
+max = 31
+paso = 1
+unidad = "julio"
+respuesta = [6, 14]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Levi Strauss, inventor de los vaqueros?"
+min = 1800
+max = 1950
+paso = 1
+respuesta = [1829, 1902]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Coco Chanel?"
+min = 1850
+max = 2000
+paso = 1
+respuesta = [1883, 1971]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Walt Disney?"
+min = 1875
+max = 2000
+paso = 1
+respuesta = [1901, 1966]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Henry Ford?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1863, 1947]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Karl Benz, inventor del automóvil?"
+min = 1800
+max = 1975
+paso = 1
+respuesta = [1844, 1929]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Louis Pasteur, que dio nombre a la pasteurización?"
+min = 1775
+max = 1925
+paso = 1
+respuesta = [1822, 1895]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alexander Graham Bell, inventor del teléfono?"
+min = 1800
+max = 1950
+paso = 1
+respuesta = [1847, 1922]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Isaac Peral, inventor del submarino español?"
+min = 1825
+max = 1925
+paso = 1
+respuesta = [1851, 1895]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el modisto Cristóbal Balenciaga?"
+min = 1850
+max = 2000
+paso = 1
+respuesta = [1895, 1972]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ramón Areces, fundador de El Corte Inglés?"
+min = 1875
+max = 2025
+paso = 1
+respuesta = [1904, 1989]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ferdinand Porsche?"
+min = 1850
+max = 2000
+paso = 1
+respuesta = [1875, 1951]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Enzo Ferrari?"
+min = 1850
+max = 2025
+paso = 1
+respuesta = [1898, 1988]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el cocinero Auguste Escoffier?"
+min = 1800
+max = 1975
+paso = 1
+respuesta = [1846, 1935]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Louis Braille, inventor del alfabeto para ciegos?"
+min = 1775
+max = 1900
+paso = 1
+respuesta = [1809, 1852]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ray Kroc, impulsor de McDonald's?"
+min = 1875
+max = 2025
+paso = 1
+respuesta = [1902, 1984]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Henry Heinz, el del kétchup?"
+min = 1800
+max = 1950
+paso = 1
+respuesta = [1844, 1919]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Milton Hershey, el chocolatero?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1857, 1945]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Michele Ferrero, creador de la Nutella?"
+min = 1900
+max = 2050
+paso = 1
+respuesta = [1925, 2015]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Louis Vuitton?"
+min = 1775
+max = 1925
+paso = 1
+respuesta = [1821, 1892]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Christian Dior?"
+min = 1875
+max = 2000
+paso = 1
+respuesta = [1905, 1957]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gianni Versace?"
+min = 1900
+max = 2025
+paso = 1
+respuesta = [1946, 1997]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Orville Wright, aviador?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1871, 1948]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Charles Lindbergh?"
+min = 1875
+max = 2000
+paso = 1
+respuesta = [1902, 1974]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gustave Eiffel?"
+min = 1800
+max = 1950
+paso = 1
+respuesta = [1832, 1923]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Guglielmo Marconi, pionero de la radio?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1874, 1937]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Louis Daguerre, inventor del daguerrotipo?"
+min = 1750
+max = 1900
+paso = 1
+respuesta = [1787, 1851]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Samuel Morse, inventor del telégrafo?"
+min = 1750
+max = 1900
+paso = 1
+respuesta = [1791, 1872]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Leonardo Torres Quevedo, ingeniero cántabro?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1852, 1936]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Narcís Monturiol, inventor del submarino Ictíneo?"
+min = 1775
+max = 1925
+paso = 1
+respuesta = [1819, 1885]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ildefons Cerdà, urbanista del Eixample de Barcelona?"
+min = 1775
+max = 1925
+paso = 1
+respuesta = [1815, 1876]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Juan de la Cierva, inventor del autogiro?"
+min = 1850
+max = 1975
+paso = 1
+respuesta = [1895, 1936]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el cocinero Paul Bocuse?"
+min = 1900
+max = 2050
+paso = 1
+respuesta = [1926, 2018]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió la cocinera Julia Child?"
+min = 1875
+max = 2050
+paso = 1
+respuesta = [1912, 2004]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Santi Santamaria, cocinero catalán con tres estrellas Michelin?"
+min = 1925
+max = 2050
+paso = 1
+respuesta = [1957, 2011]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Karl Drais, inventor de la bicicleta primitiva?"
+min = 1750
+max = 1900
+paso = 1
+respuesta = [1785, 1851]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió George Stephenson, padre del ferrocarril?"
+min = 1750
+max = 1875
+paso = 1
+respuesta = [1781, 1848]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Isambard Kingdom Brunel, ingeniero británico?"
+min = 1775
+max = 1900
+paso = 1
+respuesta = [1806, 1859]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Soichiro Honda, fundador de Honda?"
+min = 1875
+max = 2025
+paso = 1
+respuesta = [1906, 1991]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió André Citroën?"
+min = 1850
+max = 1975
+paso = 1
+respuesta = [1878, 1935]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ettore Bugatti?"
+min = 1850
+max = 1975
+paso = 1
+respuesta = [1881, 1947]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Adi Dassler, fundador de Adidas?"
+min = 1875
+max = 2025
+paso = 1
+respuesta = [1900, 1978]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gottlieb Daimler, pionero del motor de gasolina?"
+min = 1800
+max = 1950
+paso = 1
+respuesta = [1834, 1900]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Rudolf Diesel?"
+min = 1825
+max = 1950
+paso = 1
+respuesta = [1858, 1913]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Wilbur Wright, aviador?"
+min = 1825
+max = 1950
+paso = 1
+respuesta = [1867, 1912]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió la aviadora Amelia Earhart?"
+min = 1850
+max = 1975
+paso = 1
+respuesta = [1897, 1937]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Louis Blériot, aviador que cruzó el Canal de la Mancha?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1872, 1936]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió John Boyd Dunlop, inventor del neumático?"
+min = 1800
+max = 1950
+paso = 1
+respuesta = [1840, 1921]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió André Michelin, el de los neumáticos y la guía?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1853, 1931]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Charles Goodyear, inventor del caucho vulcanizado?"
+min = 1775
+max = 1900
+paso = 1
+respuesta = [1800, 1860]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el Coronel Sanders, fundador de KFC?"
+min = 1850
+max = 2025
+paso = 1
+respuesta = [1890, 1980]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Armand Peugeot?"
+min = 1800
+max = 1950
+paso = 1
+respuesta = [1849, 1915]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Louis Renault?"
+min = 1850
+max = 1975
+paso = 1
+respuesta = [1877, 1944]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Hugo Boss, modisto alemán?"
+min = 1850
+max = 1975
+paso = 1
+respuesta = [1885, 1948]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Rudolf Dassler, fundador de Puma?"
+min = 1850
+max = 2000
+paso = 1
+respuesta = [1898, 1974]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ferdinand von Zeppelin, creador de los dirigibles?"
+min = 1800
+max = 1950
+paso = 1
+respuesta = [1838, 1917]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alessandro Volta, inventor de la pila?"
+min = 1700
+max = 1875
+paso = 1
+respuesta = [1745, 1827]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Auguste Lumière, pionero del cine?"
+min = 1825
+max = 2000
+paso = 1
+respuesta = [1862, 1954]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el cocinero Marie-Antoine Carême?"
+min = 1750
+max = 1875
+paso = 1
+respuesta = [1784, 1833]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alberto Santos-Dumont, pionero de la aviación?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1873, 1932]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió George Eastman, fundador de Kodak?"
+min = 1825
+max = 1975
+paso = 1
+respuesta = [1854, 1932]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Willis Carrier, inventor del aire acondicionado?"
+min = 1850
+max = 2000
+paso = 1
+respuesta = [1876, 1950]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Henri Nestlé, fundador de Nestlé?"
+min = 1775
+max = 1925
+paso = 1
+respuesta = [1814, 1890]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió László Bíró, inventor del bolígrafo?"
+min = 1850
+max = 2025
+paso = 1
+respuesta = [1899, 1985]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Ley Seca en Estados Unidos?"
+min = 1875
+max = 1975
+paso = 1
+respuesta = [1920, 1933]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se vivió la fiebre del oro de California?"
+min = 1800
+max = 1900
+paso = 1
+respuesta = [1848, 1855]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años causó la peste negra su gran oleada en Europa?"
+min = 1300
+max = 1400
+paso = 1
+respuesta = [1347, 1351]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se vivió la tulipomanía holandesa, la primera burbuja financiera?"
+min = 1600
+max = 1675
+paso = 1
+respuesta = [1634, 1637]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años funcionó como carretera oficial la mítica Ruta 66?"
+min = 1900
+max = 2025
+paso = 1
+respuesta = [1926, 1985]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se suele fechar la Revolución Industrial británica?"
+min = 1725
+max = 1875
+paso = 1
+respuesta = [1760, 1840]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el Titanic?"
+min = 1875
+max = 1950
+paso = 1
+respuesta = [1909, 1912]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se excavó el Canal de Panamá bajo mando de Estados Unidos?"
+min = 1875
+max = 1950
+paso = 1
+respuesta = [1904, 1914]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se excavó el Canal de Suez?"
+min = 1825
+max = 1900
+paso = 1
+respuesta = [1859, 1869]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó la Torre Eiffel?"
+min = 1850
+max = 1925
+paso = 1
+respuesta = [1887, 1889]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el túnel bajo el Canal de la Mancha?"
+min = 1950
+max = 2025
+paso = 1
+respuesta = [1988, 1994]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el Empire State Building?"
+min = 1900
+max = 1975
+paso = 1
+respuesta = [1930, 1931]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el puente Golden Gate?"
+min = 1900
+max = 1975
+paso = 1
+respuesta = [1933, 1937]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó la presa Hoover?"
+min = 1900
+max = 1975
+paso = 1
+respuesta = [1931, 1936]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el ferrocarril Transiberiano?"
+min = 1850
+max = 1950
+paso = 1
+respuesta = [1891, 1916]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el Burj Khalifa, el rascacielos más alto del mundo?"
+min = 1975
+max = 2050
+paso = 1
+respuesta = [2004, 2010]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué horas suele comerse en España?"
+min = 10
+max = 24
+paso = 0.5
+unidad = "h"
+respuesta = [14, 16]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué horas suele cenarse en España?"
+min = 16
+max = 24
+paso = 0.5
+unidad = "h"
+respuesta = [21, 23]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué horas suele echarse la siesta en España?"
+min = 10
+max = 24
+paso = 0.5
+unidad = "h"
+respuesta = [14, 16]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué horas suele ser una jornada de oficina en España?"
+min = 4
+max = 24
+paso = 0.5
+unidad = "h"
+respuesta = [9, 18]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué horas suele desayunarse en España?"
+min = 4
+max = 14
+paso = 0.5
+unidad = "h"
+respuesta = [7, 9]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué horas suele merendarse en España?"
+min = 12
+max = 22
+paso = 0.5
+unidad = "h"
+respuesta = [17, 18]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué edades es obligatoria la escolarización en España?"
+min = 0
+max = 25
+paso = 1
+unidad = "años"
+respuesta = [6, 16]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué edades se cursa la Educación Primaria en España?"
+min = 0
+max = 25
+paso = 1
+unidad = "años"
+respuesta = [6, 12]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué edades se cursa la ESO en España?"
+min = 0
+max = 25
+paso = 1
+unidad = "años"
+respuesta = [12, 16]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué edades se cursa el Bachillerato en España?"
+min = 8
+max = 28
+paso = 1
+unidad = "años"
+respuesta = [16, 18]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué meses se vendimia habitualmente en La Rioja?"
+min = 1
+max = 12
+paso = 1
+unidad = "mes"
+respuesta = [9, 10]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas se sirve un vino tinto joven?"
+min = 0
+max = 30
+paso = 1
+unidad = "°C"
+respuesta = [14, 16]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿A qué temperaturas se sirve el vino blanco?"
+min = 0
+max = 30
+paso = 1
+unidad = "°C"
+respuesta = [8, 10]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿A qué temperaturas se sirve el cava?"
+min = 0
+max = 25
+paso = 1
+unidad = "°C"
+respuesta = [6, 8]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué temperaturas debe mantenerse un frigorífico doméstico?"
+min = -10
+max = 20
+paso = 1
+unidad = "°C"
+respuesta = [2, 5]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿A qué temperaturas se asa un pollo en el horno?"
+min = 100
+max = 300
+paso = 10
+unidad = "°C"
+respuesta = [180, 200]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Cuántos minutos se cuece un huevo duro en agua hirviendo?"
+min = 0
+max = 30
+paso = 1
+unidad = "min"
+respuesta = [9, 12]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Cuántos minutos se cuece la pasta al dente?"
+min = 0
+max = 25
+paso = 1
+unidad = "min"
+respuesta = [8, 10]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué graduación alcohólica tiene una cerveza normal, en porcentaje?"
+min = 0
+max = 20
+paso = 0.5
+unidad = "%"
+respuesta = [4, 6]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué graduación alcohólica tiene un vino de mesa, en porcentaje?"
+min = 0
+max = 25
+paso = 0.5
+unidad = "%"
+respuesta = [11, 14]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué graduación tiene un vino fino de Jerez?"
+min = 5
+max = 30
+paso = 0.5
+unidad = "%"
+respuesta = [15, 17]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Qué graduación tiene un oloroso de Jerez?"
+min = 5
+max = 30
+paso = 0.5
+unidad = "%"
+respuesta = [17, 22]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la dictadura de Franco en España?"
+min = 1900
+max = 2025
+paso = 1
+respuesta = [1939, 1975]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se vendió en España el Seat 600?"
+min = 1925
+max = 2000
+paso = 1
+respuesta = [1957, 1973]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se fabricó el Ford T?"
+min = 1875
+max = 1975
+paso = 1
+respuesta = [1908, 1927]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se fabricó el Volkswagen Escarabajo original?"
+min = 1900
+max = 2050
+paso = 1
+respuesta = [1938, 2003]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se fabricó el Seat 127?"
+min = 1925
+max = 2025
+paso = 1
+respuesta = [1972, 1982]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere el desayuno de fin de semana?"
+opciones = ["Churros con chocolate", "Tostada con tomate y aceite", "Bollería", "Huevos y bacon"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para el aperitivo del domingo?"
+opciones = ["Vermut con aceitunas", "Cerveza con patatas", "Vino con queso", "Refresco con frutos secos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en una barbacoa?"
+opciones = ["Chuletón", "Costillas", "Pinchitos", "Verduras a la parrilla"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál es su forma favorita de comer el pollo?"
+opciones = ["Asado", "Frito", "Al ajillo", "Empanado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de postre en un restaurante?"
+opciones = ["Tarta de queso", "Flan", "Helado", "Fruta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere las patatas?"
+opciones = ["Fritas", "Bravas", "Al horno", "En puré"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué salsa elegiría para mojar?"
+opciones = ["Kétchup", "Mayonesa", "Alioli", "Barbacoa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en la cena de Navidad?"
+opciones = ["Cordero", "Marisco", "Pavo", "Cochinillo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué turrón elegiría?"
+opciones = ["Blando de Jijona", "Duro de Alicante", "De chocolate", "Ninguno, prefiere el polvorón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para el Año Nuevo?"
+opciones = ["Cotillón en casa", "Fiesta fuera", "Cena tranquila", "Acostarse pronto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo se toma el café con leche?"
+opciones = ["Solo", "Cortado", "Con hielo", "Con leche muy caliente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de un menú del día?"
+opciones = ["El primero", "El segundo", "El postre", "El pan"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pide en una heladería?"
+opciones = ["Vainilla", "Chocolate", "Fresa", "Pistacho"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace con el pan en la mesa?"
+opciones = ["Mojar en la salsa", "Comerlo con todo", "Dejarlo aparte", "Hacer bolitas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para una comida rápida?"
+opciones = ["Hamburguesa", "Pizza", "Kebab", "Bocadillo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en un bar de tapas?"
+opciones = ["Croquetas", "Calamares", "Patatas bravas", "Jamón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fruta prefiere en verano?"
+opciones = ["Sandía", "Melón", "Melocotón", "Cerezas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más para cenar el sábado?"
+opciones = ["Pizza", "Sushi", "Cena casera", "Salir a un restaurante"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para el tentempié de media mañana?"
+opciones = ["Bocadillo", "Fruta", "Café con bollo", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué sabor prefiere en las patatas fritas de bolsa?"
+opciones = ["Normales", "Jamón", "Barbacoa", "Pimientos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere la carne?"
+opciones = ["Poco hecha", "Al punto", "Muy hecha", "Prefiere pescado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pasta prefiere?"
+opciones = ["Carbonara", "Boloñesa", "Pesto", "Cuatro quesos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál es su refresco favorito?"
+opciones = ["Cola", "Naranja", "Limón", "Agua con gas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué desayunaría en un viaje?"
+opciones = ["Buffet del hotel", "Cafetería local", "Algo rápido", "No desayuna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué alojamiento prefiere?"
+opciones = ["Hotel", "Apartamento", "Camping", "Casa rural"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde prefiere ir de vacaciones?"
+opciones = ["Playa", "Montaña", "Ciudad", "Pueblo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta hacer al llegar a un destino?"
+opciones = ["Pasear sin rumbo", "Visitar museos", "Probar su comida", "Ir a la playa o piscina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere al hacer la maleta?"
+opciones = ["Prepararla con días", "Hacerla la noche antes", "Hacerla el mismo día", "Que se la haga otro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué asiento prefiere en el avión o el tren?"
+opciones = ["Ventanilla", "Pasillo", "Delante", "Detrás"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en un viaje largo en coche?"
+opciones = ["Escuchar música", "Dormir", "Conducir", "Charlar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál es su plan de viaje ideal?"
+opciones = ["Todo organizado", "Con improvisación", "Un circuito guiado", "Sin plan"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas fotos hace de viaje?"
+opciones = ["Muchísimas", "Las justas", "Casi ninguna", "Solo selfies"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué compra de recuerdo?"
+opciones = ["Imán de nevera", "Comida típica", "Camiseta", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fiesta española le llama más?"
+opciones = ["Fallas", "Sanfermines", "Feria de Abril", "Semana Santa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta de la Navidad?"
+opciones = ["La cena", "Los regalos", "Las luces", "Las reuniones familiares"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría el día de Reyes?"
+opciones = ["Abrir regalos temprano", "Comer roscón", "Ver la cabalgata", "Dormir"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en el Carnaval?"
+opciones = ["Disfrazarse", "Ver el desfile", "Ir a una fiesta", "Quedarse en casa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere pasar Nochevieja?"
+opciones = ["En casa con la familia", "Con amigos", "De viaje", "Trabajando o durmiendo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta hacer en San Juan?"
+opciones = ["Saltar la hoguera", "Ir a la playa", "Cenar al aire libre", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta del verano?"
+opciones = ["Las vacaciones", "El helado", "La piscina", "Los festivales"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hobby tiene más a menudo?"
+opciones = ["Leer", "Cocinar", "Deporte", "Videojuegos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más en su tiempo libre?"
+opciones = ["Salir con amigos", "Quedarse en casa", "Hacer deporte", "Una afición creativa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría un sábado por la mañana?"
+opciones = ["Dormir más", "Hacer deporte", "Ir al mercado", "Tareas de casa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué música escucha más?"
+opciones = ["Pop", "Rock", "Reguetón", "Clásica o instrumental"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde ve las series?"
+opciones = ["En el sofá", "En la cama", "En el móvil", "En el cine"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en una tarde de domingo de invierno?"
+opciones = ["Película y manta", "Paseo", "Juego de mesa", "Siesta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere hacer la compra?"
+opciones = ["En supermercado", "En mercado", "Por internet", "En tiendas pequeñas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en una tienda?"
+opciones = ["Probarse la ropa", "Comprar online", "Mirar sin comprar", "Ir directo a lo que busca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para pagar?"
+opciones = ["Efectivo", "Tarjeta", "Móvil", "Bizum"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál es su manía más habitual?"
+opciones = ["Orden", "Puntualidad", "Dejarlo todo para el final", "Apagar luces"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo se organiza?"
+opciones = ["Con agenda", "Con el móvil", "De memoria", "Con notas en papel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le pasa al sonar el despertador?"
+opciones = ["Se levanta enseguida", "Lo apaga y duerme", "Lo pospone varias veces", "Se despierta antes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál es su rutina de mañana?"
+opciones = ["Ducha y café", "Café y noticias", "Deporte", "Salir corriendo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo se ducha?"
+opciones = ["Por la mañana", "Por la noche", "Después del deporte", "Cuando toca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para ir al trabajo o al cole?"
+opciones = ["Andando", "En transporte público", "En coche", "En bici"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace en la cola del supermercado?"
+opciones = ["Mira el móvil", "Mira a la gente", "Cambia de cola", "Charla"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo lleva los cumpleaños?"
+opciones = ["Fiesta grande", "Cena con amigos", "Comida familiar", "Mejor sin celebrar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué regalo hace más a menudo?"
+opciones = ["Un libro", "Ropa", "Experiencia", "Dinero"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en casa?"
+opciones = ["Mucha luz", "Penumbra", "Música alta", "Silencio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué temperatura prefiere el aire?"
+opciones = ["Muy fresco", "Templado", "Algo cálido", "Sin aire"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere dormir?"
+opciones = ["Con ventana abierta", "Con ventilador", "Con manta gruesa", "Con calor"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo pone la lavadora?"
+opciones = ["Por la mañana", "Por la noche", "Los fines de semana", "Cuando se llena"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en un atasco?"
+opciones = ["Escuchar música", "Pitar", "Hacer llamadas", "Cantar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de coche prefiere?"
+opciones = ["Compacto", "Todoterreno", "Descapotable", "Eléctrico"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué llevaría en el bolso o la mochila?"
+opciones = ["Auriculares", "Cargador", "Libro", "Snacks"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere salir de fiesta?"
+opciones = ["Bar de copas", "Discoteca", "Casa de amigos", "Terraza"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en una terraza?"
+opciones = ["Cerveza", "Vino", "Refresco", "Café"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de viajes prefiere?"
+opciones = ["Aventura", "Descanso", "Gastronomía", "Cultura"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta del mercado?"
+opciones = ["Fruta fresca", "Pescado", "Embutidos", "El ambiente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pide en un chiringuito?"
+opciones = ["Pescaíto frito", "Paella", "Espetos", "Ensalada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo se toma el té?"
+opciones = ["Con limón", "Con leche", "Helado", "No lo toma"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué merienda de niño le gustaba más?"
+opciones = ["Bocadillo de chocolate", "Galletas", "Fruta", "Bollo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo comía el huevo frito de pequeño?"
+opciones = ["Con patatas", "Con arroz", "Con pan", "No le gustaba"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tradición familiar le gusta más?"
+opciones = ["Comida de domingo", "Vacaciones juntos", "Navidad en casa de los abuelos", "Cumpleaños"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué refrán le gustaría tener como lema?"
+opciones = ["Más vale tarde que nunca", "A quien madruga, Dios le ayuda", "Al mal tiempo, buena cara", "No hay mal que por bien no venga"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde tomaría el sol?"
+opciones = ["Playa", "Piscina", "Montaña", "Terraza"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué marca de ropa prefiere?"
+opciones = ["Zara", "Mango", "H&M", "Cualquiera"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué zapatillas lleva más?"
+opciones = ["Nike", "Adidas", "New Balance", "Otras"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué móvil prefiere?"
+opciones = ["iPhone", "Samsung", "Xiaomi", "Cualquiera que funcione"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de transporte le da más pereza?"
+opciones = ["Autobús", "Metro", "Avión", "Tren de cercanías"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría hacer en un día libre?"
+opciones = ["Ir de excursión", "Quedarse en casa", "Visitar la ciudad", "Quedar con amigos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere su pizza?"
+opciones = ["Con piña", "Sin piña", "Con extra de queso", "Con borde relleno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo se come un bocadillo?"
+opciones = ["Entero", "En trozos", "Abierto", "Sin la corteza"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con una hora libre?"
+opciones = ["Leer", "Dormir", "Ver series", "Pasear"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo come el pan con aceite?"
+opciones = ["Con sal", "Con tomate", "Con jamón", "Solo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo come las sardinas?"
+opciones = ["A la brasa", "En lata", "Fritas", "No le gustan"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere los macarrones?"
+opciones = ["Con tomate", "Con queso", "Con carne", "Con nata"]
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se celebran los Sanfermines."
+respuesta = { lat = 42.8167, lng = -1.65 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por las Fallas."
+respuesta = { lat = 39.47, lng = -0.3764 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad donde se celebra la Tomatina."
+respuesta = { lat = 39.4194, lng = -0.7906 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad de la Batalla del Vino, en la Rioja Alta."
+respuesta = { lat = 42.5769, lng = -2.8461 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por su Carnaval y sus chirigotas."
+respuesta = { lat = 36.535, lng = -6.2975 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad con uno de los carnavales más famosos de Canarias."
+respuesta = { lat = 28.4667, lng = -16.25 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad famosa por su Carnaval y su festival de cine fantástico."
+respuesta = { lat = 41.2339, lng = 1.8042 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por sus Moros y Cristianos de abril."
+respuesta = { lat = 38.6983, lng = -0.4736 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se representa cada agosto el Misteri."
+respuesta = { lat = 38.2654, lng = -0.6989 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad con una de las Semanas Santas más sobrias de España."
+respuesta = { lat = 41.5033, lng = -5.7556 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad murciana famosa por sus procesiones bordadas de Semana Santa."
+respuesta = { lat = 37.6833, lng = -1.7 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la Semana Santa con la procesión del Camino del Calvario y las casas colgadas."
+respuesta = { lat = 40.0717, lng = -2.1344 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad catalana cuna de los castells, las torres humanas."
+respuesta = { lat = 41.2883, lng = 1.2508 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad catalana de los castells y del vino del Penedès."
+respuesta = { lat = 41.3447, lng = 1.6994 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad valenciana de la fiesta de la Mare de Déu de la Salut, con muixeranga."
+respuesta = { lat = 39.1897, lng = -0.4378 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad valenciana de la Fiesta de la Vendimia, con vinos de interior."
+respuesta = { lat = 39.4885, lng = -1.1023 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad del vino de Jerez y la Feria del Caballo."
+respuesta = { lat = 36.7, lng = -6.1167 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad gaditana de la manzanilla y las carreras de caballos en la playa."
+respuesta = { lat = 36.7789, lng = -6.3539 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la Feria de Abril."
+respuesta = { lat = 37.3886, lng = -5.995 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad del Festival de los Patios."
+respuesta = { lat = 37.89, lng = -4.78 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la Feria de Agosto y la Semana Santa con tronos."
+respuesta = { lat = 36.7167, lng = -4.4167 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se toma tapa gratis con cada bebida."
+respuesta = { lat = 37.175, lng = -3.6 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad salmantina famosa por su Carnaval del Toro."
+respuesta = { lat = 40.5992, lng = -6.5289 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por el cochinillo asado y el acueducto."
+respuesta = { lat = 40.9481, lng = -4.1183 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad extremeña con teatro romano y su Carnaval."
+respuesta = { lat = 38.9158, lng = -6.3333 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad vallisoletana donde se firmó el famoso tratado de 1494 y hay toro en septiembre."
+respuesta = { lat = 41.5009, lng = -5.0005 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad meta del Camino de Santiago."
+respuesta = { lat = 42.8833, lng = -8.5333 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad gallega de la Feira do Cocido."
+respuesta = { lat = 42.6614, lng = -8.111 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad ourensana de la Fiesta de la Historia y del vino Ribeiro."
+respuesta = { lat = 42.2882, lng = -8.1431 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad gallega fronteriza con Portugal, famosa por su catedral."
+respuesta = { lat = 42.0481, lng = -8.6444 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad asturiana famosa por su sidra y su Festival de la Sidra."
+respuesta = { lat = 43.3582, lng = -5.5057 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad asturiana de la Semana Grande y de la cultura de la sidra."
+respuesta = { lat = 43.5293, lng = -5.6773 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad asturiana, capital de la manzana y la sidra natural."
+respuesta = { lat = 43.4813, lng = -5.4335 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad guipuzcoana famosa por sus alubias negras."
+respuesta = { lat = 43.1386, lng = -2.0724 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad guipuzcoana del Alarde de San Marcial."
+respuesta = { lat = 43.3624, lng = -1.7915 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la Tamborrada del 20 de enero y de los pintxos."
+respuesta = { lat = 43.32, lng = -1.98 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad vasca de la que sale el txakoli."
+respuesta = { lat = 43.3045, lng = -2.2037 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de las fiestas de La Blanca, con la bajada del Celedón."
+respuesta = { lat = 42.8467, lng = -2.6731 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad menorquina que da nombre a un queso con denominación de origen."
+respuesta = { lat = 39.8894, lng = 4.2642 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad menorquina de las fiestas de Sant Joan con caballos."
+respuesta = { lat = 40.0014, lng = 3.8364 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad balear conocida por la fiesta nocturna y las salinas."
+respuesta = { lat = 38.98, lng = 1.43 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad oscense capital de la denominación de origen Somontano."
+respuesta = { lat = 42.0365, lng = 0.1272 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad capital de La Rioja y de su vino con denominación de origen calificada."
+respuesta = { lat = 42.47, lng = -2.4456 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad burgalesa conocida por su lechazo asado y el Ribera del Duero."
+respuesta = { lat = 41.6714, lng = -3.6864 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad pontevedresa capital del albariño de las Rías Baixas."
+respuesta = { lat = 42.5144, lng = -8.8138 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad leonesa capital del vino del Bierzo."
+respuesta = { lat = 42.5461, lng = -6.5908 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad catalana capital del cava."
+respuesta = { lat = 41.4261, lng = 1.785 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad salmantina cuna de un famoso jamón ibérico con denominación de origen."
+respuesta = { lat = 40.5575, lng = -5.6714 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad onubense famosa por su jamón ibérico de bellota."
+respuesta = { lat = 37.9167, lng = -6.7285 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el concejo asturiano donde se elabora el queso azul del mismo nombre."
+respuesta = { lat = 43.3161, lng = -4.8458 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad cordobesa de un célebre aceite de oliva con denominación de origen."
+respuesta = { lat = 37.6144, lng = -4.3256 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad murciana de un arroz con denominación de origen."
+respuesta = { lat = 38.2311, lng = -1.6978 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad manchega famosa por sus vinos tintos y claretes."
+respuesta = { lat = 38.7664, lng = -3.3997 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad murciana famosa por sus vinos monastrell."
+respuesta = { lat = 38.4792, lng = -1.325 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad cordobesa famosa por sus vinos finos de Montilla-Moriles."
+respuesta = { lat = 37.5866, lng = -4.6386 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad zamorana que da nombre a una denominación de origen de vinos tintos."
+respuesta = { lat = 41.52, lng = -5.3947 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad vallisoletana famosa por sus vinos rosados."
+respuesta = { lat = 41.7581, lng = -4.6997 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad zaragozana con denominación de origen de vinos de garnacha."
+respuesta = { lat = 41.35, lng = -1.6333 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad turolense famosa por su melocotón y la Semana Santa con tambores."
+respuesta = { lat = 40.9395, lng = -0.2316 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad manchega famosa por sus berenjenas encurtidas y su corral de comedias."
+respuesta = { lat = 38.8882, lng = -3.7118 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad extremeña que da nombre a una famosa torta de queso."
+respuesta = { lat = 39.5615, lng = -6.4171 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad cántabra famosa por sus anchoas."
+respuesta = { lat = 43.4414, lng = -3.4575 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad cántabra de la Batalla de Flores."
+respuesta = { lat = 43.4144, lng = -3.41 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la morcilla de arroz y la catedral gótica."
+respuesta = { lat = 42.3408, lng = -3.6997 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por sus yemas de Santa Teresa."
+respuesta = { lat = 40.6543, lng = -4.6962 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad leonesa famosa por sus mantecadas y su chocolate."
+respuesta = { lat = 42.4575, lng = -6.0569 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad vallisoletana que fue famosa por sus ferias medievales."
+respuesta = { lat = 41.3085, lng = -4.9151 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad madrileña famosa por sus fresas y espárragos."
+respuesta = { lat = 40.0333, lng = -3.6028 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad madrileña famosa por su anís y su Plaza Mayor con corridas."
+respuesta = { lat = 40.1394, lng = -3.4264 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la fiesta de Los Amantes y de la Vaquilla del Ángel."
+respuesta = { lat = 40.3436, lng = -1.1072 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad castellonense famosa por sus flaones y la fiesta del Sexenni."
+respuesta = { lat = 40.6192, lng = -0.1006 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad alicantina de las salinas y las lagunas rosas."
+respuesta = { lat = 37.9778, lng = -0.6833 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad valenciana famosa por su feria de agosto y su castillo."
+respuesta = { lat = 38.9887, lng = -0.5192 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por sus navajas y cuchillos."
+respuesta = { lat = 38.9956, lng = -1.8558 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por el mazapán y las espadas."
+respuesta = { lat = 39.8667, lng = -4.0333 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad del Rastro dominical y de los cocidos de la capital."
+respuesta = { lat = 40.4169, lng = -3.7033 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad asturiana famosa por sus carbayones y la fabada."
+respuesta = { lat = 43.3625, lng = -5.8503 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad asturiana del Descenso del Sella en piragua."
+respuesta = { lat = 43.4459, lng = -5.0835 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa del champán."
+respuesta = { lat = 49.2653, lng = 4.0286 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa del champán, a la que llaman su capital."
+respuesta = { lat = 49.04, lng = 3.9592 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa del vino más famoso del mundo."
+respuesta = { lat = 44.8378, lng = -0.5794 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa famosa por su mostaza."
+respuesta = { lat = 47.3231, lng = 5.0419 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad italiana del queso parmesano y del jamón."
+respuesta = { lat = 44.8015, lng = 10.328 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad italiana del vinagre balsámico y de las Ferrari."
+respuesta = { lat = 44.6458, lng = 10.9257 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad italiana donde nació la pizza."
+respuesta = { lat = 40.8358, lng = 14.2486 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad francesa de un famoso queso azul."
+respuesta = { lat = 43.9767, lng = 2.9889 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad francesa cuyo nombre se da a un famoso destilado de uva."
+respuesta = { lat = 45.6958, lng = -0.3292 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad portuguesa del vino que lleva su nombre."
+respuesta = { lat = 41.15, lng = -8.6108 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad alemana del Oktoberfest, la mayor fiesta de la cerveza."
+respuesta = { lat = 48.1375, lng = 11.575 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad italiana de su célebre Carnaval de máscaras."
+respuesta = { lat = 45.4397, lng = 12.3319 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad checa que dio nombre a un tipo de cerveza."
+respuesta = { lat = 49.7414, lng = 13.3825 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad belga famosa por sus gofres y su chocolate."
+respuesta = { lat = 50.8467, lng = 4.3517 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto Adolfo Suárez Madrid-Barajas."
+respuesta = { lat = 40.4722, lng = -3.5608 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto Josep Tarradellas Barcelona-El Prat."
+respuesta = { lat = 41.2969, lng = 2.0783 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la estación de Atocha, con un jardín tropical."
+respuesta = { lat = 40.4058, lng = -3.6897 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la estación de Sants, la mayor de Cataluña."
+respuesta = { lat = 41.3789, lng = 2.14 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la estación internacional del Pirineo oscense, famosa por su edificio imponente."
+respuesta = { lat = 42.7514, lng = -0.5142 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto londinense de Heathrow."
+respuesta = { lat = 51.4775, lng = -0.4614 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto parisino de Charles de Gaulle."
+respuesta = { lat = 49.0097, lng = 2.5478 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto holandés de Schiphol."
+respuesta = { lat = 52.3081, lng = 4.7642 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto de Fráncfort del Meno, nudo europeo."
+respuesta = { lat = 50.0333, lng = 8.5705 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la estación Grand Central Terminal, en Nueva York."
+respuesta = { lat = 40.7528, lng = -73.9772 }
+radio = 200000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la estación londinense de King's Cross, con el andén 9¾ de Harry Potter."
+respuesta = { lat = 51.531, lng = -0.1233 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la estación de Termini, la principal de Roma."
+respuesta = { lat = 41.9006, lng = 12.5018 }
+radio = 100000
+vista = { lat = 49.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto de Changi."
+respuesta = { lat = 1.3592, lng = 103.9894 }
+radio = 200000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto de Haneda, uno de los más grandes de Japón."
+respuesta = { lat = 35.5533, lng = 139.7811 }
+radio = 200000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto internacional de Dubái."
+respuesta = { lat = 25.2528, lng = 55.3644 }
+radio = 200000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el aeropuerto John F. Kennedy."
+respuesta = { lat = 40.64, lng = -73.78 }
+radio = 200000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad brasileña del carnaval más famoso del mundo."
+respuesta = { lat = -22.9111, lng = -43.2056 }
+radio = 250000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad estadounidense del Mardi Gras y del jazz."
+respuesta = { lat = 29.9761, lng = -90.0783 }
+radio = 250000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad india de su famosa feria de camellos."
+respuesta = { lat = 26.4903, lng = 74.5542 }
+radio = 250000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad del Día de Muertos más famoso."
+respuesta = { lat = 19.3538, lng = -99.1359 }
+radio = 250000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Mercado de La Boquería."
+respuesta = { lat = 41.3818, lng = 2.1715 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Mercado de San Miguel, junto a la Plaza Mayor."
+respuesta = { lat = 40.4154, lng = -3.7089 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Mercado Central de Valencia."
+respuesta = { lat = 39.4735, lng = -0.3789 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Mercado de la Ribera, uno de los mayores cubiertos de Europa."
+respuesta = { lat = 43.2555, lng = -2.9242 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad del Gran Bazar y del Orient Express."
+respuesta = { lat = 41.01, lng = 28.9603 }
+radio = 250000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por su mercado flotante y su comida callejera."
+respuesta = { lat = 13.75, lng = 100.5167 }
+radio = 250000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad marroquí de la plaza Yamaa el Fna y sus zocos."
+respuesta = { lat = 31.6295, lng = -7.9811 }
+radio = 250000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad japonesa de la ceremonia del té y de sus geishas."
+respuesta = { lat = 35.0116, lng = 135.7681 }
+radio = 250000
+vista = { lat = 20.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad catalana de la Semana Santa y de los castells."
+respuesta = { lat = 41.1175, lng = 1.2528 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la Aste Nagusia y del Mercado de la Ribera."
+respuesta = { lat = 43.2631, lng = -2.935 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad cántabra famosa por las anchoas y los sobaos pasiegos."
+respuesta = { lat = 43.4667, lng = -3.8 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad famosa por el hornazo del Lunes de Aguas."
+respuesta = { lat = 40.965, lng = -5.6642 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 5 }
+dificultad = 2

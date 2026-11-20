@@ -2763,3 +2763,4301 @@ enunciado = "¿Qué prefiere para leer?"
 opciones = ["Papel", "Pantalla"]
 tiempo = 8
 lectura = 2
+
+[[pregunta]]
+enunciado = "¿Qué arquitecto diseñó el Museo Guggenheim de Bilbao?"
+opciones = ["Frank Gehry", "Norman Foster", "Santiago Calatrava", "Rafael Moneo"]
+correcta = "Frank Gehry"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué compositor español escribió «El amor brujo»?"
+opciones = ["Manuel de Falla", "Isaac Albéniz", "Enrique Granados", "Joaquín Rodrigo"]
+correcta = "Manuel de Falla"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estilo artístico de la Alhambra de Granada?"
+opciones = ["Nazarí", "Mudéjar", "Plateresco", "Románico"]
+correcta = "Nazarí"
+dificultad = 2
+tiempo = 15
+explicacion = "El arte nazarí es el del reino de Granada, el último reino musulmán de la península."
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Rimas y leyendas»?"
+opciones = ["Gustavo Adolfo Bécquer", "José de Espronceda", "José Zorrilla", "Rosalía de Castro"]
+correcta = "Gustavo Adolfo Bécquer"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién pintó «El caballero de la mano en el pecho»?"
+opciones = ["El Greco", "Velázquez", "José de Ribera", "Zurbarán"]
+correcta = "El Greco"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién escribió la novela «La Regenta»?"
+opciones = ["Leopoldo Alas «Clarín»", "Benito Pérez Galdós", "Emilia Pardo Bazán", "José María de Pereda"]
+correcta = "Leopoldo Alas «Clarín»"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué escultor vasco es autor de «El Peine del Viento» de San Sebastián?"
+opciones = ["Eduardo Chillida", "Jorge Oteiza", "Pablo Gargallo", "Agustín Ibarrola"]
+correcta = "Eduardo Chillida"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Cien años de soledad»?"
+opciones = ["Gabriel García Márquez", "Mario Vargas Llosa", "Julio Cortázar", "Jorge Luis Borges"]
+correcta = "Gabriel García Márquez"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué compositor escribió «La Pasión según San Mateo»?"
+opciones = ["Johann Sebastian Bach", "Georg Friedrich Händel", "Antonio Vivaldi", "Joseph Haydn"]
+correcta = "Johann Sebastian Bach"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué escritor español ganó el Premio Nobel de Literatura en 1989?"
+opciones = ["Camilo José Cela", "Vicente Aleixandre", "Jacinto Benavente", "Juan Ramón Jiménez"]
+correcta = "Camilo José Cela"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué movimiento artístico impulsó André Breton con su manifiesto de 1924?"
+opciones = ["Surrealismo", "Dadaísmo", "Cubismo", "Futurismo"]
+correcta = "Surrealismo"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién es el autor de la novela «El sombrero de tres picos»?"
+opciones = ["Pedro Antonio de Alarcón", "Juan Valera", "Benito Pérez Galdós", "Leopoldo Alas «Clarín»"]
+correcta = "Pedro Antonio de Alarcón"
+dificultad = 3
+tiempo = 18
+
+[[pregunta]]
+enunciado = "¿Qué arquitecto diseñó la Ciudad de las Artes y las Ciencias de Valencia?"
+opciones = ["Santiago Calatrava", "Rafael Moneo", "Ricardo Bofill", "Félix Candela"]
+correcta = "Santiago Calatrava"
+dificultad = 3
+tiempo = 15
+explicacion = "Calatrava es valenciano, y Félix Candela, aunque español, trabajó sobre todo en México."
+
+[[pregunta]]
+enunciado = "¿Qué premio literario se entrega cada 23 de abril en Alcalá de Henares?"
+opciones = ["Premio Cervantes", "Premio Planeta", "Premio Nadal", "Premio Nacional de Narrativa"]
+correcta = "Premio Cervantes"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién esculpió «El pensador»?"
+opciones = ["Auguste Rodin", "Miguel Ángel", "Donatello", "Gian Lorenzo Bernini"]
+correcta = "Auguste Rodin"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién pintó «Las Meninas»?"
+opciones = ["Velázquez", "Murillo", "Goya"]
+correcta = "Velázquez"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién pintó «La maja desnuda»?"
+opciones = ["Dalí", "Picasso", "Goya"]
+correcta = "Goya"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿En qué país está el museo del Louvre?"
+opciones = ["Italia", "España", "Francia"]
+correcta = "Francia"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Don Quijote de la Mancha»?"
+opciones = ["Quevedo", "Lope de Vega", "Cervantes"]
+correcta = "Cervantes"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Romeo y Julieta»?"
+opciones = ["Shakespeare", "Dickens", "Molière"]
+correcta = "Shakespeare"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué pintor se cortó parte de una oreja?"
+opciones = ["Monet", "Van Gogh", "Goya"]
+correcta = "Van Gogh"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuántas cuerdas tiene una guitarra clásica?"
+opciones = ["8", "6", "4"]
+correcta = "6"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién pintó «La noche estrellada»?"
+opciones = ["Munch", "Monet", "Van Gogh"]
+correcta = "Van Gogh"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el Museo del Prado?"
+opciones = ["Madrid", "Barcelona", "Sevilla"]
+correcta = "Madrid"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién diseñó la Sagrada Familia?"
+opciones = ["Dalí", "Gaudí", "Calatrava"]
+correcta = "Gaudí"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién compuso «La flauta mágica»?"
+opciones = ["Mozart", "Verdi", "Bach"]
+correcta = "Mozart"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Platero y yo»?"
+opciones = ["Juan Ramón Jiménez", "Lorca", "Machado"]
+correcta = "Juan Ramón Jiménez"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuántos versos tiene un soneto?"
+opciones = ["14", "12", "10"]
+correcta = "14"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el caballo de Don Quijote?"
+opciones = ["Babieca", "Bucéfalo", "Rocinante"]
+correcta = "Rocinante"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién pintó la «Mona Lisa»?"
+opciones = ["Rafael", "Botticelli", "Leonardo da Vinci"]
+correcta = "Leonardo da Vinci"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿De qué ciudad es símbolo la Sagrada Familia?"
+opciones = ["Barcelona", "Bilbao", "Valencia"]
+correcta = "Barcelona"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién escribió «La casa de Bernarda Alba»?"
+opciones = ["García Lorca", "Cervantes", "Unamuno"]
+correcta = "García Lorca"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién compuso la «Quinta sinfonía» de ta-ta-ta-chan?"
+opciones = ["Mozart", "Chopin", "Beethoven"]
+correcta = "Beethoven"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Harry Potter»?"
+opciones = ["Roald Dahl", "J. K. Rowling", "Tolkien"]
+correcta = "J. K. Rowling"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién es el autor de «El Principito»?"
+opciones = ["Julio Verne", "Saint-Exupéry", "Victor Hugo"]
+correcta = "Saint-Exupéry"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Hamlet»?"
+opciones = ["Dante", "Cervantes", "Shakespeare"]
+correcta = "Shakespeare"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién esculpió el «David» de Florencia?"
+opciones = ["Bernini", "Rodin", "Miguel Ángel"]
+correcta = "Miguel Ángel"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Dónde está el museo Guggenheim más famoso de España?"
+opciones = ["Valencia", "Bilbao", "Sevilla"]
+correcta = "Bilbao"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el hogar de los dioses griegos?"
+opciones = ["Olimpo", "Valhalla", "Asgard"]
+correcta = "Olimpo"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién era el dios griego del mar?"
+opciones = ["Zeus", "Poseidón", "Hades"]
+correcta = "Poseidón"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién era el dios romano de la guerra?"
+opciones = ["Júpiter", "Marte", "Neptuno"]
+correcta = "Marte"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué escritor creó a Sherlock Holmes?"
+opciones = ["Conan Doyle", "Agatha Christie", "Poe"]
+correcta = "Conan Doyle"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿En qué país nació Mozart?"
+opciones = ["Italia", "Alemania", "Austria"]
+correcta = "Austria"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué escritor es famoso por «Los miserables»?"
+opciones = ["Balzac", "Victor Hugo", "Zola"]
+correcta = "Victor Hugo"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué cantante española canta «Malamente»?"
+opciones = ["Rosalía", "Aitana", "Shakira"]
+correcta = "Rosalía"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué ópera tiene como protagonista a una gitana de Sevilla?"
+opciones = ["Tosca", "Aída", "Carmen"]
+correcta = "Carmen"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el baile típico de Sevilla?"
+opciones = ["Jota", "Muiñeira", "Sevillanas"]
+correcta = "Sevillanas"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el baile típico de Aragón?"
+opciones = ["Sardana", "Jota", "Fandango"]
+correcta = "Jota"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el baile típico de Cataluña?"
+opciones = ["Sardana", "Jota", "Pasodoble"]
+correcta = "Sardana"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Cuento de Navidad»?"
+opciones = ["Charles Dickens", "Oscar Wilde", "Jane Austen"]
+correcta = "Charles Dickens"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién escribió «1984»?"
+opciones = ["Ray Bradbury", "George Orwell", "Aldous Huxley"]
+correcta = "George Orwell"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Orgullo y prejuicio»?"
+opciones = ["Emily Brontë", "Jane Austen", "Mary Shelley"]
+correcta = "Jane Austen"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué escultor creó «El beso» de mármol?"
+opciones = ["Rodin", "Dalí", "Botero"]
+correcta = "Rodin"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién pintó «El beso» dorado?"
+opciones = ["Matisse", "Picasso", "Klimt"]
+correcta = "Klimt"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué famoso pintor mexicano pintaba autorretratos con cejas unidas?"
+opciones = ["Dalí", "Frida Kahlo", "Diego Rivera"]
+correcta = "Frida Kahlo"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas notas musicales hay en la escala?"
+opciones = ["7", "9", "5"]
+correcta = "7"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién es el «Rey del pop»?"
+opciones = ["Elvis Presley", "Michael Jackson", "Prince"]
+correcta = "Michael Jackson"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué instrumento tocaba Paco de Lucía?"
+opciones = ["Violín", "Piano", "Guitarra"]
+correcta = "Guitarra"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué cantante español es famoso por «Corazón partío»?"
+opciones = ["Bisbal", "Alejandro Sanz", "Melendi"]
+correcta = "Alejandro Sanz"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué ave es la protagonista de «El patito feo»?"
+opciones = ["Un cisne", "Un pavo", "Un ganso"]
+correcta = "Un cisne"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién escribió «El patito feo»?"
+opciones = ["Grimm", "Perrault", "Andersen"]
+correcta = "Andersen"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Con quién se casa «La Cenicienta»?"
+opciones = ["Un mago", "Un príncipe", "Un pastor"]
+correcta = "Un príncipe"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué poeta escribió «Campos de Castilla»?"
+opciones = ["Antonio Machado", "Rafael Alberti", "Bécquer"]
+correcta = "Antonio Machado"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué dios nórdico lleva un martillo?"
+opciones = ["Loki", "Odín", "Thor"]
+correcta = "Thor"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuántos libros tiene la saga original de Harry Potter?"
+opciones = ["7", "9", "5"]
+correcta = "7"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién fue el autor de «La Divina Comedia»?"
+opciones = ["Petrarca", "Homero", "Dante"]
+correcta = "Dante"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién escribió la «Odisea»?"
+opciones = ["Virgilio", "Homero", "Sófocles"]
+correcta = "Homero"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el héroe de la «Odisea»?"
+opciones = ["Aquiles", "Ulises", "Héctor"]
+correcta = "Ulises"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué monstruo de un solo ojo aparece en la «Odisea»?"
+opciones = ["Hidra", "Minotauro", "Cíclope"]
+correcta = "Cíclope"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué mitológico monstruo tiene cabeza de toro?"
+opciones = ["Quimera", "Esfinge", "Minotauro"]
+correcta = "Minotauro"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué diosa romana es la del amor?"
+opciones = ["Juno", "Venus", "Minerva"]
+correcta = "Venus"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el dios del trueno griego?"
+opciones = ["Ares", "Apolo", "Zeus"]
+correcta = "Zeus"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el arte de doblar papel?"
+opciones = ["Ikebana", "Origami", "Kirigami"]
+correcta = "Origami"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué signo de puntuación cierra una pregunta en español?"
+opciones = [".", "!", "?"]
+correcta = "?"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué signo empieza una pregunta en español?"
+opciones = ["¿", "«", "¡"]
+correcta = "¿"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué idioma se habla en Brasil?"
+opciones = ["Francés", "Portugués", "Español"]
+correcta = "Portugués"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿En qué idioma se escribe el «Quijote»?"
+opciones = ["Latín", "Español", "Portugués"]
+correcta = "Español"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuántas letras tiene el abecedario español?"
+opciones = ["27", "30", "25"]
+correcta = "27"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué letra del español no suena nunca?"
+opciones = ["Q", "H", "Ñ"]
+correcta = "H"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué escritor escribió «La Celestina»?"
+opciones = ["Fernando de Rojas", "Lope de Vega", "Quevedo"]
+correcta = "Fernando de Rojas"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Qué poeta escribió «Poeta en Nueva York»?"
+opciones = ["Alberti", "Neruda", "García Lorca"]
+correcta = "García Lorca"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué ciudad nació Pablo Picasso?"
+opciones = ["Madrid", "Barcelona", "Málaga"]
+correcta = "Málaga"
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Quién pintó los frescos de la ermita de San Antonio de la Florida?"
+opciones = ["Goya", "Velázquez", "Murillo"]
+correcta = "Goya"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el famoso cuadro de Munch?"
+opciones = ["El llanto", "El grito", "La risa"]
+correcta = "El grito"
+dificultad = 1
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién pintó «Los girasoles»?"
+opciones = ["Renoir", "Monet", "Van Gogh"]
+correcta = "Van Gogh"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuál es el museo más visitado del mundo, en París?"
+opciones = ["El Orsay", "El Louvre", "El Prado"]
+correcta = "El Louvre"
+dificultad = 2
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el cantante de flamenco?"
+opciones = ["Bailaor", "Tocaor", "Cantaor"]
+correcta = "Cantaor"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el que baila flamenco?"
+opciones = ["Tocaor", "Bailaor", "Cantaor"]
+correcta = "Bailaor"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el guitarrista flamenco?"
+opciones = ["Cantaor", "Tocaor", "Bailaor"]
+correcta = "Tocaor"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el teatro de ópera de Madrid?"
+opciones = ["Teatro Real", "Gran Teatro", "Teatro Lírico"]
+correcta = "Teatro Real"
+dificultad = 2
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál era el apellido de los hermanos que escribieron «Blancanieves»?"
+opciones = ["Grimm", "Marx", "Lumière"]
+correcta = "Grimm"
+dificultad = 1
+tiempo = 5
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Pinocho»?"
+opciones = ["Carlo Collodi", "Perrault", "Andersen"]
+correcta = "Carlo Collodi"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿De qué material es Pinocho?"
+opciones = ["Barro", "Piedra", "Madera"]
+correcta = "Madera"
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "La Alhambra está en Granada."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "«Las Meninas» es de Goya."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "Picasso nació en Málaga."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "El Quijote lo escribió Lope de Vega."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "La Mona Lisa está en el Louvre."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "Beethoven era sordo al final de su vida."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "«La Gioconda» la pintó Miguel Ángel."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "El Guernica está en el Museo del Prado."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+dificultad = 1
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "Gaudí diseñó la Casa Batlló."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+dificultad = 2
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Plácido Domingo?"
+min = 1936
+max = 1954
+paso = 1
+respuesta = 1941
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1941."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se pintó «Las Meninas»?"
+min = 1635
+max = 1670
+paso = 1
+respuesta = 1656
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó la segunda parte del Quijote?"
+min = 1599
+max = 1639
+paso = 1
+respuesta = 1615
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año pintó Picasso el «Guernica»?"
+min = 1918
+max = 1945
+paso = 1
+respuesta = 1937
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1937."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año pintó Goya «Los fusilamientos del 3 de mayo»?"
+min = 1805
+max = 1823
+paso = 1
+respuesta = 1814
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año pintó Monet «Impresión, sol naciente»?"
+min = 1866
+max = 1887
+paso = 1
+respuesta = 1872
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año pintó Van Gogh «La noche estrellada»?"
+min = 1875
+max = 1899
+paso = 1
+respuesta = 1889
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1889."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año pintó Munch su primera versión de «El grito»?"
+min = 1882
+max = 1909
+paso = 1
+respuesta = 1893
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año pintó Dalí «La persistencia de la memoria»?"
+min = 1918
+max = 1936
+paso = 1
+respuesta = 1931
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Hacia qué año terminó Leonardo «La Última Cena»?"
+min = 1479
+max = 1514
+paso = 1
+respuesta = 1497
+tolerancia = 5
+dificultad = 2
+explicacion = "Fue en 1497."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año acabó Miguel Ángel el techo de la Capilla Sixtina?"
+min = 1500
+max = 1540
+paso = 1
+respuesta = 1512
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró la Torre Eiffel?"
+min = 1873
+max = 1900
+paso = 1
+respuesta = 1889
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró la Estatua de la Libertad?"
+min = 1879
+max = 1897
+paso = 1
+respuesta = 1886
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1886."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró la Ópera de Sídney?"
+min = 1958
+max = 1979
+paso = 1
+respuesta = 1973
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año abrió el Louvre como museo público?"
+min = 1773
+max = 1813
+paso = 1
+respuesta = 1793
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Teatro Real de Madrid?"
+min = 1832
+max = 1862
+paso = 1
+respuesta = 1850
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Palau de la Música Catalana?"
+min = 1900
+max = 1921
+paso = 1
+respuesta = 1908
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se incendió la catedral de Notre-Dame de París?"
+min = 2008
+max = 2024
+paso = 1
+respuesta = 2019
+tolerancia = 2
+dificultad = 1
+explicacion = "Fue en 2019."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Cien años de soledad»?"
+min = 1953
+max = 1980
+paso = 1
+respuesta = 1967
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «El Principito»?"
+min = 1938
+max = 1956
+paso = 1
+respuesta = 1943
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «1984» de George Orwell?"
+min = 1936
+max = 1957
+paso = 1
+respuesta = 1949
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1949."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «La colmena» de Cela?"
+min = 1941
+max = 1965
+paso = 1
+respuesta = 1951
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Bodas de sangre» de Lorca?"
+min = 1914
+max = 1941
+paso = 1
+respuesta = 1933
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «La Regenta»?"
+min = 1876
+max = 1894
+paso = 1
+respuesta = 1885
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1885."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Don Juan Tenorio» de Zorrilla?"
+min = 1836
+max = 1864
+paso = 1
+respuesta = 1844
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «El Lazarillo de Tormes»?"
+min = 1525
+max = 1573
+paso = 1
+respuesta = 1554
+tolerancia = 6
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «La Celestina»?"
+min = 1477
+max = 1531
+paso = 1
+respuesta = 1499
+tolerancia = 6
+dificultad = 3
+explicacion = "Fue en 1499."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Hacia qué año inventó Gutenberg la imprenta de tipos móviles?"
+min = 1408
+max = 1468
+paso = 1
+respuesta = 1450
+tolerancia = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año recibió Juan Ramón Jiménez el Nobel de Literatura?"
+min = 1946
+max = 1967
+paso = 1
+respuesta = 1956
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año recibió García Márquez el Nobel de Literatura?"
+min = 1975
+max = 1999
+paso = 1
+respuesta = 1982
+tolerancia = 3
+dificultad = 3
+explicacion = "Fue en 1982."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año recibió Pablo Neruda el Nobel de Literatura?"
+min = 1955
+max = 1982
+paso = 1
+respuesta = 1971
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año recibió Mario Vargas Llosa el Nobel de Literatura?"
+min = 2005
+max = 2017
+paso = 1
+respuesta = 2010
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año recibió Vicente Aleixandre el Nobel de Literatura?"
+min = 1962
+max = 1983
+paso = 1
+respuesta = 1977
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1977."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año recibió Jacinto Benavente el Nobel de Literatura?"
+min = 1906
+max = 1938
+paso = 1
+respuesta = 1922
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año estrenó Ravel su «Bolero»?"
+min = 1920
+max = 1947
+paso = 1
+respuesta = 1928
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se compuso el «Concierto de Aranjuez»?"
+min = 1928
+max = 1946
+paso = 1
+respuesta = 1939
+tolerancia = 3
+dificultad = 3
+explicacion = "Fue en 1939."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El Danubio azul» de Johann Strauss?"
+min = 1856
+max = 1884
+paso = 1
+respuesta = 1867
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó la ópera «Carmen» de Bizet?"
+min = 1858
+max = 1882
+paso = 1
+respuesta = 1875
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «La traviata» de Verdi?"
+min = 1839
+max = 1866
+paso = 1
+respuesta = 1853
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1853."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El barbero de Sevilla» de Rossini?"
+min = 1811
+max = 1829
+paso = 1
+respuesta = 1816
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó la «Novena sinfonía» de Beethoven?"
+min = 1811
+max = 1832
+paso = 1
+respuesta = 1824
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Rhapsody in Blue» de Gershwin?"
+min = 1914
+max = 1938
+paso = 1
+respuesta = 1924
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1924."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año salió el álbum «Thriller» de Michael Jackson?"
+min = 1969
+max = 1987
+paso = 1
+respuesta = 1982
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Bohemian Rhapsody» de Queen?"
+min = 1969
+max = 1981
+paso = 1
+respuesta = 1975
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año salió el álbum «Abbey Road» de los Beatles?"
+min = 1965
+max = 1979
+paso = 1
+respuesta = 1969
+tolerancia = 2
+dificultad = 1
+explicacion = "Fue en 1969."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Massiel Eurovisión con «La, la, la»?"
+min = 1958
+max = 1974
+paso = 1
+respuesta = 1968
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebró el primer Festival de Eurovisión?"
+min = 1945
+max = 1972
+paso = 1
+respuesta = 1956
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas sinfonías compuso Beethoven?"
+min = 1
+max = 13
+paso = 1
+respuesta = 9
+tolerancia = 2
+dificultad = 1
+explicacion = "Son 9."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos sonetos escribió Shakespeare?"
+min = 102
+max = 207
+paso = 1
+respuesta = 154
+tolerancia = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos capítulos tiene la primera parte del Quijote?"
+min = 38
+max = 86
+paso = 1
+respuesta = 52
+tolerancia = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas teclas negras tiene un piano estándar?"
+min = 14
+max = 50
+paso = 1
+respuesta = 36
+tolerancia = 4
+dificultad = 1
+explicacion = "Son 36."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas musas había en la mitología griega?"
+min = 4
+max = 16
+paso = 1
+respuesta = 9
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos trabajos realizó Hércules?"
+min = 2
+max = 16
+paso = 1
+respuesta = 12
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas sílabas tiene un verso endecasílabo?"
+min = 3
+max = 19
+paso = 1
+respuesta = 11
+tolerancia = 2
+dificultad = 1
+explicacion = "Son 11."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas letras tiene el alfabeto griego?"
+min = 19
+max = 37
+paso = 1
+respuesta = 24
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas «pinturas negras» realizó Goya en la Quinta del Sordo?"
+min = 7
+max = 19
+paso = 1
+respuesta = 14
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos sillones de académico tiene la Real Academia Española?"
+min = 35
+max = 63
+paso = 1
+respuesta = 46
+tolerancia = 4
+dificultad = 3
+explicacion = "Son 46."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas teclas blancas tiene un piano estándar?"
+min = 30
+max = 62
+paso = 1
+respuesta = 52
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se colocó la primera piedra del monasterio de El Escorial?"
+min = 1549
+max = 1576
+paso = 1
+respuesta = 1563
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la Biblioteca Nacional de España?"
+min = 1703
+max = 1733
+paso = 1
+respuesta = 1712
+tolerancia = 5
+dificultad = 2
+explicacion = "Fue en 1712."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Museo Thyssen-Bornemisza?"
+min = 1984
+max = 1998
+paso = 1
+respuesta = 1992
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Museo Guggenheim de Nueva York?"
+min = 1949
+max = 1973
+paso = 1
+respuesta = 1959
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el MoMA de Nueva York?"
+min = 1910
+max = 1937
+paso = 1
+respuesta = 1929
+tolerancia = 3
+dificultad = 3
+explicacion = "Fue en 1929."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Centro Pompidou de París?"
+min = 1971
+max = 1983
+paso = 1
+respuesta = 1977
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró la Tate Modern de Londres?"
+min = 1996
+max = 2010
+paso = 1
+respuesta = 2000
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Cantares gallegos» de Rosalía de Castro?"
+min = 1849
+max = 1873
+paso = 1
+respuesta = 1863
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1863."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Campos de Castilla» de Antonio Machado?"
+min = 1901
+max = 1928
+paso = 1
+respuesta = 1912
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Romancero gitano» de Lorca?"
+min = 1915
+max = 1933
+paso = 1
+respuesta = 1928
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «La familia de Pascual Duarte»?"
+min = 1932
+max = 1953
+paso = 1
+respuesta = 1942
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1942."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «La sombra del viento»?"
+min = 1996
+max = 2012
+paso = 1
+respuesta = 2001
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Harry Potter y la piedra filosofal» en el Reino Unido?"
+min = 1986
+max = 2004
+paso = 1
+respuesta = 1997
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Orgullo y prejuicio»?"
+min = 1806
+max = 1824
+paso = 1
+respuesta = 1813
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1813."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se separaron los Beatles?"
+min = 1960
+max = 1974
+paso = 1
+respuesta = 1970
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se descubrió la tumba de Tutankamón?"
+min = 1910
+max = 1934
+paso = 1
+respuesta = 1922
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se entregó por primera vez el Premio Cervantes?"
+min = 1971
+max = 1989
+paso = 1
+respuesta = 1976
+tolerancia = 2
+dificultad = 3
+explicacion = "Fue en 1976."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se concedió por primera vez el Premio Planeta?"
+min = 1941
+max = 1959
+paso = 1
+respuesta = 1952
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó el ballet «El lago de los cisnes»?"
+min = 1869
+max = 1890
+paso = 1
+respuesta = 1877
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó el ballet «El cascanueces»?"
+min = 1875
+max = 1899
+paso = 1
+respuesta = 1892
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1892."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se terminó La Pedrera (Casa Milà) de Gaudí?"
+min = 1898
+max = 1925
+paso = 1
+respuesta = 1912
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Museo Picasso Málaga?"
+min = 1999
+max = 2011
+paso = 1
+respuesta = 2003
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebró la primera exposición impresionista?"
+min = 1866
+max = 1880
+paso = 1
+respuesta = 1874
+tolerancia = 2
+dificultad = 3
+explicacion = "Fue en 1874."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la escuela de la Bauhaus?"
+min = 1913
+max = 1929
+paso = 1
+respuesta = 1919
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año publicó Rosalía su álbum «Motomami»?"
+min = 2016
+max = 2025
+paso = 1
+respuesta = 2022
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó la ópera «Tosca» de Puccini?"
+min = 1894
+max = 1906
+paso = 1
+respuesta = 1900
+tolerancia = 2
+dificultad = 3
+explicacion = "Fue en 1900."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «La bohème» de Puccini?"
+min = 1892
+max = 1906
+paso = 1
+respuesta = 1896
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Madama Butterfly»?"
+min = 1894
+max = 1910
+paso = 1
+respuesta = 1904
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Aída» de Verdi?"
+min = 1860
+max = 1887
+paso = 1
+respuesta = 1871
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1871."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Don Giovanni» de Mozart?"
+min = 1774
+max = 1792
+paso = 1
+respuesta = 1787
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «Las bodas de Fígaro» de Mozart?"
+min = 1776
+max = 1797
+paso = 1
+respuesta = 1786
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Hacia qué año se publicaron «Las cuatro estaciones» de Vivaldi?"
+min = 1715
+max = 1747
+paso = 1
+respuesta = 1725
+tolerancia = 4
+dificultad = 2
+explicacion = "Fue en 1725."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «El Mesías» de Händel?"
+min = 1726
+max = 1753
+paso = 1
+respuesta = 1742
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó «La consagración de la primavera» de Stravinski?"
+min = 1906
+max = 1924
+paso = 1
+respuesta = 1913
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Frankenstein» de Mary Shelley?"
+min = 1803
+max = 1824
+paso = 1
+respuesta = 1818
+tolerancia = 3
+dificultad = 1
+explicacion = "Fue en 1818."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Drácula» de Bram Stoker?"
+min = 1885
+max = 1909
+paso = 1
+respuesta = 1897
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Moby Dick»?"
+min = 1843
+max = 1870
+paso = 1
+respuesta = 1851
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Los tres mosqueteros»?"
+min = 1833
+max = 1851
+paso = 1
+respuesta = 1844
+tolerancia = 3
+dificultad = 3
+explicacion = "Fue en 1844."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Madame Bovary»?"
+min = 1849
+max = 1870
+paso = 1
+respuesta = 1857
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Crimen y castigo»?"
+min = 1849
+max = 1873
+paso = 1
+respuesta = 1866
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó el «Ulises» de James Joyce?"
+min = 1908
+max = 1935
+paso = 1
+respuesta = 1922
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1922."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «El gran Gatsby»?"
+min = 1920
+max = 1938
+paso = 1
+respuesta = 1925
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «El viejo y el mar»?"
+min = 1939
+max = 1960
+paso = 1
+respuesta = 1952
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Fortunata y Jacinta»?"
+min = 1877
+max = 1901
+paso = 1
+respuesta = 1887
+tolerancia = 3
+dificultad = 2
+explicacion = "Fue en 1887."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Niebla» de Unamuno?"
+min = 1895
+max = 1922
+paso = 1
+respuesta = 1914
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó la novela «El capitán Alatriste»?"
+min = 1990
+max = 2002
+paso = 1
+respuesta = 1996
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Cuentos de la Alhambra» de Washington Irving?"
+min = 1824
+max = 1852
+paso = 1
+respuesta = 1832
+tolerancia = 4
+dificultad = 3
+explicacion = "Fue en 1832."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Alicia en el país de las maravillas»?"
+min = 1851
+max = 1875
+paso = 1
+respuesta = 1865
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó «Rayuela» de Julio Cortázar?"
+min = 1952
+max = 1979
+paso = 1
+respuesta = 1963
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas cuerdas tiene un violín?"
+min = 0
+max = 6
+paso = 1
+respuesta = 4
+tolerancia = 1
+dificultad = 1
+explicacion = "Son 4."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Carlos III de España?"
+min = 1745
+max = 1811
+paso = 1
+respuesta = [1759, 1788]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1759 a 1788."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Carlos I de España?"
+min = 1480
+max = 1584
+paso = 1
+respuesta = [1516, 1556]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Felipe III?"
+min = 1584
+max = 1642
+paso = 1
+respuesta = [1598, 1621]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1598 a 1621."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Felipe IV, el rey de Velázquez?"
+min = 1599
+max = 1700
+paso = 1
+respuesta = [1621, 1665]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Carlos II «el Hechizado»?"
+min = 1641
+max = 1718
+paso = 1
+respuesta = [1665, 1700]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Carlos IV, retratado por Goya?"
+min = 1770
+max = 1822
+paso = 1
+respuesta = [1788, 1808]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1788 a 1808."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Isabel II?"
+min = 1812
+max = 1900
+paso = 1
+respuesta = [1833, 1868]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Alfonso XII?"
+min = 1868
+max = 1894
+paso = 1
+respuesta = [1874, 1885]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Isabel I de Inglaterra?"
+min = 1518
+max = 1634
+paso = 1
+respuesta = [1558, 1603]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Luis XIV de Francia, el Rey Sol?"
+min = 1600
+max = 1780
+paso = 1
+respuesta = [1643, 1715]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Lope de Vega?"
+min = 1526
+max = 1693
+paso = 1
+respuesta = [1562, 1635]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1562 a 1635."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Francisco de Quevedo?"
+min = 1534
+max = 1677
+paso = 1
+respuesta = [1580, 1645]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Pedro Calderón de la Barca?"
+min = 1527
+max = 1738
+paso = 1
+respuesta = [1600, 1681]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Luis de Góngora?"
+min = 1521
+max = 1686
+paso = 1
+respuesta = [1561, 1627]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1561 a 1627."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Fray Luis de León?"
+min = 1495
+max = 1642
+paso = 1
+respuesta = [1527, 1591]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió San Juan de la Cruz?"
+min = 1508
+max = 1615
+paso = 1
+respuesta = [1542, 1591]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Santa Teresa de Jesús?"
+min = 1455
+max = 1629
+paso = 1
+respuesta = [1515, 1582]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1515 a 1582."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Bartolomé Esteban Murillo?"
+min = 1578
+max = 1740
+paso = 1
+respuesta = [1617, 1682]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió El Greco?"
+min = 1505
+max = 1672
+paso = 1
+respuesta = [1541, 1614]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Francisco de Zurbarán?"
+min = 1552
+max = 1697
+paso = 1
+respuesta = [1598, 1664]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1598 a 1664."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió José de Ribera?"
+min = 1536
+max = 1695
+paso = 1
+respuesta = [1591, 1652]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Joaquín Sorolla?"
+min = 1827
+max = 1977
+paso = 1
+respuesta = [1863, 1923]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Joan Miró?"
+min = 1848
+max = 2055
+paso = 1
+respuesta = [1893, 1983]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1893 a 1983."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Eduardo Chillida?"
+min = 1869
+max = 2041
+paso = 1
+respuesta = [1924, 2002]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Antonio Machado?"
+min = 1817
+max = 1984
+paso = 1
+respuesta = [1875, 1939]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Miguel de Unamuno?"
+min = 1821
+max = 2001
+paso = 1
+respuesta = [1864, 1936]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1864 a 1936."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Juan Ramón Jiménez?"
+min = 1843
+max = 2020
+paso = 1
+respuesta = [1881, 1958]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Miguel Hernández?"
+min = 1888
+max = 1958
+paso = 1
+respuesta = [1910, 1942]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Rafael Alberti?"
+min = 1815
+max = 2067
+paso = 1
+respuesta = [1902, 1999]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1902 a 1999."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gustavo Adolfo Bécquer?"
+min = 1816
+max = 1901
+paso = 1
+respuesta = [1836, 1870]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Rosalía de Castro?"
+min = 1813
+max = 1923
+paso = 1
+respuesta = [1837, 1885]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Mariano José de Larra?"
+min = 1789
+max = 1851
+paso = 1
+respuesta = [1809, 1837]
+criterio = "solapar"
+dificultad = 3
+explicacion = "De 1809 a 1837."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Benito Pérez Galdós?"
+min = 1774
+max = 1974
+paso = 1
+respuesta = [1843, 1920]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Leopoldo Alas «Clarín»?"
+min = 1823
+max = 1945
+paso = 1
+respuesta = [1852, 1901]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Emilia Pardo Bazán?"
+min = 1816
+max = 1977
+paso = 1
+respuesta = [1851, 1921]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1851 a 1921."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ramón María del Valle-Inclán?"
+min = 1817
+max = 1971
+paso = 1
+respuesta = [1866, 1936]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Manuel de Falla?"
+min = 1813
+max = 1995
+paso = 1
+respuesta = [1876, 1946]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Isaac Albéniz?"
+min = 1831
+max = 1953
+paso = 1
+respuesta = [1860, 1909]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1860 a 1909."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Enrique Granados?"
+min = 1843
+max = 1955
+paso = 1
+respuesta = [1867, 1916]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el violonchelista Pau Casals?"
+min = 1808
+max = 2021
+paso = 1
+respuesta = [1876, 1973]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Joaquín Rodrigo?"
+min = 1813
+max = 2068
+paso = 1
+respuesta = [1901, 1999]
+criterio = "solapar"
+dificultad = 3
+explicacion = "De 1901 a 1999."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Camarón de la Isla?"
+min = 1925
+max = 2030
+paso = 1
+respuesta = [1950, 1992]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Paco de Lucía?"
+min = 1913
+max = 2068
+paso = 1
+respuesta = [1947, 2014]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió la soprano Montserrat Caballé?"
+min = 1874
+max = 2060
+paso = 1
+respuesta = [1933, 2018]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1933 a 2018."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió el guitarrista Andrés Segovia?"
+min = 1808
+max = 2053
+paso = 1
+respuesta = [1893, 1987]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Rembrandt?"
+min = 1568
+max = 1726
+paso = 1
+respuesta = [1606, 1669]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Vincent van Gogh?"
+min = 1835
+max = 1920
+paso = 1
+respuesta = [1853, 1890]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1853 a 1890."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Claude Monet?"
+min = 1780
+max = 1969
+paso = 1
+respuesta = [1840, 1926]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Frida Kahlo?"
+min = 1865
+max = 1987
+paso = 1
+respuesta = [1907, 1954]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Miguel Ángel Buonarroti?"
+min = 1422
+max = 1644
+paso = 1
+respuesta = [1475, 1564]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1475 a 1564."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Rafael Sanzio?"
+min = 1465
+max = 1550
+paso = 1
+respuesta = [1483, 1520]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Johann Sebastian Bach?"
+min = 1639
+max = 1782
+paso = 1
+respuesta = [1685, 1750]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ludwig van Beethoven?"
+min = 1719
+max = 1867
+paso = 1
+respuesta = [1770, 1827]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1770 a 1827."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Frédéric Chopin?"
+min = 1787
+max = 1884
+paso = 1
+respuesta = [1810, 1849]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Franz Liszt?"
+min = 1773
+max = 1946
+paso = 1
+respuesta = [1811, 1886]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Piotr Ilich Chaikovski?"
+min = 1803
+max = 1919
+paso = 1
+respuesta = [1840, 1893]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1840 a 1893."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Giuseppe Verdi?"
+min = 1734
+max = 1963
+paso = 1
+respuesta = [1813, 1901]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Richard Wagner?"
+min = 1771
+max = 1946
+paso = 1
+respuesta = [1813, 1883]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Antonio Vivaldi?"
+min = 1646
+max = 1791
+paso = 1
+respuesta = [1678, 1741]
+criterio = "solapar"
+dificultad = 3
+explicacion = "De 1678 a 1741."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Joseph Haydn?"
+min = 1678
+max = 1847
+paso = 1
+respuesta = [1732, 1809]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Franz Schubert?"
+min = 1769
+max = 1850
+paso = 1
+respuesta = [1797, 1828]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió León Tolstói?"
+min = 1779
+max = 1984
+paso = 1
+respuesta = [1828, 1910]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1828 a 1910."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Fiódor Dostoyevski?"
+min = 1791
+max = 1929
+paso = 1
+respuesta = [1821, 1881]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Charles Dickens?"
+min = 1771
+max = 1899
+paso = 1
+respuesta = [1812, 1870]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Victor Hugo?"
+min = 1727
+max = 1943
+paso = 1
+respuesta = [1802, 1885]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1802 a 1885."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Johann Wolfgang von Goethe?"
+min = 1699
+max = 1907
+paso = 1
+respuesta = [1749, 1832]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Dante Alighieri?"
+min = 1237
+max = 1366
+paso = 1
+respuesta = [1265, 1321]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Franz Kafka?"
+min = 1854
+max = 1944
+paso = 1
+respuesta = [1883, 1924]
+criterio = "solapar"
+dificultad = 3
+explicacion = "De 1883 a 1924."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Jorge Luis Borges?"
+min = 1821
+max = 2047
+paso = 1
+respuesta = [1899, 1986]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gabriel García Márquez?"
+min = 1875
+max = 2092
+paso = 1
+respuesta = [1927, 2014]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Pablo Neruda?"
+min = 1870
+max = 2028
+paso = 1
+respuesta = [1904, 1973]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1904 a 1973."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Andy Warhol?"
+min = 1887
+max = 2017
+paso = 1
+respuesta = [1928, 1987]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Hans Christian Andersen?"
+min = 1742
+max = 1924
+paso = 1
+respuesta = [1805, 1875]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Rubén Darío?"
+min = 1838
+max = 1960
+paso = 1
+respuesta = [1867, 1916]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1867 a 1916."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Julio Cortázar?"
+min = 1879
+max = 2040
+paso = 1
+respuesta = [1914, 1984]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ernest Hemingway?"
+min = 1856
+max = 1992
+paso = 1
+respuesta = [1899, 1961]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró el periodo azul de Picasso?"
+min = 1895
+max = 1910
+paso = 1
+respuesta = [1901, 1904]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1901 a 1904."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años funcionó la escuela de la Bauhaus?"
+min = 1911
+max = 1946
+paso = 1
+respuesta = [1919, 1933]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años actuaron Los Beatles como grupo?"
+min = 1954
+max = 1978
+paso = 1
+respuesta = [1960, 1970]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo en activo Queen con Freddie Mercury como cantante?"
+min = 1955
+max = 2001
+paso = 1
+respuesta = [1970, 1991]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1970 a 1991."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se construyó el monasterio de El Escorial?"
+min = 1544
+max = 1599
+paso = 1
+respuesta = [1563, 1584]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Jane Austen?"
+min = 1750
+max = 1855
+paso = 1
+respuesta = [1775, 1817]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Pierre-Auguste Renoir?"
+min = 1802
+max = 1981
+paso = 1
+respuesta = [1841, 1919]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1841 a 1919."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Edgar Allan Poe?"
+min = 1781
+max = 1869
+paso = 1
+respuesta = [1809, 1849]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Antoni Tàpies?"
+min = 1870
+max = 2092
+paso = 1
+respuesta = [1923, 2012]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1923 a 2012."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Luis Buñuel?"
+min = 1858
+max = 2049
+paso = 1
+respuesta = [1900, 1983]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Pablo Gargallo?"
+min = 1844
+max = 1960
+paso = 1
+respuesta = [1881, 1934]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Jorge Guillén?"
+min = 1811
+max = 2048
+paso = 1
+respuesta = [1893, 1984]
+criterio = "solapar"
+dificultad = 1
+explicacion = "De 1893 a 1984."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Luis Cernuda?"
+min = 1865
+max = 2018
+paso = 1
+respuesta = [1902, 1963]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Vicente Aleixandre?"
+min = 1855
+max = 2053
+paso = 1
+respuesta = [1898, 1984]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gerardo Diego?"
+min = 1832
+max = 2033
+paso = 1
+respuesta = [1896, 1987]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1896 a 1987."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Pedro Salinas?"
+min = 1837
+max = 1993
+paso = 1
+respuesta = [1891, 1951]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Felipe V, el primer Borbón español?"
+min = 1672
+max = 1787
+paso = 1
+respuesta = [1700, 1746]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Fernando VI?"
+min = 1740
+max = 1769
+paso = 1
+respuesta = [1746, 1759]
+criterio = "solapar"
+dificultad = 3
+explicacion = "De 1746 a 1759."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Isabel la Católica en Castilla?"
+min = 1453
+max = 1519
+paso = 1
+respuesta = [1474, 1504]
+criterio = "solapar"
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Henri Matisse?"
+min = 1793
+max = 2013
+paso = 1
+respuesta = [1869, 1954]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Paul Cézanne?"
+min = 1799
+max = 1966
+paso = 1
+respuesta = [1839, 1906]
+criterio = "solapar"
+dificultad = 3
+explicacion = "De 1839 a 1906."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gustav Klimt?"
+min = 1834
+max = 1963
+paso = 1
+respuesta = [1862, 1918]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Edvard Munch?"
+min = 1806
+max = 1984
+paso = 1
+respuesta = [1863, 1944]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió René Magritte?"
+min = 1836
+max = 2015
+paso = 1
+respuesta = [1898, 1967]
+criterio = "solapar"
+dificultad = 2
+explicacion = "De 1898 a 1967."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Diego Rivera?"
+min = 1843
+max = 2021
+paso = 1
+respuesta = [1886, 1957]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Museo del Prado"
+respuesta = { lat = 40.4139, lng = -3.6922 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo aragonés donde nació Goya"
+respuesta = { lat = 41.3413, lng = -0.9595 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde nació Pablo Picasso"
+respuesta = { lat = 36.7167, lng = -4.4167 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el museo dedicado a Dalí en su ciudad natal"
+respuesta = { lat = 42.2681, lng = 2.9594 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde nació Cervantes"
+respuesta = { lat = 40.4818, lng = -3.3643 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo granadino donde nació Federico García Lorca"
+respuesta = { lat = 37.2194, lng = -3.7831 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde nació Velázquez"
+respuesta = { lat = 37.3886, lng = -5.995 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la cueva con las pinturas rupestres de Altamira"
+respuesta = { lat = 43.3833, lng = -4.1167 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde vivió y pintó El Greco"
+respuesta = { lat = 39.8667, lng = -4.0333 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo onubense de Juan Ramón Jiménez, autor de «Platero y yo»"
+respuesta = { lat = 37.2747, lng = -6.8386 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo extremeño donde nació el pintor Zurbarán"
+respuesta = { lat = 38.2467, lng = -6.3092 }
+radio = 50000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la universidad más antigua de España en funcionamiento"
+respuesta = { lat = 40.965, lng = -5.6642 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal del guitarrista Andrés Segovia"
+respuesta = { lat = 38.1, lng = -3.6333 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Santa María del Naranco, joya del prerrománico asturiano"
+respuesta = { lat = 43.379, lng = -5.866 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la catedral gótica de Burgos"
+respuesta = { lat = 42.3408, lng = -3.7045 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la catedral de León, famosa por sus vidrieras"
+respuesta = { lat = 42.5992, lng = -5.567 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de las Casas Colgadas y el Museo de Arte Abstracto"
+respuesta = { lat = 40.0717, lng = -2.1344 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal del poeta Miguel Hernández"
+respuesta = { lat = 38.0856, lng = -0.9469 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Centro Botín"
+respuesta = { lat = 43.4605, lng = -3.8039 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad que da nombre al «Concierto de Aranjuez» de Rodrigo"
+respuesta = { lat = 40.0333, lng = -3.6028 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo costero de Cadaqués, donde veraneó Dalí"
+respuesta = { lat = 42.2886, lng = 3.2778 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Poblet"
+respuesta = { lat = 41.3808, lng = 1.0825 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa donde murió el poeta Antonio Machado"
+respuesta = { lat = 42.5256, lng = 3.0808 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Palau de la Música Catalana"
+respuesta = { lat = 41.3877, lng = 2.1753 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Museo de Bellas Artes de Bilbao"
+respuesta = { lat = 43.266, lng = -2.9379 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala los molinos de viento manchegos de Don Quijote"
+respuesta = { lat = 39.4067, lng = -3.125 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo gallego donde nació el Nobel Camilo José Cela"
+respuesta = { lat = 42.739, lng = -8.6603 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde nació Rosalía de Castro"
+respuesta = { lat = 42.8833, lng = -8.5333 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Museo Nacional de Escultura"
+respuesta = { lat = 41.6569, lng = -4.7236 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal del poeta barroco Luis de Góngora"
+respuesta = { lat = 37.89, lng = -4.78 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Museo de Bellas Artes de Valencia"
+respuesta = { lat = 39.4792, lng = -0.3708 }
+radio = 35000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Santo Domingo de Silos, famoso por sus cantos gregorianos"
+respuesta = { lat = 41.9619, lng = -3.4191 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Museo Guggenheim de Nueva York"
+respuesta = { lat = 40.7831, lng = -73.9589 }
+radio = 50000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo extremeño de Guadalupe y su Real Monasterio"
+respuesta = { lat = 39.4528, lng = -5.3275 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Peñafiel, sede del Museo Provincial del Vino"
+respuesta = { lat = 41.5967, lng = -4.1143 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de Úbeda y Baeza, Patrimonio de la Humanidad por su Renacimiento"
+respuesta = { lat = 38.0117, lng = -3.3717 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la muralla romana Patrimonio de la Humanidad"
+respuesta = { lat = 43.0117, lng = -7.5572 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la Seu, la catedral de Palma de Mallorca"
+respuesta = { lat = 39.5675, lng = 2.6481 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Museo del Louvre"
+respuesta = { lat = 48.8611, lng = 2.3358 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Galería de los Uffizi"
+respuesta = { lat = 43.7683, lng = 11.2553 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde están los Museos Vaticanos"
+respuesta = { lat = 41.9064, lng = 12.4544 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Rijksmuseum"
+respuesta = { lat = 52.36, lng = 4.8853 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Museo del Hermitage"
+respuesta = { lat = 59.9406, lng = 30.3136 }
+radio = 100000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Museo Británico"
+respuesta = { lat = 51.5194, lng = -0.1269 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Partenón"
+respuesta = { lat = 37.9715, lng = 23.7266 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Teatro alla Scala"
+respuesta = { lat = 45.4675, lng = 9.1892 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Teatro Bolshói"
+respuesta = { lat = 55.7603, lng = 37.6186 }
+radio = 100000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Shakespeare"
+respuesta = { lat = 52.1928, lng = -1.7064 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de Romeo y Julieta"
+respuesta = { lat = 45.4386, lng = 10.9928 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Elsinor, escenario de «Hamlet»"
+respuesta = { lat = 56.0386, lng = 12.6219 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo donde nació Leonardo da Vinci"
+respuesta = { lat = 43.7833, lng = 10.9167 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Mozart"
+respuesta = { lat = 47.8, lng = 13.045 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Beethoven"
+respuesta = { lat = 50.7353, lng = 7.1022 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Johann Sebastian Bach"
+respuesta = { lat = 50.9747, lng = 10.3244 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Rembrandt"
+respuesta = { lat = 52.16, lng = 4.49 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Hans Christian Andersen"
+respuesta = { lat = 55.4, lng = 10.3833 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Goethe"
+respuesta = { lat = 50.1106, lng = 8.6822 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo polaco donde nació Chopin"
+respuesta = { lat = 52.25, lng = 20.3167 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Frida Kahlo"
+respuesta = { lat = 19.3538, lng = -99.1359 }
+radio = 100000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo colombiano donde nació Gabriel García Márquez"
+respuesta = { lat = 10.5911, lng = -74.185 }
+radio = 100000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Jorge Luis Borges"
+respuesta = { lat = -34.5997, lng = -58.3819 }
+radio = 100000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el santuario de Delfos, sede del oráculo"
+respuesta = { lat = 38.4822, lng = 22.5017 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el palacio de Cnosos, vinculado al Minotauro"
+respuesta = { lat = 35.298, lng = 25.1632 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la antigua ciudad de Troya"
+respuesta = { lat = 39.9575, lng = 26.2389 }
+radio = 100000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla de Ítaca, patria de Ulises"
+respuesta = { lat = 38.4167, lng = 20.6667 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el teatro de Epidauro"
+respuesta = { lat = 37.5961, lng = 23.0792 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Neuschwanstein"
+respuesta = { lat = 47.5575, lng = 10.7494 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el teatro La Fenice"
+respuesta = { lat = 43.7118, lng = 13.2179 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la Ópera Estatal de Viena"
+respuesta = { lat = 48.2033, lng = 16.3692 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Festspielhaus de Bayreuth, donde se estrenan las óperas de Wagner"
+respuesta = { lat = 49.96, lng = 11.5797 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de los Beatles"
+respuesta = { lat = 53.4072, lng = -2.9917 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Graceland, la casa de Elvis Presley"
+respuesta = { lat = 35.0461, lng = -90.0258 }
+radio = 100000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo toscano donde nació Miguel Ángel"
+respuesta = { lat = 43.6408, lng = 11.9858 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo holandés donde nació Van Gogh"
+respuesta = { lat = 51.4703, lng = 4.66 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Giverny, donde Monet pintó sus nenúfares"
+respuesta = { lat = 49.0761, lng = 1.5292 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la finca de Tolstói, Yásnaya Poliana"
+respuesta = { lat = 54.0751, lng = 37.5264 }
+radio = 100000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Pablo Neruda"
+respuesta = { lat = -36.15, lng = -71.8333 }
+radio = 100000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la Biblioteca de Alejandría"
+respuesta = { lat = 31.2089, lng = 29.9092 }
+radio = 80000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Museo Egipcio de El Cairo"
+respuesta = { lat = 30.0478, lng = 31.2333 }
+radio = 80000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Franz Kafka"
+respuesta = { lat = 50.0875, lng = 14.4214 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Haworth, el pueblo de las hermanas Brontë"
+respuesta = { lat = 53.8315, lng = -1.9551 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la Basílica del Pilar, donde Goya pintó una cúpula"
+respuesta = { lat = 41.65, lng = -0.8833 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad extremeña de un famoso festival de teatro clásico en un teatro romano"
+respuesta = { lat = 38.9158, lng = -6.3333 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad manchega del Festival Internacional de Teatro Clásico"
+respuesta = { lat = 38.8882, lng = -3.7118 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal del compositor Manuel de Falla"
+respuesta = { lat = 36.535, lng = -6.2975 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal del escultor Francisco Salzillo"
+respuesta = { lat = 37.9833, lng = -1.1303 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Santa Teresa de Jesús, escritora del Siglo de Oro"
+respuesta = { lat = 40.6543, lng = -4.6962 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo minero del Festival del Cante de las Minas"
+respuesta = { lat = 37.6191, lng = -0.8755 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde está la estatua de «La Sirenita»"
+respuesta = { lat = 55.6761, lng = 12.5689 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad del Manneken Pis y del museo de Magritte"
+respuesta = { lat = 50.8467, lng = 4.3517 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se guarda «El Grito» de Munch"
+respuesta = { lat = 59.9118, lng = 10.7337 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se entregan los Premios Nobel de Literatura"
+respuesta = { lat = 59.3294, lng = 18.0686 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Walter Scott y de Conan Doyle"
+respuesta = { lat = 55.9533, lng = -3.1892 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad en la que transcurre el «Ulises» de Joyce"
+respuesta = { lat = 53.3497, lng = -6.2603 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal del poeta Fernando Pessoa"
+respuesta = { lat = 38.708, lng = -9.139 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de la Bienal de Arte de Venecia"
+respuesta = { lat = 45.4397, lng = 12.3319 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad natal de Victor Hugo"
+respuesta = { lat = 47.2422, lng = 6.0214 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el pueblo austríaco donde nació Franz Liszt"
+respuesta = { lat = 47.5661, lng = 16.5314 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Weimar, ciudad de Goethe y Schiller"
+respuesta = { lat = 50.9811, lng = 11.3294 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la isla de Delos, cuna mítica de Apolo y Artemisa"
+respuesta = { lat = 37.3911, lng = 25.2711 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de San Millán, cuna de las primeras palabras escritas en castellano"
+respuesta = { lat = 42.3258, lng = -2.8653 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Yuste, donde se retiró el emperador Carlos V"
+respuesta = { lat = 40.1142, lng = -5.7389 }
+radio = 45000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el castillo de Púbol, regalo de Dalí a Gala"
+respuesta = { lat = 42.0146, lng = 2.9832 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el monasterio de Santa María de Ripoll, joya del románico catalán"
+respuesta = { lat = 42.2015, lng = 2.1911 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Real Sitio de La Granja de San Ildefonso"
+respuesta = { lat = 40.8975, lng = -4.0046 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Puente Nuevo, símbolo de Ronda"
+respuesta = { lat = 43.3481, lng = -7.1925 }
+radio = 40000
+vista = { lat = 40.2, lng = -3.7, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa donde murió Goya"
+respuesta = { lat = 44.8378, lng = -0.5794 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la localidad francesa donde murió Picasso"
+respuesta = { lat = 43.6, lng = 6.9947 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad francesa donde murió Leonardo da Vinci"
+respuesta = { lat = 47.4114, lng = 0.9825 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el Valle de los Reyes"
+respuesta = { lat = 25.7402, lng = 32.6024 }
+radio = 100000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de las pirámides del Sol y de la Luna: Teotihuacán"
+respuesta = { lat = 19.6925, lng = -98.8439 }
+radio = 100000
+vista = { lat = 25.0, lng = 10.0, zoom = 2 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la catedral gótica de Colonia"
+respuesta = { lat = 50.9414, lng = 6.9583 }
+radio = 60000
+vista = { lat = 48.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría más aprender?"
+opciones = ["Pintar", "Tocar la guitarra", "Escribir novelas", "Bailar flamenco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le da más vergüenza?"
+opciones = ["Cantar en público", "Bailar en público", "Recitar un poema", "Dibujar delante de todos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué disco se llevaría a una isla desierta?"
+opciones = ["Uno de rock", "Uno de pop", "Uno de música clásica", "Uno de flamenco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué escultura querría tener en el salón?"
+opciones = ["Un Buda", "Una estatua clásica", "Una moderna y abstracta", "Ninguna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde hace más fotos de viaje?"
+opciones = ["Museos", "Calles y plazas", "Naturaleza", "Comida"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le haría más ilusión recibir de regalo?"
+opciones = ["Un libro", "Un cuadro", "Entradas de concierto", "Un instrumento"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en una ciudad?"
+opciones = ["Sus museos", "Sus teatros", "Sus librerías", "Sus tascas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un día libre en París?"
+opciones = ["Visitar el Louvre", "Subir a la Torre Eiffel", "Pasear por Montmartre", "Comer en un bistró"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un día libre en Madrid?"
+opciones = ["Ir al Prado", "Ir al Retiro", "Ir al Reina Sofía", "Ir de tapas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué época viajaría para ver arte?"
+opciones = ["Renacimiento", "Siglo de Oro", "París de 1900", "Antigua Grecia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de libro lleva en la mochila?"
+opciones = ["Novela", "Ensayo", "Cómic", "Ninguno, no lee"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo lee en vacaciones?"
+opciones = ["En la playa", "En el sofá", "En el tren o avión", "No lee"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué clásico leería de nuevo?"
+opciones = ["El Quijote", "La Celestina", "El Lazarillo", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si le dieran un Óscar o un Goya?"
+opciones = ["Llorar", "Agradecer a la familia", "Soltar un discurso largo", "Salir corriendo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría dominar a la perfección?"
+opciones = ["El piano", "La guitarra", "El dibujo", "La fotografía"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué mitología le atrae más?"
+opciones = ["Griega", "Romana", "Nórdica", "Egipcia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué dios o diosa griega elegiría?"
+opciones = ["Zeus", "Atenea", "Afrodita", "Poseidón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué poeta le gusta más?"
+opciones = ["Lorca", "Machado", "Bécquer", "Neruda"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué escritor le gustaría conocer?"
+opciones = ["Cervantes", "Shakespeare", "García Márquez", "Federico García Lorca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere disfrutar de una buena historia?"
+opciones = ["En libro", "En audiolibro", "En teatro", "En serie"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace cuando escucha una canción que le encanta?"
+opciones = ["La repite sin parar", "La canta a todo pulmón", "La baila", "Busca la letra"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de teatro prefiere?"
+opciones = ["Comedia", "Drama", "Musical", "Clásico"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué musical vería?"
+opciones = ["El rey león", "Los miserables", "Mamma Mia!", "El fantasma de la ópera"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué estilo de pintura le gusta más?"
+opciones = ["Realista", "Impresionista", "Surrealista", "Abstracto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué pintor impresionista prefiere?"
+opciones = ["Monet", "Renoir", "Van Gogh", "Degas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cuadro colgaría en casa?"
+opciones = ["Las Meninas", "La noche estrellada", "El Guernica", "La persistencia de la memoria"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué monumento le gustaría visitar?"
+opciones = ["La Alhambra", "La Sagrada Familia", "El Coliseo", "La Torre Eiffel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué catedral le impresiona más?"
+opciones = ["Notre-Dame", "Santiago de Compostela", "Sevilla", "Burgos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué arquitecto le parece más genial?"
+opciones = ["Gaudí", "Calatrava", "Frank Lloyd Wright", "Norman Foster"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de casa le gustaría?"
+opciones = ["Moderna y minimalista", "Rústica de piedra", "Modernista", "Un piso en el centro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en un museo si se aburre?"
+opciones = ["Mirar el móvil", "Buscar la cafetería", "Mirar la tienda", "Nunca se aburre"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuánto tiempo pasa en un museo?"
+opciones = ["Menos de una hora", "Unas dos horas", "Toda la mañana", "Casi nada, no va"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué compraría en la tienda de un museo?"
+opciones = ["Un póster", "Un libro", "Un imán", "Nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con una tarde en una biblioteca?"
+opciones = ["Leer una novela", "Estudiar", "Curiosear estanterías", "Dormir una siesta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué música escucha para concentrarse?"
+opciones = ["Clásica", "Instrumental", "Ninguna, prefiere silencio", "Lo que sea"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué música escucha en el coche?"
+opciones = ["Radio", "Playlists", "Podcasts", "Silencio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué música escucha al hacer deporte?"
+opciones = ["Pop", "Rock", "Electrónica", "Reguetón"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría componer?"
+opciones = ["Una canción de amor", "Un himno", "Una banda sonora", "Una nana"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué voz le gustaría tener?"
+opciones = ["De tenor o soprano", "De rockero", "De flamenco", "De locutor de radio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué flamenco le gusta más?"
+opciones = ["Cante", "Baile", "Guitarra", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué palo flamenco prefiere?"
+opciones = ["Sevillanas", "Rumba", "Bulerías", "Soleá"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué famoso baile prefiere?"
+opciones = ["Tango", "Salsa", "Vals", "Jota"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta escuchar en Navidad?"
+opciones = ["Villancicos", "Música clásica", "Pop navideño", "Nada especial"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué zarzuela o ópera vería?"
+opciones = ["La verbena de la Paloma", "Carmen", "La traviata", "Ninguna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué grupo de rock español prefiere?"
+opciones = ["Héroes del Silencio", "Mecano", "Extremoduro", "Los Secretos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cantautor español escucharía?"
+opciones = ["Joaquín Sabina", "Serrat", "Ismael Serrano", "Manolo García"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué escenario elegiría para un concierto?"
+opciones = ["Estadio", "Sala pequeña", "Festival al aire libre", "Teatro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál sería su papel en una banda?"
+opciones = ["Cantante", "Guitarrista", "Batería", "Bajista"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en un karaoke?"
+opciones = ["Cantar una balada", "Cantar un clásico español", "Cantar rock", "Solo mirar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ser en una película o serie?"
+opciones = ["Protagonista", "Director", "Guionista", "Espectador"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué serie o película clásica elegiría hoy?"
+opciones = ["Una de época", "Una de ciencia ficción", "Un musical", "Una de misterio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué personaje de novela se parece más a él o ella?"
+opciones = ["Don Quijote", "Sancho Panza", "Sherlock Holmes", "Harry Potter"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cuento infantil le gustaba más?"
+opciones = ["Caperucita Roja", "Blancanieves", "La Cenicienta", "Pinocho"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué libro releería?"
+opciones = ["Uno de fantasía", "Un clásico", "Uno de misterio", "Uno de aventuras"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de un libro?"
+opciones = ["La historia", "Los personajes", "La forma de escribir", "El final"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si se acaba el libro?"
+opciones = ["Empezar otro enseguida", "Quedarse pensativo", "Verlo en película", "Dejarlo reposar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo marca una página en un libro?"
+opciones = ["Con un marcapáginas", "Doblando la esquina", "Con lo que pille", "Nunca lo deja a medias"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo es su estantería de libros?"
+opciones = ["Estantería llena", "Pocos libros", "Solo digital", "Una pila en la mesilla"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de poesía le gusta?"
+opciones = ["De amor", "Social", "Humorística", "No le gusta la poesía"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si escribiese un libro?"
+opciones = ["Novela negra", "Novela romántica", "Ciencia ficción", "Libro de cocina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría pintar?"
+opciones = ["Un paisaje", "Un retrato", "Una naturaleza muerta", "Un mural"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué técnica pintaría?"
+opciones = ["Óleo", "Acuarela", "Acrílico", "Lápiz"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un lienzo en blanco?"
+opciones = ["Pintar algo abstracto", "Un autorretrato", "Un paisaje", "Dejarlo en blanco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de una exposición?"
+opciones = ["La pintura", "La escultura", "La fotografía", "Las instalaciones"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría esculpir?"
+opciones = ["Una cara", "Un animal", "Una figura abstracta", "Un busto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué foto sacaría?"
+opciones = ["Un atardecer", "Un retrato", "Un paisaje urbano", "Un selfie"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un grafiti?"
+opciones = ["Mirarlo con interés", "Hacerle una foto", "Lo ignora", "Pintaría uno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta del arte antiguo?"
+opciones = ["Sus colores", "Su historia", "Su técnica", "Poco o nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué estilo de arte le aburre más?"
+opciones = ["Románico", "Barroco", "Arte moderno", "Ninguno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le llama más la atención de un cuadro?"
+opciones = ["Los colores", "La luz", "El tema", "La firma famosa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría decorar?"
+opciones = ["Su cuarto", "El salón", "La cocina", "El jardín"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si le regalaran una guitarra?"
+opciones = ["Aprender a tocarla", "Tocar algo que ya sabe", "Colgarla de la pared", "Regalarla a otro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué idioma le gustaría hablar con fluidez?"
+opciones = ["Inglés", "Francés", "Italiano", "Japonés"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué palabra española le gusta más?"
+opciones = ["Serendipia", "Sobremesa", "Madrugada", "Nostalgia"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué refrán le va más?"
+opciones = ["Más vale tarde que nunca", "A quien madruga, Dios le ayuda", "No hay mal que cien años dure", "Camarón que se duerme, se lo lleva la corriente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace cuando oye un chiste malo?"
+opciones = ["Se ríe por compromiso", "Pone cara de poker", "Lo repite luego", "Suelta un «madre mía»"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué se le da mejor?"
+opciones = ["Cantar", "Dibujar", "Escribir", "Bailar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría escribir en un diario?"
+opciones = ["Cosas del día", "Sueños", "Poemas", "Nada, no escribe diario"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un taller de manualidades?"
+opciones = ["Cerámica", "Pintura", "Costura", "Carpintería"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué festival cultural elegiría?"
+opciones = ["De música", "De teatro", "De cine", "De literatura"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ver en directo?"
+opciones = ["Una ópera", "Un ballet", "Un concierto de rock", "Un monólogo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué plan cultural prefiere en pareja o con amigos?"
+opciones = ["Cine", "Teatro", "Exposición", "Concierto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría en un viaje a Italia?"
+opciones = ["Ver la Capilla Sixtina", "Pasear por Venecia", "Ver el Coliseo", "Comer pasta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de Sevilla?"
+opciones = ["La Giralda", "El Alcázar", "Los patios", "El tapeo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le atrae más de Barcelona?"
+opciones = ["La Sagrada Familia", "El Parque Güell", "Las Ramblas", "La playa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le atrae más de Granada?"
+opciones = ["La Alhambra", "El Albaicín", "Las tapas", "Sierra Nevada"]

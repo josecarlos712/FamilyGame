@@ -4371,3 +4371,3229 @@ correcta = "Verdadero"
 barajar = false
 tiempo = 3
 lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué científico español recibió el Premio Nobel de Medicina en 1906?"
+opciones = ["Santiago Ramón y Cajal", "Severo Ochoa", "Jaime Ferrán", "Pío del Río Hortega"]
+correcta = "Santiago Ramón y Cajal"
+dificultad = 1
+tiempo = 15
+explicacion = "Lo compartió con el italiano Camillo Golgi por sus estudios del sistema nervioso."
+
+[[pregunta]]
+enunciado = "¿Por qué trabajo recibió Severo Ochoa el Nobel de Medicina en 1959?"
+opciones = ["Síntesis del ARN", "Descubrimiento de la penicilina", "Estructura del ADN", "Vacuna contra la polio"]
+correcta = "Síntesis del ARN"
+dificultad = 3
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿Qué aparato ideó el ingeniero Leonardo Torres Quevedo en 1903 para controlar máquinas a distancia?"
+opciones = ["El telekino", "El autogiro", "El submarino", "El teléfono"]
+correcta = "El telekino"
+dificultad = 2
+tiempo = 15
+explicacion = "Se considera un precursor del radiocontrol."
+
+[[pregunta]]
+enunciado = "¿Qué invento aeronáutico se debe al ingeniero español Juan de la Cierva?"
+opciones = ["El autogiro", "El globo dirigible", "El paracaídas", "El helicóptero a reacción"]
+correcta = "El autogiro"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué marino y científico español diseñó el primer submarino con propulsión eléctrica y torpedos?"
+opciones = ["Isaac Peral", "Narcís Monturiol", "Jorge Juan", "Antonio de Ulloa"]
+correcta = "Isaac Peral"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el hueso más pequeño del cuerpo humano?"
+opciones = ["El estribo", "El martillo", "El yunque", "El hioides"]
+correcta = "El estribo"
+dificultad = 2
+tiempo = 15
+explicacion = "Está en el oído medio y mide unos 3 milímetros."
+
+[[pregunta]]
+enunciado = "¿Qué gas es el más abundante en la atmósfera de la Tierra?"
+opciones = ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Argón"]
+correcta = "Nitrógeno"
+dificultad = 1
+tiempo = 12
+explicacion = "Supone alrededor del 78 % del aire."
+
+[[pregunta]]
+enunciado = "¿Cuál es el elemento químico más abundante del universo?"
+opciones = ["Hidrógeno", "Helio", "Oxígeno", "Carbono"]
+correcta = "Hidrógeno"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la galaxia en la que se encuentra el sistema solar?"
+opciones = ["Vía Láctea", "Andrómeda", "Triángulo", "Sombrero"]
+correcta = "Vía Láctea"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué órgano del cuerpo humano produce la insulina?"
+opciones = ["El páncreas", "El hígado", "El riñón", "El bazo"]
+correcta = "El páncreas"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es el símbolo químico del sodio?"
+opciones = ["Na", "So", "Sd", "N"]
+correcta = "Na"
+dificultad = 2
+tiempo = 12
+explicacion = "Viene del latín natrium."
+
+[[pregunta]]
+enunciado = "¿Qué planeta del sistema solar tiene la Gran Mancha Roja, una tormenta gigante?"
+opciones = ["Júpiter", "Saturno", "Marte", "Neptuno"]
+correcta = "Júpiter"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué isla canaria está el Gran Telescopio Canarias?"
+opciones = ["La Palma", "Tenerife", "Lanzarote", "Gran Canaria"]
+correcta = "La Palma"
+dificultad = 2
+tiempo = 15
+explicacion = "Está en el Observatorio del Roque de los Muchachos."
+
+[[pregunta]]
+enunciado = "¿Qué enzima, clave para amplificar ADN, caracterizó la bioquímica española Margarita Salas?"
+opciones = ["ADN polimerasa del virus phi29", "Amilasa", "Lipasa", "Tripsina"]
+correcta = "ADN polimerasa del virus phi29"
+dificultad = 3
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿Qué científico propuso la teoría de la relatividad general en 1915?"
+opciones = ["Albert Einstein", "Isaac Newton", "Niels Bohr", "Max Planck"]
+correcta = "Albert Einstein"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegaron los primeros astronautas a la Luna con el Apolo 11?"
+min = 1950
+max = 1990
+respuesta = 1969
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año lanzó la Unión Soviética el Sputnik 1, el primer satélite artificial?"
+min = 1940
+max = 1975
+respuesta = 1957
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año viajó Yuri Gagarin al espacio?"
+min = 1940
+max = 1980
+respuesta = 1961
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año publicó Darwin «El origen de las especies»?"
+min = 1800
+max = 1900
+respuesta = 1859
+tolerancia = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año publicó Newton sus «Principia Mathematica»?"
+min = 1550
+max = 1800
+respuesta = 1687
+tolerancia = 25
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se describió la estructura en doble hélice del ADN?"
+min = 1920
+max = 1980
+respuesta = 1953
+tolerancia = 8
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació la oveja Dolly, el primer mamífero clonado?"
+min = 1980
+max = 2010
+respuesta = 1996
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año recibió Ramón y Cajal el Premio Nobel de Medicina?"
+min = 1880
+max = 1930
+respuesta = 1906
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año voló por primera vez el autogiro de Juan de la Cierva?"
+min = 1900
+max = 1950
+respuesta = 1923
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se botó el submarino de Isaac Peral?"
+min = 1860
+max = 1910
+respuesta = 1888
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año presentó Torres Quevedo su telekino?"
+min = 1880
+max = 1930
+respuesta = 1905
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año descubrió Röntgen los rayos X?"
+min = 1870
+max = 1920
+respuesta = 1895
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se lanzó el telescopio espacial Hubble?"
+min = 1970
+max = 2005
+respuesta = 1990
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se puso en marcha la primera página web, creada en el CERN?"
+min = 1975
+max = 2005
+respuesta = 1991
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año aterrizó el róver Curiosity en Marte?"
+min = 2000
+max = 2020
+respuesta = 2012
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año tuvo lugar el accidente nuclear de Chernóbil?"
+min = 1965
+max = 1995
+respuesta = 1986
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se realizó el primer trasplante de corazón humano, por Christiaan Barnard?"
+min = 1945
+max = 1985
+respuesta = 1967
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se descubrió el planeta Neptuno?"
+min = 1790
+max = 1890
+respuesta = 1846
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año descubrió William Herschel el planeta Urano?"
+min = 1710
+max = 1810
+respuesta = 1781
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año descubrió Clyde Tombaugh el planeta enano Plutón?"
+min = 1900
+max = 1950
+respuesta = 1930
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año Galileo apuntó por primera vez un telescopio al cielo?"
+min = 1550
+max = 1650
+respuesta = 1609
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año presentó Edison su bombilla incandescente práctica?"
+min = 1840
+max = 1920
+respuesta = 1879
+tolerancia = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se aisló por primera vez la insulina, en Toronto?"
+min = 1895
+max = 1945
+respuesta = 1921
+tolerancia = 6
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año probó Edward Jenner la primera vacuna, contra la viruela?"
+min = 1730
+max = 1830
+respuesta = 1796
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Consejo Superior de Investigaciones Científicas (CSIC)?"
+min = 1910
+max = 1960
+respuesta = 1939
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año captó el Gran Telescopio Canarias su primera luz?"
+min = 1990
+max = 2020
+respuesta = 2007
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Hace cuántos millones de años se extinguieron los dinosaurios no aviares?"
+min = 30
+max = 110
+unidad = "millones de años"
+respuesta = 66
+tolerancia = 10
+dificultad = 1
+explicacion = "Un gran asteroide cayó en Chicxulub, en México."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué altura tiene el monte Everest, aproximadamente?"
+min = 7000
+max = 10000
+paso = 50
+unidad = "m"
+respuesta = 8850
+tolerancia = 300
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué profundidad alcanza la Fosa de las Marianas, aproximadamente?"
+min = 7000
+max = 13000
+paso = 100
+unidad = "m"
+respuesta = 11000
+tolerancia = 800
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué altura tiene el Teide sobre el nivel del mar?"
+min = 2500
+max = 4500
+paso = 5
+unidad = "m"
+respuesta = 3715
+tolerancia = 200
+dificultad = 1
+explicacion = "Es el pico más alto de España."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué altura tiene el Mulhacén, el pico más alto de la península ibérica?"
+min = 2800
+max = 4000
+paso = 10
+unidad = "m"
+respuesta = 3480
+tolerancia = 200
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué velocidad hay que alcanzar para escapar de la gravedad terrestre?"
+min = 5
+max = 20
+paso = 0.1
+unidad = "km/s"
+respuesta = 11.2
+tolerancia = 1.5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué temperatura hay en el núcleo del Sol?"
+min = 1
+max = 30
+unidad = "millones de °C"
+respuesta = 15
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto dura un día en Venus, es decir, lo que tarda en girar sobre sí mismo?"
+min = 50
+max = 400
+unidad = "días terrestres"
+respuesta = 243
+tolerancia = 40
+dificultad = 2
+explicacion = "Gira tan despacio que su día es más largo que su año."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos días terrestres dura un año en Marte?"
+min = 300
+max = 1100
+unidad = "días"
+respuesta = 687
+tolerancia = 80
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos millones de kilómetros del Sol está Neptuno, de media?"
+min = 1000
+max = 8000
+paso = 100
+unidad = "millones de km"
+respuesta = 4500
+tolerancia = 700
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura funde el hierro?"
+min = 800
+max = 2200
+paso = 10
+unidad = "°C"
+respuesta = 1540
+tolerancia = 150
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué temperatura hay en la superficie de Venus?"
+min = 200
+max = 700
+paso = 5
+unidad = "°C"
+respuesta = 465
+tolerancia = 60
+dificultad = 2
+explicacion = "Es el planeta más caliente del sistema solar."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos km/s se mueve la Tierra alrededor del Sol?"
+min = 10
+max = 60
+unidad = "km/s"
+respuesta = 30
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué velocidad gira el ecuador terrestre, en km/h?"
+min = 800
+max = 2600
+paso = 10
+unidad = "km/h"
+respuesta = 1670
+tolerancia = 200
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos miles de millones de neuronas tiene el cerebro humano, aproximadamente?"
+min = 20
+max = 150
+unidad = "miles de millones"
+respuesta = 86
+tolerancia = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto pesa el cerebro de un adulto, aproximadamente?"
+min = 0.5
+max = 2.5
+paso = 0.1
+unidad = "kg"
+respuesta = 1.4
+tolerancia = 0.3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué porcentaje del aire es oxígeno?"
+min = 5
+max = 45
+unidad = "%"
+respuesta = 21
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué porcentaje de la superficie de la Tierra está cubierta por agua?"
+min = 30
+max = 95
+unidad = "%"
+respuesta = 71
+tolerancia = 8
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas toneladas pesa un elefante africano macho adulto, aproximadamente?"
+min = 1
+max = 12
+paso = 0.5
+unidad = "t"
+respuesta = 6
+tolerancia = 1.5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos años de esperanza de vida tenía la población española hacia 2023?"
+min = 70
+max = 95
+unidad = "años"
+respuesta = 83
+tolerancia = 3
+dificultad = 1
+explicacion = "España está entre los países con mayor esperanza de vida del mundo."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué altura orbita la Estación Espacial Internacional?"
+min = 150
+max = 650
+paso = 10
+unidad = "km"
+respuesta = 400
+tolerancia = 60
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué velocidad viaja la Estación Espacial Internacional?"
+min = 10000
+max = 40000
+paso = 500
+unidad = "km/h"
+respuesta = 28000
+tolerancia = 3000
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos años luz está Próxima Centauri, la estrella más cercana al Sol?"
+min = 0.5
+max = 10
+paso = 0.1
+unidad = "años luz"
+respuesta = 4.2
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos dientes de leche tiene un niño con la dentición temporal completa?"
+min = 8
+max = 32
+unidad = "dientes"
+respuesta = 20
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es el número atómico del hierro?"
+min = 10
+max = 50
+respuesta = 26
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué altura empieza el espacio según la línea de Kármán?"
+min = 30
+max = 200
+paso = 5
+unidad = "km"
+respuesta = 100
+tolerancia = 20
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué profundidad media tienen los océanos?"
+min = 1000
+max = 7000
+paso = 100
+unidad = "m"
+respuesta = 3700
+tolerancia = 600
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año anunció el CERN el descubrimiento del bosón de Higgs?"
+min = 2000
+max = 2020
+respuesta = 2012
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó la primera imagen de un agujero negro, el de la galaxia M87?"
+min = 2005
+max = 2025
+respuesta = 2019
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se lanzó la sonda Voyager 1?"
+min = 1960
+max = 1995
+respuesta = 1977
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año viajó Pedro Duque al espacio por primera vez?"
+min = 1985
+max = 2010
+respuesta = 1998
+tolerancia = 3
+dificultad = 1
+explicacion = "Voló en el transbordador Discovery."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año recibió Severo Ochoa el Premio Nobel?"
+min = 1930
+max = 1980
+respuesta = 1959
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se hizo la primera llamada con un teléfono móvil?"
+min = 1950
+max = 1995
+respuesta = 1973
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Wikipedia?"
+min = 1990
+max = 2010
+respuesta = 2001
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se concedieron por primera vez los Premios Nobel?"
+min = 1880
+max = 1930
+respuesta = 1901
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó la NASA?"
+min = 1935
+max = 1975
+respuesta = 1958
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el CERN?"
+min = 1930
+max = 1980
+respuesta = 1954
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año descubrió Thomson el electrón?"
+min = 1860
+max = 1930
+respuesta = 1897
+tolerancia = 8
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año publicó Mendeléyev su tabla periódica?"
+min = 1830
+max = 1910
+respuesta = 1869
+tolerancia = 8
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Louise Brown, el primer bebé probeta?"
+min = 1955
+max = 1995
+respuesta = 1978
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se descubrió el primer exoplaneta en torno a una estrella como el Sol?"
+min = 1975
+max = 2010
+respuesta = 1995
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se lanzó el telescopio espacial James Webb?"
+min = 2010
+max = 2030
+respuesta = 2021
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año dejó Plutón de ser considerado un planeta?"
+min = 1990
+max = 2020
+respuesta = 2006
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año d. C. destruyó el Vesubio la ciudad de Pompeya?"
+min = 0
+max = 150
+respuesta = 79
+tolerancia = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año tuvo lugar la gran erupción del Krakatoa?"
+min = 1840
+max = 1920
+respuesta = 1883
+tolerancia = 8
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año comenzó la erupción del volcán de Cumbre Vieja, en La Palma?"
+min = 2010
+max = 2030
+respuesta = 2021
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Hace cuántos miles de años surgió el Homo sapiens, según los fósiles más antiguos?"
+min = 100
+max = 600
+paso = 10
+unidad = "miles de años"
+respuesta = 300
+tolerancia = 60
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué antigüedad tienen los fósiles de Homo antecessor de Gran Dolina, en Atapuerca?"
+min = 300
+max = 1500
+paso = 50
+unidad = "miles de años"
+respuesta = 850
+tolerancia = 150
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué velocidad puede llegar un tren Maglev de levitación magnética en Shanghái?"
+min = 200
+max = 600
+paso = 10
+unidad = "km/h"
+respuesta = 430
+tolerancia = 60
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos km/h viaja el sonido, el llamado Mach 1, al nivel del mar?"
+min = 600
+max = 2000
+paso = 5
+unidad = "km/h"
+respuesta = 1225
+tolerancia = 150
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos voltios tiene la corriente de un enchufe doméstico en España?"
+min = 100
+max = 400
+paso = 10
+unidad = "V"
+respuesta = 230
+tolerancia = 30
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos hercios tiene la corriente eléctrica de la red en España?"
+min = 20
+max = 100
+paso = 5
+unidad = "Hz"
+respuesta = 50
+tolerancia = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura hierve el alcohol etílico (etanol)?"
+min = 40
+max = 130
+unidad = "°C"
+respuesta = 78
+tolerancia = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura funde el aluminio?"
+min = 300
+max = 1100
+paso = 10
+unidad = "°C"
+respuesta = 660
+tolerancia = 80
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Charles Darwin?"
+min = 1770
+max = 1920
+respuesta = [1809, 1882]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Isaac Newton?"
+min = 1610
+max = 1760
+respuesta = [1643, 1727]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Galileo Galilei?"
+min = 1530
+max = 1680
+respuesta = [1564, 1642]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Isaac Peral?"
+min = 1820
+max = 1930
+respuesta = [1851, 1895]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Leonardo Torres Quevedo?"
+min = 1820
+max = 1970
+respuesta = [1852, 1936]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Severo Ochoa?"
+min = 1870
+max = 2030
+respuesta = [1905, 1993]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Juan de la Cierva?"
+min = 1860
+max = 1970
+respuesta = [1895, 1936]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Margarita Salas?"
+min = 1900
+max = 2050
+respuesta = [1938, 2019]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Nikola Tesla?"
+min = 1820
+max = 1980
+respuesta = [1856, 1943]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Louis Pasteur?"
+min = 1790
+max = 1930
+respuesta = [1822, 1895]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alexander Fleming?"
+min = 1850
+max = 1990
+respuesta = [1881, 1955]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Stephen Hawking?"
+min = 1910
+max = 2050
+respuesta = [1942, 2018]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Thomas Edison?"
+min = 1810
+max = 1970
+respuesta = [1847, 1931]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Nicolás Copérnico?"
+min = 1440
+max = 1580
+respuesta = [1473, 1543]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gregor Mendel?"
+min = 1790
+max = 1920
+respuesta = [1822, 1884]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Johannes Kepler?"
+min = 1540
+max = 1660
+respuesta = [1571, 1630]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alan Turing?"
+min = 1880
+max = 1990
+respuesta = [1912, 1954]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ada Lovelace?"
+min = 1780
+max = 1890
+respuesta = [1815, 1852]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Antoine Lavoisier?"
+min = 1710
+max = 1830
+respuesta = [1743, 1794]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alexander von Humboldt?"
+min = 1730
+max = 1890
+respuesta = [1769, 1859]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Carlos Linneo?"
+min = 1670
+max = 1810
+respuesta = [1707, 1778]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Guglielmo Marconi?"
+min = 1840
+max = 1970
+respuesta = [1874, 1937]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alessandro Volta?"
+min = 1710
+max = 1860
+respuesta = [1745, 1827]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Michael Faraday?"
+min = 1760
+max = 1900
+respuesta = [1791, 1867]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió James Clerk Maxwell?"
+min = 1800
+max = 1910
+respuesta = [1831, 1879]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Wilhelm Röntgen?"
+min = 1810
+max = 1960
+respuesta = [1845, 1923]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Rosalind Franklin?"
+min = 1890
+max = 1990
+respuesta = [1920, 1958]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Carl Sagan?"
+min = 1900
+max = 2030
+respuesta = [1934, 1996]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Dmitri Mendeléyev?"
+min = 1800
+max = 1940
+respuesta = [1834, 1907]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Carl Friedrich Gauss?"
+min = 1740
+max = 1890
+respuesta = [1777, 1855]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Leonhard Euler?"
+min = 1670
+max = 1820
+respuesta = [1707, 1783]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Niels Bohr?"
+min = 1850
+max = 2000
+respuesta = [1885, 1962]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Werner Heisenberg?"
+min = 1870
+max = 2010
+respuesta = [1901, 1976]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Enrico Fermi?"
+min = 1870
+max = 1990
+respuesta = [1901, 1954]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Robert Oppenheimer?"
+min = 1870
+max = 2000
+respuesta = [1904, 1967]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Max Planck?"
+min = 1820
+max = 1980
+respuesta = [1858, 1947]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Ernest Rutherford?"
+min = 1840
+max = 1970
+respuesta = [1871, 1937]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió John Dalton?"
+min = 1730
+max = 1880
+respuesta = [1766, 1844]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Edward Jenner?"
+min = 1710
+max = 1860
+respuesta = [1749, 1823]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Joseph Lister?"
+min = 1790
+max = 1950
+respuesta = [1827, 1912]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Robert Koch?"
+min = 1810
+max = 1940
+respuesta = [1843, 1910]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alfred Wegener?"
+min = 1850
+max = 1960
+respuesta = [1880, 1930]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Edwin Hubble?"
+min = 1850
+max = 1990
+respuesta = [1889, 1953]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Edmond Halley?"
+min = 1620
+max = 1780
+respuesta = [1656, 1742]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Tycho Brahe?"
+min = 1510
+max = 1640
+respuesta = [1546, 1601]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Narcís Monturiol?"
+min = 1780
+max = 1920
+respuesta = [1819, 1885]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Julio Rey Pastor?"
+min = 1850
+max = 2000
+respuesta = [1888, 1962]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Joan Oró?"
+min = 1890
+max = 2040
+respuesta = [1923, 2004]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Santiago Grisolía?"
+min = 1890
+max = 2060
+respuesta = [1923, 2022]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Jorge Juan?"
+min = 1680
+max = 1810
+respuesta = [1713, 1773]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió José Celestino Mutis?"
+min = 1700
+max = 1840
+respuesta = [1732, 1808]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Humphry Davy?"
+min = 1740
+max = 1860
+respuesta = [1778, 1829]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió James Prescott Joule?"
+min = 1780
+max = 1920
+respuesta = [1818, 1889]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Lord Kelvin?"
+min = 1790
+max = 1940
+respuesta = [1824, 1907]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió André-Marie Ampère?"
+min = 1740
+max = 1870
+respuesta = [1775, 1836]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Georg Ohm?"
+min = 1750
+max = 1890
+respuesta = [1789, 1854]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Robert Boyle?"
+min = 1590
+max = 1730
+respuesta = [1627, 1691]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Robert Hooke?"
+min = 1600
+max = 1740
+respuesta = [1635, 1703]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Antoni van Leeuwenhoek?"
+min = 1600
+max = 1760
+respuesta = [1632, 1723]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió William Harvey?"
+min = 1540
+max = 1690
+respuesta = [1578, 1657]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Andrés Vesalio?"
+min = 1480
+max = 1600
+respuesta = [1514, 1564]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alfred Nobel?"
+min = 1800
+max = 1930
+respuesta = [1833, 1896]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Alexander Graham Bell?"
+min = 1810
+max = 1960
+respuesta = [1847, 1922]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Erwin Schrödinger?"
+min = 1850
+max = 2000
+respuesta = [1887, 1961]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Richard Feynman?"
+min = 1880
+max = 2020
+respuesta = [1918, 1988]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Paul Dirac?"
+min = 1870
+max = 2020
+respuesta = [1902, 1984]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Lise Meitner?"
+min = 1840
+max = 2000
+respuesta = [1878, 1968]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Barbara McClintock?"
+min = 1870
+max = 2030
+respuesta = [1902, 1992]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió René Descartes?"
+min = 1560
+max = 1680
+respuesta = [1596, 1650]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Blaise Pascal?"
+min = 1590
+max = 1700
+respuesta = [1623, 1662]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Gottfried Leibniz?"
+min = 1610
+max = 1750
+respuesta = [1646, 1716]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Bernhard Riemann?"
+min = 1790
+max = 1900
+respuesta = [1826, 1866]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió David Hilbert?"
+min = 1830
+max = 1980
+respuesta = [1862, 1943]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Kurt Gödel?"
+min = 1870
+max = 2010
+respuesta = [1906, 1978]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Srinivasa Ramanujan?"
+min = 1850
+max = 1950
+respuesta = [1887, 1920]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió John von Neumann?"
+min = 1870
+max = 1990
+respuesta = [1903, 1957]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Claude Shannon?"
+min = 1880
+max = 2040
+respuesta = [1916, 2001]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Grace Hopper?"
+min = 1870
+max = 2030
+respuesta = [1906, 1992]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Jonas Salk?"
+min = 1880
+max = 2030
+respuesta = [1914, 1995]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Yuri Gagarin?"
+min = 1900
+max = 2000
+respuesta = [1934, 1968]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Neil Armstrong?"
+min = 1900
+max = 2050
+respuesta = [1930, 2012]
+criterio = "coincidir"
+margen = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Sally Ride?"
+min = 1920
+max = 2050
+respuesta = [1951, 2012]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Wernher von Braun?"
+min = 1880
+max = 2010
+respuesta = [1912, 1977]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se desarrolló el programa espacial Apolo de la NASA?"
+min = 1935
+max = 2000
+respuesta = [1961, 1972]
+criterio = "coincidir"
+margen = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se desarrolló el programa Gemini de la NASA?"
+min = 1935
+max = 1995
+respuesta = [1961, 1966]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se desarrolló el programa Mercury, los primeros vuelos tripulados de EE. UU.?"
+min = 1930
+max = 1990
+respuesta = [1958, 1963]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo operativo el programa de transbordadores espaciales de la NASA?"
+min = 1955
+max = 2040
+respuesta = [1981, 2011]
+criterio = "coincidir"
+margen = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo en órbita la estación espacial soviética Mir?"
+min = 1960
+max = 2030
+respuesta = [1986, 2001]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo en el espacio la estación Skylab, la primera de EE. UU.?"
+min = 1945
+max = 2005
+respuesta = [1973, 1979]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años voló comercialmente el avión supersónico Concorde?"
+min = 1950
+max = 2030
+respuesta = [1976, 2003]
+criterio = "coincidir"
+margen = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se desarrolló el Proyecto Genoma Humano?"
+min = 1965
+max = 2030
+respuesta = [1990, 2003]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se extendió la pandemia de gripe de 1918, llamada «gripe española»?"
+min = 1890
+max = 1945
+respuesta = [1918, 1920]
+criterio = "coincidir"
+margen = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se extendió la peste negra por Europa?"
+min = 1320
+max = 1380
+respuesta = [1347, 1351]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la pandemia de COVID-19 declarada por la OMS?"
+min = 1995
+max = 2050
+respuesta = [2020, 2023]
+criterio = "coincidir"
+margen = 0
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo la sonda Cassini estudiando Saturno?"
+min = 1975
+max = 2045
+respuesta = [2004, 2017]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la misión Rosetta de la ESA, que llegó a un cometa?"
+min = 1975
+max = 2045
+respuesta = [2004, 2016]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo en funcionamiento el telescopio espacial Kepler, cazador de exoplanetas?"
+min = 1980
+max = 2045
+respuesta = [2009, 2018]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo operativo el telescopio espacial infrarrojo Spitzer?"
+min = 1975
+max = 2045
+respuesta = [2003, 2020]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años estuvo en órbita el Sputnik 1?"
+min = 1930
+max = 1985
+respuesta = [1957, 1958]
+criterio = "coincidir"
+margen = 0
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se extendió la campaña intensiva de la OMS para erradicar la viruela?"
+min = 1940
+max = 2005
+respuesta = [1967, 1980]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Dolly, la oveja clonada?"
+min = 1970
+max = 2030
+respuesta = [1996, 2003]
+criterio = "coincidir"
+margen = 0
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se desarrolló el Proyecto Manhattan, que creó la bomba atómica?"
+min = 1915
+max = 1975
+respuesta = [1942, 1946]
+criterio = "coincidir"
+margen = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se suele situar la Revolución Científica, de Copérnico a Newton?"
+min = 1515
+max = 1715
+respuesta = [1543, 1687]
+criterio = "coincidir"
+margen = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años se suele situar la primera Revolución Industrial?"
+min = 1735
+max = 1865
+respuesta = [1760, 1840]
+criterio = "coincidir"
+margen = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Gran Telescopio Canarias, en el Observatorio del Roque de los Muchachos"
+respuesta = { lat = 28.7566, lng = -17.892 }
+radio = 35000
+vista = { lat = 28.4, lng = -16.5, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Observatorio del Teide, en una isla canaria"
+respuesta = { lat = 28.3, lng = -16.5097 }
+radio = 35000
+vista = { lat = 28.4, lng = -16.5, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Observatorio de Calar Alto"
+respuesta = { lat = 37.2236, lng = -2.5461 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde estaba el radiotelescopio de Arecibo"
+respuesta = { lat = 18.3467, lng = -66.7533 }
+radio = 150000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Observatorio Paranal, sede del Very Large Telescope"
+respuesta = { lat = -24.6272, lng = -70.4042 }
+radio = 200000
+vista = { lat = -25.0, lng = -69.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el radiotelescopio ALMA"
+respuesta = { lat = -23.0193, lng = -67.7532 }
+radio = 200000
+vista = { lat = -25.0, lng = -69.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Observatorio de Yebes, con su radiotelescopio de 40 metros"
+respuesta = { lat = 40.5252, lng = -3.0887 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Observatorio Yerkes, con el mayor telescopio refractor del mundo"
+respuesta = { lat = 42.5703, lng = -88.5567 }
+radio = 200000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Very Large Array, el conjunto de radiotelescopios de Nuevo México"
+respuesta = { lat = 34.0787, lng = -107.6177 }
+radio = 200000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Observatorio Fabra, en la sierra de Collserola"
+respuesta = { lat = 41.4184, lng = 2.124 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Real Observatorio de la Armada, fundado en 1753"
+respuesta = { lat = 36.4617, lng = -6.2056 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el radiotelescopio de Jodrell Bank, en Inglaterra"
+respuesta = { lat = 53.2362, lng = -2.3071 }
+radio = 100000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Observatorio de Monte Palomar, en California"
+respuesta = { lat = 33.3564, lng = -116.865 }
+radio = 120000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el volcán Mauna Kea, famoso por sus observatorios"
+respuesta = { lat = 19.8206, lng = -155.4681 }
+radio = 100000
+vista = { lat = 20.0, lng = -155.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Greenwich, por donde pasa el meridiano cero"
+respuesta = { lat = 51.48, lng = 0.0 }
+radio = 40000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el volcán del Teide"
+respuesta = { lat = 28.2726, lng = -16.6436 }
+radio = 35000
+vista = { lat = 28.4, lng = -16.5, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Vesubio, el volcán que enterró Pompeya"
+respuesta = { lat = 40.8226, lng = 14.4292 }
+radio = 60000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Etna, el volcán más activo de Europa"
+respuesta = { lat = 37.7508, lng = 14.9932 }
+radio = 60000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Krakatoa, cuya erupción de 1883 se oyó a miles de kilómetros"
+respuesta = { lat = -6.102, lng = 105.423 }
+radio = 200000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Kilimanjaro, la montaña más alta de África"
+respuesta = { lat = -3.0667, lng = 37.3592 }
+radio = 150000
+vista = { lat = 0.0, lng = 20.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el volcán Popocatépetl"
+respuesta = { lat = 19.0234, lng = -98.6234 }
+radio = 120000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el volcán Eyjafjallajökull, cuya ceniza paralizó el tráfico aéreo en 2010"
+respuesta = { lat = 63.6333, lng = -19.6 }
+radio = 100000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Santorini, formada por una gran explosión volcánica"
+respuesta = { lat = 36.415, lng = 25.4325 }
+radio = 60000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el volcán Cumbre Vieja, que entró en erupción en 2021"
+respuesta = { lat = 28.5667, lng = -17.8333 }
+radio = 35000
+vista = { lat = 28.4, lng = -16.5, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de Timanfaya, con sus Montañas del Fuego"
+respuesta = { lat = 29.0141, lng = -13.78 }
+radio = 40000
+vista = { lat = 28.4, lng = -16.5, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el monte Santa Helena, que explotó en 1980"
+respuesta = { lat = 46.2003, lng = -122.1894 }
+radio = 120000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el volcán Pinatubo, cuya erupción de 1991 enfrió el planeta"
+respuesta = { lat = 15.13, lng = 120.35 }
+radio = 200000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el volcán Tambora, que provocó el «año sin verano» en 1816"
+respuesta = { lat = -8.2453, lng = 117.9928 }
+radio = 200000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el volcán Kīlauea, en Hawái"
+respuesta = { lat = 19.4211, lng = -155.2868 }
+radio = 100000
+vista = { lat = 20.0, lng = -155.5, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Chimborazo, el punto más alejado del centro de la Tierra"
+respuesta = { lat = -1.4692, lng = -78.8175 }
+radio = 150000
+vista = { lat = -15.0, lng = -60.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de Doñana"
+respuesta = { lat = 37.02, lng = -6.44 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de los Picos de Europa"
+respuesta = { lat = 43.25, lng = -4.9167 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de Ordesa y Monte Perdido"
+respuesta = { lat = 42.6717, lng = 0.0556 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de Aigüestortes i Estany de Sant Maurici"
+respuesta = { lat = 42.5772, lng = 0.9478 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de las Tablas de Daimiel"
+respuesta = { lat = 39.1449, lng = -3.702 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de Monfragüe, famoso por sus buitres"
+respuesta = { lat = 39.82, lng = -5.97 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de Garajonay, en La Gomera"
+respuesta = { lat = 28.1262, lng = -17.2372 }
+radio = 35000
+vista = { lat = 28.4, lng = -16.5, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Natural de Cabo de Gata-Níjar"
+respuesta = { lat = 36.9, lng = -2.03 }
+radio = 60000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de la Sierra de Guadarrama"
+respuesta = { lat = 40.7833, lng = -3.9833 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el delta del Ebro, humedal de gran valor para las aves"
+respuesta = { lat = 40.7324, lng = 0.8696 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Mar Menor, la mayor laguna salada de España"
+respuesta = { lat = 37.75, lng = -0.7833 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la laguna de Gallocanta, donde invernan miles de grullas"
+respuesta = { lat = 40.9667, lng = -1.4972 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde están Las Médulas, antigua mina de oro romana en León"
+respuesta = { lat = 42.4572, lng = -6.7681 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional del Serengeti, con sus grandes migraciones"
+respuesta = { lat = -2.4, lng = 34.6 }
+radio = 80000
+vista = { lat = 0.0, lng = 20.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional de Yellowstone, con su supervolcán"
+respuesta = { lat = 44.6, lng = -110.5 }
+radio = 150000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde están las islas Galápagos, que inspiraron a Darwin"
+respuesta = { lat = -0.6667, lng = -90.55 }
+radio = 250000
+vista = { lat = -15.0, lng = -60.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Gran Barrera de Coral"
+respuesta = { lat = -16.4, lng = 145.8 }
+radio = 300000
+vista = { lat = -25.0, lng = 140.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional Kruger, en Sudáfrica"
+respuesta = { lat = -24.0114, lng = 31.4853 }
+radio = 150000
+vista = { lat = 0.0, lng = 20.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Parque Nacional Torres del Paine, en la Patagonia chilena"
+respuesta = { lat = -50.9831, lng = -72.9664 }
+radio = 120000
+vista = { lat = -15.0, lng = -60.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el CERN, con el Gran Colisionador de Hadrones"
+respuesta = { lat = 46.2345, lng = 6.0491 }
+radio = 35000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Instituto Cajal, centro del CSIC dedicado a la neurociencia"
+respuesta = { lat = 40.4484, lng = -3.6802 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el ESAC, centro de astronomía espacial de la ESA cerca de Madrid"
+respuesta = { lat = 40.4431, lng = -3.9522 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Laboratorio Cavendish, donde se descubrió el electrón"
+respuesta = { lat = 52.2092, lng = 0.0925 }
+radio = 35000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el sincrotrón ALBA, cerca de Barcelona"
+respuesta = { lat = 41.4867, lng = 2.1097 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Plataforma Solar de Almería, centro de energía solar"
+respuesta = { lat = 37.0917, lng = -2.3583 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se construye ITER, el gran reactor experimental de fusión nuclear"
+respuesta = { lat = 43.7078, lng = 5.7774 }
+radio = 60000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Fermilab, laboratorio de física de partículas de EE. UU."
+respuesta = { lat = 41.8319, lng = -88.2572 }
+radio = 120000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Instituto Pasteur, de investigación biomédica"
+respuesta = { lat = 48.8403, lng = 2.3111 }
+radio = 35000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el MIT, el Instituto Tecnológico de Massachusetts"
+respuesta = { lat = 42.3597, lng = -71.0919 }
+radio = 80000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el cosmódromo de Baikonur, desde donde despegó Gagarin"
+respuesta = { lat = 45.9648, lng = 63.3051 }
+radio = 200000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Centro Espacial Kennedy, base de lanzamiento de la NASA"
+respuesta = { lat = 28.5247, lng = -80.6486 }
+radio = 60000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Centro Espacial Johnson de la NASA, que controla las misiones tripuladas"
+respuesta = { lat = 29.5583, lng = -95.0889 }
+radio = 80000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Laboratorio Nacional de Los Álamos, donde se creó la bomba atómica"
+respuesta = { lat = 35.8756, lng = -106.3242 }
+radio = 100000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Torre de Pisa, desde donde se dice que Galileo estudió la caída de los cuerpos"
+respuesta = { lat = 43.723, lng = 10.3966 }
+radio = 35000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde nació Isaac Newton y, según la leyenda, cayó su manzana"
+respuesta = { lat = 52.8092, lng = -0.6306 }
+radio = 80000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde hicieron los hermanos Wright su primer vuelo en 1903"
+respuesta = { lat = 36.0769, lng = -75.7047 }
+radio = 120000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad donde se probó el submarino de Isaac Peral"
+respuesta = { lat = 37.6019, lng = -0.9842 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde nació Santiago Ramón y Cajal"
+respuesta = { lat = 42.4436, lng = -1.1195 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde nació Severo Ochoa"
+respuesta = { lat = 43.5454, lng = -6.54 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Chernóbil, escenario del peor accidente nuclear de la historia"
+respuesta = { lat = 51.2667, lng = 30.2167 }
+radio = 100000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la garganta de Olduvai, cuna de hallazgos de nuestros ancestros"
+respuesta = { lat = -2.9833, lng = 35.35 }
+radio = 100000
+vista = { lat = 0.0, lng = 20.0, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Dmanisi, con los restos humanos más antiguos fuera de África"
+respuesta = { lat = 41.3322, lng = 44.2044 }
+radio = 100000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Orce, con yacimientos de los primeros homínidos de Europa"
+respuesta = { lat = 37.7214, lng = -2.4794 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Atapuerca, yacimiento de la evolución humana"
+respuesta = { lat = 42.3767, lng = -3.5092 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde se halló por primera vez un fósil de neandertal"
+respuesta = { lat = 51.2267, lng = 6.9511 }
+radio = 80000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde hizo Mendel sus experimentos con guisantes"
+respuesta = { lat = 49.1953, lng = 16.6083 }
+radio = 60000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde descubrió Röntgen los rayos X"
+respuesta = { lat = 49.7944, lng = 9.9294 }
+radio = 60000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde nació Alessandro Volta, inventor de la pila eléctrica"
+respuesta = { lat = 45.8103, lng = 9.0861 }
+radio = 50000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la cueva de Altamira, con sus pinturas rupestres"
+respuesta = { lat = 43.3833, lng = -4.1167 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la cueva de Lascaux, con sus pinturas prehistóricas"
+respuesta = { lat = 45.0538, lng = 1.171 }
+radio = 80000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Pompeya, ciudad sepultada por el Vesubio"
+respuesta = { lat = 40.7506, lng = 14.4897 }
+radio = 40000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde cayó el bólido de Tunguska en 1908"
+respuesta = { lat = 60.9167, lng = 101.95 }
+radio = 300000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde cayó el asteroide que extinguió a los dinosaurios, el cráter de Chicxulub"
+respuesta = { lat = 21.4, lng = -89.5167 }
+radio = 200000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde descubrió Fleming la penicilina, en un hospital de Londres"
+respuesta = { lat = 51.5172, lng = -0.1731 }
+radio = 35000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde voló por primera vez en España el autogiro de Juan de la Cierva"
+respuesta = { lat = 40.3706, lng = -3.785 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala el municipio cántabro donde nació Leonardo Torres Quevedo"
+respuesta = { lat = 43.1542, lng = -4.0408 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad escocesa junto a la que se clonó a la oveja Dolly"
+respuesta = { lat = 55.9533, lng = -3.1892 }
+radio = 50000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el K2, la segunda montaña más alta del mundo"
+respuesta = { lat = 35.8811, lng = 76.5133 }
+radio = 150000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Mont Blanc, el pico más alto de los Alpes"
+respuesta = { lat = 45.8328, lng = 6.865 }
+radio = 70000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Aneto, el pico más alto de los Pirineos"
+respuesta = { lat = 42.631, lng = 0.6567 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Mulhacén, el pico más alto de la península ibérica"
+respuesta = { lat = 37.0533, lng = -3.3114 }
+radio = 40000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el mar Muerto, el lugar más bajo de la superficie terrestre"
+respuesta = { lat = 31.5207, lng = 35.4845 }
+radio = 100000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el lago Titicaca, el navegable más alto del mundo"
+respuesta = { lat = -15.825, lng = -69.325 }
+radio = 150000
+vista = { lat = -15.0, lng = -60.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el lago Baikal, el más profundo del mundo"
+respuesta = { lat = 53.3028, lng = 108.0047 }
+radio = 250000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Fosa de las Marianas, el punto más profundo del océano"
+respuesta = { lat = 11.35, lng = 142.2 }
+radio = 300000
+vista = { lat = 35.0, lng = 90.0, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el desierto de Atacama, el más árido del mundo"
+respuesta = { lat = -24.5, lng = -69.25 }
+radio = 300000
+vista = { lat = -15.0, lng = -60.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el desierto de Tabernas, en Almería"
+respuesta = { lat = 37.0, lng = -2.45 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde están las cataratas del Niágara"
+respuesta = { lat = 43.08, lng = -79.071 }
+radio = 80000
+vista = { lat = 39.0, lng = -98.0, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde están las cataratas Victoria"
+respuesta = { lat = -17.9248, lng = 25.8581 }
+radio = 150000
+vista = { lat = 0.0, lng = 20.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el salar de Uyuni, el mayor desierto de sal del mundo"
+respuesta = { lat = -20.3333, lng = -67.7 }
+radio = 200000
+vista = { lat = -15.0, lng = -60.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Peñón de Gibraltar"
+respuesta = { lat = 36.1258, lng = -5.3431 }
+radio = 35000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Calzada del Gigante, formada por columnas de basalto"
+respuesta = { lat = 55.2408, lng = -6.5117 }
+radio = 60000
+vista = { lat = 50.0, lng = 10.0, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde están las cataratas del Iguazú"
+respuesta = { lat = -25.6953, lng = -54.4367 }
+radio = 150000
+vista = { lat = -15.0, lng = -60.0, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el cabo Fisterra, donde los romanos creían que acababa el mundo"
+respuesta = { lat = 42.8825, lng = -9.2722 }
+radio = 50000
+vista = { lat = 40.0, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué rama de la ciencia le parece más fascinante?"
+opciones = ["Astronomía", "Biología", "Física", "Química"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le daría más miedo encontrarse en el mar?"
+opciones = ["Un tiburón", "Una medusa", "Un pulpo gigante", "Una tormenta"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué científico le habría gustado conocer?"
+opciones = ["Einstein", "Marie Curie", "Ramón y Cajal", "Darwin"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere hacer una noche despejada?"
+opciones = ["Mirar las estrellas", "Buscar constelaciones", "Hacer fotos del cielo", "Dormir tranquilamente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal le parece más inteligente?"
+opciones = ["El delfín", "El pulpo", "El cuervo", "El chimpancé"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué experimento casero le gustaría probar?"
+opciones = ["Un volcán de bicarbonato", "Un cohete de agua", "Slime", "Cristales de sal"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué asignatura de ciencias llevaba mejor en el colegio?"
+opciones = ["Matemáticas", "Física y química", "Biología", "Tecnología"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué preferiría visitar?"
+opciones = ["Un observatorio", "Un laboratorio", "Un acuario", "Un museo de ciencias"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué parte del cuerpo humano le parece más sorprendente?"
+opciones = ["El cerebro", "El corazón", "Los ojos", "La piel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría descubrir?"
+opciones = ["Vida en otro planeta", "Una especie nueva", "Una cura", "Un fósil de dinosaurio"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de dinosaurio elegiría?"
+opciones = ["Tiranosaurio", "Velociraptor", "Triceratops", "Diplodocus"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué energía renovable le convence más?"
+opciones = ["Solar", "Eólica", "Hidráulica", "Geotérmica"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué instrumento científico le gustaría tener en casa?"
+opciones = ["Un telescopio", "Un microscopio", "Una estación meteorológica", "Una impresora 3D"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de un día de lluvia?"
+opciones = ["Los truenos y relámpagos", "El olor a tierra mojada", "El arcoíris posterior", "Quedarse en casa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fenómeno del espacio le impresiona más?"
+opciones = ["Un agujero negro", "Una supernova", "Una nebulosa", "Un cometa"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué estación del año prefiere para observar la naturaleza?"
+opciones = ["Primavera", "Verano", "Otoño", "Invierno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué documental de ciencia vería primero?"
+opciones = ["Del espacio", "De animales", "Del cuerpo humano", "Del fondo marino"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de las matemáticas?"
+opciones = ["Los números", "La geometría", "Los problemas lógicos", "Los acertijos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué sentido elegiría potenciar?"
+opciones = ["La vista", "El oído", "El olfato", "El tacto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué superpoder científico preferiría?"
+opciones = ["Hablar con los animales", "Viajar en el tiempo", "Ser invisible", "Volar"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría que inventaran ya?"
+opciones = ["Un teletransportador", "Un coche volador", "Una máquina del tiempo", "Un robot de cocina"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal prehistórico le haría más ilusión ver vivo?"
+opciones = ["Mamut", "Tigre de dientes de sable", "Megalodón", "Dodo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Dónde le gustaría pasar un día de campo científico?"
+opciones = ["En un volcán", "En un glaciar", "En una selva", "En un desierto"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gusta más de los insectos?"
+opciones = ["Las mariposas", "Las abejas", "Las luciérnagas", "Ninguno, le dan grima"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere aprender ciencia?"
+opciones = ["Con experimentos", "Con vídeos", "Leyendo", "Visitando museos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que será más útil en el futuro?"
+opciones = ["La inteligencia artificial", "La energía limpia", "La medicina genética", "Los viajes espaciales"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué planta le parece más curiosa?"
+opciones = ["La planta carnívora", "El cactus", "El bambú", "La sensitiva"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de cielo le gusta más?"
+opciones = ["Despejado y estrellado", "Con tormenta", "Con nubes de algodón", "Con atardecer rojo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fenómeno atmosférico le gustaría ver de cerca?"
+opciones = ["Una aurora boreal", "Un tornado", "Un halo solar", "Un rayo en globo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría llevar al espacio?"
+opciones = ["Su peluche favorito", "Su música", "Un libro", "Su comida preferida"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de robot compraría?"
+opciones = ["Aspirador", "Cocinero", "Mascota robótica", "Asistente que habla"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué elemento químico se quedaría?"
+opciones = ["Oro", "Hierro", "Oxígeno", "Carbono"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué órgano de otro animal le gustaría tener?"
+opciones = ["Alas", "Branquias", "Cola prensil", "Visión nocturna"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de un eclipse?"
+opciones = ["Ver la corona solar", "La oscuridad repentina", "Sentir el frío", "Las fotos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué parte de un microscopio le haría más gracia explorar?"
+opciones = ["Una gota de agua", "Un pelo", "Una hoja", "Un grano de sal"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con un telescopio potente?"
+opciones = ["Mirar la Luna", "Buscar planetas", "Ver galaxias", "Espiar el vecindario"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere del cuerpo humano?"
+opciones = ["Cómo late el corazón", "Cómo piensa el cerebro", "Cómo crecen los huesos", "Cómo cura la piel"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le parece más espectacular?"
+opciones = ["Un volcán en erupción", "Un géiser", "Un iceberg", "Una cascada enorme"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué mamífero marino prefiere?"
+opciones = ["Ballena jorobada", "Orca", "Delfín mular", "Foca"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ave le resulta más fascinante?"
+opciones = ["El águila", "El búho", "El colibrí", "El flamenco"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué ciencia usaría para resolver un misterio?"
+opciones = ["La forense", "La química", "La informática", "La biología"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de energía le parece más peligrosa?"
+opciones = ["Nuclear", "Del carbón", "Del petróleo", "De ninguna, todas se pueden usar bien"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría estudiar de los océanos?"
+opciones = ["Las criaturas abisales", "Los arrecifes de coral", "Las mareas", "Los naufragios"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué espacio natural le gustaría proteger?"
+opciones = ["Un bosque", "Un humedal", "Un arrecife", "Una montaña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué aparato doméstico le parece mejor invento?"
+opciones = ["El frigorífico", "El microondas", "La lavadora", "El aire acondicionado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué medio de transporte del futuro probaría?"
+opciones = ["Hyperloop", "Coche autónomo", "Avión supersónico", "Cohete turístico"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría hacer en un laboratorio?"
+opciones = ["Mezclar sustancias", "Mirar al microscopio", "Programar un robot", "Cultivar bacterias"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué luna del sistema solar visitaría?"
+opciones = ["La Luna", "Europa", "Titán", "Encélado"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace en una noche de estrellas fugaces?"
+opciones = ["Pedir un deseo", "Contarlas", "Hacer fotos", "Se queda dormido"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de las plantas?"
+opciones = ["Sus flores", "Sus frutos", "Su olor", "Su sombra"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ser dentro del mundo científico?"
+opciones = ["Astronauta", "Médico investigador", "Biólogo marino", "Ingeniero de robots"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de inventos le gustan más?"
+opciones = ["Los útiles", "Los locos", "Los que ahorran tiempo", "Los que ayudan a la gente"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué es lo que más le asombra de los animales?"
+opciones = ["Su instinto", "Su fuerza", "Su velocidad", "Su camuflaje"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que hay más probabilidades de encontrar?"
+opciones = ["Bacterias en Marte", "Vida inteligente", "Agua en otro planeta", "Nada de nada"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría si pudiera viajar a un siglo concreto?"
+opciones = ["Al siglo XVIII", "Al XXII", "A la prehistoria", "Se quedaría en el actual"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le impresiona más de la anatomía humana?"
+opciones = ["Los huesos", "Los músculos", "Los pulmones", "El sistema nervioso"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fenómeno físico le gusta más?"
+opciones = ["La gravedad", "La electricidad", "El magnetismo", "La luz"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué estrella o astro le gusta más?"
+opciones = ["El Sol", "La Luna", "Venus", "Saturno"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué vehículo espacial le gustaría pilotar?"
+opciones = ["Una nave de ciencia ficción", "El transbordador", "Un róver marciano", "Un cohete reutilizable"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría coleccionar?"
+opciones = ["Minerales", "Fósiles", "Insectos secos", "Conchas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué es lo primero que miraría de Marte?"
+opciones = ["Sus volcanes", "Sus cañones", "Sus casquetes de hielo", "El cielo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de la tecnología?"
+opciones = ["Los móviles", "Los ordenadores", "Las consolas", "Los gadgets"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere hacer con la ciencia?"
+opciones = ["Aprender cosas nuevas", "Experimentar", "Enseñarla a otros", "Leer noticias científicas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué clima le resulta más curioso?"
+opciones = ["Tropical", "Polar", "Desértico", "De montaña"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que explica mejor el mundo?"
+opciones = ["La física", "La biología", "La química", "Las matemáticas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué tipo de preguntas científicas le gustan?"
+opciones = ["Del espacio", "De la naturaleza", "Del cuerpo", "De inventos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de la ciencia ficción?"
+opciones = ["Los viajes en el tiempo", "Los robots", "Los extraterrestres", "Los mundos futuristas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que será lo próximo en medicina?"
+opciones = ["Órganos impresos", "Vacunas contra todo", "Cirugía con robots", "Terapias genéticas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué órgano elegiría cuidar mejor?"
+opciones = ["El corazón", "El cerebro", "Los pulmones", "Los ojos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué elemento natural le parece más misterioso?"
+opciones = ["El fuego", "El agua", "El viento", "La tierra"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuál de estos descubrimientos le parece más importante?"
+opciones = ["La penicilina", "La electricidad", "La rueda", "Internet"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué haría con una cámara térmica?"
+opciones = ["Mirar la casa", "Mirar a las mascotas", "Buscar fantasmas", "Jugar a esconderse"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué bicho no soportaría ver de cerca?"
+opciones = ["Una araña", "Una cucaracha", "Una serpiente", "Un escorpión"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué estudiaría de la Luna?"
+opciones = ["Sus cráteres", "Sus mareas", "Su cara oculta", "Su origen"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de un cielo estrellado?"
+opciones = ["El silencio", "Las constelaciones", "La Vía Láctea", "Las estrellas fugaces"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría poder medir con un aparato?"
+opciones = ["La felicidad", "El tiempo exacto", "La inteligencia", "La suerte"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué parte de la naturaleza le gustaría conocer a fondo?"
+opciones = ["Los bosques", "Los ríos", "Las cuevas", "Las islas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de los museos de ciencia?"
+opciones = ["Los experimentos interactivos", "Los planetarios", "Los esqueletos", "Las maquetas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué animal extinto le gustaría revivir?"
+opciones = ["Mamut", "Dinosaurio", "Tigre de Tasmania", "Dodo"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere de la astronomía?"
+opciones = ["Mirar el cielo", "Conocer los planetas", "Saber de agujeros negros", "Seguir las misiones espaciales"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué técnica científica le parece más útil?"
+opciones = ["La radiografía", "La resonancia", "El microscopio electrónico", "El GPS"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para viajar a la Luna?"
+opciones = ["Cohete clásico", "Ascensor espacial", "Cañón gigante", "Nave de ciencia ficción"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué reto científico le gustaría ver resuelto?"
+opciones = ["El cáncer", "El cambio climático", "El viaje a otras estrellas", "La energía infinita"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué cree que haría mejor en una nave espacial?"
+opciones = ["Cocinar", "Reparar cosas", "Pilotar", "Mirar por la ventana"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Con qué científico español se identifica más?"
+opciones = ["Ramón y Cajal", "Severo Ochoa", "Margarita Salas", "Isaac Peral"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué fenómeno geológico le gustaría ver en directo?"
+opciones = ["Un géiser", "Una erupción", "Un cañón", "Una cueva de cristales"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le da más curiosidad?"
+opciones = ["El fondo del mar", "El espacio profundo", "El interior de la Tierra", "El cerebro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le gustaría ver bajo un microscopio?"
+opciones = ["Una célula viva", "Un copo de nieve", "Un grano de polen", "Una gota de sangre"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le parece más útil de la ciencia?"
+opciones = ["La medicina", "La informática", "La ingeniería", "La astronomía"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué lugar de la naturaleza le inspira más calma?"
+opciones = ["La playa", "El bosque", "La montaña", "Un lago"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué le haría más ilusión descubrir en una excavación?"
+opciones = ["Un esqueleto de dinosaurio", "Una momia", "Una ciudad perdida", "Un tesoro"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué hace cuando no entiende algo de ciencia?"
+opciones = ["Lo busca en internet", "Pregunta a alguien", "Lo prueba por sí mismo", "Lo deja pasar"]
