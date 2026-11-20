@@ -81,9 +81,13 @@ class Player:
     correct_count: int = 0
     asked_count: int = 0
     photo_version: int = 0
+    asked: dict[str, int] = field(default_factory=dict)  # per category, this match
+    right: dict[str, int] = field(default_factory=dict)
 
     def reset_scores(self) -> None:
         """Back to the start for a new game (profile is kept)."""
+        self.asked = {}
+        self.right = {}
         self.points = 0
         self.position = 0
         self.closed = []

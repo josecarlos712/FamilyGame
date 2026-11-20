@@ -62,7 +62,8 @@ archivo: la respuesta buena es la que elige el jugador que sacó la pregunta (el
    elegir, no existe: `solution_data` debe aguantarlo (la pregunta queda anulada).
 
 Puntuación (constantes en `engine.py`): amigo que acierta +100 (sin bonus de rapidez); conocido
-+100 por amigo que acierta y −50 por amigo que falla (nunca baja de 0; quien no responde no cuenta).
++100 por amigo que acierta y −50 por amigo que falla (el saldo puede ser negativo, también el marcador, y entonces retrocede `SUBJECT_BACK` casilla;
+quien no responde no cuenta).
 El conocido cuenta como acierto (casillas, progreso, ×2) si acierta al menos la mitad. Si se le acaba
 el tiempo, la pregunta se anula y pierde 50; si se va o no puede verla, se anula sin castigo.
 Estas preguntas nunca salen en desempates ni si no hay al menos dos jugadores conectados.

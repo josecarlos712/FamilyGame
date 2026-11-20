@@ -2741,3 +2741,429 @@ opciones = ["Ver dinosaurios", "Conocer a sus abuelos jóvenes", "Ver el futuro"
 tipo = "conoces"
 enunciado = "¿Qué legado cultural prefiere?"
 opciones = ["Acueductos romanos", "Catedrales góticas", "Castillos medievales", "Arte rupestre"]
+
+# --- Preguntas de mapa ---
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Chichén Itzá"
+respuesta = { lat = 20.6831, lng = -88.5686 }
+radio = 100000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está las ruinas de Pompeya"
+respuesta = { lat = 40.7506, lng = 14.4897 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+# --- Preguntas numéricas ---
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó el ser humano a la Luna?"
+min = 1950
+max = 2000
+respuesta = 1969
+tolerancia = 2
+inicio = 1975
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Segunda Guerra Mundial?"
+min = 1900
+max = 1970
+respuesta = [1939, 1945]
+criterio = "coincidir"
+margen = 0
+tiempo = 20
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó Colón a América por primera vez?"
+min = 1470
+max = 1500
+respuesta = 1492
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año zarpó la Armada Invencible contra Inglaterra?"
+min = 1560
+max = 1610
+respuesta = 1588
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue la batalla de Trafalgar?"
+min = 1780
+max = 1830
+respuesta = 1805
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el levantamiento del Dos de Mayo en Madrid?"
+min = 1790
+max = 1830
+respuesta = 1808
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se aprobó la Constitución de Cádiz, «La Pepa»?"
+min = 1795
+max = 1830
+respuesta = 1812
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año España perdió Cuba, Puerto Rico y Filipinas?"
+min = 1870
+max = 1920
+respuesta = 1898
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó la Guerra Civil española?"
+min = 1915
+max = 1955
+respuesta = 1936
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Francisco Franco?"
+min = 1955
+max = 1995
+respuesta = 1975
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se aprobó la Constitución española vigente?"
+min = 1960
+max = 1990
+respuesta = 1978
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el intento de golpe de Estado del 23-F?"
+min = 1965
+max = 1995
+respuesta = 1981
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebraron los Juegos Olímpicos de Barcelona?"
+min = 1975
+max = 2005
+respuesta = 1992
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fueron los atentados del 11-M en Madrid?"
+min = 1985
+max = 2015
+respuesta = 2004
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó España su primera Eurocopa de fútbol?"
+min = 1945
+max = 1980
+respuesta = 1964
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó la Revolución Francesa?"
+min = 1760
+max = 1810
+respuesta = 1789
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se hundió el Titanic?"
+min = 1890
+max = 1930
+respuesta = 1912
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año estalló la Primera Guerra Mundial?"
+min = 1890
+max = 1940
+respuesta = 1914
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año cayó Constantinopla en manos otomanas?"
+min = 1420
+max = 1470
+respuesta = 1453
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se declaró la independencia de Estados Unidos?"
+min = 1750
+max = 1800
+respuesta = 1776
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fueron los atentados contra las Torres Gemelas?"
+min = 1985
+max = 2015
+respuesta = 2001
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se empezó a construir el Muro de Berlín?"
+min = 1940
+max = 1980
+respuesta = 1961
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año terminó Elcano la primera vuelta al mundo?"
+min = 1500
+max = 1550
+respuesta = 1522
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue la Revolución rusa?"
+min = 1895
+max = 1935
+respuesta = 1917
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue la batalla de Waterloo?"
+min = 1790
+max = 1840
+respuesta = 1815
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se produjo el desastre nuclear de Chernóbil?"
+min = 1965
+max = 2005
+respuesta = 1986
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Isabel I de Castilla?"
+min = 1450
+max = 1530
+respuesta = [1474, 1504]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Felipe II?"
+min = 1520
+max = 1620
+respuesta = [1556, 1598]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Carlos III?"
+min = 1720
+max = 1820
+respuesta = [1759, 1788]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Alfonso XIII?"
+min = 1860
+max = 1950
+respuesta = [1886, 1931]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la dictadura de Franco?"
+min = 1920
+max = 1990
+respuesta = [1939, 1975]
+criterio = "coincidir"
+margen = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de la Independencia española?"
+min = 1790
+max = 1830
+respuesta = [1808, 1814]
+criterio = "coincidir"
+margen = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra Civil española?"
+min = 1920
+max = 1960
+respuesta = [1936, 1939]
+criterio = "coincidir"
+margen = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Primera Guerra Mundial?"
+min = 1900
+max = 1930
+respuesta = [1914, 1918]
+criterio = "coincidir"
+margen = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de los Cien Años?"
+min = 1300
+max = 1480
+respuesta = [1337, 1453]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Napoleón Bonaparte?"
+min = 1750
+max = 1840
+respuesta = [1769, 1821]
+criterio = "coincidir"
+margen = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Juan Carlos I rey de España?"
+min = 1960
+max = 2030
+respuesta = [1975, 2014]
+criterio = "coincidir"
+margen = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Isabel II en España?"
+min = 1810
+max = 1890
+respuesta = [1833, 1868]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Califato de Córdoba?"
+min = 850
+max = 1100
+respuesta = [929, 1031]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Reconquista, de la batalla de Guadalete a la toma de Granada?"
+min = 650
+max = 1550
+respuesta = [711, 1492]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Segunda República española?"
+min = 1900
+max = 1960
+respuesta = [1931, 1939]
+criterio = "coincidir"
+margen = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Carlos I rey de España?"
+min = 1480
+max = 1580
+respuesta = [1516, 1556]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de Sucesión española?"
+min = 1680
+max = 1740
+respuesta = [1701, 1714]
+criterio = "coincidir"
+margen = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de Secesión de Estados Unidos?"
+min = 1830
+max = 1900
+respuesta = [1861, 1865]
+criterio = "coincidir"
+margen = 1
+dificultad = 2

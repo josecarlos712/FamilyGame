@@ -38,7 +38,7 @@ lobby ─► choosing ─► reading ─► answering ─► reveal ─► board
 
 | Fase | Termina cuando |
 |---|---|
-| `choosing` | El que elige toca una categoría, o pasan `elegir_categoria` s (al azar). Si se desconecta, 1,5 s. |
+| `choosing` | Se sortea una mecánica (ruleta, moneda, rival, elección; ver `docs/mecanicas-categoria.md`); quien actúa tiene `elegir_categoria` s tras la intro, o el motor actúa por él (1,5 s si está desconectado). |
 | `reading` | Pasan los segundos de `lectura` de la pregunta. |
 | `answering` | Todos los conectados respondieron (o están exentos), o se acaba `tiempo` + 0,6 s de margen de red. |
 | `reveal` | Pasan `revelar` s (el anfitrión puede saltar). |
@@ -58,7 +58,7 @@ Si no queda ningún móvil conectado, todos los relojes se congelan.
 | Pasar por la salida | +50 |
 | Duelo | el ganador roba 50 (gana quien acierta; si ambos, el más rápido; si ninguno, nadie) |
 | Avance | 2 casillas por acierto, +1 al más rápido (empates incluidos) |
-| «¿Lo conoces?» | amigo que acierta +100; conocido +100 por acierto ajeno y −50 por fallo (mín. 0); −50 si no elige |
+| «¿Lo conoces?» | amigo que acierta +100; conocido +100 por acierto ajeno y −50 por fallo (si sale negativo, retrocede 1 casilla); −50 si no elige |
 
 Constantes en la cabecera de `engine.py`.
 
@@ -78,9 +78,10 @@ Mensajes JSON con un campo `t`.
 | `hello` | `token` (o `null`) | todos, al conectar |
 | `join` | `name`, `color`, `avatar` (`{kind:"icon", value}` o `{kind:"photo", data:"data:image/jpeg;base64,..."}`) | sin jugador |
 | `profile` | igual que `join` | jugador, fuera de partida |
-| `settings` | `changes`: `mode`, `targetPoints`, `rounds`, `categoriesToClose`, `hitsToClose`, `categoriesPerTurn`, `toggleCategory`, `disabled` | anfitrión, en el lobby |
+| `settings` | `changes`: `mode`, `targetPoints`, `rounds`, `categoriesToClose`, `hitsToClose`, `toggleMechanic`, `toggleCategory`, `disabled` (mecánicas: `docs/mecanicas-categoria.md`) | anfitrión, en el lobby |
 | `start` | — | anfitrión |
-| `choose` | `category` (id o `"__random__"`) | el que elige |
+| `choose` | `category` (id) | quien actúa en `rival`/`eleccion` (ver `docs/mecanicas-categoria.md`) |
+| `spin` | — | quien actúa en `ruleta`/`moneda` |
 | `answer` | `value` (lo que valide el tipo) | participantes |
 | `unavailable` | `reason` | participantes |
 | `next` | — | anfitrión (salta revelación/tablero) |

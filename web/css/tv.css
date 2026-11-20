@@ -211,3 +211,9 @@ body.tv { overflow: hidden; background: radial-gradient(1200px 700px at 50% 40%,
 .pause-tv-icon { font-size: 4em; line-height: 1; }
 .pause-name { display: inline-flex; align-items: center; gap: 10px; color: var(--c); font-weight: 900; }
 .pause-hint { color: var(--muted); }
+
+/* choosing: mechanic stage */
+.choice-stage.is-big { --w: 460px; font-size: 32px; }
+.choice-stage .mech-title { font-size: 64px; }
+.choice-stage .mech-rule { font-size: 34px; }
+.choice-stage .choice-result { font-size: 56px; }

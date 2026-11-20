@@ -103,6 +103,12 @@ const EFFECTS = {
   evento() { [67, 71, 74, 71, 76].forEach((n, i) => tone(NOTE(n), i * 0.07, 0.18, { type: "square", vol: 0.07 })); },
   estrella() { [84, 88, 91, 96].forEach((n, i) => tone(NOTE(n), i * 0.06, 0.5, { type: "sine", vol: 0.14 })); },
   duelo() { tone(NOTE(52), 0, 0.25, { type: "sawtooth", vol: 0.1 }); tone(NOTE(55), 0.18, 0.4, { type: "sawtooth", vol: 0.1 }); },
+  ruleta() { tone(900 + Math.random() * 60, 0, 0.05, { type: "triangle", vol: 0.12 }); },
+  moneda() {
+    tone(500, 0, 0.5, { type: "sine", vol: 0.07, glide: 3 });
+    tone(NOTE(96), 2.6, 0.9, { type: "sine", vol: 0.14 });
+    tone(NOTE(103), 2.6, 0.6, { type: "sine", vol: 0.07 });
+  },
   desempate() { [0, 0.3, 0.6].forEach((d) => tone(130, d, 0.35, { type: "sine", vol: 0.35, glide: 0.35 })); },
   fanfarria() {
     [[60, 0], [64, 0.14], [67, 0.28], [72, 0.42]].forEach(([n, d]) => tone(NOTE(n), d, 0.4, { type: "triangle", vol: 0.2 }));

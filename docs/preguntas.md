@@ -1,6 +1,9 @@
 # Guía para escribir preguntas
 
-Cada archivo `.toml` dentro de `preguntas/` es **una categoría**. Se pueden organizar en
+Cada archivo `.toml` dentro de `preguntas/` es **una categoría = un tema** (historia, ciencia, cine…).
+La mecánica de respuesta se elige **por pregunta** con `tipo` (test, slider, rango, mapa, conoces): cualquier
+categoría puede mezclar tipos. Una pregunta «relámpago» es una pregunta normal con `tiempo` y `lectura`
+pequeños. Las preguntas de mapa se saltan solas si no hay clave de Google Maps. Se pueden organizar en
 subcarpetas. Se ignoran los archivos y carpetas cuyo nombre empieza por `_` (como `_PLANTILLA.toml`),
 así que sirven para borradores.
 
@@ -122,7 +125,7 @@ barajar = true          # opcional (por defecto true)
 ```
 
 Puntos: cada amigo que acierta gana 100; el conocido gana 100 por cada amigo que acierta y pierde 50
-por cada uno que falla (no baja de 0). Si no elige a tiempo, la pregunta se anula y pierde 50. Solo
+por cada uno que falla; si el saldo de la pregunta es negativo, resta y retrocede una casilla. Si no elige a tiempo, la pregunta se anula y pierde 50. Solo
 salen con dos o más jugadores y nunca en los desempates.
 
 ## Qué pasa si me equivoco
@@ -158,8 +161,8 @@ Para comprobar los archivos sin jugar:
   (Buades-Sitjar, Planchuelo y Duñabeitia, 2021), licencia
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Se revisaron, se descartaron las dudosas
   o desfasadas y la `dificultad` sale del porcentaje de acierto real de 48.000 participantes en España.
-- Las coordenadas de `mapas.toml` y las capitales de `geografia.toml` salen de [Wikidata](https://www.wikidata.org) (CC0).
-- El resto (historia de España, deportes, cine y TV, relámpago y «¿Cuánto?») se redactó para el juego.
+- Las coordenadas de las preguntas de mapa y las capitales de `geografia.toml` salen de [Wikidata](https://www.wikidata.org) (CC0).
+- El resto (historia de España, deportes, cine y TV, relámpago y numéricas) se redactó para el juego.
   Si ves un dato erróneo o desfasado, corrígelo o bórralo en su archivo.
 
 Para validar archivos sueltos con el cargador real (también avisa de enunciados repetidos entre ellos):

@@ -20,7 +20,9 @@ JPEG = "data:image/jpeg;base64," + base64.b64encode(b"\xff\xd8\xff\xe0" + b"0" *
 def client(root: Path, tmp_path: Path) -> TestClient:
     paths = Paths.from_root(root)
     paths.data = tmp_path  # keep the question history out of the repo
-    app = create_app(AppConfig(), paths, check_internet=False)
+    config = AppConfig()
+    config.timing.choose = 0.1  # the engine acts for the chooser right after the intro
+    app = create_app(config, paths, check_internet=False)
     with TestClient(app) as c:
         yield c
 
@@ -70,15 +72,20 @@ def test_join_start_and_answer_over_websockets(client: TestClient) -> None:
         phone.send_json({"t": "join", "name": "Otra", "color": "#ffa94d", "avatar": {"kind": "icon", "value": "gato"}})
         assert "Ya estás" in recv_until(phone, "error")["msg"]
 
-        phone.send_json({"t": "settings", "changes": {"disabled": ["mapas"]}})
+        for mech in ("ruleta", "moneda", "rival"):
+            phone.send_json({"t": "settings", "changes": {"toggleMechanic": mech}})
         phone.send_json({"t": "start"})
         for _ in range(20):
             state = recv_until(phone, "state")["state"]
             if state["phase"] == "choosing":
                 break
-        assert state["offered"]
-        phone.send_json({"t": "choose", "category": "__random__"})
-        state = recv_until(phone, "state")["state"]
+        assert state["offered"] and state["choice"]["mechanic"] == "eleccion"
+        phone.send_json({"t": "choose", "category": state["offered"][0]})
+        assert "Espera" in recv_until(phone, "error")["msg"]  # still in the announcement
+        for _ in range(100):  # the engine picks for Ana once the announcement and the wait are over
+            state = recv_until(phone, "state")["state"]
+            if state["phase"] in ("reading", "answering"):
+                break
         assert state["phase"] in ("reading", "answering")
         for _ in range(20):
             tv_state = recv_until(tv, "state")["state"]
@@ -116,13 +123,16 @@ def test_config_local_overrides_config(tmp_path):
 def test_saved_match_survives_a_restart(root: Path, tmp_path: Path) -> None:
     paths = Paths.from_root(root)
     paths.data = tmp_path
-    app = create_app(AppConfig(), paths, check_internet=False)
+    config = AppConfig()
+    config.timing.choose = 0.1  # the engine acts for the chooser right after the intro
+    app = create_app(config, paths, check_internet=False)
     with TestClient(app) as c, c.websocket_connect("/ws/phone") as phone:
         phone.send_json({"t": "hello", "token": None})
         recv_until(phone, "welcome")
         phone.send_json({"t": "join", "name": "Ana", "color": "#ff6b6b", "avatar": {"kind": "photo", "data": JPEG}})
         token = recv_until(phone, "joined")["token"]
-        phone.send_json({"t": "settings", "changes": {"disabled": ["mapas"]}})
+        for mech in ("ruleta", "moneda", "rival"):
+            phone.send_json({"t": "settings", "changes": {"toggleMechanic": mech}})
         phone.send_json({"t": "start"})
         recv_until(phone, "state")
         phone.send_json({"t": "save"})
@@ -167,11 +177,12 @@ def _state(phone, until=lambda s: True) -> dict:
 def test_leave_come_back_by_address_kick_pause_and_autosave(root: Path, tmp_path: Path) -> None:
     paths = Paths.from_root(root)
     paths.data = tmp_path
-    app = create_app(AppConfig(), paths, check_internet=False)
+    config = AppConfig()
+    config.timing.choose = 0.1  # the engine acts for the chooser right after the intro
+    app = create_app(config, paths, check_internet=False)
     with TestClient(app) as c, contextlib.ExitStack() as stack:
         ana, _, ana_j = _join(c, stack, "Ana", "#ff6b6b")
         luis, _, luis_j = _join(c, stack, "Luis", "#4dabf7")
-        ana.send_json({"t": "settings", "changes": {"disabled": ["mapas"]}})
         ana.send_json({"t": "start"})
         _state(ana, lambda s: s["phase"] == "choosing")
         assert (tmp_path / "autoguardado.json").is_file()  # autosave at the question boundary

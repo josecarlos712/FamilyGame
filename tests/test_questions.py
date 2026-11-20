@@ -212,8 +212,8 @@ def test_bundled_question_files_are_valid(root: Path, registry: TypeRegistry, en
         assert not cat.errors, (cat.name, cat.errors)
         assert not cat.warnings, (cat.name, cat.warnings)
     no_maps = load_library(root / "preguntas", registry, Environment(google_maps_api_key=""))
-    assert not no_maps.categories["mapas"].playable
-    assert no_maps.categories["mapas"].unavailable
+    assert any(c.unavailable for c in no_maps.categories.values())  # map questions need the key
+    assert all(c.playable for c in no_maps.categories.values())
 
 
 def test_template_works_when_copied(tmp_path: Path, root: Path) -> None:

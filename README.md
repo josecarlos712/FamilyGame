@@ -44,7 +44,7 @@ A mano: `.venv\Scripts\python src\main.py [--puerto 8765] [--sin-internet]`.
 
 1. Cada jugador entra con nombre, icono (o foto de la galería) y un color.
 2. El primero en entrar es el **anfitrión** 👑: elige cómo se gana, qué categorías se juegan y empieza.
-3. Por turnos, un jugador elige la categoría (o «Al azar»). **Todos responden a la vez.**
+3. Por turnos se elige la categoría con una mecánica sorteada: ruleta, cara o cruz (mejor/peor categoría), un rival elige por ti o eliges entre 3 (`docs/mecanicas-categoria.md`). **Todos responden a la vez.**
 4. Acertar da puntos (más cuanto antes respondas) y casillas en el tablero:
    2 por acierto, +1 al más rápido.
 5. Casillas del circuito:
@@ -58,7 +58,8 @@ A mano: `.venv\Scripts\python src\main.py [--puerto 8765] [--sin-internet]`.
 
 ## Añadir preguntas (sin tocar código)
 
-Cada archivo `.toml` de la carpeta **`preguntas/`** es una categoría (puedes usar subcarpetas).
+Cada archivo `.toml` de la carpeta **`preguntas/`** es una categoría, es decir, un tema (puedes usar subcarpetas). Cada pregunta elige su mecánica con `tipo`
+(test, slider, rango, mapa, conoces); las de mapa se saltan solas sin clave de Google Maps.
 Copia `preguntas/_PLANTILLA.toml`, quítale el guion bajo y escribe. Ahí están documentados todos
 los campos. Ejemplo mínimo:
 

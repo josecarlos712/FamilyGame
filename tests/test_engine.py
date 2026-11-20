@@ -58,7 +58,20 @@ def clock() -> Clock:
 def new_game(registry: TypeRegistry, players: int = 2, **kw) -> tuple[Game, list[str]]:
     game = Game(make_library(registry, **kw), timing=TimingConfig(), rng=Random(1), icons={"gato"})
     ids = [game.join(f"Jugador {i}", C[i], ICON, 0).id for i in range(players)]
+    game.settings.mechanics = ["eleccion"]  # deterministic: the flow tests pick from the offered list
     return game, ids
+
+
+def act(game: Game, clock: Clock, cat: str | None = None) -> None:
+    """Drive whatever mechanic is active: wait out the intro, act, wait out the animation."""
+    ch = game.choice
+    assert ch is not None
+    clock(max(0.0, ch["introUntil"] - clock()) + 0.01)
+    if ch["mechanic"] in ("ruleta", "moneda"):
+        game.spin(ch["actorId"], clock())
+    else:
+        game.choose(ch["actorId"], cat if cat in ch["offered"] else ch["offered"][0], clock())
+    game.tick(clock(ch["revealUntil"] - clock() + 0.01))
 
 
 def plain(game: Game) -> None:
@@ -68,8 +81,7 @@ def plain(game: Game) -> None:
 def play(game: Game, clock: Clock, answers: dict[str, int | None], at: float = 1.0, cat: str | None = None) -> None:
     """Play one full question from CHOOSING until the next CHOOSING/FINISHED/TIEBREAK."""
     assert game.phase == E.CHOOSING, game.phase
-    game.choose(game.chooser_id, cat or game.offered[0], clock())
-    game.tick(clock())
+    act(game, clock, cat)
     assert game.phase == E.ANSWERING
     for pid, value in answers.items():
         if value is not None:
@@ -137,7 +149,7 @@ def test_points_and_steps(registry: TypeRegistry, clock: Clock) -> None:
 def test_phone_view_never_leaks_answers(registry: TypeRegistry, clock: Clock) -> None:
     game, (a, b) = new_game(registry)
     game.start(a, clock())
-    game.choose(a, game.offered[0], clock())
+    act(game, clock)
     game.tick(clock())
     game.submit_answer(a, 0, clock(1))
     view = json.dumps(game.phone_view(b))
@@ -154,7 +166,7 @@ def test_no_repeats_then_recycle(registry: TypeRegistry, clock: Clock) -> None:
     game.start(a, clock())
     asked = []
     for _ in range(3):
-        game.choose(a, "c0", clock())
+        act(game, clock)
         asked.append(game.current.question.key)
         game.tick(clock())
         game.submit_answer(a, 1, clock(1))
@@ -165,11 +177,11 @@ def test_no_repeats_then_recycle(registry: TypeRegistry, clock: Clock) -> None:
     assert any("agotado" in entry["text"] for entry in game.log)
 
 
-def test_categories_per_turn(registry: TypeRegistry, clock: Clock) -> None:
+def test_eleccion_offers_three(registry: TypeRegistry, clock: Clock) -> None:
     game, (a,) = new_game(registry, players=1, cats=5)
-    game.settings.categories_per_turn = 2
     game.start(a, clock())
-    assert len(game.offered) == 2
+    assert game.choice["mechanic"] == "eleccion" and len(game.offered) == 3
+    assert len(set(game.offered)) == 3 and set(game.phone_view(a)["offered"]) == set(game.offered)
 
 
 def test_rounds_mode_ends_and_ties_go_to_tiebreak(registry: TypeRegistry, clock: Clock) -> None:
@@ -269,7 +281,9 @@ def test_chooser_disconnect_picks_random(registry: TypeRegistry, clock: Clock) -
     game, (a, b) = new_game(registry)
     game.start(a, clock())
     game.disconnect(a, clock())
-    game.tick(clock(2.1))
+    game.afk_ignored.add(a)  # the match would pause by itself after a few seconds away
+    game.tick(clock(E.CHOICE_INTRO + 0.1))  # the engine picks as soon as the announcement is over
+    game.tick(clock(E.PICK_REVEAL + 0.1))
     assert game.phase in (E.READING, E.ANSWERING)
     assert game.current.participants == [b]
 
@@ -286,7 +300,7 @@ def test_clock_freezes_when_nobody_connected(registry: TypeRegistry, clock: Cloc
 def test_unavailable_player_is_exempt(registry: TypeRegistry, clock: Clock) -> None:
     game, (a, b) = new_game(registry)
     game.start(a, clock())
-    game.choose(a, game.offered[0], clock())
+    act(game, clock)
     game.tick(clock())
     game.report_unavailable(b, clock())
     game.submit_answer(a, 0, clock(1))
@@ -341,13 +355,13 @@ def test_sound_settings_change_during_the_game(registry: TypeRegistry, clock: Cl
 
 def test_save_and_resume_keeps_the_match(registry: TypeRegistry, clock: Clock) -> None:
     game, (a, b) = new_game(registry)
-    plain(game)
     game.settings.rounds = 5
     game.start(a, clock())
+    plain(game)
     play(game, clock, {a: 0, b: 1})  # a correct, b wrong
     points, position = game.players[a].points, game.players[a].position
     assert points > 0 and position > 0
-    game.choose(game.chooser_id, game.offered[0], clock())  # a question is open when saving
+    act(game, clock)  # a question is open when saving
     game.tick(clock())
     assert game.phase == E.ANSWERING
     chooser = game.chooser_id
@@ -451,7 +465,7 @@ def test_late_join_points_follow_the_host_rule(registry: TypeRegistry, clock: Cl
 
 def test_pause_freezes_the_clock_for_everyone(registry: TypeRegistry, clock: Clock) -> None:
     game, (a, b) = started(registry, clock, players=2)
-    game.choose(game.chooser_id, game.offered[0], clock())
+    act(game, clock)
     game.tick(clock())
     assert game.phase == E.ANSWERING
     deadline = game.current.deadline
@@ -493,7 +507,7 @@ def test_autosave_checkpoint_and_away_survive_a_roundtrip(registry: TypeRegistry
 
 def test_afk_phone_pauses_the_match_and_only_the_host_resumes(registry: TypeRegistry, clock: Clock) -> None:
     game, (a, b, c) = started(registry, clock)  # a is the host
-    game.choose(game.chooser_id, game.offered[0], clock())
+    act(game, clock)
     game.tick(clock())
     game.presence(c, clock(), True)  # c sends heartbeats from now on
     game.presence(c, clock(1), False)  # ...and locks the phone
@@ -541,3 +555,232 @@ def test_manual_pause_can_be_resumed_by_who_paused_it(registry: TypeRegistry, cl
         game.unpause(c, clock())
     game.unpause(b, clock())
     assert not game.paused
+
+
+# ----- category mechanics (docs/mecanicas-categoria.md) -----------------------
+
+def begin(registry: TypeRegistry, clock: Clock, mechanic: str, players: int = 2, **kw) -> tuple[Game, list[str]]:
+    game, ids = new_game(registry, players=players, **kw)
+    game.settings.mechanics = [mechanic]
+    game.start(ids[0], clock())
+    plain(game)
+    assert game.choice["mechanic"] == mechanic
+    return game, ids
+
+
+def test_ruleta(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = begin(registry, clock, "ruleta")
+    ch = game.choice
+    assert ch["actorId"] == a and ch["chooserId"] == a and sorted(ch["offered"]) == ["c0", "c1", "c2"]
+    with pytest.raises(GameError, match="Espera"):
+        game.spin(a, clock())  # still in the intro
+    clock(E.CHOICE_INTRO + 0.1)
+    with pytest.raises(GameError, match="turno"):
+        game.spin(b, clock())
+    with pytest.raises(GameError, match="mecánica"):
+        game.choose(a, "c0", clock())
+    game.spin(a, clock())
+    ch = game.choice
+    assert ch["result"] in ch["offered"] and ch["revealUntil"] == pytest.approx(ch["spinAt"] + E.WHEEL_TIME)
+    assert game.deadline == ch["revealUntil"] and game.phase == E.CHOOSING
+    assert game.phone_view(b)["choice"]["result"] == ch["result"] == game.tv_view()["choice"]["result"]
+    with pytest.raises(GameError, match="Ya se ha"):
+        game.spin(a, clock())
+    assert game.log[-1]["text"].startswith("Ruleta: sale")
+    game.tick(clock(E.WHEEL_TIME - 1))
+    assert game.phase == E.CHOOSING
+    game.tick(clock(1.1))
+    assert game.phase in (E.READING, E.ANSWERING) and game.current.category.id == ch["result"]
+    assert game.last_chooser == a and a in game.chosen_this_round
+
+
+def test_moneda_uses_best_and_worst_from_stats(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = begin(registry, clock, "moneda")
+    p = game.players[a]
+    p.asked, p.right = {"c0": 4, "c1": 4, "c2": 4}, {"c0": 4, "c1": 0, "c2": 2}
+    game._begin_choosing(a, clock())
+    ch = game.choice
+    assert ch["offered"] == ["c0", "c1"]  # best 5/6, worst 1/6
+    assert ch["stats"] == {"cara": 1.0, "cruz": 0.0}
+    clock(E.CHOICE_INTRO + 0.1)
+    game.spin(a, clock())
+    assert ch["outcome"] in ("cara", "cruz")
+    assert ch["result"] == ("c0" if ch["outcome"] == "cara" else "c1")
+    assert ch["revealUntil"] == pytest.approx(ch["spinAt"] + E.COIN_TIME)
+    assert game.log[-1]["text"].startswith(f"Cara o cruz ({ch['outcome']}): ")
+    game.tick(clock(E.COIN_TIME + 0.1))
+    assert game.current.category.id == ch["result"]
+
+
+def test_moneda_without_data_gives_two_distinct_categories(registry: TypeRegistry, clock: Clock) -> None:
+    for seed in range(10):
+        game, (a, b) = new_game(registry, cats=4)
+        game.rng = Random(seed)
+        game.settings.mechanics = ["moneda"]
+        game.start(a, clock())
+        cara, cruz = game.choice["offered"]
+        assert cara != cruz and game.choice["stats"] == {"cara": None, "cruz": None}
+
+
+def test_stats_count_asked_and_right_per_category(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = new_game(registry)
+    game.start(a, clock())
+    plain(game)
+    play(game, clock, {a: 0, b: 1}, cat="c1")
+    pa, pb = game.players[a], game.players[b]
+    assert pa.asked == {"c1": 1} and pb.asked == {"c1": 1}
+    assert pa.right == {"c1": 1} and pb.right == {}
+    snap = json.loads(json.dumps(game.snapshot(clock(), game.chooser_id)))
+    other, (x, y) = new_game(registry)
+    other.load_saved(snap)
+    other.resume(x, clock())
+    assert other.players[a].asked == {"c1": 1} and other.players[a].right == {"c1": 1}
+
+
+def test_rival_chooses_for_the_chooser(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = begin(registry, clock, "rival", players=3)
+    ch = game.choice
+    assert ch["chooserId"] == a and ch["actorId"] in (b, c) and len(ch["offered"]) == 3
+    rival = ch["actorId"]
+    assert game.phone_view(rival)["offered"] == ch["offered"] and game.phone_view(a)["offered"] == []
+    with pytest.raises(GameError, match="Espera"):
+        game.choose(rival, "c1", clock())
+    clock(E.CHOICE_INTRO + 0.1)
+    with pytest.raises(GameError, match="turno"):
+        game.choose(a, "c1", clock())  # the chooser does not pick
+    with pytest.raises(GameError, match="disponible"):
+        game.choose(rival, "__random__", clock())
+    game.choose(rival, "c1", clock())
+    assert ch["result"] == "c1" and ch["revealUntil"] == pytest.approx(ch["spinAt"] + E.PICK_REVEAL)
+    assert game.log[-1]["text"] == f"{game.players[rival].name} elige por {game.players[a].name}: ❓ Cat 1"
+    game.tick(clock(E.PICK_REVEAL + 0.1))
+    assert game.current.category.id == "c1"
+    assert game.last_chooser == a and a in game.chosen_this_round and rival not in game.chosen_this_round
+
+
+def test_eleccion_rules(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = begin(registry, clock, "eleccion", cats=5)
+    other = next(c for c in ("c0", "c1", "c2", "c3", "c4") if c not in game.offered)
+    clock(E.CHOICE_INTRO + 0.1)
+    with pytest.raises(GameError, match="disponible"):
+        game.choose(a, other, clock())
+    with pytest.raises(GameError, match="turno"):
+        game.choose(b, game.offered[0], clock())
+    with pytest.raises(GameError, match="mecánica"):
+        game.spin(a, clock())
+    game.choose(a, game.offered[0], clock())
+    assert game.log[-1]["text"] == f"Jugador 0 elige ❓ Cat {game.choice['result'][1]}"
+    with pytest.raises(GameError, match="Ya se ha"):
+        game.choose(a, game.offered[0], clock())
+
+
+def test_rival_needs_another_connected_player(registry: TypeRegistry, clock: Clock) -> None:
+    for seed in range(15):
+        game, (a, b) = new_game(registry)
+        game.rng = Random(seed)
+        game.settings.mechanics = list(E.MECHANICS)
+        game.disconnect(b, clock())
+        game.start(a, clock())
+        assert game.choice["mechanic"] != "rival"
+        game, (a,) = new_game(registry, players=1)
+        game.rng = Random(seed)
+        game.settings.mechanics = ["rival", "eleccion"]
+        game.start(a, clock())
+        assert game.choice["mechanic"] == "eleccion"
+
+
+def test_single_category_always_uses_eleccion(registry: TypeRegistry, clock: Clock) -> None:
+    for seed in range(15):
+        game, (a, b) = new_game(registry, cats=1)
+        game.rng = Random(seed)
+        game.settings.mechanics = list(E.MECHANICS)
+        game.start(a, clock())
+        assert game.choice["mechanic"] in ("eleccion", "rival") and game.choice["offered"] == ["c0"]
+    game, (a, b) = new_game(registry, cats=1)
+    game.settings.mechanics = ["ruleta", "moneda"]
+    game.start(a, clock())
+    assert game.choice["mechanic"] == "eleccion"
+
+
+@pytest.mark.parametrize("mechanic", E.MECHANICS)
+def test_timeout_acts_for_the_actor(registry: TypeRegistry, clock: Clock, mechanic: str) -> None:
+    game, ids = begin(registry, clock, mechanic, players=3)
+    ch = game.choice
+    game.tick(clock(E.CHOICE_INTRO + game.timing.choose - 1))
+    assert ch["result"] is None  # still waiting for the actor
+    game.tick(clock(1.1))
+    assert ch["result"] in ch["offered"] and game.phase == E.CHOOSING
+    assert game.log[-1]["text"].endswith("(al azar: se acabó el tiempo)")
+    game.tick(clock(E.COIN_TIME + E.WHEEL_TIME))
+    assert game.phase in (E.READING, E.ANSWERING) and game.current.category.id == ch["result"]
+
+
+@pytest.mark.parametrize("mechanic", ["ruleta", "rival"])
+def test_actor_disconnect_acts_after_a_moment(registry: TypeRegistry, clock: Clock, mechanic: str) -> None:
+    game, ids = begin(registry, clock, mechanic, players=3)
+    ch = game.choice
+    game.afk_ignored.update(ids)
+    clock(E.CHOICE_INTRO + 0.1)
+    game.disconnect(ch["actorId"], clock())
+    assert game.deadline == pytest.approx(clock() + 1.5)
+    game.tick(clock(1.4))
+    assert ch["result"] is None
+    game.tick(clock(0.2))
+    assert ch["result"] is not None
+
+
+def test_pause_freezes_the_choice(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = begin(registry, clock, "ruleta")
+    game.pause(b, clock())
+    game.tick(clock())
+    game.tick(clock(200))
+    assert game.choice["result"] is None
+    game.unpause(a, clock())
+    game.tick(clock(E.CHOICE_INTRO + game.timing.choose + 1))
+    assert game.choice["result"] is not None
+
+
+def test_toggle_mechanic(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = new_game(registry)
+    game.settings.mechanics = list(E.MECHANICS)
+    assert game.tv_view()["settings"]["mechanics"] == list(E.MECHANICS)
+    game.set_settings(a, {"toggleMechanic": "moneda"})
+    assert game.settings.mechanics == ["ruleta", "rival", "eleccion"]
+    game.set_settings(a, {"toggleMechanic": "moneda"})
+    assert game.settings.mechanics == list(E.MECHANICS)
+    for m in ("ruleta", "moneda", "rival"):
+        game.set_settings(a, {"toggleMechanic": m})
+    with pytest.raises(GameError, match="al menos una"):
+        game.set_settings(a, {"toggleMechanic": "eleccion"})
+    with pytest.raises(GameError):
+        game.set_settings(a, {"toggleMechanic": "nada"})
+    game.start(a, clock())
+    with pytest.raises(GameError, match="antes de empezar"):
+        game.set_settings(a, {"toggleMechanic": "ruleta"})
+
+
+def test_old_save_with_categories_per_turn_loads(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = started(registry, clock, players=2)
+    snap = json.loads(json.dumps(game.snapshot(clock(), game.chooser_id)))
+    snap["settings"].pop("mechanics")
+    snap["settings"]["categoriesPerTurn"] = 2
+    for p in snap["players"]:
+        p.pop("catAsked"), p.pop("catRight")
+    other, (x, y) = new_game(registry)
+    other.load_saved(snap)
+    other.resume(x, clock())
+    assert other.phase == E.CHOOSING and other.settings.mechanics == list(E.MECHANICS)
+    assert other.players[x].asked == {}
+    other.back_to_lobby(x)
+    other.set_settings(x, {"categoriesPerTurn": 3})  # unknown keys are ignored
+    assert "categoriesPerTurn" not in other.settings.public()
+
+
+def test_every_phone_gets_the_categories_while_choosing(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = begin(registry, clock, "rival", players=3)
+    for pid in (a, b, c):
+        assert len(game.phone_view(pid)["categories"]) == 3
+    assert set(game.tv_view()["choice"]) == {
+        "mechanic", "chooserId", "actorId", "offered", "introUntil", "spinAt", "revealUntil",
+        "result", "outcome", "stats",
+    }

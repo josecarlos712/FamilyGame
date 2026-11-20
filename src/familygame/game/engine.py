@@ -29,7 +29,12 @@ REVEAL, BOARD, TIEBREAK, FINISHED = "reveal", "board", "tiebreak", "finished"
 PLAYING_PHASES = (CHOOSING, READING, ANSWERING, REVEAL, BOARD, TIEBREAK)
 
 MODES = ("points", "rounds", "categories")
-RANDOM_CATEGORY = "__random__"
+MECHANICS = ("ruleta", "moneda", "rival", "eleccion")  # how the category is picked, see docs/mecanicas-categoria.md
+CHOICE_INTRO = 2.5     # announcement of the mechanic; actions are refused meanwhile
+WHEEL_TIME = 4.5       # from the spin to the question
+COIN_TIME = 4.0        # toss + zoom to the face
+PICK_REVEAL = 1.5      # after a pick (rival / eleccion) the chosen category is shown
+CHOICE_OFFER = 3       # categories offered by "eleccion"
 
 SPEED_BONUS = 0.5      # up to +50 % of base points for answering instantly
 STEPS_CORRECT = 2
@@ -43,6 +48,7 @@ GUESS_POINTS = 100     # a friend who guesses the subject's answer
 SUBJECT_HIT = 100      # the subject, for each friend who guessed right
 SUBJECT_MISS = 50      # the subject loses this for each friend who guessed wrong
 SUBJECT_TIMEOUT = 50   # the subject did not answer in time: the question is void
+SUBJECT_BACK = 1       # squares back when the subject ends the question in negative
 MAX_TIEBREAKS = 3
 ANSWER_GRACE = 0.6     # seconds of network latency accepted after the deadline
 AFK_GRACE = 4.0        # seconds a phone may be away before the match pauses by itself
@@ -62,7 +68,7 @@ class Settings:
     rounds: int = 3
     categories_to_close: int = 3
     hits_to_close: int = 3
-    categories_per_turn: int = 0
+    mechanics: list[str] = field(default_factory=lambda: list(MECHANICS))
     disabled: set[str] = field(default_factory=set)
     music: bool = True
     sfx: bool = True
@@ -77,7 +83,7 @@ class Settings:
             "rounds": self.rounds,
             "categoriesToClose": self.categories_to_close,
             "hitsToClose": self.hits_to_close,
-            "categoriesPerTurn": self.categories_per_turn,
+            "mechanics": list(self.mechanics),
             "disabled": sorted(self.disabled),
             "music": self.music,
             "sfx": self.sfx,
@@ -211,6 +217,7 @@ class Game:
         self.last_chooser: str | None = None
         self.chooser_id: str | None = None
         self.offered: list[str] = []
+        self.choice: dict[str, Any] | None = None
         self.deadline: float | None = None
         self.current: AskedQuestion | None = None
         self.pending_duels: list[tuple[str, str]] = []
@@ -395,7 +402,9 @@ class Game:
             self.afk_since[pid] = (now, "dropped")
         self._say(f"{player.name} se ha desconectado", pid, "leave")
         if self.phase == CHOOSING and self.chooser_id == pid:
-            self.deadline = min(self.deadline or now, now + 2)
+            self._actor_gone(pid, now)
+        elif self.phase == CHOOSING and self.choice and self.choice["actorId"] == pid:
+            self._actor_gone(pid, now)
         self._announce_host()
 
     def remove(self, pid: str, by: str | None, now: float) -> None:
@@ -431,7 +440,9 @@ class Game:
                   None, "leave")
         if self.phase == CHOOSING and self.chooser_id == pid:
             self.chooser_id = None
-            self.deadline = now + 1.5
+            self._actor_gone(pid, now, removed=True)
+        elif self.phase == CHOOSING and self.choice and self.choice["actorId"] == pid:
+            self._actor_gone(pid, now, removed=True)
         self._announce_host()
 
     def _restore_away(self, pid: str, connected: bool) -> Player:
@@ -483,6 +494,7 @@ class Game:
         old = away.player
         for attr in ("points", "position", "closed", "progress", "double_next", "correct_count", "asked_count"):
             setattr(new, attr, getattr(old, attr))
+        new.asked, new.right = dict(old.asked), dict(old.right)
         del self.away[away_pid]
         self._say(f"{new.name} retoma la partida de {old.name}", new_pid, "join")
         self._touch()
@@ -539,8 +551,16 @@ class Game:
             s.categories_to_close = v
         if (v := number("hitsToClose", 1, 10)) is not None:
             s.hits_to_close = v
-        if (v := number("categoriesPerTurn", 0, 12)) is not None:
-            s.categories_per_turn = v
+        if "toggleMechanic" in changes:
+            mid = changes["toggleMechanic"]
+            if mid not in MECHANICS:
+                raise GameError("Mecánica desconocida")
+            if mid in s.mechanics:
+                if len(s.mechanics) == 1:
+                    raise GameError("Debe quedar al menos una mecánica activa")
+                s.mechanics.remove(mid)
+            else:
+                s.mechanics = [m for m in MECHANICS if m in s.mechanics or m == mid]
         if "toggleCategory" in changes:
             cid = changes["toggleCategory"]
             if cid not in self.library.categories:
@@ -642,7 +662,7 @@ class Game:
             "settings": {
                 "mode": s.mode, "targetPoints": s.target_points, "rounds": s.rounds,
                 "categoriesToClose": s.categories_to_close, "hitsToClose": s.hits_to_close,
-                "categoriesPerTurn": s.categories_per_turn, "disabled": sorted(s.disabled),
+                "mechanics": list(s.mechanics), "disabled": sorted(s.disabled),
                 "lateJoin": s.late_join, "latePoints": s.late_points,
             },
             "board": list(self.board.spaces),
@@ -660,6 +680,7 @@ class Game:
                     "photoVersion": p.photo_version, "points": p.points, "position": p.position,
                     "closed": list(p.closed), "progress": dict(p.progress), "doubleNext": p.double_next,
                     "correct": p.correct_count, "asked": p.asked_count,
+                    "catAsked": dict(p.asked), "catRight": dict(p.right),
                 }
                 for p in (self.players[i] for i in self.order)
             ]
@@ -670,7 +691,8 @@ class Game:
                     "points": a.player.points, "position": a.player.position,
                     "closed": list(a.player.closed), "progress": dict(a.player.progress),
                     "doubleNext": a.player.double_next, "correct": a.player.correct_count,
-                    "asked": a.player.asked_count, "away": a.reason, "slot": a.slot,
+                    "asked": a.player.asked_count, "catAsked": dict(a.player.asked),
+                    "catRight": dict(a.player.right), "away": a.reason, "slot": a.slot,
                 }
                 for a in self.away.values()
             ],
@@ -739,7 +761,7 @@ class Game:
         cfg = data["settings"]
         s.mode, s.target_points, s.rounds = cfg["mode"], cfg["targetPoints"], cfg["rounds"]
         s.categories_to_close, s.hits_to_close = cfg["categoriesToClose"], cfg["hitsToClose"]
-        s.categories_per_turn = cfg["categoriesPerTurn"]
+        s.mechanics = [m for m in MECHANICS if m in cfg.get("mechanics", MECHANICS)] or list(MECHANICS)
         s.disabled = {c for c in cfg["disabled"] if c in self.library.categories}
         s.late_join, s.late_points = cfg.get("lateJoin", s.late_join), cfg.get("latePoints", s.late_points)
         self._reset_match()
@@ -762,6 +784,7 @@ class Game:
                                   ("asked_count", "asked"), ("double_next", "doubleNext")):
                     setattr(ghost, attr, saved[key])
                 ghost.closed, ghost.progress = list(saved["closed"]), dict(saved["progress"])
+                ghost.asked, ghost.right = dict(saved.get("catAsked", {})), dict(saved.get("catRight", {}))
                 self.away[ghost.id] = Away(ghost, saved["away"], saved.get("slot", 0))
                 continue
             if player is None:
@@ -780,6 +803,7 @@ class Game:
             player.closed, player.progress = list(saved["closed"]), dict(saved["progress"])
             player.double_next = saved["doubleNext"]
             player.correct_count, player.asked_count = saved["correct"], saved["asked"]
+            player.asked, player.right = dict(saved.get("catAsked", {})), dict(saved.get("catRight", {}))
         self.order = [i for i in data["order"] if i in self.players] + [
             i for i in self.players if i not in data["order"]
         ]
@@ -826,42 +850,166 @@ class Game:
             self.used.clear()
             self._say("Se han agotado las preguntas: a partir de ahora se pueden repetir", None, "warn")
             available = enabled
-        n = self.settings.categories_per_turn
-        if n and len(available) > n:
-            chosen = {c.id for c in self.rng.sample(available, n)}
-            available = [c for c in available if c.id in chosen]
         return [c.id for c in available]
 
+    def _hit_rate(self, pid: str, cat: str) -> float:
+        """Laplace-smoothed hit rate of a player in a category, this match."""
+        player = self.players[pid]
+        return (player.right.get(cat, 0) + 1) / (player.asked.get(cat, 0) + 2)
+
+    def _best_worst(self, pid: str, cats: list[str]) -> tuple[str, str]:
+        """Best and worst category of a player (ties at random, always two distinct ones)."""
+        order = cats[:]
+        self.rng.shuffle(order)  # random tie-break: the sort below is stable
+        order.sort(key=lambda c: self._hit_rate(pid, c))
+        return order[-1], order[0]
+
     def _begin_choosing(self, chooser: str | None, now: float) -> None:
-        self.offered = self._offer_categories(chooser)
-        if not self.offered:
+        available = self._offer_categories(chooser)
+        if not available:
             self._finish(self._ranking_ids()[:1], now)
             return
+        others = [p.id for p in self._connected() if p.id != chooser]
+        enabled = [m for m in MECHANICS if m in self.settings.mechanics]
+        usable = [
+            m for m in enabled
+            if (m != "rival" or others) and (m not in ("ruleta", "moneda") or len(available) >= 2)
+            and (m == "eleccion" or chooser)
+        ]
+        mechanic = self.rng.choice(usable) if usable else "eleccion"
+        actor = chooser
+        stats = None
+        if mechanic == "eleccion":
+            offered = self.rng.sample(available, min(CHOICE_OFFER, len(available)))
+        elif mechanic == "moneda":
+            assert chooser
+            offered = list(self._best_worst(chooser, available))
+            player = self.players[chooser]
+            stats = {
+                face: (player.right.get(cat, 0) / player.asked[cat] if player.asked.get(cat) else None)
+                for face, cat in zip(("cara", "cruz"), offered)
+            }
+        else:
+            offered = list(available)
+            if mechanic == "rival":
+                actor = self.rng.choice(others)
         self.phase = CHOOSING
         self.checkpoint = "save"  # a clean boundary: the server autosaves here
         self.chooser_id = chooser
+        self.offered = offered
         self.current = None
         self.moves = []
-        delay = self.timing.choose if chooser else 1.5
-        self.deadline = now + delay
+        intro = now + CHOICE_INTRO
+        self.choice = {
+            "mechanic": mechanic, "chooserId": chooser, "actorId": actor, "offered": offered,
+            "introUntil": intro, "spinAt": None, "revealUntil": None, "result": None,
+            "outcome": None, "stats": stats,
+        }
+        self.deadline = intro + self._act_delay(actor)
         self._touch()
 
-    def choose(self, pid: str, category_id: str, now: float) -> None:
-        """The current chooser picks a category (or RANDOM_CATEGORY)."""
+    def _act_delay(self, actor: str | None) -> float:
+        player = self.players.get(actor) if actor else None
+        return self.timing.choose if player and player.connected else 1.5
+
+    def _actor_gone(self, pid: str, now: float, removed: bool = False) -> None:
+        """The chooser or the actor left or dropped during choosing: the engine acts soon."""
+        ch = self.choice
+        if removed and ch:
+            if ch["chooserId"] == pid:
+                ch["chooserId"] = None
+            if ch["actorId"] == pid:
+                ch["actorId"] = None
+        if ch and ch["result"] is None and ch["actorId"] in (pid, None):
+            self.deadline = min(self.deadline or now, max(now + 1.5, ch["introUntil"]))
+
+    def _check_choice(self, pid: str, mechanics: tuple[str, ...], now: float) -> dict[str, Any]:
+        """Validate that ``pid`` may act now in the current choice.
+
+        Returns:
+            The current choice.
+
+        Raises:
+            GameError: Paused, wrong phase, wrong actor or mechanic, intro, or already done.
+        """
         if self.paused:
             raise GameError("La partida está en pausa")
-        if self.phase != CHOOSING:
+        ch = self.choice
+        if self.phase != CHOOSING or ch is None:
             raise GameError("Ahora no toca elegir categoría")
-        if pid != self.chooser_id:
+        if pid != ch["actorId"]:
             raise GameError("No es tu turno de elegir")
-        if category_id != RANDOM_CATEGORY and category_id not in self.offered:
+        if ch["mechanic"] not in mechanics:
+            raise GameError("Esa acción no corresponde a esta mecánica")
+        if now < ch["introUntil"]:
+            raise GameError("Espera un momento")
+        if ch["result"] is not None:
+            raise GameError("Ya se ha elegido")
+        return ch
+
+    def spin(self, pid: str, now: float) -> None:
+        """The actor spins the wheel or tosses the coin (ruleta / moneda)."""
+        self._check_choice(pid, ("ruleta", "moneda"), now)
+        self._do_spin(now)
+
+    def choose(self, pid: str, category_id: str, now: float) -> None:
+        """The actor picks a category (rival / eleccion)."""
+        ch = self._check_choice(pid, ("rival", "eleccion"), now)
+        if category_id not in ch["offered"]:
             raise GameError("Esa categoría no está disponible")
-        self._ask(category_id, now)
+        self._do_pick(category_id, now)
+
+    def _name_of(self, pid: str | None) -> str:
+        player = self.players.get(pid) if pid else None
+        return player.name if player else "Alguien"
+
+    def _cat_text(self, cid: str) -> str:
+        cat = self.library.categories[cid]
+        return f"{cat.icon} {cat.name}"
+
+    def _do_spin(self, now: float) -> None:
+        ch = self.choice
+        assert ch is not None
+        ch["spinAt"] = now
+        if ch["mechanic"] == "ruleta":
+            ch["result"] = self.rng.choice(ch["offered"])
+            ch["revealUntil"] = now + WHEEL_TIME
+            self._say(f"Ruleta: sale {self._cat_text(ch['result'])}", ch["chooserId"], "choose")
+        else:
+            ch["outcome"] = self.rng.choice(("cara", "cruz"))
+            ch["result"] = ch["offered"][0 if ch["outcome"] == "cara" else 1]
+            ch["revealUntil"] = now + COIN_TIME
+            self._say(f"Cara o cruz ({ch['outcome']}): {self._cat_text(ch['result'])}", ch["chooserId"], "choose")
+        self.deadline = ch["revealUntil"]
+        self._touch()
+
+    def _do_pick(self, category_id: str, now: float) -> None:
+        ch = self.choice
+        assert ch is not None
+        ch["spinAt"], ch["result"], ch["revealUntil"] = now, category_id, now + PICK_REVEAL
+        self.deadline = ch["revealUntil"]
+        text = self._cat_text(category_id)
+        if ch["mechanic"] == "rival":
+            self._say(f"{self._name_of(ch['actorId'])} elige por {self._name_of(ch['chooserId'])}: {text}",
+                      ch["actorId"], "choose")
+        elif ch["chooserId"]:
+            self._say(f"{self._name_of(ch['chooserId'])} elige {text}", ch["chooserId"], "choose")
+        else:
+            self._say(f"Categoría al azar: {text}", None, "choose")
+        self._touch()
+
+    def _auto_choice(self, now: float) -> None:
+        """Nobody acted in time: the engine spins, tosses or picks at random."""
+        ch = self.choice
+        assert ch is not None
+        if ch["mechanic"] in ("ruleta", "moneda"):
+            self._do_spin(now)
+        else:
+            self._do_pick(self.rng.choice(ch["offered"]), now)
+        if ch["chooserId"] or ch["mechanic"] == "rival":
+            self.log[-1]["text"] += " (al azar: se acabó el tiempo)"
 
     def _ask(self, category_id: str, now: float) -> None:
-        if category_id == RANDOM_CATEGORY:
-            # uniform per category: one with 200 questions is not favoured over one with 10
-            category_id = self.rng.choice(self.offered)
         category = self.library.categories[category_id]
         allowed = self._allowed(self.chooser_id)
         question = pick_question(category, self.used, self.history, self.rng, allowed)
@@ -882,14 +1030,6 @@ class Game:
         if self.chooser_id:
             self.chosen_this_round.add(self.chooser_id)
             self.last_chooser = self.chooser_id
-            chooser = self.players.get(self.chooser_id)
-            self._say(
-                f"{chooser.name if chooser else 'Alguien'} elige {category.icon} {category.name}",
-                self.chooser_id,
-                "choose",
-            )
-        else:
-            self._say(f"Categoría al azar: {category.icon} {category.name}", None, "choose")
 
     def _start_question(
         self,
@@ -989,7 +1129,7 @@ class Game:
             if pid in self.players:
                 cur.results[pid] = Result(exempt=True)
         if subject and penalty:
-            lost = min(SUBJECT_TIMEOUT, subject.points)
+            lost = max(0, min(SUBJECT_TIMEOUT, subject.points))
             subject.points -= lost
             cur.results[subject.id] = Result(points=-lost, detail="No elegiste a tiempo")
             self._say(f"{subject.name} no eligió a tiempo: pregunta anulada (−{lost})", subject.id, "warn")
@@ -1045,6 +1185,7 @@ class Game:
             answer = cur.answers.get(pid)
             if not cur.tiebreak:
                 player.asked_count += 1
+                player.asked[cur.category.id] = player.asked.get(cur.category.id, 0) + 1
             if answer is not None:
                 res.answered = True
                 res.correct = answer.evaluation.correct
@@ -1082,6 +1223,7 @@ class Game:
         res.steps = STEPS_CORRECT + (STEPS_FASTEST if fastest else 0)
         player.correct_count += 1
         cat = cur.category.id
+        player.right[cat] = player.right.get(cat, 0) + 1
         player.progress[cat] = player.progress.get(cat, 0) + 1
         on_star = player.id in cur.star_players
         if cat not in player.closed and (on_star or player.progress[cat] >= self.settings.hits_to_close):
@@ -1107,7 +1249,9 @@ class Game:
         voters = hits + misses
         res.detail = f"Te han acertado {hits} de {voters}" if voters else "Nadie ha respondido"
         points = hits * SUBJECT_HIT - misses * SUBJECT_MISS
-        res.points = points if points >= 0 else -min(-points, player.points)
+        res.points = points  # may be negative, also the player's total
+        if points < 0:
+            res.steps = -SUBJECT_BACK
         res.correct = hits > 0 and 2 * hits >= voters
         if res.correct:
             self._credit_hit(cur, player, res, fastest=False)
@@ -1130,7 +1274,7 @@ class Game:
                 text = f"⚔ Duelo {pa.name} – {pb.name}: nadie gana"
             else:
                 winner, loser = (pa, pb) if ka > kb else (pb, pa)
-                stolen = min(DUEL_STEAL, loser.points)
+                stolen = max(0, min(DUEL_STEAL, loser.points))  # totals can be negative
                 winner.points += stolen
                 loser.points -= stolen
                 cur.results[winner.id].bonus += stolen
@@ -1155,16 +1299,19 @@ class Game:
         assert cur is not None
         self.moves = []
         movers = sorted(
-            (pid for pid, r in cur.results.items() if r.steps > 0 and pid in self.players),
+            (pid for pid, r in cur.results.items() if r.steps != 0 and pid in self.players),
             key=lambda pid: (-cur.results[pid].steps, cur.results[pid].elapsed or 0),
         )
         for pid in movers:
             player = self.players[pid]
             start = player.position
-            path, passed = self._move(player, cur.results[pid].steps)
+            steps = cur.results[pid].steps
+            path, passed = self._move(player, steps)
             texts = [f"Pasa por la salida: +{START_BONUS}"] if passed else []
-            extra = self._space_effect(player)
-            move = {"player": pid, "from": start, "path": path, "space": self.board.spaces[player.position]}
+            # moving back is a penalty: the square it lands on does nothing
+            extra = self._space_effect(player) if steps > 0 else {"text": f"Retrocede {-steps} por no ser conocido"}
+            move = {"player": pid, "from": start, "path": path, "space": self.board.spaces[player.position],
+                    "back": steps < 0}
             self.moves.append(move)
             texts.extend(t for t in [extra.get("text")] if t)
             move["texts"] = texts
@@ -1201,7 +1348,7 @@ class Game:
             player.points += EVENT_PLUS
             result["text"] = f"🎲 ¡Regalo! +{EVENT_PLUS} puntos"
         elif kind == "minus":
-            lost = min(EVENT_MINUS, player.points)
+            lost = max(0, min(EVENT_MINUS, player.points))
             player.points -= lost
             result["text"] = f"🎲 Mala suerte: −{lost} puntos"
         elif kind in ("forward", "back"):
@@ -1219,7 +1366,7 @@ class Game:
                 player.points += EVENT_STEAL
                 result["text"] = f"🎲 Vas en cabeza: +{EVENT_STEAL} puntos"
             else:
-                stolen = min(EVENT_STEAL, leader.points)
+                stolen = max(0, min(EVENT_STEAL, leader.points))
                 leader.points -= stolen
                 player.points += stolen
                 result["text"] = f"🎲 Roba {stolen} puntos a {leader.name}, que va líder"
@@ -1357,9 +1504,12 @@ class Game:
     def _step(self, now: float) -> bool:
         cur = self.current
         if self.phase == CHOOSING and self.deadline is not None and now >= self.deadline:
-            self._ask(RANDOM_CATEGORY, now)
-            if self.chooser_id:
-                self.log[-1]["text"] += " (al azar: se acabó el tiempo)"
+            if self.choice and self.choice["result"] is None:
+                self._auto_choice(now)
+            elif self.choice:
+                self._ask(self.choice["result"], now)
+            else:
+                self._ask(self.rng.choice(self.offered), now)
             return True
         if self.phase == READING and cur and now >= cur.open_at:
             self.phase = ANSWERING
@@ -1548,6 +1698,7 @@ class Game:
             "settings": self.settings.public(),
             "round": self._round_info(),
             "chooserId": self.chooser_id if self.phase == CHOOSING else None,
+            "choice": dict(self.choice) if self.phase == CHOOSING and self.choice else None,
             "question": self._question_public(for_phone=False),
             "reveal": self._reveal_public(),
             "winners": self.winners,
@@ -1593,18 +1744,15 @@ class Game:
         my_answer = None
         if cur and pid in cur.answers:
             my_answer = {"display": cur.answers[pid].display}
-        is_chooser = self.phase == CHOOSING and self.chooser_id == pid
-        categories = self._category_list()
-        if not (me and me["host"]) and self.phase not in (LOBBY, FINISHED):
-            categories = []
+        actor = self.phase == CHOOSING and bool(self.choice) and self.choice["actorId"] == pid
         view.update(
             {
                 "me": me,
                 "myAnswer": my_answer,
                 "exempt": bool(cur and pid in cur.exempt),
                 "participant": bool(cur and pid in cur.participants),
-                "offered": self.offered if is_chooser else [],
-                "categories": categories if self.phase in (LOBBY, FINISHED) or is_chooser else [],
+                "offered": self.offered if actor else [],
+                "categories": self._category_list() if self.phase in (LOBBY, FINISHED, CHOOSING) else [],
                 "myMoves": [m for m in self.moves if m["player"] == pid] if self.phase == BOARD else [],
                 "palette": [{"color": c, "name": n} for c, n in PALETTE],
                 "takenColors": sorted(self.taken_colors(pid)),

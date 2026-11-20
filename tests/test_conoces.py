@@ -49,6 +49,7 @@ def started(registry: TypeRegistry, clock: Clock, players: int = 3) -> tuple[Gam
     game = Game(library(registry), timing=TimingConfig(), rng=Random(1), icons={"gato"})
     ids = [game.join(f"Jugador {i}", PALETTE_COLORS[i], ICON, 0).id for i in range(players)]
     game.board = Board([START] + ["normal"] * 27)
+    game.settings.mechanics = ["eleccion"]
     game.start(ids[0], clock())
     return game, ids
 
@@ -56,8 +57,9 @@ def started(registry: TypeRegistry, clock: Clock, players: int = 3) -> tuple[Gam
 def ask_about_chooser(game: Game, clock: Clock) -> str:
     subject = game.chooser_id
     assert subject
+    clock(E.CHOICE_INTRO + 0.1)
     game.choose(subject, "k", clock())
-    game.tick(clock())
+    game.tick(clock(E.PICK_REVEAL + 0.1))
     assert game.phase == E.ANSWERING and game.current and game.current.stage == "subject"
     return subject
 
@@ -99,18 +101,23 @@ def test_friends_wait_for_the_subject_then_score(registry: TypeRegistry, clock: 
     assert reveal["solution"]["index"] == 1 and reveal["subject"] == subject and not reveal["void"]
 
 
-def test_subject_loses_but_not_below_zero(registry: TypeRegistry, clock: Clock) -> None:
+def test_subject_in_negative_goes_back(registry: TypeRegistry, clock: Clock) -> None:
     game, ids = started(registry, clock)
     subject = ask_about_chooser(game, clock)
     game.players[subject].points = 30
+    game.players[subject].position = 5
     game.submit_answer(subject, 0, clock(1))
     for pid in ids:
         if pid != subject:
             game.submit_answer(pid, 2, clock(1))
     game.tick(clock())
     res = game.current.results[subject]
-    assert res.points == -30 and not res.correct and res.steps == 0
-    assert game.players[subject].points == 0
+    assert res.points == -2 * E.SUBJECT_MISS and not res.correct and res.steps == -E.SUBJECT_BACK
+    assert game.players[subject].points == 30 - 2 * E.SUBJECT_MISS  # below zero is allowed
+    game.tick(clock(game.timing.reveal))
+    assert game.phase == E.BOARD
+    assert game.players[subject].position == 5 - E.SUBJECT_BACK
+    assert any(m["player"] == subject and m["back"] for m in game.moves)
 
 
 def test_friend_without_answer_does_not_count(registry: TypeRegistry, clock: Clock) -> None:

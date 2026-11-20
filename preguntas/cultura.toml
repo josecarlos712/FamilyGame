@@ -863,3 +863,571 @@ opciones = ["Terraza con amigos", "Barbacoa", "Picnic", "Paseo en bici"]
 tipo = "conoces"
 enunciado = "¿Qué pasta elegiría?"
 opciones = ["Macarrones", "Espaguetis", "Lasaña", "Raviolis"]
+
+# --- Preguntas numéricas ---
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Metro de Madrid?"
+min = 1895
+max = 1945
+respuesta = 1919
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a funcionar el AVE Madrid-Sevilla?"
+min = 1975
+max = 2005
+respuesta = 1992
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos minutos tarda el AVE de Madrid a Barcelona, como mínimo?"
+min = 100
+max = 220
+paso = 5
+unidad = "min"
+respuesta = 150
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto era el salario mínimo interprofesional en España en 2024, en 14 pagas al mes?"
+min = 900
+max = 1400
+paso = 1
+unidad = "€"
+respuesta = 1134
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántas pesetas equivalía un euro al cambio fijado?"
+min = 150
+max = 180
+paso = 1
+unidad = "pts"
+respuesta = 166
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos escaños tiene el Congreso de los Diputados?"
+min = 250
+max = 450
+paso = 10
+respuesta = 350
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas cartas tiene la baraja española?"
+min = 20
+max = 60
+respuesta = 40
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas fichas tiene un juego de dominó?"
+min = 18
+max = 38
+respuesta = 28
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas piezas hay en un tablero de ajedrez al empezar la partida?"
+min = 20
+max = 44
+respuesta = 32
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas estrellas hay en la bandera de la Unión Europea?"
+min = 6
+max = 18
+respuesta = 12
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos colores tiene la bandera de España?"
+min = 1
+max = 5
+respuesta = 2
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas horas de sueño considera ideales?"
+opciones = ["Menos de 6 horas", "6 a 7 horas", "7 a 8 horas", "Más de 8 horas"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué hora prefiere levantarse?"
+opciones = ["Antes de las 7", "Entre 7 y 8", "Entre 8 y 10", "Después de las 10"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos hijos le parece ideal tener?"
+opciones = ["Ninguno", "Uno", "Dos", "Tres o más"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas mascotas le gustaría tener?"
+opciones = ["Ninguna", "Una", "Dos o tres", "Más de tres"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué temperatura ambiente prefiere?"
+opciones = ["Menos de 18 grados", "18 a 22 grados", "23 a 27 grados", "Más de 27 grados"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué hora prefiere acostarse?"
+opciones = ["Antes de las 22", "Entre 22 y 24", "Entre 24 y 2", "Después de las 2"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuánto tiempo de siesta le parece ideal?"
+opciones = ["No hacer siesta", "Menos de 20 minutos", "20 a 45 minutos", "Más de 45 minutos"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos amigos íntimos prefiere tener?"
+opciones = ["Uno o dos", "De tres a cinco", "De seis a diez", "Más de diez"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos días de vacaciones seguidos prefiere?"
+opciones = ["Menos de una semana", "Una semana", "Dos semanas", "Un mes o más"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuánto tiempo le gustaría viajar al año?"
+opciones = ["Menos de una semana", "De una a dos semanas", "De dos a cuatro semanas", "Más de un mes"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿A qué hora prefiere cenar?"
+opciones = ["Antes de las 20", "Entre 20 y 21", "Entre 21 y 22", "Después de las 22"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas personas prefiere en una cena?"
+opciones = ["Menos de 4", "De 4 a 6", "De 7 a 10", "Más de 10"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántas horas de pantalla al día le parecen razonables?"
+opciones = ["Menos de 2", "De 2 a 4", "De 4 a 6", "Más de 6"]
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos años le gustaría vivir?"
+opciones = ["Menos de 80", "80 a 90", "90 a 100", "Más de 100"]
+
+# --- Preguntas relámpago ---
+
+[[pregunta]]
+enunciado = "¿Qué color del semáforo significa «parar»?"
+opciones = ["Azul", "Rojo", "Verde"]
+correcta = "Rojo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué color del semáforo significa «pasar»?"
+opciones = ["Rojo", "Morado", "Verde"]
+correcta = "Verde"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos céntimos tiene un euro?"
+opciones = ["50", "100", "10"]
+correcta = "100"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué plato lleva huevos y patatas?"
+opciones = ["Tortilla de patatas", "Pizza", "Hamburguesa"]
+correcta = "Tortilla de patatas"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué plato valenciano lleva arroz?"
+opciones = ["Sushi", "Paella", "Pizza"]
+correcta = "Paella"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué se come con las doce campanadas?"
+opciones = ["Naranjas", "Fresas", "Uvas"]
+correcta = "Uvas"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién trae los regalos el 6 de enero?"
+opciones = ["Los Reyes Magos", "El Conejo", "Halloween"]
+correcta = "Los Reyes Magos"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fiesta es el 25 de diciembre?"
+opciones = ["Halloween", "Navidad", "Carnaval"]
+correcta = "Navidad"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué dulce navideño se hace con almendra?"
+opciones = ["Helado", "Chicle", "Turrón"]
+correcta = "Turrón"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué sopa fría española lleva tomate?"
+opciones = ["Gazpacho", "Fabada", "Cocido"]
+correcta = "Gazpacho"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué animal es el jamón?"
+opciones = ["Pollo", "Cerdo", "Vaca"]
+correcta = "Cerdo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fiesta de Pamplona tiene toros por la calle?"
+opciones = ["Las Fallas", "Carnaval", "San Fermín"]
+correcta = "San Fermín"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fiesta de Valencia quema figuras gigantes?"
+opciones = ["Las Fallas", "San Fermín", "Semana Santa"]
+correcta = "Las Fallas"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la lengua más hablada en España?"
+opciones = ["Inglés", "Francés", "Español"]
+correcta = "Español"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué moneda se usa en España?"
+opciones = ["Euro", "Dólar", "Libra"]
+correcta = "Euro"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué baile típico es de Andalucía?"
+opciones = ["Flamenco", "Tango", "Samba"]
+correcta = "Flamenco"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué día va después del lunes?"
+opciones = ["Domingo", "Martes", "Jueves"]
+correcta = "Martes"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué día va antes del domingo?"
+opciones = ["Lunes", "Viernes", "Sábado"]
+correcta = "Sábado"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el primer mes del año?"
+opciones = ["Enero", "Marzo", "Diciembre"]
+correcta = "Enero"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el último mes del año?"
+opciones = ["Noviembre", "Diciembre", "Enero"]
+correcta = "Diciembre"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos meses tiene un año?"
+opciones = ["10", "14", "12"]
+correcta = "12"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué mes es Navidad?"
+opciones = ["Diciembre", "Enero", "Junio"]
+correcta = "Diciembre"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué mes va después de mayo?"
+opciones = ["Julio", "Junio", "Abril"]
+correcta = "Junio"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuáles son los días del fin de semana?"
+opciones = ["Lunes y martes", "Jueves y viernes", "Sábado y domingo"]
+correcta = "Sábado y domingo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué fruta se hace el vino?"
+opciones = ["Manzana", "Pera", "Uva"]
+correcta = "Uva"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué sabor tiene el azúcar?"
+opciones = ["Dulce", "Salado", "Amargo"]
+correcta = "Dulce"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué sabor tiene la sal?"
+opciones = ["Picante", "Salado", "Dulce"]
+correcta = "Salado"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué sabor tiene el limón?"
+opciones = ["Dulce", "Salado", "Ácido"]
+correcta = "Ácido"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué se hace el pan?"
+opciones = ["Harina", "Arroz", "Azúcar"]
+correcta = "Harina"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fruta es verde por fuera y roja por dentro?"
+opciones = ["Plátano", "Sandía", "Naranja"]
+correcta = "Sandía"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué verdura nos hace llorar al cortarla?"
+opciones = ["Lechuga", "Pepino", "Cebolla"]
+correcta = "Cebolla"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué comida italiana lleva tomate y queso?"
+opciones = ["Pizza", "Paella", "Tortilla"]
+correcta = "Pizza"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué bebida blanca nos da la vaca?"
+opciones = ["Agua", "Leche", "Zumo"]
+correcta = "Leche"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fruta cae del manzano?"
+opciones = ["Pera", "Uva", "Manzana"]
+correcta = "Manzana"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué se come en un cucurucho?"
+opciones = ["Helado", "Sopa", "Arroz"]
+correcta = "Helado"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué fruta sale el aceite de oliva?"
+opciones = ["Limón", "Aceituna", "Naranja"]
+correcta = "Aceituna"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un año tiene 12 meses."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El domingo va antes del lunes."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un semáforo en rojo significa «pasa»."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere?"
+opciones = ["Playa", "Montaña"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué sabor prefiere?"
+opciones = ["Dulce", "Salado"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué mascota prefiere, perro o gato?"
+opciones = ["Perro", "Gato"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuándo prefiere trabajar?"
+opciones = ["Madrugar", "Trasnochar"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere, verano o invierno?"
+opciones = ["Verano", "Invierno"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere tomar de beber?"
+opciones = ["Café", "Té"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué elegiría para viajar?"
+opciones = ["Avión", "Tren"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere hacer en casa?"
+opciones = ["Cocinar", "Pedir comida"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere al llegar a casa?"
+opciones = ["Ducha", "Baño"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere la tortilla, con o sin cebolla?"
+opciones = ["Con cebolla", "Sin cebolla"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere en vacaciones?"
+opciones = ["Relax", "Aventura"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para una cita?"
+opciones = ["Cena", "Paseo"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué elegiría como plan?"
+opciones = ["Quedarse en casa", "Salir"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere con el pan?"
+opciones = ["Aceite", "Mantequilla"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere como hora del día?"
+opciones = ["Mañana", "Noche"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere como regalo?"
+opciones = ["Dar", "Recibir"]
+tiempo = 8
+lectura = 2

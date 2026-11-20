@@ -2404,3 +2404,289 @@ opciones = ["Los Simpson", "Bob Esponja", "Dragon Ball", "Doraemon"]
 tipo = "conoces"
 enunciado = "¿Qué prefiere ver con los amigos?"
 opciones = ["Una de terror", "Una comedia", "Un partido", "Un concurso"]
+
+# --- Preguntas numéricas ---
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó la primera película de Star Wars?"
+min = 1960
+max = 1990
+respuesta = 1977
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Parque Jurásico?"
+min = 1975
+max = 2005
+respuesta = 1993
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Titanic, de James Cameron?"
+min = 1980
+max = 2010
+respuesta = 1997
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó El Padrino?"
+min = 1955
+max = 1985
+respuesta = 1972
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Regreso al futuro?"
+min = 1970
+max = 2000
+respuesta = 1985
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Toy Story?"
+min = 1980
+max = 2010
+respuesta = 1995
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó la primera película de Harry Potter?"
+min = 1985
+max = 2015
+respuesta = 2001
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó El Rey León de Disney (la película de animación)?"
+min = 1975
+max = 2005
+respuesta = 1994
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Avatar, de James Cameron?"
+min = 1990
+max = 2020
+respuesta = 2009
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se emitió por primera vez Los Simpson?"
+min = 1970
+max = 2000
+respuesta = 1989
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó La casa de papel en Antena 3?"
+min = 2005
+max = 2025
+respuesta = 2017
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se emitió por primera vez Verano azul?"
+min = 1965
+max = 1995
+respuesta = 1981
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a emitirse Cuéntame cómo pasó?"
+min = 1985
+max = 2015
+respuesta = 2001
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Ocho apellidos vascos?"
+min = 2000
+max = 2025
+respuesta = 2014
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Mar adentro, de Alejandro Amenábar?"
+min = 1990
+max = 2020
+respuesta = 2004
+tolerancia = 3
+dificultad = 3
+
+# --- Preguntas relámpago ---
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el ratón de Disney?"
+opciones = ["Goofy", "Mickey Mouse", "Pluto"]
+correcta = "Mickey Mouse"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién vive en una piña debajo del mar?"
+opciones = ["Dora", "Peppa Pig", "Bob Esponja"]
+correcta = "Bob Esponja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué personaje es una cerdita rosa?"
+opciones = ["Peppa Pig", "Dora", "Heidi"]
+correcta = "Peppa Pig"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿A qué muñeco de madera le crece la nariz al mentir?"
+opciones = ["Peter Pan", "Pinocho", "Pulgarcito"]
+correcta = "Pinocho"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién perdió un zapato de cristal?"
+opciones = ["Blancanieves", "La Sirenita", "Cenicienta"]
+correcta = "Cenicienta"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con cuántos enanitos vive Blancanieves?"
+opciones = ["7", "5", "3"]
+correcta = "7"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el niño que no quiere crecer?"
+opciones = ["Aladino", "Peter Pan", "Pinocho"]
+correcta = "Peter Pan"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué personaje lleva una caperuza roja?"
+opciones = ["Cenicienta", "Heidi", "Caperucita Roja"]
+correcta = "Caperucita Roja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el vaquero de Toy Story?"
+opciones = ["Woody", "Buzz", "Rex"]
+correcta = "Woody"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es Pikachu?"
+opciones = ["Rojo", "Amarillo", "Azul"]
+correcta = "Amarillo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el erizo azul de los videojuegos?"
+opciones = ["Mario", "Luigi", "Sonic"]
+correcta = "Sonic"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fontanero con bigote salta en los videojuegos?"
+opciones = ["Mario", "Sonic", "Pikachu"]
+correcta = "Mario"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la novia de Mickey?"
+opciones = ["Elsa", "Minnie", "Daisy"]
+correcta = "Minnie"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la piel de los Simpson?"
+opciones = ["Azul", "Verde", "Amarilla"]
+correcta = "Amarilla"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el padre de los Simpson?"
+opciones = ["Homer", "Bart", "Ned"]
+correcta = "Homer"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es Shrek?"
+opciones = ["Rojo", "Verde", "Azul"]
+correcta = "Verde"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal es Bambi?"
+opciones = ["Ciervo", "Conejo", "Lobo"]
+correcta = "Ciervo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal es Simba?"
+opciones = ["Oso", "León", "Tigre"]
+correcta = "León"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué elefante de Disney vuela con las orejas?"
+opciones = ["Babar", "Simba", "Dumbo"]
+correcta = "Dumbo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para ver una peli?"
+opciones = ["Cine", "Sofá"]
+tiempo = 8
+lectura = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cómo prefiere ver cine extranjero?"
+opciones = ["Doblada", "Subtitulada"]
+tiempo = 8
+lectura = 2

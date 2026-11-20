@@ -2390,3 +2390,376 @@ opciones = ["Pintura clásica", "Arte moderno", "Historia natural", "Ciencia int
 tipo = "conoces"
 enunciado = "¿Qué instrumento le parece más bonito?"
 opciones = ["Guitarra española", "Piano", "Saxofón", "Violonchelo"]
+
+# --- Preguntas de mapa ---
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Museo Guggenheim de Bilbao"
+respuesta = { lat = 43.2688, lng = -2.9341 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+# --- Preguntas numéricas ---
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas teclas tiene un piano estándar?"
+min = 40
+max = 120
+respuesta = 88
+tolerancia = 4
+tiempo = 15
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó la primera parte de Don Quijote?"
+min = 1580
+max = 1630
+respuesta = 1605
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se colocó la primera piedra de la Sagrada Familia?"
+min = 1860
+max = 1910
+respuesta = 1882
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Museo Guggenheim de Bilbao?"
+min = 1980
+max = 2010
+respuesta = 1997
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Miguel de Cervantes?"
+min = 1590
+max = 1640
+respuesta = 1616
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Pablo Picasso?"
+min = 1860
+max = 1900
+respuesta = 1881
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Salvador Dalí?"
+min = 1880
+max = 1930
+respuesta = 1904
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Museo del Prado?"
+min = 1795
+max = 1845
+respuesta = 1819
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Miguel de Cervantes?"
+min = 1500
+max = 1650
+respuesta = [1547, 1616]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Pablo Picasso?"
+min = 1850
+max = 1990
+respuesta = [1881, 1973]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Francisco de Goya?"
+min = 1700
+max = 1850
+respuesta = [1746, 1828]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Salvador Dalí?"
+min = 1880
+max = 2000
+respuesta = [1904, 1989]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Antoni Gaudí?"
+min = 1830
+max = 1950
+respuesta = [1852, 1926]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Federico García Lorca?"
+min = 1880
+max = 1950
+respuesta = [1898, 1936]
+criterio = "coincidir"
+margen = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Diego Velázquez?"
+min = 1570
+max = 1680
+respuesta = [1599, 1660]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Wolfgang Amadeus Mozart?"
+min = 1740
+max = 1810
+respuesta = [1756, 1791]
+criterio = "coincidir"
+margen = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Leonardo da Vinci?"
+min = 1430
+max = 1540
+respuesta = [1452, 1519]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió William Shakespeare?"
+min = 1540
+max = 1640
+respuesta = [1564, 1616]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Cuántos libros prefiere leer al año?"
+opciones = ["Ninguno", "De 1 a 5", "De 6 a 12", "Más de 12"]
+
+# --- Preguntas relámpago ---
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «casa»?"
+opciones = ["S", "A", "C"]
+correcta = "C"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «perro»?"
+opciones = ["P", "B", "R"]
+correcta = "P"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «mesa»?"
+opciones = ["S", "M", "N"]
+correcta = "M"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «sol»?"
+opciones = ["Z", "L", "S"]
+correcta = "S"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «luna»?"
+opciones = ["L", "N", "U"]
+correcta = "L"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra acaba «gato»?"
+opciones = ["G", "O", "A"]
+correcta = "O"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la primera letra del abecedario?"
+opciones = ["B", "Z", "A"]
+correcta = "A"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «grande»?"
+opciones = ["Pequeño", "Alto", "Ancho"]
+correcta = "Pequeño"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «frío»?"
+opciones = ["Duro", "Caliente", "Mojado"]
+correcta = "Caliente"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «día»?"
+opciones = ["Tarde", "Sol", "Noche"]
+correcta = "Noche"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «subir»?"
+opciones = ["Bajar", "Saltar", "Correr"]
+correcta = "Bajar"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «abierto»?"
+opciones = ["Lleno", "Cerrado", "Roto"]
+correcta = "Cerrado"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «alegre»?"
+opciones = ["Rápido", "Fuerte", "Triste"]
+correcta = "Triste"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «rápido»?"
+opciones = ["Lento", "Corto", "Blando"]
+correcta = "Lento"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «dentro»?"
+opciones = ["Cerca", "Fuera", "Arriba"]
+correcta = "Fuera"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas vocales hay?"
+opciones = ["3", "7", "5"]
+correcta = "5"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál de estas letras es una vocal?"
+opciones = ["E", "T", "M"]
+correcta = "E"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«A caballo regalado, no le mires el…»"
+opciones = ["Ojo", "Diente", "Pelo"]
+correcta = "Diente"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Más vale pájaro en mano que…»"
+opciones = ["Dos en el nido", "Uno cantando", "Ciento volando"]
+correcta = "Ciento volando"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Quien bien te quiere, te hará…»"
+opciones = ["Llorar", "Reír", "Dormir"]
+correcta = "Llorar"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Al mal tiempo, buena…»"
+opciones = ["Mesa", "Cara", "Ropa"]
+correcta = "Cara"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«En casa del herrero, cuchillo de…»"
+opciones = ["Hierro", "Plata", "Palo"]
+correcta = "Palo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Dime con quién andas y te diré…»"
+opciones = ["Quién eres", "Dónde vas", "Qué comes"]
+correcta = "Quién eres"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Ojos que no ven, corazón que no…»"
+opciones = ["Ama", "Siente", "Late"]
+correcta = "Siente"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Camarón que se duerme, se lo lleva la…»"
+opciones = ["Marea", "Ola", "Corriente"]
+correcta = "Corriente"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+tipo = "conoces"
+enunciado = "¿Qué prefiere para leer?"
+opciones = ["Papel", "Pantalla"]
+tiempo = 8
+lectura = 2

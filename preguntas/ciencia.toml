@@ -3219,3 +3219,1155 @@ opciones = ["Pasear por la Luna", "Ver la Tierra desde arriba", "Visitar Marte",
 tipo = "conoces"
 enunciado = "¿Qué flor o planta prefiere?"
 opciones = ["Rosa", "Girasol", "Cactus", "Orquídea"]
+
+# --- Preguntas numéricas ---
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos km/h puede correr un guepardo como máximo?"
+min = 30
+max = 160
+paso = 5
+unidad = "km/h"
+respuesta = 110
+tolerancia = 15
+explicacion = "Ronda los 100-120 km/h en carreras cortas."
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "Marca la temperatura normal del cuerpo humano sano"
+min = 30
+max = 45
+paso = 0.1
+unidad = "°C"
+respuesta = [36.1, 37.2]
+criterio = "solapar"
+solape_min = 50
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año salió al mercado el primer iPhone?"
+min = 1990
+max = 2020
+respuesta = 2007
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año descubrió Fleming la penicilina?"
+min = 1905
+max = 1950
+respuesta = 1928
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se produjo el primer vuelo de los hermanos Wright?"
+min = 1880
+max = 1930
+respuesta = 1903
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inventó el teléfono, patentado por Graham Bell?"
+min = 1850
+max = 1900
+respuesta = 1876
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide la circunferencia de la Tierra por el ecuador?"
+min = 35000
+max = 45000
+paso = 5
+unidad = "km"
+respuesta = 40075
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos kilómetros está la Luna de la Tierra, de media?"
+min = 300000
+max = 450000
+paso = 1000
+unidad = "km"
+respuesta = 384000
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos millones de kilómetros está el Sol de la Tierra, de media?"
+min = 120
+max = 180
+paso = 5
+unidad = "millones de km"
+respuesta = 150
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos km/s viaja la luz en el vacío?"
+min = 200000
+max = 400000
+paso = 5000
+unidad = "km/s"
+respuesta = 300000
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos metros por segundo viaja el sonido en el aire a 20 °C?"
+min = 270
+max = 420
+paso = 1
+unidad = "m/s"
+respuesta = 343
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Hace cuántos miles de millones de años se formó el sistema solar?"
+min = 2
+max = 8
+paso = 0.1
+unidad = "mil M. de años"
+respuesta = 4.6
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es la edad del universo, en miles de millones de años?"
+min = 12
+max = 16
+paso = 0.1
+unidad = "mil M. de años"
+respuesta = 13.8
+tolerancia_pct = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos huesos tiene un adulto?"
+min = 100
+max = 300
+paso = 1
+respuesta = 206
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos cromosomas tiene una célula humana normal?"
+min = 30
+max = 60
+paso = 1
+respuesta = 46
+tolerancia_pct = 8
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas pulsaciones por minuto tiene un adulto sano en reposo, de media?"
+min = 50
+max = 100
+paso = 1
+unidad = "lpm"
+respuesta = 70
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos litros de sangre tiene un adulto, aproximadamente?"
+min = 2
+max = 10
+paso = 0.5
+unidad = "L"
+respuesta = 5
+tolerancia_pct = 20
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué porcentaje del cuerpo de un adulto es agua, aproximadamente?"
+min = 30
+max = 90
+paso = 1
+unidad = "%"
+respuesta = 60
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura funde el oro?"
+min = 800
+max = 1300
+paso = 1
+unidad = "°C"
+respuesta = 1064
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura se encuentra la superficie del Sol, aproximadamente?"
+min = 3000
+max = 8000
+paso = 100
+unidad = "°C"
+respuesta = 5500
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura hierve el nitrógeno líquido?"
+min = -250
+max = -150
+paso = 1
+unidad = "°C"
+respuesta = -196
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es el cero absoluto de temperatura en grados Celsius?"
+min = -300
+max = -200
+paso = 1
+unidad = "°C"
+respuesta = -273
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué velocidad máxima viaja el halcón peregrino en picado?"
+min = 200
+max = 450
+paso = 10
+unidad = "km/h"
+respuesta = 390
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos km/h puede llegar el AVE en España?"
+min = 200
+max = 350
+paso = 10
+unidad = "km/h"
+respuesta = 300
+tolerancia_pct = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto mide una ballena azul adulta, de longitud?"
+min = 15
+max = 40
+paso = 1
+unidad = "m"
+respuesta = 30
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos dientes tiene un adulto con la dentición completa?"
+min = 20
+max = 40
+respuesta = 32
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos elementos aparecen en la tabla periódica actual?"
+min = 90
+max = 140
+respuesta = 118
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es el número atómico del oro?"
+min = 60
+max = 100
+respuesta = 79
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Albert Einstein?"
+min = 1850
+max = 1970
+respuesta = [1879, 1955]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Santiago Ramón y Cajal?"
+min = 1830
+max = 1950
+respuesta = [1852, 1934]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Marie Curie?"
+min = 1840
+max = 1960
+respuesta = [1867, 1934]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+# --- Preguntas relámpago ---
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tiene una araña?"
+opciones = ["6", "8", "10"]
+correcta = "8"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es el cielo en un día despejado?"
+opciones = ["Verde", "Azul", "Rojo"]
+correcta = "Azul"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "2 + 2 × 2 ="
+opciones = ["6", "8", "4"]
+correcta = "6"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuántos días tiene una semana?"
+opciones = ["5", "7", "10"]
+correcta = "7"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal hace «muu»?"
+opciones = ["Oveja", "Vaca", "Cerdo"]
+correcta = "Vaca"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos meses tienen 28 días?"
+opciones = ["1", "12", "6"]
+correcta = "12"
+tiempo = 5
+lectura = 1.5
+explicacion = "¡Todos los meses tienen al menos 28 días!"
+
+[[pregunta]]
+enunciado = "¿Qué pesa más: un kilo de paja o un kilo de hierro?"
+opciones = ["La paja", "El hierro", "Lo mismo"]
+correcta = "Lo mismo"
+tiempo = 4
+lectura = 2
+
+[[pregunta]]
+enunciado = "¿Qué animal ladra?"
+opciones = ["Perro", "Gato", "Pájaro"]
+correcta = "Perro"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal maúlla?"
+opciones = ["Conejo", "Gato", "Perro"]
+correcta = "Gato"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué animal sale la lana?"
+opciones = ["Vaca", "Gallina", "Oveja"]
+correcta = "Oveja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal pone huevos?"
+opciones = ["Gallina", "Vaca", "Cerdo"]
+correcta = "Gallina"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién es el rey de la selva?"
+opciones = ["La rana", "El león", "El ratón"]
+correcta = "El león"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene trompa?"
+opciones = ["Jirafa", "Caballo", "Elefante"]
+correcta = "Elefante"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene el cuello más largo?"
+opciones = ["Jirafa", "Cebra", "Oso"]
+correcta = "Jirafa"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal salta y croa?"
+opciones = ["Tortuga", "Rana", "Pez"]
+correcta = "Rana"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal vive en el mar?"
+opciones = ["Vaca", "Burro", "Ballena"]
+correcta = "Ballena"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal vuela?"
+opciones = ["Águila", "Cerdo", "Perro"]
+correcta = "Águila"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal hace «cuac»?"
+opciones = ["Perro", "Pato", "Vaca"]
+correcta = "Pato"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal hace «oinc»?"
+opciones = ["Gallo", "Caballo", "Cerdo"]
+correcta = "Cerdo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal canta «quiquiriquí»?"
+opciones = ["Gallo", "Pato", "Burro"]
+correcta = "Gallo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene rayas blancas y negras?"
+opciones = ["Elefante", "Cebra", "Jirafa"]
+correcta = "Cebra"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal lleva la casa a cuestas?"
+opciones = ["Perro", "Pato", "Caracol"]
+correcta = "Caracol"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene orejas largas y salta?"
+opciones = ["Conejo", "Pez", "Tortuga"]
+correcta = "Conejo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal hace la miel?"
+opciones = ["Hormiga", "Abeja", "Mosca"]
+correcta = "Abeja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal teje telarañas?"
+opciones = ["Abeja", "Gusano", "Araña"]
+correcta = "Araña"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene joroba?"
+opciones = ["Camello", "Caballo", "Vaca"]
+correcta = "Camello"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tiene un perro?"
+opciones = ["6", "4", "2"]
+correcta = "4"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tiene un pájaro?"
+opciones = ["4", "6", "2"]
+correcta = "2"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal es un mamífero?"
+opciones = ["Delfín", "Tiburón", "Atún"]
+correcta = "Delfín"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la cría de la vaca?"
+opciones = ["Potro", "Ternero", "Cordero"]
+correcta = "Ternero"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la cría de la oveja?"
+opciones = ["Ternero", "Pollito", "Cordero"]
+correcta = "Cordero"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué ave no vuela y vive en el frío?"
+opciones = ["Pingüino", "Loro", "Águila"]
+correcta = "Pingüino"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal da la leche que bebemos?"
+opciones = ["Pato", "Vaca", "Gallina"]
+correcta = "Vaca"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es el plátano?"
+opciones = ["Azul", "Rojo", "Amarillo"]
+correcta = "Amarillo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la hierba?"
+opciones = ["Verde", "Rosa", "Negro"]
+correcta = "Verde"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es un tomate maduro?"
+opciones = ["Morado", "Rojo", "Azul"]
+correcta = "Rojo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la nieve?"
+opciones = ["Negro", "Verde", "Blanco"]
+correcta = "Blanco"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué color sale al mezclar azul y amarillo?"
+opciones = ["Verde", "Rojo", "Naranja"]
+correcta = "Verde"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué color sale al mezclar rojo y blanco?"
+opciones = ["Gris", "Rosa", "Verde"]
+correcta = "Rosa"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es una zanahoria?"
+opciones = ["Azul", "Violeta", "Naranja"]
+correcta = "Naranja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es el carbón?"
+opciones = ["Negro", "Blanco", "Amarillo"]
+correcta = "Negro"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la leche?"
+opciones = ["Rojo", "Blanco", "Verde"]
+correcta = "Blanco"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos colores tiene el arcoíris?"
+opciones = ["5", "10", "7"]
+correcta = "7"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es el chocolate?"
+opciones = ["Marrón", "Azul", "Blanco"]
+correcta = "Marrón"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos dedos tiene una mano?"
+opciones = ["5", "4", "6"]
+correcta = "5"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué parte del cuerpo vemos?"
+opciones = ["Nariz", "Ojos", "Orejas"]
+correcta = "Ojos"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué parte del cuerpo oímos?"
+opciones = ["Ojos", "Boca", "Orejas"]
+correcta = "Orejas"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué parte del cuerpo olemos?"
+opciones = ["Nariz", "Boca", "Codo"]
+correcta = "Nariz"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde está el corazón?"
+opciones = ["En la cabeza", "En el pecho", "En el pie"]
+correcta = "En el pecho"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos ojos tenemos?"
+opciones = ["1", "3", "2"]
+correcta = "2"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué parte une la mano con el brazo?"
+opciones = ["Muñeca", "Rodilla", "Tobillo"]
+correcta = "Muñeca"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué parte de la pierna se dobla?"
+opciones = ["Muñeca", "Rodilla", "Codo"]
+correcta = "Rodilla"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué masticamos?"
+opciones = ["Uñas", "Pelo", "Dientes"]
+correcta = "Dientes"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos dedos tienen dos manos?"
+opciones = ["10", "5", "20"]
+correcta = "10"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué parte del cuerpo pensamos?"
+opciones = ["Pie", "Cerebro", "Estómago"]
+correcta = "Cerebro"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde llevamos los zapatos?"
+opciones = ["En las manos", "En la cabeza", "En los pies"]
+correcta = "En los pies"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas piernas tiene una persona?"
+opciones = ["2", "1", "4"]
+correcta = "2"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué respiramos?"
+opciones = ["Huesos", "Pulmones", "Riñones"]
+correcta = "Pulmones"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "2 + 3 ="
+opciones = ["4", "6", "5"]
+correcta = "5"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "4 + 4 ="
+opciones = ["8", "6", "9"]
+correcta = "8"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "5 + 5 ="
+opciones = ["8", "10", "12"]
+correcta = "10"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "10 − 4 ="
+opciones = ["5", "7", "6"]
+correcta = "6"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "9 − 3 ="
+opciones = ["6", "7", "5"]
+correcta = "6"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "7 + 2 ="
+opciones = ["10", "9", "8"]
+correcta = "9"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "8 − 5 ="
+opciones = ["2", "4", "3"]
+correcta = "3"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "6 + 6 ="
+opciones = ["12", "11", "14"]
+correcta = "12"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "3 × 3 ="
+opciones = ["12", "9", "6"]
+correcta = "9"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "2 × 5 ="
+opciones = ["7", "12", "10"]
+correcta = "10"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "1 + 1 ="
+opciones = ["2", "3", "1"]
+correcta = "2"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "10 × 10 ="
+opciones = ["20", "100", "1000"]
+correcta = "100"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "15 − 5 ="
+opciones = ["20", "5", "10"]
+correcta = "10"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "12 + 3 ="
+opciones = ["15", "14", "16"]
+correcta = "15"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "20 − 10 ="
+opciones = ["30", "10", "0"]
+correcta = "10"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "4 × 2 ="
+opciones = ["6", "10", "8"]
+correcta = "8"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "5 × 0 ="
+opciones = ["0", "5", "1"]
+correcta = "0"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuál es el doble de 6?"
+opciones = ["10", "12", "14"]
+correcta = "12"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el doble de 4?"
+opciones = ["6", "10", "8"]
+correcta = "8"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la mitad de 10?"
+opciones = ["5", "4", "6"]
+correcta = "5"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la mitad de 8?"
+opciones = ["6", "4", "2"]
+correcta = "4"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el triple de 3?"
+opciones = ["6", "12", "9"]
+correcta = "9"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué número va después del 19?"
+opciones = ["20", "18", "21"]
+correcta = "20"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué número va antes del 50?"
+opciones = ["40", "49", "51"]
+correcta = "49"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos huevos hay en una docena?"
+opciones = ["10", "6", "12"]
+correcta = "12"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tienen 2 perros en total?"
+opciones = ["8", "4", "6"]
+correcta = "8"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas horas tiene un día?"
+opciones = ["12", "60", "24"]
+correcta = "24"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos minutos tiene una hora?"
+opciones = ["60", "100", "30"]
+correcta = "60"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos segundos tiene un minuto?"
+opciones = ["30", "60", "100"]
+correcta = "60"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué estación viene después del invierno?"
+opciones = ["Primavera", "Otoño", "Verano"]
+correcta = "Primavera"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué estación hace más calor?"
+opciones = ["Otoño", "Verano", "Invierno"]
+correcta = "Verano"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas estaciones tiene el año?"
+opciones = ["3", "6", "4"]
+correcta = "4"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos lados tiene un triángulo?"
+opciones = ["3", "4", "5"]
+correcta = "3"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos lados tiene un cuadrado?"
+opciones = ["6", "4", "3"]
+correcta = "4"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué forma tiene una rueda?"
+opciones = ["Cuadrada", "Triangular", "Redonda"]
+correcta = "Redonda"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas esquinas tiene un círculo?"
+opciones = ["Ninguna", "Cuatro", "Una"]
+correcta = "Ninguna"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas caras tiene un dado?"
+opciones = ["8", "6", "4"]
+correcta = "6"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El sol sale por la noche."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Los peces viven en el agua."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El hielo está caliente."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un triángulo tiene cuatro lados."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Las vacas ponen huevos."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El fuego es frío."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Los pájaros tienen alas."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Tenemos dos orejas."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un pie tiene diez dedos."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El limón es dulce."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Los perros ladran."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "La nieve es blanca."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un gato tiene seis patas."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un elefante es más grande que un ratón."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Dos más dos son cinco."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El invierno es la estación más calurosa."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Las abejas hacen miel."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "La tortuga corre más que el conejo."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Los bebés beben leche."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "La Tierra es redonda."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5

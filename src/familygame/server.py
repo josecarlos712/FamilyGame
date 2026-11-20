@@ -370,6 +370,8 @@ class GameServer:
             game.start(pid, now)
         elif kind == "choose":
             game.choose(pid, str(msg.get("category")), now)
+        elif kind == "spin":
+            game.spin(pid, now)
         elif kind == "answer":
             game.submit_answer(pid, msg.get("value"), now)
         elif kind == "unavailable":

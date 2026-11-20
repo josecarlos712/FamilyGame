@@ -6,6 +6,7 @@ import {
 } from "./ui.js";
 import { BoardView, CENTER, STAGE_W, STAGE_H } from "./board.js";
 import { sound } from "./sound.js";
+import { choiceStage, choiceOf } from "./choice.js";
 
 const stage = document.getElementById("stage");
 const toasts = h("div.toasts");
@@ -245,6 +246,8 @@ function boardScreen() {
   let board = null;
   let boardSig = "";
   let animatedFor = null;
+  let stage = null; // choice stage (wheel/coin/...) kept across state updates so animations survive
+  let stageSig = "";
   const rank = h("div.rank");
   const panel = h("div.panel");
   const round = h("p.round-info");
@@ -273,12 +276,28 @@ function boardScreen() {
         const chooser = playerById(s.chooserId);
         const num = h("span.big-timer");
         const bar = h("div.timebar", h("i"));
+        const c = choiceOf(s);
+        const actor = playerById(c.actorId);
+        if (!stage || stageSig !== `${c.mechanic}:${c.introUntil}`) {
+          stage?.destroy();
+          stageSig = `${c.mechanic}:${c.introUntil}`;
+          stage = choiceStage({
+            size: "big", catById, playerById, play: (n) => sound.play(n),
+            body: (ch) => h("div.offer", ch.mechanic === "rival"
+              ? [h("p.rival-line", "😈 ", actor ? nameTag(actor) : "Alguien", " está eligiendo por ", chooser ? nameTag(chooser) : "ti", "…")]
+              : [],
+            ch.offered.map((id) => {
+              const cat = catById(id);
+              return cat && h("span.cat-chip.big", { dataset: { cat: id }, style: { "--cc": cat.color } }, cat.icon, " ", cat.name);
+            })),
+          });
+        }
+        stage.update(c);
         fill(panel,
           chooser
             ? h("div.choose-head", avatar(chooser, 96), h("div", h("p.kicker", "Elige categoría"), h("p.choose-name", nameTag(chooser))), num)
             : h("div.choose-head", h("p.choose-name", "Categoría al azar…"), num),
-          bar,
-          h("div.offer", s.offered.map((id) => { const c = catById(id); return c && h("span.cat-chip.big", { style: { "--cc": c.color } }, c.icon, " ", c.name); })));
+          bar, stage.el);
         timers.clear();
         timer(bar, num, () => [s.deadline - (chooser ? s.chooseTime : 1.5), s.deadline]);
       } else if (s.phase === "board") {

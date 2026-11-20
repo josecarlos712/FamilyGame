@@ -4,6 +4,7 @@ import {
   h, fill, fmt, avatar, nameTag, secondsLeft, freezeClock, loadType, snap, modeText,
   OPTION_COLORS, OPTION_LETTERS,
 } from "./ui.js";
+import { choiceStage, choiceOf, MECHANICS } from "./choice.js";
 
 const app = document.getElementById("app");
 const toastBox = document.getElementById("toast");
@@ -428,7 +429,10 @@ function lobbyScreen() {
           h("p.hint", st.mode === "categories"
             ? "Una categoría se cierra con esos aciertos o acertando desde una casilla ★."
             : "Cerrar una categoría (aciertos o casilla ★) da +100 puntos."),
-          stepper("Categorías para elegir cada turno", st.categoriesPerTurn, 0, 12, 1, (v) => send({ categoriesPerTurn: v }), (v) => v === 0 ? "Todas" : v));
+          h("p.card-title", "Mecánicas"),
+          h("div.mech-row", Object.entries(MECHANICS).map(([id, m]) => h("button.mech-chip", {
+            type: "button", class: (st.mechanics || []).includes(id) ? "is-on" : "", onclick: () => send({ toggleMechanic: id }),
+          }, h("span", m.icon), h("span", m.name)))));
       }
       const sv = s.saved;
       const savedCard = sv ? h("div.card.saved-card",
@@ -473,32 +477,55 @@ function lobbyScreen() {
 function choosingScreen() {
   const el = h("div.screen.choosing");
   let sig = "";
+  let stage = null;
   return {
     el,
     update(s) {
-      const mine = s.chooserId === s.me.id;
-      const next = `${mine}:${s.offered.join(",")}:${s.chooserId}`;
+      const c = choiceOf(s);
+      const me = s.me.id;
+      const acting = c.actorId === me;
+      const next = `${c.mechanic}:${c.introUntil}:${c.chooserId}:${c.actorId}`;
       setTimer(() => [s.deadline - (s.chooserId ? s.chooseTime : 1.5), s.deadline]);
-      if (next === sig) return;
-      sig = next;
-      const chooser = playerById(s.chooserId);
-      const timebar = h("div.timebar", { dataset: { timebar: "" } }, h("i"));
-      if (mine) {
-        fill(el, header(s), h("h1.title", "¡Te toca elegir!"), timebar,
-          h("div.cat-grid", s.offered.map((id) => {
-            const c = catById(id);
-            return c && h("button.cat-btn", { type: "button", style: { "--cc": c.color }, onclick: () => net.send({ t: "choose", category: id }) },
-              h("span.cat-icon", c.icon), h("span", c.name));
-          }), h("button.cat-btn.random", { type: "button", onclick: () => net.send({ t: "choose", category: "__random__" }) },
-            h("span.cat-icon", "🎲"), h("span", "Al azar"))),
-          h("p.hint.center", "Quedan ", h("b", { dataset: { timenum: "" } }), " s; si no, se elige al azar"), hostEnd(s));
-      } else {
-        fill(el, header(s), h("div.center-msg",
-          chooser ? avatar(chooser, 96) : null,
-          h("p", chooser ? h("span", nameTag(chooser), " está eligiendo categoría…") : "Eligiendo categoría al azar…"),
-          timebar), hostEnd(s));
+      if (next !== sig) {
+        sig = next;
+        stage?.destroy();
+        const chooser = playerById(c.chooserId);
+        const actor = playerById(c.actorId);
+        const title = {
+          ruleta: acting ? "¡Gira la ruleta!" : null,
+          moneda: acting ? "¡Lanza la moneda!" : null,
+          rival: acting ? ["Elige la categoría para ", chooser ? nameTag(chooser) : "ti", " 😈"] : null,
+          eleccion: acting ? "Elige una de tres" : null,
+        }[c.mechanic];
+        const waiting = c.mechanic === "rival" && c.chooserId === me
+          ? h("p.waiting", actor ? nameTag(actor) : "Alguien", " está eligiendo por ti…")
+          : c.mechanic === "rival" && !acting
+            ? h("p.waiting", actor ? nameTag(actor) : "Alguien", " está eligiendo por ", chooser ? nameTag(chooser) : "…")
+            : !acting && (c.mechanic === "eleccion")
+              ? h("p.waiting", chooser ? nameTag(chooser) : "Alguien", " está eligiendo categoría…") : null;
+        stage = choiceStage({
+          size: acting && (c.mechanic === "ruleta" || c.mechanic === "moneda") ? "big" : "small",
+          catById, playerById,
+          onSpin: acting && (c.mechanic === "ruleta" || c.mechanic === "moneda") ? () => net.send({ t: "spin" }) : null,
+          body: (ch) => acting
+            ? h("div.cat-grid", ch.offered.map((id) => {
+              const cat = catById(id);
+              return cat && h("button.cat-btn", { type: "button", dataset: { cat: id }, style: { "--cc": cat.color },
+                disabled: !!ch.result, onclick: () => net.send({ t: "choose", category: id }) },
+              h("span.cat-icon", cat.icon), h("span", cat.name));
+            }))
+            : h("div.cat-grid.is-view", ch.offered.map((id) => {
+              const cat = catById(id);
+              return cat && h("div.cat-btn", { dataset: { cat: id }, style: { "--cc": cat.color } }, h("span.cat-icon", cat.icon), h("span", cat.name));
+            })),
+        });
+        const timebar = h("div.timebar", { dataset: { timebar: "" } }, h("i"));
+        fill(el, header(s), title ? h("h1.title", title) : null, timebar, stage.el, waiting,
+          h("p.hint.center", "Quedan ", h("b", { dataset: { timenum: "" } }), " s; si no, se actúa al azar"), hostEnd(s));
       }
+      stage.update(c);
     },
+    destroy() { stage?.destroy(); },
   };
 }
 
@@ -631,7 +658,7 @@ function boardScreen() {
       const steps = s.myMoves[0]?.path.length || 0;
       const spaceName = { star: "una estrella ★", event: "un evento 🎲", duel: "un duelo ⚔️", start: "la salida", normal: "una casilla normal" }[s.mySpace] || "";
       fill(el, header(s), h("div.center-msg",
-        h("p.big", steps ? `Avanzas ${steps} ${steps === 1 ? "casilla" : "casillas"}` : "Esta vez no avanzas"),
+        h("p.big", steps ? `${s.myMoves[0].back ? "Retrocedes" : "Avanzas"} ${steps} ${steps === 1 ? "casilla" : "casillas"}` : "Esta vez no avanzas"),
         steps ? h("p", `Caes en ${spaceName}`) : null,
         texts.map((t) => h("p.res-extra", t)),
         h("p.hint", "Mira la tele 📺")), hostBar(s), hostEnd(s));

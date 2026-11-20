@@ -51,7 +51,6 @@ def main() -> None:
     app.state.server.join_url = "http://192.168.1.20:8765/"
     game = app.state.server.game
     game.rng = Random(4)
-    game.settings.disabled = set() if scene.startswith("mapa") else {"mapas"}
     ids = [game.join(n, c, {"kind": "icon", "value": i}, T0).id for n, c, i in PLAYERS]
     ana, luis, marta, carmen = ids
     tokens = {game.players[pid].name: game.players[pid].token for pid in ids}
@@ -70,8 +69,8 @@ def main() -> None:
         game.deadline = T0 + 20
 
     if scene in ("mapa", "mapa-reveal"):
-        cat = game.library.categories["mapas"]
-        question = next(q for q in cat.questions if "Eiffel" in q.prompt)
+        cat, question = next((c, q) for c in game.library.categories.values()
+                             for q in c.questions if "Eiffel" in q.prompt)
         game.chooser_id = ana
         game._start_question(cat, question, list(ids), T0 - question.read_time - 12, tiebreak=False)
         game.tick(T0)
