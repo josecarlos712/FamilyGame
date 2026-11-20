@@ -1,3 +1,6 @@
+# Parte de estas preguntas procede del «Spanish general knowledge megastudy»
+# (Buades-Sitjar, Planchuelo y Duñabeitia, 2021; figshare 10.6084/m9.figshare.14073899),
+# licencia CC BY 4.0. Revisadas y adaptadas; dificultad según el % de acierto real en España.
 [categoria]
 nombre = "Deportes"
 icono = "⚽"
@@ -64,3 +67,2133 @@ enunciado = "¿Qué ciudad organizó los Juegos Olímpicos de 1992?"
 opciones = ["Madrid", "Sevilla", "Barcelona", "Valencia"]
 correcta = "Barcelona"
 tiempo = 6
+
+[[pregunta]]
+enunciado = "¿Qué dorsal llevaba Andrés Iniesta en el FC Barcelona?"
+opciones = ["8", "6", "10", "4"]
+correcta = "8"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se apodaba a Bahamontes?"
+opciones = ["El Águila de Toledo", "El Pistolero", "El Tarangu", "La Pantera"]
+correcta = "El Águila de Toledo"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué deporte ganó Maialen Chourraut el oro olímpico en Río 2016?"
+opciones = ["Piragüismo en eslalon", "Remo", "Natación", "Vela"]
+correcta = "Piragüismo en eslalon"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué animal da apodo a los jugadores del Athletic Club?"
+opciones = ["Leones", "Lobos", "Águilas", "Osos"]
+correcta = "Leones"
+dificultad = 2
+tiempo = 12
+explicacion = "Es por San Mamés, el «León de San Mamés»."
+
+[[pregunta]]
+enunciado = "¿Qué club español recibe el apodo de «Los Colchoneros»?"
+opciones = ["Atlético de Madrid", "Valencia CF", "Villarreal CF", "Sevilla FC"]
+correcta = "Atlético de Madrid"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué prueba ganó Ruth Beitia en los JJOO de Río 2016?"
+opciones = ["Salto de altura", "Salto con pértiga", "Triple salto", "Lanzamiento de jabalina"]
+correcta = "Salto de altura"
+dificultad = 2
+tiempo = 12
+explicacion = "Tenía 37 años."
+
+[[pregunta]]
+enunciado = "¿Cómo termina la famosa frase de Ali «Flota como una mariposa, pica como...»?"
+opciones = ["Una abeja", "Una avispa", "Un mosquito", "Un escorpión"]
+correcta = "Una abeja"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Contra qué selección ganó Argentina la final del Mundial 2022?"
+opciones = ["Francia", "Croacia", "Brasil", "Países Bajos"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 15
+explicacion = "Ganó en penaltis tras un 3-3."
+
+[[pregunta]]
+enunciado = "¿Qué apodo tienen los jugadores de la Real Sociedad por sus colores?"
+opciones = ["Txuri-urdin", "Zurigorri", "Rojillos", "Blaugrana"]
+correcta = "Txuri-urdin"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué entrenador argentino dirige al Atlético de Madrid desde 2011?"
+opciones = ["Diego Pablo Simeone", "Mauricio Pochettino", "Marcelo Bielsa", "Marcelo Gallardo"]
+correcta = "Diego Pablo Simeone"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos Mundiales de fútbol ha ganado Brasil?"
+opciones = ["5", "4", "6", "3"]
+correcta = "5"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad española se disputó la Copa América de vela de 2007 y 2010?"
+opciones = ["Valencia", "Barcelona", "Palma de Mallorca", "Cádiz"]
+correcta = "Valencia"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué país se inventó el pádel en 1969?"
+opciones = ["México", "España", "Argentina", "Italia"]
+correcta = "México"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Contra qué equipo marcó Zidane su famosa volea en la final de la Champions de 2002?"
+opciones = ["Bayer Leverkusen", "Valencia CF", "Juventus", "Bayern de Múnich"]
+correcta = "Bayer Leverkusen"
+dificultad = 2
+tiempo = 15
+explicacion = "Fue en Hampden Park, Glasgow."
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma nació David Villa?"
+opciones = ["Asturias", "Galicia", "Cantabria", "País Vasco"]
+correcta = "Asturias"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciudad española organizó el Mundial de Atletismo de 1999?"
+opciones = ["Sevilla", "Madrid", "Barcelona", "Valencia"]
+correcta = "Sevilla"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué revista francesa creó el Balón de Oro?"
+opciones = ["France Football", "L'Équipe", "Marca", "La Gazzetta dello Sport"]
+correcta = "France Football"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores de cada equipo hay a la vez en pista en voleibol?"
+opciones = ["6", "5", "7", "8"]
+correcta = "6"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A quién rinde homenaje el nombre del circuito de MotoGP de Jerez?"
+opciones = ["Ángel Nieto", "Sito Pons", "Àlex Crivillé", "Jorge Martínez Aspar"]
+correcta = "Ángel Nieto"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué provincia está la estación de esquí de Formigal?"
+opciones = ["Huesca", "Lleida", "Navarra", "Teruel"]
+correcta = "Huesca"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad batió Usain Bolt el récord mundial de 100 metros con 9,58 segundos?"
+opciones = ["Berlín", "Pekín", "Londres", "Río de Janeiro"]
+correcta = "Berlín"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántas medallas de oro ganó España en Barcelona 92?"
+opciones = ["13", "7", "9", "20"]
+correcta = "13"
+dificultad = 3
+tiempo = 12
+explicacion = "Fue su mejor resultado olímpico hasta entonces."
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores tiene un equipo de rugby a quince en el campo?"
+opciones = ["15", "11", "13", "7"]
+correcta = "15"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué ciudad juega Osasuna?"
+opciones = ["Pamplona", "Vitoria", "Logroño", "Zaragoza"]
+correcta = "Pamplona"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué selección goleó España por 4-0 en la final de la Eurocopa 2012?"
+opciones = ["Italia", "Alemania", "Portugal", "Francia"]
+correcta = "Italia"
+dificultad = 1
+tiempo = 15
+explicacion = "Fue la mayor goleada de una final de Eurocopa."
+
+[[pregunta]]
+enunciado = "¿En qué mes se disputó la final del Mundial de Catar 2022?"
+opciones = ["Diciembre", "Julio", "Junio", "Noviembre"]
+correcta = "Diciembre"
+dificultad = 2
+tiempo = 12
+explicacion = "Fue el primer Mundial jugado en invierno."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio del Valencia CF?"
+opciones = ["Mestalla", "La Fonteta", "Ciutat de València", "Nou Camp"]
+correcta = "Mestalla"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué jugadora española ganó el Balón de Oro femenino en 2023?"
+opciones = ["Aitana Bonmatí", "Alexia Putellas", "Jenni Hermoso", "Mapi León"]
+correcta = "Aitana Bonmatí"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Contra qué selección perdió España las finales olímpicas de baloncesto de 2008 y 2012?"
+opciones = ["Estados Unidos", "Argentina", "Lituania", "Francia"]
+correcta = "Estados Unidos"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué tres países organizaron el Mundial de 2026?"
+opciones = ["Estados Unidos, Canadá y México", "España, Portugal y Marruecos", "Japón, Corea y China", "Brasil, Argentina y Chile"]
+correcta = "Estados Unidos, Canadá y México"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué portero capitaneó a España en el Mundial 2010?"
+opciones = ["Iker Casillas", "Víctor Valdés", "Pepe Reina", "David de Gea"]
+correcta = "Iker Casillas"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué club se fue Cristiano Ronaldo en 2018 tras dejar el Real Madrid?"
+opciones = ["Juventus", "PSG", "Manchester United", "Bayern de Múnich"]
+correcta = "Juventus"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién capitaneó a Europa en la remontada de Medinah 2012?"
+opciones = ["José María Olazábal", "Severiano Ballesteros", "Colin Montgomerie", "Thomas Bjørn"]
+correcta = "José María Olazábal"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué Grand Slam se juega sobre hierba?"
+opciones = ["Wimbledon", "Roland Garros", "US Open", "Open de Australia"]
+correcta = "Wimbledon"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué escudería ganó Fernando Alonso sus dos títulos mundiales de F1?"
+opciones = ["Renault", "Ferrari", "McLaren", "Minardi"]
+correcta = "Renault"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué prueba combinada masculina tiene diez pruebas?"
+opciones = ["Decatlón", "Heptatlón", "Pentatlón", "Triatlón"]
+correcta = "Decatlón"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué otra gran vuelta ganó Induráin en 1992 y 1993?"
+opciones = ["Giro de Italia", "Vuelta a España", "Tour de Suiza", "Dauphiné"]
+correcta = "Giro de Italia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos puntos vale un ensayo en rugby?"
+opciones = ["5", "3", "6", "7"]
+correcta = "5"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos goles encajó España en todo el Mundial 2010?"
+opciones = ["2", "4", "5", "7"]
+correcta = "2"
+dificultad = 3
+tiempo = 12
+explicacion = "Un récord de solidez defensiva en un campeón."
+
+[[pregunta]]
+enunciado = "¿Qué jugador marcó desde el centro del campo la final de la Recopa de 1995 con el Zaragoza?"
+opciones = ["Nayim", "Esnáider", "Poyet", "Belsué"]
+correcta = "Nayim"
+dificultad = 3
+tiempo = 15
+explicacion = "Su gol sorprendió a Seaman, portero del Arsenal."
+
+[[pregunta]]
+enunciado = "¿En qué país ganó Argentina el Mundial de 1986?"
+opciones = ["México", "Argentina", "España", "Italia"]
+correcta = "México"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A quién derrotó Nadal en la mítica final de Wimbledon 2008?"
+opciones = ["Roger Federer", "Novak Djokovic", "Andy Murray", "Andy Roddick"]
+correcta = "Roger Federer"
+dificultad = 1
+tiempo = 15
+explicacion = "Duró casi cinco horas, con parón por lluvia."
+
+[[pregunta]]
+enunciado = "¿En qué ciudad ganó España la Copa Davis de 2000 ante Australia?"
+opciones = ["Barcelona", "Madrid", "Sevilla", "Valencia"]
+correcta = "Barcelona"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué apodo recibía Emilio Butragueño?"
+opciones = ["El Buitre", "El Pájaro", "El Águila", "El Halcón"]
+correcta = "El Buitre"
+dificultad = 2
+tiempo = 12
+explicacion = "Dio nombre a la «Quinta del Buitre» del Real Madrid."
+
+[[pregunta]]
+enunciado = "¿Cuántos Mundiales de fútbol tenía Argentina tras ganar el de 2022?"
+opciones = ["3", "2", "4", "5"]
+correcta = "3"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el hermano de Marc Márquez, también piloto?"
+opciones = ["Álex Márquez", "Pol Espargaró", "Joan Mir", "Maverick Viñales"]
+correcta = "Álex Márquez"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué marca ganó Marc Márquez su primer título de MotoGP en 2013?"
+opciones = ["Honda", "Yamaha", "Ducati", "Suzuki"]
+correcta = "Honda"
+dificultad = 2
+tiempo = 15
+explicacion = "Tenía 20 años."
+
+[[pregunta]]
+enunciado = "¿Qué jugador español fue elegido mejor jugador joven de la Eurocopa 2024?"
+opciones = ["Lamine Yamal", "Pedri", "Nico Williams", "Fabián Ruiz"]
+correcta = "Lamine Yamal"
+dificultad = 2
+tiempo = 15
+explicacion = "Tenía 16 años al empezar el torneo."
+
+[[pregunta]]
+enunciado = "¿Qué apodo tiene el Villarreal CF?"
+opciones = ["El Submarino Amarillo", "Los Leones", "Los Colchoneros", "Los Pericos"]
+correcta = "El Submarino Amarillo"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciudad española acogió el GP de Europa de F1 entre 2008 y 2012 en un circuito urbano?"
+opciones = ["Valencia", "Sevilla", "Barcelona", "Madrid"]
+correcta = "Valencia"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué estadio juega el Athletic Club?"
+opciones = ["San Mamés", "El Sadar", "Anoeta", "Mendizorroza"]
+correcta = "San Mamés"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos Eurobaskets había ganado España hasta 2022?"
+opciones = ["4", "3", "5", "2"]
+correcta = "4"
+dificultad = 3
+tiempo = 12
+explicacion = "Ganó en 2009, 2011, 2015 y 2022."
+
+[[pregunta]]
+enunciado = "¿Cuántos Balones de Oro había ganado Lionel Messi hasta 2023?"
+opciones = ["8", "7", "6", "9"]
+correcta = "8"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuánto mide de largo una piscina olímpica?"
+opciones = ["50 metros", "25 metros", "100 metros", "75 metros"]
+correcta = "50 metros"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué prueba ganó Mireia Belmonte el oro olímpico en Río 2016?"
+opciones = ["200 metros mariposa", "400 metros estilos", "800 metros libre", "200 metros espalda"]
+correcta = "200 metros mariposa"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué ciudad juega el Unicaja en la ACB?"
+opciones = ["Málaga", "Sevilla", "Cádiz", "Granada"]
+correcta = "Málaga"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué extenista español entrena a Carlos Alcaraz?"
+opciones = ["Juan Carlos Ferrero", "Carlos Moyà", "Álex Corretja", "Albert Costa"]
+correcta = "Juan Carlos Ferrero"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos goles marcó Mbappé en la final del Mundial 2022?"
+opciones = ["3", "2", "1", "4"]
+correcta = "3"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué color es el maillot del líder del Tour de Francia?"
+opciones = ["Amarillo", "Rojo", "Verde", "Rosa"]
+correcta = "Amarillo"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué provincia está la estación de esquí de Sierra Nevada?"
+opciones = ["Granada", "Almería", "Jaén", "Málaga"]
+correcta = "Granada"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién marcó el gol de la final del Mundial 2010?"
+opciones = ["Andrés Iniesta", "Xavi Hernández", "David Villa", "Fernando Torres"]
+correcta = "Andrés Iniesta"
+dificultad = 1
+tiempo = 12
+explicacion = "Fue en la prórroga, en el minuto 116."
+
+[[pregunta]]
+enunciado = "¿Cuántos goles marcó Messi en el año natural 2012, récord mundial?"
+opciones = ["91", "79", "85", "100"]
+correcta = "91"
+dificultad = 3
+tiempo = 15
+explicacion = "Superó los 85 de Gerd Müller en 1972."
+
+[[pregunta]]
+enunciado = "¿Cuántas Copas de Europa seguidas ganó el Real Madrid entre 1956 y 1960?"
+opciones = ["5", "3", "4", "6"]
+correcta = "5"
+dificultad = 2
+tiempo = 15
+explicacion = "Di Stéfano marcó en las cinco finales."
+
+[[pregunta]]
+enunciado = "¿Qué esquiador español ganó el oro en eslalon en Sapporo 1972?"
+opciones = ["Francisco Fernández Ochoa", "Juan Manuel López", "Jorge Mundet", "Carlos Sainz"]
+correcta = "Francisco Fernández Ochoa"
+dificultad = 2
+tiempo = 15
+explicacion = "Fue el primer oro olímpico de invierno español."
+
+[[pregunta]]
+enunciado = "¿Cuántos Tours de Francia seguidos ganó Miguel Induráin?"
+opciones = ["5", "3", "4", "6"]
+correcta = "5"
+dificultad = 1
+tiempo = 12
+explicacion = "Los ganó de 1991 a 1995."
+
+[[pregunta]]
+enunciado = "¿Quién marcó el gol que dio al Barça su primera Copa de Europa en 1992?"
+opciones = ["Ronald Koeman", "Hristo Stoichkov", "Romário", "Michael Laudrup"]
+correcta = "Ronald Koeman"
+dificultad = 2
+tiempo = 15
+explicacion = "Fue en la prórroga, en Wembley."
+
+[[pregunta]]
+enunciado = "¿Qué apodo tenía Induráin?"
+opciones = ["Miguelón", "Perico", "El Pistolero", "El Tarangu"]
+correcta = "Miguelón"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores por equipo hay en pista en baloncesto?"
+opciones = ["5", "6", "7", "4"]
+correcta = "5"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores de cada equipo están a la vez en el agua en waterpolo?"
+opciones = ["7", "6", "5", "11"]
+correcta = "7"
+dificultad = 2
+tiempo = 15
+explicacion = "Seis de campo y un portero."
+
+[[pregunta]]
+enunciado = "¿Qué equipo juega en el Allianz Arena?"
+opciones = ["Bayern de Múnich", "Borussia Dortmund", "RB Leipzig", "Bayer Leverkusen"]
+correcta = "Bayern de Múnich"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué país es el maratoniano Eliud Kipchoge?"
+opciones = ["Kenia", "Etiopía", "Uganda", "Tanzania"]
+correcta = "Kenia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciudad española organizó la Copa América de vela de 2024?"
+opciones = ["Barcelona", "Valencia", "Palma de Mallorca", "Cádiz"]
+correcta = "Barcelona"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos metros mide una vuelta a una pista de atletismo?"
+opciones = ["400", "200", "500", "800"]
+correcta = "400"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad suiza tiene su sede la FIFA?"
+opciones = ["Zúrich", "Ginebra", "Berna", "Lausana"]
+correcta = "Zúrich"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Contra qué selección ganó España la final del Mundial femenino de 2023?"
+opciones = ["Inglaterra", "Suecia", "Países Bajos", "Alemania"]
+correcta = "Inglaterra"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué país ganó España su primer Mundial de baloncesto, en 2006?"
+opciones = ["Japón", "China", "Turquía", "Grecia"]
+correcta = "Japón"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué ciudad suiza tiene su sede el Comité Olímpico Internacional?"
+opciones = ["Lausana", "Zúrich", "Ginebra", "Basilea"]
+correcta = "Lausana"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos puntos vale un touchdown en fútbol americano?"
+opciones = ["6", "7", "5", "3"]
+correcta = "6"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué rival derrotó 4-0 el Barça femenino en la final de la Champions de 2021?"
+opciones = ["Chelsea", "Olympique de Lyon", "Wolfsburgo", "PSG"]
+correcta = "Chelsea"
+dificultad = 3
+tiempo = 15
+explicacion = "Fue su primera Champions."
+
+[[pregunta]]
+enunciado = "¿Por qué marcador ganó Alemania a Brasil en las semifinales del Mundial 2014?"
+opciones = ["7-1", "5-0", "6-1", "4-0"]
+correcta = "7-1"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué país era Ayrton Senna?"
+opciones = ["Brasil", "Argentina", "Portugal", "Colombia"]
+correcta = "Brasil"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué selección derrotó España en la final del Mundial 2010?"
+opciones = ["Países Bajos", "Alemania", "Brasil", "Uruguay"]
+correcta = "Países Bajos"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio del Sevilla FC?"
+opciones = ["Ramón Sánchez-Pizjuán", "Benito Villamarín", "La Cartuja", "Carranza"]
+correcta = "Ramón Sánchez-Pizjuán"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se apodaba el boxeador Mike Tyson?"
+opciones = ["Iron Mike", "The Greatest", "Sugar Ray", "Raging Bull"]
+correcta = "Iron Mike"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la mascota del Mundial de fútbol de 1982 en España?"
+opciones = ["Naranjito", "Pique", "Footix", "Goleo"]
+correcta = "Naranjito"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos torneos de Grand Slam hay cada año en tenis?"
+opciones = ["4", "3", "5", "6"]
+correcta = "4"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué país es Usain Bolt?"
+opciones = ["Jamaica", "Estados Unidos", "Trinidad y Tobago", "Nigeria"]
+correcta = "Jamaica"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué apodo tiene David Villa?"
+opciones = ["El Guaje", "El Niño", "El Matador", "El Cid"]
+correcta = "El Guaje"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Contra qué equipo ganó el Barça su primera Copa de Europa en 1992?"
+opciones = ["Sampdoria", "AC Milan", "Juventus", "Benfica"]
+correcta = "Sampdoria"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer español campeón del mundo de 500 cc, en 1999?"
+opciones = ["Àlex Crivillé", "Sete Gibernau", "Carlos Checa", "Alberto Puig"]
+correcta = "Àlex Crivillé"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién entrenaba al FC Barcelona del triplete de 2015?"
+opciones = ["Luis Enrique", "Pep Guardiola", "Ernesto Valverde", "Gerardo Martino"]
+correcta = "Luis Enrique"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué comunidad es Miguel Induráin?"
+opciones = ["Navarra", "Aragón", "La Rioja", "País Vasco"]
+correcta = "Navarra"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué escudería de F1 tiene su sede en Maranello?"
+opciones = ["Ferrari", "McLaren", "Red Bull", "Mercedes"]
+correcta = "Ferrari"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién es el máximo goleador histórico de La Liga hasta 2024?"
+opciones = ["Lionel Messi", "Cristiano Ronaldo", "Telmo Zarra", "Hugo Sánchez"]
+correcta = "Lionel Messi"
+dificultad = 1
+tiempo = 15
+explicacion = "Messi marcó 474 goles en La Liga."
+
+[[pregunta]]
+enunciado = "¿Qué palabra inglesa se usa en tenis para el cero?"
+opciones = ["Love", "Deuce", "Ace", "Let"]
+correcta = "Love"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores por equipo hay en pista en fútbol sala?"
+opciones = ["5", "7", "6", "11"]
+correcta = "5"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores forman un equipo de voley playa?"
+opciones = ["2", "3", "4", "6"]
+correcta = "2"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué deporte debutó en los Juegos Olímpicos en Tokio 2020?"
+opciones = ["Skateboard", "Boxeo", "Judo", "Tiro con arco"]
+correcta = "Skateboard"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántas entradas tiene un partido de béisbol?"
+opciones = ["9", "7", "10", "12"]
+correcta = "9"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Contra qué selección marcó Maradona el gol de «la mano de Dios»?"
+opciones = ["Inglaterra", "Alemania", "Bélgica", "Italia"]
+correcta = "Inglaterra"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué deporte olímpico de invierno usa piedras de granito y escobas?"
+opciones = ["Curling", "Skeleton", "Biatlón", "Luge"]
+correcta = "Curling"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué deporte fue campeón del mundo Javier Fernández en 2015 y 2016?"
+opciones = ["Patinaje artístico", "Esquí alpino", "Hockey sobre hielo", "Curling"]
+correcta = "Patinaje artístico"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos Grand Slams individuales ganó Rafa Nadal en total?"
+opciones = ["22", "20", "21", "24"]
+correcta = "22"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dos equipos comparten el estadio San Siro?"
+opciones = ["AC Milan e Inter", "Juventus y Torino", "Roma y Lazio", "Nápoles y Salernitana"]
+correcta = "AC Milan e Inter"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué país era Johan Cruyff?"
+opciones = ["Países Bajos", "Alemania", "Bélgica", "Dinamarca"]
+correcta = "Países Bajos"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se celebraron los primeros Juegos Olímpicos de la era moderna, en 1896?"
+opciones = ["Atenas", "París", "Londres", "Roma"]
+correcta = "Atenas"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Por qué río desfilaron los atletas en la inauguración de París 2024?"
+opciones = ["Sena", "Loira", "Ródano", "Garona"]
+correcta = "Sena"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos estilos hay en natación olímpica?"
+opciones = ["4", "3", "5", "6"]
+correcta = "4"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué apodo tiene Osasuna?"
+opciones = ["Los rojillos", "Los guerreros", "Los leones", "Los gallegos"]
+correcta = "Los rojillos"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué equipo ganó Pau Gasol dos anillos de la NBA?"
+opciones = ["Los Angeles Lakers", "Chicago Bulls", "San Antonio Spurs", "Memphis Grizzlies"]
+correcta = "Los Angeles Lakers"
+dificultad = 1
+tiempo = 12
+explicacion = "Los ganó en 2009 y 2010."
+
+[[pregunta]]
+enunciado = "¿Quién fue elegida mejor jugadora joven del Mundial femenino de 2023?"
+opciones = ["Salma Paralluelo", "Laia Codina", "Athenea del Castillo", "Claudia Pina"]
+correcta = "Salma Paralluelo"
+dificultad = 3
+tiempo = 15
+explicacion = "También es atleta de 400 metros vallas."
+
+[[pregunta]]
+enunciado = "¿En qué ciudad asturiana nació Fernando Alonso?"
+opciones = ["Oviedo", "Gijón", "Avilés", "Langreo"]
+correcta = "Oviedo"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué apodo tiene Fernando Torres?"
+opciones = ["El Niño", "El Guaje", "El Pibe", "La Pulga"]
+correcta = "El Niño"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llamó al equipo de baloncesto de EEUU de Barcelona 92 con Jordan, Magic y Bird?"
+opciones = ["Dream Team", "Redeem Team", "Team America", "All Stars"]
+correcta = "Dream Team"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A qué jugadora derrotó Arantxa Sánchez Vicario en la final de Roland Garros 1989?"
+opciones = ["Steffi Graf", "Martina Navratilova", "Mónica Seles", "Chris Evert"]
+correcta = "Steffi Graf"
+dificultad = 2
+tiempo = 15
+explicacion = "Tenía 17 años."
+
+[[pregunta]]
+enunciado = "¿En qué circuito catalán se disputa el GP de España de F1?"
+opciones = ["Circuit de Barcelona-Catalunya", "Jerez", "Jarama", "Montmeló-Sur"]
+correcta = "Circuit de Barcelona-Catalunya"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dorsal lució Raúl González en el Real Madrid?"
+opciones = ["7", "9", "10", "11"]
+correcta = "7"
+dificultad = 1
+tiempo = 12
+explicacion = "Fue «El Siete de Madrid» durante 16 temporadas."
+
+[[pregunta]]
+enunciado = "¿En qué campo ganó Europa la Ryder Cup de 1997 con Seve de capitán?"
+opciones = ["Valderrama", "La Moraleja", "PGA Catalunya", "El Saler"]
+correcta = "Valderrama"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién marcó el gol de la final de la Eurocopa 2008 contra Alemania?"
+opciones = ["Fernando Torres", "Xavi Hernández", "David Villa", "Cesc Fàbregas"]
+correcta = "Fernando Torres"
+dificultad = 2
+tiempo = 15
+explicacion = "Fue el 1-0 definitivo en Viena."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama a un jugador de pelota vasca?"
+opciones = ["Pelotari", "Aizkolari", "Txistulari", "Bertsolari"]
+correcta = "Pelotari"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciudad organizó los Juegos Olímpicos de 2012?"
+opciones = ["Londres", "Pekín", "Atenas", "Sídney"]
+correcta = "Londres"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciclista español ganó Tour, Giro y Vuelta?"
+opciones = ["Alberto Contador", "Alejandro Valverde", "Purito Rodríguez", "Samuel Sánchez"]
+correcta = "Alberto Contador"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué torneo ganó Jon Rahm en 2023 vistiendo la chaqueta verde?"
+opciones = ["Masters de Augusta", "The Open", "PGA Championship", "US Open"]
+correcta = "Masters de Augusta"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos oros ganó Jesse Owens en los Juegos de Berlín 1936?"
+opciones = ["4", "3", "5", "2"]
+correcta = "4"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué país es Roger Federer?"
+opciones = ["Suiza", "Alemania", "Austria", "Suecia"]
+correcta = "Suiza"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Contra qué equipo marcó Sergio Ramos el gol del minuto 93 en la final de la Champions de 2014?"
+opciones = ["Atlético de Madrid", "FC Barcelona", "Bayern de Múnich", "Juventus"]
+correcta = "Atlético de Madrid"
+dificultad = 1
+tiempo = 15
+explicacion = "Forzó la prórroga y el Madrid ganó 4-1."
+
+[[pregunta]]
+enunciado = "¿En qué circuito logró Carlos Sainz júnior su primera victoria en F1, en 2022?"
+opciones = ["Silverstone", "Monza", "Mónaco", "Spa-Francorchamps"]
+correcta = "Silverstone"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué se juega al hockey sobre hielo?"
+opciones = ["Un disco llamado puck", "Una pelota de goma", "Un balón ovalado", "Una bola de corcho"]
+correcta = "Un disco llamado puck"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál de estas NO es un arma de esgrima?"
+opciones = ["Hacha", "Sable", "Florete", "Espada"]
+correcta = "Hacha"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué color de bandera marca el final de una carrera de F1?"
+opciones = ["A cuadros blancos y negros", "Roja", "Verde", "Amarilla"]
+correcta = "A cuadros blancos y negros"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se celebraron los Juegos de 2016, los primeros en Sudamérica?"
+opciones = ["Río de Janeiro", "Buenos Aires", "Santiago de Chile", "Lima"]
+correcta = "Río de Janeiro"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué país es el pertiguista Armand Duplantis?"
+opciones = ["Suecia", "Estados Unidos", "Francia", "Noruega"]
+correcta = "Suecia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué selección ganó España la final del Mundial de balonmano de 2013?"
+opciones = ["Dinamarca", "Croacia", "Francia", "Alemania"]
+correcta = "Dinamarca"
+dificultad = 3
+tiempo = 15
+explicacion = "Fue un 35-19 en el Palau Sant Jordi."
+
+[[pregunta]]
+enunciado = "¿Qué selección ganó el Mundial de Rusia 2018?"
+opciones = ["Francia", "Croacia", "Bélgica", "Inglaterra"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad nació la nadadora Mireia Belmonte?"
+opciones = ["Badalona", "Sabadell", "Reus", "Tarragona"]
+correcta = "Badalona"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién era el seleccionador de España en la Eurocopa 2024?"
+opciones = ["Luis de la Fuente", "Luis Enrique", "Julen Lopetegui", "Roberto Martínez"]
+correcta = "Luis de la Fuente"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué regla sanciona a un atacante más cerca de la portería rival que el penúltimo defensor?"
+opciones = ["Fuera de juego", "Mano", "Falta táctica", "Doble contacto"]
+correcta = "Fuera de juego"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A quién ganó Nadal su primer Roland Garros en 2005?"
+opciones = ["Mariano Puerta", "Roger Federer", "Novak Djokovic", "Robin Söderling"]
+correcta = "Mariano Puerta"
+dificultad = 3
+tiempo = 12
+explicacion = "Tenía 19 años."
+
+[[pregunta]]
+enunciado = "¿Cuántos títulos mundiales ganó Ángel Nieto?"
+opciones = ["13", "10", "15", "7"]
+correcta = "13"
+dificultad = 3
+tiempo = 12
+explicacion = "Se le conocía como «12+1»."
+
+[[pregunta]]
+enunciado = "¿Cuántos segundos tiene un equipo para tirar en baloncesto FIBA?"
+opciones = ["24", "30", "20", "35"]
+correcta = "24"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A qué selección ganó España la final de la Eurocopa 1964?"
+opciones = ["URSS", "Hungría", "Dinamarca", "Italia"]
+correcta = "URSS"
+dificultad = 2
+tiempo = 12
+explicacion = "Ganó 2-1 con el gol decisivo de Marcelino."
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la mascota de los Juegos de Barcelona 92?"
+opciones = ["Cobi", "Curro", "Naranjito", "Misha"]
+correcta = "Cobi"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos Balones de Oro ganó Cristiano Ronaldo?"
+opciones = ["5", "4", "6", "3"]
+correcta = "5"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué equipo ganó Marc Gasol el anillo de la NBA en 2019?"
+opciones = ["Toronto Raptors", "Memphis Grizzlies", "Los Angeles Lakers", "Golden State Warriors"]
+correcta = "Toronto Raptors"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué español ganó Roland Garros en 1998 derrotando a Corretja en la final?"
+opciones = ["Carlos Moyà", "Sergi Bruguera", "Albert Costa", "Juan Carlos Ferrero"]
+correcta = "Carlos Moyà"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué club ganó Fernando Torres la Champions League en 2012?"
+opciones = ["Chelsea", "Liverpool", "Atlético de Madrid", "AC Milan"]
+correcta = "Chelsea"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué color debe ser la ropa de los tenistas en Wimbledon?"
+opciones = ["Blanca", "Verde", "Azul", "Gris"]
+correcta = "Blanca"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué nombre tenía Muhammad Ali antes de convertirse al islam?"
+opciones = ["Cassius Clay", "Joe Frazier", "George Foreman", "Sonny Liston"]
+correcta = "Cassius Clay"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Por qué club español jugó Maradona en 1982?"
+opciones = ["FC Barcelona", "Real Madrid", "Atlético de Madrid", "Valencia CF"]
+correcta = "FC Barcelona"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué marca corrió Dani Pedrosa en MotoGP de 2006 a 2018?"
+opciones = ["Honda", "Yamaha", "Ducati", "KTM"]
+correcta = "Honda"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué colores tiene el escudo del Real Betis?"
+opciones = ["Verde y blanco", "Rojo y blanco", "Azul y blanco", "Verde y negro"]
+correcta = "Verde y blanco"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dorsal lleva Alexia Putellas en el FC Barcelona?"
+opciones = ["11", "10", "7", "9"]
+correcta = "11"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué superficie se juega Roland Garros?"
+opciones = ["Tierra batida", "Hierba", "Cemento", "Moqueta"]
+correcta = "Tierra batida"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos oros ganó Phelps en los Juegos de Pekín 2008?"
+opciones = ["8", "6", "7", "5"]
+correcta = "8"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué isla juega la UD Las Palmas?"
+opciones = ["Gran Canaria", "Tenerife", "Lanzarote", "Fuerteventura"]
+correcta = "Gran Canaria"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué club jugó toda su carrera profesional Carles Puyol?"
+opciones = ["FC Barcelona", "RCD Espanyol", "Valencia CF", "Girona FC"]
+correcta = "FC Barcelona"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores, portero incluido, forman un equipo de balonmano en pista?"
+opciones = ["7", "6", "5", "11"]
+correcta = "7"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos equipos juegan en la Primera División española?"
+opciones = ["20", "18", "22", "16"]
+correcta = "20"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio del Real Madrid?"
+opciones = ["Santiago Bernabéu", "Vicente Calderón", "Camp Nou", "Mestalla"]
+correcta = "Santiago Bernabéu"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué apodo reciben los aficionados del Real Madrid?"
+opciones = ["Merengues", "Culés", "Colchoneros", "Pericos"]
+correcta = "Merengues"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué país es Hristo Stoichkov?"
+opciones = ["Bulgaria", "Rumanía", "Serbia", "Grecia"]
+correcta = "Bulgaria"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos Mundiales de fútbol ganó Pelé?"
+opciones = ["3", "2", "4", "5"]
+correcta = "3"
+dificultad = 1
+tiempo = 12
+explicacion = "Ganó en 1958, 1962 y 1970."
+
+[[pregunta]]
+enunciado = "¿Qué apodo tiene el Valencia CF?"
+opciones = ["Los murciélagos", "Los leones", "Los pericos", "Los gallegos"]
+correcta = "Los murciélagos"
+dificultad = 2
+tiempo = 12
+explicacion = "El murciélago aparece en su escudo."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio de Osasuna?"
+opciones = ["El Sadar", "Mendizorroza", "Ipurúa", "Anoeta"]
+correcta = "El Sadar"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué región nació Carlos Alcaraz?"
+opciones = ["Región de Murcia", "Andalucía", "Comunidad Valenciana", "Cataluña"]
+correcta = "Región de Murcia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos Mundiales de Rallies ganó Carlos Sainz padre?"
+opciones = ["2", "1", "3", "4"]
+correcta = "2"
+dificultad = 2
+tiempo = 12
+explicacion = "Los ganó en 1990 y 1992 con Toyota."
+
+[[pregunta]]
+enunciado = "¿En qué localidad cántabra nació Severiano Ballesteros?"
+opciones = ["Pedreña", "Santander", "Laredo", "Torrelavega"]
+correcta = "Pedreña"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántas Copas de la UEFA o Europa League había ganado el Sevilla hasta 2023?"
+opciones = ["7", "5", "6", "8"]
+correcta = "7"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué club llegó David Villa al FC Barcelona en 2010?"
+opciones = ["Valencia CF", "Real Zaragoza", "Sporting de Gijón", "Atlético de Madrid"]
+correcta = "Valencia CF"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio del Málaga CF?"
+opciones = ["La Rosaleda", "La Cerámica", "Los Cármenes", "El Molinón"]
+correcta = "La Rosaleda"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad nació Rafa Nadal?"
+opciones = ["Manacor", "Palma de Mallorca", "Ibiza", "Inca"]
+correcta = "Manacor"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos Mundiales de ruta ganó Óscar Freire?"
+opciones = ["3", "2", "1", "4"]
+correcta = "3"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos títulos mundiales de F1 ganó Michael Schumacher?"
+opciones = ["7", "5", "6", "8"]
+correcta = "7"
+dificultad = 1
+tiempo = 12
+explicacion = "Lewis Hamilton también tiene siete."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad acogerá los Juegos Olímpicos de verano de 2028?"
+opciones = ["Los Ángeles", "Brisbane", "Roma", "Madrid"]
+correcta = "Los Ángeles"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué club juega Aitana Bonmatí?"
+opciones = ["FC Barcelona", "Real Madrid", "Atlético de Madrid", "Levante"]
+correcta = "FC Barcelona"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién encendió el pebetero olímpico con una flecha en Barcelona 92?"
+opciones = ["Antonio Rebollo", "Fermín Cacho", "Miguel Induráin", "Pau Gasol"]
+correcta = "Antonio Rebollo"
+dificultad = 2
+tiempo = 15
+explicacion = "Era un arquero paralímpico."
+
+[[pregunta]]
+enunciado = "¿Con qué escudería ganó Carlos Sainz júnior el GP de Australia 2024?"
+opciones = ["Ferrari", "Williams", "McLaren", "Renault"]
+correcta = "Ferrari"
+dificultad = 2
+tiempo = 15
+explicacion = "Lo logró semanas después de operarse de apendicitis."
+
+[[pregunta]]
+enunciado = "¿Cuántos hoyos tiene un campo de golf estándar?"
+opciones = ["18", "9", "12", "20"]
+correcta = "18"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se juega el Open de Australia?"
+opciones = ["Melbourne", "Sídney", "Perth", "Brisbane"]
+correcta = "Melbourne"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Contra qué selección perdió España su primer partido del Mundial 2010?"
+opciones = ["Suiza", "Chile", "Honduras", "Portugal"]
+correcta = "Suiza"
+dificultad = 2
+tiempo = 15
+explicacion = "Aun así acabó ganando el torneo."
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se jugó la final de la Eurocopa 2024?"
+opciones = ["Berlín", "Múnich", "Hamburgo", "Dortmund"]
+correcta = "Berlín"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el proyectil que se golpea en bádminton?"
+opciones = ["Volante", "Pelota", "Disco", "Puck"]
+correcta = "Volante"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué jugador acumula más partidos con la selección española hasta 2024?"
+opciones = ["Sergio Ramos", "Iker Casillas", "Sergio Busquets", "Xavi Hernández"]
+correcta = "Sergio Ramos"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año se celebraron realmente los Juegos de «Tokio 2020»?"
+opciones = ["2021", "2020", "2022", "2019"]
+correcta = "2021"
+dificultad = 1
+tiempo = 15
+explicacion = "Se aplazaron un año por la pandemia."
+
+[[pregunta]]
+enunciado = "¿Qué tarjeta supone la expulsión directa de un jugador?"
+opciones = ["Roja", "Amarilla", "Azul", "Verde"]
+correcta = "Roja"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué famosa avenida termina tradicionalmente el Tour de Francia?"
+opciones = ["Campos Elíseos", "Gran Vía", "Via Veneto", "La Rambla"]
+correcta = "Campos Elíseos"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué deporte logró Queralt Castellet la plata olímpica en 2022?"
+opciones = ["Snowboard halfpipe", "Esquí alpino", "Patinaje artístico", "Biatlón"]
+correcta = "Snowboard halfpipe"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué escudería corre Alonso desde 2023?"
+opciones = ["Aston Martin", "Alpine", "Ferrari", "McLaren"]
+correcta = "Aston Martin"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué colina de Barcelona acoge el Estadio Olímpico de 1992?"
+opciones = ["Montjuïc", "Tibidabo", "Carmel", "Collserola"]
+correcta = "Montjuïc"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué torneo ganó Seve Ballesteros en 1979, 1984 y 1988?"
+opciones = ["The Open", "US Open", "PGA Championship", "Masters"]
+correcta = "The Open"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué número de aros tiene el símbolo olímpico?"
+opciones = ["5", "4", "6", "7"]
+correcta = "5"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué deporte se juega en la Super Bowl?"
+opciones = ["Fútbol americano", "Béisbol", "Rugby", "Baloncesto"]
+correcta = "Fútbol americano"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dos disciplinas combina el biatlón?"
+opciones = ["Esquí de fondo y tiro", "Esquí alpino y salto", "Patinaje y hockey", "Snowboard y tiro con arco"]
+correcta = "Esquí de fondo y tiro"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué compañero ganó Nadal el oro olímpico en dobles en Río 2016?"
+opciones = ["Marc López", "Feliciano López", "David Ferrer", "Fernando Verdasco"]
+correcta = "Marc López"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántas medallas de oro olímpicas ganó Michael Phelps?"
+opciones = ["23", "18", "28", "15"]
+correcta = "23"
+dificultad = 2
+tiempo = 12
+explicacion = "En total sumó 28 medallas olímpicas."
+
+[[pregunta]]
+enunciado = "¿En qué país nació Alfredo Di Stéfano?"
+opciones = ["Argentina", "Uruguay", "Colombia", "España"]
+correcta = "Argentina"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué color es el maillot del líder del Giro de Italia?"
+opciones = ["Rosa", "Amarillo", "Rojo", "Verde"]
+correcta = "Rosa"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién marcó de cabeza el gol de la semifinal del Mundial 2010 contra Alemania?"
+opciones = ["Carles Puyol", "Gerard Piqué", "Sergio Ramos", "Xabi Alonso"]
+correcta = "Carles Puyol"
+dificultad = 2
+tiempo = 15
+explicacion = "Fue un cabezazo tras un córner de Xavi."
+
+[[pregunta]]
+enunciado = "¿Qué piloto español ganó cinco Dakar en la categoría de motos?"
+opciones = ["Marc Coma", "Nani Roma", "Isidre Esteve", "Jordi Viladoms"]
+correcta = "Marc Coma"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué provincia nació Sergio García?"
+opciones = ["Castellón", "Valencia", "Alicante", "Tarragona"]
+correcta = "Castellón"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué club inglés juega en Anfield?"
+opciones = ["Liverpool", "Everton", "Arsenal", "Chelsea"]
+correcta = "Liverpool"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué color es la chaqueta que recibe el ganador del Masters?"
+opciones = ["Verde", "Roja", "Azul", "Amarilla"]
+correcta = "Verde"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué país procede el judo?"
+opciones = ["Japón", "China", "Corea del Sur", "Tailandia"]
+correcta = "Japón"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos minutos dura un partido de fútbol sin prórroga?"
+opciones = ["90", "80", "100", "120"]
+correcta = "90"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el estadio Maracaná?"
+opciones = ["Río de Janeiro", "São Paulo", "Brasilia", "Salvador"]
+correcta = "Río de Janeiro"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué país jugó Iniesta tras dejar el Barcelona en 2018?"
+opciones = ["Japón", "Catar", "Estados Unidos", "China"]
+correcta = "Japón"
+dificultad = 2
+tiempo = 12
+explicacion = "Fichó por el Vissel Kobe."
+
+[[pregunta]]
+enunciado = "¿Qué país organizó el Mundial de 2006?"
+opciones = ["Alemania", "Francia", "Italia", "Japón"]
+correcta = "Alemania"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad africana peleó Ali contra Foreman en 1974?"
+opciones = ["Kinsasa", "Lagos", "El Cairo", "Nairobi"]
+correcta = "Kinsasa"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué danza maorí realizan los All Blacks antes de los partidos?"
+opciones = ["Haka", "Hula", "Tango", "Samba"]
+correcta = "Haka"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio del Real Betis?"
+opciones = ["Benito Villamarín", "Ramón Sánchez-Pizjuán", "La Rosaleda", "Nuevo Los Cármenes"]
+correcta = "Benito Villamarín"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es el récord mundial de 200 metros de Usain Bolt?"
+opciones = ["19,19 segundos", "19,30 segundos", "19,05 segundos", "19,45 segundos"]
+correcta = "19,19 segundos"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué Gran Premio logró Alonso su primera victoria en F1, en 2003?"
+opciones = ["Hungría", "Mónaco", "España", "Italia"]
+correcta = "Hungría"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama hacer un hoyo con un solo golpe?"
+opciones = ["Hoyo en uno", "Eagle", "Birdie", "Albatros"]
+correcta = "Hoyo en uno"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Contra qué selección ganó España la final del Mundial de baloncesto 2006?"
+opciones = ["Grecia", "Argentina", "Estados Unidos", "Francia"]
+correcta = "Grecia"
+dificultad = 2
+tiempo = 15
+explicacion = "Fue un 70-47 sin Pau Gasol, lesionado."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el estadio de Boca Juniors?"
+opciones = ["La Bombonera", "El Monumental", "El Cilindro", "Libertadores de América"]
+correcta = "La Bombonera"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se celebra la Bandera de La Concha de traineras?"
+opciones = ["San Sebastián", "Bilbao", "Santander", "Vigo"]
+correcta = "San Sebastián"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué país ganó Pelé su primer Mundial, con 17 años?"
+opciones = ["Suecia", "Chile", "México", "Inglaterra"]
+correcta = "Suecia"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué estadio se jugó la final de la Eurocopa 1964 que ganó España?"
+opciones = ["Santiago Bernabéu", "Camp Nou", "Mestalla", "Vicente Calderón"]
+correcta = "Santiago Bernabéu"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué ciudad juega la Real Sociedad?"
+opciones = ["San Sebastián", "Bilbao", "Vitoria", "Pamplona"]
+correcta = "San Sebastián"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se jugó la final del Mundial 2010?"
+opciones = ["Johannesburgo", "Ciudad del Cabo", "Durban", "Pretoria"]
+correcta = "Johannesburgo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué selección de rugby es conocida como los All Blacks?"
+opciones = ["Nueva Zelanda", "Australia", "Sudáfrica", "Inglaterra"]
+correcta = "Nueva Zelanda"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué gimnasta logró el primer 10 perfecto olímpico en 1976?"
+opciones = ["Nadia Comăneci", "Olga Korbut", "Simone Biles", "Larisa Latynina"]
+correcta = "Nadia Comăneci"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué temporada jugó Ronaldo Nazário en el FC Barcelona?"
+opciones = ["1996-97", "1994-95", "1999-2000", "1998-99"]
+correcta = "1996-97"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué club español ha ganado más Ligas hasta 2024?"
+opciones = ["Real Madrid", "FC Barcelona", "Atlético de Madrid", "Athletic Club"]
+correcta = "Real Madrid"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el recinto del Mutua Madrid Open?"
+opciones = ["Caja Mágica", "Palacio de Vistalegre", "WiZink Center", "Palau Sant Jordi"]
+correcta = "Caja Mágica"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciclista belga fue apodado «El Caníbal»?"
+opciones = ["Eddy Merckx", "Tom Boonen", "Philippe Gilbert", "Johan Museeuw"]
+correcta = "Eddy Merckx"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué se lanza la pelota en la modalidad de cesta punta?"
+opciones = ["Una cesta alargada y curva", "Una pala de madera", "Solo la mano", "Una raqueta de cuerda"]
+correcta = "Una cesta alargada y curva"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué país se celebraron los Juegos Olímpicos de invierno de 2026?"
+opciones = ["Italia", "Suiza", "Francia", "Austria"]
+correcta = "Italia"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos Balones de Oro femeninos ganó Alexia Putellas en 2021 y 2022?"
+opciones = ["2", "1", "3", "4"]
+correcta = "2"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué estadio juega el Manchester United?"
+opciones = ["Old Trafford", "Anfield", "Etihad", "Stamford Bridge"]
+correcta = "Old Trafford"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad nació Jon Rahm?"
+opciones = ["País Vasco", "Navarra", "Cantabria", "Galicia"]
+correcta = "País Vasco"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué club argentino salió Messi a los 13 años rumbo a Barcelona?"
+opciones = ["Newell's Old Boys", "Rosario Central", "Boca Juniors", "River Plate"]
+correcta = "Newell's Old Boys"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fundó los Juegos Olímpicos modernos?"
+opciones = ["Pierre de Coubertin", "Avery Brundage", "Juan Antonio Samaranch", "Platón"]
+correcta = "Pierre de Coubertin"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A quién mordió la oreja Mike Tyson en 1997?"
+opciones = ["Evander Holyfield", "Lennox Lewis", "Joe Frazier", "George Foreman"]
+correcta = "Evander Holyfield"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién anotó 100 puntos en un partido de la NBA en 1962?"
+opciones = ["Wilt Chamberlain", "Michael Jordan", "Kareem Abdul-Jabbar", "Bill Russell"]
+correcta = "Wilt Chamberlain"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué equipo de la NBA tiene como símbolo un toro?"
+opciones = ["Chicago Bulls", "Miami Heat", "Boston Celtics", "Houston Rockets"]
+correcta = "Chicago Bulls"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué selección ganó España la final del Mundial de baloncesto 2019?"
+opciones = ["Argentina", "Francia", "Australia", "Serbia"]
+correcta = "Argentina"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué marca ganó Joan Mir el título de MotoGP en 2020?"
+opciones = ["Suzuki", "Honda", "KTM", "Aprilia"]
+correcta = "Suzuki"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué club brasileño brilló Pelé?"
+opciones = ["Santos", "Flamengo", "Corinthians", "São Paulo"]
+correcta = "Santos"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué español ganó Wimbledon en 1966?"
+opciones = ["Manolo Santana", "Andrés Gimeno", "Manuel Orantes", "Sergi Bruguera"]
+correcta = "Manolo Santana"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba el estadio del Atlético de Madrid hasta 2017?"
+opciones = ["Vicente Calderón", "Santiago Bernabéu", "Estadio de Vallecas", "Sánchez Pizjuán"]
+correcta = "Vicente Calderón"
+dificultad = 2
+tiempo = 15
+explicacion = "Estaba junto al río Manzanares."
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se jugó la final del Mundial femenino de 2023?"
+opciones = ["Sídney", "Melbourne", "Auckland", "Brisbane"]
+correcta = "Sídney"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué color es el maillot del líder de la Vuelta a España?"
+opciones = ["Rojo", "Amarillo", "Rosa", "Azul"]
+correcta = "Rojo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos asaltos tiene un combate de boxeo profesional por un título mundial?"
+opciones = ["12", "10", "15", "8"]
+correcta = "12"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué significan las siglas VAR en el fútbol?"
+opciones = ["Árbitro asistente de vídeo", "Valoración arbitral rápida", "Visión aérea reglamentaria", "Vigilancia automática de rebotes"]
+correcta = "Árbitro asistente de vídeo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué distancia de la portería se lanza un penalti?"
+opciones = ["11 metros", "9 metros", "12 metros", "7 metros"]
+correcta = "11 metros"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué club se fue Luis Figo al Real Madrid en 2000?"
+opciones = ["FC Barcelona", "Sporting de Portugal", "Valencia CF", "Atlético de Madrid"]
+correcta = "FC Barcelona"
+dificultad = 1
+tiempo = 12
+explicacion = "Su fichaje fue uno de los más polémicos de la historia."
+
+[[pregunta]]
+enunciado = "¿Quién diseñó a Cobi, la mascota de Barcelona 92?"
+opciones = ["Javier Mariscal", "Joan Miró", "Antoni Tàpies", "Salvador Dalí"]
+correcta = "Javier Mariscal"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad juega el Sporting en El Molinón?"
+opciones = ["Gijón", "Oviedo", "Avilés", "Santander"]
+correcta = "Gijón"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos títulos de F1 ganó Max Verstappen entre 2021 y 2024?"
+opciones = ["4", "3", "2", "5"]
+correcta = "4"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién entrenaba al FC Barcelona del triplete de 2009?"
+opciones = ["Pep Guardiola", "Frank Rijkaard", "Luis Enrique", "Tito Vilanova"]
+correcta = "Pep Guardiola"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores juegan un partido de pádel?"
+opciones = ["4", "2", "6", "3"]
+correcta = "4"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué año se proclamó Alonso campeón del mundo de F1 por primera vez?"
+opciones = ["2005", "2003", "2006", "2007"]
+correcta = "2005"
+dificultad = 1
+tiempo = 15
+explicacion = "Con 24 años, el más joven hasta entonces."
+
+[[pregunta]]
+enunciado = "¿Quién es el tío y antiguo entrenador de Rafa Nadal?"
+opciones = ["Toni Nadal", "Miguel Ángel Nadal", "Carlos Moyà", "Francisco Roig"]
+correcta = "Toni Nadal"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dos países organizaron el Mundial femenino de 2023?"
+opciones = ["Australia y Nueva Zelanda", "Japón y Corea del Sur", "Canadá y Estados Unidos", "Francia y Alemania"]
+correcta = "Australia y Nueva Zelanda"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué apodo tiene el RCD Espanyol?"
+opciones = ["Periquitos", "Culés", "Colchoneros", "Merengues"]
+correcta = "Periquitos"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué club se marchó Messi en 2021 al dejar el FC Barcelona?"
+opciones = ["París Saint-Germain", "Manchester City", "Inter Miami", "Juventus"]
+correcta = "París Saint-Germain"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién era el seleccionador de España cuando ganó la Eurocopa 2008?"
+opciones = ["Luis Aragonés", "Vicente del Bosque", "José Antonio Camacho", "Iñaki Sáez"]
+correcta = "Luis Aragonés"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántas pruebas tiene el heptatlón?"
+opciones = ["7", "5", "8", "10"]
+correcta = "7"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántas Copas Davis había ganado España hasta 2024?"
+opciones = ["6", "5", "7", "4"]
+correcta = "6"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos anillos de la NBA ganó Michael Jordan?"
+opciones = ["6", "5", "7", "8"]
+correcta = "6"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién era el seleccionador de España campeona del mundo en 2010?"
+opciones = ["Vicente del Bosque", "Luis Aragonés", "Luis Enrique", "Javier Clemente"]
+correcta = "Vicente del Bosque"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué portero argentino fue clave en la tanda de penaltis de la final del Mundial 2022?"
+opciones = ["Emiliano Martínez", "Franco Armani", "Gerónimo Rulli", "Juan Musso"]
+correcta = "Emiliano Martínez"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué selección ganó el Mundial de 1982 celebrado en España?"
+opciones = ["Italia", "Alemania Occidental", "Brasil", "Polonia"]
+correcta = "Italia"
+dificultad = 2
+tiempo = 12
+explicacion = "La final se jugó en el Santiago Bernabéu."
+
+[[pregunta]]
+enunciado = "¿Quién es el máximo goleador histórico de la selección española de fútbol hasta 2024?"
+opciones = ["David Villa", "Raúl González", "Fernando Torres", "Álvaro Morata"]
+correcta = "David Villa"
+dificultad = 2
+tiempo = 15
+explicacion = "Villa marcó 59 goles con la roja."
+
+[[pregunta]]
+enunciado = "¿Quién marcó el gol de la final del Mundial femenino de 2023?"
+opciones = ["Olga Carmona", "Alexia Putellas", "Jenni Hermoso", "Aitana Bonmatí"]
+correcta = "Olga Carmona"
+dificultad = 2
+tiempo = 15
+explicacion = "Marcó justo antes del descanso."
+
+[[pregunta]]
+enunciado = "¿Con qué deporte está asociado Tiger Woods?"
+opciones = ["Golf", "Boxeo", "Ping-pong", "Tenis"]
+correcta = "Golf"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál era el nombre de nacimiento de Muhammad Alí?"
+opciones = ["Cassius Clay", "Aaron Chester", "Andre Diamond", "Darnell Houston"]
+correcta = "Cassius Clay"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el término de tenis que denota que cada lado tiene una puntuación de 40 en un juego?"
+opciones = ["Deuce", "Falta", "Grand Slam", "Línea de fondo"]
+correcta = "Deuce"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la distancia de una maratón?"
+opciones = ["42,195 km", "28,8 km", "26,219 km", "45,195 km"]
+correcta = "42,195 km"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la duración normal de un partido de rugby?"
+opciones = ["80 minutos", "90 minutos", "60 minutos", "100 minutos"]
+correcta = "80 minutos"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuáles son las dimensiones de la cancha de baloncesto para los Juegos Olímpicos y los Torneos mundiales?"
+opciones = ["28 m x 15 m", "26 m x 14 m", "29 m x 16 m", "25 m x 15 m"]
+correcta = "28 m x 15 m"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuándo tuvieron lugar los primeros Juegos Olímpicos en la ciudad de Olimpia en Grecia?"
+opciones = ["776 a. C.", "850 a. C.", "1000 a. C.", "753 a. C."]
+correcta = "776 a. C."
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuándo y dónde se introdujo el atletismo en los Juegos Olímpicos?"
+opciones = ["1896 en Atenas", "1900 en París", "1992 en Barcelona", "2012 en Londres"]
+correcta = "1896 en Atenas"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántos equipos de fútbol participaron en la Copa Mundial de la FIFA 2010?"
+opciones = ["32", "24", "16", "64"]
+correcta = "32"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores de cada equipo juegan al mismo tiempo en un partido de baloncesto?"
+opciones = ["5", "7", "6", "8"]
+correcta = "5"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores de cada equipo juegan al mismo tiempo en un partido de fútbol?"
+opciones = ["11", "10", "12", "13"]
+correcta = "11"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde se celebraron los Juegos Olímpicos de 2012?"
+opciones = ["Londres", "Pekín", "Sudáfrica", "Atenas"]
+correcta = "Londres"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Dónde se celebraron los primeros Juegos Olímpicos de Invierno?"
+opciones = ["Chamonix (Francia)", "Innsburck (Austria)", "Innsbruck (Austria)", "Calgary (Canadá)"]
+correcta = "Chamonix (Francia)"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué año llegó Sir Edmund Hillary a la cima del Monte Everest?"
+opciones = ["1953", "1960", "1975", "1971"]
+correcta = "1953"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué carrera de atletismo podría uno mojarse?"
+opciones = ["Carrera con obstáculos", "110m vallas", "4 x 800m relevos", "1000m"]
+correcta = "Carrera con obstáculos"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué ciudad inglesa se ha celebrado el torneo de Wimbledon desde su fundación en 1877?"
+opciones = ["Londres", "Liverpool", "Birmingham", "Manchester"]
+correcta = "Londres"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué deporte se disputa la Copa Stanley?"
+opciones = ["Hockey sobre hielo", "Esgrima", "Tiro con arco", "Rugby"]
+correcta = "Hockey sobre hielo"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué deporte se les pide a las personas zurdas que jueguen con la mano derecha?"
+opciones = ["Polo", "Dardos", "Badminton", "Tenis"]
+correcta = "Polo"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué deporte un jinete a caballo golpea una pelota con un mazo?"
+opciones = ["Polo", "Croquet", "Cricket", "Lacrosse"]
+correcta = "Polo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué ciudad albergó las primeras Olimpiadas modernas en 1896?"
+opciones = ["Atenas (Grecia)", "París (Francia)", "Londres (Gran Bretaña)", "Los Ángeles (Estados Unidos)"]
+correcta = "Atenas (Grecia)"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué color de pista usan los esquiadores expertos?"
+opciones = ["Negro", "Verde", "Azul", "Rojo"]
+correcta = "Negro"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué deporte de raqueta se puede jugar con cuatro bolas de diferentes rebotes?"
+opciones = ["Squash", "Tenis", "Badminton", "Pádel"]
+correcta = "Squash"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué deporte es el más similar al softbol?"
+opciones = ["Baseball", "Balonmano", "Volleyball", "Baloncesto"]
+correcta = "Baseball"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué deporte se juega en el Campeonato de Wimbledon?"
+opciones = ["Tenis", "Fútbol", "Rugby", "Baseball"]
+correcta = "Tenis"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué jugador fue el culpable del incidente conocido como «La mano de Dios»?"
+opciones = ["Diego Maradona", "Eric Cantona", "Cristiano Ronaldo", "Lionel Messi"]
+correcta = "Diego Maradona"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué otro color está presente en el símbolo de los Juegos Olímpicos aparte del azul, rojo, verde y amarillo?"
+opciones = ["Negro", "Marrón", "Púrpura", "Naranja"]
+correcta = "Negro"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Quién es el MVP en un equipo deportivo?"
+opciones = ["Jugador más valioso", "Jugador más volátil", "Jugador más redimido", "Jugador más veloz"]
+correcta = "Jugador más valioso"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién ganó la Copa Mundial de la FIFA 1998?"
+opciones = ["Francia", "Brasil", "España", "Inglaterra"]
+correcta = "Francia"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién ganó seis títulos consecutivos de Wimbledon femenino en la década de 1980?"
+opciones = ["Martina Navratilova", "Serena Williams", "Margaret Court", "Venus Williams"]
+correcta = "Martina Navratilova"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué organización tiene como lema «Citius, Altius, Fortius» («Más rápido, más alto, más fuerte»)?"
+opciones = ["Olimpiadas", "Fuerza Aérea de los Estados Unidos", "NASA", "FIFA"]
+correcta = "Olimpiadas"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo llegó supuestamente la Reina Isabel II a la Ceremonia de Apertura de los Juegos Olímpicos de Verano en 2012?"
+opciones = ["Saltando desde un helicóptero", "En una lancha por el Támesis", "En una carroza de calabaza", "Siendo cargada por 4 de sus sirvientes"]
+correcta = "Saltando desde un helicóptero"
+dificultad = 3
+tiempo = 16

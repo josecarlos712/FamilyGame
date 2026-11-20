@@ -1,3 +1,6 @@
+# Parte de estas preguntas procede del «Spanish general knowledge megastudy»
+# (Buades-Sitjar, Planchuelo y Duñabeitia, 2021; figshare 10.6084/m9.figshare.14073899),
+# licencia CC BY 4.0. Revisadas y adaptadas; dificultad según el % de acierto real en España.
 [categoria]
 nombre = "Historia"
 icono = "🏛️"
@@ -66,3 +69,2598 @@ enunciado = "¿Qué ciudad fue destruida por el Vesubio en el año 79?"
 opciones = ["Roma", "Pompeya", "Nápoles", "Siracusa"]
 correcta = "Pompeya"
 tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué provincia se encuentran los yacimientos de Atapuerca?"
+opciones = ["Burgos", "León", "Soria", "Segovia"]
+correcta = "Burgos"
+dificultad = 1
+tiempo = 15
+explicacion = "Atapuerca es Patrimonio de la Humanidad desde el año 2000."
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma están las cuevas de Altamira?"
+opciones = ["Cantabria", "Asturias", "País Vasco", "Galicia"]
+correcta = "Cantabria"
+dificultad = 1
+tiempo = 12
+explicacion = "Se las conoce como la Capilla Sixtina del arte rupestre."
+
+[[pregunta]]
+enunciado = "¿Qué animal predomina en las pinturas de la cueva de Altamira?"
+opciones = ["Bisonte", "Caballo", "Mamut", "Ciervo"]
+correcta = "Bisonte"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A qué pueblo prerromano se atribuye la Dama de Elche?"
+opciones = ["Íberos", "Celtas", "Fenicios", "Tartesios"]
+correcta = "Íberos"
+dificultad = 1
+tiempo = 12
+explicacion = "Se encontró en 1897 en el yacimiento de La Alcudia."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad celtíbera resistió el cerco romano hasta su caída en el 133 a. C.?"
+opciones = ["Numancia", "Sagunto", "Clunia", "Astorga"]
+correcta = "Numancia"
+dificultad = 1
+tiempo = 15
+explicacion = "Escipión Emiliano la cercó con un anillo de campamentos y torres."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad hispana atacó Aníbal en el 219 a. C., desencadenando la segunda guerra púnica?"
+opciones = ["Sagunto", "Numancia", "Cartagena", "Mérida"]
+correcta = "Sagunto"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fundó Cartago Nova (Cartagena) hacia el 227 a. C.?"
+opciones = ["Asdrúbal", "Aníbal", "Escipión", "Amílcar"]
+correcta = "Asdrúbal"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué caudillo lusitano resistió a Roma y fue asesinado por sus propios hombres en el 139 a. C.?"
+opciones = ["Viriato", "Indíbil", "Sertorio", "Corocotta"]
+correcta = "Viriato"
+dificultad = 2
+tiempo = 15
+explicacion = "Sus propios compañeros lo mataron, sobornados por Roma."
+
+[[pregunta]]
+enunciado = "¿Qué emperador romano nació en Itálica, cerca de la actual Sevilla?"
+opciones = ["Trajano", "Nerón", "Calígula", "Vespasiano"]
+correcta = "Trajano"
+dificultad = 1
+tiempo = 15
+explicacion = "Adriano, su sucesor, también era de Itálica."
+
+[[pregunta]]
+enunciado = "¿Qué emperador de origen hispano hizo del cristianismo la religión oficial del Imperio romano?"
+opciones = ["Teodosio I", "Constantino", "Diocleciano", "Justiniano"]
+correcta = "Teodosio I"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué pueblo construyó el acueducto de Segovia?"
+opciones = ["Romanos", "Árabes", "Visigodos", "Íberos"]
+correcta = "Romanos"
+dificultad = 1
+tiempo = 12
+explicacion = "Tiene unos 800 metros y no usa argamasa entre los sillares."
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la actual Mérida en época romana?"
+opciones = ["Emerita Augusta", "Caesaraugusta", "Tarraco", "Itálica"]
+correcta = "Emerita Augusta"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciudad actual fue fundada por los romanos con el nombre de Caesaraugusta?"
+opciones = ["Zaragoza", "Cáceres", "Cartagena", "Córdoba"]
+correcta = "Zaragoza"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué ciudad fue la capital del reino visigodo en Hispania?"
+opciones = ["Toledo", "Córdoba", "Sevilla", "León"]
+correcta = "Toledo"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué rey visigodo abandonó el arrianismo y se convirtió al catolicismo en el año 589?"
+opciones = ["Recaredo", "Leovigildo", "Wamba", "Rodrigo"]
+correcta = "Recaredo"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fue el último rey visigodo, derrotado por los musulmanes?"
+opciones = ["Rodrigo", "Pelayo", "Witiza", "Recaredo"]
+correcta = "Rodrigo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año tuvo lugar la batalla de Guadalete, que inició la conquista musulmana de Hispania?"
+opciones = ["711", "722", "732", "756"]
+correcta = "711"
+dificultad = 2
+tiempo = 15
+explicacion = "Los visigodos fueron derrotados por Tariq ibn Ziyad."
+
+[[pregunta]]
+enunciado = "¿Quién inició la Reconquista con su victoria en Covadonga?"
+opciones = ["Don Pelayo", "Alfonso II", "Rodrigo Díaz", "Ordoño I"]
+correcta = "Don Pelayo"
+dificultad = 1
+tiempo = 12
+explicacion = "Es el mito fundacional del reino de Asturias."
+
+[[pregunta]]
+enunciado = "¿En qué año se suele fechar la batalla de Covadonga?"
+opciones = ["722", "711", "778", "1085"]
+correcta = "722"
+dificultad = 2
+tiempo = 12
+explicacion = "Es el mito fundacional del reino de Asturias."
+
+[[pregunta]]
+enunciado = "¿Quién detuvo el avance musulmán en la batalla de Poitiers, en el año 732?"
+opciones = ["Carlos Martel", "Carlomagno", "Clodoveo", "Pipino el Breve"]
+correcta = "Carlos Martel"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué ciudad fue la capital de Al-Ándalus durante el califato?"
+opciones = ["Córdoba", "Sevilla", "Granada", "Toledo"]
+correcta = "Córdoba"
+dificultad = 1
+tiempo = 15
+explicacion = "Llegó a ser una de las mayores ciudades de Europa."
+
+[[pregunta]]
+enunciado = "¿Qué gobernante proclamó el califato de Córdoba en el año 929?"
+opciones = ["Abderramán III", "Almanzor", "Abderramán I", "Boabdil"]
+correcta = "Abderramán III"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué caudillo andalusí saqueó Santiago de Compostela en el año 997?"
+opciones = ["Almanzor", "Abderramán III", "Yusuf ibn Tasufin", "Boabdil"]
+correcta = "Almanzor"
+dificultad = 2
+tiempo = 15
+explicacion = "Se llevó las campanas de la catedral, que luego se usaron como lámparas."
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaron los pequeños reinos en que se fragmentó Al-Ándalus a partir de 1031?"
+opciones = ["Reinos de taifas", "Emiratos", "Almorávides", "Califatos"]
+correcta = "Reinos de taifas"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué imperio norteafricano derrotó a Alfonso VI en la batalla de Zalaca en 1086?"
+opciones = ["Almorávides", "Almohades", "Meriníes", "Nazaríes"]
+correcta = "Almorávides"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué rey castellano conquistó Toledo en 1085?"
+opciones = ["Alfonso VI", "Alfonso VIII", "Fernando III", "Alfonso X"]
+correcta = "Alfonso VI"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué año se libró la batalla de las Navas de Tolosa, decisiva para la Reconquista?"
+opciones = ["1212", "1085", "1236", "1248"]
+correcta = "1212"
+dificultad = 2
+tiempo = 15
+explicacion = "Participaron los reyes de Castilla, Aragón y Navarra."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad levantina conquistó el Cid en 1094?"
+opciones = ["Valencia", "Toledo", "Sevilla", "Granada"]
+correcta = "Valencia"
+dificultad = 1
+tiempo = 12
+explicacion = "La tomó tras un largo asedio y gobernó hasta su muerte en 1099."
+
+[[pregunta]]
+enunciado = "¿Qué rey castellano conquistó Córdoba en 1236 y Sevilla en 1248?"
+opciones = ["Fernando III", "Alfonso X", "Jaime I", "Alfonso VIII"]
+correcta = "Fernando III"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué isla conquistó Jaime I de Aragón en 1229?"
+opciones = ["Mallorca", "Menorca", "Ibiza", "Cerdeña"]
+correcta = "Mallorca"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué apodo recibió el rey castellano Alfonso X?"
+opciones = ["El Sabio", "El Cruel", "El Batallador", "El Casto"]
+correcta = "El Sabio"
+dificultad = 1
+tiempo = 12
+explicacion = "Impulsó también las Siete Partidas, un gran código legal."
+
+[[pregunta]]
+enunciado = "¿Qué rey impulsó la escuela de traductores de Toledo y las Cantigas de Santa María?"
+opciones = ["Alfonso X", "Fernando III", "Sancho IV", "Pedro I"]
+correcta = "Alfonso X"
+dificultad = 3
+tiempo = 15
+explicacion = "Impulsó también las Siete Partidas, un gran código legal."
+
+[[pregunta]]
+enunciado = "¿Qué acuerdo de 1412 eligió a Fernando de Antequera como rey de Aragón?"
+opciones = ["Compromiso de Caspe", "Concordia de Segovia", "Pacto de Tordesillas", "Concordia de Medina"]
+correcta = "Compromiso de Caspe"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se celebraron en 1188 unas Cortes consideradas de las primeras de Europa?"
+opciones = ["León", "Burgos", "Toledo", "Zaragoza"]
+correcta = "León"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué rey de Aragón se casó Isabel de Castilla?"
+opciones = ["Fernando", "Alfonso V", "Juan II", "Pedro IV"]
+correcta = "Fernando"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué año se casaron Isabel y Fernando, los Reyes Católicos?"
+opciones = ["1469", "1479", "1492", "1474"]
+correcta = "1469"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fue el último rey nazarí de Granada?"
+opciones = ["Boabdil", "Muhammad I", "Yusuf I", "Abu al-Hasan"]
+correcta = "Boabdil"
+dificultad = 1
+tiempo = 12
+explicacion = "Entregó Granada en 1492 y se dice que lloró al marcharse."
+
+[[pregunta]]
+enunciado = "¿Qué dinastía gobernó el reino de Granada hasta 1492?"
+opciones = ["Nazarí", "Omeya", "Almohade", "Abbasí"]
+correcta = "Nazarí"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué documento firmaron los Reyes Católicos con Colón antes de su primer viaje?"
+opciones = ["Capitulaciones de Santa Fe", "Tratado de Tordesillas", "Paz de Utrecht", "Concordia de Segovia"]
+correcta = "Capitulaciones de Santa Fe"
+dificultad = 2
+tiempo = 15
+explicacion = "Se firmaron en abril de 1492 en una villa cercana a Granada."
+
+[[pregunta]]
+enunciado = "¿Con qué país repartió España el Nuevo Mundo en el Tratado de Tordesillas?"
+opciones = ["Portugal", "Francia", "Inglaterra", "Países Bajos"]
+correcta = "Portugal"
+dificultad = 1
+tiempo = 15
+explicacion = "Fijó una línea 370 leguas al oeste de Cabo Verde."
+
+[[pregunta]]
+enunciado = "¿En qué año se firmó el Tratado de Tordesillas?"
+opciones = ["1494", "1492", "1500", "1517"]
+correcta = "1494"
+dificultad = 2
+tiempo = 12
+explicacion = "Fijó una línea 370 leguas al oeste de Cabo Verde."
+
+[[pregunta]]
+enunciado = "¿De qué puerto onubense partió Colón en 1492?"
+opciones = ["Palos de la Frontera", "Cádiz", "Sevilla", "Huelva"]
+correcta = "Palos de la Frontera"
+dificultad = 2
+tiempo = 12
+explicacion = "Salió de madrugada el 3 de agosto de 1492."
+
+[[pregunta]]
+enunciado = "¿Cuál de estas naves NO formó parte del primer viaje de Colón?"
+opciones = ["Victoria", "Pinta", "Niña", "Santa María"]
+correcta = "Victoria"
+dificultad = 1
+tiempo = 15
+explicacion = "La Victoria fue la nave que completó la vuelta al mundo con Elcano."
+
+[[pregunta]]
+enunciado = "¿Qué decreto de 1492 ordenó la expulsión de los judíos de los reinos hispanos?"
+opciones = ["Decreto de la Alhambra", "Edicto de Nantes", "Decreto de Nueva Planta", "Edicto de Milán"]
+correcta = "Decreto de la Alhambra"
+dificultad = 2
+tiempo = 15
+explicacion = "Lo firmaron los Reyes Católicos el 31 de marzo de 1492."
+
+[[pregunta]]
+enunciado = "¿Quién publicó en 1492 la primera gramática de la lengua castellana?"
+opciones = ["Antonio de Nebrija", "Garcilaso de la Vega", "Juan de Valdés", "Cardenal Cisneros"]
+correcta = "Antonio de Nebrija"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer inquisidor general de la Inquisición española?"
+opciones = ["Tomás de Torquemada", "Cardenal Cisneros", "Diego de Deza", "Fernando de Valdés"]
+correcta = "Tomás de Torquemada"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué cardenal impulsó la Biblia Políglota Complutense y fundó la Universidad de Alcalá?"
+opciones = ["Cisneros", "Mendoza", "Torquemada", "Fonseca"]
+correcta = "Cisneros"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con quién se casó Juana I de Castilla, llamada la Loca?"
+opciones = ["Felipe el Hermoso", "Carlos V", "Fernando el Católico", "Manuel I"]
+correcta = "Felipe el Hermoso"
+dificultad = 2
+tiempo = 12
+explicacion = "Era archiduque de Austria y murió en Burgos en 1506."
+
+[[pregunta]]
+enunciado = "¿A qué dinastía pertenecía Carlos I de España?"
+opciones = ["Casa de Austria", "Borbón", "Trastámara", "Braganza"]
+correcta = "Casa de Austria"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué localidad fueron derrotados los comuneros de Castilla en 1521?"
+opciones = ["Villalar", "Pavía", "Lepanto", "San Quintín"]
+correcta = "Villalar"
+dificultad = 2
+tiempo = 15
+explicacion = "Los líderes Padilla, Bravo y Maldonado fueron ejecutados al día siguiente."
+
+[[pregunta]]
+enunciado = "¿Qué rey francés fue capturado por las tropas de Carlos V en la batalla de Pavía?"
+opciones = ["Francisco I", "Enrique II", "Luis XII", "Carlos VIII"]
+correcta = "Francisco I"
+dificultad = 2
+tiempo = 15
+explicacion = "Francisco I permaneció prisionero en Madrid."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad fue saqueada en 1527 por las tropas imperiales de Carlos V?"
+opciones = ["Roma", "Florencia", "Venecia", "Milán"]
+correcta = "Roma"
+dificultad = 2
+tiempo = 15
+explicacion = "El saqueo marcó el fin del Renacimiento romano más esplendoroso."
+
+[[pregunta]]
+enunciado = "¿En qué monasterio extremeño se retiró Carlos V tras abdicar?"
+opciones = ["Yuste", "Guadalupe", "Poblet", "El Escorial"]
+correcta = "Yuste"
+dificultad = 2
+tiempo = 15
+explicacion = "Murió allí en 1558."
+
+[[pregunta]]
+enunciado = "¿En qué ciudad estableció Felipe II la corte de forma permanente en 1561?"
+opciones = ["Madrid", "Toledo", "Valladolid", "Sevilla"]
+correcta = "Madrid"
+dificultad = 1
+tiempo = 15
+explicacion = "Madrid era entonces una villa pequeña, sin catedral ni obispo."
+
+[[pregunta]]
+enunciado = "¿Qué victoria de 1557 conmemora la construcción del monasterio de El Escorial?"
+opciones = ["San Quintín", "Lepanto", "Pavía", "Mühlberg"]
+correcta = "San Quintín"
+dificultad = 3
+tiempo = 15
+explicacion = "Se levantó en Madrid-sierra entre 1563 y 1584."
+
+[[pregunta]]
+enunciado = "¿Contra qué imperio luchó la Liga Santa en la batalla de Lepanto en 1571?"
+opciones = ["Otomano", "Persa", "Mongol", "Bizantino"]
+correcta = "Otomano"
+dificultad = 1
+tiempo = 15
+explicacion = "Fue la mayor batalla naval de galeras."
+
+[[pregunta]]
+enunciado = "¿Quién mandó la flota cristiana en la batalla de Lepanto?"
+opciones = ["Juan de Austria", "Álvaro de Bazán", "Andrea Doria", "Duque de Alba"]
+correcta = "Juan de Austria"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué batalla de 1571 perdió Cervantes el uso de la mano izquierda?"
+opciones = ["Lepanto", "Pavía", "San Quintín", "Gravelinas"]
+correcta = "Lepanto"
+dificultad = 1
+tiempo = 15
+explicacion = "Por eso se le conoce como el manco de Lepanto."
+
+[[pregunta]]
+enunciado = "¿Contra qué reina fue enviada en 1588 la llamada Armada Invencible?"
+opciones = ["Isabel I de Inglaterra", "María Estuardo", "Catalina de Médici", "Ana Bolena"]
+correcta = "Isabel I de Inglaterra"
+dificultad = 1
+tiempo = 15
+explicacion = "Los temporales dañaron la flota más que los ingleses."
+
+[[pregunta]]
+enunciado = "¿Qué reino pasó a manos de Felipe II en 1580, formando la Unión Ibérica?"
+opciones = ["Portugal", "Navarra", "Nápoles", "Borgoña"]
+correcta = "Portugal"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué pintor sevillano fue pintor de cámara de Felipe IV y firmó Las Meninas?"
+opciones = ["Velázquez", "Murillo", "Zurbarán", "El Greco"]
+correcta = "Velázquez"
+dificultad = 1
+tiempo = 15
+explicacion = "Velázquez se retrató a sí mismo en el cuadro."
+
+[[pregunta]]
+enunciado = "¿En qué año expulsó Felipe III a los moriscos?"
+opciones = ["1609", "1492", "1568", "1640"]
+correcta = "1609"
+dificultad = 2
+tiempo = 12
+explicacion = "Se calcula que salieron unos 300.000 moriscos."
+
+[[pregunta]]
+enunciado = "¿Qué derrota de 1643 se considera el símbolo del declive de los tercios españoles?"
+opciones = ["Rocroi", "Breda", "Nördlingen", "Lepanto"]
+correcta = "Rocroi"
+dificultad = 3
+tiempo = 15
+explicacion = "El duque de Enghien venció a los tercios con la caballería francesa."
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la célebre formación de infantería española de los siglos XVI y XVII?"
+opciones = ["Tercios", "Legiones", "Falanges", "Mesnadas"]
+correcta = "Tercios"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué cuadro de Velázquez recoge la rendición de Breda de 1625?"
+opciones = ["Las lanzas", "Las Meninas", "La fragua de Vulcano", "Los borrachos"]
+correcta = "Las lanzas"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué apodo recibió el último rey de la Casa de Austria en España, Carlos II?"
+opciones = ["El Hechizado", "El Prudente", "El Casto", "El Hermoso"]
+correcta = "El Hechizado"
+dificultad = 2
+tiempo = 15
+explicacion = "Murió en 1700 sin descendencia y legó el trono a Felipe de Anjou."
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer rey Borbón de España?"
+opciones = ["Felipe V", "Carlos III", "Fernando VI", "Luis I"]
+correcta = "Felipe V"
+dificultad = 1
+tiempo = 12
+explicacion = "Era nieto de Luis XIV de Francia."
+
+[[pregunta]]
+enunciado = "¿Qué territorio cedió España a Gran Bretaña en la Paz de Utrecht de 1713?"
+opciones = ["Gibraltar", "Menorca", "Malta", "Gran Canaria"]
+correcta = "Gibraltar"
+dificultad = 1
+tiempo = 15
+explicacion = "Gibraltar sigue siendo un asunto abierto entre España y Reino Unido."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad cayó el 11 de septiembre de 1714 ante las tropas de Felipe V?"
+opciones = ["Barcelona", "Valencia", "Zaragoza", "Palma"]
+correcta = "Barcelona"
+dificultad = 2
+tiempo = 15
+explicacion = "Hoy es la Diada de Cataluña."
+
+[[pregunta]]
+enunciado = "¿En qué año se fundó la Real Academia Española?"
+opciones = ["1713", "1621", "1778", "1812"]
+correcta = "1713"
+dificultad = 3
+tiempo = 12
+explicacion = "Publicó su primer diccionario, el de Autoridades, entre 1726 y 1739."
+
+[[pregunta]]
+enunciado = "¿Cuál es el lema de la Real Academia Española?"
+opciones = ["Limpia, fija y da esplendor", "Plus Ultra", "Una, grande y libre", "Pro patria mori"]
+correcta = "Limpia, fija y da esplendor"
+dificultad = 2
+tiempo = 12
+explicacion = "Publicó su primer diccionario, el de Autoridades, entre 1726 y 1739."
+
+[[pregunta]]
+enunciado = "¿Qué rey ilustrado expulsó a los jesuitas de España en 1767?"
+opciones = ["Carlos III", "Fernando VI", "Carlos IV", "Felipe V"]
+correcta = "Carlos III"
+dificultad = 2
+tiempo = 15
+explicacion = "La orden fue expulsada de España y de sus dominios americanos."
+
+[[pregunta]]
+enunciado = "¿Qué monumento madrileño fue inaugurado por Carlos III en 1778?"
+opciones = ["Puerta de Alcalá", "Cibeles", "Arco de la Victoria", "Puerta del Sol"]
+correcta = "Puerta de Alcalá"
+dificultad = 2
+tiempo = 15
+explicacion = "Murió en 1700 sin descendencia y legó el trono a Felipe de Anjou."
+
+[[pregunta]]
+enunciado = "¿Quién fue el valido de Carlos IV, protagonista de la política española entre 1792 y 1808?"
+opciones = ["Manuel Godoy", "Floridablanca", "Aranda", "Jovellanos"]
+correcta = "Manuel Godoy"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué almirante británico murió en la batalla de Trafalgar en 1805?"
+opciones = ["Nelson", "Wellington", "Drake", "Cook"]
+correcta = "Nelson"
+dificultad = 1
+tiempo = 15
+explicacion = "Una bala de mosquete lo hirió mortalmente en pleno combate."
+
+[[pregunta]]
+enunciado = "¿Contra qué ejército se alzó el pueblo de Madrid el 2 de mayo de 1808?"
+opciones = ["El francés", "El inglés", "El portugués", "El prusiano"]
+correcta = "El francés"
+dificultad = 1
+tiempo = 15
+explicacion = "El levantamiento marcó el inicio de la Guerra de Independencia."
+
+[[pregunta]]
+enunciado = "¿Qué pintor plasmó los fusilamientos del 3 de mayo de 1808 en Madrid?"
+opciones = ["Goya", "Velázquez", "Sorolla", "Picasso"]
+correcta = "Goya"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde sufrió el ejército napoleónico su primera gran derrota en campo abierto en 1808?"
+opciones = ["Bailén", "Zaragoza", "Arapiles", "Vitoria"]
+correcta = "Bailén"
+dificultad = 2
+tiempo = 15
+explicacion = "La victoria del general Castaños sorprendió a toda Europa."
+
+[[pregunta]]
+enunciado = "¿Quién fue el rey impuesto por Napoleón en España, apodado Pepe Botella?"
+opciones = ["José Bonaparte", "Luis Bonaparte", "Joaquín Murat", "Jerónimo Bonaparte"]
+correcta = "José Bonaparte"
+dificultad = 1
+tiempo = 15
+explicacion = "El apodo se debía a su supuesta afición a la bebida, aunque era abstemio."
+
+[[pregunta]]
+enunciado = "¿Qué palabra española se difundió por el mundo a raíz de la lucha contra Napoleón?"
+opciones = ["Guerrilla", "Siesta", "Fiesta", "Armada"]
+correcta = "Guerrilla"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué apodo recibió la Constitución de 1812, aprobada en Cádiz?"
+opciones = ["La Pepa", "La Niña", "La Gaditana", "La Magna"]
+correcta = "La Pepa"
+dificultad = 1
+tiempo = 15
+explicacion = "Se promulgó el 19 de marzo, día de San José."
+
+[[pregunta]]
+enunciado = "¿Qué heroína defendió un cañón durante los Sitios de Zaragoza?"
+opciones = ["Agustina de Aragón", "Mariana Pineda", "Manuela Malasaña", "Clara del Rey"]
+correcta = "Agustina de Aragón"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué apodo recibió Fernando VII?"
+opciones = ["El Deseado", "El Rey Sol", "El Prudente", "El Grande"]
+correcta = "El Deseado"
+dificultad = 2
+tiempo = 12
+explicacion = "Regresó en 1814 y abolió la Constitución de 1812."
+
+[[pregunta]]
+enunciado = "¿Qué hermano de Fernando VII disputó el trono a su sobrina Isabel II?"
+opciones = ["Carlos María Isidro", "Francisco de Paula", "Antonio Pascual", "Luis Antonio"]
+correcta = "Carlos María Isidro"
+dificultad = 2
+tiempo = 15
+explicacion = "Regresó en 1814 y abolió la Constitución de 1812."
+
+[[pregunta]]
+enunciado = "¿En qué año fue destronada Isabel II por la revolución llamada La Gloriosa?"
+opciones = ["1868", "1833", "1874", "1898"]
+correcta = "1868"
+dificultad = 2
+tiempo = 15
+explicacion = "La revolución triunfó tras la batalla de Alcolea."
+
+[[pregunta]]
+enunciado = "¿Qué ministro impulsó la desamortización de bienes eclesiásticos en 1836?"
+opciones = ["Mendizábal", "Cánovas", "Sagasta", "Espartero"]
+correcta = "Mendizábal"
+dificultad = 3
+tiempo = 15
+explicacion = "Vendió tierras de la Iglesia para sanear las arcas del Estado."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el acuerdo que puso fin a la primera guerra carlista en 1839?"
+opciones = ["Convenio de Vergara", "Pacto de Ostende", "Tratado de Fontainebleau", "Concordia de Segovia"]
+correcta = "Convenio de Vergara"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué línea fue la primera de ferrocarril de la península, inaugurada en 1848?"
+opciones = ["Barcelona-Mataró", "Madrid-Aranjuez", "Valencia-Játiva", "Sevilla-Córdoba"]
+correcta = "Barcelona-Mataró"
+dificultad = 3
+tiempo = 15
+explicacion = "Medía unos 28 kilómetros."
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer presidente de la Primera República española en 1873?"
+opciones = ["Estanislao Figueras", "Francisco Pi y Margall", "Nicolás Salmerón", "Emilio Castelar"]
+correcta = "Estanislao Figueras"
+dificultad = 3
+tiempo = 15
+explicacion = "La República duró apenas once meses y tuvo cuatro presidentes."
+
+[[pregunta]]
+enunciado = "¿De qué país era Amadeo I, rey de España entre 1870 y 1873?"
+opciones = ["Italia", "Francia", "Portugal", "Alemania"]
+correcta = "Italia"
+dificultad = 2
+tiempo = 12
+explicacion = "Abdicó en 1873 diciendo que España era un país ingobernable."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad murciana encabezó la rebelión cantonal de 1873?"
+opciones = ["Cartagena", "Murcia", "Lorca", "Alicante"]
+correcta = "Cartagena"
+dificultad = 3
+tiempo = 12
+explicacion = "El cantón de Cartagena resistió hasta enero de 1874."
+
+[[pregunta]]
+enunciado = "¿Qué rey restauró la monarquía borbónica en España en 1874?"
+opciones = ["Alfonso XII", "Alfonso XIII", "Amadeo I", "Fernando VII"]
+correcta = "Alfonso XII"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llamó el sistema de alternancia pactada entre conservadores y liberales en la Restauración?"
+opciones = ["Turnismo", "Caciquismo", "Bipartidismo", "Regeneracionismo"]
+correcta = "Turnismo"
+dificultad = 2
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿Quién fundó el PSOE en 1879?"
+opciones = ["Pablo Iglesias", "Largo Caballero", "Indalecio Prieto", "Julián Besteiro"]
+correcta = "Pablo Iglesias"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién ideó el primer submarino con propulsión eléctrica, probado en Cádiz en 1888?"
+opciones = ["Isaac Peral", "Narcís Monturiol", "Leonardo Torres Quevedo", "Juan de la Cierva"]
+correcta = "Isaac Peral"
+dificultad = 2
+tiempo = 15
+explicacion = "Su submarino se probó con éxito, pero la Armada lo abandonó."
+
+[[pregunta]]
+enunciado = "¿Con qué país se enfrentó España en la guerra de 1898?"
+opciones = ["Estados Unidos", "Reino Unido", "Francia", "Marruecos"]
+correcta = "Estados Unidos"
+dificultad = 1
+tiempo = 12
+explicacion = "El conflicto empezó tras la explosión del acorazado Maine."
+
+[[pregunta]]
+enunciado = "¿Qué territorios perdió España en 1898?"
+opciones = ["Cuba, Puerto Rico y Filipinas", "Marruecos, Guinea y Sáhara", "Cuba, Canarias y Baleares", "Argelia, Cuba y México"]
+correcta = "Cuba, Puerto Rico y Filipinas"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se firmó el tratado que puso fin a la guerra hispano-estadounidense en 1898?"
+opciones = ["París", "Washington", "La Habana", "Madrid"]
+correcta = "París"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál de estos escritores pertenece a la Generación del 98?"
+opciones = ["Pío Baroja", "Federico García Lorca", "Rafael Alberti", "Luis Cernuda"]
+correcta = "Pío Baroja"
+dificultad = 2
+tiempo = 12
+explicacion = "Se llama así por la crisis moral tras perder las colonias."
+
+[[pregunta]]
+enunciado = "¿Qué científico español recibió el Nobel de Medicina en 1906?"
+opciones = ["Santiago Ramón y Cajal", "Severo Ochoa", "Jaime Ferrán", "Gregorio Marañón"]
+correcta = "Santiago Ramón y Cajal"
+dificultad = 1
+tiempo = 15
+explicacion = "Lo compartió con el italiano Camillo Golgi."
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se produjo la Semana Trágica de 1909?"
+opciones = ["Barcelona", "Madrid", "Valencia", "Bilbao"]
+correcta = "Barcelona"
+dificultad = 2
+tiempo = 12
+explicacion = "La chispa fue el embarque de reservistas hacia Marruecos."
+
+[[pregunta]]
+enunciado = "¿En qué territorio sufrió España el desastre de Annual en 1921?"
+opciones = ["Marruecos", "Cuba", "Filipinas", "Guinea"]
+correcta = "Marruecos"
+dificultad = 2
+tiempo = 15
+explicacion = "Murieron miles de soldados españoles en pocos días."
+
+[[pregunta]]
+enunciado = "¿En qué año dio Primo de Rivera el golpe de Estado que instauró su dictadura?"
+opciones = ["1923", "1917", "1931", "1936"]
+correcta = "1923"
+dificultad = 2
+tiempo = 15
+explicacion = "El golpe lo dio en Barcelona, con el visto bueno de Alfonso XIII."
+
+[[pregunta]]
+enunciado = "¿En qué año se proclamó la Segunda República española?"
+opciones = ["1931", "1923", "1936", "1939"]
+correcta = "1931"
+dificultad = 1
+tiempo = 12
+explicacion = "Se proclamó el 14 de abril, tras las elecciones municipales."
+
+[[pregunta]]
+enunciado = "¿Qué diputada defendió en 1931 el derecho al voto de las mujeres?"
+opciones = ["Clara Campoamor", "Victoria Kent", "Dolores Ibárruri", "Concha Espina"]
+correcta = "Clara Campoamor"
+dificultad = 2
+tiempo = 15
+explicacion = "Las mujeres votaron por primera vez en 1933."
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer presidente de la Segunda República?"
+opciones = ["Niceto Alcalá-Zamora", "Manuel Azaña", "Francisco Largo Caballero", "Alejandro Lerroux"]
+correcta = "Niceto Alcalá-Zamora"
+dificultad = 3
+tiempo = 12
+explicacion = "Se proclamó el 14 de abril, tras las elecciones municipales."
+
+[[pregunta]]
+enunciado = "¿De qué colores era la bandera de la Segunda República?"
+opciones = ["Rojo, amarillo y morado", "Rojo, blanco y azul", "Rojo y gualda", "Verde, blanco y rojo"]
+correcta = "Rojo, amarillo y morado"
+dificultad = 2
+tiempo = 12
+explicacion = "Se proclamó el 14 de abril, tras las elecciones municipales."
+
+[[pregunta]]
+enunciado = "¿En qué año tuvo lugar la revolución de Asturias, sofocada por el Ejército?"
+opciones = ["1934", "1931", "1936", "1938"]
+correcta = "1934"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año comenzó la Guerra Civil española?"
+opciones = ["1936", "1931", "1939", "1934"]
+correcta = "1936"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué año terminó la Guerra Civil española?"
+opciones = ["1939", "1936", "1940", "1937"]
+correcta = "1939"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llamó a los voluntarios extranjeros que lucharon junto a la República?"
+opciones = ["Brigadas Internacionales", "Legión Cóndor", "División Azul", "Cruzada"]
+correcta = "Brigadas Internacionales"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué fuerza aérea alemana bombardeó Guernica en 1937?"
+opciones = ["Legión Cóndor", "Luftwaffe de Dresde", "Escuadrilla Lafayette", "Royal Air Force"]
+correcta = "Legión Cóndor"
+dificultad = 2
+tiempo = 12
+explicacion = "Picasso pintó su famoso cuadro en respuesta al bombardeo."
+
+[[pregunta]]
+enunciado = "¿Qué batalla de 1938 fue la más larga y sangrienta de la Guerra Civil?"
+opciones = ["Ebro", "Jarama", "Teruel", "Brunete"]
+correcta = "Ebro"
+dificultad = 2
+tiempo = 15
+explicacion = "Duró desde julio hasta noviembre de 1938."
+
+[[pregunta]]
+enunciado = "¿Quién popularizó en 1936 el grito ¡No pasarán! en la defensa de Madrid?"
+opciones = ["Dolores Ibárruri", "Clara Campoamor", "Federica Montseny", "Victoria Kent"]
+correcta = "Dolores Ibárruri"
+dificultad = 2
+tiempo = 15
+explicacion = "La frase pasó a ser un símbolo mundial de resistencia antifascista."
+
+[[pregunta]]
+enunciado = "¿A qué ciudad se trasladó el Gobierno republicano en noviembre de 1936 al verse Madrid amenazada?"
+opciones = ["Valencia", "Barcelona", "Alicante", "Albacete"]
+correcta = "Valencia"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué escritor británico luchó con el POUM y relató su experiencia en Homenaje a Cataluña?"
+opciones = ["George Orwell", "Ernest Hemingway", "Aldous Huxley", "André Malraux"]
+correcta = "George Orwell"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué ciudad fue asesinado el poeta Federico García Lorca en 1936?"
+opciones = ["Granada", "Sevilla", "Madrid", "Córdoba"]
+correcta = "Granada"
+dificultad = 2
+tiempo = 15
+explicacion = "Lorca fue fusilado en agosto de 1936 cerca de Víznar."
+
+[[pregunta]]
+enunciado = "¿En qué ciudad gallega nació Francisco Franco?"
+opciones = ["Ferrol", "Vigo", "A Coruña", "Lugo"]
+correcta = "Ferrol"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con quién se entrevistó Franco en Hendaya en 1940?"
+opciones = ["Hitler", "Mussolini", "Pétain", "Churchill"]
+correcta = "Hitler"
+dificultad = 2
+tiempo = 12
+explicacion = "Franco acabó sin entrar en la guerra tras exigir demasiado a Hitler."
+
+[[pregunta]]
+enunciado = "¿Cómo se llamó la unidad de voluntarios españoles que combatió junto a Alemania en el frente ruso?"
+opciones = ["División Azul", "Legión Cóndor", "Brigada Lincoln", "Regulares"]
+correcta = "División Azul"
+dificultad = 2
+tiempo = 15
+explicacion = "Combatió cerca de Leningrado entre 1941 y 1943."
+
+[[pregunta]]
+enunciado = "¿En qué año se aprobó el Plan de Estabilización que abrió la economía española?"
+opciones = ["1959", "1939", "1948", "1969"]
+correcta = "1959"
+dificultad = 3
+tiempo = 15
+explicacion = "Abrió paso al desarrollismo y al boom turístico."
+
+[[pregunta]]
+enunciado = "¿Qué coche, fabricado por SEAT desde 1957, motorizó a las familias españolas?"
+opciones = ["El Seiscientos", "El Mini", "El Dos Caballos", "El Biscúter"]
+correcta = "El Seiscientos"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año ingresó España en la ONU?"
+opciones = ["1955", "1945", "1959", "1966"]
+correcta = "1955"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué presidente del Gobierno murió en un atentado de ETA en 1973?"
+opciones = ["Carrero Blanco", "Arias Navarro", "Fernández Miranda", "Suárez"]
+correcta = "Carrero Blanco"
+dificultad = 2
+tiempo = 15
+explicacion = "Murió en Madrid cuando una bomba hizo volar su coche."
+
+[[pregunta]]
+enunciado = "¿Qué acontecimiento de 1975 precedió a la salida de España del Sáhara Occidental?"
+opciones = ["La Marcha Verde", "El Plan Ifni", "La Guerra de Sidi Ifni", "El Pacto de Madrid"]
+correcta = "La Marcha Verde"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año murió Franco?"
+opciones = ["1975", "1969", "1973", "1978"]
+correcta = "1975"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién fue proclamado rey de España tras la muerte de Franco?"
+opciones = ["Juan Carlos I", "Don Juan de Borbón", "Felipe VI", "Alfonso XIII"]
+correcta = "Juan Carlos I"
+dificultad = 1
+tiempo = 15
+explicacion = "Fue proclamado rey el 22 de noviembre de 1975."
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer presidente del Gobierno tras las elecciones democráticas de 1977?"
+opciones = ["Adolfo Suárez", "Felipe González", "Leopoldo Calvo-Sotelo", "Manuel Fraga"]
+correcta = "Adolfo Suárez"
+dificultad = 1
+tiempo = 15
+explicacion = "Ganó con la Unión de Centro Democrático (UCD)."
+
+[[pregunta]]
+enunciado = "¿En qué año se celebraron las primeras elecciones democráticas tras la dictadura de Franco?"
+opciones = ["1977", "1975", "1978", "1979"]
+correcta = "1977"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaron los acuerdos políticos y económicos firmados en 1977 por los partidos y sindicatos?"
+opciones = ["Pactos de la Moncloa", "Pacto de Ajuria Enea", "Pacto del Tinell", "Pacto de Toledo"]
+correcta = "Pactos de la Moncloa"
+dificultad = 2
+tiempo = 20
+explicacion = "Se firmaron en octubre de 1977 para frenar la inflación."
+
+[[pregunta]]
+enunciado = "¿Qué día se celebra la fiesta de la Constitución en España?"
+opciones = ["6 de diciembre", "12 de octubre", "2 de mayo", "1 de abril"]
+correcta = "6 de diciembre"
+dificultad = 1
+tiempo = 12
+explicacion = "Es festivo desde 1983."
+
+[[pregunta]]
+enunciado = "¿Qué teniente coronel de la Guardia Civil asaltó el Congreso de los Diputados el 23 de febrero de 1981?"
+opciones = ["Antonio Tejero", "Alfonso Armada", "Jaime Milans del Bosch", "Manuel Gutiérrez Mellado"]
+correcta = "Antonio Tejero"
+dificultad = 1
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿En qué año ganó el PSOE por mayoría absoluta con Felipe González?"
+opciones = ["1982", "1977", "1979", "1986"]
+correcta = "1982"
+dificultad = 2
+tiempo = 15
+explicacion = "El PSOE logró 202 diputados."
+
+[[pregunta]]
+enunciado = "¿En qué año ingresó España en la Comunidad Económica Europea?"
+opciones = ["1986", "1982", "1992", "1978"]
+correcta = "1986"
+dificultad = 2
+tiempo = 15
+explicacion = "Entró junto a Portugal el 1 de enero de 1986."
+
+[[pregunta]]
+enunciado = "¿En qué año ingresó España en la OTAN?"
+opciones = ["1982", "1975", "1986", "1992"]
+correcta = "1982"
+dificultad = 3
+tiempo = 12
+explicacion = "El referéndum sobre permanecer en ella fue en 1986."
+
+[[pregunta]]
+enunciado = "¿Cómo se llamó la mascota de los Juegos Olímpicos de Barcelona 92?"
+opciones = ["Cobi", "Curro", "Naranjito", "Mikel"]
+correcta = "Cobi"
+dificultad = 1
+tiempo = 15
+explicacion = "Fue diseñada por Javier Mariscal."
+
+[[pregunta]]
+enunciado = "¿En qué isla sevillana se celebró la Exposición Universal de 1992?"
+opciones = ["La Cartuja", "Mallorca", "Tabarca", "Isla Mágica"]
+correcta = "La Cartuja"
+dificultad = 2
+tiempo = 15
+explicacion = "Se celebró en el recinto de la Cartuja, a orillas del Guadalquivir."
+
+[[pregunta]]
+enunciado = "¿Qué dos ciudades unió la primera línea de alta velocidad española, inaugurada en 1992?"
+opciones = ["Madrid y Sevilla", "Madrid y Barcelona", "Madrid y Valencia", "Sevilla y Málaga"]
+correcta = "Madrid y Sevilla"
+dificultad = 1
+tiempo = 15
+explicacion = "El AVE cubría Madrid-Sevilla en unas tres horas."
+
+[[pregunta]]
+enunciado = "¿En qué año empezaron a circular los billetes y monedas de euro en España?"
+opciones = ["2002", "1999", "1992", "2005"]
+correcta = "2002"
+dificultad = 1
+tiempo = 15
+explicacion = "El euro existía como moneda contable desde 1999."
+
+[[pregunta]]
+enunciado = "¿Qué moneda sustituyó el euro en España?"
+opciones = ["La peseta", "El escudo", "La lira", "El franco"]
+correcta = "La peseta"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué año se produjeron los atentados del 11-M en Madrid?"
+opciones = ["2004", "2001", "2008", "2002"]
+correcta = "2004"
+dificultad = 1
+tiempo = 12
+explicacion = "Fue el mayor atentado terrorista en la historia de España."
+
+[[pregunta]]
+enunciado = "¿Quién presidió el Gobierno de España tras las elecciones de 2004?"
+opciones = ["José Luis Rodríguez Zapatero", "José María Aznar", "Mariano Rajoy", "Felipe González"]
+correcta = "José Luis Rodríguez Zapatero"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año legalizó España el matrimonio entre personas del mismo sexo?"
+opciones = ["2005", "1998", "2010", "2001"]
+correcta = "2005"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año abdicó Juan Carlos I en favor de su hijo Felipe?"
+opciones = ["2014", "2011", "2016", "2008"]
+correcta = "2014"
+dificultad = 1
+tiempo = 15
+explicacion = "Fue proclamado rey el 22 de noviembre de 1975."
+
+[[pregunta]]
+enunciado = "¿En qué año anunció ETA el cese definitivo de su actividad armada?"
+opciones = ["2011", "2004", "2007", "2016"]
+correcta = "2011"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A quién sustituyó Pedro Sánchez como presidente del Gobierno tras la moción de censura de 2018?"
+opciones = ["Mariano Rajoy", "José Luis Rodríguez Zapatero", "José María Aznar", "Felipe González"]
+correcta = "Mariano Rajoy"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año se declaró en España el primer estado de alarma por la COVID-19?"
+opciones = ["2020", "2018", "2019", "2021"]
+correcta = "2020"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué se conmemora en España cada 12 de octubre?"
+opciones = ["La llegada de Colón a América", "La Constitución", "La Guerra de Independencia", "La toma de Granada"]
+correcta = "La llegada de Colón a América"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué apóstol está enterrado, según la tradición, en Santiago de Compostela?"
+opciones = ["Santiago", "San Pedro", "San Pablo", "San Juan"]
+correcta = "Santiago"
+dificultad = 1
+tiempo = 15
+explicacion = "El Camino de Santiago es ruta de peregrinación desde la Edad Media."
+
+[[pregunta]]
+enunciado = "¿Cuál fue la capital del reino de Asturias antes de que se trasladara a León?"
+opciones = ["Oviedo", "Gijón", "Cangas de Onís", "Covadonga"]
+correcta = "Oviedo"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué legendario reino prerromano se situaba en el suroeste de la península?"
+opciones = ["Tartessos", "Iberia", "Numidia", "Gadir"]
+correcta = "Tartessos"
+dificultad = 2
+tiempo = 15
+explicacion = "Se asocia a la zona del bajo Guadalquivir y Huelva."
+
+[[pregunta]]
+enunciado = "¿Qué pueblo fundó Cádiz, una de las ciudades más antiguas de Occidente?"
+opciones = ["Fenicios", "Griegos", "Romanos", "Cartagineses"]
+correcta = "Fenicios"
+dificultad = 2
+tiempo = 15
+explicacion = "Se fundó como Gadir hacia el 1100 a. C."
+
+[[pregunta]]
+enunciado = "¿Qué pueblo fundó Emporion, la actual Ampurias, en la costa catalana?"
+opciones = ["Griegos", "Fenicios", "Romanos", "Cartagineses"]
+correcta = "Griegos"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué especie humana descubierta en Atapuerca vivió hace unos 850.000 años?"
+opciones = ["Homo antecessor", "Homo habilis", "Homo sapiens", "Homo erectus"]
+correcta = "Homo antecessor"
+dificultad = 3
+tiempo = 15
+explicacion = "Se halló en la Gran Dolina de Atapuerca."
+
+[[pregunta]]
+enunciado = "¿Quién descubrió en 1879 las pinturas de Altamira junto con su hija?"
+opciones = ["Marcelino Sanz de Sautuola", "Henri Breuil", "Juan de la Cierva", "Hugo Obermaier"]
+correcta = "Marcelino Sanz de Sautuola"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué marino vasco completó la primera vuelta al mundo tras morir Magallanes?"
+opciones = ["Juan Sebastián Elcano", "Lope de Aguirre", "Álvaro de Mendaña", "Blas de Lezo"]
+correcta = "Juan Sebastián Elcano"
+dificultad = 2
+tiempo = 15
+explicacion = "La expedición salió en 1519 y volvió en 1522."
+
+[[pregunta]]
+enunciado = "¿Qué imperio indígena derrotó Hernán Cortés?"
+opciones = ["Azteca", "Inca", "Maya", "Olmeca"]
+correcta = "Azteca"
+dificultad = 1
+tiempo = 12
+explicacion = "Tomó Tenochtitlan en 1521."
+
+[[pregunta]]
+enunciado = "¿Qué imperio conquistó Francisco Pizarro?"
+opciones = ["Inca", "Azteca", "Maya", "Tolteca"]
+correcta = "Inca"
+dificultad = 1
+tiempo = 12
+explicacion = "Capturó al inca Atahualpa en Cajamarca en 1532."
+
+[[pregunta]]
+enunciado = "¿Qué explorador extremeño descubrió el océano Pacífico en 1513?"
+opciones = ["Vasco Núñez de Balboa", "Hernando de Soto", "Pedro de Alvarado", "Francisco de Orellana"]
+correcta = "Vasco Núñez de Balboa"
+dificultad = 3
+tiempo = 15
+explicacion = "Lo llamó Mar del Sur al cruzar el istmo de Panamá."
+
+[[pregunta]]
+enunciado = "¿Qué explorador extremeño descendió el río Amazonas entre 1541 y 1542?"
+opciones = ["Francisco de Orellana", "Pedro de Valdivia", "Diego de Almagro", "Juan Ponce de León"]
+correcta = "Francisco de Orellana"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué fraile defendió a los indígenas americanos y escribió la Brevísima relación de la destrucción de las Indias?"
+opciones = ["Bartolomé de las Casas", "Francisco de Vitoria", "José de Acosta", "Junípero Serra"]
+correcta = "Bartolomé de las Casas"
+dificultad = 2
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿Qué famosa mina de plata de Bolivia enriqueció a la Corona española?"
+opciones = ["Potosí", "Zacatecas", "Guanajuato", "Huancavelica"]
+correcta = "Potosí"
+dificultad = 2
+tiempo = 15
+explicacion = "Su Cerro Rico dio nombre a la expresión «valer un potosí»."
+
+[[pregunta]]
+enunciado = "¿Cuál fue la capital del virreinato de Nueva España?"
+opciones = ["México", "Lima", "Bogotá", "La Habana"]
+correcta = "México"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué soldado vasco fundó la Compañía de Jesús?"
+opciones = ["Ignacio de Loyola", "Francisco Javier", "Pedro Fabro", "Diego Laínez"]
+correcta = "Ignacio de Loyola"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué batalla de 1824 selló la independencia del Perú?"
+opciones = ["Ayacucho", "Boyacá", "Carabobo", "Pichincha"]
+correcta = "Ayacucho"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué tratado de 1659 puso fin a la guerra entre España y Francia?"
+opciones = ["Paz de los Pirineos", "Paz de Westfalia", "Tratado de Utrecht", "Paz de Nimega"]
+correcta = "Paz de los Pirineos"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la única de las siete maravillas del mundo antiguo que sigue en pie?"
+opciones = ["La Gran Pirámide de Guiza", "El Coloso de Rodas", "El Faro de Alejandría", "Los Jardines Colgantes de Babilonia"]
+correcta = "La Gran Pirámide de Guiza"
+dificultad = 2
+tiempo = 15
+explicacion = "Tiene unos 4.500 años."
+
+[[pregunta]]
+enunciado = "¿En qué material escribían los antiguos egipcios en rollos?"
+opciones = ["Papiro", "Pergamino", "Arcilla", "Seda"]
+correcta = "Papiro"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué piedra permitió a Champollion descifrar los jeroglíficos egipcios?"
+opciones = ["La piedra de Rosetta", "La piedra Moabita", "La piedra de Behistún", "La piedra del Sol"]
+correcta = "La piedra de Rosetta"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué dinastía gobernó Egipto en tiempos de Cleopatra?"
+opciones = ["Ptolemaica", "Faraónica", "Persa", "Ramésida"]
+correcta = "Ptolemaica"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué faraón firmó con los hititas el primer tratado de paz conocido, tras la batalla de Qadesh?"
+opciones = ["Ramsés II", "Keops", "Akenatón", "Tutmosis III"]
+correcta = "Ramsés II"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué ciudad griega desarrolló la democracia en el siglo V a. C.?"
+opciones = ["Atenas", "Esparta", "Corinto", "Tebas"]
+correcta = "Atenas"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde se celebraban los Juegos Olímpicos de la antigua Grecia?"
+opciones = ["Olimpia", "Atenas", "Delfos", "Esparta"]
+correcta = "Olimpia"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué estratagema usaron los griegos para entrar en Troya?"
+opciones = ["Un caballo de madera", "Un túnel", "Un barco fantasma", "Un disfraz de mercaderes"]
+correcta = "Un caballo de madera"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Contra qué imperio lucharon los griegos en la batalla de Maratón, en el 490 a. C.?"
+opciones = ["Persa", "Romano", "Egipcio", "Cartaginés"]
+correcta = "Persa"
+dificultad = 2
+tiempo = 15
+explicacion = "De ahí viene el nombre de la prueba atlética."
+
+[[pregunta]]
+enunciado = "¿Qué rey espartano murió defendiendo el paso de las Termópilas?"
+opciones = ["Leónidas", "Pericles", "Temístocles", "Agesilao"]
+correcta = "Leónidas"
+dificultad = 2
+tiempo = 15
+explicacion = "Lo acompañaban 300 espartanos y varios miles de aliados."
+
+[[pregunta]]
+enunciado = "¿Quién fue el maestro de Alejandro Magno?"
+opciones = ["Aristóteles", "Platón", "Sócrates", "Heródoto"]
+correcta = "Aristóteles"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué filósofo griego fue condenado a beber cicuta?"
+opciones = ["Sócrates", "Platón", "Aristóteles", "Epicuro"]
+correcta = "Sócrates"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Entre qué dos ciudades griegas se libró la guerra del Peloponeso?"
+opciones = ["Atenas y Esparta", "Atenas y Corinto", "Esparta y Tebas", "Tebas y Argos"]
+correcta = "Atenas y Esparta"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué acrópolis se alza el Partenón?"
+opciones = ["La de Atenas", "La de Corinto", "La de Esparta", "La de Tebas"]
+correcta = "La de Atenas"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dos hermanos son los legendarios fundadores de Roma?"
+opciones = ["Rómulo y Remo", "Rómulo y Numa", "Rómulo y Tarquinio", "Remo y Hércules"]
+correcta = "Rómulo y Remo"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué año a. C. se fundó Roma según la tradición?"
+opciones = ["753", "509", "44", "27"]
+correcta = "753"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la fecha en que fue asesinado Julio César, el 15 de marzo del 44 a. C.?"
+opciones = ["Idus de marzo", "Calendas de marzo", "Nonas de marzo", "Saturnales"]
+correcta = "Idus de marzo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué río cruzó Julio César desatando una guerra civil?"
+opciones = ["Rubicón", "Tíber", "Danubio", "Rin"]
+correcta = "Rubicón"
+dificultad = 2
+tiempo = 12
+explicacion = "Se le atribuye la frase «la suerte está echada»."
+
+[[pregunta]]
+enunciado = "¿Qué general cartaginés cruzó los Alpes con elefantes para atacar Roma?"
+opciones = ["Aníbal", "Asdrúbal", "Escipión", "Amílcar"]
+correcta = "Aníbal"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Contra qué ciudad libró Roma las guerras púnicas?"
+opciones = ["Cartago", "Atenas", "Alejandría", "Numancia"]
+correcta = "Cartago"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el gran anfiteatro de Roma donde combatían los gladiadores?"
+opciones = ["Coliseo", "Panteón", "Circo Máximo", "Foro"]
+correcta = "Coliseo"
+dificultad = 1
+tiempo = 15
+explicacion = "Se inauguró en el año 80 y cabían unos 50.000 espectadores."
+
+[[pregunta]]
+enunciado = "¿Qué gladiador lideró una gran rebelión de esclavos contra Roma?"
+opciones = ["Espartaco", "Máximo", "Aníbal", "Vercingétorix"]
+correcta = "Espartaco"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué emperador romano estaba en el poder durante el gran incendio de Roma del año 64?"
+opciones = ["Nerón", "Calígula", "Domiciano", "Marco Aurelio"]
+correcta = "Nerón"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué emperador romano concedió libertad de culto a los cristianos con el Edicto de Milán, en el 313?"
+opciones = ["Constantino", "Diocleciano", "Teodosio", "Trajano"]
+correcta = "Constantino"
+dificultad = 3
+tiempo = 20
+
+[[pregunta]]
+enunciado = "¿En qué año cayó el Imperio romano de Occidente?"
+opciones = ["476", "395", "410", "800"]
+correcta = "476"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciudad fue la capital del Imperio bizantino?"
+opciones = ["Constantinopla", "Roma", "Atenas", "Alejandría"]
+correcta = "Constantinopla"
+dificultad = 1
+tiempo = 12
+explicacion = "Hoy es Estambul."
+
+[[pregunta]]
+enunciado = "¿En qué año tomaron los turcos otomanos Constantinopla?"
+opciones = ["1453", "1492", "1204", "1066"]
+correcta = "1453"
+dificultad = 2
+tiempo = 12
+explicacion = "Hoy es Estambul."
+
+[[pregunta]]
+enunciado = "¿Qué emperador bizantino mandó construir Santa Sofía?"
+opciones = ["Justiniano", "Constantino", "Heraclio", "Teodosio"]
+correcta = "Justiniano"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién fue coronado emperador por el papa en el año 800?"
+opciones = ["Carlomagno", "Otón I", "Clodoveo", "Carlos Martel"]
+correcta = "Carlomagno"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué batalla de 1066 venció Guillermo el Conquistador a los anglosajones?"
+opciones = ["Hastings", "Agincourt", "Crécy", "Bannockburn"]
+correcta = "Hastings"
+dificultad = 2
+tiempo = 15
+explicacion = "Murió el rey Haroldo, según la tradición herido en un ojo."
+
+[[pregunta]]
+enunciado = "¿Qué epidemia mató a un tercio de Europa en el siglo XIV?"
+opciones = ["La peste negra", "La viruela", "El cólera", "La gripe"]
+correcta = "La peste negra"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué heroína francesa lideró la resistencia en la guerra de los Cien Años y murió en la hoguera?"
+opciones = ["Juana de Arco", "María Antonieta", "Leonor de Aquitania", "Catalina de Médici"]
+correcta = "Juana de Arco"
+dificultad = 1
+tiempo = 15
+explicacion = "Murió en Ruan en 1431, con 19 años."
+
+[[pregunta]]
+enunciado = "¿Qué documento firmó el rey Juan sin Tierra en 1215, limitando el poder real?"
+opciones = ["La Carta Magna", "El Edicto de Nantes", "El Bill of Rights", "El Domesday Book"]
+correcta = "La Carta Magna"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué explorador veneciano viajó a China en el siglo XIII?"
+opciones = ["Marco Polo", "Cristóbal Colón", "Américo Vespucio", "Vasco da Gama"]
+correcta = "Marco Polo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién fundó el Imperio mongol en el siglo XIII?"
+opciones = ["Gengis Kan", "Kublai Kan", "Tamerlán", "Atila"]
+correcta = "Gengis Kan"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién inventó la imprenta de tipos móviles en Europa hacia 1450?"
+opciones = ["Gutenberg", "Caxton", "Leonardo da Vinci", "Erasmo"]
+correcta = "Gutenberg"
+dificultad = 2
+tiempo = 15
+explicacion = "Su Biblia de 42 líneas fue uno de los primeros grandes libros impresos."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad italiana fue la cuna del Renacimiento, gobernada por los Médici?"
+opciones = ["Florencia", "Venecia", "Nápoles", "Milán"]
+correcta = "Florencia"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué museo de París se exhibe la Mona Lisa?"
+opciones = ["El Louvre", "El Orsay", "El Prado", "El Pompidou"]
+correcta = "El Louvre"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién pintó el techo de la Capilla Sixtina?"
+opciones = ["Miguel Ángel", "Rafael", "Leonardo da Vinci", "Botticelli"]
+correcta = "Miguel Ángel"
+dificultad = 1
+tiempo = 12
+explicacion = "Miguel Ángel tardó unos cuatro años, de 1508 a 1512."
+
+[[pregunta]]
+enunciado = "¿En qué año clavó Lutero sus 95 tesis, según la tradición?"
+opciones = ["1517", "1492", "1453", "1648"]
+correcta = "1517"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué astrónomo italiano defendió el heliocentrismo y fue juzgado por la Inquisición?"
+opciones = ["Galileo Galilei", "Copérnico", "Kepler", "Giordano Bruno"]
+correcta = "Galileo Galilei"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué rey inglés rompió con Roma y se casó seis veces?"
+opciones = ["Enrique VIII", "Eduardo VI", "Carlos I", "Ricardo III"]
+correcta = "Enrique VIII"
+dificultad = 1
+tiempo = 12
+explicacion = "Fundó la Iglesia anglicana tras no lograr anular su matrimonio."
+
+[[pregunta]]
+enunciado = "¿Qué escritor florentino escribió El Príncipe?"
+opciones = ["Maquiavelo", "Dante", "Petrarca", "Boccaccio"]
+correcta = "Maquiavelo"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué fortaleza parisina fue tomada el 14 de julio de 1789?"
+opciones = ["La Bastilla", "El Louvre", "Versalles", "Las Tullerías"]
+correcta = "La Bastilla"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué rey de Francia fue guillotinado en 1793?"
+opciones = ["Luis XVI", "Luis XIV", "Luis XVIII", "Carlos X"]
+correcta = "Luis XVI"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién dirigió el Terror durante la Revolución francesa?"
+opciones = ["Robespierre", "Danton", "Marat", "Lafayette"]
+correcta = "Robespierre"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué batalla fue derrotado definitivamente Napoleón en 1815?"
+opciones = ["Waterloo", "Austerlitz", "Leipzig", "Trafalgar"]
+correcta = "Waterloo"
+dificultad = 1
+tiempo = 15
+explicacion = "Se libró en la actual Bélgica contra Wellington y Blücher."
+
+[[pregunta]]
+enunciado = "¿En qué isla murió Napoleón en 1821?"
+opciones = ["Santa Elena", "Elba", "Córcega", "Malta"]
+correcta = "Santa Elena"
+dificultad = 2
+tiempo = 12
+explicacion = "Es una isla remota del Atlántico Sur."
+
+[[pregunta]]
+enunciado = "¿En qué año declararon su independencia las Trece Colonias?"
+opciones = ["1776", "1789", "1812", "1863"]
+correcta = "1776"
+dificultad = 1
+tiempo = 12
+explicacion = "La declaración se firmó el 4 de julio."
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer presidente de Estados Unidos?"
+opciones = ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"]
+correcta = "George Washington"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué presidente estadounidense abolió la esclavitud durante la guerra de Secesión?"
+opciones = ["Abraham Lincoln", "Ulysses Grant", "Andrew Jackson", "Theodore Roosevelt"]
+correcta = "Abraham Lincoln"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué libertador venezolano lideró la independencia de varios países sudamericanos?"
+opciones = ["Simón Bolívar", "José de San Martín", "Bernardo Higgins", "Francisco de Miranda"]
+correcta = "Simón Bolívar"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué país comenzó la Revolución Industrial?"
+opciones = ["Gran Bretaña", "Francia", "Alemania", "Estados Unidos"]
+correcta = "Gran Bretaña"
+dificultad = 1
+tiempo = 12
+explicacion = "Empezó en el siglo XVIII, con la industria textil y el vapor."
+
+[[pregunta]]
+enunciado = "¿Qué escocés perfeccionó la máquina de vapor en el siglo XVIII?"
+opciones = ["James Watt", "George Stephenson", "Thomas Edison", "Isaac Newton"]
+correcta = "James Watt"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año triunfó la Revolución rusa que llevó a los bolcheviques al poder?"
+opciones = ["1917", "1905", "1921", "1914"]
+correcta = "1917"
+dificultad = 1
+tiempo = 15
+explicacion = "Estalló en plena Primera Guerra Mundial."
+
+[[pregunta]]
+enunciado = "¿Quién lideró a los bolcheviques en 1917?"
+opciones = ["Lenin", "Stalin", "Trotski", "Kérenski"]
+correcta = "Lenin"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué zar ruso fue ejecutado junto a su familia en 1918?"
+opciones = ["Nicolás II", "Alejandro III", "Pedro I", "Iván IV"]
+correcta = "Nicolás II"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué atentado en Sarajevo, en 1914, desencadenó la Primera Guerra Mundial?"
+opciones = ["El asesinato del archiduque Francisco Fernando", "El hundimiento del Lusitania", "El telegrama Zimmermann", "La invasión de Bélgica"]
+correcta = "El asesinato del archiduque Francisco Fernando"
+dificultad = 1
+tiempo = 15
+explicacion = "El magnicidio ocurrió el 28 de junio de 1914."
+
+[[pregunta]]
+enunciado = "¿En qué año terminó la Primera Guerra Mundial?"
+opciones = ["1918", "1916", "1919", "1920"]
+correcta = "1918"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué tratado de 1919 impuso duras condiciones a Alemania tras la Primera Guerra Mundial?"
+opciones = ["Tratado de Versalles", "Tratado de Trianon", "Tratado de Utrecht", "Tratado de París"]
+correcta = "Tratado de Versalles"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año se produjo el crack de la Bolsa de Nueva York?"
+opciones = ["1929", "1914", "1939", "1945"]
+correcta = "1929"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué país invadió Alemania en septiembre de 1939 iniciando la Segunda Guerra Mundial?"
+opciones = ["Polonia", "Francia", "Checoslovaquia", "Austria"]
+correcta = "Polonia"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué base estadounidense atacó Japón en diciembre de 1941?"
+opciones = ["Pearl Harbor", "Guam", "Midway", "Manila"]
+correcta = "Pearl Harbor"
+dificultad = 1
+tiempo = 12
+explicacion = "Está en Hawái y el ataque fue el 7 de diciembre de 1941."
+
+[[pregunta]]
+enunciado = "¿Cómo se denomina el desembarco aliado en Normandía del 6 de junio de 1944?"
+opciones = ["Día D", "Operación Barbarroja", "Operación León Marino", "Blitz"]
+correcta = "Día D"
+dificultad = 1
+tiempo = 15
+explicacion = "Participaron unos 156.000 soldados aliados el primer día."
+
+[[pregunta]]
+enunciado = "¿Qué ciudad japonesa fue la primera en sufrir un ataque atómico, en 1945?"
+opciones = ["Hiroshima", "Nagasaki", "Tokio", "Kioto"]
+correcta = "Hiroshima"
+dificultad = 1
+tiempo = 15
+explicacion = "La bomba cayó el 6 de agosto de 1945."
+
+[[pregunta]]
+enunciado = "¿Qué batalla de 1942-1943 marcó el giro de la guerra en el frente oriental?"
+opciones = ["Stalingrado", "Kursk", "Moscú", "Leningrado"]
+correcta = "Stalingrado"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fue primer ministro británico durante la mayor parte de la Segunda Guerra Mundial?"
+opciones = ["Winston Churchill", "Neville Chamberlain", "Clement Attlee", "Anthony Eden"]
+correcta = "Winston Churchill"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué niña judía escribió un famoso diario mientras se escondía de los nazis en Ámsterdam?"
+opciones = ["Ana Frank", "Eva Braun", "Sophie Scholl", "Irène Némirovsky"]
+correcta = "Ana Frank"
+dificultad = 2
+tiempo = 15
+explicacion = "Su diario se publicó en 1947 gracias a su padre."
+
+[[pregunta]]
+enunciado = "¿Cómo se llamó la batalla aérea de 1940 en la que la RAF frenó a la Luftwaffe?"
+opciones = ["Batalla de Inglaterra", "Batalla de las Ardenas", "Batalla de Dunkerque", "Batalla del Atlántico"]
+correcta = "Batalla de Inglaterra"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año se levantó el Muro de Berlín?"
+opciones = ["1961", "1949", "1953", "1989"]
+correcta = "1961"
+dificultad = 2
+tiempo = 12
+explicacion = "Se empezó a levantar en agosto de 1961."
+
+[[pregunta]]
+enunciado = "¿Qué crisis de 1962 puso al mundo al borde de la guerra nuclear entre EE. UU. y la URSS?"
+opciones = ["Crisis de los misiles de Cuba", "Bloqueo de Berlín", "Guerra de Corea", "Crisis de Suez"]
+correcta = "Crisis de los misiles de Cuba"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué presidente estadounidense fue asesinado en Dallas en 1963?"
+opciones = ["John F. Kennedy", "Lyndon Johnson", "Richard Nixon", "Harry Truman"]
+correcta = "John F. Kennedy"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año se disolvió la Unión Soviética?"
+opciones = ["1991", "1985", "1989", "1999"]
+correcta = "1991"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué líder soviético impulsó la perestroika y la glasnost?"
+opciones = ["Gorbachov", "Brézhnev", "Jruschov", "Andropov"]
+correcta = "Gorbachov"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué líder encabezó la Revolución cubana que triunfó en 1959?"
+opciones = ["Fidel Castro", "Che Guevara", "Fulgencio Batista", "Salvador Allende"]
+correcta = "Fidel Castro"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué alianza militar firmaron en 1955 la URSS y sus países satélites?"
+opciones = ["Pacto de Varsovia", "OTAN", "COMECON", "SEATO"]
+correcta = "Pacto de Varsovia"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer satélite artificial de la historia, lanzado en 1957?"
+opciones = ["Sputnik 1", "Explorer 1", "Vostok 1", "Apolo 1"]
+correcta = "Sputnik 1"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer ser humano en viajar al espacio, en 1961?"
+opciones = ["Yuri Gagarin", "Neil Armstrong", "Alan Shepard", "Valentina Tereshkova"]
+correcta = "Yuri Gagarin"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué animal fue el primer ser vivo en orbitar la Tierra, a bordo del Sputnik 2?"
+opciones = ["La perra Laika", "El mono Albert", "El chimpancé Ham", "La tortuga Zond"]
+correcta = "La perra Laika"
+dificultad = 2
+tiempo = 15
+explicacion = "Era una esfera de 58 centímetros que emitía un pitido."
+
+[[pregunta]]
+enunciado = "¿En qué año pisó el ser humano la Luna por primera vez?"
+opciones = ["1969", "1961", "1965", "1972"]
+correcta = "1969"
+dificultad = 1
+tiempo = 12
+explicacion = "Fue con la misión Apolo 11, en julio."
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer hombre que pisó la Luna?"
+opciones = ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"]
+correcta = "Neil Armstrong"
+dificultad = 1
+tiempo = 12
+explicacion = "Dijo «un pequeño paso para el hombre, un gran salto para la humanidad»."
+
+[[pregunta]]
+enunciado = "¿Quién fue la primera mujer en viajar al espacio, en 1963?"
+opciones = ["Valentina Tereshkova", "Sally Ride", "Svetlana Savítskaya", "Peggy Whitson"]
+correcta = "Valentina Tereshkova"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué líder pacifista encabezó la independencia de la India en 1947?"
+opciones = ["Mahatma Gandhi", "Nehru", "Jinnah", "Ambedkar"]
+correcta = "Mahatma Gandhi"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué líder sudafricano fue liberado en 1990 tras 27 años de prisión?"
+opciones = ["Nelson Mandela", "Desmond Tutu", "Thabo Mbeki", "Steve Biko"]
+correcta = "Nelson Mandela"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué hermanos realizaron el primer vuelo de un avión con motor en 1903?"
+opciones = ["Hermanos Wright", "Hermanos Lumière", "Hermanos Montgolfier", "Hermanos Marx"]
+correcta = "Hermanos Wright"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué líder encabezó la proclamación de la República Popular China en 1949?"
+opciones = ["Mao Zedong", "Chiang Kai-shek", "Deng Xiaoping", "Sun Yat-sen"]
+correcta = "Mao Zedong"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál era el nombre del imperio gobernado por los incas, con capital en Cusco?"
+opciones = ["Tahuantinsuyo", "Aztlán", "Mixtlán", "Quechua"]
+correcta = "Tahuantinsuyo"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué ciudad contiene las antiguas ruinas romanas de cuando fue enterrada en lava proveniente del Vesuvio?"
+opciones = ["Pompeya", "Alcúdia", "Florencia", "Marsella"]
+correcta = "Pompeya"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué país era conocido por los antiguos romanos como «Hibernia»?"
+opciones = ["Irlanda", "Inglaterra", "Escocia", "Gales"]
+correcta = "Irlanda"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué monarca se le conocía como «El Rey Sol»?"
+opciones = ["Luis XIV", "Luis XVI", "Enrique VIII", "Enrique V"]
+correcta = "Luis XIV"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama al área entre dos trincheras enemigas?"
+opciones = ["Tierra de nadie", "Vida salvaje", "Reino de la muerte", "Riesgo"]
+correcta = "Tierra de nadie"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba a los Viet Minh cuando cruzaron a Vietnam del Sur?"
+opciones = ["Viet Cong", "Viet Mang", "Viet Lua", "Viet Nur"]
+correcta = "Viet Cong"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba el gobernador romano y principal agente en el asesinato de Julio César?"
+opciones = ["Marco Junio Bruto", "Calígula", "Marco Aurelio", "Marco Antonio"]
+correcta = "Marco Junio Bruto"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba el último emperador Alemán?"
+opciones = ["Guillermo II", "Bismarck", "Federico III", "Guillermo I"]
+correcta = "Guillermo II"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál era el rango militar más alto en la Alemania Nazi?"
+opciones = ["Reichsmarschall", "Marschall", "Himmler", "Kragenpatte"]
+correcta = "Reichsmarschall"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la palabra alemana para una estrategia de guerra que se utilizó mucho en la Segunda Guerra Mundial?"
+opciones = ["Blitzkrieg", "Siege", "Guerrilla", "Kampf"]
+correcta = "Blitzkrieg"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuándo capturaron los cruzados Jerusalén en la primera cruzada?"
+opciones = ["1099 d. C.", "1000 d. C.", "971 d. C.", "1116 d. C."]
+correcta = "1099 d. C."
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuándo fue el ataque a Pearl Harbor?"
+opciones = ["7 de Diciembre de 1941", "7 de Diciembre de 1945", "7 de Diciembre de 1942", "7 de Diciembre de 1943"]
+correcta = "7 de Diciembre de 1941"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuándo fundó Rómulo Roma?"
+opciones = ["753 a. C.", "604 a. C.", "660 a. C.", "850 a. C."]
+correcta = "753 a. C."
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuándo llegó Cristóbal Colón a América?"
+opciones = ["1492", "1139", "1556", "1455"]
+correcta = "1492"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuándo tuvo lugar la Guerra Civil Americana?"
+opciones = ["1861-1865", "1775-1783", "1899-1902", "1916-1924"]
+correcta = "1861-1865"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde y cuándo emergieron los primeros movimientos fascistas?"
+opciones = ["Italia en la Primera Guerra Mundial", "Alemania en la Segunda Guerra Mundial", "España en la Guerra Civil Española", "Rusia en la Revolución Rusa"]
+correcta = "Italia en la Primera Guerra Mundial"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuánto duró la Guerra de los Cien Años?"
+opciones = ["116 años", "100 años", "120 años", "122 años"]
+correcta = "116 años"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuánto hace que acabó la Edad de Hielo?"
+opciones = ["11.700 años", "140.000 años", "140 años", "1.400 años"]
+correcta = "11.700 años"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuánto tiempo llevaban sin celebrarse los Juegos Olímpicos cuando se reinstauraron?"
+opciones = ["15 siglos", "10 siglos", "5 siglos", "1 siglo"]
+correcta = "15 siglos"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué calendario era una reforma el calendario juliano del 46 a. C.?"
+opciones = ["Romano", "Griego", "Maya", "Gregoriano"]
+correcta = "Romano"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué país era Mata Hari una espía?"
+opciones = ["Alemania", "Países Bajos", "Gran Bretaña", "Bélgica"]
+correcta = "Alemania"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué año acabaron las negociaciones del Tratado de Versalles?"
+opciones = ["1919", "1945", "1937", "1939"]
+correcta = "1919"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué año atacó Alemania a Francia durante la Segunda Guerra Mundial?"
+opciones = ["1940", "1941", "1942", "1938"]
+correcta = "1940"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué año ocurrió el desastre nuclear de Chernobyl?"
+opciones = ["1986", "1989", "1985", "1991"]
+correcta = "1986"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué mes tuvo lugar la Revolución de Octubre?"
+opciones = ["Noviembre", "Julio", "Septiembre", "Diciembre"]
+correcta = "Noviembre"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Por qué territorio intercambió Gran Bretaña La Habana con España en 1763?"
+opciones = ["Florida", "California", "Menorca", "Gibraltar"]
+correcta = "Florida"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué emperador romano prohibió los Juegos Olímpicos en el 393 d. C.?"
+opciones = ["Teodosio I", "Julio César", "Calígula", "Gordiano II"]
+correcta = "Teodosio I"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué famoso líder murió en Santa Helena?"
+opciones = ["Napoleón Bonaparte", "Julio César", "Adolf Hitler", "Alejandro Magno"]
+correcta = "Napoleón Bonaparte"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué figura de la Segunda Guerra Mundial era popularmente conocida como «El Zorro del Desierto»?"
+opciones = ["Erwin Rommel", "Walter Scott", "Bismarck", "Eisenhower"]
+correcta = "Erwin Rommel"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué guerra se libró principalmente utilizando guerra de trincheras?"
+opciones = ["Primera Guerra Mundial", "Segunda Guerra Mundial", "Guerra del Golfo", "Guerra Civil Americana"]
+correcta = "Primera Guerra Mundial"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué pasó cuando Napoléon fue a asediar Moscú en 1812?"
+opciones = ["Los rusos redujeron Moscú a cenizas", "Napoleón murió congelado", "Los rusos se rindieron", "Napoleón exterminó a los rusos"]
+correcta = "Los rusos redujeron Moscú a cenizas"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién cabalgaba un caballo llamado Bucéfalo?"
+opciones = ["Alejandro Magno", "Genghis Khan", "El Cid", "Marco Aurelio"]
+correcta = "Alejandro Magno"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién cabalgaba un caballo llamado Marengo?"
+opciones = ["Napoleón", "El Cid", "Alejandro el Magno", "Genghis Khan"]
+correcta = "Napoleón"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién derrotó a Marco Antonio y a Cleopatra en la batalla de Accio?"
+opciones = ["Augusto", "Tiberio", "Claudio", "Nerón"]
+correcta = "Augusto"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el principal autor de la Declaración de Independencia de Estados Unidos en 1776?"
+opciones = ["Thomas Jefferson", "Alexander Hamilton", "George Washington", "John Adams"]
+correcta = "Thomas Jefferson"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fue el rey de Macedonia que conquistó la mayoría de Asia Menor y derrotó al Rey Poro en 326 a. C.?"
+opciones = ["Alejandro Magno", "Napoleón", "Julio César", "Carlomagno"]
+correcta = "Alejandro Magno"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Quién introdujo el calendario gregoriano en 1582?"
+opciones = ["El Papa", "El rey de Italia", "Un general francés", "Copérnico"]
+correcta = "El Papa"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién navegó en la Niña, la Pinta y la Santa María?"
+opciones = ["Cristóbal Colón", "Marco Polo", "Napoléon", "John Smith"]
+correcta = "Cristóbal Colón"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quiénes lucharon en la Guerra de los Cien Años?"
+opciones = ["Francia e Inglaterra", "Grecia y Persia", "Estados Unidos e Iraq", "El norte y el sur de Estados Unidos"]
+correcta = "Francia e Inglaterra"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer país en utilizar la pólvora?"
+opciones = ["China", "Gran Bretaña", "Babilonia", "Asiria"]
+correcta = "China"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué arma fue inventada por el oficial Ernest Swinton y utilizada en 1916?"
+opciones = ["Tanque", "Bazooka", "Metralleta", "Rifle de asalto"]
+correcta = "Tanque"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Que arma marina inventó Robert Whitehead en 1866?"
+opciones = ["Torpedo", "Tanque", "Submarino", "Mina naval"]
+correcta = "Torpedo"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué ciudad perdida descubrió Hiram Bingham III en 1911?"
+opciones = ["Machu Picchu", "Mesopotamia", "Alejandría", "Bali"]
+correcta = "Machu Picchu"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué decubrió Howard Carter en 1922?"
+opciones = ["La tumba de Tutankamón", "El cadáver de Cleopatra", "Las ropas de Julio César", "El cetro de Augusto"]
+correcta = "La tumba de Tutankamón"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué explorador llegó a Australia en 1770?"
+opciones = ["Capitán James Cook", "Vasco da Gama", "Marco Polo", "Fernando Magallanes"]
+correcta = "Capitán James Cook"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué explorador llegó a Brasil en 1500?"
+opciones = ["Pedro Álvares Cabral", "Fernando Magallanes", "Cristóbal Colón", "John Smith"]
+correcta = "Pedro Álvares Cabral"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué famoso explorador navegó en el Golden Hind?"
+opciones = ["Sir Francis Drake", "Cristóbal Colón", "Marco Polo", "John Smith"]
+correcta = "Sir Francis Drake"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue la primera persona en llegar al Polo Sur en 1911?"
+opciones = ["Roald Amundsen", "Adren de Gerlache", "Carstem Borchgrevink", "Robert Falcon Scott"]
+correcta = "Roald Amundsen"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué une a Brasil, Guinea-Bissau, Mozambique y Angola?"
+opciones = ["Colonias de Portugal", "Colonias de España", "El inglés es el idioma oficial", "Parte del imperio Maya"]
+correcta = "Colonias de Portugal"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál era el método más utilizado por el Ku Klux Klan para intimidar?"
+opciones = ["Quemar cruces", "Pintar paredes", "Destrozar jardines", "Mandar cartas"]
+correcta = "Quemar cruces"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuándo entró en vigor la constitución de la UNESCO?"
+opciones = ["1946", "1919", "1957", "1939"]
+correcta = "1946"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuándo se estableció la OTAN (Organización del Tratado del Atlántico Norte)?"
+opciones = ["4 de abril, 1949", "1 de septiembre, 1966", "12 de diciembre, 1990", "20 de enero, 1950"]
+correcta = "4 de abril, 1949"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué palabra griega adoptó su nombre el Ku Klux Klan?"
+opciones = ["Kuklos (Círculo)", "Kathairo (Purga)", "Kalare (Brillante)", "Kasin (Puro)"]
+correcta = "Kuklos (Círculo)"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué dos organizaciones de seguridad dominaron la era de la Guerra Fría?"
+opciones = ["OTAN y Pacto de Varsovia", "CIA y FBI", "FBI y OTAN", "CIA y Pacto de Varsovia"]
+correcta = "OTAN y Pacto de Varsovia"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué organización de derechos humanos fundada en 1961 obtuvo un Premio Nobel en 1977?"
+opciones = ["Amnistía Internacional", "UNESCO", "Freedom House", "Alianza Internacional de Mujeres"]
+correcta = "Amnistía Internacional"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué orden religiosa fundó Ignacio de Loyola?"
+opciones = ["Jesuitas", "Franciscanos", "Carmelitas", "Protestantes"]
+correcta = "Jesuitas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué presidente estadounidense dio su nombre a las Naciones Unidas?"
+opciones = ["Franklin D. Roosevelt", "George Washington", "Abraham Lincoln", "John F. Kennedy"]
+correcta = "Franklin D. Roosevelt"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el fundador de la Cruz Roja?"
+opciones = ["Henri Dunant", "Irving Stowe", "Jacques Bérès", "Ingrid Newkirk"]
+correcta = "Henri Dunant"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue el fundador y el jefe del grupo terrorista islámico de Al-Qaeda hasta 2011?"
+opciones = ["Osama Bin Laden", "Sadam Hussein", "Hibatullah Akhundzada", "Mohammed Yusuf"]
+correcta = "Osama Bin Laden"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A quién se le ofreció la presidencia de Israel en 1952, la cual rechazó?"
+opciones = ["Albert Einstein", "Woody Allen", "Isaac Asimov", "Leonard Cohen"]
+correcta = "Albert Einstein"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se conoce al partido de Hitler, que llegó al poder en 1933?"
+opciones = ["Partido Nazi", "Partido Democrático", "Partido Abierto", "Partido Separacionista"]
+correcta = "Partido Nazi"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se conoce también a la quinta enmienda de la Constitución de Estados Unidos?"
+opciones = ["Derecho a guardar silencio", "Derecho a llevar armas", "Derecho a un juicio rápido y justo", "Derecho a la libertad de expresión"]
+correcta = "Derecho a guardar silencio"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a la suspensión temporal de las hostilidades por mutuo consentimiento?"
+opciones = ["Armisticio", "Asedio", "Arbitración", "Asilo"]
+correcta = "Armisticio"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a un grupo de estados soberanos unidos para propósitos de acción común en relación con otros estados?"
+opciones = ["Confederación", "República", "Consejo", "Dictadura"]
+correcta = "Confederación"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a una unión de estados o regiones parcialmente autónomos bajo un gobierno central?"
+opciones = ["Federación", "República", "Coalición", "Autonomía"]
+correcta = "Federación"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se les llamaba a las bombas atómicas detonadas sobre Nagasaki e Hiroshima?"
+opciones = ["Fat Man y Little Boy", "Fat Boy y Little Girl", "Huge Man y Small Boy", "Huge Boy y Small Girl"]
+correcta = "Fat Man y Little Boy"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama a la relación política, económica o cultural entre dos estados soberanos?"
+opciones = ["Bilateralismo", "Relacionismo", "Comunidad", "Transaccionismo"]
+correcta = "Bilateralismo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba el sistema de segregación racial institucionalizado en Sudáfrica?"
+opciones = ["Apartheid", "Basskap", "Miskien", "Negentien"]
+correcta = "Apartheid"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué lema ganó Barack Obama su primera elección presidencial, aparte de «Change we can believe in»?"
+opciones = ["Yes, we can", "Here I am", "Not me, us", "Make America great again"]
+correcta = "Yes, we can"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es el término utilizado para describir la caída repentina de un gobierno provocada por una fuerza ilegal?"
+opciones = ["Golpe de estado", "Ataque al parlamento", "Guerra política", "Combate de país"]
+correcta = "Golpe de estado"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es la autoridad otorgada por una circunscripción electoral para actuar como su representante?"
+opciones = ["Mandato", "Permiso", "Concesión", "Mandamiento"]
+correcta = "Mandato"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la información sesgada o engañosa utilizada para promover una causa política o punto de vista?"
+opciones = ["Propaganda", "Agenda", "Junta", "Rally"]
+correcta = "Propaganda"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál fue el movimiento político para la reforma del Partido Comunista de la Unión Soviética durante la década de 1980?"
+opciones = ["Perestroika", "Peremena", "Pereklyucheniye", "Udaleniye"]
+correcta = "Perestroika"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuándo murió John F. Kennedy?"
+opciones = ["1963", "1965", "1964", "1962"]
+correcta = "1963"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuándo se convirtió Bill Clinton en presidente de Estados Unidos?"
+opciones = ["1993", "1990", "1986", "1999"]
+correcta = "1993"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuándo se desintegró formalmente la URSS en 15 repúblicas?"
+opciones = ["1991", "1992", "1993", "1994"]
+correcta = "1991"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántos años había pasado encarcelado Nelson Mandela antes de su liberación?"
+opciones = ["27", "12", "30", "35"]
+correcta = "27"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde tuvo lugar la «Revolución de Terciopelo» de 1989?"
+opciones = ["Checoslovaquia", "Estonia", "Letonia", "Ucrania"]
+correcta = "Checoslovaquia"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué año tuvieron lugar los ataques terroristas del 11 de septiembre?"
+opciones = ["2001", "2003", "2002", "2000"]
+correcta = "2001"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué forma de gobierno tiene una persona o entidad política el control total sobre un país o un grupo de países?"
+opciones = ["Dictadura", "Monarquía", "República", "Comunismo"]
+correcta = "Dictadura"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿En qué país fue asesinado Osama Bin Laden?"
+opciones = ["Pakistán", "Iraq", "Irán", "Afghanistán"]
+correcta = "Pakistán"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué figura política llevó a su pueblo a la independencia mediante el empleo de la desobediencia civil no violenta?"
+opciones = ["Mahatma Gandhi", "Rosa Parks", "Desmond Tutu", "George Washington"]
+correcta = "Mahatma Gandhi"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué ideología política establece la propiedad social y el control democrático de los medios de producción?"
+opciones = ["Socialismo", "Capitalismo", "Democracia", "Dictadura"]
+correcta = "Socialismo"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué movimiento tiene como principio la igualdad entre mujeres y hombres?"
+opciones = ["Feminismo", "Igualismo", "Sexismo", "Disforia de género"]
+correcta = "Feminismo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué proclamó John F. Kennedy en alemán cuando visitó Berlín en 1963?"
+opciones = ["Ich bin ein Berliner", "Ich bin ein Amerikaner", "Sind wir Freunde?", "Ich komme aus den USA"]
+correcta = "Ich bin ein Berliner"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué significó la firma del tratado de paz de Versalles?"
+opciones = ["Final de la Primera Guerra Mundial", "Final de la Segunda Guerra Mundial", "Final de la Guerra Civil Americana", "Final de la Guerra Fría"]
+correcta = "Final de la Primera Guerra Mundial"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué tipo de gobierno tenía Roma antes de ser un imperio y después de ser una monarquía?"
+opciones = ["República", "Dictadura", "No tenía gobierno central", "Matriarcado"]
+correcta = "República"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué une a Henri Dunant, Mikhail Gorbachev, Lech Walesa, Yasser Arafat y Barack Obama?"
+opciones = ["Premio Nobel de la paz", "Políticos americanos", "Afrodescendientes", "Presidentes de sus respectivos países"]
+correcta = "Premio Nobel de la paz"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué une al duque de Wellington, el conde de Derby, el marqués de Salisbury y Tony Blair?"
+opciones = ["Primeros Ministros del Reino Unido", "Compositores de música clásica ingleses", "Decanos de la Universidad de Brunel", "Dramaturgos galeses"]
+correcta = "Primeros Ministros del Reino Unido"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién es el único político que ha ocupado el cargo de Primer Ministro de Francia dos veces desde 1946?"
+opciones = ["Jacques Chirac", "Nicolas Sarkozy", "Édouard Philippe", "Jean-Pierre Raffarin"]
+correcta = "Jacques Chirac"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Quién es el único presidente estadounidense elegido sin oposición?"
+opciones = ["George Washington", "Barack Obama", "Bill Clinton", "Abraham Lincoln"]
+correcta = "George Washington"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue presidente de Iraq entre 1979 y 2003?"
+opciones = ["Saddam Hussein", "Osama Bin Laden", "Ahmed Hassan al-Bakr", "Barham Salih"]
+correcta = "Saddam Hussein"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién se convirtió en el primer presidente negro de Sudáfrica?"
+opciones = ["Nelson Mandela", "Thabo Mbeki", "Jacob Zuma", "Kgalema Motlanthe"]
+correcta = "Nelson Mandela"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la universidad más antigua de Europa que sigue en funcionamiento?"
+opciones = ["Universidad de Bolonia", "Universidad de Oxford", "Universidad de Aix-Marsella", "Universidad de Barcelona"]
+correcta = "Universidad de Bolonia"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué país pertenecían los aviones Spitfires en la Segunda Guerra Mundial?"
+opciones = ["Gran Bretaña", "Estados Unidos", "Francia", "Rusia"]
+correcta = "Gran Bretaña"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál era el destino del Titanic?"
+opciones = ["Nueva York", "Los Ángeles", "Miami", "Cabo Bretón"]
+correcta = "Nueva York"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál era el nombre del barco supuestamente imposible de hundir que se hundió en su viaje inaugural en 1912?"
+opciones = ["Titanic", "Mayflower", "Olympic", "Goliath"]
+correcta = "Titanic"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del avión supersónico que hizo vuelos intercontinentales desde 1976 hasta 2003?"
+opciones = ["Concorde", "Tupolev Tu-144", "English Electric Lightning", "Canadair CF-5"]
+correcta = "Concorde"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué sistema de transporte eléctrico subterráneo se inauguró en Londres en 1890?"
+opciones = ["Metro", "Alumbrado público", "Feria de coches", "Sistema de votación"]
+correcta = "Metro"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué país colaboró con el Reino Unido para construir el avión Concorde?"
+opciones = ["Francia", "Alemania", "Noruega", "Suecia"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué tren rompió la barrera de las 100 mph en 1934?"
+opciones = ["Flying Scotsman", "Sir Nigel Gresley", "Blue Peter", "Caerphilly Castle"]
+correcta = "Flying Scotsman"
+dificultad = 2
+tiempo = 14

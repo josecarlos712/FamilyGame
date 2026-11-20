@@ -1,0 +1,2290 @@
+# Parte de estas preguntas procede del «Spanish general knowledge megastudy»
+# (Buades-Sitjar, Planchuelo y Duñabeitia, 2021; figshare 10.6084/m9.figshare.14073899),
+# licencia CC BY 4.0. Revisadas y adaptadas; dificultad según el % de acierto real en España.
+[categoria]
+nombre = "Arte y Letras"
+icono = "🎨"
+color = "#da77f2"
+descripcion = "Pintura, literatura, música, mitología y lenguaje"
+
+[[pregunta]]
+enunciado = "¿A qué deidad griega representa la estatua de «El Coloso de Rodas»?"
+opciones = ["Helios", "Zeus", "Artemisa", "Hades"]
+correcta = "Helios"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué estilo arquitectónico pertenece el Big Ben?"
+opciones = ["Neogótico", "Neobarroco", "Neoclásico", "Neotudor"]
+correcta = "Neogótico"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se conoce comúnmente a la primera universidad de París?"
+opciones = ["La Sorbona", "El Diderot", "El Liceo", "El Saclay"]
+correcta = "La Sorbona"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el muro romano de 119 km de longitud del norte de Inglaterra?"
+opciones = ["Muro de Adriano", "Muro del Coliseo", "Muro del César", "Muro del Leviatán"]
+correcta = "Muro de Adriano"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el refugio hecho con nieve endurecida en el que viven los Inuit?"
+opciones = ["Iglú", "Cueva glaciar", "Cueva de nieve", "Quinzhee"]
+correcta = "Iglú"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la tienda de forma cónica en la que vivían los Nativos Americanos?"
+opciones = ["Tipi", "Chum", "Goahti", "Oca"]
+correcta = "Tipi"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué función se construyó originalmente el Louvre?"
+opciones = ["Fortaleza", "Bodega", "Biblioteca", "Universidad"]
+correcta = "Fortaleza"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál era el nombre del diseñador de la Torre Eiffel?"
+opciones = ["Alexandre Gustave", "Flaubert Abel", "Jean Bertrand", "Léon Dominique"]
+correcta = "Alexandre Gustave"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál fue durante más de 3.800 años la estructura más alta creada por el hombre?"
+opciones = ["Gran Pirámide de Guiza", "Torre de Babel", "Gran Muralla China", "Faro de Alejandría"]
+correcta = "Gran Pirámide de Guiza"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántas Maravillas del Mundo Antiguo solía haber?"
+opciones = ["7", "3", "5", "9"]
+correcta = "7"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué buscaba protegerse el imperio chino cuando construyó la Gran Muralla China?"
+opciones = ["Asaltos e invasiones nomádicas", "La inundación del Tangtze y el Huang He", "Un abrumador incendio", "Espíritus malignos"]
+correcta = "Asaltos e invasiones nomádicas"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué está hecho el esqueleto de la Torre Eiffel?"
+opciones = ["Hierro forjado", "Titanio", "Bronce sin pulir", "Cobre"]
+correcta = "Hierro forjado"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Dónde se encuentra el edificio conocido como el Atomium?"
+opciones = ["Bruselas", "Amsterdam", "París", "Luxemburgo"]
+correcta = "Bruselas"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Dónde se encuentra el hotel de lujo «Burj Al Arab», que parece la vela de un barco?"
+opciones = ["Dubai, Emiratos Árabes Unidos", "Doha, Qatar", "Kuwait, Kuwait", "Medina, Arabia Saudita"]
+correcta = "Dubai, Emiratos Árabes Unidos"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde se encuentra el monumento prehistórico Stonehenge?"
+opciones = ["Wiltshire, Inglaterra", "Waterford, Irlanda", "Swansea, Gales", "Stirling, Escocia"]
+correcta = "Wiltshire, Inglaterra"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Dónde se encuentra el Taj Mahal?"
+opciones = ["Agra, India", "Karachi, Pakistán", "Daca, Bangladesh", "Katmandú, Nepal"]
+correcta = "Agra, India"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde se encuentran las Torres Petronas?"
+opciones = ["Kuala Lumpur, Malasia", "Shanghái, China", "Manila, Filipinas", "Taskent, Uzbekistan"]
+correcta = "Kuala Lumpur, Malasia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde se pueden encontrar pirámides aparte de en Egipto?"
+opciones = ["México", "Rusia", "Australia", "Nueva Zelanda"]
+correcta = "México"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué ciudad europea se encuentra el Partenón?"
+opciones = ["Atenas", "Roma", "Maratón", "Heraclión"]
+correcta = "Atenas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se encuentra el estadio conocido como «El Nido del Pájaro»?"
+opciones = ["Pekín", "Seúl", "Tokio", "Singapur"]
+correcta = "Pekín"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se encuentran los edificios «The Gherkin» y «The Shard»?"
+opciones = ["Londres", "Nueva York", "Los Ángeles", "Sydney"]
+correcta = "Londres"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se halla la famosa estatua de «La Sirenita»?"
+opciones = ["Copenhague", "Estocolmo", "Helsinki", "San Petersburgo"]
+correcta = "Copenhague"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué ciudad es famosa por albergar una ópera que parece un conjunto de conchas?"
+opciones = ["Sydney", "Nueva York", "Milán", "París"]
+correcta = "Sydney"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué ciudad tiene la Catedral de San Basilio como su símbolo?"
+opciones = ["Moscú", "Belgrado", "Varsovia", "Praga"]
+correcta = "Moscú"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué edificio fue el más alto del mundo durante aproximadamente 40 años?"
+opciones = ["Empire State Building", "Edificio Chrysler", "World Trade Center", "432 Park Avenue"]
+correcta = "Empire State Building"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué edificio trepa King Kong en la película original de 1933?"
+opciones = ["Empire State Building", "World Trade Center", "MLC Centre", "Big Ben"]
+correcta = "Empire State Building"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué es una cariátide?"
+opciones = ["Estatua de mujer que hace de columna", "Criatura griega que trae fortuna", "Vidente de la Antigua Grecia", "Flor ornamental roja"]
+correcta = "Estatua de mujer que hace de columna"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué estilo arquitectónico da la sensación de que el edificio está fragmentado?"
+opciones = ["Deconstructivismo", "Futurismo", "Positivismo", "Nativismo"]
+correcta = "Deconstructivismo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué estilo arquitectónico representa la catedral de Notre Dame?"
+opciones = ["Gótico", "Renacimiento", "Barroco", "Modernismo"]
+correcta = "Gótico"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué estructura de 155 km de longitud fue demolida en 1989?"
+opciones = ["El Muro de Berlín", "El Muro de Palestina", "Los Muros Largos de Atenas", "La Gran Muralla de Gorgan"]
+correcta = "El Muro de Berlín"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué longitud tiene la Gran Muralla China?"
+opciones = ["21.196 km", "5.196 km", "12.196 km", "18.196 km"]
+correcta = "21.196 km"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Que Maravilla del Mundo Antiguo existe todavía?"
+opciones = ["La Gran Pirámide de Guiza", "Los Jardines Colgantes de Babilonia", "La Estatua de Zeus de Olimpia", "El Faro de Alejandría"]
+correcta = "La Gran Pirámide de Guiza"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué montaña tiene esculpidas las caras de 4 presidentes estadounidenses?"
+opciones = ["Monte Rushmore", "Monte Whitney", "Monte Joffre", "Monte Bandera"]
+correcta = "Monte Rushmore"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué país le regaló la Estatua de la Libertad a Estados Unidos?"
+opciones = ["Francia", "Reino Unido", "Italia", "Alemania"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué palacio real fue construido en Francia por el rey Luis XIV?"
+opciones = ["Palacio de Versalles", "Palacio del Elíseo", "Palacio de Luxemburgo", "Palacio de las Tullerías"]
+correcta = "Palacio de Versalles"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién diseñó la cúpula de la Basílica de San Pedro en el Vaticano?"
+opciones = ["Miguel Ángel", "Le Corbusier", "Leonardo da Vinci", "Antoni Gaudí"]
+correcta = "Miguel Ángel"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué movimientos artísticos pertenecía Picasso?"
+opciones = ["Cubismo y surrealismo", "Futurismo y desconstructivismo", "Expresionismo y realismo", "Impresionismo y naturalismo"]
+correcta = "Cubismo y surrealismo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo murió Vincent van Gogh?"
+opciones = ["Se suicidó", "Por los humos tóxicos de sus pinturas", "Asesinado por Gaugin", "Tuberculosis"]
+correcta = "Se suicidó"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el famoso cuadro de una mujer alzando la bandera francesa durante la Revolución Francesa?"
+opciones = ["La Libertad guiando al pueblo", "Viva la vida", "Batalla de Poitiers", "Guernica"]
+correcta = "La Libertad guiando al pueblo"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Con qué otro nombre se conoce a «La Gioconda»?"
+opciones = ["La Mona Lisa", "Le Rêve", "Retrato de la madre del artista", "La Joven de la Perla"]
+correcta = "La Mona Lisa"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Con qué otro nombre se conoce a la «Afrodita de Melos»?"
+opciones = ["Venus de Milo", "Atenea Partenos", "Venus Braschi", "Afrodita de Cnido"]
+correcta = "Venus de Milo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál era el nombre de la capilla cuyo techo fue pintado por Miguel Ángel?"
+opciones = ["Capilla Sixtina", "Capilla de San Pedro", "Acrópolis", "Iglesia de la Santa Sepultura"]
+correcta = "Capilla Sixtina"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la escultura y lugar de referencia más conocido de Bruselas?"
+opciones = ["Manneken Pis", "La Sirenita", "El Pensador", "Loba Capitolina"]
+correcta = "Manneken Pis"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De dónde sacaron principalmente la inspiración los arquitectos y escultores del Renacimiento?"
+opciones = ["Antigua Grecia y Roma", "Antiguo Egipto", "Antigua Sumeria", "Antigua Mexica"]
+correcta = "Antigua Grecia y Roma"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué compañía eran las latas de sopa que pintó Andy Warhol?"
+opciones = ["Campbell's", "Heinz", "Knorr", "Burrida"]
+correcta = "Campbell's"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué nacionalidad era el pintor Gustav Klimt?"
+opciones = ["Austriaco", "Alemán", "Italiano", "Checo"]
+correcta = "Austriaco"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué nacionalidad era el pintor Pierre-Auguste Renoir?"
+opciones = ["Francés", "Belga", "Holandés", "Suizo"]
+correcta = "Francés"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De quién es la obra «El Nacimiento de Venus»?"
+opciones = ["Sandro Botticelli", "Peter Paul Rubens", "William Tate", "Piet Mondrian"]
+correcta = "Sandro Botticelli"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde se puede encontrar el Buda de Oro valorado en 250 millones de dólares?"
+opciones = ["Bangkok", "Delhi", "Caracas", "Mumbai"]
+correcta = "Bangkok"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año pintó Leonardo Da Vinci la «Mona Lisa»?"
+opciones = ["1503-1506 d. C.", "1403-1406 d. C.", "1703-1706 d. C.", "1603-1606 d. C."]
+correcta = "1503-1506 d. C."
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué ciudad nació Leonardo da Vinci?"
+opciones = ["Vinci", "Roma", "Venecia", "Palermo"]
+correcta = "Vinci"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se encuentra la estatua de David, de Miguel Ángel?"
+opciones = ["Florencia", "Roma", "Atenas", "Salónica"]
+correcta = "Florencia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Por qué era famoso Donatello?"
+opciones = ["Esculturas", "Cuadros", "Murales", "Edificios"]
+correcta = "Esculturas"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué artista del renacimiento capturó las proporciones humanas perfectas en su cuadro «Hombre de Vitruvio»?"
+opciones = ["Leonardo da Vinci", "Vesalius", "Tiziano", "Fra Angélico"]
+correcta = "Leonardo da Vinci"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué artista era conocido por su fascinación con la danza, habiendo pintado muchas bailarinas?"
+opciones = ["Edgar Degas", "Claude Monet", "Vincent van Gogh", "Peter Paul Rubens"]
+correcta = "Edgar Degas"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué artista escribió las palabras «ceci n'est pas une pipe» (esto no es una pipa) en su cuadro de una pipa?"
+opciones = ["René Magritte", "Matisse", "Georges Simenon", "Georges Bizet"]
+correcta = "René Magritte"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué artista impresionista pintó la serie de óleos «Los Nenúfares»?"
+opciones = ["Claude Monet", "Pierre-Auguste Renoir", "Camille Pissarro", "Albrecht Dührer"]
+correcta = "Claude Monet"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué bailarina murió estrangulada en 1927 cuando se le enganchó la bufanda en las ruedas de un coche?"
+opciones = ["Isadora Duncan", "Diana Vishneva", "Evelyn Hart", "Tamara Rojo"]
+correcta = "Isadora Duncan"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué movimiento artístico fue creado por Seurat y Signat?"
+opciones = ["Puntillismo", "Cubismo", "Futurismo", "Surrealismo"]
+correcta = "Puntillismo"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué movimiento artístico ponía énfasis en la emoción, el individualismo y la glorificación del pasado y la naturaleza?"
+opciones = ["Romanticismo", "Modernismo", "Orientalismo", "Simbolismo"]
+correcta = "Romanticismo"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué obra de arte (normalmente una pintura al temple) está dividida en tres secciones?"
+opciones = ["Tríptico", "Tabernáculo", "Quincunce", "Estancia"]
+correcta = "Tríptico"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué pintor es famoso por su estilo ornamentado y el uso frecuente del color dorado en sus cuadros?"
+opciones = ["Gustav Klimt", "Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"]
+correcta = "Gustav Klimt"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué rama de la filosofía trata la naturaleza del arte y conceptos como la creatividad y la interpretación?"
+opciones = ["Estética", "Epistemología", "Ética", "Metafísica"]
+correcta = "Estética"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué técnica de pintura era «sin líneas o bordes, en forma de humo o más allá del plano de enfoque»?"
+opciones = ["Esfumado", "Esgrafiado", "Claroscuro", "Gouache"]
+correcta = "Esfumado"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué técnica para pintar murales se hace sobre mortero de cal húmeda?"
+opciones = ["Fresco", "Asonancia", "Armadura", "Reconocimiento"]
+correcta = "Fresco"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué técnica produce una imagen o patrón al aplicar pigmento a una superficie sobre un objeto con huecos?"
+opciones = ["Estarcido", "Impasto", "Divisionismo", "Plenairismo"]
+correcta = "Estarcido"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Quién era Cayo Mecenas?"
+opciones = ["Generoso patrón de las artes", "Rey griego de Micenas", "Dios griego de la fortuna", "General romano"]
+correcta = "Generoso patrón de las artes"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién es considerado uno de los primeros pintores abstractos?"
+opciones = ["Kandinski", "Rafael", "Vermeer", "Modigliani"]
+correcta = "Kandinski"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el joyero de la corte rusa que hizo los famosos huevos de pascua ornamentados?"
+opciones = ["Peter Carl Fabergé", "Mikhail Aniskushin", "Naum Gabo", "Vasily Demut-Malinovsky"]
+correcta = "Peter Carl Fabergé"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién pintó «El Grito»?"
+opciones = ["Edvard Munch", "Jan van Eyck", "Andy Warhol", "Jackson Pollock"]
+correcta = "Edvard Munch"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién pintó «El Jardín de Las Delicias»?"
+opciones = ["El Bosco", "Albretch Dürer", "Tiziano", "Caravaggio"]
+correcta = "El Bosco"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién pintó «La Última Cena»?"
+opciones = ["Leonardo da Vinci", "Miguel Ángel", "El Greco", "Rembrandt"]
+correcta = "Leonardo da Vinci"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién pintó la vanguardista y surrealista «La Persistencia de la Memoria»?"
+opciones = ["Salvador Dalí", "René Magritte", "Francisco Goya", "J. M. W. Turner"]
+correcta = "Salvador Dalí"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál de éstas es una conocida obra de Richard Wagner?"
+opciones = ["El anillo del nibelungo", "La reina de la noche", "Claro de luna", "Las cuatro estaciones"]
+correcta = "El anillo del nibelungo"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál de las óperas de Mozart está basada en la leyenda de Don Juan?"
+opciones = ["Don Giovanni", "Las bodas de Fígaro", "La flauta mágica", "La clemencia de Tito"]
+correcta = "Don Giovanni"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre de una canción secular para varias voces, especialmente del período del Renacimiento?"
+opciones = ["Madrigal", "Inseguendo", "Concerto", "Agglomerato"]
+correcta = "Madrigal"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del texto de una ópera?"
+opciones = ["Libreto", "Foliato", "Guiato", "Lirato"]
+correcta = "Libreto"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál fue la única ópera escrita por Beethoven?"
+opciones = ["Fidelio", "La bohème", "Rigoletto", "Carmen"]
+correcta = "Fidelio"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué compositor era Franz Liszt suegro?"
+opciones = ["Richard Wagner", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Antonio Vivaldi"]
+correcta = "Richard Wagner"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué compositor es la obra «El Barbero de Sevilla»?"
+opciones = ["Gioachino Rossini", "Pyotr Ilyich Tchaikovsky", "Antonio Vivaldi", "Samuel Scheidt"]
+correcta = "Gioachino Rossini"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De quién es el vals «El Danubio azul»?"
+opciones = ["Johann Strauss II", "Giacomo Puccini", "Richard Strauss", "Gioachino Rossini"]
+correcta = "Johann Strauss II"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se puede encontrar la famosa sala de conciertos «Carnegie Hall»?"
+opciones = ["Nueva York", "París", "Sidney", "Londres"]
+correcta = "Nueva York"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Para qué instrumento compuso Bach la «Tocata y fuga en re menor»?"
+opciones = ["Órgano", "Violín", "Arpa", "Flauta"]
+correcta = "Órgano"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué compositor clásico escribió las Rapsodias Húngaras?"
+opciones = ["Franz Liszt", "Igor Stravinsky", "Georges Bizet", "Giacomo Puccini"]
+correcta = "Franz Liszt"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué compositor empezó a componer a los 5 años?"
+opciones = ["Wolfgang Amadeus Mozart", "Ludovico Einaudi", "Antonio Vivaldi", "Antonio Salieri"]
+correcta = "Wolfgang Amadeus Mozart"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué compositor envió una serie de cartas de amor a una mujer desconocida a la que llamaba «Amada Inmortal»?"
+opciones = ["Ludwig van Beethoven", "Franz Liszt", "Igor Stravinsky", "Johann Sebastian Bach"]
+correcta = "Ludwig van Beethoven"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué compositor es famoso por sus 9 sinfonías?"
+opciones = ["Ludwig van Beethoven", "Richard Wagner", "Wolfgang Amadeus Mozart", "Antonio Vivaldi"]
+correcta = "Ludwig van Beethoven"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué discapacidad sensorial desarrolló Beethoven?"
+opciones = ["Sordera", "Ceguera", "Alexia", "Agnosia"]
+correcta = "Sordera"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué famoso compositor barroco era también un maestro organista?"
+opciones = ["Johann Sebastian Bach", "Antonio Vivaldi", "Jean-Baptiste Lully", "Arcangelo Corelli"]
+correcta = "Johann Sebastian Bach"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué instrumento inventó Bartolomeo Cristofori?"
+opciones = ["Piano", "Flauta", "Guitarra", "Arpa"]
+correcta = "Piano"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué instrumento musical inventó Johann Cristoph Denner?"
+opciones = ["Clarinete", "Guitarra", "Oboe", "Trompeta"]
+correcta = "Clarinete"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué otra profesión aparte de compositor tenía Vivaldi?"
+opciones = ["Sacerdote", "Químico", "Pintor", "Granjero"]
+correcta = "Sacerdote"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué pieza musical se toca como lamento tras la muerte de alguien?"
+opciones = ["Réquiem", "Concerto", "Cantata", "Sonata"]
+correcta = "Réquiem"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué se utilizaba para dirigir la orquesta antes de que se inventara la batuta?"
+opciones = ["Bastón", "Espada de madera", "Arco de violín", "Dos dagas de madera"]
+correcta = "Bastón"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué significa la palabra «Bolshói» en el «Teatro Bolshói»?"
+opciones = ["Grande", "Rojo", "El mejor", "Grácil"]
+correcta = "Grande"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué virtuoso del violín era tan bueno al tocarlo que se rumoreaba que había vendido su alma al diablo?"
+opciones = ["Niccolò Paganini", "Wolfgang Amadeus Mozart", "Arcangelo Corelli", "Antonio Vivaldi"]
+correcta = "Niccolò Paganini"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Quién compuso «Cuadros de una exposición»?"
+opciones = ["Modest Mussorgsky", "Mily Balakirev", "César Cui", "Alexander Borodin"]
+correcta = "Modest Mussorgsky"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién compuso el «Himno de la alegría», el himno oficial de la Unión Europea?"
+opciones = ["Ludwig van Beethoven", "Johann Sebastian Bach", "Mozart", "Antonio Vivaldi"]
+correcta = "Ludwig van Beethoven"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién compuso la ópera «Carmen»?"
+opciones = ["Georges Bizet", "Maurice Ravel", "Giuseppe Verdi", "Wolfgang Amadeus Mozart"]
+correcta = "Georges Bizet"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién compuso la ópera en 4 actos llamada «Aída»?"
+opciones = ["Giuseppe Verdi", "Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Andre Gabrieli"]
+correcta = "Giuseppe Verdi"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién compuso la pieza orquestral de un solo movimiento llamada «Bolero»?"
+opciones = ["Maurice Ravel", "Erich Leinsdorf", "William Steinberg", "Leonard Bernstein"]
+correcta = "Maurice Ravel"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién compuso los ballets «La Bella Durmiente» y «El Cascanueces»?"
+opciones = ["Pyotr Ilyich Tchaikovsky", "Modest Mussorgsky", "Igor Stravinsky", "Mily Balakirev"]
+correcta = "Pyotr Ilyich Tchaikovsky"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién escribió la música para los ballets «El pájaro de fuego» y «La consagración de la primavera»?"
+opciones = ["Igor Stravinsky", "Gioachino Rossini", "Johann Sebastian Bach", "Giuseppe Verdi"]
+correcta = "Igor Stravinsky"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Quién escribió las óperas «Madam Butterfly», «La bohème» y «Tosca»?"
+opciones = ["Giacomo Puccini", "Richard Wagner", "Giuseppe Verdi", "Franz Liszt"]
+correcta = "Giacomo Puccini"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el compositor de «Las cuatro estaciones»?"
+opciones = ["Antonio Vivaldi", "Ludwig van Beethoven", "Johann Sebastian Bach", "Wolfgang Amadeus Mozart"]
+correcta = "Antonio Vivaldi"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántos idiomas oficiales tiene Suiza?"
+opciones = ["4", "3", "2", "5"]
+correcta = "4"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De dónde viene el nombre de Europa?"
+opciones = ["Mitología griega", "Mitología romana", "Mitología eslava", "Mitología anglosajona"]
+correcta = "Mitología griega"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a la creencia de que maximizar el placer es la forma de alcanzar la felicidad?"
+opciones = ["Hedonismo", "Axiología", "Estoicismo", "Deontología"]
+correcta = "Hedonismo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el poderoso individuo que Nietzsche veía como meta para la humanidad?"
+opciones = ["Superhombre", "Superego", "Superhumano", "Superpersona"]
+correcta = "Superhombre"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué filósofo se asocia habitualmente el «imperativo categórico»?"
+opciones = ["Immanuel Kant", "René Descartes", "Jügen Habermas", "Hannah Arendt"]
+correcta = "Immanuel Kant"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Con qué movimiento filosófico se asocia principalmente al «Círculo de Viena»?"
+opciones = ["Empiricismo lógico", "Significatividad cognitiva", "Antipositivismo", "Historicismo"]
+correcta = "Empiricismo lógico"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del estudiante más famoso de Sócrates?"
+opciones = ["Platón", "Aristóteles", "Damasio", "Diógenes"]
+correcta = "Platón"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la doctrina que prioriza proporcionar el mayor bien para la mayor cantidad de personas?"
+opciones = ["Utilitarismo", "Altruismo ético", "Egoísmo ético", "Deontología"]
+correcta = "Utilitarismo"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la opinión de que el universo opera como una máquina de acuerdo con la ley de causa y efecto?"
+opciones = ["Mecanicismo", "Relojerismo", "Logicismo", "Pasismo"]
+correcta = "Mecanicismo"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué doctrina crearon los filósofos alemanes Karl Marx y Friedrich Engels?"
+opciones = ["Comunismo", "Psicoanálisis", "Deontología", "Sofismo"]
+correcta = "Comunismo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué doctrina filosófica argumenta que la vida carece de significado objetivo, propósito o valor intrínseco?"
+opciones = ["Nihilismo", "Hedonismo", "Empirismo", "Mecanicismo"]
+correcta = "Nihilismo"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué doctrina sostiene que todos los humanos son fundamentalmente iguales en valor o estatus social?"
+opciones = ["Igualitarismo", "Aciología", "Cartesianismo", "Ecumenismo"]
+correcta = "Igualitarismo"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué es lo que hace que las sociedades humanas se desarrollen según la ideología de Karl Marx?"
+opciones = ["Lucha de clases", "Unidad de clases", "Salto de clases", "Rotación de clases"]
+correcta = "Lucha de clases"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué estudio filosófico aborda la naturaleza del ser y la existencia o realidad?"
+opciones = ["Ontología", "Estética", "Ética", "Epistemología"]
+correcta = "Ontología"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué famoso trabajo filosófico incluye el Mito de la Caverna?"
+opciones = ["«República» de Platón", "«Metafísica» de Aristóteles", "«El Anticristo» de Nietzsche", "«Lógica» de Kant"]
+correcta = "«República» de Platón"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué filosofía afirma que la realidad tal como la conocemos es una construcción mental o, de otra manera, inmaterial?"
+opciones = ["Idealismo", "Racionalismo", "Sofismo", "Ecumenismo"]
+correcta = "Idealismo"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué filosofía enfatiza el papel de la razón en la obtención de conocimiento?"
+opciones = ["Racionalismo", "Empirismo", "Hedonismo", "Estoicismo"]
+correcta = "Racionalismo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué filosofía enfatiza que todo conocimiento se basa en la experiencia y niega la posibilidad de ideas innatas?"
+opciones = ["Empirismo", "Racionalismo", "Cinismo", "Estoicismo"]
+correcta = "Empirismo"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué filósofo ateniense no escribió ningún libro, y en su lugar sus enseñanzas fueron inmortalizadas por Platón?"
+opciones = ["Sócrates", "Aristóteles", "Epicuro", "Tales de Mileto"]
+correcta = "Sócrates"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué filósofo dijo «Sólo sé que no sé nada»?"
+opciones = ["Sócrates", "Nietzsche", "Kant", "Descartes"]
+correcta = "Sócrates"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué filósofo dijo: «Pienso, luego existo»?"
+opciones = ["René Descartes", "Emmanuel Kant", "Platón", "John Locke"]
+correcta = "René Descartes"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué filósofo griego escribió «La República»?"
+opciones = ["Platón", "Aristóteles", "Sócrates", "Séneca"]
+correcta = "Platón"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué filósofo griego escribió «Metafísica»?"
+opciones = ["Aristóteles", "Platón", "Sócrates", "Diógenes"]
+correcta = "Aristóteles"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué filósofo existencialista escribió «El ser y la nada»?"
+opciones = ["Jean-Paul Sartre", "Søren Kierkegaard", "Friedrich Nietzche", "Friedrich Nietzsche"]
+correcta = "Jean-Paul Sartre"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué pensador enseñaba que el hombre era bueno por naturaleza y era la sociedad la que lo corrompía?"
+opciones = ["Jean-Jacques Rousseau", "John Locke", "Thomas Hobbes", "Aristóteles"]
+correcta = "Jean-Jacques Rousseau"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué rama de la filosofía explora la naturaleza fundamental de la realidad?"
+opciones = ["Metafísica", "Ética", "Estética", "Hedonismo"]
+correcta = "Metafísica"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué une a Sartre, Nietzsche, Russell y Descartes?"
+opciones = ["Filosofía", "Economía", "Biología", "Deporte"]
+correcta = "Filosofía"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién desarrolló el método mayeútico?"
+opciones = ["Sócrates", "Platón", "Aristóteles", "Séneca"]
+correcta = "Sócrates"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién es conocido como el «padre del existencialismo»?"
+opciones = ["Søren Kierkegaard", "Gabriel Marcel", "Simone de Beauvoir", "Frederik Copleston"]
+correcta = "Søren Kierkegaard"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quiénes eran las personas comunes cuya única posesión era su fuerza de trabajo, según Karl Marx?"
+opciones = ["Proletariado", "Burguesía", "Comunistas", "Capitalistas"]
+correcta = "Proletariado"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué inventó el doctor polaco Ludwik Lejzer Zamenhof en 1887?"
+opciones = ["Esperanto", "Leyes de mercado libre", "Cubismo", "Sonetos"]
+correcta = "Esperanto"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se dice «barba» en latín?"
+opciones = ["Barba", "Bucca", "Beradum", "Borrum"]
+correcta = "Barba"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Con qué otro nombre se conoce la palabra japonesa «seppuku»?"
+opciones = ["Harakiri (Suicidio)", "Ramen (Fideos)", "Kokoro (Corazón)", "Mizu (Agua)"]
+correcta = "Harakiri (Suicidio)"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el idioma oficial de Andorra?"
+opciones = ["Catalán", "Español", "Francés", "Andorrano"]
+correcta = "Catalán"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el idioma oficial de Belice?"
+opciones = ["Inglés", "Portugués", "Francés", "Holandés"]
+correcta = "Inglés"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el idioma oficial de Jordania?"
+opciones = ["Árabe", "Francés", "Inglés", "Zulú"]
+correcta = "Árabe"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el idioma romance más hablado en el mundo?"
+opciones = ["Español", "Portugués", "Francés", "Rumano"]
+correcta = "Español"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la última letra del alfabeto griego?"
+opciones = ["Omega", "Sigma", "Alfa", "Épsilon"]
+correcta = "Omega"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuáles son algunos ejemplos de lenguas que no se han desarrollado naturalmente?"
+opciones = ["Dothraki, Klingon, Élfico", "Catalán, Euskera, Gallego", "Chino, Japonés, Coreano", "Hawaiano, Malayo, Tongano"]
+correcta = "Dothraki, Klingon, Élfico"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántas letras hay en el alfabeto inglés?"
+opciones = ["26", "30", "28", "24"]
+correcta = "26"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué idioma proviene la palabra «alfabeto»?"
+opciones = ["Griego", "Latín", "Sánscrito", "Árabe"]
+correcta = "Griego"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué países es el idioma oficial el farsi?"
+opciones = ["Irán, Afganistán y Tayikistán", "Uzbekistán y Kazajistán", "Farsia y Perusia", "Iraq, Kirguistán y Turkmenistán"]
+correcta = "Irán, Afganistán y Tayikistán"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué tribus antiguas toman el nombre al menos seis de los siete días de la semana en inglés?"
+opciones = ["Anglosajones", "Celtíberos", "Galos", "Inuit"]
+correcta = "Anglosajones"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué dirección se escribe el hebreo moderno?"
+opciones = ["De derecha a izquierda", "De izquierda a derecha", "De arriba a abajo", "De abajo a arriba"]
+correcta = "De derecha a izquierda"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué idioma rezan las personas de fe ortodoxa rusa?"
+opciones = ["Eslavo eclesiástico", "Alto sorabo", "Protoeslavo", "Silesio"]
+correcta = "Eslavo eclesiástico"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué idiomas «God Jul» significa «Feliz Navidad»?"
+opciones = ["Sueco, noruego y danés", "Alemán y rumano", "Polaco y ruso", "Checo, eslovaco y bielorruso"]
+correcta = "Sueco, noruego y danés"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué país es el urdu la lengua nacional y la lingua franca?"
+opciones = ["Pakistán", "Turkmenistán", "Kazajistán", "Mongolia"]
+correcta = "Pakistán"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué país se habla el idioma zulú?"
+opciones = ["Sudáfrica", "Kenia", "Sudán", "Chad"]
+correcta = "Sudáfrica"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué es el esperanto?"
+opciones = ["Una lengua", "Una bebida alcohólica", "Una marca de coches", "Una banda famosa de los años 80"]
+correcta = "Una lengua"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué expresión encajaría con la idea de un «desliz freudiano»?"
+opciones = ["Lapsus linguae", "Ab epistus", "Ex silentio", "Coniunctis viribus"]
+correcta = "Lapsus linguae"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué frase denota una falsa demostración de tristeza?"
+opciones = ["Lágrimas de cocodrilo", "Lágrimas de lagartija", "Lágrimas de serpiente", "Lágrimas de tortuga"]
+correcta = "Lágrimas de cocodrilo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué grupo de idiomas suele dividirse en goidélico y británico?"
+opciones = ["Celtas", "Germánicos", "Romances", "Occitanos"]
+correcta = "Celtas"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué historia explica la existencia de los diferentes idiomas?"
+opciones = ["Torre de Babel", "Ícaro y el sol", "Arca de Noé", "Éxodo"]
+correcta = "Torre de Babel"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué idioma es una combinación de alemán, hebreo, arameo y algunos idiomas eslavos y lenguas romances?"
+opciones = ["Yidis", "Occitano", "Urdu", "Dehlavi"]
+correcta = "Yidis"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué idioma tiene el alfabeto más largo del mundo?"
+opciones = ["Camboyano", "Español", "Árabe", "Hawaiano"]
+correcta = "Camboyano"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué lengua romance tiene una inteligibilidad mutua del 85% con el portugués?"
+opciones = ["Gallego", "Español", "Italiano", "Rumano"]
+correcta = "Gallego"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué letras usaban varios idiomas germánicos para escribir antes de adoptar el alfabeto latino?"
+opciones = ["Runas", "Kanjis", "Sánscritos", "Welchers"]
+correcta = "Runas"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué palabra describe mejor a una tarea ingrata, insoportable, repetitiva e interminable?"
+opciones = ["Sisífea", "Orfeista", "Pelopsiana", "Otrerana"]
+correcta = "Sisífea"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué significa «televisión»?"
+opciones = ["Visión lejana", "Miope", "Ver imágenes", "Sonido y luz"]
+correcta = "Visión lejana"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significa el nombre del antiguo idioma «sánscrito»?"
+opciones = ["Perfecto, refinado", "Simple, conciso", "Fuerte, duradero", "Rápido, ágil"]
+correcta = "Perfecto, refinado"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué significa la palabra «sóviet»?"
+opciones = ["Consejo", "Camarada", "Oso", "Reino"]
+correcta = "Consejo"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significa la palabra japonesa «origami»?"
+opciones = ["Papel doblado", "Creación preciosa", "Dar vida", "Pájaros voladores"]
+correcta = "Papel doblado"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significa la palabra sánscrita «yoga»?"
+opciones = ["Unión", "Poder", "Riqueza", "Paz"]
+correcta = "Unión"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significa literalmente la expresión latina «ad hoc»?"
+opciones = ["Para esto", "Por ejemplo", "Al hombre", "Esto es"]
+correcta = "Para esto"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué término denota una declaración breve y concisa?"
+opciones = ["Laconismo", "Estoicismo", "Maquiavelismo", "Nepotismo"]
+correcta = "Laconismo"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué transmite la frase «Et tu, Brute?»?"
+opciones = ["Traición", "Frustración", "Enfado", "Felicidad"]
+correcta = "Traición"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el socio de Sherlock Holmes?"
+opciones = ["Dr. Watson", "Dr. Walton", "Dr. Wallace", "Dr. Willy"]
+correcta = "Dr. Watson"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Con qué se pincha el dedo la bella durmiente de los hermanos Grimm antes de caer en un profundo sueño?"
+opciones = ["Huso", "Rosa", "Erizo", "Astilla"]
+correcta = "Huso"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Con quién comete adulterio Anna Karenina?"
+opciones = ["Conde Vronsky", "Oblonsky", "Rasputín", "El Zar"]
+correcta = "Conde Vronsky"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del capitán en «Moby Dick»?"
+opciones = ["Ahab", "Ismael", "Elijah", "Bildad"]
+correcta = "Ahab"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el primer nombre del escritor de cuentos argentino Borges?"
+opciones = ["Jorge Luis", "Gregoire", "Ignacio", "Pedro José"]
+correcta = "Jorge Luis"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer libro de James Bond?"
+opciones = ["Casino Royale", "Vive y deja morir", "Moonraker", "Los diamantes son para siempre"]
+correcta = "Casino Royale"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál fue la última novela (inacabada) de Charles Dickens?"
+opciones = ["El misterio de Edwin Drood", "El guardavía", "Nuestro común amigo", "Grandes esperanzas"]
+correcta = "El misterio de Edwin Drood"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué ciudad vivía Julieta, de Shakespeare?"
+opciones = ["Verona", "Venecia", "Viena", "Valencia"]
+correcta = "Verona"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué novela distópica se decía que Gran Hermano vigilaba a los ciudadanos?"
+opciones = ["1984", "Un mundo feliz", "Rebelión en la granja", "Divergente"]
+correcta = "1984"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué siglo publicaron los hermanos Grimm su primera colección de cuentos de hadas?"
+opciones = ["19", "17", "15", "16"]
+correcta = "19"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué adjetivo usa F. Scott Fitzgerald en el título de su libro para describir a su protagonista Jay Gatsby?"
+opciones = ["Gran", "Famoso", "Majestuoso", "Asombroso"]
+correcta = "Gran"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué escritor de ciencia ficción escribió las tres leyes de la robótica?"
+opciones = ["Isaac Asimov", "H. P. Lovecraft", "Aaron Allston", "William Golding"]
+correcta = "Isaac Asimov"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué famoso personaje infantil creó Carlo Collodi?"
+opciones = ["Pinocho", "Cenicienta", "La Sirenita", "Rapunzel"]
+correcta = "Pinocho"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué físico teórico es el autor de «Breve historia del tiempo»?"
+opciones = ["Stephen Hawking", "Samuel Edwards", "Ugo Fano", "Vladimir Arnold"]
+correcta = "Stephen Hawking"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué libro autobiográfico fue publicado por Adolf Hitler en 1925?"
+opciones = ["Mein Kampf", "Mi nuevo orden", "Deustchen Reich", "Nazismo"]
+correcta = "Mein Kampf"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué novela de Charles Dickens se considera una autobiografía?"
+opciones = ["David Copperfield", "Oliver Twist", "Cuento de Navidad", "Historia de dos ciudades"]
+correcta = "David Copperfield"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué novela se considera una obra central de la literatura mundial y uno de los mejores logros literarios de Tolstoy?"
+opciones = ["Guerra y paz", "Anna Karenina", "El reino de Dios está en vosotros", "La muerte de Iván Ilich"]
+correcta = "Guerra y paz"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué tienen en común los personajes de Shakespeare «Cleopatra», «Romeo» y «Otelo»?"
+opciones = ["Se suicidaron", "Eran soberanos", "Sufrían acrofobia", "Eran dotados artistas"]
+correcta = "Se suicidaron"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué une a Frank Herbert, Samuel Delany, H. G. Wells, Frederik Pohl y Harlan Ellison?"
+opciones = ["Literatura de ciencia ficción", "Poesía romántica", "Pintura cubista", "Música clásica"]
+correcta = "Literatura de ciencia ficción"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién creó «Tarzán» en 1912?"
+opciones = ["Edgar Rice Burroughs", "Los hermanos Grimm", "Hans Christian Andersen", "Rudyard Kipling"]
+correcta = "Edgar Rice Burroughs"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién es conocido como el «Bardo de Avon»?"
+opciones = ["William Shakespeare", "Francis Bacon", "John Ford", "Edmund Spencer"]
+correcta = "William Shakespeare"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién es el autor de la novela «Los miserables»?"
+opciones = ["Victor Hugo", "Alium Tofler", "G. Wynne", "Fedric"]
+correcta = "Victor Hugo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Anna Karenina»?"
+opciones = ["Leo Tolstoy", "Boris Pasternak", "Victor Hugo", "Lewis Carroll"]
+correcta = "Leo Tolstoy"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Crimen y castigo»?"
+opciones = ["Fyodor Dostoyevsky", "Vladimir Nabokov", "Lewis Carroll", "Alexander Solzhenitsyn"]
+correcta = "Fyodor Dostoyevsky"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Doctor Zhivago»?"
+opciones = ["Boris Pasternak", "Stanislaw Lem", "Henryk Sienkiewicz", "Roald Dahl"]
+correcta = "Boris Pasternak"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién escribió «El retrato de Dorian Gray» en 1890?"
+opciones = ["Oscar Wilde", "Robert Musil", "Aldous Huxley", "C. S. Lewis"]
+correcta = "Oscar Wilde"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Las aventuras de Huckleberry Finn»?"
+opciones = ["Mark Twain", "Charles Dickens", "Roald Dahl", "Enid Blyton"]
+correcta = "Mark Twain"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Las aventuras de Tom Sawyer»?"
+opciones = ["Mark Twain", "John Ruskin", "William Shakespeare", "Leo Tolstoy"]
+correcta = "Mark Twain"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién escribió «Los viajes de Gulliver»?"
+opciones = ["Jonathan Swift", "Alexandre Dumas", "Charles Lamb", "Charles Dickens"]
+correcta = "Jonathan Swift"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién escribió la novela «Robinson Crusoe»?"
+opciones = ["Daniel Defoe", "Jonathan Swift", "Roald Dahl", "Charles Dickens"]
+correcta = "Daniel Defoe"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién escribió la serie de libros de Harry Potter?"
+opciones = ["J. K. Rowling", "J. R. R. Tolkien", "George R. R. Martin", "Rick Riordan"]
+correcta = "J. K. Rowling"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el creador de «Sherlock Holmes»?"
+opciones = ["Arthur Conan Doyle", "Ian Fleming", "Dr. Watson", "Shakespeare"]
+correcta = "Arthur Conan Doyle"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A qué dos «más allá» iban los guerreros que morían en combate en la mitología nórdica?"
+opciones = ["Valhalla y Fólkvangr", "Elivagar y Bifrost", "Gimli y Alfheim", "Helheim y Idavol"]
+correcta = "Valhalla y Fólkvangr"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A qué grupo pertenecía Atlas en la mitología griega?"
+opciones = ["Titanes", "Dioses", "Gigantes", "Semidioses"]
+correcta = "Titanes"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A quién castigó la diosa Atenea convirtiéndola en una araña?"
+opciones = ["Aracne", "Iris", "Pandora", "Medusa"]
+correcta = "Aracne"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A quién quería rescatar del inframundo Orfeo?"
+opciones = ["Eurídice", "Apolo", "Calíope", "Perséfone"]
+correcta = "Eurídice"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Asclepius era el héroe y dios griego de qué?"
+opciones = ["Medicina", "Matemáticas", "Naturaleza", "Caza"]
+correcta = "Medicina"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la batalla final, la muerte de los dioses y el fin del mundo en la mitología nórdica?"
+opciones = ["Ragnarök", "Mjölnir", "Valhalla", "Hella"]
+correcta = "Ragnarök"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la isla que desde la antigüedad se cree que se hundió en el océano?"
+opciones = ["Atlántida", "Antártida", "Deeptena", "Te fiti"]
+correcta = "Atlántida"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba el martillo del dios nórdico Thor?"
+opciones = ["Mjölnir", "Eir", "Göll", "Kára"]
+correcta = "Mjölnir"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llaman las figuras que deciden qué guerreros viven o mueren en la mitología nórdica?"
+opciones = ["Valkirias", "Enanos", "Brunnmigi", "Fafnir"]
+correcta = "Valkirias"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál de estos es un reino nórdico, gobernado por Odín?"
+opciones = ["Asgard", "Rorgard", "Malagard", "Durgard"]
+correcta = "Asgard"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál era el hogar de los dioses griegos?"
+opciones = ["Monte Olimpo", "Coloseo", "Hades", "Partenón"]
+correcta = "Monte Olimpo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál era el término para la arrogancia de alguien ante los dioses en la mitología griega?"
+opciones = ["Hubris", "Humor", "Bilis", "Panteón"]
+correcta = "Hubris"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál era la diosa griega del amor?"
+opciones = ["Afrodita", "Atenea", "Artemisa", "Diana"]
+correcta = "Afrodita"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál era la diosa nórdica del amor, sexo, belleza, fertilidad, oro, brujería y guerra?"
+opciones = ["Freyja", "Frigg", "Sif", "Idun"]
+correcta = "Freyja"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál fue la primera mujer creada por los dioses según la mitología griega?"
+opciones = ["Pandora", "Perséfone", "Megara", "Calíope"]
+correcta = "Pandora"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos reinos une el árbol Yggdrasil en la mitología nórdica?"
+opciones = ["9", "7", "5", "3"]
+correcta = "9"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué animal tenía forma el dios egipcio Sobek?"
+opciones = ["Cocodrilo", "Águila", "Serpiente", "Gato"]
+correcta = "Cocodrilo"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué era Démeter diosa según la mitología griega?"
+opciones = ["Agricultura", "Amor", "Sabiduría", "Caza"]
+correcta = "Agricultura"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué era dios Freyr según la mitología nórdica?"
+opciones = ["Fertilidad y virilidad", "Sabiduría y conocimiento", "Muerte", "Risa"]
+correcta = "Fertilidad y virilidad"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué era diosa Hathor según la mitología egipcia?"
+opciones = ["Maternidad, música y baile", "Sol y luz", "Sabiduría", "Cosecha"]
+correcta = "Maternidad, música y baile"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué era diosa Minerva según la mitología romana?"
+opciones = ["Sabiduría", "Muerte", "Cosecha", "Belleza"]
+correcta = "Sabiduría"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué es dios Agni en la mitología hindú?"
+opciones = ["Fuego", "Agua", "Tierra", "Aire"]
+correcta = "Fuego"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué isla se forjó Excalibur, la espada del rey Arturo, según la leyenda?"
+opciones = ["Avalon", "Camelot", "Morgana", "Uther"]
+correcta = "Avalon"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Para qué pueblo antiguo era Marduk el dios del agua, la vegetación, el juicio y la magia?"
+opciones = ["Babilonios", "Egipcios", "Celtas", "Eslavos"]
+correcta = "Babilonios"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué animal amamantó a Rómulo y Remo según la mitología romana?"
+opciones = ["Loba", "Cerda", "Yegua", "Osa"]
+correcta = "Loba"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué criatura mitológica era mitad hombre mitad caballo?"
+opciones = ["Centauro", "Minotauro", "Cíclope", "Caribdis"]
+correcta = "Centauro"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué dios griego era el dios del cielo, el gobernante de todos los demás dioses e infame por su flirteo?"
+opciones = ["Zeus", "Poseidón", "Hades", "Hermes"]
+correcta = "Zeus"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué dios nórdico murió al ser envenenado por una serpiente monstruosa, según la leyenda nórdica del fin del mundo?"
+opciones = ["Thor", "Loki", "Meili", "Ullr"]
+correcta = "Thor"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué dios, conocido como el mensajero de los dioses, era el hijo de Zeus y Maia?"
+opciones = ["Hermes", "Apolo", "Dioniso", "Poseidón"]
+correcta = "Hermes"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué dos dioses son los gobernantes de los dos «más allá» en la mitología nórdica?"
+opciones = ["Odín y Freyja", "Thor y Loki", "Váli y Vili", "Hella y Zisa"]
+correcta = "Odín y Freyja"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué era Nessus, el asesino de Hércules?"
+opciones = ["Centauro", "Minotauro", "Esfinge", "Quimera"]
+correcta = "Centauro"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué es una rusalka?"
+opciones = ["Ninfa de agua rusa", "Monstruo celta de las montañas", "Hada griega de la cosecha", "Espíritu doméstico chino"]
+correcta = "Ninfa de agua rusa"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué fue lo único que quedó en la caja de Pandora después de que dejase salir todos los males del mundo?"
+opciones = ["Esperanza", "Venganza", "Futuro", "Bondad"]
+correcta = "Esperanza"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué grupo de gigantes míticos lideraba Polifemo?"
+opciones = ["Cíclopes", "Asterios", "Gratios", "Hecatónquiros"]
+correcta = "Cíclopes"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué hizo Pigmalión según la mitología griega?"
+opciones = ["Se enamoró de una estatua que esculpió", "Se comió a sus propios hijos", "Vendió a su familia", "Todo lo que tocaba se convertía en oro"]
+correcta = "Se enamoró de una estatua que esculpió"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué le robó Prometeo a los dioses para dárselo a la humanidad?"
+opciones = ["Fuego", "Oro", "Juventud", "Magia"]
+correcta = "Fuego"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué mitología tiene dioses como Odin, Thor, Freyja y Njörðr?"
+opciones = ["Nórdica", "Eslava", "Griega", "Hindú"]
+correcta = "Nórdica"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué mitología tiene dioses como Rod, Perun, Vesna y Svarog?"
+opciones = ["Eslava", "Nórdica", "Sumeria", "Polinesia"]
+correcta = "Eslava"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué monstruo tiene cuerpo de león, una cabeza de cabra sobre su espalda y una serpiente como cola?"
+opciones = ["Quimera", "Esfinge", "Hipogrifo", "Minotauro"]
+correcta = "Quimera"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién era el dios romano de la riqueza y la agricultura?"
+opciones = ["Saturno", "Urano", "Neptuno", "Mercurio"]
+correcta = "Saturno"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién era el padre del dios nórdico Thor?"
+opciones = ["Odín", "Loki", "Njörðr", "Asgard"]
+correcta = "Odín"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién era la antigua diosa griega del arco iris?"
+opciones = ["Iris", "Atenea", "Afrodita", "Diana"]
+correcta = "Iris"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién era la diosa griega que castigaba a aquellos que eran arrogantes ante los dioses?"
+opciones = ["Némesis", "Nix", "Ápate", "Keres"]
+correcta = "Némesis"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién es el dios del trueno en la mitología nórdica?"
+opciones = ["Thor", "Odin", "Loki", "Vili"]
+correcta = "Thor"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién es la narradora de «Las noches árabes» («Las 1.001 noches»)?"
+opciones = ["Sheherazade", "Aladino", "Ali Baba", "Shahryar"]
+correcta = "Sheherazade"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fabricó el martillo del dios nórdico Thor?"
+opciones = ["Enanos", "Trolls", "Elfos", "Brujas"]
+correcta = "Enanos"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue el mensajero del mar y el hijo de Poseidón y Anfitrite?"
+opciones = ["Tritón", "Hermes", "Neptuno", "Ninfa"]
+correcta = "Tritón"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién mató a la gorgona Medusa en la mitología griega?"
+opciones = ["Perseo", "Heracles", "Aquiles", "Homero"]
+correcta = "Perseo"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién salvó a Andrómeda del monstruo marino Ceto?"
+opciones = ["Perseo", "Zeus", "Poseidón", "Afrodita"]
+correcta = "Perseo"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién se enamoró de su propio reflejo?"
+opciones = ["Narciso", "Iris", "Medusa", "Heracles"]
+correcta = "Narciso"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A quién se le conoce a menudo como el «Rey del rock and roll»?"
+opciones = ["Elvis Presley", "Steve Perry", "Paul McCartney", "Jon Bon Jovi"]
+correcta = "Elvis Presley"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Bajo qué alias lanzó Snoop Dogg un álbum de reggae?"
+opciones = ["Snoop Lion", "Snoop Tiger", "Snoop Leopard", "Snoop Cheetah"]
+correcta = "Snoop Lion"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Con qué dos bandas está relacionado Dave Grohl?"
+opciones = ["Foo Fighters y Nirvana", "Aerosmith y AC/DC", "Black Sabbath y Kiss", "Metallica y Seether"]
+correcta = "Foo Fighters y Nirvana"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre artístico del rapero estadounidense nacido como Marshall Bruce Mathers III?"
+opciones = ["Eminem", "50 Cent", "Dr Dre", "Lil' Wayne"]
+correcta = "Eminem"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer artista que cantó «What a Wonderful World»?"
+opciones = ["Louis Armstrong", "Stevie Wonder", "Frank Sinatra", "Bono"]
+correcta = "Louis Armstrong"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer hit de las Spice Girls?"
+opciones = ["Wannabe", "Lose Yourself", "What a Girl Wants", "Toxic"]
+correcta = "Wannabe"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer sencillo número uno de Madonna en la lista Billboard Hot 100?"
+opciones = ["Like a Virgin", "Material Girl", "Like a Prayer", "Vogue"]
+correcta = "Like a Virgin"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál fue la primera boy band estadounidense en ganar fama internacional a finales de la década de 1980?"
+opciones = ["New Kids on the Block", "N'Sync", "Backstreet Boys", "Westlife"]
+correcta = "New Kids on the Block"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿De qué banda es el álbum «The Dark Side of the Moon», en cuya portada hay un prisma?"
+opciones = ["Pink Floyd", "Nirvana", "Red Hot Chili Peppers", "The Rolling Stones"]
+correcta = "Pink Floyd"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué icono musical eran las canciones «Can't Help Falling in Love» y «Love Me Tender»?"
+opciones = ["Elvis Presley", "Frank Sinatra", "Billy Joel", "«Nat »King« Cole»"]
+correcta = "Elvis Presley"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué año ganó ABBA el Festival de Eurovisión?"
+opciones = ["1974", "1980", "1976", "1982"]
+correcta = "1974"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué artista masculino ganó un récord de 8 premios Grammy en una noche en 1984?"
+opciones = ["Michael Jackson", "Bryan Adams", "John Lennon", "Usher"]
+correcta = "Michael Jackson"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué artista será recordado por sus éxitos «Purple Rain» y «When Doves Cry»?"
+opciones = ["Prince", "Michael Jackson", "Stevie Wonder", "Billy Joel"]
+correcta = "Prince"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué banda cantó «Losing My Religion»?"
+opciones = ["R.E.M.", "Radiohead", "Creed", "Nirvana"]
+correcta = "R.E.M."
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué banda compuso el álbum «Highway to Hell»?"
+opciones = ["AC/DC", "Metallica", "Guns N' Roses", "Black Sabbath"]
+correcta = "AC/DC"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué banda tuvo como miembros a Jagger, Richards, Watts y Wood?"
+opciones = ["The Rolling Stones", "Heart", "Alice in Chains", "Radiohead"]
+correcta = "The Rolling Stones"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué banda fue formada por Gilmour, Barett, Waters, Wright y Mason?"
+opciones = ["Pink Floyd", "Led Zeppelin", "The Who", "U2"]
+correcta = "Pink Floyd"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué canción fue una colaboración entre Queen y David Bowie?"
+opciones = ["Under Pressure", "Radio Gaga", "Show Must Go On", "I Want to Break Free"]
+correcta = "Under Pressure"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué cantante es conocida por el sencillo «My Heart Will Go On»?"
+opciones = ["Celine Dion", "Whitney Houston", "Mariah Carey", "Bonnie Tyler"]
+correcta = "Celine Dion"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué es el K-pop?"
+opciones = ["Un género musical surcoreano", "Un tipo de caramelo", "Un tipo de bomba", "Un material de construcción"]
+correcta = "Un género musical surcoreano"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué estrella de rock murió de cáncer de hígado el 10 de enero de 2016?"
+opciones = ["David Bowie", "Freddy Mercury", "Marilyn Manson", "Axl Rose"]
+correcta = "David Bowie"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué famosa banda de rock tenía como cantante a alguien cuyo verdadero nombre era Farrokh Bulsara?"
+opciones = ["Queen", "Aerosmith", "Guns N' Roses", "Journey"]
+correcta = "Queen"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué género musical se originó en Seattle a principios de la década de 1990?"
+opciones = ["Grunge", "EDM", "Soul", "Pop"]
+correcta = "Grunge"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué miembro de los Beatles se casó con Yoko Ono?"
+opciones = ["John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison"]
+correcta = "John Lennon"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué músico tenía un alter ego llamado «Ziggy Stardust»?"
+opciones = ["David Bowie", "Freddy Mercury", "Lady Gaga", "Elton John"]
+correcta = "David Bowie"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué popular grupo de pop, activo de 1972 a 1982, se formó en Estocolmo?"
+opciones = ["ABBA", "Roxette", "A-ha", "Ace of Base"]
+correcta = "ABBA"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué significa la abreviatura DJ en el mundo de la música?"
+opciones = ["Disc jockey", "Dancing jockey", "Drum jockey", "Dubstep jockey"]
+correcta = "Disc jockey"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién cantó las palabras «you may say I'm a dreamer, but I'm not the only one» en 1971?"
+opciones = ["John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison"]
+correcta = "John Lennon"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién co-escribió la canción «Fame» con David Bowie?"
+opciones = ["John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison"]
+correcta = "John Lennon"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el cantante principal de Led Zeppelin?"
+opciones = ["Robert Plant", "Jimmy Page", "John Paul Jones", "John Bonham"]
+correcta = "Robert Plant"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer batería de los Beatles?"
+opciones = ["Pete Best", "Ringo Starr", "Stuart Sutcliffe", "George Harrison"]
+correcta = "Pete Best"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién mató a John Lennon en Nueva York en 1980?"
+opciones = ["Mark Chapman", "Jack Ruby", "Yoko Ono", "Annie Leibovitz"]
+correcta = "Mark Chapman"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quiénes son Benny, Björn, Agnetha y Frida?"
+opciones = ["Miembros de ABBA", "Los creadores de los Grammy", "Alter egos artísticos de Cher", "Los protagonistas de Los Miserables"]
+correcta = "Miembros de ABBA"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significa CIA?"
+opciones = ["Central Intelligence Agency", "Central Information Agency", "Central Investigation Agency", "Central Inquiring Agency"]
+correcta = "Central Intelligence Agency"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué significa literalmente «Hezbolá»?"
+opciones = ["Partido de Dios", "Cordero de Dios", "Dios es misericordioso", "Dios es poderoso"]
+correcta = "Partido de Dios"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significa UNICEF?"
+opciones = ["United Nations Children's Fund", "United Nations Capital Fund", "United Nations Commerce Fund", "United Nations Collaboration Fund"]
+correcta = "United Nations Children's Fund"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué significa la palabra «politika»?"
+opciones = ["Asuntos de las ciudades", "Gobernar", "Discusión pública", "Sentarse y hablar"]
+correcta = "Asuntos de las ciudades"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A dónde peregrinan los enfermos en Francia?"
+opciones = ["Lourdes", "Étretat", "Giverny", "Bayeux"]
+correcta = "Lourdes"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A quién se le apareció Dios en el monte Horeb según la Biblia?"
+opciones = ["Moisés", "Salomón", "Noé", "Virgen María"]
+correcta = "Moisés"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién reside tradicionalmente en verano en el palacio de Castel Gandolfo?"
+opciones = ["Al Papa", "A los arzobispos", "A los franciscanos", "A los jesuitas"]
+correcta = "Al Papa"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama al conjunto de todos los dioses de una religión, mitología o tradición?"
+opciones = ["Panteón", "Santuario", "Altar", "Templo"]
+correcta = "Panteón"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el maestro y guía religioso judío?"
+opciones = ["Rabino", "Chamán", "No hay sacerdotes judíos", "Bhikkhu"]
+correcta = "Rabino"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llaman respectivamente el cielo y el infierno en el islam?"
+opciones = ["Jannah y Jahannam", "Moksha y Samsara", "Alharara y Albard", "Bikuli Surur y Alam"]
+correcta = "Jannah y Jahannam"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el día de ayuno más conocido del judaísmo?"
+opciones = ["Yom Kippur", "Rosh Hashanah", "Hoshana Rabbah", "Tishri"]
+correcta = "Yom Kippur"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el lugar de culto para el judaísmo?"
+opciones = ["Sinagoga", "Primer templo", "No tienen lugar de culto", "Monasterio"]
+correcta = "Sinagoga"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el último libro de la Biblia?"
+opciones = ["Apocalipsis", "Éxodo", "Génesis", "Deuteronomio"]
+correcta = "Apocalipsis"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la creencia de que la existencia de Dios o lo sobrenatural es desconocida e incognoscible?"
+opciones = ["Agnosticismo", "Ateísmo", "Politeísmo", "Antiteísmo"]
+correcta = "Agnosticismo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la forma correcta de dirigirse al Papa?"
+opciones = ["Su Santidad", "Su Alteza", "Padre Celestial", "Santo Emisario del Señor"]
+correcta = "Su Santidad"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuáles son los dioses o espíritus que invitan a los humanos a la muerte en la cultura japonesa?"
+opciones = ["Shinigami", "Chochinbi", "Amemasu", "Furabiri"]
+correcta = "Shinigami"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuándo fue crucificado Jesucristo?"
+opciones = ["30-33 d. C.", "1-4 d. C.", "55-58 d. C.", "4-1 a. C."]
+correcta = "30-33 d. C."
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuándo nació Buda Gautama?"
+opciones = ["563-483 a. C.", "752-564 a. C.", "586-420 a. C.", "1021-863 a. C."]
+correcta = "563-483 a. C."
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuándo nació el profeta Mahoma, fundador del Islam?"
+opciones = ["570 d. C.", "868 d. C.", "1138 d. C.", "420 d. C."]
+correcta = "570 d. C."
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De quién fue el cadáver que se comieron los perros en el Antiguo Testamento?"
+opciones = ["Jezabel", "Nabot", "Noé", "Abdías"]
+correcta = "Jezabel"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde fue bautizado Cristo por Juan el Bautista?"
+opciones = ["Río Jordán", "Mar Rojo", "Mar Muerto", "Río Nazaret"]
+correcta = "Río Jordán"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué creen los politeístas?"
+opciones = ["Múltiples deidades", "Una deidad", "Ninguna deidad", "Múltiples religiones"]
+correcta = "Múltiples deidades"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué país se originó el budismo?"
+opciones = ["India", "China", "Tailandia", "Japón"]
+correcta = "India"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué religión se celebra el Ramadán?"
+opciones = ["Islam", "Judaísmo", "Taoísmo", "Hinduismo"]
+correcta = "Islam"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué creó Dios el quinto día?"
+opciones = ["La criaturas marinas y los pájaros", "La luz", "Los humanos", "Los árboles y las frutas"]
+correcta = "La criaturas marinas y los pájaros"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué fe religiosa celebra el Diwali?"
+opciones = ["Hinduismo", "Budismo", "Islam", "Taoísmo"]
+correcta = "Hinduismo"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué líder espiritual vivió en Palacio Potala durante casi 3 siglos?"
+opciones = ["Dalai Lama", "Somdet Phra", "Califa", "Rabino"]
+correcta = "Dalai Lama"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué religión prohíbe la cremación?"
+opciones = ["Islam", "Cristianismo", "Hinduismo", "Sintoísmo"]
+correcta = "Islam"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué religión se basa en la creencia en varios kami, seres espirituales sobrenaturales que mueven todo en el mundo?"
+opciones = ["Sintoísmo", "Sijismo", "Zoroastrismo", "Hinduismo"]
+correcta = "Sintoísmo"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué religión tiene como deidad a Ahura Mazda?"
+opciones = ["Zoroastrismo", "Sintoísmo", "Juche", "Jainismo"]
+correcta = "Zoroastrismo"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué religión tiene como deidades a Brahma, Saraswati y Harihara?"
+opciones = ["Hinduismo", "Taoísmo", "Sijismo", "Budismo"]
+correcta = "Hinduismo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué religión tiene como lugar de culto los «templos de fuego»?"
+opciones = ["Zoroastrismo", "Sintoísmo", "Judaísmo", "Taoísmo"]
+correcta = "Zoroastrismo"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué siglas significan «Jesús de Nazaret, rey de los judíos»?"
+opciones = ["INRI", "SERA", "YANO", "OINA"]
+correcta = "INRI"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué significa la palabra «shinto»?"
+opciones = ["Camino de los dioses", "Espíritus de la naturaleza", "Dos seres", "Equilibrio y orden"]
+correcta = "Camino de los dioses"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué simboliza la esvástica en la religión india del jainismo?"
+opciones = ["Suerte y bienestar", "Mal y el diablo", "Poder y dominancia", "Espíritu y cuerpo"]
+correcta = "Suerte y bienestar"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué personaje bíblico se asocia tradicionalmente con la Torre de Babel?"
+opciones = ["Nemrod", "Esther", "Aarón", "Caín"]
+correcta = "Nemrod"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer Papa?"
+opciones = ["San Pedro", "San Lino", "San Clemente", "San Alejandro"]
+correcta = "San Pedro"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién ordenó la ejecución de Juan el Bautista?"
+opciones = ["Herodes Antipas", "Poncio Pilato", "Julio César", "Salomé I"]
+correcta = "Herodes Antipas"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién traicionó a Jesús ante el consejo judicial y religioso judío por 30 monedas de plata?"
+opciones = ["Judas Iscariote", "Judas Tadeo", "Jaime, hijo de Alfeo", "Bartolomé"]
+correcta = "Judas Iscariote"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Sobre qué mar caminó Jesús según la Biblia?"
+opciones = ["Mar de Galilea", "Mar Muerto", "Mar Rojo", "Mar Mediterráneo"]
+correcta = "Mar de Galilea"
+dificultad = 3
+tiempo = 13

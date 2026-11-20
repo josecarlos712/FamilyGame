@@ -54,3 +54,1448 @@ opciones = ["La paja", "El hierro", "Lo mismo"]
 correcta = "Lo mismo"
 tiempo = 4
 lectura = 2
+
+[[pregunta]]
+enunciado = "¿Qué animal ladra?"
+opciones = ["Perro", "Gato", "Pájaro"]
+correcta = "Perro"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal maúlla?"
+opciones = ["Conejo", "Gato", "Perro"]
+correcta = "Gato"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué animal sale la lana?"
+opciones = ["Vaca", "Gallina", "Oveja"]
+correcta = "Oveja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal pone huevos?"
+opciones = ["Gallina", "Vaca", "Cerdo"]
+correcta = "Gallina"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién es el rey de la selva?"
+opciones = ["La rana", "El león", "El ratón"]
+correcta = "El león"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene trompa?"
+opciones = ["Jirafa", "Caballo", "Elefante"]
+correcta = "Elefante"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene el cuello más largo?"
+opciones = ["Jirafa", "Cebra", "Oso"]
+correcta = "Jirafa"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal salta y croa?"
+opciones = ["Tortuga", "Rana", "Pez"]
+correcta = "Rana"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal vive en el mar?"
+opciones = ["Vaca", "Burro", "Ballena"]
+correcta = "Ballena"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal vuela?"
+opciones = ["Águila", "Cerdo", "Perro"]
+correcta = "Águila"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal hace «cuac»?"
+opciones = ["Perro", "Pato", "Vaca"]
+correcta = "Pato"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal hace «oinc»?"
+opciones = ["Gallo", "Caballo", "Cerdo"]
+correcta = "Cerdo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal canta «quiquiriquí»?"
+opciones = ["Gallo", "Pato", "Burro"]
+correcta = "Gallo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene rayas blancas y negras?"
+opciones = ["Elefante", "Cebra", "Jirafa"]
+correcta = "Cebra"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal lleva la casa a cuestas?"
+opciones = ["Perro", "Pato", "Caracol"]
+correcta = "Caracol"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene orejas largas y salta?"
+opciones = ["Conejo", "Pez", "Tortuga"]
+correcta = "Conejo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal hace la miel?"
+opciones = ["Hormiga", "Abeja", "Mosca"]
+correcta = "Abeja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal teje telarañas?"
+opciones = ["Abeja", "Gusano", "Araña"]
+correcta = "Araña"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene joroba?"
+opciones = ["Camello", "Caballo", "Vaca"]
+correcta = "Camello"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tiene un perro?"
+opciones = ["6", "4", "2"]
+correcta = "4"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tiene un pájaro?"
+opciones = ["4", "6", "2"]
+correcta = "2"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal es un mamífero?"
+opciones = ["Delfín", "Tiburón", "Atún"]
+correcta = "Delfín"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la cría de la vaca?"
+opciones = ["Potro", "Ternero", "Cordero"]
+correcta = "Ternero"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la cría de la oveja?"
+opciones = ["Ternero", "Pollito", "Cordero"]
+correcta = "Cordero"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué ave no vuela y vive en el frío?"
+opciones = ["Pingüino", "Loro", "Águila"]
+correcta = "Pingüino"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal da la leche que bebemos?"
+opciones = ["Pato", "Vaca", "Gallina"]
+correcta = "Vaca"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es el plátano?"
+opciones = ["Azul", "Rojo", "Amarillo"]
+correcta = "Amarillo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la hierba?"
+opciones = ["Verde", "Rosa", "Negro"]
+correcta = "Verde"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es un tomate maduro?"
+opciones = ["Morado", "Rojo", "Azul"]
+correcta = "Rojo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la nieve?"
+opciones = ["Negro", "Verde", "Blanco"]
+correcta = "Blanco"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué color sale al mezclar azul y amarillo?"
+opciones = ["Verde", "Rojo", "Naranja"]
+correcta = "Verde"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué color sale al mezclar rojo y blanco?"
+opciones = ["Gris", "Rosa", "Verde"]
+correcta = "Rosa"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es una zanahoria?"
+opciones = ["Azul", "Violeta", "Naranja"]
+correcta = "Naranja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es el carbón?"
+opciones = ["Negro", "Blanco", "Amarillo"]
+correcta = "Negro"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la leche?"
+opciones = ["Rojo", "Blanco", "Verde"]
+correcta = "Blanco"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos colores tiene el arcoíris?"
+opciones = ["5", "10", "7"]
+correcta = "7"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es el chocolate?"
+opciones = ["Marrón", "Azul", "Blanco"]
+correcta = "Marrón"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué color del semáforo significa «parar»?"
+opciones = ["Azul", "Rojo", "Verde"]
+correcta = "Rojo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué color del semáforo significa «pasar»?"
+opciones = ["Rojo", "Morado", "Verde"]
+correcta = "Verde"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos dedos tiene una mano?"
+opciones = ["5", "4", "6"]
+correcta = "5"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué parte del cuerpo vemos?"
+opciones = ["Nariz", "Ojos", "Orejas"]
+correcta = "Ojos"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué parte del cuerpo oímos?"
+opciones = ["Ojos", "Boca", "Orejas"]
+correcta = "Orejas"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué parte del cuerpo olemos?"
+opciones = ["Nariz", "Boca", "Codo"]
+correcta = "Nariz"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde está el corazón?"
+opciones = ["En la cabeza", "En el pecho", "En el pie"]
+correcta = "En el pecho"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos ojos tenemos?"
+opciones = ["1", "3", "2"]
+correcta = "2"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué parte une la mano con el brazo?"
+opciones = ["Muñeca", "Rodilla", "Tobillo"]
+correcta = "Muñeca"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué parte de la pierna se dobla?"
+opciones = ["Muñeca", "Rodilla", "Codo"]
+correcta = "Rodilla"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué masticamos?"
+opciones = ["Uñas", "Pelo", "Dientes"]
+correcta = "Dientes"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos dedos tienen dos manos?"
+opciones = ["10", "5", "20"]
+correcta = "10"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué parte del cuerpo pensamos?"
+opciones = ["Pie", "Cerebro", "Estómago"]
+correcta = "Cerebro"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde llevamos los zapatos?"
+opciones = ["En las manos", "En la cabeza", "En los pies"]
+correcta = "En los pies"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas piernas tiene una persona?"
+opciones = ["2", "1", "4"]
+correcta = "2"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué respiramos?"
+opciones = ["Huesos", "Pulmones", "Riñones"]
+correcta = "Pulmones"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "2 + 3 ="
+opciones = ["4", "6", "5"]
+correcta = "5"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "4 + 4 ="
+opciones = ["8", "6", "9"]
+correcta = "8"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "5 + 5 ="
+opciones = ["8", "10", "12"]
+correcta = "10"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "10 − 4 ="
+opciones = ["5", "7", "6"]
+correcta = "6"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "9 − 3 ="
+opciones = ["6", "7", "5"]
+correcta = "6"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "7 + 2 ="
+opciones = ["10", "9", "8"]
+correcta = "9"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "8 − 5 ="
+opciones = ["2", "4", "3"]
+correcta = "3"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "6 + 6 ="
+opciones = ["12", "11", "14"]
+correcta = "12"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "3 × 3 ="
+opciones = ["12", "9", "6"]
+correcta = "9"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "2 × 5 ="
+opciones = ["7", "12", "10"]
+correcta = "10"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "1 + 1 ="
+opciones = ["2", "3", "1"]
+correcta = "2"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "10 × 10 ="
+opciones = ["20", "100", "1000"]
+correcta = "100"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "15 − 5 ="
+opciones = ["20", "5", "10"]
+correcta = "10"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "12 + 3 ="
+opciones = ["15", "14", "16"]
+correcta = "15"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "20 − 10 ="
+opciones = ["30", "10", "0"]
+correcta = "10"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "4 × 2 ="
+opciones = ["6", "10", "8"]
+correcta = "8"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "5 × 0 ="
+opciones = ["0", "5", "1"]
+correcta = "0"
+tiempo = 4
+lectura = 1
+
+[[pregunta]]
+enunciado = "¿Cuál es el doble de 6?"
+opciones = ["10", "12", "14"]
+correcta = "12"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el doble de 4?"
+opciones = ["6", "10", "8"]
+correcta = "8"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la mitad de 10?"
+opciones = ["5", "4", "6"]
+correcta = "5"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la mitad de 8?"
+opciones = ["6", "4", "2"]
+correcta = "4"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el triple de 3?"
+opciones = ["6", "12", "9"]
+correcta = "9"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué número va después del 19?"
+opciones = ["20", "18", "21"]
+correcta = "20"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué número va antes del 50?"
+opciones = ["40", "49", "51"]
+correcta = "49"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos huevos hay en una docena?"
+opciones = ["10", "6", "12"]
+correcta = "12"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tienen 2 perros en total?"
+opciones = ["8", "4", "6"]
+correcta = "8"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos céntimos tiene un euro?"
+opciones = ["50", "100", "10"]
+correcta = "100"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas horas tiene un día?"
+opciones = ["12", "60", "24"]
+correcta = "24"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos minutos tiene una hora?"
+opciones = ["60", "100", "30"]
+correcta = "60"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos segundos tiene un minuto?"
+opciones = ["30", "60", "100"]
+correcta = "60"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «casa»?"
+opciones = ["S", "A", "C"]
+correcta = "C"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «perro»?"
+opciones = ["P", "B", "R"]
+correcta = "P"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «mesa»?"
+opciones = ["S", "M", "N"]
+correcta = "M"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «sol»?"
+opciones = ["Z", "L", "S"]
+correcta = "S"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra empieza «luna»?"
+opciones = ["L", "N", "U"]
+correcta = "L"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué letra acaba «gato»?"
+opciones = ["G", "O", "A"]
+correcta = "O"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la primera letra del abecedario?"
+opciones = ["B", "Z", "A"]
+correcta = "A"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «grande»?"
+opciones = ["Pequeño", "Alto", "Ancho"]
+correcta = "Pequeño"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «frío»?"
+opciones = ["Duro", "Caliente", "Mojado"]
+correcta = "Caliente"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «día»?"
+opciones = ["Tarde", "Sol", "Noche"]
+correcta = "Noche"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «subir»?"
+opciones = ["Bajar", "Saltar", "Correr"]
+correcta = "Bajar"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «abierto»?"
+opciones = ["Lleno", "Cerrado", "Roto"]
+correcta = "Cerrado"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «alegre»?"
+opciones = ["Rápido", "Fuerte", "Triste"]
+correcta = "Triste"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «rápido»?"
+opciones = ["Lento", "Corto", "Blando"]
+correcta = "Lento"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el contrario de «dentro»?"
+opciones = ["Cerca", "Fuera", "Arriba"]
+correcta = "Fuera"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas vocales hay?"
+opciones = ["3", "7", "5"]
+correcta = "5"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál de estas letras es una vocal?"
+opciones = ["E", "T", "M"]
+correcta = "E"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de España?"
+opciones = ["Valencia", "Madrid", "Sevilla"]
+correcta = "Madrid"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué colores es la bandera de España?"
+opciones = ["Azul y blanco", "Verde y blanco", "Rojo y amarillo"]
+correcta = "Rojo y amarillo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué plato lleva huevos y patatas?"
+opciones = ["Tortilla de patatas", "Pizza", "Hamburguesa"]
+correcta = "Tortilla de patatas"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué plato valenciano lleva arroz?"
+opciones = ["Sushi", "Paella", "Pizza"]
+correcta = "Paella"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué se come con las doce campanadas?"
+opciones = ["Naranjas", "Fresas", "Uvas"]
+correcta = "Uvas"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién trae los regalos el 6 de enero?"
+opciones = ["Los Reyes Magos", "El Conejo", "Halloween"]
+correcta = "Los Reyes Magos"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fiesta es el 25 de diciembre?"
+opciones = ["Halloween", "Navidad", "Carnaval"]
+correcta = "Navidad"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué dulce navideño se hace con almendra?"
+opciones = ["Helado", "Chicle", "Turrón"]
+correcta = "Turrón"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué sopa fría española lleva tomate?"
+opciones = ["Gazpacho", "Fabada", "Cocido"]
+correcta = "Gazpacho"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué animal es el jamón?"
+opciones = ["Pollo", "Cerdo", "Vaca"]
+correcta = "Cerdo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fiesta de Pamplona tiene toros por la calle?"
+opciones = ["Las Fallas", "Carnaval", "San Fermín"]
+correcta = "San Fermín"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fiesta de Valencia quema figuras gigantes?"
+opciones = ["Las Fallas", "San Fermín", "Semana Santa"]
+correcta = "Las Fallas"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Sagrada Familia?"
+opciones = ["Sevilla", "Barcelona", "Madrid"]
+correcta = "Barcelona"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es la lengua más hablada en España?"
+opciones = ["Inglés", "Francés", "Español"]
+correcta = "Español"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué moneda se usa en España?"
+opciones = ["Euro", "Dólar", "Libra"]
+correcta = "Euro"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«A caballo regalado, no le mires el…»"
+opciones = ["Ojo", "Diente", "Pelo"]
+correcta = "Diente"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Más vale pájaro en mano que…»"
+opciones = ["Dos en el nido", "Uno cantando", "Ciento volando"]
+correcta = "Ciento volando"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Quien bien te quiere, te hará…»"
+opciones = ["Llorar", "Reír", "Dormir"]
+correcta = "Llorar"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Al mal tiempo, buena…»"
+opciones = ["Mesa", "Cara", "Ropa"]
+correcta = "Cara"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«En casa del herrero, cuchillo de…»"
+opciones = ["Hierro", "Plata", "Palo"]
+correcta = "Palo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Dime con quién andas y te diré…»"
+opciones = ["Quién eres", "Dónde vas", "Qué comes"]
+correcta = "Quién eres"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Ojos que no ven, corazón que no…»"
+opciones = ["Ama", "Siente", "Late"]
+correcta = "Siente"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "«Camarón que se duerme, se lo lleva la…»"
+opciones = ["Marea", "Ola", "Corriente"]
+correcta = "Corriente"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué baile típico es de Andalucía?"
+opciones = ["Flamenco", "Tango", "Samba"]
+correcta = "Flamenco"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué día va después del lunes?"
+opciones = ["Domingo", "Martes", "Jueves"]
+correcta = "Martes"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué día va antes del domingo?"
+opciones = ["Lunes", "Viernes", "Sábado"]
+correcta = "Sábado"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el primer mes del año?"
+opciones = ["Enero", "Marzo", "Diciembre"]
+correcta = "Enero"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuál es el último mes del año?"
+opciones = ["Noviembre", "Diciembre", "Enero"]
+correcta = "Diciembre"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos meses tiene un año?"
+opciones = ["10", "14", "12"]
+correcta = "12"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué mes es Navidad?"
+opciones = ["Diciembre", "Enero", "Junio"]
+correcta = "Diciembre"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué mes va después de mayo?"
+opciones = ["Julio", "Junio", "Abril"]
+correcta = "Junio"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuáles son los días del fin de semana?"
+opciones = ["Lunes y martes", "Jueves y viernes", "Sábado y domingo"]
+correcta = "Sábado y domingo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué estación viene después del invierno?"
+opciones = ["Primavera", "Otoño", "Verano"]
+correcta = "Primavera"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué estación hace más calor?"
+opciones = ["Otoño", "Verano", "Invierno"]
+correcta = "Verano"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas estaciones tiene el año?"
+opciones = ["3", "6", "4"]
+correcta = "4"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos lados tiene un triángulo?"
+opciones = ["3", "4", "5"]
+correcta = "3"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos lados tiene un cuadrado?"
+opciones = ["6", "4", "3"]
+correcta = "4"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué forma tiene una rueda?"
+opciones = ["Cuadrada", "Triangular", "Redonda"]
+correcta = "Redonda"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas esquinas tiene un círculo?"
+opciones = ["Ninguna", "Cuatro", "Una"]
+correcta = "Ninguna"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántas caras tiene un dado?"
+opciones = ["8", "6", "4"]
+correcta = "6"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué fruta se hace el vino?"
+opciones = ["Manzana", "Pera", "Uva"]
+correcta = "Uva"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué sabor tiene el azúcar?"
+opciones = ["Dulce", "Salado", "Amargo"]
+correcta = "Dulce"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué sabor tiene la sal?"
+opciones = ["Picante", "Salado", "Dulce"]
+correcta = "Salado"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué sabor tiene el limón?"
+opciones = ["Dulce", "Salado", "Ácido"]
+correcta = "Ácido"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué se hace el pan?"
+opciones = ["Harina", "Arroz", "Azúcar"]
+correcta = "Harina"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fruta es verde por fuera y roja por dentro?"
+opciones = ["Plátano", "Sandía", "Naranja"]
+correcta = "Sandía"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué verdura nos hace llorar al cortarla?"
+opciones = ["Lechuga", "Pepino", "Cebolla"]
+correcta = "Cebolla"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué comida italiana lleva tomate y queso?"
+opciones = ["Pizza", "Paella", "Tortilla"]
+correcta = "Pizza"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué bebida blanca nos da la vaca?"
+opciones = ["Agua", "Leche", "Zumo"]
+correcta = "Leche"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fruta cae del manzano?"
+opciones = ["Pera", "Uva", "Manzana"]
+correcta = "Manzana"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué se come en un cucurucho?"
+opciones = ["Helado", "Sopa", "Arroz"]
+correcta = "Helado"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué fruta sale el aceite de oliva?"
+opciones = ["Limón", "Aceituna", "Naranja"]
+correcta = "Aceituna"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con qué se juega al fútbol?"
+opciones = ["Raqueta", "Palo", "Balón"]
+correcta = "Balón"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores hay por equipo en el campo de fútbol?"
+opciones = ["11", "5", "15"]
+correcta = "11"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué deporte se usa raqueta y red?"
+opciones = ["Natación", "Tenis", "Fútbol"]
+correcta = "Tenis"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿En qué deporte se mete el balón en una canasta?"
+opciones = ["Fútbol", "Tenis", "Baloncesto"]
+correcta = "Baloncesto"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Dónde se practica la natación?"
+opciones = ["En la piscina", "En la nieve", "En el campo"]
+correcta = "En la piscina"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué deporte se hace en bici?"
+opciones = ["Boxeo", "Ciclismo", "Natación"]
+correcta = "Ciclismo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué se grita cuando se marca en fútbol?"
+opciones = ["Canasta", "Set", "Gol"]
+correcta = "Gol"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cuántos jugadores juegan a la vez por equipo de baloncesto?"
+opciones = ["5", "11", "7"]
+correcta = "5"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el ratón de Disney?"
+opciones = ["Goofy", "Mickey Mouse", "Pluto"]
+correcta = "Mickey Mouse"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién vive en una piña debajo del mar?"
+opciones = ["Dora", "Peppa Pig", "Bob Esponja"]
+correcta = "Bob Esponja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué personaje es una cerdita rosa?"
+opciones = ["Peppa Pig", "Dora", "Heidi"]
+correcta = "Peppa Pig"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿A qué muñeco de madera le crece la nariz al mentir?"
+opciones = ["Peter Pan", "Pinocho", "Pulgarcito"]
+correcta = "Pinocho"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Quién perdió un zapato de cristal?"
+opciones = ["Blancanieves", "La Sirenita", "Cenicienta"]
+correcta = "Cenicienta"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Con cuántos enanitos vive Blancanieves?"
+opciones = ["7", "5", "3"]
+correcta = "7"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el niño que no quiere crecer?"
+opciones = ["Aladino", "Peter Pan", "Pinocho"]
+correcta = "Peter Pan"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué personaje lleva una caperuza roja?"
+opciones = ["Cenicienta", "Heidi", "Caperucita Roja"]
+correcta = "Caperucita Roja"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el vaquero de Toy Story?"
+opciones = ["Woody", "Buzz", "Rex"]
+correcta = "Woody"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es Pikachu?"
+opciones = ["Rojo", "Amarillo", "Azul"]
+correcta = "Amarillo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el erizo azul de los videojuegos?"
+opciones = ["Mario", "Luigi", "Sonic"]
+correcta = "Sonic"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué fontanero con bigote salta en los videojuegos?"
+opciones = ["Mario", "Sonic", "Pikachu"]
+correcta = "Mario"
+tiempo = 4
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la novia de Mickey?"
+opciones = ["Elsa", "Minnie", "Daisy"]
+correcta = "Minnie"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es la piel de los Simpson?"
+opciones = ["Azul", "Verde", "Amarilla"]
+correcta = "Amarilla"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el padre de los Simpson?"
+opciones = ["Homer", "Bart", "Ned"]
+correcta = "Homer"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿De qué color es Shrek?"
+opciones = ["Rojo", "Verde", "Azul"]
+correcta = "Verde"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal es Bambi?"
+opciones = ["Ciervo", "Conejo", "Lobo"]
+correcta = "Ciervo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué animal es Simba?"
+opciones = ["Oso", "León", "Tigre"]
+correcta = "León"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "¿Qué elefante de Disney vuela con las orejas?"
+opciones = ["Babar", "Simba", "Dumbo"]
+correcta = "Dumbo"
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un año tiene 12 meses."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El sol sale por la noche."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Los peces viven en el agua."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El hielo está caliente."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Madrid es la capital de España."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un triángulo tiene cuatro lados."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Las vacas ponen huevos."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El fuego es frío."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Los pájaros tienen alas."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Tenemos dos orejas."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un pie tiene diez dedos."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El limón es dulce."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Los perros ladran."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "La nieve es blanca."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un gato tiene seis patas."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un elefante es más grande que un ratón."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El domingo va antes del lunes."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Dos más dos son cinco."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "El invierno es la estación más calurosa."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Un semáforo en rojo significa «pasa»."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Las abejas hacen miel."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "La tortuga corre más que el conejo."
+opciones = ["Verdadero", "Falso"]
+correcta = "Falso"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "Los bebés beben leche."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5
+
+[[pregunta]]
+enunciado = "La Tierra es redonda."
+opciones = ["Verdadero", "Falso"]
+correcta = "Verdadero"
+barajar = false
+tiempo = 3
+lectura = 1.5

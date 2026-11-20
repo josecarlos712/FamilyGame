@@ -1,3 +1,6 @@
+# Parte de estas preguntas procede del «Spanish general knowledge megastudy»
+# (Buades-Sitjar, Planchuelo y Duñabeitia, 2021; figshare 10.6084/m9.figshare.14073899),
+# licencia CC BY 4.0. Revisadas y adaptadas; dificultad según el % de acierto real en España.
 [categoria]
 nombre = "Ciencia"
 icono = "🔬"
@@ -66,3 +69,3076 @@ correcta = "Verdadero"
 barajar = false
 tiempo = 8
 explicacion = "En el agua va unas 4 veces más rápido (≈1.480 m/s frente a ≈343 m/s)."
+
+[[pregunta]]
+enunciado = "¿A partir de qué altura comienza el espacio exterior según la Federación Aeronáutica Internacional?"
+opciones = ["100 km", "1 km", "10 km", "50 km"]
+correcta = "100 km"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo llaman los rusos a sus astronautas?"
+opciones = ["Cosmonautas", "Internautas", "Aeronautas", "Argonautas"]
+correcta = "Cosmonautas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la cápsula espacial en la que el primer hombre viajó al espacio?"
+opciones = ["Vostok 1", "Sputnik 17", "Orbit II", "Ariane 4"]
+correcta = "Vostok 1"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la cápsula espacial en la que la primera mujer viajó al espacio?"
+opciones = ["Vostok 6", "Apollo 4", "WMAP", "Pioneer 10"]
+correcta = "Vostok 6"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la cápsula espacial que llevó al primer hombre a la Luna?"
+opciones = ["Apollo 11", "Sputnik 5", "Lincoln 4", "Viking 1"]
+correcta = "Apollo 11"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál era el nombre de la cápsula espacial en la que el primer perro fue al espacio?"
+opciones = ["Sputnik 2", "Apollo 4", "Alpha One", "Neptune 3"]
+correcta = "Sputnik 2"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál era la profesión del primer hombre en el espacio?"
+opciones = ["Piloto de las Fuerzas Aéreas", "Contable", "Médico", "Sonógrafo"]
+correcta = "Piloto de las Fuerzas Aéreas"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el apellido de la primera persona en pisar la Luna?"
+opciones = ["Armstrong", "Houston", "Collins", "Aldrin"]
+correcta = "Armstrong"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuándo descubrió la sonda estadounidense «Voyager 2» varias nuevas lunas en Urano?"
+opciones = ["1986", "1916", "1946", "1966"]
+correcta = "1986"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuándo mandó China a su primera persona al espacio?"
+opciones = ["2003", "2007", "2011", "2015"]
+correcta = "2003"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuándo se lanzó la Estación Espacial Internacional al espacio?"
+opciones = ["1998", "2005", "2008", "2015"]
+correcta = "1998"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántos astronautas murieron en la misión fallida del Apollo 13 de aterrizar en la Luna en 1970?"
+opciones = ["0", "3", "1", "2"]
+correcta = "0"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Hacia dónde partió la sonda espacial europea «Ulises» en 1990?"
+opciones = ["Sol", "Urano", "Neptuno", "Plutón"]
+correcta = "Sol"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué significa literalmente la palabra «cosmonauta»?"
+opciones = ["Navegante del universo", "Viajero estelar", "Buscador de estrellas", "Misionero terrícola"]
+correcta = "Navegante del universo"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué significan las siglas de «NASA»?"
+opciones = ["National Aeronautics and Space Act", "National Astronauts and Space Assembly", "National Salvation Agency", "Nominal Air Space Agency"]
+correcta = "National Aeronautics and Space Act"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer hombre que viajó al espacio?"
+opciones = ["Yuri Gagarin", "Neil Armstrong", "Charles Lindbergh", "Valentino Tereshkova"]
+correcta = "Yuri Gagarin"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue la primera mujer en el espacio?"
+opciones = ["Valentina Tereshkova", "Sally Ride", "Naidia Comenci", "Steliana Nistor"]
+correcta = "Valentina Tereshkova"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue la primera persona en morir en un vuelo espacial debido a un fallo en el paracaídas?"
+opciones = ["Vladimir Komarov", "Lance Armstrong", "Yuri Gagarin", "Buzz Aldrin"]
+correcta = "Vladimir Komarov"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién o qué era Laika?"
+opciones = ["El primer perro en ir al espacio", "La marca de coche más popular en China", "La reina de la legendaria Atlántida", "La primera mujer de Rasputín"]
+correcta = "El primer perro en ir al espacio"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué antiguo planeta de nuestro sistema solar se le revocó su título y se le reconoce ahora como un planeta enano?"
+opciones = ["Plutón", "Marte", "Venus", "Mercurio"]
+correcta = "Plutón"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Aproximadamente cuál es la distancia media entre la Luna y la Tierra?"
+opciones = ["384.400 km", "485.000 km", "295.800 km", "585.000 km"]
+correcta = "384.400 km"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se conoce comúnmente a la estrella Sirio?"
+opciones = ["Estrella perro", "Estrella toro", "Estrella paloma", "Estrella gato"]
+correcta = "Estrella perro"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el despliegue natural de luz en el cielo que se da principalmente en la región Ártica?"
+opciones = ["Aurora Boreal", "Aurora Amaranta", "Corona Boreal", "Corona Amaranta"]
+correcta = "Aurora Boreal"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la constelación que parece un caballo alado?"
+opciones = ["Pegaso", "Sagitario", "Unicornio", "Orión"]
+correcta = "Pegaso"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la lluvia de meteoros cuyo auge de actividad ocurre cada agosto?"
+opciones = ["Perseidas", "Sirenas", "Leónidas", "Líricas"]
+correcta = "Perseidas"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál de estos planetas tiene anillos?"
+opciones = ["Saturno", "Marte", "Mercurio", "Plutón"]
+correcta = "Saturno"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es aproximadamente la distancia media entre la Tierra y el Sol?"
+opciones = ["149.500.000 km", "248.500.000 km", "105.000.000 km", "151.000 km"]
+correcta = "149.500.000 km"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es aproximadamente la fuerza gravitacional de la Tierra en m/s2?"
+opciones = ["9,81", "19,81", "0,981", "98,1"]
+correcta = "9,81"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre en latín de la Estrella del Norte?"
+opciones = ["Polaris", "Sirio", "Vega", "Pleiades"]
+correcta = "Polaris"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el planeta más grande de nuestro sistema solar?"
+opciones = ["Júpiter", "Saturno", "Neptuno", "Marte"]
+correcta = "Júpiter"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el radio medio de la Tierra?"
+opciones = ["6.371 km", "9.658 km", "12.811 km", "32.332 km"]
+correcta = "6.371 km"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la luna más grande de Júpiter?"
+opciones = ["Ganimedes", "Europa", "Calisto", "Ío"]
+correcta = "Ganimedes"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la luna más grande de Plutón?"
+opciones = ["Caronte", "Nix", "Hidra", "Cerbero"]
+correcta = "Caronte"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuáles son los 4 planetas gigantes conocidos de nuestro sistema solar?"
+opciones = ["Júpiter, Saturno, Urano y Neptuno", "Júpiter, Venus, Marte y la Tierra", "Júpiter, Mercurio, Plutón y Saturno", "Júpiter, La Tierra, Marte y Neptuno"]
+correcta = "Júpiter, Saturno, Urano y Neptuno"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuán antiguo es nuestro sistema solar aproximadamente?"
+opciones = ["4.600 millones de años", "1.600 millones de años", "2.600 millones de años", "3.600 millones de años"]
+correcta = "4.600 millones de años"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuán fuerte es la gravedad de Marte comparada con la de la Tierra aproximadamente?"
+opciones = ["0,38", "0,5", "1,4", "2,3"]
+correcta = "0,38"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuánto tarda la Luna en orbitar la Tierra aproximadamente?"
+opciones = ["27 días", "32 horas", "1 año", "3 meses"]
+correcta = "27 días"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuánto tarda la luz de la estrella más cercana a la Tierra después del Sol (Alpha Centauri) en llegar a la Tierra?"
+opciones = ["4,37 años", "437 años", "437 días", "437 semanas"]
+correcta = "4,37 años"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuánto tiempo tarda la luz del Sol en llegar a la Tierra?"
+opciones = ["8 minutos, 19 segundos", "16 minutos, 39 segundos", "2 minutos, 44 segundos", "1 minuto, 48 segundos"]
+correcta = "8 minutos, 19 segundos"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué planeta es Europa una luna?"
+opciones = ["Júpiter", "Saturno", "Neptuno", "Plutón"]
+correcta = "Júpiter"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué galaxia se encuentra nuestro sistema solar?"
+opciones = ["La Vía Láctea", "Andrómeda", "Palioxis", "Messier"]
+correcta = "La Vía Láctea"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué otro planeta de nuestro sistema solar son comunes las dunas?"
+opciones = ["Marte", "Mercurio", "Venus", "Urano"]
+correcta = "Marte"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué planeta está el Olympus Mons, la montaña más alta de todos los planetas del sistema solar?"
+opciones = ["Marte", "Neptuno", "Venus", "Mercurio"]
+correcta = "Marte"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Para qué planeta se sugirieron los nombres «Zeus», «Percival» y «Constance»?"
+opciones = ["Plutón", "Mercurio", "Júpiter", "Saturno"]
+correcta = "Plutón"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué constelación debe su nombre a la latinización de la palabra griega para «cisne»?"
+opciones = ["Cygnus", "Phaethon", "Lyra", "Taurus"]
+correcta = "Cygnus"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué famoso cometa tiene una órbita de entre 74-79 años?"
+opciones = ["Cometa Halley", "Cometa Hale-Bop", "Cometa Encke", "El Gran Cometa"]
+correcta = "Cometa Halley"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué galaxia espiral es la más cercana a la nuestra?"
+opciones = ["Andrómeda", "Casiopea", "Nereida", "Hespérides"]
+correcta = "Andrómeda"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué luna de Saturno es la única luna con una atmósfera significativa?"
+opciones = ["Titán", "Hiperión", "Dione", "Rea"]
+correcta = "Titán"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué palabra utilizan los astrofísicos para describir una estrella que ha explotado?"
+opciones = ["Supernova", "Supercolisionador", "Megadynamo", "Megaexplosión"]
+correcta = "Supernova"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué planeta da la vuelta al sol cada 84 años?"
+opciones = ["Urano", "Neptuno", "Saturno", "Plutón"]
+correcta = "Urano"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué une a los nombres «Torbellino», «Sombrero» y «Andrómeda»?"
+opciones = ["Nombres de galaxias", "Tipos de lavavajillas", "Platos Mexicanos", "Marcas de vino chileno"]
+correcta = "Nombres de galaxias"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién descubrió las 4 lunas más grandes de Júpiter?"
+opciones = ["Galileo Galilei", "Copérnico", "Edwin Hubble", "Edmond Halley"]
+correcta = "Galileo Galilei"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer científico en desarrolar un modelo astronómico completo en el que la Tierra gira alrededor del Sol?"
+opciones = ["Copérnico", "Galileo Galilei", "Newton", "Dalton"]
+correcta = "Copérnico"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo llamamos a los alomorfos de un gen que sólo se manifiesta si el individuo tiene dos copias del mismo?"
+opciones = ["Genes recesivos", "Genes permisivos", "Genes dimórficos", "Genes bilaterales"]
+correcta = "Genes recesivos"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a un organismo con órganos reproductivos femeninos y masculinos?"
+opciones = ["Hermafrodita", "Transgénero", "Diploide", "Heterogámeto"]
+correcta = "Hermafrodita"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a una relación no mutua entre especies en la que una se beneficia a costa de la otra?"
+opciones = ["Parasitismo", "Simbiosis", "Cohabitación", "Cooperación"]
+correcta = "Parasitismo"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a una subunidad especializada en una función dentro de una célula?"
+opciones = ["Orgánulo", "Centro", "Cúpula", "Bóveda"]
+correcta = "Orgánulo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama a un grupo de organismos de la misma especie que actúan sinérgicamente?"
+opciones = ["Superorganismo", "Megalito", "Monstera", "Megaloblasto"]
+correcta = "Superorganismo"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el órgano que produce la insulina?"
+opciones = ["Páncreas", "Riñón", "Vejiga", "Bazo"]
+correcta = "Páncreas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el proceso de división celular?"
+opciones = ["Mitosis", "Heterosis", "Fusión", "Génesis"]
+correcta = "Mitosis"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la cobertura exterior de los virus?"
+opciones = ["Cápside", "Revestimiento", "Virión", "Viroide"]
+correcta = "Cápside"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la porción líquida amarillenta de la sangre?"
+opciones = ["Plasma", "Hidrógeno", "Linfa", "Amniótico"]
+correcta = "Plasma"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llaman los organismos pluricelulares que tienen un número par de cromosomas?"
+opciones = ["Diploides", "Biploides", "Dícromos", "Bícromos"]
+correcta = "Diploides"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué nombre se conoce la muerte de todos los miembros de una especie en particular?"
+opciones = ["Extinción", "Terminación", "Obliteración", "Aniquilación"]
+correcta = "Extinción"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el proceso por el cual las sustancias orgánicas se rompen en materia más simple?"
+opciones = ["Descomposición", "Minimización", "Separación", "Simplificación"]
+correcta = "Descomposición"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el término para una interacción biológica cercana, beneficiosa y a largo plazo entre dos especies?"
+opciones = ["Simbiosis", "Dueto", "Entrelazamiento", "Intercalamiento"]
+correcta = "Simbiosis"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es la principal fuente de energía de la Tierra?"
+opciones = ["Sol", "Agua", "Suelo", "Plantas"]
+correcta = "Sol"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la rama de la biología que estudia las células?"
+opciones = ["Citología", "Entomología", "Homoplastia", "Endocrinología"]
+correcta = "Citología"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la salinidad media del agua de mar?"
+opciones = ["3,5%", "2,5%", "0,05%", "5,3%"]
+correcta = "3,5%"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la secuencia de nucleótidos de ADN que codifica la producción de una proteína?"
+opciones = ["Gen", "Cromosoma", "Encima", "Proteína"]
+correcta = "Gen"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la unidad fundamental de la vida en biología?"
+opciones = ["Célula", "Átomo", "Órgano", "Protoplasma"]
+correcta = "Célula"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántos individuos se requieren para reproducirse por partenogénesis?"
+opciones = ["1", "2", "3", "6"]
+correcta = "1"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Dónde se fabrican los glóbulos rojos?"
+opciones = ["Médula ósea", "Corazón", "Hígado", "Nodos linfáticos"]
+correcta = "Médula ósea"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde se guardan los rasgos hereditarios de un organismo?"
+opciones = ["ADN", "Enzimas", "Polipéptidos", "Meiosis"]
+correcta = "ADN"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué unidad se mide la energía proveniente de la comida?"
+opciones = ["Calorías", "Kelvins", "Bushels", "Vatios"]
+correcta = "Calorías"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué científico hizo famosas las Islas Galápagos?"
+opciones = ["Charles Darwin", "Isaac Newton", "Louis Pasteur", "Nikola Tesla"]
+correcta = "Charles Darwin"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué frase acuñó Herbert Spence, habitualmente atribuida de forma incorrecta a Darwin?"
+opciones = ["Supervivencia del más apto", "Adaptación por procreación", "El uso hace al órgano", "Procreación por adaptación"]
+correcta = "Supervivencia del más apto"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué le sucede al ritmo respiratorio cuando hay una bajada en la concentración del oxígeno en sangre?"
+opciones = ["Aumenta", "Disminuye", "Primero disminuye y luego aumenta", "No se ve afectado"]
+correcta = "Aumenta"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué palabra se refiere a la variedad de vida animal y vegetal en el mundo o en un hábitat particular?"
+opciones = ["Biodiversidad", "Bioconversión", "Multiplicidad", "Multiformidad"]
+correcta = "Biodiversidad"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué se clasifica con el sistema ABO?"
+opciones = ["Grupos sanguíneos", "Nódulos linfáticos", "Ratones de laboratorio", "Pingüinos"]
+correcta = "Grupos sanguíneos"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué se crea cuando el ADN de un organismo cambia permanentemente?"
+opciones = ["Mutación", "Bifurcación", "Transfiguración", "Adaptación"]
+correcta = "Mutación"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué significa el «mio» en «miocardial»?"
+opciones = ["Músculo", "Corazón", "Vena", "Sangre"]
+correcta = "Músculo"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significa la palabra« biología»?"
+opciones = ["Estudio de la vida", "Estudio de los seres", "Estudio de la naturaleza", "Estudio de las células"]
+correcta = "Estudio de la vida"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué son los humanos?"
+opciones = ["Omnívoros", "Herbívoros", "Carnívoros", "Vermívoros"]
+correcta = "Omnívoros"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué son los mohos, las levaduras y las setas?"
+opciones = ["Hongos", "Plantas", "Algas", "Bacterias"]
+correcta = "Hongos"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué vitamina aumenta su producción con la exposición al sol?"
+opciones = ["Vitamina D", "Vitamina A", "Vitamina B", "Vitamina C"]
+correcta = "Vitamina D"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué vitamina tiene «ácido ascórbico» como nombre químico?"
+opciones = ["C", "D", "E", "K"]
+correcta = "C"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué vitamina tiene «ácido fólico» como nombre químico?"
+opciones = ["B9", "A", "C", "D"]
+correcta = "B9"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué familia de plantas pertenece el brócoli?"
+opciones = ["Crucíferas", "Perennes", "Tuberculosas", "Caducifolias"]
+correcta = "Crucíferas"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama al movimiento diario o estacional de las plantas en respuesta a la dirección del sol?"
+opciones = ["Heliotropismo", "Heterocentrismo", "Cinefilia", "Bioluminiscencia"]
+correcta = "Heliotropismo"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el fino tallo que une la hoja al tallo principal?"
+opciones = ["Pecíolo", "Cáliz", "Pistilo", "Estamen"]
+correcta = "Pecíolo"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el tejido hecho de corcho que forma la corteza exterior de los árboles?"
+opciones = ["Peridermo", "Epidermo", "Peritoneumo", "Epitoneumo"]
+correcta = "Peridermo"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llaman los pigmentos orgánicos anaranjados producidos por plantas y algas?"
+opciones = ["Carotenoides", "Clorofilas", "Cianoides", "Betanoides"]
+correcta = "Carotenoides"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre botánico para el órgano reproductivo masculino de las plantas con flores?"
+opciones = ["Estambre", "Cáliz", "Carpelo", "Fronda"]
+correcta = "Estambre"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el proceso por el que las microesporas de una planta se transfieren a otra planta de la misma especie?"
+opciones = ["Polinización", "Pimpolleo", "Germinación", "Fertilización"]
+correcta = "Polinización"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿De qué está hecho el ámbar?"
+opciones = ["Resina fosilizada", "Lava sólida", "Carbón presurizado a alta temperatura", "Silicio combinado con agua"]
+correcta = "Resina fosilizada"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde se producen los granos de polen de las plantas?"
+opciones = ["Flores", "Tallos", "Raíces", "Hojas"]
+correcta = "Flores"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué convierten las plantas los nitratos que absorben del suelo?"
+opciones = ["Aminoácidos", "Urea", "Amoníaco", "Metano"]
+correcta = "Aminoácidos"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué crecen las plantas epifitas y parasíticas?"
+opciones = ["Otras plantas", "Tierra", "Arena", "Piedra"]
+correcta = "Otras plantas"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué organismos tiene lugar el ciclo de Calvin?"
+opciones = ["En plantas", "En mamíferos", "En virus", "En hongos"]
+correcta = "En plantas"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué proceso liberan las plantas oxígeno como producto de desecho?"
+opciones = ["Fotosíntesis", "Respiración", "Perspiración", "Oxidación"]
+correcta = "Fotosíntesis"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué ácido hace que las ortigas piquen?"
+opciones = ["Ácido fórmico", "Ácido nítrico", "Ácido láctico", "Ácido nucleico"]
+correcta = "Ácido fórmico"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué células tienen una pared celular, plastos y plasmodesmos?"
+opciones = ["Células vegetales", "Células procariotas", "Células animales", "Células víricas"]
+correcta = "Células vegetales"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué desarrollaron las plantas para aumentar la cantidad de luz que pueden capturar para la fotosíntesis?"
+opciones = ["Hojas", "Raíces", "Flores", "Semillas"]
+correcta = "Hojas"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué es lo que produce la marchitación de las plantas si se da en exceso?"
+opciones = ["Transpiración", "Fotosíntesis", "Absorción", "Convulsión"]
+correcta = "Transpiración"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué es típico en las plantas caducifolias?"
+opciones = ["Perder las hojas en invierno", "No producir oxígeno", "No sobrevivir en aislamiento", "No soportar la luz del sol"]
+correcta = "Perder las hojas en invierno"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué es una granja a gran escala que se especializa en cultivos comerciales?"
+opciones = ["Plantación", "Huerta", "Arboleda", "Jardín"]
+correcta = "Plantación"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué estudian los dendrólogos?"
+opciones = ["Árboles", "Tundra", "Jardines", "Tubérculos"]
+correcta = "Árboles"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué nombre se le da a las plantas cuyas semillas están en el interior de un fruto?"
+opciones = ["Angiospermas", "Endospermas", "Zoospermas", "Autospermas"]
+correcta = "Angiospermas"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué partes de algunas plantas se mueven con la luz?"
+opciones = ["Flores y hojas", "Flores y tallos", "Hojas y tallos", "Tallos y raíces"]
+correcta = "Flores y hojas"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué planta se llamó como la diosa griega del arcoiris?"
+opciones = ["Iris", "Camelia", "Dahlia", "Mimosa"]
+correcta = "Iris"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué plantas crecen sobre otras plantas pero son inofensivas para sus anfitrionas?"
+opciones = ["Epífitas", "Parasíticas", "Parasimpáticas", "Epigenéticas"]
+correcta = "Epífitas"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué plantas crecen un año, florecen y producen frutos al siguiente y luego mueren?"
+opciones = ["Bienales", "Ditransitivas", "Semianuales", "Flores gemelas"]
+correcta = "Bienales"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué plantas tienen partes gruesas y carnosas, normalmente para retener agua en climas áridos?"
+opciones = ["Suculentas", "Caducifolias", "Bienales", "Perennes"]
+correcta = "Suculentas"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué plantas tienen tejidos para conducir el agua y los minerales por ellas?"
+opciones = ["Plantas vasculares", "Musgos", "Hepáticas", "Anthocerotophytas"]
+correcta = "Plantas vasculares"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué rama de la agricultura trata el arte, la ciencia, la tecnología y el negocio del cremiento de las plantas?"
+opciones = ["Horticultura", "Fruticultura", "Crececultura", "Floricultura"]
+correcta = "Horticultura"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué significa «sakura» en japonés?"
+opciones = ["Cerezo en flor", "Melocotonero en flor", "Manzano en flor", "Peral en flor"]
+correcta = "Cerezo en flor"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué son las espinas de los cactus?"
+opciones = ["Hojas altamente modificadas", "Tallos muy finos", "Raíces externas", "Frutos no comestibles"]
+correcta = "Hojas altamente modificadas"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué subunidades de las células vegetales llevan a cabo la fotosíntesis?"
+opciones = ["Cloroplastos", "Mitocondria", "Amiloplastos", "Ribosomas"]
+correcta = "Cloroplastos"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué tienen las plantas que la mayoría de animales no tienen?"
+opciones = ["Celulosa", "Glucosa", "Lipoproteínas", "Ribosomas"]
+correcta = "Celulosa"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué tipo de estructura vegetal es una patata?"
+opciones = ["Tubérculo", "Rizoma", "Tallo", "Hoja"]
+correcta = "Tubérculo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo llamamos a alguien que vive más de 100 años?"
+opciones = ["Centenario", "Decadecario", "Longevo", "Matusalén"]
+correcta = "Centenario"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a la incapacidad para dormir?"
+opciones = ["Insomnio", "Apnea", "Terrores nocturnos", "Hipotiroidismo"]
+correcta = "Insomnio"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama a la parte coloreada del ojo que controla cuánta luz pasa a través de la pupila?"
+opciones = ["Iris", "Retina", "Córnea", "Mácula"]
+correcta = "Iris"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el músculo que se utiliza para respirar y que separa el pecho del abdomen?"
+opciones = ["Diafragma", "Bronquio", "Alvéolo", "Hilio"]
+correcta = "Diafragma"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el pronunciado dolor de cabeza que aparece de forma periódica y que suele estar acompañado de náuseas?"
+opciones = ["Migraña", "Cefalea tensional", "Epilepsia", "Amnesia"]
+correcta = "Migraña"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el tendón situado por encima del talón humano?"
+opciones = ["Tendón de Aquiles", "Tendón de Cleopatra", "Tendón de César", "Tendón de Zeus"]
+correcta = "Tendón de Aquiles"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la arteria mayor situada en el lateral del cuello?"
+opciones = ["Carótida", "Aorta", "Femoral", "Braquial"]
+correcta = "Carótida"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el músculo más largo del cuerpo humano?"
+opciones = ["Sartorio", "Occipital", "Supracostal", "Músculo recto del abdomen"]
+correcta = "Sartorio"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre de la metaloproteína que transporta oxígeno en nuestro cuerpo?"
+opciones = ["Hemoglobina", "Queratina", "Colágeno", "Mioglobina"]
+correcta = "Hemoglobina"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el número de cromosomas en el Síndrome de Down en humanos?"
+opciones = ["47", "48", "49", "46"]
+correcta = "47"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el número habitual de cromosomas en una célula humana?"
+opciones = ["46", "42", "44", "48"]
+correcta = "46"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el órgano humano más transplantado?"
+opciones = ["Riñón", "Hígado", "Corazón", "Pulmón"]
+correcta = "Riñón"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la presión sanguínea normal en humanos?"
+opciones = ["120/80", "110/50", "150/100", "160/80"]
+correcta = "120/80"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer órgano en ser transplantado con éxito en 1954?"
+opciones = ["Riñón", "Pulmón", "Hígado", "Corazón"]
+correcta = "Riñón"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántas cámaras hay en un corazón humano?"
+opciones = ["4", "3", "2", "6"]
+correcta = "4"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuántas vértebras tiene normalmente un ser humano?"
+opciones = ["33", "27", "42", "18"]
+correcta = "33"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántos músculos esqueléticos tiene el cuerpo humano?"
+opciones = ["Alrededor de 640", "Alrededor de 900", "Alrededor de 395", "Alrededor de 175"]
+correcta = "Alrededor de 640"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Dónde está el hioides, el único hueso humano que no está directamente conectado a otro?"
+opciones = ["Garganta", "Pecho", "Pie", "Cráneo"]
+correcta = "Garganta"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué parte del cuerpo humano es la piel más fina?"
+opciones = ["En los párpados", "En la punta de los dedos", "En la planta de los pies", "En el codo"]
+correcta = "En los párpados"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué parte del cuerpo se encuentra el occipucio?"
+opciones = ["En la parte trasera de la cabeza", "En las pantorrillas", "En las muñecas", "En la parte baja de la espalda"]
+correcta = "En la parte trasera de la cabeza"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué aflicción sufre al menos un cuarto de la humanidad?"
+opciones = ["Miopía", "Polidactília", "Asma", "Amusia"]
+correcta = "Miopía"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué células del cuerpo humano son las menos sensisbles a la radiación?"
+opciones = ["Células nerviosas y musculares", "Células epidérmicas", "Células medulares", "Células hepáticas"]
+correcta = "Células nerviosas y musculares"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué componente se encuentra en el pelo, las uñas y la piel?"
+opciones = ["Queratina", "Glucosa", "Colesterol", "Vitamina A"]
+correcta = "Queratina"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué elemento está presente en mayor proporción en masa en el cuerpo humano?"
+opciones = ["Oxígeno", "Nitrógeno", "Carbono", "Hidrógeno"]
+correcta = "Oxígeno"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué hueso es el más fuerte y más largo en los seres humanos?"
+opciones = ["Fémur", "Cúbito", "Tibia", "Peroné"]
+correcta = "Fémur"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué incrementa la norepinefrina?"
+opciones = ["Presión sanguínea", "Distensión muscular", "Producción de orina", "Producción de saliva"]
+correcta = "Presión sanguínea"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué neurotransmisor y hormona es habitualmente conocida como «adrenalina»?"
+opciones = ["Epinefrina", "Melatonina", "Glutamato", "Serotonina"]
+correcta = "Epinefrina"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué órgano está involucrado en el desarrollo de la ictericia?"
+opciones = ["Hígado", "Páncreas", "Intestino delgado", "Bazo"]
+correcta = "Hígado"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué proporción de nuestro cuerpo representa la médula ósea?"
+opciones = ["0,05", "0,15", "0,1", "0,2"]
+correcta = "0,05"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué puede hacer la gente escotópica?"
+opciones = ["Ver en la oscuridad", "Chuparse el codo", "Ponerse los pies tras el cuello", "Leer al revés con facilidad"]
+correcta = "Ver en la oscuridad"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué sistema biológico controla las glándulas y las hormonas?"
+opciones = ["Endocrino", "Locomotor", "Digestivo", "Respiratorio"]
+correcta = "Endocrino"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué suele ocurrir cuando el diafragma sufre espasmos?"
+opciones = ["Hipo", "Vómito", "Excreción", "Estornudo"]
+correcta = "Hipo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué tipo de pelo no se ve afectado por la pubertad?"
+opciones = ["Pestañas", "Vello facial", "Pelo de la cabeza", "Vello de la axila"]
+correcta = "Pestañas"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué velocidad vuelan los aviones supersónicos?"
+opciones = ["A mayor velocidad que la del sonido", "A mayor velocidad que la de la luz", "A menor velocidad que la del sonido", "A menor velocidad que la del viento"]
+correcta = "A mayor velocidad que la del sonido"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a un sonido con una frecuencia por debajo de 20 Hz?"
+opciones = ["Infrasónico", "Ultrasónico", "Supersónico", "Binaural"]
+correcta = "Infrasónico"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llaman los «paquetes» en los que se emite y se absorbe la luz?"
+opciones = ["Fotones", "Protones", "Electrones", "Neutrinos"]
+correcta = "Fotones"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál de los siguientes productos químicos es útil en fotografía?"
+opciones = ["Bromuro de plata", "Cloruro de sodio", "Hidróxido de aluminio", "Nitrato de potasio"]
+correcta = "Bromuro de plata"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el apellido del hombre que propuso la teoría de la relatividad?"
+opciones = ["Einstein", "Newton", "Hawking", "Boyle"]
+correcta = "Einstein"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el metal mayoritario en el peltre?"
+opciones = ["Estaño", "Hierro", "Cobre", "Zinc"]
+correcta = "Estaño"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la antipartícula del positrón?"
+opciones = ["Electrón", "Protón", "Neutrón", "Átomo"]
+correcta = "Electrón"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la velocidad del sonido en el aire (en condiciones normales)?"
+opciones = ["343 m/sec", "3.320 m/sec", "30 m/sec", "3 m/sec"]
+correcta = "343 m/sec"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué color es una tonalidad el bermellón?"
+opciones = ["Rojo", "Violeta", "Azul", "Verde"]
+correcta = "Rojo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué color es una tonalidad el cerúleo?"
+opciones = ["Azul", "Rojo", "Verde", "Amarillo"]
+correcta = "Azul"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué depende la fuerza de empuje?"
+opciones = ["Masa de líquido desplazado", "Forma del recipiente", "Masa del recipiente", "Profundidad a la que se hunde el cuerpo"]
+correcta = "Masa de líquido desplazado"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Entre qué dominios transforma una señal la Transformada de Fourier?"
+opciones = ["Tiempo y frecuencia", "Amplitud y fase", "Frecuencia y amplitud", "Fase y tiempo"]
+correcta = "Tiempo y frecuencia"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Por dónde viaja más rápido la luz?"
+opciones = ["Vacío", "Cristal", "Agua", "Hidrógeno"]
+correcta = "Vacío"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Por qué los pasajeros se caen hacia adelante cuando un autobús en movimiento se detiene repentinamente?"
+opciones = ["Inercia de los pasajeros", "Inercia del autobús", "Fricción entre autobús y suelo", "Fricción entre pasajeros y suelo"]
+correcta = "Inercia de los pasajeros"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué científico formuló la ley de la gravedad?"
+opciones = ["Isaac Newton", "Thomas Edison", "Albert Einstein", "Stephen Hawking"]
+correcta = "Isaac Newton"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué color de luz visible tiene la longitud de onda más corta?"
+opciones = ["Violeta", "Azul", "Verde", "Naranja"]
+correcta = "Violeta"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué color se obtiene mezclando rojo y azul?"
+opciones = ["Púrpura", "Verde", "Amarillo", "Naranja"]
+correcta = "Púrpura"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué demostró Boyle que disminuye a medida que aumenta el volumen de un gas?"
+opciones = ["Presión", "Paso del tiempo", "Temperatura", "Masa"]
+correcta = "Presión"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué físico estadounidense fue el pionero de la teoría de los agujeros negros en 1939?"
+opciones = ["J. Robert Oppenheimer", "Stephen Hawking", "Brian Greene", "Keith Burrell"]
+correcta = "J. Robert Oppenheimer"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué físico formuló las tres leyes del movimiento?"
+opciones = ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Sheldon Cooper"]
+correcta = "Isaac Newton"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué forma tienen las lentes para la gente con miopía?"
+opciones = ["Cóncava", "Convenxa", "Convexa", "Cuadrada"]
+correcta = "Cóncava"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué ley afirma que una corriente eléctrica produce un campo magnético?"
+opciones = ["Ley de Ampère", "Ley de Ohm", "Ley de Newton", "Ley de Fappington"]
+correcta = "Ley de Ampère"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué ley postula que los líquidos transmiten presión por igual en todas las direcciones?"
+opciones = ["Ley de Pascal", "Principio de Arquímedes", "Ley de Newton", "Ley de Boyle"]
+correcta = "Ley de Pascal"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué metal fue el primero en fundirse en un molde y en alearse con otro metal?"
+opciones = ["Cobre", "Oro", "Bronce", "Hierro"]
+correcta = "Cobre"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué número Mach corresponde a la velocidad del sonido?"
+opciones = ["Mach 1", "Mach 2", "Mach 3", "Mach 4"]
+correcta = "Mach 1"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué partículas da como resultado la fisión nuclear?"
+opciones = ["Neutrones y fotones gamma", "Protones y fotones gamma", "Deuterones y fotones gamma", "Electrones y fotones gamma"]
+correcta = "Neutrones y fotones gamma"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué suele indicar que los niveles de un barómetro bajen?"
+opciones = ["Lluvia", "Inundaciones", "Contaminación", "Calor intenso"]
+correcta = "Lluvia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué teoría de la física propone que la energía no se transfiere continuamente sino en cantidades discretas?"
+opciones = ["Mecánica cuántica", "Termodinámica", "Teoría de cuerdas", "Teoría de la relatividad"]
+correcta = "Mecánica cuántica"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué tipo de lente es una lupa?"
+opciones = ["Convexa", "Cóncava", "Antirreflectante", "Cumulativa"]
+correcta = "Convexa"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué tipo de transformación realiza un micrófono?"
+opciones = ["Ondas sonoras a energía eléctrica", "Energía eléctrica a ondas sonoras", "Ondas sonoras a pulsos de luz", "Energía eléctrica a pulsos de luz"]
+correcta = "Ondas sonoras a energía eléctrica"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue la primera persona en identificar el electrón?"
+opciones = ["J. J. Thompson", "J. Kepler", "D. Rutherford", "James Chadwick"]
+correcta = "J. J. Thompson"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue la primera persona en medir la velocidad de la luz?"
+opciones = ["Ole Rømer", "Galileo Galilei", "Albert Einstein", "Isaac Newton"]
+correcta = "Ole Rømer"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué científico se le reconoce como «el padre de la bomba atómica»?"
+opciones = ["Robert Oppenheimer", "Albert Einstein", "Nikola Tesla", "Thomas Edison"]
+correcta = "Robert Oppenheimer"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A quién se le reconoce como el inventor de las versiones prototípicas del paracaídas, el helicóptero y los tanques?"
+opciones = ["Leonardo da Vinci", "Los hermanos Wright", "Francis Rogallo", "Galileo Galilei"]
+correcta = "Leonardo da Vinci"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo obtuvo Alfred Nobel la mayor parte de su dinero?"
+opciones = ["Inventó la dinamita", "Diseñó la primera autopista", "Descubrió la penicilina", "Invirtió en petróleo"]
+correcta = "Inventó la dinamita"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué década se inventó el teléfono?"
+opciones = ["La década de 1870", "La década de 1920", "La década de 1790", "La década de 1950"]
+correcta = "La década de 1870"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué década se inventó el transistor?"
+opciones = ["1940s", "1950s", "1960s", "1970s"]
+correcta = "1940s"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué científico descubrió el virus del VIH y determinó que era la causa del SIDA en 1983?"
+opciones = ["Luc Montagnier", "Samuel Hahnemann", "Edward Jenner", "Stanley Prusiner"]
+correcta = "Luc Montagnier"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué electrodoméstico de cocina inventó Percy Spencer en 1945?"
+opciones = ["Horno microondas", "Cocina de gas", "Lavavajillas", "Nevera eléctrica"]
+correcta = "Horno microondas"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué instrumento médico inventó René Laennec?"
+opciones = ["Estetoscopio", "Electrocardiograma", "Ecógrafo", "Fórceps"]
+correcta = "Estetoscopio"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué invención se le atribuye habitualmente a Benjamin Franklin?"
+opciones = ["Lentes bifocales", "Radio", "Barómetro", "Higrómetro"]
+correcta = "Lentes bifocales"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué inventaron los hermanos Wright?"
+opciones = ["Avión", "Bicicleta", "Paracaídas", "Coche"]
+correcta = "Avión"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué inventó Enrico Fermi?"
+opciones = ["Reactor nuclear artificial", "Máquina de rayos X", "Betatrón", "Ciclotrón"]
+correcta = "Reactor nuclear artificial"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué inventó Evangelista Torricelli en 1643?"
+opciones = ["Barómetro", "Tornillo", "Zapatos ortopédicos", "Pipeta"]
+correcta = "Barómetro"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué inventó James Dewar en 1892?"
+opciones = ["Termo", "Martillo pneumático", "Luces de neón", "Pintura acrílica"]
+correcta = "Termo"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué inventó y patentó James Watt?"
+opciones = ["Motor rotatorio de vapor", "Campana de buceo", "Barco de vapor", "Globo aerostático"]
+correcta = "Motor rotatorio de vapor"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué país se inventó la brújula?"
+opciones = ["China", "Alemania", "Egipto", "Italia"]
+correcta = "China"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué planeta descubrió Clyde Tombaugh en 1930?"
+opciones = ["Plutón", "Neptuno", "Marte", "Urano"]
+correcta = "Plutón"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién descubrió la estructura de doble hélice del ADN?"
+opciones = ["James Watson y Francis Crick", "Ramon y Cajal", "Ortega y Gasset", "Pierre y Marie Curie"]
+correcta = "James Watson y Francis Crick"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién es reconocido como uno de los inventores de la televisión electromecánica?"
+opciones = ["John Logie Baird", "Thomas Edison", "Nikola Tesla", "Benjamin Franklin"]
+correcta = "John Logie Baird"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién fue el primero en describir la circulación sanguínea con detalle?"
+opciones = ["William Harvey", "James Chadwick", "Francis Crick", "Anthony Hewish"]
+correcta = "William Harvey"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién inventó una muy exitosa versión de la maquinilla de afeitar?"
+opciones = ["King Camp Gillette", "Erik Frank Venus", "Charles John Sleetch", "Nathan Collin Earnest"]
+correcta = "King Camp Gillette"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién transmitió las primeras señales de radio a través del Atlántico en 1901?"
+opciones = ["Guglielmo Marconi", "Graham Bell", "Samuel Morse", "John Logie Baird"]
+correcta = "Guglielmo Marconi"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A qué equivale el número de Avogadro aproximadamente?"
+opciones = ["6,02 por 10 elevado a 23", "1,66 por 10 elevado a -27", "3,8 por 10 elevado a -21", "5,4 por 10 elevado a 29"]
+correcta = "6,02 por 10 elevado a 23"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se conoce a la propiedad A * B = B * A?"
+opciones = ["Conmutativa", "Distributiva", "Asociativa", "Discriminativa"]
+correcta = "Conmutativa"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a un número entero más grande que 1 que sólo es divisible entre 1 y él mismo?"
+opciones = ["Primo", "Par", "Impar", "Peculiar"]
+correcta = "Primo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a un polígono con seis lados?"
+opciones = ["Hexágono", "Heptágono", "Pentágono", "Tetrágono"]
+correcta = "Hexágono"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a un polígono de nueve lados?"
+opciones = ["Nonágono o eneágono", "Heptágono o septágono", "Hexágono o Sexágono", "Decágono o Tenágono"]
+correcta = "Nonágono o eneágono"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama al valor que aparece más frecuentemente en un grupo de datos?"
+opciones = ["Moda", "Media", "Desviación típica", "Mediana"]
+correcta = "Moda"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el análogo de un cubo en cuatro dimensiones?"
+opciones = ["Teseracto", "Couboide", "Tetracúbilo", "Marvolio"]
+correcta = "Teseracto"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el número en la parte inferior de una fracción?"
+opciones = ["Denominador", "Numerador", "Cociente", "Índice"]
+correcta = "Denominador"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el número en la parte superior de una fracción?"
+opciones = ["Numerador", "Denominador", "Cociente", "Índice"]
+correcta = "Numerador"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama un polígono de 15 lados?"
+opciones = ["Pentadecágono", "Tenapentágono", "Pentatenágono", "Decatenágono"]
+correcta = "Pentadecágono"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama un triángulo cuyos tres lados tienen distinta longitud?"
+opciones = ["Escaleno", "Isósceles", "Equilátero", "Obtuso"]
+correcta = "Escaleno"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el grupo de numeros que incluye todos los números naturales tanto positivos como negativos?"
+opciones = ["Enteros", "Reales", "Primos", "Pares"]
+correcta = "Enteros"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es el número romano para 1.000?"
+opciones = ["M", "D", "C", "L"]
+correcta = "M"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el valor de la constante matemática «e» redondeada a 2 decimales?"
+opciones = ["2,72", "3,14", "1,82", "4,81"]
+correcta = "2,72"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la probabilidad de que al lanzar una moneda salga cara si las 10 veces anteriores también ha salido cara?"
+opciones = ["1 entre 2", "1 entre 10", "10 entre 11", "9 entre 10"]
+correcta = "1 entre 2"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es la raíz cuadrada de 16?"
+opciones = ["4", "6", "8", "3"]
+correcta = "4"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la raíz cuadrada de 196?"
+opciones = ["14", "13", "12", "15"]
+correcta = "14"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la raíz cuadrada de 49?"
+opciones = ["7", "9", "8", "6"]
+correcta = "7"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué descubrió el matemático John Napier en 1614?"
+opciones = ["Logaritmos", "Multiplicación", "Raíces cuadradas", "Fracciones"]
+correcta = "Logaritmos"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué dígito no existe en los números romanos?"
+opciones = ["Cero", "Uno", "Millón", "Billón"]
+correcta = "Cero"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué matemático griego tiene una esfera encerrada en un cilindro tallada en su tumba?"
+opciones = ["Arquímedes", "Pitágoras", "Euclides", "Aristóteles"]
+correcta = "Arquímedes"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué número representa «giga»?"
+opciones = ["1.000.000.000", "1.000.000", "1.00E+12", "1"]
+correcta = "1.000.000.000"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué número representa el número romano «D»?"
+opciones = ["500", "50", "5", "100"]
+correcta = "500"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué símbolo matemático determinó Ferdinand von Lindemann que era un número trascendental en 1882?"
+opciones = ["Pi", "e", "0", "Número áureo"]
+correcta = "Pi"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué término significa «a la misma distancia respecto a algo»?"
+opciones = ["Equidistante", "Equilátero", "Equiareal", "Diametral"]
+correcta = "Equidistante"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué tipo de triángulo tiene un ángulo interno mayor de 90 grados?"
+opciones = ["Obtuso", "Recto", "Agudo", "Equilátero"]
+correcta = "Obtuso"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a la inflamación del hueso?"
+opciones = ["Osteítis", "Tendinitis", "Meningitis", "Otitis"]
+correcta = "Osteítis"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a una radiografía de poca energía realizada en los pechos?"
+opciones = ["Mamografía", "Ecografía", "Tidografía", "Pechografía"]
+correcta = "Mamografía"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el trastorno cuyo nombre en griego significa «sin apetito»?"
+opciones = ["Anorexia", "Afasia", "Bulimia", "Amusia"]
+correcta = "Anorexia"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Con qué se fabricaban los primeros antibióticos?"
+opciones = ["Hongos", "Arena", "Algas", "Sales"]
+correcta = "Hongos"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Contra qué enfermedad no protege la vacuna triple vírica?"
+opciones = ["Polio", "Sarampión", "Paperas", "Rubeola"]
+correcta = "Polio"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál de estos trastornos es muy común en los recién nacidos?"
+opciones = ["Ictericia", "Osteoporosis", "Xerostomía", "Artritis"]
+correcta = "Ictericia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál de estos materiales se utilizaba para hacer dientes falsos?"
+opciones = ["Marfil", "Cristal", "Diamante", "Cuarzo"]
+correcta = "Marfil"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el resultado de una secreción excesiva de la glándula pituitaria?"
+opciones = ["Altura, pies y manos desmedidos", "Debilitamiento de los huesos", "Voz extremadamente aguda", "Crecimiento capilar y ungueal excesivo"]
+correcta = "Altura, pies y manos desmedidos"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el término médico para un nivel bajo de azúcar en sangre?"
+opciones = ["Hipoglucemia", "Hipotiroidismo", "Hipofrenia", "Hipomimia"]
+correcta = "Hipoglucemia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la primera causa de muertes en el mundo?"
+opciones = ["Enfermedades cardiovasculares", "Cáncer", "Alzheimer", "Accidentes de coche"]
+correcta = "Enfermedades cardiovasculares"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es otro nombre más común para el ácido acetilsalicílico?"
+opciones = ["Aspirina", "Ibuprofeno", "Paracetamol", "Antihistamínico"]
+correcta = "Aspirina"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuándo se realizó el primer transplante de corazón humano?"
+opciones = ["1967", "1958", "1970", "1973"]
+correcta = "1967"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué tipo de medicina alternativa se encontró evidencia en una momia de 5.300 años?"
+opciones = ["Acupuntura", "Terapia de cristales", "Homeopatía", "Aceites esenciales"]
+correcta = "Acupuntura"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué parte del cuerpo se inserta una aguja durante una punción lumbar?"
+opciones = ["Columna vertebral", "Oreja", "Estómago", "Próstata"]
+correcta = "Columna vertebral"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Para qué se utiliza comúnmente la penicilina?"
+opciones = ["Antibiótico", "Desinfectante", "Antiviral", "Antihistamínico"]
+correcta = "Antibiótico"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué antiguo griego es considerado por muchos como «el padre de la medicina moderna»?"
+opciones = ["Hipócrates de Cos", "Tales de Mileto", "Diocles de Caristo", "Critón de Heraclea"]
+correcta = "Hipócrates de Cos"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué contrarrestan los antihistamínicos?"
+opciones = ["Reacciones alérgicas", "Síndrome de abstinencia", "Coagulación sanguínea excesiva", "Epilepsia"]
+correcta = "Reacciones alérgicas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué defecto sanguíneo hereditario era conocido como «La enfermedad de la realeza»?"
+opciones = ["Hemofilia", "Anemia", "Leucemia", "Malaria"]
+correcta = "Hemofilia"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué descubrió Karl Landsteiner en 1901?"
+opciones = ["Grupos sanguíneos ABO", "Neurogénesis", "Ondas cerebrales", "Vacunas"]
+correcta = "Grupos sanguíneos ABO"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué enfermedad afecta 16 veces menos a las mujeres que a los hombres?"
+opciones = ["Daltonismo", "Hemofilia", "Cáncer de pulmón", "Apendicitis"]
+correcta = "Daltonismo"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué enfermedad causa casi 1 de cada 6 muertes en el mundo?"
+opciones = ["Cáncer", "Diarrea", "Enfermedades cardiovasculares", "SIDA"]
+correcta = "Cáncer"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué enfermedad estudia la oncología?"
+opciones = ["Cáncer", "Alzheimer", "Parkinson", "Epilepsia"]
+correcta = "Cáncer"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué enfermedad investigaba Robert Koch?"
+opciones = ["Tuberculosis", "Cáncer", "Esquizofrenia", "Epilepsia"]
+correcta = "Tuberculosis"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué enfermedad produce la falta de vitamina C?"
+opciones = ["Escorbuto", "Anemia", "Kwashiorkor", "Raquitismo"]
+correcta = "Escorbuto"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué es la halitosis?"
+opciones = ["Mal aliento", "Pelos enquistados", "Acné", "Dermatitis"]
+correcta = "Mal aliento"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué es un hemodializador?"
+opciones = ["Riñón artificial", "Corazón artificial", "Pulmón artificial", "Hígado artificial"]
+correcta = "Riñón artificial"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué medicación se descubrió en 1928 pero no fue producida en masa hasta 1940?"
+opciones = ["Penicilina", "Ibuprofeno", "Vacuna contra la polio", "Aspirina"]
+correcta = "Penicilina"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué medicamento descubierto en 1943 fue el primero en ser efectivo contra la tuberculosis?"
+opciones = ["Estreptomicina", "Finasteride", "Paracetamol", "Isotrenoína"]
+correcta = "Estreptomicina"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué miran los médicos con un oftalmoscopio?"
+opciones = ["Ojo", "Ano", "Garganta", "Nariz"]
+correcta = "Ojo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué órgano se inflama cuando se tiene encefalitis?"
+opciones = ["Cerebro", "Hígado", "Ojo", "Lengua"]
+correcta = "Cerebro"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué parte del ojo se ve afectada por las cataratas?"
+opciones = ["Cristalino", "Retina", "Córnea", "Nervio óptico"]
+correcta = "Cristalino"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué se tiene si se sufre de epitaxis?"
+opciones = ["Sangrado nasal", "Salivación excesiva", "Dolor articular", "Caries"]
+correcta = "Sangrado nasal"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué sentido pierde la gente que sufre ageusia?"
+opciones = ["Gusto", "Oído", "Olfato", "Tacto"]
+correcta = "Gusto"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué tiene en exceso la gente que sufre de leucemia?"
+opciones = ["Leucocitos", "Eritrocitos", "Plaquetas", "Células de Schwann"]
+correcta = "Leucocitos"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué tipo de medicina alternativa pone énfasis en el masaje y la manipulación física del tejido muscular y los huesos?"
+opciones = ["Osteopatía", "Acupuntura", "Homeopatía", "Terapia de cristales"]
+correcta = "Osteopatía"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué tipo de problema sufre alguien con alopecia?"
+opciones = ["Pérdida del cabello", "Debilitación de las uñas", "Descamación de la piel", "Decoloración del ojo"]
+correcta = "Pérdida del cabello"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué tratamiento o medicamento estudió en profundidad Frederick Sanger?"
+opciones = ["Insulina", "Penicilina", "Vacunas", "Quimioterapia"]
+correcta = "Insulina"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién inventó la penicilina?"
+opciones = ["Alexander Fleming", "Jonas E. Salk", "William Osler", "Robert Koch"]
+correcta = "Alexander Fleming"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A cuántas millas equivale un kilómetro?"
+opciones = ["0,62 millas", "0,84 millas", "0,5 millas", "1,6 millas"]
+correcta = "0,62 millas"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se conoce también a la lente de un microscopio?"
+opciones = ["Ocular", "Observador", "Réflex", "Lentuma"]
+correcta = "Ocular"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la unidad de intensidad del sonido?"
+opciones = ["Decibelio", "Hertz", "Grado", "Newton"]
+correcta = "Decibelio"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la unidad de medida de la iluminancia?"
+opciones = ["Lux", "Brillum", "Glister", "Shinon"]
+correcta = "Lux"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuántos caballos son un kilovatio?"
+opciones = ["1,34", "2,91", "6,45", "3,82"]
+correcta = "1,34"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuántos centímetros hay en un metro?"
+opciones = ["100", "1", "10", "500"]
+correcta = "100"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuántos grados Celsius son 86 grados Farenheit?"
+opciones = ["30", "20", "15", "40"]
+correcta = "30"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuántos kilómetros hay en una milla aproximadamente?"
+opciones = ["1,61 km", "2,46 km", "0,89 km", "3,24 km"]
+correcta = "1,61 km"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué medio de transporte miden la velocidad los número Mach?"
+opciones = ["Aviones", "Trenes", "Barcos", "Coches"]
+correcta = "Aviones"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué unidad se expresa el trabajo realizado sobre un objeto?"
+opciones = ["Julio", "Vatio", "Amperio", "Kinetic"]
+correcta = "Julio"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué objeto se utiliza para separar la luz solar en sus componentes?"
+opciones = ["Prisma", "Decompositor", "Iridizador", "Lumine"]
+correcta = "Prisma"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué herramienta de laboratorio se utiliza para transportar pequeños volúmenes medidos de líquido?"
+opciones = ["Pipeta", "Placa de Petri", "Forceps", "Destilador"]
+correcta = "Pipeta"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué instrumento detecta los terremotos?"
+opciones = ["Sismómetro", "Escala Ritcher", "Barómetro", "Manómetro"]
+correcta = "Sismómetro"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué instrumento indica dónde están los puntos cardinales?"
+opciones = ["Brújula", "Sextante", "Astrolabio", "Altímetro"]
+correcta = "Brújula"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué instrumento médico se utiliza para examinar los oídos?"
+opciones = ["Otoscopio", "Estetoscopio", "Microscopio", "Conductoscopio"]
+correcta = "Otoscopio"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué instrumento produce rayos que aumentan el riesgo de problemas en el desarrollo y cáncer?"
+opciones = ["Máquina de rayos X", "Ecógrafo", "Electroencefalograma", "Densograma"]
+correcta = "Máquina de rayos X"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué instrumento se utiliza para medir la densidad relativa de los líquidos?"
+opciones = ["Hidrómetro", "Liquidómetro", "Viscómetro", "Higrómetro"]
+correcta = "Hidrómetro"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué mide el «bar»?"
+opciones = ["Presión", "Corriente", "Temperatura", "Calor"]
+correcta = "Presión"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué mide el tubo de Venturi?"
+opciones = ["Fluir de un líquido", "Intensidad de sonido", "Gravedad", "Densidad"]
+correcta = "Fluir de un líquido"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué mide la escala Beaufort?"
+opciones = ["Velocidad del viento", "Fuerza de un terremoto", "Radiación ultravioleta", "Viscosidad"]
+correcta = "Velocidad del viento"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué mide un barómetro?"
+opciones = ["Profundidad oceánica", "Lluvia", "Presión atmosférica", "Humedad"]
+correcta = "Profundidad oceánica"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué mide un manómetro?"
+opciones = ["Presión de gas", "Volumen", "Carga iónica", "Flexibilidad"]
+correcta = "Presión de gas"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué mide un pluviómetro?"
+opciones = ["Lluvia", "Rocío", "Vapor de agua", "Grosor del hielo"]
+correcta = "Lluvia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué mide un podómetro?"
+opciones = ["Pasos dados", "Crecimiento de los niños", "Concentración de gas", "Ritmo musical"]
+correcta = "Pasos dados"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué miden los años luz?"
+opciones = ["Distancia", "Corriente eléctrica", "Intensidad luminosa", "Tiempo"]
+correcta = "Distancia"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué miden los hertz?"
+opciones = ["Frecuencia", "Voltaje", "Resistencia eléctrica", "Intensidad de sonido"]
+correcta = "Frecuencia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué miden los kilovatios?"
+opciones = ["Potencia", "Resistencia eléctrica", "Intensidad de corriente", "Trabajo"]
+correcta = "Potencia"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué miden los nilómetros?"
+opciones = ["El nivel del agua del Nilo", "La concentración bacterial del Nilo", "La población de cocodrilos del Nilo", "La densidad vegetacional del Nilo"]
+correcta = "El nivel del agua del Nilo"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué se mide con un contador Geiger?"
+opciones = ["Radiación ionizante", "Intensidad de corriente", "Conductividad", "Voltaje"]
+correcta = "Radiación ionizante"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué sistema decimal de medida se usa en prácticamente todo el mundo?"
+opciones = ["Sistema métrico", "Sistema imperial", "Sistema clásico", "Sistema colonial"]
+correcta = "Sistema métrico"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué unidad de longitud es igual a aproximadamente la distancia desde la Tierra al Sol?"
+opciones = ["Unidad astronómica", "Año luz", "Eón", "Mol"]
+correcta = "Unidad astronómica"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a cuando una organización ataca los sistemas de información de otra nación?"
+opciones = ["Guerra informática", "Guerra telemática", "Guerra de guerrillas", "Guerra no convencional"]
+correcta = "Guerra informática"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A qué le tiene pánico la gente con acrofobia?"
+opciones = ["Alturas", "Arañas", "Globos explotando", "Animales"]
+correcta = "Alturas"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A qué le tiene pánico la gente con agorafobia?"
+opciones = ["Espacios abiertos o abarrotados", "Ruidos fuertes", "Payasos", "Ponerse enfermo"]
+correcta = "Espacios abiertos o abarrotados"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A qué le tiene pánico la gente con claustrofobia?"
+opciones = ["Espacios pequeños", "Intimidad física", "Hablar en público", "Aviones"]
+correcta = "Espacios pequeños"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué le tiene pánico la gente con frigofobia?"
+opciones = ["Tener frío", "Dejarse aparatos eléctricos encendidos", "Ahogarse en el mar", "Manejar objetos pesados"]
+correcta = "Tener frío"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A qué le tiene pánico la gente con xenofobia?"
+opciones = ["Lo desconocido y lo extraño", "Espacio exterior", "Aguas profundas", "Payasos"]
+correcta = "Lo desconocido y lo extraño"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama al hecho de experimentar efectos dañinos o negativos cuando se administra una sustancia inofensiva?"
+opciones = ["Efecto nocebo", "Efecto placebo", "Efecto facebo", "Efecto docebo"]
+correcta = "Efecto nocebo"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el potencial de involucrarse sexual o románticamente tanto con hombres como con mujeres?"
+opciones = ["Bisexualidad", "Homosexualidad", "Heterosexualidad", "Asexualidad"]
+correcta = "Bisexualidad"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es el fenómeno de negarse a aceptar lo que ha sucedido o sucederá para evitar el daño psicológico?"
+opciones = ["Negación", "Fantasía", "Proyección", "Sublimación"]
+correcta = "Negación"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre científico de la memoria fotográfica?"
+opciones = ["Memoria eidética", "Memoria prospectiva", "Memoria de trabajo", "Memoria ecoica"]
+correcta = "Memoria eidética"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre de las técnicas utilizadas para memorizar material difícil de recordar?"
+opciones = ["Reglas mnemotécnicas", "Condicionamiento", "Gestalt", "Hipnosis"]
+correcta = "Reglas mnemotécnicas"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del fenómeno por el cual la música clásica mejora la memoria?"
+opciones = ["Efecto Mozart", "Efecto Beethoven", "Efecto Bach", "Efecto Vivaldi"]
+correcta = "Efecto Mozart"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del trastorno caracterizado por problemas al leer a pesar de tener una inteligencia normal?"
+opciones = ["Dislexia", "Dislalia", "Disgrafía", "Discalculia"]
+correcta = "Dislexia"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es el proceso por el cual un ser humano se forma y se diferencia psicológicamente de otros seres humanos?"
+opciones = ["Individuación", "Independenciación", "Separatismo psicológico", "Parlicularización psicológica"]
+correcta = "Individuación"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál es la tendencia a buscar e interpretar información de una manera que confirme las creencias preexistentes?"
+opciones = ["Sesgo de confirmación", "Sesgo de prejuicio", "Sesgo retrospectivo", "Sesgo pasado"]
+correcta = "Sesgo de confirmación"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué concepto de la teoría de juegos ayuda a predecir los resultados cuando hay varias personas tomando decisiones?"
+opciones = ["Equilibrio de Nash", "Equilibrio de Mensch", "Equilibrio de Baron", "Equilibrio de Bayes"]
+correcta = "Equilibrio de Nash"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué síntomatología es indicativa de psicosis?"
+opciones = ["Delirios y alucinaciones", "Cambios repentinos de humor", "Dificultad para concentrarse", "Sueño excesivo"]
+correcta = "Delirios y alucinaciones"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué es el llamado «Efecto Mandela»?"
+opciones = ["Recuerdo falso colectivo", "Negación del racismo", "Incapacidad para recordar nombres", "Pánico escénico"]
+correcta = "Recuerdo falso colectivo"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué es un segundo yo, que se cree que es distinto de la personalidad normal u original de una persona?"
+opciones = ["Alter ego", "Esquizofrenia", "Id", "Hipocondría"]
+correcta = "Alter ego"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué mecanismo psicológico inconsciente reduce la ansiedad derivada de estímulos inaceptables o potencialmente dañinos?"
+opciones = ["Mecanismo de defensa", "Mecanismo de contrarrestación", "Mecanismo de protección", "Mecanismo de inmunidad"]
+correcta = "Mecanismo de defensa"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué patrón de comportamiento se caracteriza por el daño o abuso infligido a uno mismo?"
+opciones = ["Comportamiento autodestructivo", "Hipocondría", "Cupio dissolvi", "Sadismo"]
+correcta = "Comportamiento autodestructivo"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué rasgo de personalidad está más fuertemente relacionado con el desempeño académico y ocupacional?"
+opciones = ["Responsabilidad", "Neuroticismo", "Apertura a la experiencia", "Extraversión"]
+correcta = "Responsabilidad"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué rasgo de personalidad tiende a manifestarse en un comportamiento abierto, hablador y enérgico?"
+opciones = ["Extraversión", "Neuroticismo", "Responsabilidad", "Apertura a la experiencia"]
+correcta = "Extraversión"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué término describe el miedo a la desnudez?"
+opciones = ["Nudofobia", "Bodifobia", "Dermofobia", "Corpofobia"]
+correcta = "Nudofobia"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué término indica una pérdida de memoria de eventos previos a una lesión?"
+opciones = ["Amnesia retrógrada", "Amnesia anterógrada", "Amnesia autobiográfica", "Amnesia del condicionamiento"]
+correcta = "Amnesia retrógrada"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué términos popularizó Carl Jung?"
+opciones = ["Introversión y extraversión", "Naturaleza vs. crianza", "Id, ego y superego", "Depresión y manía"]
+correcta = "Introversión y extraversión"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué trastorno mental dura más de un mes después de haber vivido un trauma?"
+opciones = ["Trastorno de estrés postraumático", "Síndrome de Estocolmo", "Síndrome de Capgrass", "Hipomanía"]
+correcta = "Trastorno de estrés postraumático"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué trastorno mental implica estar constantemente bajo la idea de que uno es víctima de una conspiración?"
+opciones = ["Paranoia", "Pronoia", "Aranoia", "Disnoia"]
+correcta = "Paranoia"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué trastorno mental tiene entre sus síntomas oír voces y no distinguir lo que es real?"
+opciones = ["Esquizofrenia", "Trastorno de Déficit de Atención", "Síndrome de Capgrass", "Síndrome de Hunter"]
+correcta = "Esquizofrenia"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién es el padre del enfoque psicoanalítico?"
+opciones = ["Sigmund Freud", "Carl Jung", "Ivan Pavlov", "B. F. Skinner"]
+correcta = "Sigmund Freud"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue el pionero de la investigación del condicionamiento clásico?"
+opciones = ["Ivan Pavlov", "B. F. Skinner", "Carl Jung", "Sigmund Freud"]
+correcta = "Ivan Pavlov"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién se creía que eran los únicos afectados por la enfermedad de la histeria?"
+opciones = ["Mujeres", "Hombres", "Ancianos", "Niños"]
+correcta = "Mujeres"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién se dice que tiene complejo de Napoleón?"
+opciones = ["La gente baja", "La gente con sobrepeso", "La gente poco atractiva", "La gente poco inteligente"]
+correcta = "La gente baja"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se conoce también a la sal de mesa?"
+opciones = ["Cloruro de sodio", "Bicarbonato de sodio", "Carbonato de potasio", "Hidróxido de potasio"]
+correcta = "Cloruro de sodio"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Con qué está recubierto el hierro galvanizado?"
+opciones = ["Zinc", "Estaño", "Plomo", "Cromo"]
+correcta = "Zinc"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál de estos gases no es un gas de efecto invernadero?"
+opciones = ["Hidrógeno", "Metano", "Óxido nítrico", "Óxido nitroso"]
+correcta = "Hidrógeno"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el apellido de la científica que descubrió el radio?"
+opciones = ["Sklodowska-Curie", "Radium", "Voltom", "Edison"]
+correcta = "Sklodowska-Curie"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el metal más maleable?"
+opciones = ["Oro", "Platino", "Plata", "Hierro"]
+correcta = "Oro"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el mineral más blando conocido?"
+opciones = ["Talco", "Pizarra", "Cuarzo", "Malaquita"]
+correcta = "Talco"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre común del compuesto C6 H12 O6?"
+opciones = ["Glucosa", "Queroseno", "Keratina", "Sacarosa"]
+correcta = "Glucosa"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el principal elemento psicoactivo del café y la cola?"
+opciones = ["Cafeína", "Aspirina", "Ricotina", "Clorofila"]
+correcta = "Cafeína"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el punto de ebullición del agua en grados Fahrenheit?"
+opciones = ["212", "232", "202", "222"]
+correcta = "212"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el símbolo del potasio?"
+opciones = ["K", "Na", "Au", "P"]
+correcta = "K"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el único metal líquido a temperatura ambiente?"
+opciones = ["Mercurio", "Aluminio", "Cobre", "Zinc"]
+correcta = "Mercurio"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la reacción que convierte una disolución de azúcar en ácidos, gases o alcohol?"
+opciones = ["Fermentación", "Hidrólisis", "Saponificación", "Hidrógeno"]
+correcta = "Fermentación"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos aminoácidos esenciales hay?"
+opciones = ["9", "6", "3", "15"]
+correcta = "9"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué está compuesto el núcleo de un átomo?"
+opciones = ["Protones y neutrones", "Electrones y neutrones", "Electrones y protones", "Neutrones solamente"]
+correcta = "Protones y neutrones"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué están compuestos los átomos?"
+opciones = ["Núcleos y electrones", "Núcleos solamente", "Electrones solamente", "Protones solamente"]
+correcta = "Núcleos y electrones"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué ácido se obtuvo por primera vez destilando hormigas rojas?"
+opciones = ["Ácido fórmico", "Ácido cítrico", "Ácido clórico", "Ácido sulfúrico"]
+correcta = "Ácido fórmico"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué común producto crea la saponificación?"
+opciones = ["Jabón", "Miel", "Azúcar", "Hielo"]
+correcta = "Jabón"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué están compuestas las burbujas del agua con gas?"
+opciones = ["Dióxido de carbono", "Ácido nítrico", "Ácido carbónico", "Ácido sulfúrico"]
+correcta = "Dióxido de carbono"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué desarrollaron los científicos Newlands, Mendeleev y Meyer?"
+opciones = ["Tabla periódica de los elementos", "Descubrimiento de los elementos", "Estructura atómica", "Metalurgia"]
+correcta = "Tabla periódica de los elementos"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué droga forma la combinación de la zimasa y la glucosa?"
+opciones = ["Alcohol", "Nicotina", "Cocaína", "Heroína"]
+correcta = "Alcohol"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué elemento de la tabla periódica representa el símbolo «Au»?"
+opciones = ["Oro", "Plata", "Platino", "Cobre"]
+correcta = "Oro"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué elemento es común a todos los ácidos?"
+opciones = ["Hidrógeno", "Carbono", "Azufre", "Oxígeno"]
+correcta = "Hidrógeno"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué es el bromo?"
+opciones = ["Líquido rojo", "Gas incoloro", "Gas muy inflamable", "Sólido negro"]
+correcta = "Líquido rojo"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué es el gluten?"
+opciones = ["Una proteína", "Un azúcar", "Un lípido", "Un mineral"]
+correcta = "Una proteína"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué gas es el más abundante en el aire que respiramos?"
+opciones = ["Nitrógeno", "Oxígeno", "Hidrógeno", "Ozono"]
+correcta = "Nitrógeno"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué gases hay dentro de las bombillas incandescentes?"
+opciones = ["Argón", "Hidrógeno", "Dióxido de carbono", "Oxígeno"]
+correcta = "Argón"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué impureza metálica hace rojos a los rubís y verdes a las esmeraldas?"
+opciones = ["Cromo", "Aluminio", "Cobre", "Hierro"]
+correcta = "Cromo"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué material está compuesto por un 75% de dióxido de silicio, con óxido de sodio, carbonato de sodio y cal?"
+opciones = ["Cristal", "Carbón", "Pizarra", "Plástico"]
+correcta = "Cristal"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué metal tóxico se usaba como aditivo de la gasolina y contaminaba el aire de las ciudades?"
+opciones = ["Plomo", "Cadmio", "Cobre", "Cromo"]
+correcta = "Plomo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué piedra preciosa es roja?"
+opciones = ["Rubí", "Esmeralda", "Zafiro", "Amatista"]
+correcta = "Rubí"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué propiedad física de las gemas miden los quilates?"
+opciones = ["Masa", "Durabilidad", "Color", "Corte"]
+correcta = "Masa"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué se produce al alear hierro, cromo y níquel?"
+opciones = ["Acero inoxidable", "Bronce", "Teflón", "Latón"]
+correcta = "Acero inoxidable"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el roedor más grande del mundo?"
+opciones = ["Capibara", "Castor", "Rata", "Mapache"]
+correcta = "Capibara"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la hierba más alta del mundo?"
+opciones = ["Bambú", "Trigo", "Pasto azul de Kentucky", "Hierba de don Carlos"]
+correcta = "Bambú"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la sustancia más dura conocida?"
+opciones = ["Diamante", "Carbón", "Grafito", "Fibra de carbono"]
+correcta = "Diamante"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la primera versión de Internet?"
+opciones = ["ARPAnet", "NEOnet", "MULTInet", "ROLAnet"]
+correcta = "ARPAnet"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llaman los 2 terminales de un diodo?"
+opciones = ["Ánodo y cátodo", "Péntado y tríodo", "Puerta y drenaje", "Drenaje y fuente"]
+correcta = "Ánodo y cátodo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Con qué unidades se mide la velocidad de acceso a internet?"
+opciones = ["Kbps", "Megabytes", "RAM", "MHz"]
+correcta = "Kbps"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba el superordenador de IBM que venció a Garri Kaspárov en 1997?"
+opciones = ["Deep Blue", "Deep Sea", "Deep Sky", "Deep Purple"]
+correcta = "Deep Blue"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál era el primer límite de caracteres para los tweets publicados en la red social de Twitter?"
+opciones = ["140 caracteres", "160 caracteres", "280 caracteres", "200 caracteres"]
+correcta = "140 caracteres"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre de la serie de sistemas operativos creados por Microsoft?"
+opciones = ["Windows", "Mac", "Linux", "Matlab"]
+correcta = "Windows"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre de un ordenador en una red que solicita archivos de otro ordenador?"
+opciones = ["Cliente", "Host", "Router", "Servidor web"]
+correcta = "Cliente"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el primer software que se instala en un ordenador?"
+opciones = ["Sistema operativo", "Hoja de cálculo", "Procesador de textos", "Plataforma de borrado"]
+correcta = "Sistema operativo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer lenguaje de programación ampliamente utilizado del mundo, inventado en 1957?"
+opciones = ["IBM FORTRAN", "Java", "C", "R"]
+correcta = "IBM FORTRAN"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuáles son las tres principales expresiones de búsqueda (operadores) reconocidas por la lógica de Boole?"
+opciones = ["AND, OR, NOT", "SEARCH, KEYWORD, TEXT", "AND, OR, BUT", "FROM, TO, WHOM"]
+correcta = "AND, OR, NOT"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuándo se envió el primer mensaje a través de lo que ahora se llama Internet?"
+opciones = ["10:30 PM el 29 de Octubre en 1969", "12:00 AM el 16 de febrero de 1968", "08:45 PM el 21 de Enero de 1971", "09:00 AM el 23 de Septiembre de 1962"]
+correcta = "10:30 PM el 29 de Octubre en 1969"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuántos bits tiene un byte?"
+opciones = ["8", "16", "32", "4"]
+correcta = "8"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuántos minutos de música tienen los CD, de acuerdo con las especificaciones originales del CD?"
+opciones = ["74 minutos", "56 minutos", "60 minutos", "90 minutos"]
+correcta = "74 minutos"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué sistema operativo de red es Solaris una versión?"
+opciones = ["UNIX", "Minix 3", "AmigaOS", "Atlas"]
+correcta = "UNIX"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué año fue el debut del primer ordenador personal IBM?"
+opciones = ["1981", "1985", "1989", "1991"]
+correcta = "1981"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué país se fundó la empresa de tecnología Philips?"
+opciones = ["Países Bajos", "Gran Bretaña", "Noruega", "Dinamarca"]
+correcta = "Países Bajos"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué atajo de teclado cierra la mayoría de los programas en el sistema operativo Microsoft Windows?"
+opciones = ["Alt + F4", "Alt + F5", "Alt+ F6", "Alt + F7"]
+correcta = "Alt + F4"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué compañía fue la pionera de los disquetes?"
+opciones = ["IBM", "Apple", "Windows", "Linux"]
+correcta = "IBM"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué controla la CPU?"
+opciones = ["Todas las funciones de un ordenador", "La pantalla y los gráficos", "El teclado y otros sistemas de input", "El sistema de ventilación"]
+correcta = "Todas las funciones de un ordenador"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué es un virus informático que ni se replica ni se copia, pero que daña o compromete la seguridad del ordenador?"
+opciones = ["Troyano", "Bulo", "Joker", "Gusano"]
+correcta = "Troyano"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué lector de libros electrónicos fue diseñado por Amazon?"
+opciones = ["Kindle", "Kobo", "Epub", "PRS-650"]
+correcta = "Kindle"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué nombre de mujer se le dio a uno de los primeros ordenadores de Apple?"
+opciones = ["Lisa", "Sara", "Anna", "Isabella"]
+correcta = "Lisa"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué otro nombre se utiliza para referirse al correo electrónico no deseado?"
+opciones = ["Spam", "Bug", "Flag", "OP"]
+correcta = "Spam"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué significa «módem»?"
+opciones = ["Modulator-demodulator", "Monetary Devaluation Exchange Mechanism", "Memory Demagnetization", "Monetary Demarkation"]
+correcta = "Modulator-demodulator"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué significa «Pixel»?"
+opciones = ["Picture element", "Picture extract", "Picture election", "Picture excision"]
+correcta = "Picture element"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué significa CD en el mundo de la música?"
+opciones = ["Compact Disc", "Computer Data", "Computer Disc", "Compact Data"]
+correcta = "Compact Disc"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significa el «http» escrito al comienzo de cualquier dirección web?"
+opciones = ["Hypertext Transfer Protocol", "HTML Transfer Technology Process", "Hyperspace Terms and Tech Protocol", "Hyperspace Techniques & Tech Progress"]
+correcta = "Hypertext Transfer Protocol"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué significa JPEG?"
+opciones = ["Joint Photographic Experts Group", "Joint Pixels Experts Group", "Joint Photogram Experts Group", "Joint Painting Experts Group"]
+correcta = "Joint Photographic Experts Group"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué significan las siglas «RAM» en informática?"
+opciones = ["Random Access Memory", "Raid Addressed Microprocessor", "Robust Administrative Motherboard", "Rapid Action Microchip"]
+correcta = "Random Access Memory"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué significan las siglas «URL»?"
+opciones = ["Uniform Resource Locator", "Ultimate RAM Locator", "User Regulation Law", "Unknown RAM Load"]
+correcta = "Uniform Resource Locator"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué tipo de archivo es uno con extensión «.BAK»?"
+opciones = ["Copia de seguridad de un archivo", "Archivo de audio", "Archivo de animación/película", "Archivo de texto"]
+correcta = "Copia de seguridad de un archivo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué une a los nombres Ada, Lisp y Algol?"
+opciones = ["Lenguajes de programación", "Software de hoja de cálculo", "Marcas de placas base", "Disposición de teclados"]
+correcta = "Lenguajes de programación"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué virus informático se replica, apagando el sistema informático en el proceso?"
+opciones = ["Gusano", "Bug", "Tarántula", "Troyano"]
+correcta = "Gusano"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué color es la caja negra de un avión?"
+opciones = ["Naranja", "Negra", "Verde", "Azul"]
+correcta = "Naranja"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué inventó Igor Sikorsky?"
+opciones = ["Helicóptero", "Dirigible", "Motor de reacción", "Planeador"]
+correcta = "Helicóptero"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué inventó Karl Benz?"
+opciones = ["Coche de gasolina", "Tranvía", "Planeador", "Turbina de vapor"]
+correcta = "Coche de gasolina"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué animal se le conocía en la antigüedad como «camelopardalis»?"
+opciones = ["Jirafa", "Cebra", "Camello", "Pitón"]
+correcta = "Jirafa"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué son homólogas las glándulas venenosas de las serpientes?"
+opciones = ["Glándulas salivarias de los vertebrados", "Órganos eléctricos de los peces", "Aguijones de las rayas", "Glandulas sebáceas de los mamíferos"]
+correcta = "Glándulas salivarias de los vertebrados"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se comunican las abejas melíferas dónde encontrar flores?"
+opciones = ["Con una danza especial", "Con un zumbido especial", "Picándose unas a otras", "Oliéndose unas a otras"]
+correcta = "Con una danza especial"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el largo sueño en el que entran algunos animales durante todo el invierno?"
+opciones = ["Hibernación", "Metástasis", "Incubación", "Narcolepsia"]
+correcta = "Hibernación"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el nombre del reptil que cambia su color para que coincida con el de su entorno?"
+opciones = ["Camaleón", "Iguana", "Gecko", "Dragón de komodo"]
+correcta = "Camaleón"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llaman las almohadillas suaves y acolchadas en los pies de los insectos y otros artrópodos?"
+opciones = ["Pulvilli", "Garras", "Van der Waals", "Adhesivos"]
+correcta = "Pulvilli"
+dificultad = 2
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Con qué órgano huele una serpiente?"
+opciones = ["Lengua", "Mandíbula", "Dientes", "Cola"]
+correcta = "Lengua"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál de estos mamíferos pone huevos?"
+opciones = ["Ornitorrinco", "Delfín", "Ratón", "Murciélago"]
+correcta = "Ornitorrinco"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el animal terrestre que corre más deprisa?"
+opciones = ["Guepardo", "Leopardo", "Tigre", "Puma"]
+correcta = "Guepardo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre de un apéndice u órgano que se ha adaptado para agarrar o sostener cosas?"
+opciones = ["Prensible", "Agarrador", "Apretador", "Estrechible"]
+correcta = "Prensible"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del pájaro que no puede volar y es el ave más grande en la Tierra?"
+opciones = ["Avestruz", "Emú", "Flamenco", "Kiwi"]
+correcta = "Avestruz"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la única criatura que puede sacarse el estómago?"
+opciones = ["Estrella de mar", "Vaca", "Pulpo", "Araña"]
+correcta = "Estrella de mar"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuáles son los animales que comen plantas y otros animales?"
+opciones = ["Omnívoros", "Herbívoros", "Carnívoros", "Bibívoros"]
+correcta = "Omnívoros"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántas patas tiene una hormiga?"
+opciones = ["6", "4", "8", "10"]
+correcta = "6"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuántos corazones tiene un pulpo?"
+opciones = ["3", "4", "5", "6"]
+correcta = "3"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué color es la sangre de los pulpos?"
+opciones = ["Azul", "Verde", "Amarilla", "Naranja"]
+correcta = "Azul"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la especie del primer mamífero clonado?"
+opciones = ["Oveja", "Ratón", "Vaca", "Rata"]
+correcta = "Oveja"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué tipo de animal fue el primero el Archaeopteryx?"
+opciones = ["Pájaro", "Serpiente", "Anfibio", "Lagarto"]
+correcta = "Pájaro"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En cuántas cámaras se divide el estómago de una vaca?"
+opciones = ["4", "2", "3", "5"]
+correcta = "4"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué animal duerme con un ojo abierto?"
+opciones = ["Delfín", "Gato", "Caballo", "Conejo"]
+correcta = "Delfín"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué animal produce su propia loción bronceadora?"
+opciones = ["Hipopótamo", "Rinoceronte", "Elefante", "Caimán"]
+correcta = "Hipopótamo"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué animal se usa comúnmente para encontrar trufas?"
+opciones = ["Cerdo", "Perro", "Cabra", "Caballo"]
+correcta = "Cerdo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué animal tiene los ojos más grandes que cualquier otro vertebrado terrestre?"
+opciones = ["Avestruz", "Vaca", "Águila", "Caballo"]
+correcta = "Avestruz"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué animales tienen pupilas rectangulares?"
+opciones = ["Cabras, sapos y pulpos", "Cocodrilos, víboras y gatos", "Dragones de Komodo y geckos", "Musarañas y zarigüeyas"]
+correcta = "Cabras, sapos y pulpos"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué animales viven en un formicario?"
+opciones = ["Hormigas", "Abejas", "Escarabajos", "Arañas"]
+correcta = "Hormigas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué estudia la ornitología?"
+opciones = ["Pájaros", "Olores", "Bosques", "Cristales"]
+correcta = "Pájaros"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué miembro de la familia de los osos sólo come bambú?"
+opciones = ["Panda", "Oso Polar", "Koala", "Oso pardo"]
+correcta = "Panda"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué pájaro come cabeza abajo?"
+opciones = ["Flamenco", "Avestruz", "Búho", "Halcón"]
+correcta = "Flamenco"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué pez puede agarrar objetos con la cola?"
+opciones = ["Caballito de mar", "Pez volador", "Barracuda", "Tiburón blanco"]
+correcta = "Caballito de mar"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué raza de perro estaba reservada para la aristocracia en la antigua China?"
+opciones = ["Pekinés", "Shar Pei", "Chow chow", "Carlino"]
+correcta = "Pekinés"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué tienen sólo los animales ungulados?"
+opciones = ["Pezuñas", "Cuernos", "Cola", "Uñas"]
+correcta = "Pezuñas"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué tipo de animal es un samoyedo?"
+opciones = ["Perro", "Ciervo", "Oso", "Mapache"]
+correcta = "Perro"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué tipo de glándulas no son funcionales en los cerdos?"
+opciones = ["Sudoríparas", "Salivarias", "Lacrimales", "Feromonales"]
+correcta = "Sudoríparas"
+dificultad = 2
+tiempo = 14

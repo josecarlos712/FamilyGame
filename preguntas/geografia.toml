@@ -1,3 +1,6 @@
+# Parte de estas preguntas procede del «Spanish general knowledge megastudy»
+# (Buades-Sitjar, Planchuelo y Duñabeitia, 2021; figshare 10.6084/m9.figshare.14073899),
+# licencia CC BY 4.0. Revisadas y adaptadas; dificultad según el % de acierto real en España.
 [categoria]
 nombre = "Geografía"
 icono = "🌍"
@@ -66,3 +69,2874 @@ enunciado = "¿Qué país tiene forma de bota?"
 opciones = ["Grecia", "Italia", "Portugal", "Croacia"]
 correcta = "Italia"
 tiempo = 5
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Francia?"
+opciones = ["Marsella", "Lyon", "París", "Oslo"]
+correcta = "París"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Alemania?"
+opciones = ["Berlín", "Dublín", "Múnich", "Hamburgo"]
+correcta = "Berlín"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Italia?"
+opciones = ["Bratislava", "Milán", "Nápoles", "Roma"]
+correcta = "Roma"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Reino Unido?"
+opciones = ["Berna", "Londres", "Edimburgo", "Manchester"]
+correcta = "Londres"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Portugal?"
+opciones = ["Bratislava", "Coímbra", "Lisboa", "Oporto"]
+correcta = "Lisboa"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Grecia?"
+opciones = ["Patras", "Salónica", "Atenas", "Copenhague"]
+correcta = "Atenas"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Bélgica?"
+opciones = ["Bruselas", "Amberes", "Riga", "Brujas"]
+correcta = "Bruselas"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Suiza?"
+opciones = ["Dublín", "Zúrich", "Ginebra", "Berna"]
+correcta = "Berna"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Austria?"
+opciones = ["Viena", "Lisboa", "Innsbruck", "Salzburgo"]
+correcta = "Viena"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Suecia?"
+opciones = ["Malmö", "Gotemburgo", "Estocolmo", "Reikiavik"]
+correcta = "Estocolmo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Noruega?"
+opciones = ["Bergen", "Londres", "Trondheim", "Oslo"]
+correcta = "Oslo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Dinamarca?"
+opciones = ["Aarhus", "Odense", "Copenhague", "Londres"]
+correcta = "Copenhague"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Finlandia?"
+opciones = ["Varsovia", "Turku", "Tampere", "Helsinki"]
+correcta = "Helsinki"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Irlanda?"
+opciones = ["Cork", "Galway", "Dublín", "Berlín"]
+correcta = "Dublín"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Polonia?"
+opciones = ["Moscú", "Cracovia", "Varsovia", "Gdansk"]
+correcta = "Varsovia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Hungría?"
+opciones = ["Szeged", "Debrecen", "Budapest", "Berna"]
+correcta = "Budapest"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de República Checa?"
+opciones = ["Brno", "Belgrado", "Ostrava", "Praga"]
+correcta = "Praga"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Rusia?"
+opciones = ["Novosibirsk", "Moscú", "Dublín", "San Petersburgo"]
+correcta = "Moscú"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Ucrania?"
+opciones = ["Járkov", "Odesa", "Kiev", "Varsovia"]
+correcta = "Kiev"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Turquía?"
+opciones = ["Oslo", "Esmirna", "Estambul", "Ankara"]
+correcta = "Ankara"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Croacia?"
+opciones = ["Zagreb", "Split", "Reikiavik", "Dubrovnik"]
+correcta = "Zagreb"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Serbia?"
+opciones = ["Novi Sad", "Helsinki", "Niš", "Belgrado"]
+correcta = "Belgrado"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Bulgaria?"
+opciones = ["Sofía", "Plovdiv", "Varna", "Reikiavik"]
+correcta = "Sofía"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Islandia?"
+opciones = ["Reikiavik", "Keflavik", "Akureyri", "Belgrado"]
+correcta = "Reikiavik"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Eslovaquia?"
+opciones = ["Copenhague", "Košice", "Žilina", "Bratislava"]
+correcta = "Bratislava"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Lituania?"
+opciones = ["Vilna", "Oslo", "Kaunas", "Klaipeda"]
+correcta = "Vilna"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Letonia?"
+opciones = ["Daugavpils", "Riga", "Liepāja", "Estocolmo"]
+correcta = "Riga"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Estonia?"
+opciones = ["Tartu", "Narva", "París", "Tallin"]
+correcta = "Tallin"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Estados Unidos?"
+opciones = ["Ottawa", "Washington D. C.", "Los Ángeles", "Nueva York"]
+correcta = "Washington D. C."
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Canadá?"
+opciones = ["Montreal", "Kingston", "Ottawa", "Toronto"]
+correcta = "Ottawa"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de México?"
+opciones = ["Guadalajara", "Tegucigalpa", "Ciudad de México", "Monterrey"]
+correcta = "Ciudad de México"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Cuba?"
+opciones = ["Varadero", "Ciudad de México", "La Habana", "Santiago de Cuba"]
+correcta = "La Habana"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Brasil?"
+opciones = ["Río de Janeiro", "São Paulo", "Lima", "Brasilia"]
+correcta = "Brasilia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Argentina?"
+opciones = ["Córdoba", "Rosario", "Montevideo", "Buenos Aires"]
+correcta = "Buenos Aires"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Chile?"
+opciones = ["Concepción", "Valparaíso", "Sucre", "Santiago de Chile"]
+correcta = "Santiago de Chile"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Perú?"
+opciones = ["Lima", "Arequipa", "Cuzco", "Quito"]
+correcta = "Lima"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Colombia?"
+opciones = ["Medellín", "Santiago de Chile", "Bogotá", "Cali"]
+correcta = "Bogotá"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Venezuela?"
+opciones = ["Valencia", "Caracas", "Maracaibo", "Santiago de Chile"]
+correcta = "Caracas"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Ecuador?"
+opciones = ["Cuenca", "Asunción", "Quito", "Guayaquil"]
+correcta = "Quito"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Bolivia?"
+opciones = ["Santa Cruz de la Sierra", "La Paz", "Sucre", "Bogotá"]
+correcta = "Sucre"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Uruguay?"
+opciones = ["Punta del Este", "Montevideo", "Salto", "Santiago de Chile"]
+correcta = "Montevideo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Paraguay?"
+opciones = ["Encarnación", "Ciudad del Este", "Montevideo", "Asunción"]
+correcta = "Asunción"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Costa Rica?"
+opciones = ["Washington D. C.", "Alajuela", "Limón", "San José"]
+correcta = "San José"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Panamá?"
+opciones = ["Colón", "David", "Ciudad de Panamá", "La Habana"]
+correcta = "Ciudad de Panamá"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Guatemala?"
+opciones = ["Ciudad de Guatemala", "Quetzaltenango", "Tegucigalpa", "Antigua Guatemala"]
+correcta = "Ciudad de Guatemala"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de República Dominicana?"
+opciones = ["Santiago de los Caballeros", "Punta Cana", "Santo Domingo", "Ciudad de México"]
+correcta = "Santo Domingo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de China?"
+opciones = ["Nueva Delhi", "Hong Kong", "Shanghái", "Pekín"]
+correcta = "Pekín"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Japón?"
+opciones = ["Kioto", "Tokio", "Nueva Delhi", "Osaka"]
+correcta = "Tokio"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de India?"
+opciones = ["Nueva Delhi", "Bombay", "Calcuta", "Teherán"]
+correcta = "Nueva Delhi"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Corea del Sur?"
+opciones = ["Incheon", "Seúl", "Pekín", "Busan"]
+correcta = "Seúl"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Tailandia?"
+opciones = ["Chiang Mai", "Phuket", "Katmandú", "Bangkok"]
+correcta = "Bangkok"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Vietnam?"
+opciones = ["Da Nang", "Ho Chi Minh", "Bagdad", "Hanói"]
+correcta = "Hanói"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Indonesia?"
+opciones = ["Surabaya", "Bandung", "Katmandú", "Yakarta"]
+correcta = "Yakarta"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Filipinas?"
+opciones = ["Pekín", "Manila", "Cebú", "Davao"]
+correcta = "Manila"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Malasia?"
+opciones = ["Nueva Delhi", "Johor Bahru", "Penang", "Kuala Lumpur"]
+correcta = "Kuala Lumpur"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Arabia Saudí?"
+opciones = ["La Meca", "Yeda", "Seúl", "Riad"]
+correcta = "Riad"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Irán?"
+opciones = ["Shiraz", "Teherán", "Bagdad", "Isfahán"]
+correcta = "Teherán"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Irak?"
+opciones = ["Bagdad", "Basora", "Mosul", "Manila"]
+correcta = "Bagdad"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Pakistán?"
+opciones = ["Lahore", "Karachi", "Islamabad", "Doha"]
+correcta = "Islamabad"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Afganistán?"
+opciones = ["Herat", "Kandahar", "Ulán Bator", "Kabul"]
+correcta = "Kabul"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Siria?"
+opciones = ["Homs", "Alepo", "Damasco", "Ulán Bator"]
+correcta = "Damasco"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Líbano?"
+opciones = ["Trípoli", "Astaná", "Beirut", "Sidón"]
+correcta = "Beirut"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Catar?"
+opciones = ["Beirut", "Al Khor", "Doha", "Al Wakrah"]
+correcta = "Doha"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Nepal?"
+opciones = ["Biratnagar", "Pokhara", "Ulán Bator", "Katmandú"]
+correcta = "Katmandú"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Mongolia?"
+opciones = ["Darkhan", "Erdenet", "Ulán Bator", "Kabul"]
+correcta = "Ulán Bator"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Kazajistán?"
+opciones = ["Almatý", "Shymkent", "Astaná", "Hanói"]
+correcta = "Astaná"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Egipto?"
+opciones = ["Alejandría", "Pretoria", "Luxor", "El Cairo"]
+correcta = "El Cairo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Marruecos?"
+opciones = ["Dodoma", "Casablanca", "Marrakech", "Rabat"]
+correcta = "Rabat"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Argelia?"
+opciones = ["Constantina", "Rabat", "Orán", "Argel"]
+correcta = "Argel"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Túnez?"
+opciones = ["Susa", "Túnez", "Pretoria", "Sfax"]
+correcta = "Túnez"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Nigeria?"
+opciones = ["Abuya", "Kano", "Dodoma", "Lagos"]
+correcta = "Abuya"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Kenia?"
+opciones = ["Argel", "Mombasa", "Nairobi", "Kisumu"]
+correcta = "Nairobi"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Etiopía?"
+opciones = ["Gondar", "Luanda", "Adís Abeba", "Harar"]
+correcta = "Adís Abeba"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Sudáfrica?"
+opciones = ["Johannesburgo", "Ciudad del Cabo", "Pretoria", "Acra"]
+correcta = "Pretoria"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Ghana?"
+opciones = ["Luanda", "Takoradi", "Acra", "Kumasi"]
+correcta = "Acra"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Senegal?"
+opciones = ["Dakar", "Saint-Louis", "Túnez", "Thiès"]
+correcta = "Dakar"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Tanzania?"
+opciones = ["Acra", "Dodoma", "Zanzíbar", "Dar es Salaam"]
+correcta = "Dodoma"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Angola?"
+opciones = ["Lobito", "Benguela", "Luanda", "Acra"]
+correcta = "Luanda"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Libia?"
+opciones = ["Bengasi", "Misrata", "Trípoli", "Túnez"]
+correcta = "Trípoli"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Nueva Zelanda?"
+opciones = ["Puerto Moresby", "Wellington", "Auckland", "Christchurch"]
+correcta = "Wellington"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Asturias?"
+opciones = ["León", "Oviedo", "Avilés", "Gijón"]
+correcta = "Oviedo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Cantabria?"
+opciones = ["Santander", "Torrelavega", "Oviedo", "Bilbao"]
+correcta = "Santander"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de La Rioja?"
+opciones = ["Pamplona", "Burgos", "Vitoria", "Logroño"]
+correcta = "Logroño"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Navarra?"
+opciones = ["Tudela", "Pamplona", "Logroño", "San Sebastián"]
+correcta = "Pamplona"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Galicia?"
+opciones = ["Santiago de Compostela", "Pontevedra", "Vigo", "A Coruña"]
+correcta = "Santiago de Compostela"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Extremadura?"
+opciones = ["Cáceres", "Mérida", "Badajoz", "Plasencia"]
+correcta = "Mérida"
+dificultad = 2
+tiempo = 12
+explicacion = "Badajoz y Cáceres son las capitales de las dos provincias; la de la comunidad es Mérida."
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Castilla-La Mancha?"
+opciones = ["Cuenca", "Toledo", "Ciudad Real", "Albacete"]
+correcta = "Toledo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Castilla y León?"
+opciones = ["Burgos", "Valladolid", "León", "Salamanca"]
+correcta = "Valladolid"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Aragón?"
+opciones = ["Huesca", "Teruel", "Calatayud", "Zaragoza"]
+correcta = "Zaragoza"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Andalucía?"
+opciones = ["Córdoba", "Málaga", "Sevilla", "Granada"]
+correcta = "Sevilla"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la Región de Murcia?"
+opciones = ["Murcia", "Cartagena", "Lorca", "Alicante"]
+correcta = "Murcia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de las Islas Baleares?"
+opciones = ["Palma", "Mahón", "Ibiza", "Manacor"]
+correcta = "Palma"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital del País Vasco?"
+opciones = ["San Sebastián", "Vitoria", "Pamplona", "Bilbao"]
+correcta = "Vitoria"
+dificultad = 2
+tiempo = 12
+explicacion = "Vitoria-Gasteiz es la capital autonómica, aunque Bilbao es la ciudad más poblada."
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Guipúzcoa?"
+opciones = ["Irún", "Bilbao", "Vitoria", "San Sebastián"]
+correcta = "San Sebastián"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Vizcaya?"
+opciones = ["Bilbao", "Barakaldo", "Vitoria", "San Sebastián"]
+correcta = "Bilbao"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Álava?"
+opciones = ["Vitoria", "Logroño", "Bilbao", "Pamplona"]
+correcta = "Vitoria"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Castellón?"
+opciones = ["Castellón de la Plana", "Vinaroz", "Valencia", "Benicasim"]
+correcta = "Castellón de la Plana"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Las Palmas?"
+opciones = ["Santa Cruz de Tenerife", "Las Palmas de Gran Canaria", "Puerto del Rosario", "Arrecife"]
+correcta = "Las Palmas de Gran Canaria"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Santa Cruz de Tenerife?"
+opciones = ["La Laguna", "Santa Cruz de Tenerife", "Santa Cruz de La Palma", "Las Palmas de Gran Canaria"]
+correcta = "Santa Cruz de Tenerife"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Ourense?"
+opciones = ["Vigo", "Ourense", "Pontevedra", "Lugo"]
+correcta = "Ourense"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Girona?"
+opciones = ["Girona", "Tarragona", "Lleida", "Figueras"]
+correcta = "Girona"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Lleida?"
+opciones = ["Girona", "Huesca", "Lleida", "Tarragona"]
+correcta = "Lleida"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de la provincia de Jaén?"
+opciones = ["Jaén", "Úbeda", "Linares", "Córdoba"]
+correcta = "Jaén"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Salamanca?"
+opciones = ["Castilla-La Mancha", "Galicia", "Extremadura", "Castilla y León"]
+correcta = "Castilla y León"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Cuenca?"
+opciones = ["Aragón", "Castilla y León", "Castilla-La Mancha", "Comunidad Valenciana"]
+correcta = "Castilla-La Mancha"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Cáceres?"
+opciones = ["Extremadura", "Castilla-La Mancha", "Andalucía", "Castilla y León"]
+correcta = "Extremadura"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Almería?"
+opciones = ["Región de Murcia", "Comunidad Valenciana", "Castilla-La Mancha", "Andalucía"]
+correcta = "Andalucía"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Alicante?"
+opciones = ["Comunidad Valenciana", "Región de Murcia", "Cataluña", "Andalucía"]
+correcta = "Comunidad Valenciana"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Huesca?"
+opciones = ["Cataluña", "Aragón", "La Rioja", "Navarra"]
+correcta = "Aragón"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Lugo?"
+opciones = ["Castilla y León", "Cantabria", "Asturias", "Galicia"]
+correcta = "Galicia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Burgos?"
+opciones = ["La Rioja", "Cantabria", "País Vasco", "Castilla y León"]
+correcta = "Castilla y León"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Girona?"
+opciones = ["Cataluña", "Comunidad Valenciana", "Navarra", "Aragón"]
+correcta = "Cataluña"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Albacete?"
+opciones = ["Región de Murcia", "Comunidad Valenciana", "Castilla-La Mancha", "Andalucía"]
+correcta = "Castilla-La Mancha"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Teruel?"
+opciones = ["Aragón", "Cataluña", "Castilla-La Mancha", "Comunidad Valenciana"]
+correcta = "Aragón"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Cartagena?"
+opciones = ["Región de Murcia", "Comunidad Valenciana", "Castilla-La Mancha", "Andalucía"]
+correcta = "Región de Murcia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Gijón?"
+opciones = ["Asturias", "Cantabria", "Galicia", "León"]
+correcta = "Asturias"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Vigo?"
+opciones = ["Castilla y León", "Asturias", "Portugal", "Galicia"]
+correcta = "Galicia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Elche?"
+opciones = ["Región de Murcia", "Comunidad Valenciana", "Andalucía", "Castilla-La Mancha"]
+correcta = "Comunidad Valenciana"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Mérida?"
+opciones = ["Extremadura", "Castilla y León", "Andalucía", "Castilla-La Mancha"]
+correcta = "Extremadura"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Jerez de la Frontera?"
+opciones = ["Andalucía", "Extremadura", "Castilla-La Mancha", "Región de Murcia"]
+correcta = "Andalucía"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Ibiza?"
+opciones = ["Cataluña", "Comunidad Valenciana", "Canarias", "Islas Baleares"]
+correcta = "Islas Baleares"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Lanzarote?"
+opciones = ["Andalucía", "Región de Murcia", "Islas Baleares", "Canarias"]
+correcta = "Canarias"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué comunidad autónoma está Soria?"
+opciones = ["Castilla-La Mancha", "Aragón", "La Rioja", "Castilla y León"]
+correcta = "Castilla y León"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál de estas ciudades españolas es una ciudad autónoma en el norte de África?"
+opciones = ["Melilla", "Cádiz", "Almería", "Algeciras"]
+correcta = "Melilla"
+dificultad = 2
+tiempo = 12
+explicacion = "Ceuta y Melilla son ciudades autónomas, en el norte de África."
+
+[[pregunta]]
+enunciado = "¿Cuál es la isla más grande de las Islas Canarias?"
+opciones = ["Tenerife", "Gran Canaria", "Lanzarote", "Fuerteventura"]
+correcta = "Tenerife"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la más pequeña de las siete islas principales de Canarias?"
+opciones = ["La Gomera", "La Palma", "Lanzarote", "El Hierro"]
+correcta = "El Hierro"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿A qué archipiélago pertenece Formentera?"
+opciones = ["Islas Columbretes", "Islas Cíes", "Islas Canarias", "Islas Baleares"]
+correcta = "Islas Baleares"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la isla más grande de las Islas Baleares?"
+opciones = ["Mallorca", "Ibiza", "Menorca", "Formentera"]
+correcta = "Mallorca"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué isla balear es famosa por su capital, Mahón?"
+opciones = ["Mallorca", "Menorca", "Formentera", "Ibiza"]
+correcta = "Menorca"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué archipiélago pertenece La Palma?"
+opciones = ["Islas Canarias", "Madeira", "Islas Baleares", "Azores"]
+correcta = "Islas Canarias"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué mar desemboca el río Ebro?"
+opciones = ["Mar Negro", "Mediterráneo", "Cantábrico", "Atlántico"]
+correcta = "Mediterráneo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país desemboca el río Duero en el océano Atlántico?"
+opciones = ["España", "Marruecos", "Francia", "Portugal"]
+correcta = "Portugal"
+dificultad = 2
+tiempo = 12
+explicacion = "Desemboca en Oporto."
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Sevilla?"
+opciones = ["Tajo", "Guadalquivir", "Ebro", "Guadiana"]
+correcta = "Guadalquivir"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Zaragoza?"
+opciones = ["Segura", "Duero", "Ebro", "Tajo"]
+correcta = "Ebro"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Toledo?"
+opciones = ["Tajo", "Duero", "Ebro", "Guadalquivir"]
+correcta = "Tajo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Valladolid?"
+opciones = ["Turia", "Miño", "Júcar", "Pisuerga"]
+correcta = "Pisuerga"
+dificultad = 3
+tiempo = 15
+explicacion = "El Pisuerga atraviesa la ciudad y desemboca en el Duero."
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por Madrid?"
+opciones = ["Tajo", "Manzanares", "Segura", "Turia"]
+correcta = "Manzanares"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por la ciudad de Valencia, ahora desviado de su cauce antiguo?"
+opciones = ["Júcar", "Segura", "Turia", "Ebro"]
+correcta = "Turia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué río pasa por la ciudad de Murcia?"
+opciones = ["Turia", "Segura", "Guadalquivir", "Júcar"]
+correcta = "Segura"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué cordillera separa España de Francia?"
+opciones = ["Sierra Morena", "Pirineos", "Alpes", "Sistema Central"]
+correcta = "Pirineos"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué cordillera está el Mulhacén?"
+opciones = ["Pirineos", "Sierra Morena", "Picos de Europa", "Sierra Nevada"]
+correcta = "Sierra Nevada"
+dificultad = 2
+tiempo = 12
+explicacion = "El Mulhacén es el pico más alto de la Península Ibérica."
+
+[[pregunta]]
+enunciado = "¿Qué cordillera española se encuentra en la costa norte, entre Asturias, Cantabria y León?"
+opciones = ["Sierra Nevada", "Picos de Europa", "Montes de Toledo", "Sierra de Guadarrama"]
+correcta = "Picos de Europa"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué sierra se encuentra al norte de Madrid?"
+opciones = ["Sierra de Gredos", "Guadarrama", "Sierra Nevada", "Sierra Morena"]
+correcta = "Guadarrama"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué mar baña la costa norte de España?"
+opciones = ["Mediterráneo", "Cantábrico", "Mar Negro", "Mar del Norte"]
+correcta = "Cantábrico"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué mar baña las costas de Valencia y Cataluña?"
+opciones = ["Mediterráneo", "Atlántico", "Cantábrico", "Adriático"]
+correcta = "Mediterráneo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué océano baña las costas de las Islas Canarias?"
+opciones = ["Atlántico", "Índico", "Pacífico", "Mediterráneo"]
+correcta = "Atlántico"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Con qué país limita España por el oeste?"
+opciones = ["Portugal", "Marruecos", "Francia", "Andorra"]
+correcta = "Portugal"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué pequeño país está entre España y Francia, en los Pirineos?"
+opciones = ["Liechtenstein", "San Marino", "Mónaco", "Andorra"]
+correcta = "Andorra"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué estrecho separa España de Marruecos?"
+opciones = ["Canal de la Mancha", "Estrecho de Mesina", "Estrecho de Gibraltar", "Estrecho de Bering"]
+correcta = "Estrecho de Gibraltar"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿A qué país pertenece el Peñón de Gibraltar?"
+opciones = ["España", "Reino Unido", "Marruecos", "Portugal"]
+correcta = "Reino Unido"
+dificultad = 1
+tiempo = 10
+explicacion = "Es territorio británico de ultramar."
+
+[[pregunta]]
+enunciado = "¿Cuál es la segunda ciudad más poblada de España?"
+opciones = ["Zaragoza", "Valencia", "Sevilla", "Barcelona"]
+correcta = "Barcelona"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad española está la Alhambra?"
+opciones = ["Granada", "Córdoba", "Málaga", "Sevilla"]
+correcta = "Granada"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad española está el Museo Guggenheim?"
+opciones = ["Valencia", "Madrid", "Bilbao", "San Sebastián"]
+correcta = "Bilbao"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Mezquita-Catedral?"
+opciones = ["Sevilla", "Granada", "Toledo", "Córdoba"]
+correcta = "Córdoba"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la catedral donde termina el Camino de Santiago?"
+opciones = ["León", "Pamplona", "Burgos", "Santiago de Compostela"]
+correcta = "Santiago de Compostela"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué ciudad española tiene un famoso acueducto romano?"
+opciones = ["Ávila", "Segovia", "Toledo", "Salamanca"]
+correcta = "Segovia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué ciudad española es famosa por sus murallas medievales completas?"
+opciones = ["Soria", "Zamora", "Burgos", "Ávila"]
+correcta = "Ávila"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué comunidad se encuentra la Sagrada Familia?"
+opciones = ["Cataluña", "Islas Baleares", "Comunidad Valenciana", "Aragón"]
+correcta = "Cataluña"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la provincia española más pequeña?"
+opciones = ["Baleares", "Guipúzcoa", "Vizcaya", "Álava"]
+correcta = "Guipúzcoa"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más caudaloso del mundo?"
+opciones = ["Nilo", "Misisipi", "Amazonas", "Yangtsé"]
+correcta = "Amazonas"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué río atraviesa Londres?"
+opciones = ["Danubio", "Sena", "Támesis", "Rin"]
+correcta = "Támesis"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué río atraviesa París?"
+opciones = ["Loira", "Támesis", "Sena", "Ródano"]
+correcta = "Sena"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué río atraviesa Roma?"
+opciones = ["Sena", "Arno", "Tíber", "Po"]
+correcta = "Tíber"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué río atraviesa Budapest y Viena?"
+opciones = ["Rin", "Elba", "Vístula", "Danubio"]
+correcta = "Danubio"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué río atraviesa Bagdad?"
+opciones = ["Nilo", "Indo", "Tigris", "Jordán"]
+correcta = "Tigris"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Por qué país discurre la mayor parte del Ganges, el río más sagrado para los hindúes?"
+opciones = ["India", "Pakistán", "China", "Nepal"]
+correcta = "India"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué mar desemboca el Nilo?"
+opciones = ["Océano Índico", "Mar Negro", "Mar Rojo", "Mediterráneo"]
+correcta = "Mediterráneo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué mar desemboca el Danubio?"
+opciones = ["Mar Negro", "Mar Báltico", "Mar del Norte", "Mar Adriático"]
+correcta = "Mar Negro"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más largo de Europa?"
+opciones = ["Sena", "Rin", "Danubio", "Volga"]
+correcta = "Volga"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué río atraviesa la ciudad de Nueva Orleans y desemboca en el golfo de México?"
+opciones = ["Colorado", "Hudson", "Misuri", "Misisipi"]
+correcta = "Misisipi"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué río atraviesa la ciudad de El Cairo?"
+opciones = ["Congo", "Níger", "Zambeze", "Nilo"]
+correcta = "Nilo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué río es el más largo de China?"
+opciones = ["Mekong", "Ganges", "Amarillo", "Yangtsé"]
+correcta = "Yangtsé"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué río atraviesa Colonia y Düsseldorf y desemboca en los Países Bajos?"
+opciones = ["Danubio", "Elba", "Óder", "Rin"]
+correcta = "Rin"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la montaña más alta del mundo?"
+opciones = ["Mont Blanc", "K2", "Everest", "Kilimanjaro"]
+correcta = "Everest"
+dificultad = 1
+tiempo = 10
+explicacion = "Mide 8.849 m sobre el nivel del mar."
+
+[[pregunta]]
+enunciado = "¿En qué cordillera está el Everest?"
+opciones = ["Urales", "Alpes", "Andes", "Himalaya"]
+correcta = "Himalaya"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la montaña más alta de África?"
+opciones = ["Kilimanjaro", "Monte Kenia", "Atlas", "Etna"]
+correcta = "Kilimanjaro"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la montaña más alta de Sudamérica?"
+opciones = ["Illimani", "Aconcagua", "Chimborazo", "Huascarán"]
+correcta = "Aconcagua"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué país está el Aconcagua?"
+opciones = ["Bolivia", "Argentina", "Chile", "Perú"]
+correcta = "Argentina"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la montaña más alta de los Alpes?"
+opciones = ["Zugspitze", "Mont Blanc", "Eiger", "Matterhorn"]
+correcta = "Mont Blanc"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la segunda montaña más alta del mundo?"
+opciones = ["Kangchenjunga", "Annapurna", "K2", "Lhotse"]
+correcta = "K2"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué país está el monte Fuji?"
+opciones = ["Filipinas", "Corea del Sur", "China", "Japón"]
+correcta = "Japón"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué cordillera recorre toda la costa oeste de Sudamérica?"
+opciones = ["Alpes", "Andes", "Rocosas", "Himalaya"]
+correcta = "Andes"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué cordillera separa Europa de Asia?"
+opciones = ["Cárpatos", "Cáucaso", "Urales", "Pirineos"]
+correcta = "Urales"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué volcán sepultó Pompeya en el año 79?"
+opciones = ["Vesubio", "Etna", "Estrómboli", "Teide"]
+correcta = "Vesubio"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué volcán de Sicilia es el más activo de Europa?"
+opciones = ["Etna", "Vesubio", "Estrómboli", "Teide"]
+correcta = "Etna"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la montaña más alta de Norteamérica?"
+opciones = ["Monte Whitney", "Pico de Orizaba", "Denali", "Monte Logan"]
+correcta = "Denali"
+dificultad = 3
+tiempo = 15
+explicacion = "Está en Alaska."
+
+[[pregunta]]
+enunciado = "¿En qué continente está el desierto del Sahara?"
+opciones = ["África", "Oceanía", "América", "Asia"]
+correcta = "África"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país de Sudamérica está el desierto de Atacama?"
+opciones = ["Argentina", "Bolivia", "Perú", "Chile"]
+correcta = "Chile"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Entre qué países se extiende el desierto de Gobi?"
+opciones = ["Irán e Irak", "Egipto y Libia", "Mongolia y China", "Chile y Perú"]
+correcta = "Mongolia y China"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué desierto ocupa gran parte de la península arábiga?"
+opciones = ["Rub al Jali", "Namib", "Gobi", "Kalahari"]
+correcta = "Rub al Jali"
+dificultad = 3
+tiempo = 15
+explicacion = "Es el mayor desierto de arena continuo del mundo."
+
+[[pregunta]]
+enunciado = "¿Cuál es el océano más grande del mundo?"
+opciones = ["Índico", "Ártico", "Atlántico", "Pacífico"]
+correcta = "Pacífico"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es el océano más pequeño del mundo?"
+opciones = ["Índico", "Ártico", "Atlántico", "Antártico"]
+correcta = "Ártico"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué mar es famoso por su alta salinidad, que permite flotar sin esfuerzo?"
+opciones = ["Mar Rojo", "Mar Muerto", "Mar Caspio", "Mar Negro"]
+correcta = "Mar Muerto"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué mar separa Europa de África?"
+opciones = ["Mar Negro", "Mar del Norte", "Mar Rojo", "Mediterráneo"]
+correcta = "Mediterráneo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es el lago más grande del mundo por superficie?"
+opciones = ["Lago Victoria", "Mar Caspio", "Lago Baikal", "Lago Superior"]
+correcta = "Mar Caspio"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el lago más profundo del mundo?"
+opciones = ["Tanganica", "Victoria", "Titicaca", "Baikal"]
+correcta = "Baikal"
+dificultad = 3
+tiempo = 15
+explicacion = "Está en Siberia."
+
+[[pregunta]]
+enunciado = "¿Cuál es el lago más grande de África?"
+opciones = ["Lago Chad", "Lago Tanganica", "Lago Victoria", "Lago Malaui"]
+correcta = "Lago Victoria"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Entre qué dos países está el lago Titicaca?"
+opciones = ["Chile y Argentina", "Brasil y Paraguay", "Perú y Bolivia", "Ecuador y Colombia"]
+correcta = "Perú y Bolivia"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué mar baña Turquía por el norte?"
+opciones = ["Mar Caspio", "Mar Rojo", "Mar Báltico", "Mar Negro"]
+correcta = "Mar Negro"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué mar está entre Italia y los Balcanes?"
+opciones = ["Adriático", "Egeo", "Báltico", "Jónico"]
+correcta = "Adriático"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué canal une el Atlántico y el Pacífico a través de Centroamérica?"
+opciones = ["Canal de Suez", "Canal de Corinto", "Canal de Kiel", "Canal de Panamá"]
+correcta = "Canal de Panamá"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué canal une el Mediterráneo con el mar Rojo?"
+opciones = ["Canal de Panamá", "Canal de Kiel", "Canal de la Mancha", "Canal de Suez"]
+correcta = "Canal de Suez"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué estrecho separa Alaska de Rusia?"
+opciones = ["Estrecho de Gibraltar", "Estrecho de Magallanes", "Estrecho de Ormuz", "Estrecho de Bering"]
+correcta = "Estrecho de Bering"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué mar separa Arabia de África?"
+opciones = ["Mar Caspio", "Mar Muerto", "Mar Rojo", "Mar Negro"]
+correcta = "Mar Rojo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es el país más pequeño del mundo?"
+opciones = ["Liechtenstein", "Ciudad del Vaticano", "San Marino", "Mónaco"]
+correcta = "Ciudad del Vaticano"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es el país más grande de Sudamérica?"
+opciones = ["Brasil", "Argentina", "Perú", "Colombia"]
+correcta = "Brasil"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es el segundo país más grande del mundo por superficie?"
+opciones = ["Canadá", "Brasil", "China", "Estados Unidos"]
+correcta = "Canadá"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el país más grande de África por superficie?"
+opciones = ["Argelia", "Sudán", "Libia", "República Democrática del Congo"]
+correcta = "Argelia"
+dificultad = 3
+tiempo = 15
+explicacion = "Desde la división de Sudán en 2011."
+
+[[pregunta]]
+enunciado = "¿Cuál es el continente más pequeño?"
+opciones = ["Antártida", "América del Sur", "Europa", "Oceanía"]
+correcta = "Oceanía"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es el continente más grande?"
+opciones = ["África", "Asia", "América", "Europa"]
+correcta = "Asia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la isla más grande del mundo?"
+opciones = ["Groenlandia", "Madagascar", "Borneo", "Nueva Guinea"]
+correcta = "Groenlandia"
+dificultad = 2
+tiempo = 12
+explicacion = "Si no se cuenta Australia como isla."
+
+[[pregunta]]
+enunciado = "¿Qué país tiene más islas del mundo, con más de 17.000?"
+opciones = ["Indonesia", "Suecia", "Japón", "Filipinas"]
+correcta = "Indonesia"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué país tiene la mayor población del mundo (año 2023)?"
+opciones = ["Indonesia", "Estados Unidos", "India", "China"]
+correcta = "India"
+dificultad = 2
+tiempo = 12
+explicacion = "En 2023 la India superó a China."
+
+[[pregunta]]
+enunciado = "¿Cuál es el único país del mundo que ocupa todo un continente?"
+opciones = ["Australia", "Groenlandia", "Antártida", "Canadá"]
+correcta = "Australia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dos países comparten la isla de La Española?"
+opciones = ["Cuba y Jamaica", "Haití y República Dominicana", "Puerto Rico y Cuba", "Bahamas y Haití"]
+correcta = "Haití y República Dominicana"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué país comparte frontera con Portugal?"
+opciones = ["Andorra", "España", "Marruecos", "Francia"]
+correcta = "España"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué país NO tiene salida al mar?"
+opciones = ["Suiza", "Dinamarca", "Grecia", "Portugal"]
+correcta = "Suiza"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué país sudamericano no tiene salida al mar?"
+opciones = ["Bolivia", "Uruguay", "Ecuador", "Chile"]
+correcta = "Bolivia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Marrakech?"
+opciones = ["Marruecos", "Túnez", "Argelia", "Egipto"]
+correcta = "Marruecos"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Estambul?"
+opciones = ["Irán", "Turquía", "Bulgaria", "Grecia"]
+correcta = "Turquía"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Venecia?"
+opciones = ["Italia", "Francia", "Grecia", "Croacia"]
+correcta = "Italia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Praga?"
+opciones = ["Austria", "Hungría", "República Checa", "Polonia"]
+correcta = "República Checa"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Dubái?"
+opciones = ["Emiratos Árabes Unidos", "Arabia Saudí", "Omán", "Catar"]
+correcta = "Emiratos Árabes Unidos"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Sídney?"
+opciones = ["Australia", "Canadá", "Sudáfrica", "Nueva Zelanda"]
+correcta = "Australia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Bombay?"
+opciones = ["Bangladés", "India", "Sri Lanka", "Pakistán"]
+correcta = "India"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está Río de Janeiro?"
+opciones = ["Argentina", "Brasil", "Portugal", "Colombia"]
+correcta = "Brasil"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está Cuzco?"
+opciones = ["Bolivia", "Perú", "Ecuador", "Colombia"]
+correcta = "Perú"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Casablanca?"
+opciones = ["Argelia", "Túnez", "Marruecos", "Egipto"]
+correcta = "Marruecos"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Tombuctú?"
+opciones = ["Chad", "Níger", "Sudán", "Mali"]
+correcta = "Mali"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de San Petersburgo?"
+opciones = ["Estonia", "Ucrania", "Rusia", "Finlandia"]
+correcta = "Rusia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué continente está Tailandia?"
+opciones = ["América", "Oceanía", "Asia", "África"]
+correcta = "Asia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué continente está Perú?"
+opciones = ["América del Norte", "África", "América del Sur", "Europa"]
+correcta = "América del Sur"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué continente está Nueva Zelanda?"
+opciones = ["África", "Asia", "Oceanía", "América del Sur"]
+correcta = "Oceanía"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué continente está Kenia?"
+opciones = ["Asia", "América del Sur", "Oceanía", "África"]
+correcta = "África"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué continente está Madagascar?"
+opciones = ["Oceanía", "Asia", "América del Sur", "África"]
+correcta = "África"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué continente está Islandia?"
+opciones = ["Oceanía", "América del Norte", "Europa", "Asia"]
+correcta = "Europa"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué continente está Groenlandia desde el punto de vista geográfico?"
+opciones = ["América del Norte", "Europa", "Asia", "Ártico"]
+correcta = "América del Norte"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el Coliseo?"
+opciones = ["Milán", "Atenas", "Florencia", "Roma"]
+correcta = "Roma"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la Torre de Pisa?"
+opciones = ["Italia", "Grecia", "Francia", "España"]
+correcta = "Italia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el Big Ben?"
+opciones = ["Dublín", "Edimburgo", "Londres", "Manchester"]
+correcta = "Londres"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Estatua de la Libertad?"
+opciones = ["Boston", "Nueva York", "Washington D. C.", "Filadelfia"]
+correcta = "Nueva York"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está el Taj Mahal?"
+opciones = ["Nepal", "Pakistán", "India", "Irán"]
+correcta = "India"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está Machu Picchu?"
+opciones = ["Ecuador", "Bolivia", "México", "Perú"]
+correcta = "Perú"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la estatua del Cristo Redentor?"
+opciones = ["Lima", "Buenos Aires", "São Paulo", "Río de Janeiro"]
+correcta = "Río de Janeiro"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Acrópolis con el Partenón?"
+opciones = ["Salónica", "Roma", "Estambul", "Atenas"]
+correcta = "Atenas"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está el templo de Angkor Wat?"
+opciones = ["Camboya", "Birmania", "Tailandia", "Vietnam"]
+correcta = "Camboya"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué país está la antigua ciudad de Petra?"
+opciones = ["Siria", "Egipto", "Jordania", "Israel"]
+correcta = "Jordania"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué país está el monumento de Stonehenge?"
+opciones = ["Alemania", "Irlanda", "Francia", "Reino Unido"]
+correcta = "Reino Unido"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el Burj Khalifa, el edificio más alto del mundo?"
+opciones = ["Riad", "Abu Dabi", "Dubái", "Doha"]
+correcta = "Dubái"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Ópera con forma de velas?"
+opciones = ["Canberra", "Sídney", "Auckland", "Melbourne"]
+correcta = "Sídney"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Puerta de Brandeburgo?"
+opciones = ["Berlín", "Viena", "Fráncfort", "Múnich"]
+correcta = "Berlín"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el Kremlin?"
+opciones = ["San Petersburgo", "Kiev", "Minsk", "Moscú"]
+correcta = "Moscú"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país están las pirámides de Guiza?"
+opciones = ["Egipto", "Sudán", "Irak", "México"]
+correcta = "Egipto"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la pirámide de Chichén Itzá?"
+opciones = ["Guatemala", "México", "Honduras", "Perú"]
+correcta = "México"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Torre CN?"
+opciones = ["Toronto", "Vancouver", "Montreal", "Chicago"]
+correcta = "Toronto"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Casa Blanca?"
+opciones = ["Chicago", "Washington D. C.", "Los Ángeles", "Nueva York"]
+correcta = "Washington D. C."
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la mezquita de Santa Sofía?"
+opciones = ["Ankara", "Damasco", "Atenas", "Estambul"]
+correcta = "Estambul"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué país está el Palacio de Versalles?"
+opciones = ["Italia", "Francia", "Bélgica", "Austria"]
+correcta = "Francia"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está la roca de Uluru?"
+opciones = ["Australia", "Estados Unidos", "Nueva Zelanda", "Sudáfrica"]
+correcta = "Australia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la estatua de La Sirenita?"
+opciones = ["Oslo", "Estocolmo", "Ámsterdam", "Copenhague"]
+correcta = "Copenhague"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el Atomium?"
+opciones = ["Bruselas", "Ámsterdam", "París", "Luxemburgo"]
+correcta = "Bruselas"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el Museo del Louvre?"
+opciones = ["París", "Roma", "Madrid", "Londres"]
+correcta = "París"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Ciudad Prohibida?"
+opciones = ["Pekín", "Hong Kong", "Shanghái", "Tokio"]
+correcta = "Pekín"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué país están las cataratas del Iguazú, junto a Argentina?"
+opciones = ["Perú", "Chile", "Uruguay", "Brasil"]
+correcta = "Brasil"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dos países separan las cataratas del Niágara?"
+opciones = ["Estados Unidos y México", "Canadá y México", "Canadá y Groenlandia", "Estados Unidos y Canadá"]
+correcta = "Estados Unidos y Canadá"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está la Torre de Belém?"
+opciones = ["Oporto", "Sevilla", "Madrid", "Lisboa"]
+correcta = "Lisboa"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el Empire State Building?"
+opciones = ["Chicago", "Washington D. C.", "Boston", "Nueva York"]
+correcta = "Nueva York"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad está el puente Golden Gate?"
+opciones = ["San Francisco", "Los Ángeles", "Seattle", "San Diego"]
+correcta = "San Francisco"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Japón?"
+opciones = ["Rupia", "Yen", "Won", "Yuan"]
+correcta = "Yen"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda del Reino Unido?"
+opciones = ["Euro", "Dólar", "Libra esterlina", "Corona"]
+correcta = "Libra esterlina"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Suiza?"
+opciones = ["Corona suiza", "Marco", "Franco suizo", "Euro"]
+correcta = "Franco suizo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Rusia?"
+opciones = ["Lev", "Rublo", "Hryvnia", "Zloty"]
+correcta = "Rublo"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de la India?"
+opciones = ["Rupia", "Taka", "Dinar", "Yuan"]
+correcta = "Rupia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de China?"
+opciones = ["Yuan", "Yen", "Baht", "Won"]
+correcta = "Yuan"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Brasil?"
+opciones = ["Real", "Peso", "Bolívar", "Sol"]
+correcta = "Real"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de México?"
+opciones = ["Dólar", "Quetzal", "Peso mexicano", "Real"]
+correcta = "Peso mexicano"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Suecia?"
+opciones = ["Euro", "Marco", "Libra", "Corona sueca"]
+correcta = "Corona sueca"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Polonia?"
+opciones = ["Forinto", "Euro", "Esloti", "Corona"]
+correcta = "Esloti"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Turquía?"
+opciones = ["Rial", "Dírham", "Lira turca", "Dinar"]
+correcta = "Lira turca"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Corea del Sur?"
+opciones = ["Baht", "Yen", "Yuan", "Won"]
+correcta = "Won"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Sudáfrica?"
+opciones = ["Naira", "Dólar", "Libra", "Rand"]
+correcta = "Rand"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Canadá?"
+opciones = ["Libra", "Euro", "Dólar canadiense", "Dólar estadounidense"]
+correcta = "Dólar canadiense"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Tailandia?"
+opciones = ["Rupia", "Ringgit", "Dong", "Bat"]
+correcta = "Bat"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Hungría?"
+opciones = ["Zloty", "Leu", "Euro", "Forinto"]
+correcta = "Forinto"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Dinamarca?"
+opciones = ["Marco", "Libra", "Euro", "Corona danesa"]
+correcta = "Corona danesa"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la moneda de Egipto?"
+opciones = ["Libra egipcia", "Dírham", "Dinar", "Rial"]
+correcta = "Libra egipcia"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué país tiene la mayor extensión de costa del mundo?"
+opciones = ["Rusia", "Canadá", "Australia", "Indonesia"]
+correcta = "Canadá"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la sede de gobierno más alta del mundo, a unos 3.600 m de altitud?"
+opciones = ["Quito", "Lima", "Bogotá", "La Paz"]
+correcta = "La Paz"
+dificultad = 3
+tiempo = 15
+explicacion = "La Paz es la sede del gobierno de Bolivia; Sucre es la capital constitucional."
+
+[[pregunta]]
+enunciado = "¿Cuál es la cascada más alta del mundo, en Venezuela?"
+opciones = ["Niágara", "Cataratas del Iguazú", "Cataratas Victoria", "Salto Ángel"]
+correcta = "Salto Ángel"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué arrecife es la mayor estructura viva del mundo, frente a Australia?"
+opciones = ["Atolón de Bikini", "Mar Rojo", "Gran Barrera de Coral", "Arrecife Mesoamericano"]
+correcta = "Gran Barrera de Coral"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué línea imaginaria divide la Tierra en hemisferio norte y sur?"
+opciones = ["Meridiano de Greenwich", "Ecuador", "Trópico de Cáncer", "Círculo polar"]
+correcta = "Ecuador"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué meridiano pasa por Londres y marca la longitud cero?"
+opciones = ["Trópico de Capricornio", "Meridiano de Greenwich", "Ecuador", "Línea internacional de cambio de fecha"]
+correcta = "Meridiano de Greenwich"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué país sudamericano toma su nombre de la línea imaginaria que lo atraviesa?"
+opciones = ["Venezuela", "Bolivia", "Colombia", "Ecuador"]
+correcta = "Ecuador"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es la ciudad más poblada de Estados Unidos?"
+opciones = ["Houston", "Nueva York", "Chicago", "Los Ángeles"]
+correcta = "Nueva York"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué ciudad es la capital de Cataluña?"
+opciones = ["Barcelona", "Tarragona", "Girona", "Lleida"]
+correcta = "Barcelona"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la ciudad más grande de Canadá por población?"
+opciones = ["Ottawa", "Montreal", "Vancouver", "Toronto"]
+correcta = "Toronto"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué ciudad de Turquía está en dos continentes, Europa y Asia?"
+opciones = ["Estambul", "Antalya", "Esmirna", "Ankara"]
+correcta = "Estambul"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué estrecho separa Europa de Asia en Estambul?"
+opciones = ["Mesina", "Dardanelos", "Bósforo", "Gibraltar"]
+correcta = "Bósforo"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué país es famoso por sus fiordos?"
+opciones = ["Noruega", "Dinamarca", "Irlanda", "Portugal"]
+correcta = "Noruega"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué país es conocido como «el país de los mil lagos»?"
+opciones = ["Canadá", "Suecia", "Finlandia", "Noruega"]
+correcta = "Finlandia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué país tiene forma alargada y estrecha en el oeste de Sudamérica?"
+opciones = ["Colombia", "Perú", "Ecuador", "Chile"]
+correcta = "Chile"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿A qué país pertenece Groenlandia?"
+opciones = ["Dinamarca", "Suiza", "Gran Bretaña", "Alemania"]
+correcta = "Dinamarca"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la ciudad de Italia situada en un grupo de 118 pequeñas islas?"
+opciones = ["Venecia", "Florencia", "Trieste", "Milán"]
+correcta = "Venecia"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál de estas ciudades está más al norte?"
+opciones = ["Londres", "París", "Madrid", "Roma"]
+correcta = "Londres"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el golfo que separa Finlandia de Suecia?"
+opciones = ["Golfo de Botnia", "Golfo de León", "Golfo de Génova", "Golfo de Venecia"]
+correcta = "Golfo de Botnia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el país de la Unión Europea con la mayor densidad de población?"
+opciones = ["Malta", "Bélgica", "Países Bajos", "Francia"]
+correcta = "Malta"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más largo de Francia?"
+opciones = ["Loira", "Sena", "Marne", "Somme"]
+correcta = "Loira"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más largo de Italia?"
+opciones = ["Po", "Tíber", "Adigio", "Oglio"]
+correcta = "Po"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el volcán activo más alto de Europa?"
+opciones = ["Etna", "Estrómboli", "Vesubio", "Krakatoa"]
+correcta = "Etna"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Albania?"
+opciones = ["Tirana", "Yerevan", "Riga", "Vaduz"]
+correcta = "Tirana"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Bielorrusia?"
+opciones = ["Minsk", "Belgrado", "Helsinki", "Moscú"]
+correcta = "Minsk"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la ciudad más poblada de Suiza?"
+opciones = ["Zúrich", "Ginebra", "Basilea", "Lausana"]
+correcta = "Zúrich"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuáles son las cordilleras más prominentes de Europa?"
+opciones = ["Alpes, Cárpatos, Pirineos y Apeninos", "Alpes, Himalaya y Montañas Rocosas", "Alpes, Andes y Pirineos", "Alpes y Apalaches"]
+correcta = "Alpes, Cárpatos, Pirineos y Apeninos"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué país es Budapest la capital?"
+opciones = ["Hungría", "India", "Estonia", "Austria"]
+correcta = "Hungría"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde se encuentra Hellas?"
+opciones = ["Grecia", "Hungría", "Noruega", "Suecia"]
+correcta = "Grecia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde se halla la cuenca hidrográfica del Río Rin?"
+opciones = ["Mar del Norte", "Golfo de Vizcaya", "Mar Adrático", "Mar Báltico"]
+correcta = "Mar del Norte"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué grupo insular se halla la isla de Formentera?"
+opciones = ["Baleares", "Canarias", "Cíclades", "Azores"]
+correcta = "Baleares"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué mar desemboca el rio Ródano?"
+opciones = ["Mar Mediterráneo", "Mar del Norte", "Mar Rojo", "Mar Negro"]
+correcta = "Mar Mediterráneo"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A orillas de qué río está situada la ciudad de Londres?"
+opciones = ["Támesis", "Severn", "Danubio", "Tíber"]
+correcta = "Támesis"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué capital está caldeada por aguas termales volcánicas?"
+opciones = ["Reikiavik", "Oslo", "Estocolmo", "Helsinki"]
+correcta = "Reikiavik"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué ciudad es la capital de Liechtenstein?"
+opciones = ["Vaduz", "Viena", "Budapest", "Amsterdam"]
+correcta = "Vaduz"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué país tiene Tallin como su capital?"
+opciones = ["Estonia", "Austria", "Croacia", "Chipre"]
+correcta = "Estonia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué río europeo pasa por 10 países y 4 capitales?"
+opciones = ["Danubio", "Volga", "Rin", "Elba"]
+correcta = "Danubio"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo es el diámetro polar de la Tierra comparado con el diámetro ecuatorial?"
+opciones = ["Más pequeño", "Más grande", "Igual", "Aproximadamente el doble"]
+correcta = "Más pequeño"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a una colina de arena suelta construida por el viento o el flujo del agua?"
+opciones = ["Duna", "Cana", "Ona", "Lara"]
+correcta = "Duna"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el meridiano que pasa por Londres?"
+opciones = ["Greenwich", "Capricornio", "Ecuador", "Cáncer"]
+correcta = "Greenwich"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el océano que se encuentra entre África y Australia?"
+opciones = ["Índico", "Pacífico", "Atlántico", "Antártico"]
+correcta = "Índico"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la parte de la Tierra compuesta por toda la vida?"
+opciones = ["Biosfera", "Mesosfera", "Estratosfera", "Ionosfera"]
+correcta = "Biosfera"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba el super-continente que existió hace aproximadamente 335-175 millones de años?"
+opciones = ["Pangea", "Cambria", "Calibria", "Pandemia"]
+correcta = "Pangea"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál de estos es un herbazal tropical?"
+opciones = ["Sabana", "Pampa", "Pradera", "Taiga"]
+correcta = "Sabana"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el punto más al sur de África?"
+opciones = ["Cabo de las Agujas", "Cabo de Finisterre", "Cabo Baba", "Cabo Maclear"]
+correcta = "Cabo de las Agujas"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el término habitual en geografía para la altura angular de un objeto sobre el horizonte?"
+opciones = ["Elevación", "Flote", "Latitud", "Cénit"]
+correcta = "Elevación"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la isla más grande del océano Pacífico?"
+opciones = ["Nueva Guinea", "Hawai", "Kyushu", "Hokkaido"]
+correcta = "Nueva Guinea"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la mayor porción de nuestra hidrosfera, representando hasta un 46% de la misma?"
+opciones = ["Océano pacífico", "Océano Antártico", "Océano Atlántico", "Océano Índico"]
+correcta = "Océano pacífico"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la noche más corta en el hemisferio sur?"
+opciones = ["21 de diciembre", "21 de junio", "23 de Septiembre", "23 de Marzo"]
+correcta = "21 de diciembre"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la principal vegetación de las zonas estepáricas?"
+opciones = ["Grandes herbazales", "Bosques de coníferas", "Bosques perennes", "Bosques caducifolios"]
+correcta = "Grandes herbazales"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la proporción de tierra a océano en el hemisferio sur?"
+opciones = ["1 a 5", "1 a 10", "1 a 1,5", "1 a 1"]
+correcta = "1 a 5"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuánta área terrestre en el mundo está ocupada por desiertos cálidos y fríos?"
+opciones = ["Un tercio", "La mitad", "Un cuarto", "Tres cuartos"]
+correcta = "Un tercio"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué meses tienen lugar los dos equinoccios respectivamente?"
+opciones = ["Marzo y septiembre", "Septiembre y diciembre", "Enero y junio", "Junio y marzo"]
+correcta = "Marzo y septiembre"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué océano se encuentra la Corriente del Golfo?"
+opciones = ["Atlántico", "Pacífico", "Índico", "Ártico"]
+correcta = "Atlántico"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué región del Océano Atlántico se dice que han desaparecido aviones y barcos misteriosamente?"
+opciones = ["Triángulo de las Bermudas", "Islas Canarias", "Estrecho de Magallanes", "Azores"]
+correcta = "Triángulo de las Bermudas"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué se divide la litosfera terrestre?"
+opciones = ["Placas tectónicas", "Capas atmosféricas", "Corrientes oceánicas", "Países"]
+correcta = "Placas tectónicas"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué áreas geográficas componen el Nuevo Mundo?"
+opciones = ["Las Américas", "Sudáfrica", "Asia del este", "Oceanía y la Polinesia"]
+correcta = "Las Américas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué áreas geográficas componen el Viejo Mundo?"
+opciones = ["Afro-Eurasia", "Oceanía y la Polinesia", "Los polos Norte y Sur", "Las Américas"]
+correcta = "Afro-Eurasia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué causa la crecida y bajada de los niveles marinos?"
+opciones = ["La gravedad del Sol y la Luna", "Las corrientes de aire", "La migración de las ballenas", "El uso de transporte marítimo"]
+correcta = "La gravedad del Sol y la Luna"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué continente tiene la cordillera más larga del mundo?"
+opciones = ["Sudamérica", "Ásia", "Europa", "África"]
+correcta = "Sudamérica"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué continente tiene más países?"
+opciones = ["África", "Europa", "Asia", "Oceanía"]
+correcta = "África"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué mar no tiene playas?"
+opciones = ["Mar de los Sargazos", "Mar Rojo", "Mar Negro", "Mar Muerto"]
+correcta = "Mar de los Sargazos"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué otra escala se usa para medir la intensidad de los terremotos, además de la de Richter?"
+opciones = ["Mercalli", "Signori", "Bianchi", "Lombardi"]
+correcta = "Mercalli"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué rama de conocimiento estudia las rocas y los procesos que las hacen cambiar a lo largo del tiempo?"
+opciones = ["Geología", "Geografía", "Biología", "Paleontología"]
+correcta = "Geología"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué rama de la geografía estudia la distribución de especies y ecosistemas a lo largo del tiempo?"
+opciones = ["Biogeografía", "Ecogeografía", "Etnogeografía", "Cartografía"]
+correcta = "Biogeografía"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué representan los isohelios?"
+opciones = ["Radiación solar", "Humedad", "Potencial electrostático del aire", "Lluvia"]
+correcta = "Radiación solar"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué representan los isonefos?"
+opciones = ["Nubosidad", "Altitud de terreno", "Presión atmosférica", "Temperatura"]
+correcta = "Nubosidad"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué son siroco, mistral y levante?"
+opciones = ["Vientos", "Terremotos", "Precipitaciones", "Erupciones volcánicas"]
+correcta = "Vientos"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el río situado a lo largo de la frontera entre Estados Unidos y México?"
+opciones = ["Río Grande", "Amazonas", "Mississipi", "Colorado"]
+correcta = "Río Grande"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál era el antiguo nombre de la isla de Sri Lanka?"
+opciones = ["Ceilán", "Turton", "Komora", "Canva"]
+correcta = "Ceilán"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el estado más grande en área en los Estados Unidos de América?"
+opciones = ["Alaska", "Texas", "California", "Nueva York"]
+correcta = "Alaska"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el lago de agua dulce más grande de África?"
+opciones = ["Victoria", "Tanganica", "Malaui", "Moero"]
+correcta = "Victoria"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más largo de América del Sur?"
+opciones = ["Amazonas", "Paraná", "Orinoco", "Magdalena"]
+correcta = "Amazonas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más largo de Asia?"
+opciones = ["Yangtsé", "Huang He", "Mekong", "Lena"]
+correcta = "Yangtsé"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el único país centroamericano sin costa en el Caribe?"
+opciones = ["El Salvador", "México", "Guatemala", "Honduras"]
+correcta = "El Salvador"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la capital de Jamaica?"
+opciones = ["Kingston", "Jamaica", "La Habana", "Portmore"]
+correcta = "Kingston"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer parque nacional de Estados Unidos?"
+opciones = ["Yellowstone", "Everglades", "Yosemite", "Gran Cañón"]
+correcta = "Yellowstone"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuántos estados componen los Estados Unidos de América?"
+opciones = ["50", "52", "51", "49"]
+correcta = "50"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué país es Bagdad la capital?"
+opciones = ["Iraq", "Afganistán", "Irán", "Siria"]
+correcta = "Iraq"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué país es Nairobi la capital?"
+opciones = ["Kenia", "Uganda", "Nigeria", "El Congo"]
+correcta = "Kenia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué país es Sucre la capital?"
+opciones = ["Bolivia", "Perú", "Argentina", "Chile"]
+correcta = "Bolivia"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué ciudad se encuentra la famosa playa de Copacabana?"
+opciones = ["Río de Janeiro", "São Paulo", "Brasilia", "Belo Horizonte"]
+correcta = "Río de Janeiro"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué continente está Eritrea?"
+opciones = ["África", "Asia", "Europa", "Antártida"]
+correcta = "África"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué continente se encuentra Guyana?"
+opciones = ["Sudamérica", "África", "Ásia", "Australia"]
+correcta = "Sudamérica"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué continente se encuentran las montañas más altas del mundo?"
+opciones = ["Asia", "África", "Sudamérica", "Europa"]
+correcta = "Asia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué océano están las Seychelles?"
+opciones = ["Índico", "Pacífico", "Atlántico", "Antártico"]
+correcta = "Índico"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué país está la ciudad de Brisbane?"
+opciones = ["Australia", "Nueva Zelanda", "Estados Unidos", "Reino Unido"]
+correcta = "Australia"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué país se encuentra el punto más septentrional de África?"
+opciones = ["Túnez", "Algeria", "Egipto", "Marruecos"]
+correcta = "Túnez"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué país se puede encontrar la cima del monte Kilimanjaro?"
+opciones = ["Tanzania", "Mozambique", "Kenia", "Uganda"]
+correcta = "Tanzania"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué conecta el canal de Suez?"
+opciones = ["Mar Mediterráneo y Mar Rojo", "Mar Rojo y Mar Caspio", "Mar Mediterráneo y Mar del Norte", "Mar Báltico y Mar Caspio"]
+correcta = "Mar Mediterráneo y Mar Rojo"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué desierto tienen en común Botswana, Namibia y Sudáfrica?"
+opciones = ["Kalahari", "Sahara", "Karoo", "Namib"]
+correcta = "Kalahari"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué dos países rodean el Mar Muerto?"
+opciones = ["Israel y Jordania", "Egipto y Líbano", "Israel y Egipto", "Líbano y Jordania"]
+correcta = "Israel y Jordania"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué país se conoce a veces como el «Reino Medio»?"
+opciones = ["China", "Rusia", "Irán", "México"]
+correcta = "China"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué país tiene a Puerto Príncipe como capital?"
+opciones = ["Haití", "Marruecos", "Costa Rica", "Honduras"]
+correcta = "Haití"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde está la sede de las Naciones Unidas?"
+opciones = ["Nueva York", "Washington", "Génova", "París"]
+correcta = "Nueva York"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde están las oficinas centrales de la INTERPOL?"
+opciones = ["Lyon (Francia)", "Bruselas (Bélgica)", "Berlín (Alemania)", "Florencia (Italia)"]
+correcta = "Lyon (Francia)"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Dónde están las oficinas centrales de la Organización Mundial de la Salud?"
+opciones = ["Ginebra", "Zúrich", "Bruselas", "París"]
+correcta = "Ginebra"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde están las oficinas centrales del Comité Internacional de la Cruz Roja?"
+opciones = ["Ginebra", "París", "Roma", "Estocolmo"]
+correcta = "Ginebra"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde tiene la Comisión Europea su sede?"
+opciones = ["Bruselas", "París", "Londres", "Roma"]
+correcta = "Bruselas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quiénes son los estados miembros de la Benelux?"
+opciones = ["Bélgica, Países Bajos y Luxemburgo", "Algeria, Baréin, Comoras e Iraq", "Indonesia, Kuwait y Libia", "Guyana, Jamaica, Trinidad y Tobago"]
+correcta = "Bélgica, Países Bajos y Luxemburgo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el palacio de Londres en el que reside el monarca de Inglaterra?"
+opciones = ["Buckingham", "Westminster", "Glastonbury", "Wiltshire"]
+correcta = "Buckingham"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el área de la superfície terrestre a menor altura?"
+opciones = ["Mar Muerto (Jordania/Israel)", "Lago Eyre (Australia)", "Valle de la Muerte (Estados Unidos)", "Mar Caspio (Rusia)"]
+correcta = "Mar Muerto (Jordania/Israel)"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el continente más grande y poblado del mundo?"
+opciones = ["Asia", "Australia", "Antártida", "África"]
+correcta = "Asia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el desierto cálido más seco de la Tierra?"
+opciones = ["Desierto de Atacama (Chile)", "Desierto de Kalahari (Botswana)", "Desierto de Taklamakán (China)", "Gran Desierto Arenoso (Australia)"]
+correcta = "Desierto de Atacama (Chile)"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el país más pequeño por área y población del mundo?"
+opciones = ["El Vaticano", "San Marino", "Andorra", "Liechtenstein"]
+correcta = "El Vaticano"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el punto más profundo de la Tierra?"
+opciones = ["Fosa de las Marianas", "Fosa de Tonga", "Abismo de Galatea", "Fosa de Kermadec"]
+correcta = "Fosa de las Marianas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más largo de África?"
+opciones = ["Nilo", "Congo", "Niger", "Zambeze"]
+correcta = "Nilo"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el río más profundo de la Tierra, alcanzando los 220 m?"
+opciones = ["El Congo", "El Nilo", "El Mississippi", "El Amazonas"]
+correcta = "El Congo"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es la cordillera continental más larga del mundo?"
+opciones = ["Andes", "Montañas Rocosas", "Alpes", "Himalaya"]
+correcta = "Andes"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué país se encuentra la ciudad con el sistema de metro más largo del mundo?"
+opciones = ["China", "Estados Unidos", "Reino Unido", "Rusia"]
+correcta = "China"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué dos países hacen frontera con el mayor número de países?"
+opciones = ["China y Rusia", "Estados Unidos y Chile", "Chad y Brasil", "Uzbekistán y Lituania"]
+correcta = "China y Rusia"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A cuál de los siguientes países pertenecía la aerolínea Olympic Airways?"
+opciones = ["Grecia", "China", "Indonesia", "Francia"]
+correcta = "Grecia"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué país representa la matrícula internacional de automóviles «CH»?"
+opciones = ["Suiza", "República checa", "Chile", "China"]
+correcta = "Suiza"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué país es KLM la aerolínea nacional?"
+opciones = ["Países Bajos", "Austria", "Suiza", "Estonia"]
+correcta = "Países Bajos"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué país es la aerolínea nacional «TAP»?"
+opciones = ["Portugal", "España", "Italia", "Grecia"]
+correcta = "Portugal"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿A qué gran ciudad sirve principalmente el aeropuerto de Narita?"
+opciones = ["Tokio", "Pekín", "Ho Chi Minh", "Bangkok"]
+correcta = "Tokio"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué lado de la carretera se debe conducir en Japón?"
+opciones = ["Izquierda", "Derecha", "Depende de la isla", "Depende del clima"]
+correcta = "Izquierda"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué país es el creador del «tren bala» de alta velocidad?"
+opciones = ["Japón", "China", "España", "Estados Unidos"]
+correcta = "Japón"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué país tiene «E» como placa de matrícula internacional?"
+opciones = ["España", "Estonia", "Italia", "Francia"]
+correcta = "España"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué país tiene «IS» como matrícula de coche?"
+opciones = ["Islandia", "India", "Australia", "Nueva Zelanda"]
+correcta = "Islandia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué país tiene Aer Lingus como aerolínea nacional?"
+opciones = ["República de Irlanda", "Mónaco", "Malta", "San Marino"]
+correcta = "República de Irlanda"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿A qué país pertenecía la aeolínea internacional Trans World Airlines?"
+opciones = ["Estados Unidos", "Rusia", "Dinamarca", "Reino Unido"]
+correcta = "Estados Unidos"
+dificultad = 2
+tiempo = 14

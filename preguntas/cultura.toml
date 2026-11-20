@@ -1,0 +1,638 @@
+# Parte de estas preguntas procede del «Spanish general knowledge megastudy»
+# (Buades-Sitjar, Planchuelo y Duñabeitia, 2021; figshare 10.6084/m9.figshare.14073899),
+# licencia CC BY 4.0. Revisadas y adaptadas; dificultad según el % de acierto real en España.
+[categoria]
+nombre = "Cultura general"
+icono = "💡"
+color = "#3bc9db"
+descripcion = "Un poco de todo: comida, marcas, economía, transportes…"
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a una uva seca?"
+opciones = ["Pasa", "Ciruela", "Cereza", "Dátil"]
+correcta = "Pasa"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el desayuno hecho con copos de avena, frutas, nueces y yogur?"
+opciones = ["Muesli", "Hash browns", "Tostadas francesas", "Gofres"]
+correcta = "Muesli"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la fruta cuyo valor nutricial viene en un 75% de las grasas?"
+opciones = ["Aguacate", "Mango", "Piña", "Plátano"]
+correcta = "Aguacate"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Con qué órgano se hace el foie gras?"
+opciones = ["Hígado", "Corazón", "Estómago", "Cerebro"]
+correcta = "Hígado"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Con qué se hace principalmente el cuscús?"
+opciones = ["Trigo", "Arroz", "Cebada", "Avena"]
+correcta = "Trigo"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Con qué tipo de leche se hace el queso feta principalmente?"
+opciones = ["Oveja", "Búfalo", "Vaca", "Camello"]
+correcta = "Oveja"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál de estos cócteles combina vodka con zumo de naranja?"
+opciones = ["Destornillador", "Jäggerbomb", "Mojito", "Huracán"]
+correcta = "Destornillador"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál de las siguientes comidas es una mejor fuente de proteína?"
+opciones = ["Pescado", "Leche", "Aguacate", "Almendras"]
+correcta = "Pescado"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el animal cuya leche se utiliza para hacer el queso Mozzarella?"
+opciones = ["Búfala", "Cabra", "Yegua", "Oveja"]
+correcta = "Búfala"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el ingrediente principal de la sopa rusa «Borscht»?"
+opciones = ["Remolacha", "Carne de vacuno", "Tomate", "Pollo"]
+correcta = "Remolacha"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué animal se obtiene la carne de Kobe?"
+opciones = ["Vacas", "Cabras", "Gallinas", "Ovejas"]
+correcta = "Vacas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué está hecho el sake?"
+opciones = ["Arroz", "Patata", "Maíz", "Sandía"]
+correcta = "Arroz"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué está hecho el tequila?"
+opciones = ["Agave azul", "Patatas", "Maíz", "Arroz"]
+correcta = "Agave azul"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué está hecho el tofu?"
+opciones = ["Leche de soja", "Puré de patata", "Harina de maíz", "Arroz comprimido"]
+correcta = "Leche de soja"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué está hecho el turrón?"
+opciones = ["Azúcar y frutos secos", "Azúcar, trigo y mantequilla", "Azúcar, manzana y canela", "Azúcar, sal y caramelo"]
+correcta = "Azúcar y frutos secos"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué está hecho el vodka?"
+opciones = ["Patatas", "Ciruelas", "Nabos", "Algas"]
+correcta = "Patatas"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué está hecho el whiskey?"
+opciones = ["Mezcla de cereales", "Frutos secos", "Frutas tropicales", "Jugo de verduras"]
+correcta = "Mezcla de cereales"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué país proviene el sushi?"
+opciones = ["Japón", "China", "Vietnam", "Corea del sur"]
+correcta = "Japón"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué parte del árbol se saca la canela?"
+opciones = ["Corteza", "Savia", "Raíz", "Hojas"]
+correcta = "Corteza"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué país se cultivaron las primeras naranjas?"
+opciones = ["China", "España", "Estados Unidos", "Chad"]
+correcta = "China"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué tipo de grasas que ayudan a reducir el colesterol es rico el aceite de oliva?"
+opciones = ["Monoinsaturadas", "Poliinsaturadas", "Saturadas", "Oligoinsaturadas"]
+correcta = "Monoinsaturadas"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué es el basmati?"
+opciones = ["Arroz indio", "Verdura vietnamita", "Fruta china", "Especia japonesa"]
+correcta = "Arroz indio"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué país produce el vino Tokay?"
+opciones = ["Hungría", "Egipto", "Colombia", "Uzbekistán"]
+correcta = "Hungría"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué popular verdura fue cultivada primero por los antiguos egipcios?"
+opciones = ["Lechuga", "Pimiento verde", "Espinacas", "Coles de Bruselas"]
+correcta = "Lechuga"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué proporción de agua contienen los pepinos?"
+opciones = ["0,95", "0,65", "0,45", "0,85"]
+correcta = "0,95"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué proceso se utiliza para matar microbios en la leche, el zumo y la comida enlatada?"
+opciones = ["Pasteurización", "Deshidratación", "Filtración", "Centrifugación"]
+correcta = "Pasteurización"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué significa la palabra «brut» cuando hablamos de champán?"
+opciones = ["Muy seco", "Muy frutal", "Muy ligero", "Muy dulce"]
+correcta = "Muy seco"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué son las trufas?"
+opciones = ["Hongos", "Legumbres", "Frutas", "Raíces"]
+correcta = "Hongos"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué son los «portobello» y los «shiitake»?"
+opciones = ["Setas", "Queso", "Carne", "Cereales"]
+correcta = "Setas"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo llamamos a las ganancias totales de un individuo que provienen de sus salarios, inversiones y otras fuentes?"
+opciones = ["Ingresos personales", "Superávit", "Dividendos", "Acciones"]
+correcta = "Ingresos personales"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama a un negocio o una empresa dirigida por una sola persona?"
+opciones = ["Empresa individual", "Monopolio", "Auto-negocio", "Independencia"]
+correcta = "Empresa individual"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama al cheque que representa una porción de los beneficios de una corporación?"
+opciones = ["Dividendo", "Cociente", "Divisor", "Restos"]
+correcta = "Dividendo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se le llama al uso de las recaudaciones de ingresos del gobierno para influir en la economía?"
+opciones = ["Política fiscal", "Política de intercambio", "Política monetaria", "Política industrial"]
+correcta = "Política fiscal"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se denomina al declive económico de una economía?"
+opciones = ["Recesión", "Ralentización", "Rezague", "Lentitud"]
+correcta = "Recesión"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se denomina al hecho de que una persona o empresa específica sea el único suministrador de una mercancía particular?"
+opciones = ["Monopolio", "Oligopolio", "Centralización", "Mercado libre"]
+correcta = "Monopolio"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el dinero extra que se debe pagar al pedir un préstamo?"
+opciones = ["Interés", "Copago", "Impuesto", "Superávit"]
+correcta = "Interés"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el sistema en el que ciudadanos privados controlan los medios de producción?"
+opciones = ["Capitalismo", "Comunismo", "Socialismo", "Feudalismo"]
+correcta = "Capitalismo"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es la fuerza que motiva a las personas y organizaciones a obtener un beneficio monetario?"
+opciones = ["Ánimo de lucro", "Ánimo de utilidad", "Ánimo moral", "Ánimo de satisfacción"]
+correcta = "Ánimo de lucro"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál suele ser la principal fuente de ingresos de un gobierno?"
+opciones = ["Impuestos", "Regalías", "Valores", "Imprenta"]
+correcta = "Impuestos"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuándo comenzó la crisis del euro?"
+opciones = ["2009", "2012", "2005", "2003"]
+correcta = "2009"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuándo entraron en circulación las monedas físicas de Euro?"
+opciones = ["2002", "1998", "2000", "1999"]
+correcta = "2002"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Dónde está el cuartel general del Banco Central Europeo?"
+opciones = ["Frankfurt", "Salzburgo", "Salsburgo", "Grenoble"]
+correcta = "Frankfurt"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué década tuvo lugar la Gran Depresión?"
+opciones = ["1930s", "1940s", "1950s", "1920s"]
+correcta = "1930s"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué industria se hizo rico John Davidson Rockefeller?"
+opciones = ["Petróleo", "Oro", "Piedras preciosas", "Tecnología"]
+correcta = "Petróleo"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué país es la rupia la unidad monetaria?"
+opciones = ["India", "Francia", "Chad", "Lesoto"]
+correcta = "India"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué país utilizan el yen como moneda?"
+opciones = ["Japón", "China", "Corea del Sur", "Corea del Norte"]
+correcta = "Japón"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué ciudad se considera el lugar de nacimiento del mercado de valores?"
+opciones = ["Amsterdam", "Londres", "Nueva York", "Roma"]
+correcta = "Amsterdam"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué estudia y colecciona la numismática?"
+opciones = ["Monedas", "Sellos", "Medallas", "Pins"]
+correcta = "Monedas"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué ley busca mantener la competitividad del mercado regulando la conducta anti-competitiva de las compañías?"
+opciones = ["Derecho de la competencia", "Darwinismo social", "Mercado libre", "Ley de demanda y oferta"]
+correcta = "Derecho de la competencia"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se denomina al bajón sostenido y a largo plazo en la actividad económica de una o más economías?"
+opciones = ["Depresión", "Hundimiento", "Valle", "Foso"]
+correcta = "Depresión"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cómo se denomina a la ralentización en la actividad económica durante un ciclo de negocios normal?"
+opciones = ["Recesión", "Expansión", "Rezague", "Retraso"]
+correcta = "Recesión"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué nombre se le da a las negociaciones entre representates de los trabajadores y la administración?"
+opciones = ["Negociación colectiva", "Salario", "Beneficios", "Representación"]
+correcta = "Negociación colectiva"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué otro nombre hay para un intercambio de valores?"
+opciones = ["Bolsa", "Banca", "Economía", "Beneficio"]
+correcta = "Bolsa"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué país usa el dong como moneda?"
+opciones = ["Vietnam", "China", "Malasia", "Korea"]
+correcta = "Vietnam"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué parte de la economía trata el comportamiento y decisiones de pequeñas unidades, como los individuos y las firmas?"
+opciones = ["Microeconomía", "Macroeconomía", "Mesoeconomía", "Nanoeconomía"]
+correcta = "Microeconomía"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué rama de la economía trata el rendimiento, estructura, comportamiento y decisiones de una economía en general?"
+opciones = ["Macroeconomía", "Microeconomía", "Mesoeconomía", "Exoeconomía"]
+correcta = "Macroeconomía"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué significa USD?"
+opciones = ["United States dollar", "United States distinction", "United States district", "United States dwelling"]
+correcta = "United States dollar"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué utilizaban como moneda Siberia, Mongolia, Tibet y China en el siglo 18?"
+opciones = ["Té", "Seda", "Marfil", "Especias"]
+correcta = "Té"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿De qué color es la cruz de la bandera griega?"
+opciones = ["Blanca", "Azul", "Amarilla", "Verde"]
+correcta = "Blanca"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué país llama a parte de su población «Sami»?"
+opciones = ["Noruega", "Dinamarca", "Grecia", "Francia"]
+correcta = "Noruega"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué país tiene su mapa en su bandera?"
+opciones = ["Chipre", "Malta", "Líbano", "Siria"]
+correcta = "Chipre"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué inventaron y patentaron W. Davis y Levi Strauss?"
+opciones = ["Vaqueros azules", "Pasta de dientes de menta", "Penicilina", "Cocina de gas"]
+correcta = "Vaqueros azules"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De cuál de estos países es la agencia de noticias Reuters?"
+opciones = ["Reino Unido", "Palestina", "Estados Unidos", "Vietnam"]
+correcta = "Reino Unido"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué color es habitualmente una lata de crema Nivea?"
+opciones = ["Azul", "Naranja", "Verde", "Gris"]
+correcta = "Azul"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De qué país es la marca deportiva Adidas?"
+opciones = ["Alemania", "Estados Unidos", "Dinamarca", "Suecia"]
+correcta = "Alemania"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿De qué país es Nokia?"
+opciones = ["Finlandia", "Suecia", "Islandia", "Dinamarca"]
+correcta = "Finlandia"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué son marcas Pall Mall, Viceroy y Woodbine?"
+opciones = ["Cigarrillos", "Chocolate", "Vino", "Brandy"]
+correcta = "Cigarrillos"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde están los cuarteles generales de Samsung?"
+opciones = ["Corea del Sur", "Japón", "Indonesia", "China"]
+correcta = "Corea del Sur"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Dónde están los cuarteles oficiales de Opera Software, famosos por su navegador de Internet?"
+opciones = ["Oslo", "Londres", "Estocolmo", "Florencia"]
+correcta = "Oslo"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿En qué ciudad abrió el primer Starbucks en 1971?"
+opciones = ["Seattle", "San Francisco", "Sacramento", "Nueva York"]
+correcta = "Seattle"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué ciudad japonesa están los cuarteles generales de Toyota?"
+opciones = ["Toyota", "Nagoya", "Osaka", "Tokio"]
+correcta = "Toyota"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué país se creó la compañía «Lego»?"
+opciones = ["Dinamarca", "Alemania", "Noruega", "Suecia"]
+correcta = "Dinamarca"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué compañía de ordenadores sacó los videojuegos de «Sonic the Hedgehog»?"
+opciones = ["Sega", "Atari", "Sony", "Square Enix"]
+correcta = "Sega"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué compañía desarrolló la primera impresora láser?"
+opciones = ["Xerox", "Canon", "Hewlett-Packard", "Konica"]
+correcta = "Xerox"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué compañía fue fundada por Bill Gates?"
+opciones = ["Microsoft", "Apple", "IBM", "PayPal"]
+correcta = "Microsoft"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué compañía posee Marvel, los Muppets, Pixar y Hulu?"
+opciones = ["Disney", "Sony", "Netflix", "Amazon"]
+correcta = "Disney"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué compañía tiene como logo 4 círculos entrelazados?"
+opciones = ["Audi", "BMW", "Chrysler", "Toyota"]
+correcta = "Audi"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué compañía tiene como logo una silueta azul de un niño pescando y sentado sobre una luna creciente?"
+opciones = ["Dreamworks", "Disney", "Pixar", "Sony"]
+correcta = "Dreamworks"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué tipo de Coca-Cola estaba originalmente anunciada específicamente para hombres?"
+opciones = ["Coca-Cola Zero", "Coca-Cola Light", "Coca-Cola Class", "C2 Cola"]
+correcta = "Coca-Cola Zero"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién tuvo los derechos de autor de «Cumpleaños feliz» durante casi 30 años?"
+opciones = ["Warner/Chappell Music", "Michael Jackson", "Marilyn Monroe", "Hollywood Records"]
+correcta = "Warner/Chappell Music"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quiénes fueron junto con Steve Jobs los co-fundadores de Apple?"
+opciones = ["Steve Wozniak y Ronald Wayne", "Steve Wozniak y Tim Cook", "Ronald Wayne y Tim Cook", "Jony Ive y Tim Cook"]
+correcta = "Steve Wozniak y Ronald Wayne"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿«Fidelidad, Valor, Integridad» es el lema de qué organización?"
+opciones = ["FBI", "CIA", "UNESCO", "Amnistía Internacional"]
+correcta = "FBI"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué es el infame Grupo Lazarus?"
+opciones = ["Grupo de cibercrimen", "Banda de secuestradores", "Secta religiosa", "Sociedad de asesinos"]
+correcta = "Grupo de cibercrimen"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué organización proporciona asistencia humanitaria y de desarrollo a niños y madres en países en desarrollo?"
+opciones = ["UNICEF", "UNESCO", "FBI", "OTAN"]
+correcta = "UNICEF"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué sociedad internacional para personas inteligentes se fundó en Oxford en 1946?"
+opciones = ["MENSA", "Triple Nine Society", "Prometheus Society", "ISPE"]
+correcta = "MENSA"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el libro más vendido del mundo?"
+opciones = ["La Biblia", "El Alquimista", "El Guinness World Records", "El Señor de los Anillos"]
+correcta = "La Biblia"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es la religión con más seguidores del mundo?"
+opciones = ["Cristianismo", "Islam", "Hinduismo", "Sintoísmo"]
+correcta = "Cristianismo"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Con qué otro nombre se conoce al tren japonés «Shinkansen»?"
+opciones = ["Tren bala", "Tren trueno", "Tren sónico", "Tren chasquido"]
+correcta = "Tren bala"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué compañía de automóviles fabrica el modelo de automóvil Celica?"
+opciones = ["Toyota", "Opel", "Ford", "Audi"]
+correcta = "Toyota"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué fabricante de automóviles sueco comenzó como compañía de aviones?"
+opciones = ["Saab", "Volvo", "Koenigsegg", "Scania"]
+correcta = "Saab"
+dificultad = 2
+tiempo = 14

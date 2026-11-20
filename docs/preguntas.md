@@ -131,3 +131,20 @@ Para comprobar los archivos sin jugar:
   (`data/historial.json`; bórralo para empezar de cero).
 - «Al azar» elige primero la categoría con la misma probabilidad para todas, así que una categoría
   con muchas preguntas no sale más que una con pocas.
+
+## Origen de las preguntas incluidas
+
+- Unas 1.150 preguntas tipo test (marcadas en la cabecera de cada archivo) proceden del
+  [megaestudio español de cultura general](https://doi.org/10.6084/m9.figshare.14073899)
+  (Buades-Sitjar, Planchuelo y Duñabeitia, 2021), licencia
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Se revisaron, se descartaron las dudosas
+  o desfasadas y la `dificultad` sale del porcentaje de acierto real de 48.000 participantes en España.
+- Las coordenadas de `mapas.toml` y las capitales de `geografia.toml` salen de [Wikidata](https://www.wikidata.org) (CC0).
+- El resto (historia de España, deportes, cine y TV, relámpago y «¿Cuánto?») se redactó para el juego.
+  Si ves un dato erróneo o desfasado, corrígelo o bórralo en su archivo.
+
+Para validar archivos sueltos con el cargador real (también avisa de enunciados repetidos entre ellos):
+
+```powershell
+.venv\Scripts\python tools\validar_preguntas.py preguntas\historia.toml preguntas\deportes.toml
+```

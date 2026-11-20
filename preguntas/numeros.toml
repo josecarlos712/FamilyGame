@@ -75,3 +75,1774 @@ respuesta = [48, 50]
 criterio = "contener"
 ancho_max = 10
 explicacion = "En 2025 superó los 49 millones de habitantes."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año llegó Colón a América por primera vez?"
+min = 1470
+max = 1500
+respuesta = 1492
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año zarpó la Armada Invencible contra Inglaterra?"
+min = 1560
+max = 1610
+respuesta = 1588
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue la batalla de Trafalgar?"
+min = 1780
+max = 1830
+respuesta = 1805
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el levantamiento del Dos de Mayo en Madrid?"
+min = 1790
+max = 1830
+respuesta = 1808
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se aprobó la Constitución de Cádiz, «La Pepa»?"
+min = 1795
+max = 1830
+respuesta = 1812
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año España perdió Cuba, Puerto Rico y Filipinas?"
+min = 1870
+max = 1920
+respuesta = 1898
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó la Guerra Civil española?"
+min = 1915
+max = 1955
+respuesta = 1936
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Francisco Franco?"
+min = 1955
+max = 1995
+respuesta = 1975
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se aprobó la Constitución española vigente?"
+min = 1960
+max = 1990
+respuesta = 1978
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue el intento de golpe de Estado del 23-F?"
+min = 1965
+max = 1995
+respuesta = 1981
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebraron los Juegos Olímpicos de Barcelona?"
+min = 1975
+max = 2005
+respuesta = 1992
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fueron los atentados del 11-M en Madrid?"
+min = 1985
+max = 2015
+respuesta = 2004
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó España su primera Eurocopa de fútbol?"
+min = 1945
+max = 1980
+respuesta = 1964
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó la Revolución Francesa?"
+min = 1760
+max = 1810
+respuesta = 1789
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se hundió el Titanic?"
+min = 1890
+max = 1930
+respuesta = 1912
+tolerancia = 4
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año estalló la Primera Guerra Mundial?"
+min = 1890
+max = 1940
+respuesta = 1914
+tolerancia = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año cayó Constantinopla en manos otomanas?"
+min = 1420
+max = 1470
+respuesta = 1453
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se declaró la independencia de Estados Unidos?"
+min = 1750
+max = 1800
+respuesta = 1776
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fueron los atentados contra las Torres Gemelas?"
+min = 1985
+max = 2015
+respuesta = 2001
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se empezó a construir el Muro de Berlín?"
+min = 1940
+max = 1980
+respuesta = 1961
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año salió al mercado el primer iPhone?"
+min = 1990
+max = 2020
+respuesta = 2007
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el Real Madrid?"
+min = 1880
+max = 1930
+respuesta = 1902
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se fundó el FC Barcelona?"
+min = 1875
+max = 1925
+respuesta = 1899
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se jugó el primer Mundial de fútbol?"
+min = 1910
+max = 1950
+respuesta = 1930
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se celebraron los primeros Juegos Olímpicos de la era moderna?"
+min = 1870
+max = 1920
+respuesta = 1896
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se publicó la primera parte de Don Quijote?"
+min = 1580
+max = 1630
+respuesta = 1605
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Metro de Madrid?"
+min = 1895
+max = 1945
+respuesta = 1919
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a funcionar el AVE Madrid-Sevilla?"
+min = 1975
+max = 2005
+respuesta = 1992
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se colocó la primera piedra de la Sagrada Familia?"
+min = 1860
+max = 1910
+respuesta = 1882
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó la primera película de Star Wars?"
+min = 1960
+max = 1990
+respuesta = 1977
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Parque Jurásico?"
+min = 1975
+max = 2005
+respuesta = 1993
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Titanic, de James Cameron?"
+min = 1980
+max = 2010
+respuesta = 1997
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó El Padrino?"
+min = 1955
+max = 1985
+respuesta = 1972
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Regreso al futuro?"
+min = 1970
+max = 2000
+respuesta = 1985
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Toy Story?"
+min = 1980
+max = 2010
+respuesta = 1995
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó la primera película de Harry Potter?"
+min = 1985
+max = 2015
+respuesta = 2001
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó El Rey León de Disney (la película de animación)?"
+min = 1975
+max = 2005
+respuesta = 1994
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Avatar, de James Cameron?"
+min = 1990
+max = 2020
+respuesta = 2009
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se emitió por primera vez Los Simpson?"
+min = 1970
+max = 2000
+respuesta = 1989
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó La casa de papel en Antena 3?"
+min = 2005
+max = 2025
+respuesta = 2017
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se emitió por primera vez Verano azul?"
+min = 1965
+max = 1995
+respuesta = 1981
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año empezó a emitirse Cuéntame cómo pasó?"
+min = 1985
+max = 2015
+respuesta = 2001
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Ocho apellidos vascos?"
+min = 2000
+max = 2025
+respuesta = 2014
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se estrenó Mar adentro, de Alejandro Amenábar?"
+min = 1990
+max = 2020
+respuesta = 2004
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó España la Eurocopa de Austria y Suiza?"
+min = 1990
+max = 2020
+respuesta = 2008
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Rafa Nadal su primer Roland Garros?"
+min = 1990
+max = 2020
+respuesta = 2005
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Fernando Alonso su primer título mundial de F1?"
+min = 1990
+max = 2020
+respuesta = 2005
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Pau Gasol su primer anillo de la NBA?"
+min = 1995
+max = 2025
+respuesta = 2009
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó España el Mundial de baloncesto en Japón?"
+min = 1990
+max = 2020
+respuesta = 2006
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó el Real Madrid la primera Copa de Europa?"
+min = 1935
+max = 1975
+respuesta = 1956
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el estadio Santiago Bernabéu?"
+min = 1925
+max = 1965
+respuesta = 1947
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Camp Nou?"
+min = 1935
+max = 1975
+respuesta = 1957
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó Induráin su primer Tour de Francia?"
+min = 1975
+max = 2005
+respuesta = 1991
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Museo Guggenheim de Bilbao?"
+min = 1980
+max = 2010
+respuesta = 1997
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año murió Miguel de Cervantes?"
+min = 1590
+max = 1640
+respuesta = 1616
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Pablo Picasso?"
+min = 1860
+max = 1900
+respuesta = 1881
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año nació Salvador Dalí?"
+min = 1880
+max = 1930
+respuesta = 1904
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año terminó Elcano la primera vuelta al mundo?"
+min = 1500
+max = 1550
+respuesta = 1522
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue la Revolución rusa?"
+min = 1895
+max = 1935
+respuesta = 1917
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año fue la batalla de Waterloo?"
+min = 1790
+max = 1840
+respuesta = 1815
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año descubrió Fleming la penicilina?"
+min = 1905
+max = 1950
+respuesta = 1928
+tolerancia = 4
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se produjo el desastre nuclear de Chernóbil?"
+min = 1965
+max = 2005
+respuesta = 1986
+tolerancia = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inauguró el Museo del Prado?"
+min = 1795
+max = 1845
+respuesta = 1819
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se produjo el primer vuelo de los hermanos Wright?"
+min = 1880
+max = 1930
+respuesta = 1903
+tolerancia = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año se inventó el teléfono, patentado por Graham Bell?"
+min = 1850
+max = 1900
+respuesta = 1876
+tolerancia = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿En qué año ganó España su primer Mundial de fútbol, en Sudáfrica?"
+min = 1990
+max = 2020
+respuesta = 2010
+tolerancia = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Teide, el pico más alto de España?"
+min = 3000
+max = 4500
+paso = 5
+unidad = "m"
+respuesta = 3715
+tolerancia_pct = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Mulhacén, el pico más alto de la península?"
+min = 2800
+max = 4200
+paso = 1
+unidad = "m"
+respuesta = 3479
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Aneto, el pico más alto de los Pirineos?"
+min = 2800
+max = 4000
+paso = 1
+unidad = "m"
+respuesta = 3404
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Almanzor, el pico más alto de la sierra de Gredos?"
+min = 2000
+max = 3200
+paso = 1
+unidad = "m"
+respuesta = 2592
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Everest, la montaña más alta del mundo?"
+min = 7500
+max = 9500
+paso = 10
+unidad = "m"
+respuesta = 8850
+tolerancia_pct = 5
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Kilimanjaro?"
+min = 4500
+max = 7000
+paso = 5
+unidad = "m"
+respuesta = 5895
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros tiene el río Tajo, el más largo de la península?"
+min = 800
+max = 1200
+paso = 10
+unidad = "km"
+respuesta = 1007
+tolerancia_pct = 10
+dificultad = 3
+explicacion = "Son unos 1007 km, de los que casi 900 están en España."
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Ebro?"
+min = 600
+max = 1300
+paso = 10
+unidad = "km"
+respuesta = 930
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el Guadalquivir?"
+min = 400
+max = 900
+paso = 5
+unidad = "km"
+respuesta = 655
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el río Nilo?"
+min = 5000
+max = 8000
+paso = 50
+unidad = "km"
+respuesta = 6650
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide el Camino de Santiago Francés, de Saint-Jean-Pied-de-Port a Santiago?"
+min = 500
+max = 1000
+paso = 10
+unidad = "km"
+respuesta = 780
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Barcelona?"
+min = 300
+max = 800
+paso = 5
+unidad = "km"
+respuesta = 505
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Sevilla?"
+min = 200
+max = 600
+paso = 5
+unidad = "km"
+respuesta = 390
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Valencia?"
+min = 150
+max = 450
+paso = 5
+unidad = "km"
+respuesta = 300
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y París?"
+min = 600
+max = 1500
+paso = 10
+unidad = "km"
+respuesta = 1050
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros hay en línea recta entre Madrid y Nueva York?"
+min = 4500
+max = 7000
+paso = 50
+unidad = "km"
+respuesta = 5750
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros cuadrados tiene España, islas incluidas?"
+min = 300000
+max = 700000
+paso = 1000
+unidad = "km²"
+respuesta = 506000
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros cuadrados tiene Mallorca, aproximadamente?"
+min = 2000
+max = 5500
+paso = 100
+unidad = "km²"
+respuesta = 3600
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos habitantes tenía España a 1 de enero de 2024, según el INE?"
+min = 40
+max = 60
+paso = 0.1
+unidad = "millones"
+respuesta = 48.6
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos habitantes tenía la ciudad de Madrid en 2024, según el INE?"
+min = 2
+max = 5
+paso = 0.1
+unidad = "millones"
+respuesta = 3.4
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos habitantes tenía la ciudad de Barcelona en 2024, según el INE?"
+min = 1
+max = 2.5
+paso = 0.1
+unidad = "millones"
+respuesta = 1.7
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos habitantes tenía la ciudad de Valencia en 2024, según el INE?"
+min = 0.5
+max = 1.2
+paso = 0.05
+unidad = "millones"
+respuesta = 0.8
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas personas vivían en el mundo en 2024, según la ONU?"
+min = 7000
+max = 9500
+paso = 50
+unidad = "millones"
+respuesta = 8200
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos habitantes tenía India en 2024, según la ONU?"
+min = 1100
+max = 1700
+paso = 10
+unidad = "millones"
+respuesta = 1450
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos habitantes tenía Alemania en 2024?"
+min = 60
+max = 100
+paso = 1
+unidad = "millones"
+respuesta = 84
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos goles marcó Messi en la Liga española con el Barça?"
+min = 300
+max = 600
+paso = 1
+respuesta = 474
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos goles ha marcado Cristiano Ronaldo en la Liga de Campeones?"
+min = 100
+max = 180
+paso = 1
+respuesta = 140
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos centímetros del suelo está el aro de una canasta de baloncesto?"
+min = 250
+max = 400
+paso = 5
+unidad = "cm"
+respuesta = 305
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos segundos tardó Usain Bolt en su récord mundial de 100 metros?"
+min = 8.5
+max = 11
+paso = 0.01
+unidad = "s"
+respuesta = 9.58
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide la altura del Burj Khalifa, el edificio más alto del mundo?"
+min = 600
+max = 950
+paso = 1
+unidad = "m"
+respuesta = 828
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide la altura original de la Gran Pirámide de Guiza?"
+min = 100
+max = 200
+paso = 1
+unidad = "m"
+respuesta = 146
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros mide el Salto Ángel, la cascada más alta del mundo?"
+min = 500
+max = 1300
+paso = 1
+unidad = "m"
+respuesta = 979
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos metros de profundidad tiene la Fosa de las Marianas?"
+min = 8000
+max = 13000
+paso = 100
+unidad = "m"
+respuesta = 10900
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros mide la circunferencia de la Tierra por el ecuador?"
+min = 35000
+max = 45000
+paso = 5
+unidad = "km"
+respuesta = 40075
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos kilómetros está la Luna de la Tierra, de media?"
+min = 300000
+max = 450000
+paso = 1000
+unidad = "km"
+respuesta = 384000
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos millones de kilómetros está el Sol de la Tierra, de media?"
+min = 120
+max = 180
+paso = 5
+unidad = "millones de km"
+respuesta = 150
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos km/s viaja la luz en el vacío?"
+min = 200000
+max = 400000
+paso = 5000
+unidad = "km/s"
+respuesta = 300000
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos metros por segundo viaja el sonido en el aire a 20 °C?"
+min = 270
+max = 420
+paso = 1
+unidad = "m/s"
+respuesta = 343
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Hace cuántos miles de millones de años se formó el sistema solar?"
+min = 2
+max = 8
+paso = 0.1
+unidad = "mil M. de años"
+respuesta = 4.6
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es la edad del universo, en miles de millones de años?"
+min = 12
+max = 16
+paso = 0.1
+unidad = "mil M. de años"
+respuesta = 13.8
+tolerancia_pct = 6
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos huesos tiene un adulto?"
+min = 100
+max = 300
+paso = 1
+respuesta = 206
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos cromosomas tiene una célula humana normal?"
+min = 30
+max = 60
+paso = 1
+respuesta = 46
+tolerancia_pct = 8
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas pulsaciones por minuto tiene un adulto sano en reposo, de media?"
+min = 50
+max = 100
+paso = 1
+unidad = "lpm"
+respuesta = 70
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos litros de sangre tiene un adulto, aproximadamente?"
+min = 2
+max = 10
+paso = 0.5
+unidad = "L"
+respuesta = 5
+tolerancia_pct = 20
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Qué porcentaje del cuerpo de un adulto es agua, aproximadamente?"
+min = 30
+max = 90
+paso = 1
+unidad = "%"
+respuesta = 60
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura funde el oro?"
+min = 800
+max = 1300
+paso = 1
+unidad = "°C"
+respuesta = 1064
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura se encuentra la superficie del Sol, aproximadamente?"
+min = 3000
+max = 8000
+paso = 100
+unidad = "°C"
+respuesta = 5500
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué temperatura hierve el nitrógeno líquido?"
+min = -250
+max = -150
+paso = 1
+unidad = "°C"
+respuesta = -196
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es el cero absoluto de temperatura en grados Celsius?"
+min = -300
+max = -200
+paso = 1
+unidad = "°C"
+respuesta = -273
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A qué velocidad máxima viaja el halcón peregrino en picado?"
+min = 200
+max = 450
+paso = 10
+unidad = "km/h"
+respuesta = 390
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántos km/h puede llegar el AVE en España?"
+min = 200
+max = 350
+paso = 10
+unidad = "km/h"
+respuesta = 300
+tolerancia_pct = 10
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto mide una ballena azul adulta, de longitud?"
+min = 15
+max = 40
+paso = 1
+unidad = "m"
+respuesta = 30
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos minutos tarda el AVE de Madrid a Barcelona, como mínimo?"
+min = 100
+max = 220
+paso = 5
+unidad = "min"
+respuesta = 150
+tolerancia_pct = 10
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuánto era el salario mínimo interprofesional en España en 2024, en 14 pagas al mes?"
+min = 900
+max = 1400
+paso = 1
+unidad = "€"
+respuesta = 1134
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿A cuántas pesetas equivalía un euro al cambio fijado?"
+min = 150
+max = 180
+paso = 1
+unidad = "pts"
+respuesta = 166
+tolerancia_pct = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos escaños tiene el Congreso de los Diputados?"
+min = 250
+max = 450
+paso = 10
+respuesta = 350
+tolerancia_pct = 10
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos kilómetros tiene el Estrecho de Gibraltar en su punto más estrecho?"
+min = 5
+max = 30
+paso = 1
+unidad = "km"
+respuesta = 14
+tolerancia_pct = 15
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos países forman la ONU?"
+min = 150
+max = 230
+paso = 1
+respuesta = 193
+tolerancia_pct = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas provincias tiene España?"
+min = 35
+max = 65
+respuesta = 50
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas comunidades autónomas tiene España, sin contar las dos ciudades autónomas?"
+min = 10
+max = 24
+respuesta = 17
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas islas principales tiene el archipiélago canario?"
+min = 4
+max = 12
+respuesta = 8
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos países forman la Unión Europea desde la salida del Reino Unido?"
+min = 15
+max = 35
+respuesta = 27
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas cartas tiene la baraja española?"
+min = 20
+max = 60
+respuesta = 40
+tolerancia = 2
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas fichas tiene un juego de dominó?"
+min = 18
+max = 38
+respuesta = 28
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas piezas hay en un tablero de ajedrez al empezar la partida?"
+min = 20
+max = 44
+respuesta = 32
+tolerancia = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos dientes tiene un adulto con la dentición completa?"
+min = 20
+max = 40
+respuesta = 32
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Grand Slams ganó Rafa Nadal en su carrera?"
+min = 12
+max = 32
+respuesta = 22
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Roland Garros ganó Rafa Nadal?"
+min = 8
+max = 20
+respuesta = 14
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas Copas de Europa o Champions League tenía el Real Madrid a finales de 2025?"
+min = 5
+max = 25
+respuesta = 15
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas Ligas había ganado el Real Madrid hasta 2024?"
+min = 20
+max = 50
+respuesta = 36
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Balones de Oro ganó Lionel Messi hasta 2024?"
+min = 3
+max = 12
+respuesta = 8
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Balones de Oro ha ganado Cristiano Ronaldo?"
+min = 2
+max = 8
+respuesta = 5
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos Tours de Francia ganó Miguel Induráin?"
+min = 2
+max = 8
+respuesta = 5
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas victorias consiguió Fernando Alonso en la Fórmula 1?"
+min = 20
+max = 40
+respuesta = 32
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos goles marcó España en la Eurocopa 2024, en total?"
+min = 8
+max = 22
+respuesta = 15
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos goles marcó España en el Mundial de 2010, en total?"
+min = 4
+max = 12
+respuesta = 8
+tolerancia = 1
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos oros ganó España en los Juegos Olímpicos de Barcelona 92?"
+min = 5
+max = 20
+respuesta = 13
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas medallas ganó España en total en los Juegos de París 2024?"
+min = 8
+max = 28
+respuesta = 18
+tolerancia = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos elementos aparecen en la tabla periódica actual?"
+min = 90
+max = 140
+respuesta = 118
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuál es el número atómico del oro?"
+min = 60
+max = 100
+respuesta = 79
+tolerancia = 3
+dificultad = 3
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos jugadores componen un equipo de baloncesto en pista?"
+min = 2
+max = 10
+respuesta = 5
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos jugadores componen un equipo de balonmano en pista, con portero?"
+min = 3
+max = 11
+respuesta = 7
+tolerancia = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos jugadores componen un equipo de rugby union en el campo?"
+min = 9
+max = 21
+respuesta = 15
+tolerancia = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántas estrellas hay en la bandera de la Unión Europea?"
+min = 6
+max = 18
+respuesta = 12
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "slider"
+enunciado = "¿Cuántos colores tiene la bandera de España?"
+min = 1
+max = 5
+respuesta = 2
+tolerancia = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Isabel I de Castilla?"
+min = 1450
+max = 1530
+respuesta = [1474, 1504]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Felipe II?"
+min = 1520
+max = 1620
+respuesta = [1556, 1598]
+criterio = "solapar"
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Carlos III?"
+min = 1720
+max = 1820
+respuesta = [1759, 1788]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Alfonso XIII?"
+min = 1860
+max = 1950
+respuesta = [1886, 1931]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la dictadura de Franco?"
+min = 1920
+max = 1990
+respuesta = [1939, 1975]
+criterio = "coincidir"
+margen = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de la Independencia española?"
+min = 1790
+max = 1830
+respuesta = [1808, 1814]
+criterio = "coincidir"
+margen = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra Civil española?"
+min = 1920
+max = 1960
+respuesta = [1936, 1939]
+criterio = "coincidir"
+margen = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Primera Guerra Mundial?"
+min = 1900
+max = 1930
+respuesta = [1914, 1918]
+criterio = "coincidir"
+margen = 1
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de los Cien Años?"
+min = 1300
+max = 1480
+respuesta = [1337, 1453]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Miguel de Cervantes?"
+min = 1500
+max = 1650
+respuesta = [1547, 1616]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Pablo Picasso?"
+min = 1850
+max = 1990
+respuesta = [1881, 1973]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Francisco de Goya?"
+min = 1700
+max = 1850
+respuesta = [1746, 1828]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Salvador Dalí?"
+min = 1880
+max = 2000
+respuesta = [1904, 1989]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Antoni Gaudí?"
+min = 1830
+max = 1950
+respuesta = [1852, 1926]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Federico García Lorca?"
+min = 1880
+max = 1950
+respuesta = [1898, 1936]
+criterio = "coincidir"
+margen = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Diego Velázquez?"
+min = 1570
+max = 1680
+respuesta = [1599, 1660]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Napoleón Bonaparte?"
+min = 1750
+max = 1840
+respuesta = [1769, 1821]
+criterio = "coincidir"
+margen = 4
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Albert Einstein?"
+min = 1850
+max = 1970
+respuesta = [1879, 1955]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Wolfgang Amadeus Mozart?"
+min = 1740
+max = 1810
+respuesta = [1756, 1791]
+criterio = "coincidir"
+margen = 3
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Leonardo da Vinci?"
+min = 1430
+max = 1540
+respuesta = [1452, 1519]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió William Shakespeare?"
+min = 1540
+max = 1640
+respuesta = [1564, 1616]
+criterio = "coincidir"
+margen = 5
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Santiago Ramón y Cajal?"
+min = 1830
+max = 1950
+respuesta = [1852, 1934]
+criterio = "coincidir"
+margen = 5
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Juan Carlos I rey de España?"
+min = 1960
+max = 2030
+respuesta = [1975, 2014]
+criterio = "coincidir"
+margen = 3
+dificultad = 1
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años reinó Isabel II en España?"
+min = 1810
+max = 1890
+respuesta = [1833, 1868]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años existió el Califato de Córdoba?"
+min = 850
+max = 1100
+respuesta = [929, 1031]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Reconquista, de la batalla de Guadalete a la toma de Granada?"
+min = 650
+max = 1550
+respuesta = [711, 1492]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años duró la Segunda República española?"
+min = 1900
+max = 1960
+respuesta = [1931, 1939]
+criterio = "coincidir"
+margen = 2
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue Carlos I rey de España?"
+min = 1480
+max = 1580
+respuesta = [1516, 1556]
+criterio = "solapar"
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de Sucesión española?"
+min = 1680
+max = 1740
+respuesta = [1701, 1714]
+criterio = "coincidir"
+margen = 2
+dificultad = 3
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años fue la Guerra de Secesión de Estados Unidos?"
+min = 1830
+max = 1900
+respuesta = [1861, 1865]
+criterio = "coincidir"
+margen = 1
+dificultad = 2
+
+[[pregunta]]
+tipo = "rango"
+enunciado = "¿Entre qué años vivió Marie Curie?"
+min = 1840
+max = 1960
+respuesta = [1867, 1934]
+criterio = "coincidir"
+margen = 5
+dificultad = 3

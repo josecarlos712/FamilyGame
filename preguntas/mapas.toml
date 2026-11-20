@@ -30,3 +30,1447 @@ tipo = "mapa"
 enunciado = "Toca dentro de la isla de Mallorca"
 zona = [[39.96, 2.80], [39.92, 3.20], [39.80, 3.50], [39.30, 3.20], [39.35, 2.40], [39.70, 2.30]]
 vista = { lat = 40, lng = 2, zoom = 6 }
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala A Coruña"
+respuesta = { lat = 43.3711, lng = -8.3961 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Vitoria"
+respuesta = { lat = 42.8467, lng = -2.6731 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Albacete"
+respuesta = { lat = 38.9956, lng = -1.8558 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Alicante"
+respuesta = { lat = 38.3453, lng = -0.4831 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Ávila"
+respuesta = { lat = 40.6543, lng = -4.6962 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Badajoz"
+respuesta = { lat = 38.8779, lng = -6.9706 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Palma de Mallorca"
+respuesta = { lat = 39.5667, lng = 2.6497 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Barcelona"
+respuesta = { lat = 41.3825, lng = 2.1769 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Burgos"
+respuesta = { lat = 42.3408, lng = -3.6997 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Cáceres"
+respuesta = { lat = 39.4731, lng = -6.3711 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Cádiz"
+respuesta = { lat = 36.535, lng = -6.2975 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Castellón de la Plana"
+respuesta = { lat = 39.986, lng = -0.0374 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Ciudad Real"
+respuesta = { lat = 38.9833, lng = -3.9167 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Córdoba"
+respuesta = { lat = 37.89, lng = -4.78 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Cuenca"
+respuesta = { lat = 40.0717, lng = -2.1344 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Girona"
+respuesta = { lat = 41.9833, lng = 2.8167 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Granada"
+respuesta = { lat = 37.175, lng = -3.6 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Guadalajara"
+respuesta = { lat = 40.6333, lng = -3.1667 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Huelva"
+respuesta = { lat = 37.25, lng = -6.95 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Huesca"
+respuesta = { lat = 42.1401, lng = -0.4089 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Jaén"
+respuesta = { lat = 37.7697, lng = -3.7889 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Las Palmas de Gran Canaria"
+respuesta = { lat = 28.1272, lng = -15.4314 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala León"
+respuesta = { lat = 42.5989, lng = -5.5669 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Lleida"
+respuesta = { lat = 41.6167, lng = 0.6333 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Logroño"
+respuesta = { lat = 42.47, lng = -2.4456 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Lugo"
+respuesta = { lat = 43.0117, lng = -7.5572 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca la ciudad de Madrid"
+respuesta = { lat = 40.4169, lng = -3.7033 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Málaga"
+respuesta = { lat = 36.7167, lng = -4.4167 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Murcia"
+respuesta = { lat = 37.9833, lng = -1.1303 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Ourense"
+respuesta = { lat = 42.3356, lng = -7.8641 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Oviedo"
+respuesta = { lat = 43.3625, lng = -5.8503 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Palencia"
+respuesta = { lat = 42.0167, lng = -4.5333 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Pamplona"
+respuesta = { lat = 42.8167, lng = -1.65 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Pontevedra"
+respuesta = { lat = 42.4336, lng = -8.6475 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Salamanca"
+respuesta = { lat = 40.965, lng = -5.6642 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala San Sebastián"
+respuesta = { lat = 43.32, lng = -1.98 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Santa Cruz de Tenerife"
+respuesta = { lat = 28.4667, lng = -16.25 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Santander"
+respuesta = { lat = 43.4667, lng = -3.8 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Segovia"
+respuesta = { lat = 40.9481, lng = -4.1183 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Sevilla"
+respuesta = { lat = 37.3886, lng = -5.995 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Soria"
+respuesta = { lat = 41.7667, lng = -2.4667 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Tarragona"
+respuesta = { lat = 41.1175, lng = 1.2528 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Teruel"
+respuesta = { lat = 40.3436, lng = -1.1072 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Toledo"
+respuesta = { lat = 39.8667, lng = -4.0333 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Valencia"
+respuesta = { lat = 39.47, lng = -0.3764 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Valladolid"
+respuesta = { lat = 41.652, lng = -4.7286 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Bilbao"
+respuesta = { lat = 43.2631, lng = -2.935 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Zamora"
+respuesta = { lat = 41.5033, lng = -5.7556 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Zaragoza"
+respuesta = { lat = 41.65, lng = -0.8833 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de Ceuta"
+respuesta = { lat = 35.8867, lng = -5.3 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la ciudad de Melilla"
+respuesta = { lat = 35.2825, lng = -2.9475 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala Almería"
+respuesta = { lat = 36.8417, lng = -2.4639 }
+radio = 35000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Francia"
+respuesta = { lat = 48.8567, lng = 2.3522 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Reino Unido"
+respuesta = { lat = 51.5072, lng = -0.1275 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Italia"
+respuesta = { lat = 41.8931, lng = 12.4828 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Alemania"
+respuesta = { lat = 52.5167, lng = 13.3833 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Portugal"
+respuesta = { lat = 38.708, lng = -9.139 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Grecia"
+respuesta = { lat = 37.9842, lng = 23.7281 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Austria"
+respuesta = { lat = 48.2083, lng = 16.3725 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Suecia"
+respuesta = { lat = 59.3294, lng = 18.0686 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Noruega"
+respuesta = { lat = 59.9133, lng = 10.7389 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Dinamarca"
+respuesta = { lat = 55.6761, lng = 12.5689 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Finlandia"
+respuesta = { lat = 60.1708, lng = 24.9375 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Irlanda"
+respuesta = { lat = 53.3497, lng = -6.2603 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Polonia"
+respuesta = { lat = 52.23, lng = 21.0111 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Hungría"
+respuesta = { lat = 47.4983, lng = 19.0408 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de República Checa"
+respuesta = { lat = 50.0875, lng = 14.4214 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Rusia"
+respuesta = { lat = 55.7506, lng = 37.6175 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Ucrania"
+respuesta = { lat = 50.45, lng = 30.5236 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Bélgica"
+respuesta = { lat = 50.8467, lng = 4.3517 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Países Bajos"
+respuesta = { lat = 52.3667, lng = 4.8833 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Suiza"
+respuesta = { lat = 46.948, lng = 7.4474 }
+radio = 150000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de China"
+respuesta = { lat = 39.904, lng = 116.4075 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Japón"
+respuesta = { lat = 35.6894, lng = 139.6917 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de India"
+respuesta = { lat = 28.6139, lng = 77.2089 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Corea del Sur"
+respuesta = { lat = 37.56, lng = 126.99 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Tailandia"
+respuesta = { lat = 13.75, lng = 100.5167 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Indonesia"
+respuesta = { lat = -6.1753, lng = 106.8269 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Irán"
+respuesta = { lat = 35.6889, lng = 51.3897 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Arabia Saudí"
+respuesta = { lat = 24.6383, lng = 46.715 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Turquía"
+respuesta = { lat = 39.9358, lng = 32.8387 }
+radio = 200000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Filipinas"
+respuesta = { lat = 14.5958, lng = 120.9772 }
+radio = 300000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Egipto"
+respuesta = { lat = 30.0444, lng = 31.2358 }
+radio = 300000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Marruecos"
+respuesta = { lat = 34.0211, lng = -6.8414 }
+radio = 300000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Argelia"
+respuesta = { lat = 36.7764, lng = 3.0586 }
+radio = 300000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Kenia"
+respuesta = { lat = -1.2864, lng = 36.8172 }
+radio = 300000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Sudáfrica"
+respuesta = { lat = -25.7464, lng = 28.1881 }
+radio = 300000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Etiopía"
+respuesta = { lat = 9.0358, lng = 38.7525 }
+radio = 300000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Nigeria"
+respuesta = { lat = 9.0556, lng = 7.4914 }
+radio = 300000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Senegal"
+respuesta = { lat = 14.6726, lng = -17.432 }
+radio = 300000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Estados Unidos"
+respuesta = { lat = 38.895, lng = -77.0367 }
+radio = 300000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Canadá"
+respuesta = { lat = 45.4247, lng = -75.695 }
+radio = 300000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de México"
+respuesta = { lat = 19.3538, lng = -99.1359 }
+radio = 300000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Cuba"
+respuesta = { lat = 23.1367, lng = -82.3589 }
+radio = 300000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Brasil"
+respuesta = { lat = -15.7939, lng = -47.8828 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Argentina"
+respuesta = { lat = -34.5997, lng = -58.3819 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Chile"
+respuesta = { lat = -33.4375, lng = -70.65 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Perú"
+respuesta = { lat = -12.06, lng = -77.0375 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Colombia"
+respuesta = { lat = 4.6097, lng = -74.0817 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Venezuela"
+respuesta = { lat = 10.5061, lng = -66.9144 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Ecuador"
+respuesta = { lat = -0.22, lng = -78.5125 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Uruguay"
+respuesta = { lat = -34.9059, lng = -56.1913 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Paraguay"
+respuesta = { lat = -25.28, lng = -57.6344 }
+radio = 300000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Australia"
+respuesta = { lat = -35.2931, lng = 149.1269 }
+radio = 300000
+vista = { lat = -28, lng = 150, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala la capital de Nueva Zelanda"
+respuesta = { lat = -41.2889, lng = 174.7772 }
+radio = 300000
+vista = { lat = -28, lng = 150, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Coliseo de Roma"
+respuesta = { lat = 41.8903, lng = 12.4922 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Torre de Pisa"
+respuesta = { lat = 43.723, lng = 10.3966 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Big Ben"
+respuesta = { lat = 51.5007, lng = -0.1246 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Estatua de la Libertad"
+respuesta = { lat = 40.6892, lng = -74.0444 }
+radio = 50000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Taj Mahal"
+respuesta = { lat = 27.175, lng = 78.0419 }
+radio = 100000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Machu Picchu"
+respuesta = { lat = -13.1633, lng = -72.5456 }
+radio = 100000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Cristo Redentor"
+respuesta = { lat = -22.9519, lng = -43.2105 }
+radio = 50000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Acrópolis de Atenas"
+respuesta = { lat = 37.9717, lng = 23.7261 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Alhambra"
+respuesta = { lat = 37.1763, lng = -3.5882 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Puerta de Brandeburgo"
+respuesta = { lat = 52.5163, lng = 13.3777 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Ópera de Sídney"
+respuesta = { lat = -33.8571, lng = 151.2149 }
+radio = 100000
+vista = { lat = -28, lng = 150, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el monte Fuji"
+respuesta = { lat = 35.3606, lng = 138.7275 }
+radio = 100000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Kilimanjaro"
+respuesta = { lat = -3.0667, lng = 37.3592 }
+radio = 150000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está las cataratas del Niágara"
+respuesta = { lat = 43.08, lng = -79.071 }
+radio = 100000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Angkor Wat"
+respuesta = { lat = 13.4125, lng = 103.8667 }
+radio = 100000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la ciudad de Petra"
+respuesta = { lat = 30.3286, lng = 35.4419 }
+radio = 100000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Stonehenge"
+respuesta = { lat = 51.1789, lng = -1.8261 }
+radio = 100000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Burj Khalifa"
+respuesta = { lat = 25.1972, lng = 55.2742 }
+radio = 100000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Acueducto de Segovia"
+respuesta = { lat = 40.9479, lng = -4.1178 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Mezquita-Catedral de Córdoba"
+respuesta = { lat = 37.8789, lng = -4.7793 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Museo Guggenheim de Bilbao"
+respuesta = { lat = 43.2688, lng = -2.9341 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Ciudad de las Artes y las Ciencias"
+respuesta = { lat = 39.4545, lng = -0.3504 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Teide"
+respuesta = { lat = 28.2726, lng = -16.6436 }
+radio = 50000
+vista = { lat = 28.3, lng = -15.8, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Mont Blanc"
+respuesta = { lat = 45.8328, lng = 6.865 }
+radio = 100000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Cervino (Matterhorn)"
+respuesta = { lat = 45.9764, lng = 7.6586 }
+radio = 100000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Chichén Itzá"
+respuesta = { lat = 20.6831, lng = -88.5686 }
+radio = 100000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Torre CN"
+respuesta = { lat = 43.6428, lng = -79.3871 }
+radio = 100000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está las cataratas del Iguazú"
+respuesta = { lat = -25.6953, lng = -54.4367 }
+radio = 100000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Uluru (Ayers Rock)"
+respuesta = { lat = -25.345, lng = 131.0361 }
+radio = 150000
+vista = { lat = -28, lng = 150, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Torre de Belém"
+respuesta = { lat = 38.6914, lng = -9.2158 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Palacio de Versalles"
+respuesta = { lat = 48.8047, lng = 2.1203 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Mulhacén"
+respuesta = { lat = 37.0533, lng = -3.3114 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está los Picos de Europa"
+respuesta = { lat = 43.1997, lng = -4.8005 }
+radio = 100000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Ciudad Prohibida"
+respuesta = { lat = 39.9158, lng = 116.3908 }
+radio = 50000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está Santa Sofía"
+respuesta = { lat = 41.0083, lng = 28.98 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el templo de Karnak"
+respuesta = { lat = 25.7183, lng = 32.6583 }
+radio = 100000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Casa Blanca"
+respuesta = { lat = 38.8978, lng = -77.0367 }
+radio = 50000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el puente Golden Gate"
+respuesta = { lat = 37.8167, lng = -122.4833 }
+radio = 50000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está las ruinas de Pompeya"
+respuesta = { lat = 40.7506, lng = 14.4897 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Torre de Hércules"
+respuesta = { lat = 43.3858, lng = -8.4064 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Sagrada Familia"
+respuesta = { lat = 41.4037, lng = 2.1743 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el monte Everest"
+respuesta = { lat = 27.9881, lng = 86.925 }
+radio = 100000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Kremlin"
+respuesta = { lat = 55.7517, lng = 37.6178 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el monasterio de El Escorial"
+respuesta = { lat = 40.5892, lng = -4.1478 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el lago Titicaca"
+respuesta = { lat = -15.825, lng = -69.325 }
+radio = 150000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la Gran Esfinge de Guiza"
+respuesta = { lat = 29.9753, lng = 31.1377 }
+radio = 100000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Mont-Saint-Michel"
+respuesta = { lat = 48.6358, lng = -1.5103 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el cabo de Hornos"
+respuesta = { lat = -55.98, lng = -67.2892 }
+radio = 150000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el cabo de Buena Esperanza"
+respuesta = { lat = -34.3581, lng = 18.4719 }
+radio = 150000
+vista = { lat = 5, lng = 20, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el estrecho de Gibraltar"
+respuesta = { lat = 35.9739, lng = -5.5161 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el canal de Panamá"
+respuesta = { lat = 9.12, lng = -79.75 }
+radio = 100000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Vesubio"
+respuesta = { lat = 40.8226, lng = 14.4292 }
+radio = 50000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el Gran Cañón del Colorado"
+respuesta = { lat = 36.0975, lng = -112.0953 }
+radio = 150000
+vista = { lat = 38, lng = -97, zoom = 3 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el mar Muerto"
+respuesta = { lat = 31.5207, lng = 35.4845 }
+radio = 100000
+vista = { lat = 30, lng = 85, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está las islas Galápagos"
+respuesta = { lat = -0.6667, lng = -90.55 }
+radio = 200000
+vista = { lat = -15, lng = -60, zoom = 3 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está la isla de Pascua"
+respuesta = { lat = -27.12, lng = -109.35 }
+radio = 200000
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el cabo Norte"
+respuesta = { lat = 71.1725, lng = 25.7844 }
+radio = 100000
+vista = { lat = 65, lng = 20, zoom = 4 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el lago Ness"
+respuesta = { lat = 57.3, lng = -4.45 }
+radio = 100000
+vista = { lat = 50, lng = 10, zoom = 4 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Señala dónde está el cabo de Gata"
+respuesta = { lat = 36.7219, lng = -2.193 }
+radio = 50000
+vista = { lat = 40, lng = -3.7, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Ibiza"
+zona = [[39.107, 1.625], [39.121, 1.584], [39.114, 1.52], [39.086, 1.443], [39.042, 1.363], [38.989, 1.294], [38.934, 1.245], [38.886, 1.224], [38.853, 1.235], [38.839, 1.276], [38.846, 1.34], [38.874, 1.417], [38.918, 1.497], [38.971, 1.566], [39.026, 1.615], [39.074, 1.636]]
+vista = { lat = 39.5, lng = 3, zoom = 7 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Menorca"
+zona = [[39.987, 4.387], [40.02, 4.36], [40.044, 4.291], [40.057, 4.19], [40.056, 4.073], [40.042, 3.958], [40.016, 3.861], [39.982, 3.799], [39.946, 3.78], [39.914, 3.807], [39.889, 3.876], [39.876, 3.977], [39.877, 4.094], [39.892, 4.209], [39.918, 4.305], [39.951, 4.368]]
+vista = { lat = 39.5, lng = 3, zoom = 7 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Formentera"
+zona = [[38.7, 1.577], [38.714, 1.567], [38.725, 1.54], [38.733, 1.498], [38.736, 1.45], [38.733, 1.402], [38.725, 1.36], [38.714, 1.333], [38.7, 1.323], [38.686, 1.333], [38.675, 1.36], [38.667, 1.402], [38.664, 1.45], [38.667, 1.498], [38.675, 1.54], [38.686, 1.567]]
+vista = { lat = 39.5, lng = 3, zoom = 7 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Tenerife"
+zona = [[28.511, -16.277], [28.551, -16.358], [28.547, -16.476], [28.501, -16.613], [28.42, -16.75], [28.316, -16.864], [28.204, -16.94], [28.102, -16.964], [28.026, -16.934], [27.987, -16.854], [27.99, -16.736], [28.036, -16.598], [28.117, -16.461], [28.222, -16.347], [28.333, -16.272], [28.435, -16.247]]
+vista = { lat = 28.3, lng = -15.8, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Gran Canaria"
+zona = [[27.959, -15.318], [28.045, -15.339], [28.117, -15.398], [28.166, -15.487], [28.183, -15.592], [28.166, -15.698], [28.117, -15.787], [28.045, -15.846], [27.959, -15.867], [27.873, -15.846], [27.8, -15.787], [27.751, -15.698], [27.734, -15.592], [27.751, -15.487], [27.8, -15.398], [27.873, -15.339]]
+vista = { lat = 28.3, lng = -15.8, zoom = 6 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Lanzarote"
+zona = [[29.262, -13.417], [29.276, -13.476], [29.253, -13.559], [29.197, -13.653], [29.116, -13.745], [29.023, -13.82], [28.932, -13.867], [28.856, -13.879], [28.808, -13.853], [28.794, -13.794], [28.817, -13.711], [28.873, -13.617], [28.954, -13.525], [29.047, -13.45], [29.138, -13.403], [29.214, -13.391]]
+vista = { lat = 28.3, lng = -15.8, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Fuerteventura"
+zona = [[28.758, -13.659], [28.768, -13.736], [28.722, -13.853], [28.628, -13.992], [28.498, -14.133], [28.354, -14.253], [28.216, -14.335], [28.107, -14.366], [28.042, -14.341], [28.032, -14.264], [28.078, -14.147], [28.172, -14.008], [28.302, -13.867], [28.446, -13.747], [28.584, -13.665], [28.693, -13.634]]
+vista = { lat = 28.3, lng = -15.8, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de La Palma"
+zona = [[28.894, -17.86], [28.876, -17.923], [28.825, -17.976], [28.749, -18.011], [28.66, -18.024], [28.571, -18.011], [28.495, -17.976], [28.444, -17.923], [28.426, -17.86], [28.444, -17.797], [28.495, -17.744], [28.571, -17.709], [28.66, -17.696], [28.749, -17.709], [28.825, -17.744], [28.876, -17.797]]
+vista = { lat = 28.3, lng = -15.8, zoom = 6 }
+dificultad = 3
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Sicilia"
+zona = [[37.6, 15.604], [37.892, 15.483], [38.14, 15.139], [38.305, 14.624], [38.364, 14.017], [38.305, 13.409], [38.14, 12.894], [37.892, 12.55], [37.6, 12.429], [37.308, 12.55], [37.06, 12.894], [36.895, 13.409], [36.836, 14.017], [36.895, 14.624], [37.06, 15.139], [37.308, 15.483]]
+vista = { lat = 40, lng = 11, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Cerdeña"
+zona = [[41.258, 9.0], [41.162, 8.731], [40.889, 8.502], [40.481, 8.35], [40.0, 8.296], [39.519, 8.35], [39.111, 8.502], [38.838, 8.731], [38.742, 9.0], [38.838, 9.269], [39.111, 9.498], [39.519, 9.65], [40.0, 9.704], [40.481, 9.65], [40.889, 9.498], [41.162, 9.269]]
+vista = { lat = 40, lng = 11, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Córcega"
+zona = [[42.99, 9.283], [42.952, 9.076], [42.791, 8.87], [42.532, 8.697], [42.216, 8.582], [41.889, 8.544], [41.602, 8.588], [41.399, 8.707], [41.31, 8.883], [41.348, 9.09], [41.509, 9.296], [41.768, 9.47], [42.084, 9.584], [42.411, 9.623], [42.698, 9.579], [42.901, 9.46]]
+vista = { lat = 40, lng = 11, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de Islandia"
+zona = [[65.0, -13.473], [65.481, -13.894], [65.889, -15.092], [66.162, -16.885], [66.258, -19.0], [66.162, -21.115], [65.889, -22.908], [65.481, -24.106], [65.0, -24.527], [64.519, -24.106], [64.111, -22.908], [63.838, -21.115], [63.742, -19.0], [63.838, -16.885], [64.111, -15.092], [64.519, -13.894]]
+vista = { lat = 65.0, lng = -19.0, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Creta"
+zona = [[35.31, 26.379], [35.406, 26.266], [35.488, 25.944], [35.542, 25.462], [35.561, 24.893], [35.542, 24.325], [35.488, 23.842], [35.406, 23.52], [35.31, 23.407], [35.213, 23.52], [35.132, 23.842], [35.077, 24.325], [35.058, 24.893], [35.077, 25.462], [35.132, 25.944], [35.213, 26.266]]
+vista = { lat = 36, lng = 25, zoom = 6 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de Chipre"
+zona = [[35.291, 34.324], [35.435, 34.169], [35.512, 33.836], [35.512, 33.376], [35.434, 32.858], [35.29, 32.362], [35.101, 31.963], [34.898, 31.722], [34.709, 31.676], [34.565, 31.831], [34.488, 32.164], [34.488, 32.624], [34.566, 33.142], [34.71, 33.638], [34.899, 34.037], [35.102, 34.278]]
+vista = { lat = 35, lng = 33, zoom = 7 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de Cuba"
+zona = [[21.101, -73.376], [21.424, -73.798], [21.835, -75.089], [22.271, -77.051], [22.665, -79.386], [22.959, -81.739], [23.106, -83.75], [23.086, -85.115], [22.899, -85.624], [22.576, -85.202], [22.165, -83.911], [21.729, -81.949], [21.335, -79.614], [21.041, -77.261], [20.894, -75.25], [20.914, -73.885]]
+vista = { lat = 21.5, lng = -79.0, zoom = 5 }
+dificultad = 1
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de Madagascar"
+zona = [[-12.923, 48.328], [-13.306, 47.29], [-14.709, 46.208], [-16.917, 45.247], [-19.594, 44.552], [-22.334, 44.23], [-24.718, 44.33], [-26.383, 44.836], [-27.077, 45.672], [-26.694, 46.71], [-25.291, 47.792], [-23.083, 48.753], [-20.406, 49.448], [-17.666, 49.77], [-15.282, 49.67], [-13.617, 49.164]]
+vista = { lat = -19.0, lng = 47.0, zoom = 5 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Puerto Rico"
+zona = [[18.25, -65.601], [18.381, -65.67], [18.491, -65.865], [18.565, -66.156], [18.591, -66.5], [18.565, -66.844], [18.491, -67.135], [18.381, -67.33], [18.25, -67.399], [18.119, -67.33], [18.009, -67.135], [17.935, -66.844], [17.909, -66.5], [17.935, -66.156], [18.009, -65.865], [18.119, -65.67]]
+vista = { lat = 18.2, lng = -66.5, zoom = 7 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Jamaica"
+zona = [[18.18, -76.218], [18.335, -76.308], [18.466, -76.564], [18.553, -76.948], [18.584, -77.4], [18.553, -77.852], [18.466, -78.236], [18.335, -78.492], [18.18, -78.582], [18.025, -78.492], [17.894, -78.236], [17.807, -77.852], [17.776, -77.4], [17.807, -76.948], [17.894, -76.564], [18.025, -76.308]]
+vista = { lat = 18.2, lng = -77.4, zoom = 7 }
+dificultad = 2
+
+[[pregunta]]
+tipo = "mapa"
+enunciado = "Toca dentro de la isla de Rodas"
+zona = [[36.459, 28.22], [36.481, 28.132], [36.456, 28.012], [36.387, 27.877], [36.285, 27.75], [36.166, 27.648], [36.047, 27.587], [35.947, 27.577], [35.881, 27.62], [35.859, 27.708], [35.884, 27.828], [35.953, 27.963], [36.055, 28.09], [36.174, 28.192], [36.293, 28.253], [36.393, 28.263]]
+vista = { lat = 36, lng = 25, zoom = 6 }
+dificultad = 3

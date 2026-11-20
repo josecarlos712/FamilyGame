@@ -1,3 +1,6 @@
+# Parte de estas preguntas procede del «Spanish general knowledge megastudy»
+# (Buades-Sitjar, Planchuelo y Duñabeitia, 2021; figshare 10.6084/m9.figshare.14073899),
+# licencia CC BY 4.0. Revisadas y adaptadas; dificultad según el % de acierto real en España.
 [categoria]
 nombre = "Cine y TV"
 icono = "🎬"
@@ -64,3 +67,2213 @@ opciones = ["Titanic", "Avatar", "Avengers: Endgame", "Star Wars: El despertar d
 correcta = "Avatar"
 tiempo = 15
 dificultad = 2
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Mujeres al borde de un ataque de nervios» (1988)?"
+opciones = ["Pedro Almodóvar", "Fernando Trueba", "Bigas Luna", "Álex de la Iglesia"]
+correcta = "Pedro Almodóvar"
+dificultad = 1
+tiempo = 12
+explicacion = "Fue nominada al Óscar a mejor película de habla no inglesa."
+
+[[pregunta]]
+enunciado = "¿Qué papel interpreta Javier Bardem en «Mar adentro» (2004)?"
+opciones = ["Ramón Sampedro", "Antonio Machado", "Ramón y Cajal", "Pedro Zerolo"]
+correcta = "Ramón Sampedro"
+dificultad = 2
+tiempo = 12
+explicacion = "Es la historia real de un tetrapléjico gallego que reclamó el derecho a una muerte digna."
+
+[[pregunta]]
+enunciado = "¿Qué actriz protagoniza «Volver» (2006), de Almodóvar?"
+opciones = ["Penélope Cruz", "Victoria Abril", "Maribel Verdú", "Paz Vega"]
+correcta = "Penélope Cruz"
+dificultad = 1
+tiempo = 10
+explicacion = "Penélope Cruz fue nominada al Óscar a mejor actriz por este papel."
+
+[[pregunta]]
+enunciado = "¿Qué actriz protagoniza «Los otros» (2001), de Amenábar?"
+opciones = ["Nicole Kidman", "Cate Blanchett", "Naomi Watts", "Julianne Moore"]
+correcta = "Nicole Kidman"
+dificultad = 1
+tiempo = 10
+explicacion = "Se rodó en Cantabria y ganó siete premios Goya."
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «El laberinto del fauno» (2006)?"
+opciones = ["Guillermo del Toro", "Alfonso Cuarón", "Alejandro Amenábar", "Juan Antonio Bayona"]
+correcta = "Guillermo del Toro"
+dificultad = 1
+tiempo = 10
+explicacion = "Ganó tres Óscar: fotografía, dirección artística y maquillaje."
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «El orfanato» (2007)?"
+opciones = ["J. A. Bayona", "Jaume Balagueró", "Nacho Vigalondo", "Paco Plaza"]
+correcta = "J. A. Bayona"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué catástrofe real cuenta «Lo imposible» (2012), de Bayona?"
+opciones = ["El tsunami del océano Índico de 2004", "El terremoto de Haití", "El huracán Katrina", "El terremoto de Lorca"]
+correcta = "El tsunami del océano Índico de 2004"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Bienvenido, Mister Marshall» (1953)?"
+opciones = ["Luis García Berlanga", "Juan Antonio Bardem", "Luis Buñuel", "Carlos Saura"]
+correcta = "Luis García Berlanga"
+dificultad = 1
+tiempo = 10
+explicacion = "Es una sátira sobre la espera de la ayuda del Plan Marshall en un pueblo castellano."
+
+[[pregunta]]
+enunciado = "¿Qué director español firmó «El verdugo» (1963)?"
+opciones = ["Luis García Berlanga", "José Luis Garci", "Víctor Erice", "Pedro Almodóvar"]
+correcta = "Luis García Berlanga"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué director aragonés dirigió «Viridiana» (1961)?"
+opciones = ["Luis Buñuel", "Carlos Saura", "Fernando Fernán Gómez", "Mario Camus"]
+correcta = "Luis Buñuel"
+dificultad = 2
+tiempo = 10
+explicacion = "Ganó la Palma de Oro de Cannes en 1961."
+
+[[pregunta]]
+enunciado = "¿Con qué pintor colaboró Luis Buñuel en «Un perro andaluz» (1929)?"
+opciones = ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Francisco de Goya"]
+correcta = "Salvador Dalí"
+dificultad = 2
+tiempo = 12
+explicacion = "Es un cortometraje surrealista de apenas 16 minutos."
+
+[[pregunta]]
+enunciado = "¿Qué película de José Luis Garci ganó el Óscar a mejor película de habla no inglesa en 1983?"
+opciones = ["Volver a empezar", "Asignatura pendiente", "El abuelo", "Sesión continua"]
+correcta = "Volver a empezar"
+dificultad = 2
+tiempo = 15
+explicacion = "Fue la primera película española en ganar un Óscar."
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Amanece que no es poco» (1989)?"
+opciones = ["José Luis Cuerda", "Fernando Colomo", "José Luis Garci", "Berlanga"]
+correcta = "José Luis Cuerda"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué película de Fernando Trueba ganó el Óscar a mejor película de habla no inglesa en 1993?"
+opciones = ["Belle Époque", "El año de las luces", "El sueño del mono loco", "La niña de tus ojos"]
+correcta = "Belle Époque"
+dificultad = 2
+tiempo = 15
+explicacion = "Se estrenó en 1992 y su Óscar llegó en la ceremonia de 1993."
+
+[[pregunta]]
+enunciado = "¿Qué actor andaluz protagoniza «Ocho apellidos vascos» (2014) junto a Clara Lago?"
+opciones = ["Dani Rovira", "Santiago Segura", "Alexis Valdés", "Dani Martín"]
+correcta = "Dani Rovira"
+dificultad = 1
+tiempo = 12
+explicacion = "Fue durante años la película española más taquillera de la historia."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el protagonista sevillano de «Ocho apellidos vascos»?"
+opciones = ["Rafa", "Curro", "Manolo", "Paco"]
+correcta = "Rafa"
+dificultad = 2
+tiempo = 12
+explicacion = "Fue durante años la película española más taquillera de la historia."
+
+[[pregunta]]
+enunciado = "¿Quién crea e interpreta al policía Torrente?"
+opciones = ["Santiago Segura", "Javier Cámara", "Carlos Areces", "Gonzalo de Castro"]
+correcta = "Santiago Segura"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué deporte practican los protagonistas de «Campeones» (2018)?"
+opciones = ["Baloncesto", "Fútbol", "Balonmano", "Voleibol"]
+correcta = "Baloncesto"
+dificultad = 1
+tiempo = 12
+explicacion = "Ganó tres premios Goya, entre ellos mejor película en 2019."
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Campeones» (2018)?"
+opciones = ["Javier Fesser", "Santiago Segura", "Daniel Sánchez Arévalo", "Emilio Martínez-Lázaro"]
+correcta = "Javier Fesser"
+dificultad = 2
+tiempo = 10
+explicacion = "Ganó tres premios Goya, entre ellos mejor película en 2019."
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «La gran aventura de Mortadelo y Filemón» (2003)?"
+opciones = ["Javier Fesser", "Álex de la Iglesia", "Santiago Segura", "Fernando Colomo"]
+correcta = "Javier Fesser"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «El día de la bestia» (1995)?"
+opciones = ["Álex de la Iglesia", "Alejandro Amenábar", "Julio Medem", "Bigas Luna"]
+correcta = "Álex de la Iglesia"
+dificultad = 2
+tiempo = 10
+explicacion = "Ganó seis premios Goya en 1996."
+
+[[pregunta]]
+enunciado = "¿Qué actriz protagoniza «La comunidad» (2000), de Álex de la Iglesia?"
+opciones = ["Carmen Maura", "Rossy de Palma", "Victoria Abril", "Marisa Paredes"]
+correcta = "Carmen Maura"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué director dirigió «¡Ay, Carmela!» (1990)?"
+opciones = ["Carlos Saura", "Mario Camus", "Vicente Aranda", "Pilar Miró"]
+correcta = "Carlos Saura"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer largometraje de Alejandro Amenábar (1996)?"
+opciones = ["Tesis", "Abre los ojos", "Los otros", "Mar adentro"]
+correcta = "Tesis"
+dificultad = 2
+tiempo = 12
+explicacion = "Ganó siete Goya, entre ellos mejor película."
+
+[[pregunta]]
+enunciado = "¿Qué película de Tom Cruise es un remake de «Abre los ojos»?"
+opciones = ["Vanilla Sky", "Minority Report", "Eyes Wide Shut", "Jerry Maguire"]
+correcta = "Vanilla Sky"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué filósofa y astrónoma de Alejandría protagoniza «Ágora» (2009)?"
+opciones = ["Hipatia", "Cleopatra", "Aspasia", "Safo"]
+correcta = "Hipatia"
+dificultad = 3
+tiempo = 12
+explicacion = "Rachel Weisz la interpreta en la película."
+
+[[pregunta]]
+enunciado = "¿Qué profesión tiene la protagonista de «REC» (2007)?"
+opciones = ["Reportera de televisión", "Enfermera", "Policía", "Fotógrafa"]
+correcta = "Reportera de televisión"
+dificultad = 1
+tiempo = 10
+explicacion = "Se rodó con cámara al hombro y tuvo secuelas y un remake americano."
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Malamadre en «Celda 211» (2009)?"
+opciones = ["Luis Tosar", "Javier Bardem", "José Coronado", "Antonio de la Torre"]
+correcta = "Luis Tosar"
+dificultad = 2
+tiempo = 10
+explicacion = "Ganó ocho premios Goya en 2010."
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Te doy mis ojos» (2003)?"
+opciones = ["Icíar Bollaín", "Isabel Coixet", "Pilar Miró", "Gracia Querejeta"]
+correcta = "Icíar Bollaín"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor protagoniza «¡Átame!» (1989) junto a Victoria Abril?"
+opciones = ["Antonio Banderas", "Javier Bardem", "Jordi Mollà", "Eduard Fernández"]
+correcta = "Antonio Banderas"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Por qué película ganó Antonio Banderas el premio al mejor actor en Cannes (2019)?"
+opciones = ["Dolor y gloria", "La piel que habito", "Mujeres al borde de un ataque de nervios", "Los amantes pasajeros"]
+correcta = "Dolor y gloria"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué personaje de «Shrek 2» pone voz original Antonio Banderas?"
+opciones = ["El Gato con Botas", "Asno", "Pinocho", "Príncipe Encantador"]
+correcta = "El Gato con Botas"
+dificultad = 1
+tiempo = 12
+explicacion = "Antonio Banderas dobló al personaje en inglés."
+
+[[pregunta]]
+enunciado = "¿Por qué película ganó Penélope Cruz el Óscar a mejor actriz de reparto (ceremonia de 2009)?"
+opciones = ["Vicky Cristina Barcelona", "Volver", "Nine", "Elegy"]
+correcta = "Vicky Cristina Barcelona"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Por qué película ganó Javier Bardem el Óscar a mejor actor de reparto?"
+opciones = ["No es país para viejos", "Skyfall", "Los lunes al sol", "Biutiful"]
+correcta = "No es país para viejos"
+dificultad = 2
+tiempo = 12
+explicacion = "Interpretaba al asesino Anton Chigurh; ganó en la ceremonia de 2008."
+
+[[pregunta]]
+enunciado = "¿Qué villano de James Bond interpreta Javier Bardem en «Skyfall» (2012)?"
+opciones = ["Raoul Silva", "Le Chiffre", "Blofeld", "Mr. White"]
+correcta = "Raoul Silva"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Los lunes al sol» (2002)?"
+opciones = ["Fernando León de Aranoa", "Icíar Bollaín", "Manuel Gutiérrez Aragón", "Daniel Monzón"]
+correcta = "Fernando León de Aranoa"
+dificultad = 2
+tiempo = 10
+explicacion = "Ganó el Goya a mejor película en 2003."
+
+[[pregunta]]
+enunciado = "¿Qué actriz protagoniza «¿Qué he hecho yo para merecer esto!!» (1984)?"
+opciones = ["Carmen Maura", "Marisa Paredes", "Chus Lampreave", "Rossy de Palma"]
+correcta = "Carmen Maura"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué actor protagoniza «La ciudad no es para mí» (1965)?"
+opciones = ["Paco Martínez Soria", "Alfredo Landa", "José Luis López Vázquez", "Tony Leblanc"]
+correcta = "Paco Martínez Soria"
+dificultad = 1
+tiempo = 10
+explicacion = "Cuenta el choque de un labrador aragonés en Madrid."
+
+[[pregunta]]
+enunciado = "¿Qué tipo de familia retrata «La gran familia» (1962)?"
+opciones = ["Una familia numerosa", "Una familia de artistas", "Una familia aristócrata", "Una familia de emigrantes"]
+correcta = "Una familia numerosa"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué escritor escribió la novela en que se basa «Los santos inocentes» (1984)?"
+opciones = ["Miguel Delibes", "Camilo José Cela", "Juan Marsé", "Arturo Pérez-Reverte"]
+correcta = "Miguel Delibes"
+dificultad = 2
+tiempo = 12
+explicacion = "Dirigió la película Mario Camus."
+
+[[pregunta]]
+enunciado = "¿Qué película de terror clásica ve la niña protagonista de «El espíritu de la colmena»?"
+opciones = ["Frankenstein", "Drácula", "La momia", "El hombre lobo"]
+correcta = "Frankenstein"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué representa la estatuilla de los premios Goya?"
+opciones = ["Un busto de Francisco de Goya", "Un toro", "Un pincel", "Un busto de Velázquez"]
+correcta = "Un busto de Francisco de Goya"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué escultor diseñó la estatuilla de los premios Goya?"
+opciones = ["Mariano Benlliure", "Pablo Gargallo", "Eduardo Chillida", "Josep Clarà"]
+correcta = "Mariano Benlliure"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué película ganó el primer Goya a mejor película (1987)?"
+opciones = ["El viaje a ninguna parte", "Mujeres al borde de un ataque de nervios", "La vaquilla", "El Lute"]
+correcta = "El viaje a ninguna parte"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué Óscar ganó «Hable con ella» (2002)?"
+opciones = ["Mejor guion original", "Mejor película internacional", "Mejor actor", "Mejor banda sonora"]
+correcta = "Mejor guion original"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué película de Amenábar ganó el Óscar a mejor película de habla no inglesa?"
+opciones = ["Mar adentro", "Los otros", "Tesis", "Ágora"]
+correcta = "Mar adentro"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué película de la saga Jurassic dirigió J. A. Bayona?"
+opciones = ["El reino caído", "El mundo perdido", "Jurassic World", "Dominion"]
+correcta = "El reino caído"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué cordillera transcurre «La sociedad de la nieve» (2023)?"
+opciones = ["Los Andes", "Los Alpes", "El Himalaya", "Las Rocosas"]
+correcta = "Los Andes"
+dificultad = 1
+tiempo = 12
+explicacion = "Cuenta el accidente aéreo de 1972 de un equipo de rugby uruguayo."
+
+[[pregunta]]
+enunciado = "¿Qué personaje interpreta Luis Escobar en «La escopeta nacional» (1978)?"
+opciones = ["El marqués de Leguineche", "El conde de Romanones", "El duque de Alba", "El barón Thyssen"]
+correcta = "El marqués de Leguineche"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué profesión tiene Torrente, protagonista de la saga de Santiago Segura?"
+opciones = ["Policía", "Detective privado", "Taxista", "Vigilante de museo"]
+correcta = "Policía"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué película familiar de Santiago Segura se estrenó en 2019?"
+opciones = ["Padre no hay más que uno", "Torrente 5", "Los Futbolísticos", "Tadeo Jones"]
+correcta = "Padre no hay más que uno"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué oficio tiene Tadeo Jones antes de convertirse en explorador?"
+opciones = ["Albañil", "Fontanero", "Taxista", "Bombero"]
+correcta = "Albañil"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Los cronocrímenes» (2007)?"
+opciones = ["Nacho Vigalondo", "Rodrigo Cortés", "Daniel Monzón", "Paco Cabezas"]
+correcta = "Nacho Vigalondo"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué película de Almodóvar debutó Antonio Banderas (1982)?"
+opciones = ["Laberinto de pasiones", "Átame", "Matador", "Entre tinieblas"]
+correcta = "Laberinto de pasiones"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué actor protagoniza «La piel que habito» (2011)?"
+opciones = ["Antonio Banderas", "Javier Bardem", "Luis Tosar", "Eduard Fernández"]
+correcta = "Antonio Banderas"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿A qué escritor interpreta Karra Elejalde en «Mientras dure la guerra» (2019)?"
+opciones = ["Miguel de Unamuno", "Federico García Lorca", "Antonio Machado", "Ortega y Gasset"]
+correcta = "Miguel de Unamuno"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué película dirigida por Carlos Saura (1976) tiene como protagonista a la niña Ana Torrent?"
+opciones = ["Cría cuervos", "Carmen", "Deprisa, deprisa", "Elisa, vida mía"]
+correcta = "Cría cuervos"
+dificultad = 3
+tiempo = 15
+explicacion = "Ganó el Premio Especial del Jurado en Cannes en 1976."
+
+[[pregunta]]
+enunciado = "¿Qué película ganó el Goya a mejor película en la gala de 2022?"
+opciones = ["El buen patrón", "Las niñas", "Maixabel", "Madres paralelas"]
+correcta = "El buen patrón"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué película ganó el Goya a mejor película en la gala de 2024?"
+opciones = ["La sociedad de la nieve", "Cerrar los ojos", "20.000 especies de abejas", "Saben aquell"]
+correcta = "La sociedad de la nieve"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el barco de Chanquete en «Verano azul»?"
+opciones = ["La Dorada", "La Perla", "El Delfín", "La Gaviota"]
+correcta = "La Dorada"
+dificultad = 1
+tiempo = 10
+explicacion = "Es el barco en el que vive el anciano Chanquete."
+
+[[pregunta]]
+enunciado = "¿En qué localidad malagueña se rodó «Verano azul» (1981)?"
+opciones = ["Nerja", "Marbella", "Torremolinos", "Fuengirola"]
+correcta = "Nerja"
+dificultad = 1
+tiempo = 10
+explicacion = "La serie la dirigió Antonio Mercero."
+
+[[pregunta]]
+enunciado = "¿Qué actor daba vida a Chanquete en «Verano azul»?"
+opciones = ["Antonio Ferrandis", "Alfredo Landa", "Paco Martínez Soria", "Fernando Fernán Gómez"]
+correcta = "Antonio Ferrandis"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué cadena emitió «Farmacia de guardia» (1991)?"
+opciones = ["Antena 3", "Telecinco", "TVE", "Canal+"]
+correcta = "Antena 3"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Nacho Martín en «Médico de familia»?"
+opciones = ["Emilio Aragón", "Carlos Sobera", "Josema Yuste", "Santiago Segura"]
+correcta = "Emilio Aragón"
+dificultad = 1
+tiempo = 12
+explicacion = "Nacho era un médico viudo con tres hijos; la serie se estrenó en Telecinco en 1995."
+
+[[pregunta]]
+enunciado = "¿Cómo se apellida la familia protagonista de «Cuéntame cómo pasó»?"
+opciones = ["Alcántara", "Serrano", "Cuesta", "Recio"]
+correcta = "Alcántara"
+dificultad = 1
+tiempo = 12
+explicacion = "La serie se estrena en TVE en 2001 y narra la historia de España desde 1968."
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Antonio Alcántara en «Cuéntame cómo pasó»?"
+opciones = ["Imanol Arias", "Antonio Resines", "Juan Echanove", "Pepe Sancho"]
+correcta = "Imanol Arias"
+dificultad = 1
+tiempo = 12
+explicacion = "La serie se estrena en TVE en 2001 y narra la historia de España desde 1968."
+
+[[pregunta]]
+enunciado = "¿En qué barrio madrileño viven los Alcántara?"
+opciones = ["San Genaro", "Vallecas", "Lavapiés", "Carabanchel"]
+correcta = "San Genaro"
+dificultad = 2
+tiempo = 10
+explicacion = "Es un barrio ficticio de Madrid."
+
+[[pregunta]]
+enunciado = "¿En qué año arranca la primera temporada de «Cuéntame cómo pasó»?"
+opciones = ["1968", "1975", "1960", "1982"]
+correcta = "1968"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Diego Serrano en «Los Serrano»?"
+opciones = ["Antonio Resines", "Imanol Arias", "Fran Perea", "Carlos Iglesias"]
+correcta = "Antonio Resines"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actriz interpreta a Lucía en «Los Serrano»?"
+opciones = ["Belén Rueda", "Ana Duato", "Concha Velasco", "Emma Suárez"]
+correcta = "Belén Rueda"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué calle vive la comunidad de «Aquí no hay quien viva»?"
+opciones = ["Desengaño 21", "Atocha 21", "Alcalá 12", "Serrano 40"]
+correcta = "Desengaño 21"
+dificultad = 2
+tiempo = 12
+explicacion = "La serie se emitió en Antena 3 entre 2003 y 2006."
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Juan Cuesta en «Aquí no hay quien viva»?"
+opciones = ["Pepe Viyuela", "Jordi Sánchez", "Josema Yuste", "Santiago Segura"]
+correcta = "Pepe Viyuela"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la urbanización de «La que se avecina»?"
+opciones = ["Mirador de Montepinar", "Torre Pacheco", "Valle Hermoso", "Parque Alcázar"]
+correcta = "Mirador de Montepinar"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Antonio Recio en «La que se avecina»?"
+opciones = ["Jordi Sánchez", "Pablo Chiapella", "Pepe Viyuela", "Luis Merlo"]
+correcta = "Jordi Sánchez"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién interpreta a Carlos en «7 vidas»?"
+opciones = ["Javier Cámara", "Paco León", "Santiago Segura", "Pablo Carbonell"]
+correcta = "Javier Cámara"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué profesión tienen los protagonistas de «Los hombres de Paco»?"
+opciones = ["Policías", "Médicos", "Bomberos", "Abogados"]
+correcta = "Policías"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Lucas Fernández en «Los hombres de Paco»?"
+opciones = ["Hugo Silva", "Miguel Ángel Silvestre", "Yon González", "Mario Casas"]
+correcta = "Hugo Silva"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el internado de la serie «El internado» (2007)?"
+opciones = ["Laguna Negra", "Las Encinas", "Zurbarán", "Monte Perdido"]
+correcta = "Laguna Negra"
+dificultad = 1
+tiempo = 12
+explicacion = "Se emitió en Antena 3 a partir de 2007."
+
+[[pregunta]]
+enunciado = "¿Qué actriz hispano-cubana, luego estrella de Hollywood, apareció en «El internado»?"
+opciones = ["Ana de Armas", "Úrsula Corberó", "Belén Rueda", "Miriam Giovanelli"]
+correcta = "Ana de Armas"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el instituto de «Física o Química»?"
+opciones = ["Zurbarán", "Las Encinas", "Laguna Negra", "Cervantes"]
+correcta = "Zurbarán"
+dificultad = 2
+tiempo = 10
+explicacion = "Se estrenó en Antena 3 en 2008."
+
+[[pregunta]]
+enunciado = "¿En qué siglo transcurre «Águila Roja»?"
+opciones = ["XVII", "XV", "XIX", "XX"]
+correcta = "XVII"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Gonzalo de Montalvo en «Águila Roja»?"
+opciones = ["David Janer", "Miguel Ángel Silvestre", "Mario Casas", "Yon González"]
+correcta = "David Janer"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿A qué se dedica el negocio de la serie «Velvet»?"
+opciones = ["Moda en unos grandes almacenes", "Joyería", "Hostelería", "Editorial"]
+correcta = "Moda en unos grandes almacenes"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Alberto Márquez en «Velvet»?"
+opciones = ["Miguel Ángel Silvestre", "Paco León", "Hugo Silva", "Álex González"]
+correcta = "Miguel Ángel Silvestre"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué época transcurre «Gran Hotel»?"
+opciones = ["Principios del siglo XX", "Años 80", "Siglo XVII", "Años 40"]
+correcta = "Principios del siglo XX"
+dificultad = 2
+tiempo = 10
+explicacion = "La serie se emitió en Antena 3 desde 2011."
+
+[[pregunta]]
+enunciado = "¿Qué hace el Ministerio del Tiempo en la serie?"
+opciones = ["Vigila que nadie altere la historia", "Predice el futuro", "Fabrica relojes", "Archiva documentos"]
+correcta = "Vigila que nadie altere la historia"
+dificultad = 1
+tiempo = 10
+explicacion = "La serie se estrenó en TVE en 2015."
+
+[[pregunta]]
+enunciado = "¿A qué personaje interpreta Nacho Fresneda en «El ministerio del tiempo»?"
+opciones = ["Un soldado de los Tercios", "Un pintor", "Un rey", "Un conquistador"]
+correcta = "Un soldado de los Tercios"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta al Profesor en «La casa de papel»?"
+opciones = ["Álvaro Morte", "Pedro Alonso", "Paco Tous", "Jaime Lorente"]
+correcta = "Álvaro Morte"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué canción es el himno de «La casa de papel»?"
+opciones = ["Bella ciao", "Resistiré", "Hoy tengo ganas de ti", "La Internacional"]
+correcta = "Bella ciao"
+dificultad = 1
+tiempo = 10
+explicacion = "Es una canción popular italiana de la resistencia antifascista."
+
+[[pregunta]]
+enunciado = "¿Qué máscara llevan los atracadores de «La casa de papel»?"
+opciones = ["La de Salvador Dalí", "La de Goya", "La de Picasso", "La de Velázquez"]
+correcta = "La de Salvador Dalí"
+dificultad = 1
+tiempo = 10
+explicacion = "Los atracadores también visten un mono rojo."
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre real del Profesor en «La casa de papel»?"
+opciones = ["Sergio Marquina", "Andrés de Fonollosa", "Agustín Ramos", "Martín Berrote"]
+correcta = "Sergio Marquina"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué personaje interpreta Pedro Alonso en «La casa de papel»?"
+opciones = ["Berlín", "Tokio", "Moscú", "Denver"]
+correcta = "Berlín"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el colegio de la serie «Élite»?"
+opciones = ["Las Encinas", "Zurbarán", "Laguna Negra", "San Gabriel"]
+correcta = "Las Encinas"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la prisión de «Vis a vis»?"
+opciones = ["Cruz del Sur", "Villa Rosa", "Fuencarral", "El Dueso"]
+correcta = "Cruz del Sur"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿A qué se dedica Paquita Salas?"
+opciones = ["Representante de actores", "Cantante", "Periodista", "Maquilladora"]
+correcta = "Representante de actores"
+dificultad = 1
+tiempo = 10
+explicacion = "La serie se estrenó en 2016 y luego pasó a Netflix."
+
+[[pregunta]]
+enunciado = "¿Quién interpreta a Paquita Salas?"
+opciones = ["Brays Efe", "Javier Cámara", "Carlos Areces", "Paco León"]
+correcta = "Brays Efe"
+dificultad = 2
+tiempo = 10
+explicacion = "La serie se estrenó en 2016 y luego pasó a Netflix."
+
+[[pregunta]]
+enunciado = "¿Cuál es la muletilla clásica de Bart en la versión española de «Los Simpson»?"
+opciones = ["¡Ay, caramba!", "¡Ay, Dios mío!", "¡Qué guay!", "¡Madre mía!"]
+correcta = "¡Ay, caramba!"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué profesión tienen las protagonistas de «Las chicas del cable»?"
+opciones = ["Telefonistas", "Azafatas", "Costureras", "Enfermeras"]
+correcta = "Telefonistas"
+dificultad = 2
+tiempo = 12
+explicacion = "Es una serie de Netflix ambientada en Madrid en los años 20."
+
+[[pregunta]]
+enunciado = "¿Qué actriz interpreta a Aída en la serie del mismo nombre?"
+opciones = ["Carmen Machi", "Anabel Alonso", "Loles León", "Rosa María Sardà"]
+correcta = "Carmen Machi"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué asignatura imparte Merlí?"
+opciones = ["Filosofía", "Historia", "Literatura", "Matemáticas"]
+correcta = "Filosofía"
+dificultad = 2
+tiempo = 10
+explicacion = "La serie se emitió en TV3 desde 2015."
+
+[[pregunta]]
+enunciado = "¿Qué cadena emitió «Hospital Central» (2000)?"
+opciones = ["Telecinco", "Antena 3", "TVE", "Cuatro"]
+correcta = "Telecinco"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué cadena se estrenó «Al salir de clase» (1997)?"
+opciones = ["Telecinco", "Antena 3", "TVE", "Canal+"]
+correcta = "Telecinco"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién creó y dirigió «Un, dos, tres... responda otra vez»?"
+opciones = ["Narciso Ibáñez Serrador", "Fernando Fernán Gómez", "Miguel Mihura", "Antonio Mercero"]
+correcta = "Narciso Ibáñez Serrador"
+dificultad = 1
+tiempo = 10
+explicacion = "Chicho Ibáñez Serrador también creó «Historias para no dormir»."
+
+[[pregunta]]
+enunciado = "¿Qué presentadora condujo el «Un, dos, tres» en los años 70 y 80?"
+opciones = ["Mayra Gómez Kemp", "Mercedes Milá", "Isabel Gemio", "Concha Velasco"]
+correcta = "Mayra Gómez Kemp"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién presenta «Pasapalabra» desde 2020 en Antena 3?"
+opciones = ["Roberto Leal", "Christian Gálvez", "Jorge Fernández", "Manel Fuentes"]
+correcta = "Roberto Leal"
+dificultad = 2
+tiempo = 10
+explicacion = "Pasó de Telecinco a Antena 3 en 2020."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la prueba final de «Pasapalabra»?"
+opciones = ["El rosco", "La ruleta", "El tablero", "La prueba de la silla"]
+correcta = "El rosco"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién presenta «Saber y ganar»?"
+opciones = ["Jordi Hurtado", "Jorge Fernández", "Carlos Sobera", "Ramón García"]
+correcta = "Jordi Hurtado"
+dificultad = 1
+tiempo = 10
+explicacion = "Se emite en La 2 desde 1997."
+
+[[pregunta]]
+enunciado = "¿En qué cadena se emite «Saber y ganar»?"
+opciones = ["La 2 de TVE", "Antena 3", "Telecinco", "Cuatro"]
+correcta = "La 2 de TVE"
+dificultad = 1
+tiempo = 10
+explicacion = "Se emite en La 2 desde 1997."
+
+[[pregunta]]
+enunciado = "¿Quién ganó la primera edición de «Operación Triunfo» (2001)?"
+opciones = ["Rosa López", "David Bisbal", "Chenoa", "Bustamante"]
+correcta = "Rosa López"
+dificultad = 1
+tiempo = 12
+explicacion = "Su canción de Eurovisión 2002 quedó en séptimo lugar."
+
+[[pregunta]]
+enunciado = "¿Con qué canción representó Rosa López a España en Eurovisión 2002?"
+opciones = ["«Europe's Living a Celebration»", "«Eres tú»", "«Dime»", "«Quédate conmigo»"]
+correcta = "«Europe's Living a Celebration»"
+dificultad = 2
+tiempo = 12
+explicacion = "Su canción de Eurovisión 2002 quedó en séptimo lugar."
+
+[[pregunta]]
+enunciado = "¿Qué cantante de «Operación Triunfo» 2001 es conocido por «Ave María»?"
+opciones = ["David Bisbal", "Bustamante", "Chenoa", "Manu Tenorio"]
+correcta = "David Bisbal"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién presentaba las galas de la primera edición de «Operación Triunfo»?"
+opciones = ["Carlos Lozano", "Jesús Vázquez", "Jordi González", "Pepe Navarro"]
+correcta = "Carlos Lozano"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué dúo de «Operación Triunfo» 2017 representó a España en Eurovisión 2018?"
+opciones = ["Amaia y Alfred", "Aitana y Cepeda", "Famous y Nía", "Blas y Roi"]
+correcta = "Amaia y Alfred"
+dificultad = 2
+tiempo = 12
+explicacion = "La canción fue «Tu canción»."
+
+[[pregunta]]
+enunciado = "¿Quién presentó las primeras ediciones de «Gran Hermano» en Telecinco?"
+opciones = ["Mercedes Milá", "Jorge Javier Vázquez", "Pepe Navarro", "Ana Rosa Quintana"]
+correcta = "Mercedes Milá"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿En qué localidad madrileña está la casa de «Gran Hermano»?"
+opciones = ["Guadalix de la Sierra", "Colmenar Viejo", "Aranjuez", "Alcobendas"]
+correcta = "Guadalix de la Sierra"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién ganó la primera edición de «Gran Hermano» (2000)?"
+opciones = ["Ismael Beiro", "Miguel Ángel Ortiz", "Jordi González", "Sonia Arenas"]
+correcta = "Ismael Beiro"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quiénes son las hormigas de «El hormiguero»?"
+opciones = ["Trancas y Barrancas", "Rita y Pepe", "Hormiguita y Chicharra", "Pin y Pon"]
+correcta = "Trancas y Barrancas"
+dificultad = 1
+tiempo = 10
+explicacion = "Son dos hormigas de peluche que acompañan al presentador."
+
+[[pregunta]]
+enunciado = "¿En qué cadena se emite «El hormiguero» desde 2011?"
+opciones = ["Antena 3", "Cuatro", "Telecinco", "La Sexta"]
+correcta = "Antena 3"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién presenta «El hormiguero»?"
+opciones = ["Pablo Motos", "Andreu Buenafuente", "Jesús Calleja", "Risto Mejide"]
+correcta = "Pablo Motos"
+dificultad = 1
+tiempo = 10
+explicacion = "El programa se estrenó en Cuatro en 2006."
+
+[[pregunta]]
+enunciado = "¿Cuál de estos chefs es jurado de «MasterChef» España?"
+opciones = ["Jordi Cruz", "Karlos Arguiñano", "Alberto Chicote", "Ferran Adrià"]
+correcta = "Jordi Cruz"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué cadena emite «MasterChef» España?"
+opciones = ["La 1 de TVE", "Antena 3", "Cuatro", "La Sexta"]
+correcta = "La 1 de TVE"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién presentaba «Crónicas marcianas»?"
+opciones = ["Javier Sardá", "Pepe Navarro", "Andreu Buenafuente", "Josep Pedrerol"]
+correcta = "Javier Sardá"
+dificultad = 1
+tiempo = 10
+explicacion = "Se emitió en Telecinco de 1997 a 2005."
+
+[[pregunta]]
+enunciado = "¿Qué animal es Espinete en «Barrio Sésamo»?"
+opciones = ["Un erizo", "Un conejo", "Un zorro", "Una ardilla"]
+correcta = "Un erizo"
+dificultad = 2
+tiempo = 10
+explicacion = "Convive con Don Pimpón y Doña Rogelia en la serie."
+
+[[pregunta]]
+enunciado = "¿Qué cadena autonómica emite «Club Super3»?"
+opciones = ["TV3", "Canal Sur", "Telemadrid", "ETB"]
+correcta = "TV3"
+dificultad = 3
+tiempo = 10
+explicacion = "Es un espacio infantil de televisión en catalán."
+
+[[pregunta]]
+enunciado = "¿A quién doblaba al español Constantino Romero, voz de Clint Eastwood?"
+opciones = ["Darth Vader", "Gandalf", "Yoda", "Optimus Prime"]
+correcta = "Darth Vader"
+dificultad = 3
+tiempo = 12
+explicacion = "También fue locutor y presentador de televisión."
+
+[[pregunta]]
+enunciado = "¿Quién presenta «La ruleta de la suerte»?"
+opciones = ["Jorge Fernández", "Ramón García", "Carlos Sobera", "Manel Fuentes"]
+correcta = "Jorge Fernández"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién presentó «Sorpresa, sorpresa» en Antena 3?"
+opciones = ["Isabel Gemio", "Concha García Campoy", "María Teresa Campos", "Ana Rosa Quintana"]
+correcta = "Isabel Gemio"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién presenta «La Revuelta» en La 1 desde 2024?"
+opciones = ["David Broncano", "Pablo Motos", "Andreu Buenafuente", "Ignatius Farray"]
+correcta = "David Broncano"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién presenta «El Intermedio» en La Sexta?"
+opciones = ["El Gran Wyoming", "Jordi Évole", "Buenafuente", "Pablo Motos"]
+correcta = "El Gran Wyoming"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién presentó «Sálvame» durante años en Telecinco?"
+opciones = ["Jorge Javier Vázquez", "Carlos Sobera", "Risto Mejide", "Pablo Motos"]
+correcta = "Jorge Javier Vázquez"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién presenta «Tu cara me suena» en Antena 3?"
+opciones = ["Manel Fuentes", "Jorge Fernández", "Roberto Leal", "Christian Gálvez"]
+correcta = "Manel Fuentes"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué reloj marca las campanadas de Nochevieja en TVE?"
+opciones = ["El de la Puerta del Sol", "El de Cibeles", "El de la Almudena", "El de Atocha"]
+correcta = "El de la Puerta del Sol"
+dificultad = 1
+tiempo = 10
+explicacion = "Las doce uvas se toman con las doce campanadas."
+
+[[pregunta]]
+enunciado = "¿Qué presentadora es famosa por sus vestidos en las campanadas de Nochevieja de Antena 3 y La Sexta?"
+opciones = ["Cristina Pedroche", "Anne Igartiburu", "Mercedes Milá", "Susanna Griso"]
+correcta = "Cristina Pedroche"
+dificultad = 1
+tiempo = 15
+explicacion = "Su vestido es cada año tema de conversación."
+
+[[pregunta]]
+enunciado = "¿Quién ganó Eurovisión 1968 para España?"
+opciones = ["Massiel", "Salomé", "Karina", "Rocío Jurado"]
+correcta = "Massiel"
+dificultad = 1
+tiempo = 10
+explicacion = "Venció en Londres en 1968."
+
+[[pregunta]]
+enunciado = "¿Con qué canción ganó Massiel Eurovisión 1968?"
+opciones = ["«La, la, la»", "«Vivo cantando»", "«Eres tú»", "«Hablemos del amor»"]
+correcta = "«La, la, la»"
+dificultad = 2
+tiempo = 10
+explicacion = "Venció en Londres en 1968."
+
+[[pregunta]]
+enunciado = "¿Quién ganó Eurovisión 1969 para España, en un empate a cuatro?"
+opciones = ["Salomé", "Massiel", "Karina", "Mocedades"]
+correcta = "Salomé"
+dificultad = 2
+tiempo = 12
+explicacion = "La canción era «Vivo cantando»."
+
+[[pregunta]]
+enunciado = "¿Qué grupo español quedó segundo en Eurovisión 1973 con «Eres tú»?"
+opciones = ["Mocedades", "Los Bravos", "Los Pecos", "Mecano"]
+correcta = "Mocedades"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Con qué canción quedó tercera Chanel en Eurovisión 2022?"
+opciones = ["«SloMo»", "«Zorra»", "«Eaea»", "«Esa diva»"]
+correcta = "«SloMo»"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién cantó «Quédate conmigo» en Eurovisión 2012?"
+opciones = ["Pastora Soler", "Ruth Lorenzo", "Soraya", "Edurne"]
+correcta = "Pastora Soler"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué cantante española se quedó sin puntos en Eurovisión 1983?"
+opciones = ["Remedios Amaya", "Ana Belén", "Lola Flores", "Marisol"]
+correcta = "Remedios Amaya"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué personaje representó a España en Eurovisión 2008 con «Baila el Chiki-chiki»?"
+opciones = ["Rodolfo Chikilicuatre", "Miguel Bosé", "Kiko Veneno", "Chimo Bayo"]
+correcta = "Rodolfo Chikilicuatre"
+dificultad = 1
+tiempo = 12
+explicacion = "Fue una parodia que quedó en el puesto 16."
+
+[[pregunta]]
+enunciado = "¿Con qué canción representó Blanca Paloma a España en Eurovisión 2023?"
+opciones = ["«Eaea»", "«Zorra»", "«SloMo»", "«Tango»"]
+correcta = "«Eaea»"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué grupo cantó «Zorra» en Eurovisión 2024?"
+opciones = ["Nebulossa", "Chanel", "Soleá", "Famous"]
+correcta = "Nebulossa"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Dónde se celebró Eurovisión 1969?"
+opciones = ["Madrid", "Barcelona", "Sevilla", "Valencia"]
+correcta = "Madrid"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el planeta natal de Luke Skywalker?"
+opciones = ["Tatooine", "Hoth", "Endor", "Naboo"]
+correcta = "Tatooine"
+dificultad = 1
+tiempo = 10
+explicacion = "Orbita dos soles, Tatoo I y Tatoo II."
+
+[[pregunta]]
+enunciado = "¿De qué color es el sable láser de Mace Windu?"
+opciones = ["Violeta", "Verde", "Azul", "Rojo"]
+correcta = "Violeta"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la nave de Han Solo?"
+opciones = ["Halcón Milenario", "Ala-X", "Destructor Estelar", "Estrella de la Muerte"]
+correcta = "Halcón Milenario"
+dificultad = 1
+tiempo = 10
+explicacion = "Hace la Ruta Kessel en menos de doce pársecs."
+
+[[pregunta]]
+enunciado = "¿Qué planeta destruye la Estrella de la Muerte en «Una nueva esperanza»?"
+opciones = ["Alderaan", "Naboo", "Coruscant", "Hoth"]
+correcta = "Alderaan"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el bebé de «The Mandalorian»?"
+opciones = ["Grogu", "Yoda", "Din", "Ewok"]
+correcta = "Grogu"
+dificultad = 2
+tiempo = 10
+explicacion = "Es de la misma especie que Yoda."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la lechuza de Harry Potter?"
+opciones = ["Hedwig", "Errol", "Pigwidgeon", "Fawkes"]
+correcta = "Hedwig"
+dificultad = 2
+tiempo = 10
+explicacion = "Fue un regalo de Hagrid por su cumpleaños."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el elfo doméstico que ayuda a Harry Potter?"
+opciones = ["Dobby", "Kreacher", "Winky", "Hokey"]
+correcta = "Dobby"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué deporte se juega a lomos de una escoba en «Harry Potter»?"
+opciones = ["Quidditch", "Quodpot", "Lacrosse", "Hockey sobre hielo"]
+correcta = "Quidditch"
+dificultad = 1
+tiempo = 12
+explicacion = "Se juega con cuatro bolas: la snitch, la quaffle y dos bludgers."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el profesor de Pociones en Hogwarts?"
+opciones = ["Severus Snape", "Albus Dumbledore", "Remus Lupin", "Minerva McGonagall"]
+correcta = "Severus Snape"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actriz interpreta a Hermione Granger?"
+opciones = ["Emma Watson", "Emma Stone", "Keira Knightley", "Natalie Portman"]
+correcta = "Emma Watson"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué hechizo se usa para desarmar al oponente en «Harry Potter»?"
+opciones = ["Expelliarmus", "Lumos", "Accio", "Crucio"]
+correcta = "Expelliarmus"
+dificultad = 2
+tiempo = 12
+explicacion = "Harry lo usa con frecuencia contra Voldemort."
+
+[[pregunta]]
+enunciado = "¿Quién dirigió la trilogía cinematográfica de «El señor de los anillos»?"
+opciones = ["Peter Jackson", "Guillermo del Toro", "Ridley Scott", "Christopher Nolan"]
+correcta = "Peter Jackson"
+dificultad = 1
+tiempo = 12
+explicacion = "Se rodó de manera casi simultánea entre 1999 y 2000."
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Gandalf?"
+opciones = ["Ian McKellen", "Christopher Lee", "Patrick Stewart", "Ian Holm"]
+correcta = "Ian McKellen"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Aragorn?"
+opciones = ["Viggo Mortensen", "Orlando Bloom", "Sean Bean", "Elijah Wood"]
+correcta = "Viggo Mortensen"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuántos Óscar ganó «El retorno del rey» (2004)?"
+opciones = ["11", "7", "9", "5"]
+correcta = "11"
+dificultad = 3
+tiempo = 10
+explicacion = "Ganó todos los premios a los que optaba."
+
+[[pregunta]]
+enunciado = "¿En qué país se rodó la trilogía de «El señor de los anillos»?"
+opciones = ["Nueva Zelanda", "Canadá", "Islandia", "Irlanda"]
+correcta = "Nueva Zelanda"
+dificultad = 1
+tiempo = 12
+explicacion = "Los paisajes sirvieron para la Tierra Media."
+
+[[pregunta]]
+enunciado = "¿Quién interpreta a Gollum?"
+opciones = ["Andy Serkis", "Sean Astin", "Hugo Weaving", "Bill Nighy"]
+correcta = "Andy Serkis"
+dificultad = 2
+tiempo = 10
+explicacion = "Se usó captura de movimiento para crear a Gollum."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el Señor Oscuro de «El señor de los anillos»?"
+opciones = ["Sauron", "Saruman", "Morgoth", "Gríma"]
+correcta = "Sauron"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué canción de «Titanic» canta Céline Dion?"
+opciones = ["«My Heart Will Go On»", "«I Will Always Love You»", "«Unchained Melody»", "«Tears in Heaven»"]
+correcta = "«My Heart Will Go On»"
+dificultad = 1
+tiempo = 10
+explicacion = "Ganó el Óscar a mejor canción original."
+
+[[pregunta]]
+enunciado = "¿Cuántos Óscar ganó «Titanic» (1997)?"
+opciones = ["11", "9", "14", "8"]
+correcta = "11"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el diamante de «Titanic»?"
+opciones = ["El Corazón del Océano", "La Estrella del Sur", "El Ojo de Tigre", "La Lágrima de Hielo"]
+correcta = "El Corazón del Océano"
+dificultad = 2
+tiempo = 10
+explicacion = "Es una joya ficticia inspirada en diamantes reales."
+
+[[pregunta]]
+enunciado = "¿En qué año se hundió el Titanic real?"
+opciones = ["1912", "1905", "1920", "1898"]
+correcta = "1912"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se titula en España la canción «Let It Go» de «Frozen»?"
+opciones = ["«Libre soy»", "«Suéltalo»", "«Déjalo ir»", "«Hielo y fuego»"]
+correcta = "«Libre soy»"
+dificultad = 2
+tiempo = 12
+explicacion = "La versión original se titula «Let It Go» y ganó el Óscar."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el robot protagonista de la película de Pixar de 2008?"
+opciones = ["WALL·E", "R2-D2", "Baymax", "Eva"]
+correcta = "WALL·E"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué color es Tristeza en «Del revés» (Inside Out)?"
+opciones = ["Azul", "Verde", "Violeta", "Naranja"]
+correcta = "Azul"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué usa el anciano de «Up» para volar con su casa?"
+opciones = ["Globos", "Hélices", "Cohetes", "Un huracán"]
+correcta = "Globos"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el protagonista de «Cars»?"
+opciones = ["Rayo McQueen", "Mate", "Doc Hudson", "Sally"]
+correcta = "Rayo McQueen"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué problema tiene Dory en «Buscando a Nemo»?"
+opciones = ["Pérdida de memoria a corto plazo", "Es ciega", "Es sorda", "No sabe nadar"]
+correcta = "Pérdida de memoria a corto plazo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué animal es el protagonista de «Ratatouille»?"
+opciones = ["Una rata", "Un ratón", "Un hámster", "Un conejo"]
+correcta = "Una rata"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está ambientada «Coco»?"
+opciones = ["México", "Cuba", "España", "Argentina"]
+correcta = "México"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer largometraje de animación de Disney (1937)?"
+opciones = ["Blancanieves y los siete enanitos", "Pinocho", "Bambi", "Cenicienta"]
+correcta = "Blancanieves y los siete enanitos"
+dificultad = 2
+tiempo = 12
+explicacion = "Se estrenó en 1937 y es un clásico de Walt Disney."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el cangrejo de «La Sirenita»?"
+opciones = ["Sebastián", "Flounder", "Scuttle", "Pascal"]
+correcta = "Sebastián"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el dragón de «Mulán»?"
+opciones = ["Mushu", "Toothless", "Drogon", "Elliott"]
+correcta = "Mushu"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué canción de «Encanto» se hizo viral en 2021?"
+opciones = ["«No se habla de Bruno»", "«Libre soy»", "«Hakuna Matata»", "«Remember Me»"]
+correcta = "«No se habla de Bruno»"
+dificultad = 1
+tiempo = 10
+explicacion = "Llegó al número uno de la lista Billboard Hot 100."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el niño dueño de los juguetes en «Toy Story»?"
+opciones = ["Andy", "Sid", "Bonnie", "Billy"]
+correcta = "Andy"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuál es el apellido de la familia de «Los Increíbles»?"
+opciones = ["Parr", "Stark", "Banner", "Wayne"]
+correcta = "Parr"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se titula en España la película «Despicable Me»?"
+opciones = ["Gru, mi villano favorito", "Minions", "El malvado Gru", "Mi villano favorito 4"]
+correcta = "Gru, mi villano favorito"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el martillo de Thor?"
+opciones = ["Mjolnir", "Stormbreaker", "Gungnir", "Excalibur"]
+correcta = "Mjolnir"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué villano chasquea los dedos en «Vengadores: Infinity War»?"
+opciones = ["Thanos", "Loki", "Ultrón", "Ronan"]
+correcta = "Thanos"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿De qué metal está hecho el escudo del Capitán América?"
+opciones = ["Vibranium", "Adamantium", "Acero", "Uru"]
+correcta = "Vibranium"
+dificultad = 2
+tiempo = 10
+explicacion = "Procede de un meteorito caído en Wakanda."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el reino africano de «Black Panther»?"
+opciones = ["Wakanda", "Zamunda", "Genosha", "Latveria"]
+correcta = "Wakanda"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuántas Gemas del Infinito hay en el universo Marvel?"
+opciones = ["6", "5", "7", "4"]
+correcta = "6"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es la identidad secreta de Hulk?"
+opciones = ["Bruce Banner", "Peter Parker", "Steve Rogers", "Matt Murdock"]
+correcta = "Bruce Banner"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién interpreta a Viuda Negra en el cine?"
+opciones = ["Scarlett Johansson", "Jennifer Lawrence", "Gal Gadot", "Elizabeth Olsen"]
+correcta = "Scarlett Johansson"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la ciudad de Batman?"
+opciones = ["Gotham", "Metrópolis", "Ciudad Esmeralda", "Central City"]
+correcta = "Gotham"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor ganó un Óscar póstumo por interpretar al Joker en «El caballero oscuro»?"
+opciones = ["Heath Ledger", "Joaquin Phoenix", "Jack Nicholson", "Jared Leto"]
+correcta = "Heath Ledger"
+dificultad = 2
+tiempo = 12
+explicacion = "Ganó el Óscar a mejor actor de reparto a título póstumo."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el café donde se reúnen los protagonistas de «Friends»?"
+opciones = ["Central Perk", "MacLaren's", "Moe's", "Cheers"]
+correcta = "Central Perk"
+dificultad = 1
+tiempo = 12
+explicacion = "Es el café de Nueva York donde se juntan los amigos."
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Chandler Bing?"
+opciones = ["Matthew Perry", "David Schwimmer", "Matt LeBlanc", "Matthew McConaughey"]
+correcta = "Matthew Perry"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿A qué se dedica Ross Geller en «Friends»?"
+opciones = ["Paleontólogo", "Chef", "Actor", "Abogado"]
+correcta = "Paleontólogo"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el mono de Ross en «Friends»?"
+opciones = ["Marcel", "Bubbles", "Abu", "Cheeta"]
+correcta = "Marcel"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuántas temporadas tiene «Friends»?"
+opciones = ["10", "8", "12", "6"]
+correcta = "10"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién creó «Los Simpson»?"
+opciones = ["Matt Groening", "Seth MacFarlane", "Trey Parker", "Mike Judge"]
+correcta = "Matt Groening"
+dificultad = 2
+tiempo = 10
+explicacion = "Puso a la familia los nombres de sus propios familiares."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el dueño de la central nuclear de «Los Simpson»?"
+opciones = ["Sr. Burns", "Seymour Skinner", "Moe Szyslak", "Ned Flanders"]
+correcta = "Sr. Burns"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el mejor amigo de Bart Simpson?"
+opciones = ["Milhouse", "Nelson", "Ralph", "Martin"]
+correcta = "Milhouse"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué cerveza bebe Homer Simpson?"
+opciones = ["Duff", "Buzz", "Fudd", "Bud"]
+correcta = "Duff"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el director de la escuela de Springfield?"
+opciones = ["Seymour Skinner", "Gary Chalmers", "Willie", "Hibbert"]
+correcta = "Seymour Skinner"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad vive la familia Griffin de «Padre de familia»?"
+opciones = ["Quahog", "Springfield", "Langley Falls", "Arlen"]
+correcta = "Quahog"
+dificultad = 2
+tiempo = 12
+explicacion = "Es una ciudad ficticia de Rhode Island."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el protagonista de «Juego de Tronos» que se une a la Guardia de la Noche?"
+opciones = ["Jon Nieve", "Robb Stark", "Jaime Lannister", "Eddard Stark"]
+correcta = "Jon Nieve"
+dificultad = 1
+tiempo = 12
+explicacion = "En inglés se llama Jon Snow."
+
+[[pregunta]]
+enunciado = "¿Cuál es el lema de la casa Stark?"
+opciones = ["«Se acerca el invierno»", "«Oír mi rugido»", "«Fuego y sangre»", "«Nuestra es la furia»"]
+correcta = "«Se acerca el invierno»"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué casa tiene como emblema un león?"
+opciones = ["Lannister", "Stark", "Targaryen", "Baratheon"]
+correcta = "Lannister"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién es la Madre de Dragones?"
+opciones = ["Daenerys Targaryen", "Cersei Lannister", "Sansa Stark", "Margaery Tyrell"]
+correcta = "Daenerys Targaryen"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Tyrion Lannister?"
+opciones = ["Peter Dinklage", "Kit Harington", "Nikolaj Coster-Waldau", "Iain Glen"]
+correcta = "Peter Dinklage"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad española se rodaron escenas de Dorne en «Juego de Tronos»?"
+opciones = ["Sevilla", "Madrid", "Toledo", "Valencia"]
+correcta = "Sevilla"
+dificultad = 2
+tiempo = 12
+explicacion = "Los Reales Alcázares de Sevilla fueron los Jardines del Agua de Dorne."
+
+[[pregunta]]
+enunciado = "¿Quién escribió las novelas «Canción de hielo y fuego»?"
+opciones = ["George R. R. Martin", "J. R. R. Tolkien", "Brandon Sanderson", "Patrick Rothfuss"]
+correcta = "George R. R. Martin"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el profesor de química de «Breaking Bad»?"
+opciones = ["Walter White", "Jesse Pinkman", "Hank Schrader", "Saul Goodman"]
+correcta = "Walter White"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cuál es el alias de Walter White en el mundo del narcotráfico?"
+opciones = ["Heisenberg", "Einstein", "Oppenheimer", "Bohr"]
+correcta = "Heisenberg"
+dificultad = 1
+tiempo = 12
+explicacion = "Es un homenaje al físico alemán Werner Heisenberg."
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Walter White?"
+opciones = ["Bryan Cranston", "Aaron Paul", "Bob Odenkirk", "Jon Hamm"]
+correcta = "Bryan Cranston"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué ciudad estadounidense transcurre «Breaking Bad»?"
+opciones = ["Albuquerque", "Phoenix", "Las Vegas", "Houston"]
+correcta = "Albuquerque"
+dificultad = 2
+tiempo = 10
+explicacion = "Está en Nuevo México, donde se rodó la serie."
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el abogado de «Breaking Bad» y de su serie derivada?"
+opciones = ["Saul Goodman", "Gus Fring", "Mike Ehrmantraut", "Tuco"]
+correcta = "Saul Goodman"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la niña telepática de «Stranger Things»?"
+opciones = ["Once", "Max", "Will", "Nancy"]
+correcta = "Once"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el pueblo de «Stranger Things»?"
+opciones = ["Hawkins", "Derry", "Twin Peaks", "Castle Rock"]
+correcta = "Hawkins"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿A qué juego de rol juegan los chicos de «Stranger Things»?"
+opciones = ["Dragones y Mazmorras", "Magic", "Warhammer", "Risk"]
+correcta = "Dragones y Mazmorras"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el monstruo de la primera temporada de «Stranger Things»?"
+opciones = ["Demogorgon", "Mindflayer", "Vecna", "Godzilla"]
+correcta = "Demogorgon"
+dificultad = 2
+tiempo = 12
+explicacion = "Su nombre viene de un demonio de Dragones y Mazmorras."
+
+[[pregunta]]
+enunciado = "¿Qué canción de Kate Bush impulsa la trama de la cuarta temporada de «Stranger Things»?"
+opciones = ["«Running Up That Hill»", "«Wuthering Heights»", "«Babooshka»", "«Cloudbusting»"]
+correcta = "«Running Up That Hill»"
+dificultad = 3
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Psicosis» (1960)?"
+opciones = ["Alfred Hitchcock", "Stanley Kubrick", "Orson Welles", "Billy Wilder"]
+correcta = "Alfred Hitchcock"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor protagoniza «Casablanca» junto a Ingrid Bergman?"
+opciones = ["Humphrey Bogart", "Cary Grant", "James Stewart", "Clark Gable"]
+correcta = "Humphrey Bogart"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién protagoniza «Cantando bajo la lluvia»?"
+opciones = ["Gene Kelly", "Fred Astaire", "Frank Sinatra", "Dean Martin"]
+correcta = "Gene Kelly"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Ciudadano Kane» (1941)?"
+opciones = ["Orson Welles", "Frank Capra", "John Ford", "Howard Hawks"]
+correcta = "Orson Welles"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué calzado mágico lleva Dorothy en «El mago de Oz»?"
+opciones = ["Zapatos rojos", "Zapatos de plata", "Botas verdes", "Zapatillas doradas"]
+correcta = "Zapatos rojos"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién interpreta a Dorothy en «El mago de Oz» (1939)?"
+opciones = ["Judy Garland", "Shirley Temple", "Liza Minnelli", "Doris Day"]
+correcta = "Judy Garland"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actriz protagoniza «Desayuno con diamantes»?"
+opciones = ["Audrey Hepburn", "Grace Kelly", "Marilyn Monroe", "Elizabeth Taylor"]
+correcta = "Audrey Hepburn"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el motel de «Psicosis»?"
+opciones = ["Bates Motel", "Overlook", "Hotel California", "Motel Sol"]
+correcta = "Bates Motel"
+dificultad = 2
+tiempo = 10
+explicacion = "En él el taciturno Norman Bates atiende a los huéspedes."
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «El padrino» (1972)?"
+opciones = ["Francis Ford Coppola", "Martin Scorsese", "Brian De Palma", "Sidney Lumet"]
+correcta = "Francis Ford Coppola"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta a Vito Corleone en «El padrino»?"
+opciones = ["Marlon Brando", "Al Pacino", "Robert De Niro", "Robert Duvall"]
+correcta = "Marlon Brando"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué arma típica lleva Indiana Jones?"
+opciones = ["Un látigo", "Una espada", "Un machete", "Un bumerán"]
+correcta = "Un látigo"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué coche es la máquina del tiempo de «Regreso al futuro»?"
+opciones = ["Un DeLorean", "Un Ford Mustang", "Un Cadillac", "Un Mini"]
+correcta = "Un DeLorean"
+dificultad = 1
+tiempo = 10
+explicacion = "Para viajar necesita 1,21 gigavatios."
+
+[[pregunta]]
+enunciado = "¿A qué velocidad en millas por hora hay que ir para viajar en el tiempo en «Regreso al futuro»?"
+opciones = ["88", "55", "100", "120"]
+correcta = "88"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Pulp Fiction» (1994)?"
+opciones = ["Quentin Tarantino", "Martin Scorsese", "Guy Ritchie", "David Fincher"]
+correcta = "Quentin Tarantino"
+dificultad = 1
+tiempo = 10
+explicacion = "La película ganó la Palma de Oro en Cannes."
+
+[[pregunta]]
+enunciado = "¿Qué actor protagoniza «El resplandor» (1980)?"
+opciones = ["Jack Nicholson", "Robert De Niro", "Al Pacino", "Dustin Hoffman"]
+correcta = "Jack Nicholson"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «2001: Una odisea del espacio»?"
+opciones = ["Stanley Kubrick", "Steven Spielberg", "Ridley Scott", "George Lucas"]
+correcta = "Stanley Kubrick"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué ofrece Forrest Gump a sus compañeros de banco?"
+opciones = ["Chocolates", "Cigarrillos", "Caramelos", "Galletas"]
+correcta = "Chocolates"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué insecto conserva el ADN de los dinosaurios en «Parque Jurásico»?"
+opciones = ["Un mosquito", "Una abeja", "Una mosca", "Una hormiga"]
+correcta = "Un mosquito"
+dificultad = 1
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué actriz protagoniza «Mary Poppins» (1964)?"
+opciones = ["Julie Andrews", "Audrey Hepburn", "Grace Kelly", "Shirley MacLaine"]
+correcta = "Julie Andrews"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país está ambientada «Sonrisas y lágrimas»?"
+opciones = ["Austria", "Suiza", "Alemania", "Italia"]
+correcta = "Austria"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué película de Hitchcock tiene como amenaza a bandadas de aves?"
+opciones = ["Los pájaros", "Vértigo", "La soga", "Con la muerte en los talones"]
+correcta = "Los pájaros"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Cuántos Óscar ganó «Ben-Hur» (1959)?"
+opciones = ["11", "9", "7", "13"]
+correcta = "11"
+dificultad = 3
+tiempo = 10
+explicacion = "Igualó el récord que luego alcanzaron «Titanic» y «El retorno del rey»."
+
+[[pregunta]]
+enunciado = "¿Qué actriz interpreta a Cleopatra en la película de 1963?"
+opciones = ["Elizabeth Taylor", "Sophia Loren", "Ava Gardner", "Rita Hayworth"]
+correcta = "Elizabeth Taylor"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién dirigió «Oppenheimer» (2023)?"
+opciones = ["Christopher Nolan", "Martin Scorsese", "Denis Villeneuve", "Ridley Scott"]
+correcta = "Christopher Nolan"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actriz interpreta a Barbie en la película de 2023?"
+opciones = ["Margot Robbie", "Emma Stone", "Anne Hathaway", "Scarlett Johansson"]
+correcta = "Margot Robbie"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué película ganó el Óscar a mejor película en 2025?"
+opciones = ["Anora", "Cónclave", "El brutalista", "Emilia Pérez"]
+correcta = "Anora"
+dificultad = 3
+tiempo = 10
+explicacion = "Ganó cinco Óscar, entre ellos mejor película, en 2025."
+
+[[pregunta]]
+enunciado = "¿Qué actor ganó el Óscar por «Joker» en 2020?"
+opciones = ["Joaquin Phoenix", "Adam Driver", "Antonio Banderas", "Brad Pitt"]
+correcta = "Joaquin Phoenix"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Con qué película ganó Leonardo DiCaprio su Óscar a mejor actor?"
+opciones = ["El renacido", "El lobo de Wall Street", "Titanic", "Origen"]
+correcta = "El renacido"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué objeto usa Cobb para saber si sueña en «Origen»?"
+opciones = ["Un trompo", "Una moneda", "Un reloj", "Un anillo"]
+correcta = "Un trompo"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor protagoniza «Top Gun: Maverick» (2022)?"
+opciones = ["Tom Cruise", "Brad Pitt", "Matt Damon", "Ryan Gosling"]
+correcta = "Tom Cruise"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor interpretó más veces a James Bond en películas oficiales?"
+opciones = ["Roger Moore", "Sean Connery", "Daniel Craig", "Pierce Brosnan"]
+correcta = "Roger Moore"
+dificultad = 3
+tiempo = 12
+explicacion = "Roger Moore lo interpretó siete veces."
+
+[[pregunta]]
+enunciado = "¿Quién interpretó a James Bond en «Skyfall»?"
+opciones = ["Daniel Craig", "Pierce Brosnan", "Roger Moore", "Timothy Dalton"]
+correcta = "Daniel Craig"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Quién fue el primer actor en interpretar a James Bond en el cine?"
+opciones = ["Sean Connery", "Roger Moore", "George Lazenby", "Timothy Dalton"]
+correcta = "Sean Connery"
+dificultad = 2
+tiempo = 12
+explicacion = "Debutó como Bond en «Agente 007 contra el Dr. No» (1962)."
+
+[[pregunta]]
+enunciado = "¿Cómo prefiere James Bond su martini?"
+opciones = ["Agitado, no removido", "Con hielo", "Sin vermut", "Con aceituna negra"]
+correcta = "Agitado, no removido"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el bar de «Cómo conocí a vuestra madre»?"
+opciones = ["MacLaren's", "Central Perk", "Cheers", "Paddy's"]
+correcta = "MacLaren's"
+dificultad = 3
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué ocurre en el inicio de «Perdidos» (2004)?"
+opciones = ["Un avión se estrella en una isla", "Un barco se hunde", "Un tren descarrila", "Un coche se despeña"]
+correcta = "Un avión se estrella en una isla"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿En qué país se ambienta «El juego del calamar»?"
+opciones = ["Corea del Sur", "Japón", "China", "Tailandia"]
+correcta = "Corea del Sur"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué dos agentes protagonizan «Expediente X»?"
+opciones = ["Mulder y Scully", "Holmes y Watson", "Starsky y Hutch", "Castle y Beckett"]
+correcta = "Mulder y Scully"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué forma tiene la TARDIS de «Doctor Who»?"
+opciones = ["Cabina de policía azul", "Cohete rojo", "Autobús de dos pisos", "Nave circular"]
+correcta = "Cabina de policía azul"
+dificultad = 2
+tiempo = 10
+explicacion = "Significa tiempo y dimensión relativa en el espacio."
+
+[[pregunta]]
+enunciado = "¿Qué actor interpreta al doctor de la serie «House»?"
+opciones = ["Hugh Laurie", "Dominic West", "Noah Wyle", "Patrick Dempsey"]
+correcta = "Hugh Laurie"
+dificultad = 2
+tiempo = 10
+explicacion = "Es británico pese a interpretar a un médico estadounidense."
+
+[[pregunta]]
+enunciado = "¿Quién es el asesino de «Pesadilla en Elm Street»?"
+opciones = ["Freddy Krueger", "Jason Voorhees", "Michael Myers", "Chucky"]
+correcta = "Freddy Krueger"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actriz protagoniza «Merlina» (2022)?"
+opciones = ["Jenna Ortega", "Millie Bobby Brown", "Sadie Sink", "Emma Myers"]
+correcta = "Jenna Ortega"
+dificultad = 2
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Qué actor protagoniza «The Last of Us» (HBO, 2023) como Joel?"
+opciones = ["Pedro Pascal", "Oscar Isaac", "Javier Bardem", "Diego Luna"]
+correcta = "Pedro Pascal"
+dificultad = 2
+tiempo = 12
+
+[[pregunta]]
+enunciado = "¿Qué famosa frase dice E.T. en la película de Spielberg?"
+opciones = ["«E.T., teléfono, mi casa»", "«Quiero volver»", "«Hola, amigo»", "«Estoy perdido»"]
+correcta = "«E.T., teléfono, mi casa»"
+dificultad = 1
+tiempo = 10
+
+[[pregunta]]
+enunciado = "¿Cómo se llama el compositor clásico cuya música adora el protagonista de «La naranja mecánica»?"
+opciones = ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Antonio Salieri", "Richard Wagner"]
+correcta = "Ludwig van Beethoven"
+dificultad = 3
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la ciudad en la que vive Superman?"
+opciones = ["Metrópolis", "Gotham City", "Kryptonopolis", "Mega-City One"]
+correcta = "Metrópolis"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la ciudad natal de Batman?"
+opciones = ["Gotham City", "Metropolis", "Arrakeen", "Smallville"]
+correcta = "Gotham City"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la protagonista del musical «West Side Story»?"
+opciones = ["María", "Bess", "Esther", "Lupita"]
+correcta = "María"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llamaba la novia de Tarzán?"
+opciones = ["Jane", "Kala", "Joan", "Beth"]
+correcta = "Jane"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cómo se llaman los premios conferidos anualmente por la Asociación de la Prensa Extranjera de Hollywood?"
+opciones = ["Globos de oro", "Emmy", "Oscar", "Owen"]
+correcta = "Globos de oro"
+dificultad = 3
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Cuál de las siguientes películas ganó 9 Oscars en 1988?"
+opciones = ["El último emperador", "Rain Man", "Amadeus", "Mi vecino Totoro"]
+correcta = "El último emperador"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál era el nombre de Darth Vader antes de pasarse al lado oscuro?"
+opciones = ["Anakin Skywalker", "Conde Dooku", "Han Solo", "Qui-Gon Jinn"]
+correcta = "Anakin Skywalker"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre de nacimiento de Superman?"
+opciones = ["Kal-El", "Jor-El", "Clark Kent", "Lex Luthor"]
+correcta = "Kal-El"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el verdadero nombre de Batman?"
+opciones = ["Bruce Wayne", "Thomas Wayne", "Ra's al Ghul", "James Gordon"]
+correcta = "Bruce Wayne"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál fue el primer largometraje animado de Disney?"
+opciones = ["Blancanieves y los siete enanitos", "Bambi", "La bella durmiente", "Cenicienta"]
+correcta = "Blancanieves y los siete enanitos"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál fue la primera película de James Bond?"
+opciones = ["Dr. No", "Desde Rusia con amor", "Sólo se vive dos veces", "James Bond contra Goldfinger"]
+correcta = "Dr. No"
+dificultad = 3
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuándo se estrenó «El cantante de jazz», la primera película con diálogo sincronizado?"
+opciones = ["1927", "1887", "1939", "1945"]
+correcta = "1927"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuándo se instituyó la ceremonia de los premios Oscar?"
+opciones = ["1929", "1901", "1938", "1915"]
+correcta = "1929"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿De quién eran las famosas películas «El gran dictador» y «Tiempos modernos»?"
+opciones = ["Charlie Chaplin", "Sean Connery", "Ian McKellen", "Patrick Stuart"]
+correcta = "Charlie Chaplin"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Dónde nació el actor Will Smith?"
+opciones = ["Filadelfia", "Miami", "Los Ángeles", "San Diego"]
+correcta = "Filadelfia"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué año se estrenó la película «Lo que el viento se llevó»?"
+opciones = ["1939", "1944", "1946", "1935"]
+correcta = "1939"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué científico está basada la película «Una mente maravillosa»?"
+opciones = ["John Nash", "Richard P. Feynman", "Stephen Hawking", "Albert Einstein"]
+correcta = "John Nash"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué novela del siglo XIX está basado «El diario de Bridget Jones»?"
+opciones = ["Orgullo y prejuicio", "Madame Bovary", "Anna Karenina", "Matar a un ruiseñor"]
+correcta = "Orgullo y prejuicio"
+dificultad = 3
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué película de 1993 se travistió Robin Williams?"
+opciones = ["Señora Doubtfire", "Dr. Doolittle", "Dos rubias de pelo en pecho", "Este cuerpo no es el mío"]
+correcta = "Señora Doubtfire"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿En qué película de Disney la heroína se alista en el ejército y salva China de los Hunos?"
+opciones = ["Mulán", "Mushu", "Enredados", "Vaiana"]
+correcta = "Mulán"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué actor interpretó a Rocky Balboa?"
+opciones = ["Sylvester Stallone", "Arnold Schwarzenegger", "Jason Statham", "Chuck Norris"]
+correcta = "Sylvester Stallone"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Qué actriz es conocida por aparecer en «Mary Poppins» y «Sonrisas y lágrimas»?"
+opciones = ["Julie Andrews", "Judy Garland", "Barbra Streisand", "Patti LuPone"]
+correcta = "Julie Andrews"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Qué actriz ganadora de un Oscar de la Era Dorada de Hollywood se convirtió en la princesa de Mónaco?"
+opciones = ["Grace Kelly", "Kate Middleton", "Meghan Markle", "Diana Spencer"]
+correcta = "Grace Kelly"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Qué película ganó el Oscar a la mejor película en 1944?"
+opciones = ["Casablanca", "Alarma en el Rin", "El amor llamó dos veces", "Footloose"]
+correcta = "Casablanca"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué película ganó Oscars en las 5 categorías más importantes: mejor película, actor, actriz, director y adaptación?"
+opciones = ["El silencio de los corderos", "La Bella y la Bestia", "Bugsy Malone", "El príncipe de las mareas"]
+correcta = "El silencio de los corderos"
+dificultad = 1
+tiempo = 16
+
+[[pregunta]]
+enunciado = "¿Quién dirigió películas como «Titanic», «Terminator» 1 y 2, «Aliens» y «Avatar»?"
+opciones = ["James Cameron", "George Lucas", "Zack Snyder", "Joss Whedon"]
+correcta = "James Cameron"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién creó la saga de Star Wars?"
+opciones = ["George Lucas", "James Cameron", "Steven Spielberg", "Quentin Tarantino"]
+correcta = "George Lucas"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Quién fue el director de las trilogías de «El señor de los anillos» y «El Hobbit»?"
+opciones = ["Peter Jackson", "Gillermo del Toro", "Steven Spielberg", "George Lucas"]
+correcta = "Peter Jackson"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Quién interpretó al protagonista travestido en «Tootsie»?"
+opciones = ["Dustin Hoffman", "Al Pacino", "Robert De Niro", "Sean Connery"]
+correcta = "Dustin Hoffman"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cómo se llama la cafetería que visitan a menudo los protagonistas de la serie «Friends»?"
+opciones = ["Central Perk", "Insomnia Cafe", "Friends", "Trivianni"]
+correcta = "Central Perk"
+dificultad = 2
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál era el apellido de Rachel en la exitosa serie «Friends»?"
+opciones = ["Green", "Buffay", "Geller", "Bing"]
+correcta = "Green"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál era el nombre de la nave en la que la tripulación de «Star Trek» solía viajar por el espacio?"
+opciones = ["Enterprise", "Stardestroyer", "Halcón Milenario", "X-Wing"]
+correcta = "Enterprise"
+dificultad = 1
+tiempo = 15
+
+[[pregunta]]
+enunciado = "¿Cuál es el apellido de soltera de Marge Simpson?"
+opciones = ["Bouvier", "Davis", "Thompson", "Franklin"]
+correcta = "Bouvier"
+dificultad = 2
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿Cuál es el lema de la familia Stark en la serie «Juego de Tronos»?"
+opciones = ["Se acerca el invierno", "La alondra está llamando", "Se aproxima el frío", "Llega la primavera"]
+correcta = "Se acerca el invierno"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Cuál es el nombre del perro en «Garfield»?"
+opciones = ["Odie", "Ariene", "Jon", "Pooky"]
+correcta = "Odie"
+dificultad = 1
+tiempo = 13
+
+[[pregunta]]
+enunciado = "¿En qué gran guerra se basa la trama de «Juego de tronos»?"
+opciones = ["Guerra de las Dos Rosas", "Primera Guerra Mundial", "Guerra Civil Americana", "Segunda Guerra Mundial"]
+correcta = "Guerra de las Dos Rosas"
+dificultad = 2
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué asignatura enseñaba Walter White en la serie «Breaking Bad»?"
+opciones = ["Química", "Inglés", "Matemáticas", "Biología"]
+correcta = "Química"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Qué cadena de televisión británica no pone anuncios?"
+opciones = ["BBC", "ITV", "NCN", "Fox"]
+correcta = "BBC"
+dificultad = 1
+tiempo = 14
+
+[[pregunta]]
+enunciado = "¿Quién fue el creador de «Los Simpson»?"
+opciones = ["Matt Groening", "Seth McFarlane", "Justin Roiland", "Nick Kroll"]
+correcta = "Matt Groening"
+dificultad = 1
+tiempo = 13
