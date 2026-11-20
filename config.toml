@@ -2,7 +2,7 @@
 
 [servidor]
 host = "0.0.0.0"     # 0.0.0.0 = accesible desde los móviles de la red de casa
-puerto = 8000
+puerto = 8765
 
 [mapas]
 # Clave de la «Maps JavaScript API» de Google (console.cloud.google.com).

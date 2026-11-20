@@ -5,7 +5,7 @@
       "name": "familygame",
       "runtimeExecutable": ".venv\\Scripts\\python.exe",
       "runtimeArgs": ["src/main.py"],
-      "port": 8000
+      "port": 8765
     }
   ]
 }

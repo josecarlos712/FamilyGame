@@ -7,7 +7,7 @@ if not exist ".venv\Scripts\python.exe" (
     ".venv\Scripts\python.exe" -m pip install -q -r requirements.txt || goto :error
 )
 rem Abre la pantalla de la tele cuando el servidor ya esta escuchando
-start "" /min cmd /c "timeout /t 3 /nobreak >nul & start http://localhost:8000/tv"
+start "" /min cmd /c "timeout /t 3 /nobreak >nul & start http://localhost:8765/tv"
 ".venv\Scripts\python.exe" src\main.py %*
 pause
 exit /b 0

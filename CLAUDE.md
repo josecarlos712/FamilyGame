@@ -7,7 +7,7 @@ frontend JS sin compilar.
 
 - Arrancar: `iniciar.bat` o `.venv\Scripts\python src\main.py [--puerto N] [--sin-internet]`
 - Tests: `.venv\Scripts\python -m pytest`
-- Vista previa: `.claude/launch.json` (configuración `familygame`, puerto 8000)
+- Vista previa: `.claude/launch.json` (configuración `familygame`, puerto 8765)
 
 ## Mapa del código
 

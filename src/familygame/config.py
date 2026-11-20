@@ -27,7 +27,7 @@ class AppConfig:
     """Whole application configuration."""
 
     host: str = "0.0.0.0"
-    port: int = 8000
+    port: int = 8765
     google_maps_api_key: str = ""
     check_internet: bool = True
     max_players: int = 6

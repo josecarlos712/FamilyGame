@@ -34,11 +34,11 @@ Documentación detallada:
 
 Doble clic en **`iniciar.bat`** (la primera vez crea el entorno e instala dependencias).
 
-- **Tele:** `http://localhost:8000/tv` (se abre sola). Ponla a pantalla completa con F11.
+- **Tele:** `http://localhost:8765/tv` (se abre sola). Ponla a pantalla completa con F11.
 - **Móviles:** escanean el QR de la tele o abren la dirección que aparece debajo
   (los móviles tienen que estar en la misma red wifi que el PC).
 
-A mano: `.venv\Scripts\python src\main.py [--puerto 8000] [--sin-internet]`.
+A mano: `.venv\Scripts\python src\main.py [--puerto 8765] [--sin-internet]`.
 
 ## Cómo se juega
 

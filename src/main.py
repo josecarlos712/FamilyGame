@@ -1,4 +1,4 @@
-"""Start the FamilyGame server: ``python src/main.py [--puerto 8000]``."""
+"""Start the FamilyGame server: ``python src/main.py [--puerto 8765]``."""
 
 from __future__ import annotations
 

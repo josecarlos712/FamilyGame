@@ -48,7 +48,7 @@ def main() -> None:
     config = load_config(ROOT / "config.toml")  # includes the Maps key from config.local.toml
     config.port, config.remember_questions = port, False
     app = create_app(config, paths, check_internet=False)
-    app.state.server.join_url = "http://192.168.1.20:8000/"
+    app.state.server.join_url = "http://192.168.1.20:8765/"
     game = app.state.server.game
     game.rng = Random(4)
     game.settings.disabled = set() if scene.startswith("mapa") else {"mapas"}
