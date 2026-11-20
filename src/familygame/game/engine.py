@@ -969,6 +969,7 @@ class Game:
             "ranking": self._ranking_ids(),
             "tiebreakPlayers": self.tiebreak_players if in_tiebreak else [],
             "maxPlayers": self.max_players,
+            "chooseTime": self.timing.choose,
         }
 
     def tv_view(self) -> dict[str, Any]:

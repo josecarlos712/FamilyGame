@@ -1,0 +1,101 @@
+"""Server: routes, asset safety and the WebSocket protocol."""
+
+from __future__ import annotations
+
+import base64
+from pathlib import Path
+
+import pytest
+from starlette.testclient import TestClient
+
+from familygame.config import AppConfig
+from familygame.server import Paths, create_app, decode_photo
+from familygame.game.engine import GameError
+
+JPEG = "data:image/jpeg;base64," + base64.b64encode(b"\xff\xd8\xff\xe0" + b"0" * 100).decode()
+
+
+@pytest.fixture
+def client(root: Path, tmp_path: Path) -> TestClient:
+    paths = Paths.from_root(root)
+    paths.data = tmp_path  # keep the question history out of the repo
+    app = create_app(AppConfig(), paths, check_internet=False)
+    with TestClient(app) as c:
+        yield c
+
+
+def recv_until(ws, kind: str, limit: int = 20) -> dict:
+    for _ in range(limit):
+        msg = ws.receive_json()
+        if msg["t"] == kind:
+            return msg
+    raise AssertionError(f"no llegó {kind}")
+
+
+def test_pages_and_assets(client: TestClient) -> None:
+    assert client.get("/").status_code == 200
+    assert client.get("/tv").status_code == 200
+    assert client.get("/qr.svg").headers["content-type"].startswith("image/svg")
+    assert client.get("/qtypes/test/tv.js").status_code == 200
+    assert client.get("/qtypes/test/type.py").status_code == 404  # python source not served
+    assert client.get("/qtypes/test/..%2F..%2Fconfig.toml").status_code == 404
+    assert client.get("/media/../config.toml").status_code == 404
+    assert client.get("/static/icons/gato.svg").status_code == 200
+    info = client.get("/api/info").json()
+    assert "test" in info["types"] and "gato" in info["icons"]
+
+
+def test_photo_validation() -> None:
+    raw, mime = decode_photo(JPEG)
+    assert mime == "image/jpeg" and raw.startswith(b"\xff\xd8")
+    with pytest.raises(GameError):
+        decode_photo("data:image/jpeg;base64," + base64.b64encode(b"<svg>").decode())
+    with pytest.raises(GameError):
+        decode_photo("data:text/html;base64,AAAA")
+
+
+def test_join_start_and_answer_over_websockets(client: TestClient) -> None:
+    with client.websocket_connect("/ws/tv") as tv, client.websocket_connect("/ws/phone") as phone:
+        assert recv_until(tv, "welcome")["joinUrl"].startswith("http://")
+        phone.send_json({"t": "hello", "token": None})
+        assert recv_until(phone, "welcome")["id"] is None
+        phone.send_json({"t": "join", "name": "Ana", "color": "#ff6b6b",
+                         "avatar": {"kind": "photo", "data": JPEG}})
+        joined = recv_until(phone, "joined")
+        state = recv_until(phone, "state")["state"]
+        assert state["me"]["name"] == "Ana" and state["me"]["host"]
+        assert client.get(state["me"]["avatar"]["url"]).content.startswith(b"\xff\xd8")
+
+        phone.send_json({"t": "join", "name": "Otra", "color": "#ffa94d", "avatar": {"kind": "icon", "value": "gato"}})
+        assert "Ya estás" in recv_until(phone, "error")["msg"]
+
+        phone.send_json({"t": "settings", "changes": {"disabled": ["mapas"]}})
+        phone.send_json({"t": "start"})
+        for _ in range(20):
+            state = recv_until(phone, "state")["state"]
+            if state["phase"] == "choosing":
+                break
+        assert state["offered"]
+        phone.send_json({"t": "choose", "category": "__random__"})
+        state = recv_until(phone, "state")["state"]
+        assert state["phase"] in ("reading", "answering")
+        for _ in range(20):
+            tv_state = recv_until(tv, "state")["state"]
+            if tv_state["phase"] in ("reading", "answering"):
+                break
+        assert tv_state["players"][0]["name"] == "Ana"
+
+    # reconnect with the token
+    with client.websocket_connect("/ws/phone") as phone:
+        phone.send_json({"t": "hello", "token": joined["token"]})
+        assert recv_until(phone, "welcome")["id"] == joined["id"]
+
+
+def test_garbage_messages_do_not_crash(client: TestClient) -> None:
+    with client.websocket_connect("/ws/phone") as phone:
+        phone.send_text("no es json")
+        assert recv_until(phone, "error")
+        phone.send_json({"t": "start"})
+        assert "Primero" in recv_until(phone, "error")["msg"]
+        phone.send_json(["lista"])
+        assert recv_until(phone, "error")

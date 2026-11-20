@@ -1,0 +1,58 @@
+/* ---- TV ---- */
+.qt-test-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 100%;
+}
+.qt-test-grid[data-n="2"], .qt-test-grid[data-n="3"] { grid-template-columns: 1fr; }
+.qt-test-opt {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 132px;
+  padding: 20px 28px;
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: inset 8px 0 0 var(--oc);
+  font-size: 44px;
+  line-height: 1.15;
+  animation: rise 0.45s var(--ease) both;
+  transition: opacity 0.4s, transform 0.4s var(--ease), background 0.4s;
+}
+.qt-test-opt:nth-child(2) { animation-delay: 0.06s; }
+.qt-test-opt:nth-child(3) { animation-delay: 0.12s; }
+.qt-test-opt:nth-child(4) { animation-delay: 0.18s; }
+.qt-test-opt .opt-letter { font-size: 38px; }
+.qt-test-text { flex: 1; }
+.qt-test-voters { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; max-width: 40%; }
+.qt-test-voters .avatar { animation: pop 0.35s var(--ease) both; }
+.qt-test-opt.is-right { background: color-mix(in srgb, var(--good) 28%, var(--surface)); box-shadow: inset 0 0 0 5px var(--good); transform: scale(1.02); }
+.qt-test-opt.is-wrong { opacity: 0.4; }
+.qt-test-opt.is-wrong:has(.avatar) { opacity: 0.7; }
+
+/* ---- phone ---- */
+.qt-test-list { display: grid; gap: 12px; }
+.qt-test-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  min-height: 72px;
+  padding: 14px 16px;
+  border: 0;
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: inset 6px 0 0 var(--oc);
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.12s var(--ease), opacity 0.25s, background 0.25s;
+}
+.qt-test-btn:active { transform: scale(0.97); }
+.qt-test-btn .opt-letter { font-size: 1.1rem; }
+.is-locked .qt-test-btn { opacity: 0.35; pointer-events: none; }
+.is-locked .qt-test-btn.is-picked { opacity: 1; background: color-mix(in srgb, var(--oc) 30%, var(--surface)); box-shadow: inset 0 0 0 3px var(--oc); }
+.is-locked .qt-test-btn.is-right { opacity: 1; box-shadow: inset 0 0 0 3px var(--good); }

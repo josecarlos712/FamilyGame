@@ -1,0 +1,45 @@
+/* Uses the slider styles too (.qt-sl-*): they are loaded by the slider type. Repeated here so
+   «rango» works even if the slider folder is removed. */
+.qt-sl { width: 100%; padding: 0 30px; }
+.qt-sl-hint { margin: 0 0 24px; font-size: 32px; color: var(--muted); text-align: center; }
+.qt-sl-track { position: relative; height: 26px; border-radius: 99px; background: var(--surface-2); }
+.qt-sl-band { position: absolute; top: -6px; bottom: -6px; border-radius: 99px; background: color-mix(in srgb, var(--good) 45%, transparent); box-shadow: inset 0 0 0 3px var(--good); }
+.qt-rg-marks { display: flex; justify-content: space-between; margin-top: 18px; font-size: 26px; color: var(--muted); }
+
+/* ---- TV ---- */
+.qt-rg-rows { display: grid; gap: 10px; min-height: 300px; align-content: end; margin-bottom: 22px; }
+.qt-rg-solution { margin: 0 0 6px; text-align: center; font-size: 46px; color: var(--good); }
+.qt-rg-row { display: grid; grid-template-columns: 52px 1fr 220px; gap: 14px; align-items: center; animation: rise 0.4s var(--ease) both; }
+.qt-rg-row small { font-size: 24px; color: var(--c); }
+.qt-rg-lane { position: relative; height: 16px; border-radius: 99px; background: var(--surface); }
+.qt-rg-lane i { position: absolute; top: 0; bottom: 0; border-radius: 99px; background: var(--c); opacity: 0.55; }
+.qt-rg-lane i.is-good { opacity: 1; box-shadow: 0 0 0 3px var(--good); }
+
+/* ---- phone ---- */
+.qt-sl-phone { display: grid; gap: 16px; }
+.qt-sl-value { display: block; text-align: center; font-size: 3rem; font-weight: 900; color: var(--accent); }
+.qt-rg-value { font-size: 2.2rem; }
+.qt-sl-limits { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.95rem; }
+.qt-sl-nudge { min-height: 48px; min-width: 48px; padding: 0; font-size: 1.5rem; }
+.qt-sl-solution { margin: 0; text-align: center; font-size: 1.2rem; }
+.qt-sl-solution b { color: var(--good); }
+.qt-rg-wrap { position: relative; height: 48px; }
+.qt-rg-track { position: absolute; left: 12px; right: 12px; top: 20px; height: 8px; border-radius: 99px; background: var(--surface-2); }
+.qt-rg-fill { position: absolute; top: 0; bottom: 0; border-radius: 99px; background: var(--accent); }
+.qt-rg-input {
+  position: absolute; inset: 0; width: 100%; height: 48px; margin: 0;
+  background: none; pointer-events: none; -webkit-appearance: none; appearance: none;
+}
+.qt-rg-input::-webkit-slider-runnable-track { background: none; }
+.qt-rg-input::-moz-range-track { background: none; }
+.qt-rg-input::-webkit-slider-thumb {
+  -webkit-appearance: none; pointer-events: auto; width: 34px; height: 34px; border-radius: 50%;
+  background: var(--ink); box-shadow: 0 0 0 5px var(--accent); cursor: grab;
+}
+.qt-rg-input::-moz-range-thumb {
+  pointer-events: auto; width: 30px; height: 30px; border: 0; border-radius: 50%;
+  background: var(--ink); box-shadow: 0 0 0 5px var(--accent); cursor: grab;
+}
+.qt-rg-nudge-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.qt-rg-nudges { display: grid; grid-template-columns: 1fr 48px 48px; gap: 6px; align-items: center; color: var(--muted); }
+.qt-rg-warn { margin: 0; min-height: 1.2em; color: var(--bad); text-align: center; font-size: 0.95rem; }

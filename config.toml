@@ -1,0 +1,20 @@
+# Configuración de FamilyGame. Todo es opcional.
+
+[servidor]
+host = "0.0.0.0"     # 0.0.0.0 = accesible desde los móviles de la red de casa
+puerto = 8000
+
+[mapas]
+# Clave de la «Maps JavaScript API» de Google (console.cloud.google.com).
+# Sin clave, las preguntas de tipo mapa no se ofrecen (salen como «no disponibles»).
+google_maps_api_key = ""
+comprobar_internet = true   # sin conexión, las preguntas que la necesitan no se ofrecen
+
+[partida]
+max_jugadores = 6
+evitar_repetidas_entre_partidas = true   # recuerda lo ya preguntado en data/historial.json
+
+[tiempos]
+elegir_categoria = 20   # segundos para elegir categoría (luego, al azar)
+revelar = 7             # segundos mostrando la solución
+tablero = 4             # segundos mínimos del movimiento en el tablero
