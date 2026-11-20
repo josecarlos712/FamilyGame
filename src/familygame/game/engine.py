@@ -40,6 +40,8 @@ DUEL_STEAL = 50
 EVENT_PLUS, EVENT_MINUS, EVENT_STEAL = 60, 40, 40
 MAX_TIEBREAKS = 3
 ANSWER_GRACE = 0.6     # seconds of network latency accepted after the deadline
+AFK_GRACE = 4.0        # seconds a phone may be away before the match pauses by itself
+HEARTBEAT_TIMEOUT = 15.0  # a phone that sent pings and went silent this long is away
 
 
 class GameError(Exception):
@@ -60,6 +62,8 @@ class Settings:
     music: bool = True
     sfx: bool = True
     volume: int = 70
+    late_join: str = "zero"  # points of someone joining a running match: zero | average | fixed
+    late_points: int = 0
 
     def public(self) -> dict[str, Any]:
         return {
@@ -73,7 +77,21 @@ class Settings:
             "music": self.music,
             "sfx": self.sfx,
             "volume": self.volume,
+            "lateJoin": self.late_join,
+            "latePoints": self.late_points,
         }
+
+
+@dataclass
+class Away:
+    """A player who left or was removed during a match; their seat and state are kept."""
+
+    player: Player
+    reason: str  # "left" (by themselves) or "kicked" (by the host)
+    slot: int  # position in the join order, to come back to the same place
+
+
+LATE_JOIN_MODES = ("zero", "average", "fixed")
 
 
 @dataclass
@@ -161,6 +179,10 @@ class Game:
         self.max_players = max_players
         self.players: dict[str, Player] = {}
         self.order: list[str] = []
+        self.away: dict[str, Away] = {}  # players who left mid-match; they can come back
+        self.host_override: str | None = None  # host handed the control to someone
+        self._host_seen: str | None = None
+        self.checkpoint: str | None = None  # "save" | "clear": the server (un)writes the autosave
         self.settings = Settings()
         self.saved: dict[str, Any] | None = None  # stored match (see save_and_exit)
         self.version = 0
@@ -188,6 +210,14 @@ class Game:
         self.tiebreak_players: list[str] = []
         self.tiebreak_attempt = 0
         self.winners: list[str] = []
+        self.paused = False
+        self.paused_by: str | None = None
+        self.pause_started: float | None = None
+        self.paused_reason: str | None = None  # "manual" or "afk"
+        self.seen: dict[str, float] = {}  # last ping of the phones that send them
+        self.afk_since: dict[str, tuple[float, str]] = {}  # pid -> (since, "hidden"|"dropped"|"silent")
+        self.afk_ignored: set[str] = set()  # the host resumed anyway: do not pause again for them
+        self.away = {}  # a new match: the seats reserved in the old one are free again
         for player in self.players.values():
             player.reset_scores()
 
@@ -211,9 +241,31 @@ class Game:
 
     @property
     def host_id(self) -> str | None:
-        """First connected player (by join order) controls the game."""
+        """The player the host handed control to, else the first connected one (join order)."""
+        override = self.players.get(self.host_override) if self.host_override else None
+        if override and override.connected:
+            return override.id
         connected = self._connected()
         return connected[0].id if connected else None
+
+    def _announce_host(self) -> None:
+        """Say it out loud when the control passes to someone else."""
+        host = self.host_id
+        if host is None or host == self._host_seen:
+            return
+        if self._host_seen is not None and self.phase != LOBBY:
+            self._say(f"👑 {self.players[host].name} es ahora el anfitrión", host, "host")
+        self._host_seen = host
+
+    def set_host(self, pid: str, target: str) -> None:
+        """The host passes the control to another connected player."""
+        self._require_host(pid)
+        new = self._player(target)
+        if not new.connected:
+            raise GameError("Esa persona no está conectada")
+        self.host_override = target
+        self._announce_host()
+        self._touch()
 
     def _require_host(self, pid: str) -> None:
         if pid != self.host_id:
@@ -261,15 +313,31 @@ class Game:
         """
         if len(self.players) >= self.max_players:
             raise GameError(f"La partida está llena (máximo {self.max_players})")
+        if len(self.players) + len(self.away) >= self.max_players:
+            raise GameError("Todas las plazas están ocupadas o reservadas por quien se fue; "
+                            "el anfitrión puede liberar una")
         clean, color, avatar = self._validate_profile(name, color, avatar)
         pid = secrets.token_hex(4)
-        while pid in self.players:
+        while pid in self.players or pid in self.away:
             pid = secrets.token_hex(4)
         player = Player(pid, secrets.token_urlsafe(18), clean, color, avatar)
+        if self.phase not in (LOBBY, FINISHED):
+            player.points = self._late_points()
         self.players[pid] = player
         self.order.append(pid)
-        self._say(f"{clean} se ha unido", pid, "join")
+        self._say(f"{clean} se ha unido" + (f" con {player.points} puntos" if player.points else ""), pid, "join")
+        self._announce_host()
         return player
+
+    def _late_points(self, exclude: Iterable[str] = ()) -> int:
+        """Points for someone joining a running match, as the host chose."""
+        s = self.settings
+        if s.late_join == "fixed":
+            return s.late_points
+        if s.late_join == "average":
+            others = [p.points for p in self.players.values() if p.id not in set(exclude)]
+            return round(sum(others) / len(others)) if others else 0
+        return 0
 
     def set_photo(self, pid: str, version: int) -> None:
         """Point the avatar to the uploaded photo (stored by the server)."""
@@ -296,8 +364,17 @@ class Game:
             if secrets.compare_digest(player.token, token):
                 if not player.connected:
                     player.connected = True
+                    self._back(player.id)
                     self._say(f"{player.name} ha vuelto", player.id, "join")
+                    self._announce_host()
                 return player
+        return None
+
+    def away_reason(self, token: str) -> str | None:
+        """Why the phone owning ``token`` is out of the match ("left"/"kicked"), if it is."""
+        for away in self.away.values():
+            if secrets.compare_digest(away.player.token, token):
+                return away.reason
         return None
 
     def disconnect(self, pid: str, now: float) -> None:
@@ -306,15 +383,30 @@ class Game:
         if player is None or not player.connected:
             return
         player.connected = False
+        if self.phase not in (LOBBY, FINISHED):
+            self.afk_since[pid] = (now, "dropped")
         self._say(f"{player.name} se ha desconectado", pid, "leave")
         if self.phase == CHOOSING and self.chooser_id == pid:
             self.deadline = min(self.deadline or now, now + 2)
+        self._announce_host()
 
     def remove(self, pid: str, by: str | None, now: float) -> None:
-        """Kick (by the host) or leave voluntarily (``by == pid``)."""
+        """Kick (by the host) or leave voluntarily (``by == pid``).
+
+        During a match the player is not forgotten: their seat and state are kept in
+        ``self.away`` so they can come back (see :meth:`reclaim` and :meth:`readmit`).
+        """
         if by != pid:
             self._require_host(by or "")
         player = self._player(pid)
+        in_match = self.phase not in (LOBBY, FINISHED)
+        if in_match:
+            self.away[pid] = Away(player, "left" if by == pid else "kicked", self.order.index(pid))
+        if self.host_override == pid:
+            self.host_override = None
+        for table in (self.seen, self.afk_since):
+            table.pop(pid, None)
+        self.afk_ignored.discard(pid)
         del self.players[pid]
         self.order.remove(pid)
         self.chosen_this_round.discard(pid)
@@ -327,10 +419,65 @@ class Game:
         self.winners = [w for w in self.winners if w != pid]
         if self.last_chooser == pid:
             self.last_chooser = None
-        self._say(f"{player.name} ha salido de la partida", None, "leave")
+        self._say(f"{player.name} " + ("ha salido de la partida" if by == pid else "ha sido sacado de la partida"),
+                  None, "leave")
         if self.phase == CHOOSING and self.chooser_id == pid:
             self.chooser_id = None
             self.deadline = now + 1.5
+        self._announce_host()
+
+    def _restore_away(self, pid: str, connected: bool) -> Player:
+        """Put a player who was away back in their old place, fixing name/colour clashes."""
+        away = self.away.pop(pid)
+        player = away.player
+        while any(name_key(o.name) == name_key(player.name) for o in self.players.values()):
+            player.name += "*"
+        if player.color in self.taken_colors(None):
+            player.color = next((c for c in PALETTE_COLORS if c not in self.taken_colors(None)), player.color)
+        player.connected = connected
+        self.players[pid] = player
+        self.order.insert(min(away.slot, len(self.order)), pid)
+        return player
+
+    def reclaim(self, pid: str) -> Player:
+        """Someone who left comes back (recognised by their phone) and gets their state back."""
+        away = self.away.get(pid)
+        if away is None or away.reason != "left":
+            raise GameError("Esa plaza ya no está disponible")
+        player = self._restore_away(pid, True)
+        self._say(f"{player.name} ha vuelto a la partida", pid, "join")
+        self._announce_host()
+        return player
+
+    def readmit(self, by: str, pid: str) -> None:
+        """The host brings back someone who left or was removed (their phone reconnects by itself)."""
+        self._require_host(by)
+        if pid not in self.away:
+            raise GameError("Esa persona ya no está en la lista de ausentes")
+        player = self._restore_away(pid, False)
+        self._say(f"{player.name} vuelve a la partida", pid, "join")
+        self._touch()
+
+    def forget_away(self, by: str, pid: str) -> None:
+        """The host frees the seat reserved for someone who left."""
+        self._require_host(by)
+        if self.away.pop(pid, None) is None:
+            raise GameError("Esa persona ya no está en la lista de ausentes")
+        self._touch()
+
+    def assign_away(self, by: str, new_pid: str, away_pid: str) -> None:
+        """The host says a player who just joined is really someone who left (new phone, new name)."""
+        self._require_host(by)
+        new = self._player(new_pid)
+        away = self.away.get(away_pid)
+        if away is None:
+            raise GameError("Esa persona ya no está en la lista de ausentes")
+        old = away.player
+        for attr in ("points", "position", "closed", "progress", "double_next", "correct_count", "asked_count"):
+            setattr(new, attr, getattr(old, attr))
+        del self.away[away_pid]
+        self._say(f"{new.name} retoma la partida de {old.name}", new_pid, "join")
+        self._touch()
 
     # ------------------------------------------------------------------ lobby
 
@@ -349,8 +496,17 @@ class Game:
             if isinstance(vol, bool) or not isinstance(vol, (int, float)):
                 raise GameError("Valor no válido para volume")
             s.volume = max(0, min(100, int(vol)))
+        if "lateJoin" in changes:
+            if changes["lateJoin"] not in LATE_JOIN_MODES:
+                raise GameError("Valor no válido para lateJoin")
+            s.late_join = changes["lateJoin"]
+        if "latePoints" in changes:
+            value = changes["latePoints"]
+            if isinstance(value, bool) or not isinstance(value, (int, float)):
+                raise GameError("Valor no válido para latePoints")
+            s.late_points = max(0, min(100_000, int(value)))
         if self.phase not in (LOBBY, FINISHED):
-            if set(changes) - {"music", "sfx", "volume"}:
+            if set(changes) - {"music", "sfx", "volume", "lateJoin", "latePoints"}:
                 raise GameError("Las opciones se cambian antes de empezar")
             self._touch()
             return
@@ -422,6 +578,7 @@ class Game:
         """Host ends the match (or leaves the podium) and returns to the lobby."""
         self._require_host(pid)
         self._reset_match()
+        self.checkpoint = "clear"
         self._say("De vuelta al lobby", None, "info")
 
     # ------------------------------------------------------------------ save / resume
@@ -460,14 +617,25 @@ class Game:
             if chooser:
                 self.chosen_this_round.discard(chooser)
             duels += cur.duels
+        snapshot = self.snapshot(now, chooser, duels)
+        self.saved = snapshot
+        self._reset_match()
+        self._say("Partida guardada. Se puede continuar desde el menú", None, "info")
+        self.checkpoint = "clear"  # the manual save replaces the autosave
+        return snapshot
+
+    def snapshot(self, now: float, chooser: str | None, duels: list[Any] | None = None) -> dict[str, Any]:
+        """The match as plain data (what is written to disk), taken at a question boundary."""
         s = self.settings
-        snapshot = {
+        duels = list(self.pending_duels) if duels is None else duels
+        return {
             "version": 1,
             "savedAt": now,
             "settings": {
                 "mode": s.mode, "targetPoints": s.target_points, "rounds": s.rounds,
                 "categoriesToClose": s.categories_to_close, "hitsToClose": s.hits_to_close,
                 "categoriesPerTurn": s.categories_per_turn, "disabled": sorted(s.disabled),
+                "lateJoin": s.late_join, "latePoints": s.late_points,
             },
             "board": list(self.board.spaces),
             "used": sorted(self.used),
@@ -486,12 +654,19 @@ class Game:
                     "correct": p.correct_count, "asked": p.asked_count,
                 }
                 for p in (self.players[i] for i in self.order)
+            ]
+            + [
+                {
+                    "id": a.player.id, "token": a.player.token, "name": a.player.name, "color": a.player.color,
+                    "avatar": a.player.avatar, "photoVersion": a.player.photo_version,
+                    "points": a.player.points, "position": a.player.position,
+                    "closed": list(a.player.closed), "progress": dict(a.player.progress),
+                    "doubleNext": a.player.double_next, "correct": a.player.correct_count,
+                    "asked": a.player.asked_count, "away": a.reason, "slot": a.slot,
+                }
+                for a in self.away.values()
             ],
         }
-        self.saved = snapshot
-        self._reset_match()
-        self._say("Partida guardada. Se puede continuar desde el menú", None, "info")
-        return snapshot
 
     def saved_summary(self) -> dict[str, Any] | None:
         """What the menu shows about the stored match."""
@@ -499,7 +674,8 @@ class Game:
         if not data:
             return None
         return {
-            "players": [p["name"] for p in data["players"]],
+            "players": [p["name"] for p in data["players"] if not p.get("away")],
+            "auto": bool(data.get("auto")),
             "round": data["roundNo"],
             "questions": data["questionNo"],
             "mode": data["settings"]["mode"],
@@ -518,6 +694,9 @@ class Game:
                 continue
             player = Player(saved["id"], saved["token"], saved["name"], saved["color"], saved["avatar"], connected=False)
             player.photo_version = saved.get("photoVersion", 0)
+            if saved.get("away"):  # kept apart: a kicked phone still has to be recognised
+                self.away[player.id] = Away(player, saved["away"], saved.get("slot", 0))
+                continue
             self.players[player.id] = player
             self.order.append(player.id)
         self._touch()
@@ -554,6 +733,7 @@ class Game:
         s.categories_to_close, s.hits_to_close = cfg["categoriesToClose"], cfg["hitsToClose"]
         s.categories_per_turn = cfg["categoriesPerTurn"]
         s.disabled = {c for c in cfg["disabled"] if c in self.library.categories}
+        s.late_join, s.late_points = cfg.get("lateJoin", s.late_join), cfg.get("latePoints", s.late_points)
         self._reset_match()
         self.board = Board(list(data["board"]))
         self.used = set(data["used"])
@@ -563,6 +743,19 @@ class Game:
         self.pending_duels = [(a, b) for a, b in data["pendingDuels"]]
         for saved in data["players"]:
             player = self.players.get(saved["id"])
+            if saved.get("away"):  # they were out of the match when it was saved
+                if player is not None:  # a ghost created at load time or a present phone
+                    del self.players[saved["id"]]
+                    if saved["id"] in self.order:
+                        self.order.remove(saved["id"])
+                ghost = Player(saved["id"], saved["token"], saved["name"], saved["color"], saved["avatar"], connected=False)
+                ghost.photo_version = saved.get("photoVersion", 0)
+                for attr, key in (("points", "points"), ("position", "position"), ("correct_count", "correct"),
+                                  ("asked_count", "asked"), ("double_next", "doubleNext")):
+                    setattr(ghost, attr, saved[key])
+                ghost.closed, ghost.progress = list(saved["closed"]), dict(saved["progress"])
+                self.away[ghost.id] = Away(ghost, saved["away"], saved.get("slot", 0))
+                continue
             if player is None:
                 if len(self.players) >= self.max_players:
                     continue
@@ -584,6 +777,11 @@ class Game:
         ]
         self.chosen_this_round &= set(self.players)
         self.pending_duels = [(a, b) for a, b in self.pending_duels if a in self.players and b in self.players]
+        saved_ids = {p["id"] for p in data["players"]}
+        newcomers = [pid for pid in self.players if pid not in saved_ids]
+        late = self._late_points(exclude=newcomers)  # people who joined since: the host's late-join rule
+        for pid in newcomers:
+            self.players[pid].points = late
         self.saved = None
         self._say("Se reanuda la partida guardada", None, "start")
         chooser = data["chooser"]
@@ -623,6 +821,7 @@ class Game:
             self._finish(self._ranking_ids()[:1], now)
             return
         self.phase = CHOOSING
+        self.checkpoint = "save"  # a clean boundary: the server autosaves here
         self.chooser_id = chooser
         self.current = None
         self.moves = []
@@ -632,6 +831,8 @@ class Game:
 
     def choose(self, pid: str, category_id: str, now: float) -> None:
         """The current chooser picks a category (or RANDOM_CATEGORY)."""
+        if self.paused:
+            raise GameError("La partida está en pausa")
         if self.phase != CHOOSING:
             raise GameError("Ahora no toca elegir categoría")
         if pid != self.chooser_id:
@@ -704,6 +905,8 @@ class Game:
     def submit_answer(self, pid: str, raw: Any, now: float) -> None:
         """Store a player's answer (one per question, cannot be changed)."""
         cur = self.current
+        if self.paused:
+            raise GameError("La partida está en pausa")
         if self.phase != ANSWERING or cur is None:
             raise GameError("Ahora no se puede responder")
         if pid not in cur.participants:
@@ -953,6 +1156,9 @@ class Game:
             return (len(player.closed), player.points)
         return (player.points,)
 
+    def ranking_ids(self) -> list[str]:
+        return self._ranking_ids()
+
     def _ranking_ids(self) -> list[str]:
         return sorted(self.order, key=lambda pid: self._rank_key(self.players[pid]), reverse=True)
 
@@ -1015,6 +1221,7 @@ class Game:
 
     def _finish(self, winners: list[str], now: float) -> None:
         self.phase = FINISHED
+        self.checkpoint = "clear"  # nothing left to recover
         self.winners = list(winners)
         self.deadline = None
         names = " y ".join(self.players[w].name for w in winners if w in self.players)
@@ -1026,7 +1233,9 @@ class Game:
         """Advance timers. Call often (the server does it 5 times a second)."""
         last = self._last_tick if self._last_tick is not None else now
         self._last_tick = now
-        if self.phase in PLAYING_PHASES and not self._connected():
+        if self.phase in PLAYING_PHASES and not self.paused:
+            self._check_afk(now)
+        if self.phase in PLAYING_PHASES and (self.paused or not self._connected()):
             # nobody is connected: freeze the clock instead of playing alone
             delta = now - last
             if self.deadline is not None:
@@ -1071,9 +1280,79 @@ class Game:
     def skip_wait(self, pid: str, now: float) -> None:
         """Host shortens the reveal / board / tie-break intro pause."""
         self._require_host(pid)
-        if self.phase in (REVEAL, BOARD, TIEBREAK):
+        if self.phase in (REVEAL, BOARD, TIEBREAK) and not self.paused:
             self.deadline = now
             self.tick(now)
+
+    def pause(self, pid: str, now: float) -> None:
+        """Any player freezes the match (a phone died, someone has to leave for a minute...)."""
+        self._player(pid)
+        if self.phase in (LOBBY, FINISHED):
+            raise GameError("No hay partida en curso")
+        if self.paused:
+            return
+        self._freeze(pid, "manual", now)
+        self._say(f"⏸ {self.players[pid].name} ha pausado la partida", pid, "pause")
+
+    def _freeze(self, by: str | None, reason: str, now: float) -> None:
+        self.paused, self.paused_by, self.paused_reason, self.pause_started = True, by, reason, now
+        self._last_tick = now
+
+    def unpause(self, pid: str, now: float) -> None:
+        """Resume a paused match; the clocks continue where they stopped.
+
+        An automatic pause (someone went away) is only lifted by the host; a manual one by the
+        host or by whoever paused it.
+
+        Raises:
+            GameError: Not allowed to resume this pause.
+        """
+        player = self._player(pid)
+        if not self.paused:
+            return
+        if pid != self.host_id and (self.paused_reason == "afk" or pid != self.paused_by):
+            raise GameError("Solo el anfitrión puede reanudar la partida")
+        self.tick(now)  # the last bit of the freeze
+        self.paused, self.paused_by, self.paused_reason, self.pause_started = False, None, None, None
+        self._last_tick = now
+        self.afk_ignored |= set(self.afk_since)  # the host chose to go on without them
+        self._say(f"▶ {player.name} reanuda la partida", pid, "pause")
+
+    # ------------------------------------------------------------------ presence
+
+    def presence(self, pid: str, now: float, visible: bool | None = None) -> None:
+        """A phone's heartbeat; ``visible`` is False while its page is hidden (locked, minimised)."""
+        if pid not in self.players:
+            return
+        self.seen[pid] = now
+        entry = self.afk_since.get(pid)
+        if visible is False:
+            if entry is None or entry[1] != "hidden":
+                self.afk_since[pid] = (now, "hidden")
+                self._touch()
+        elif entry is not None and (visible is True or entry[1] == "silent"):
+            if entry[1] != "hidden" or visible is True:
+                self._back(pid)
+
+    def _back(self, pid: str) -> None:
+        if self.afk_since.pop(pid, None) is not None:
+            self._touch()
+        self.afk_ignored.discard(pid)
+
+    def _check_afk(self, now: float) -> None:
+        """Pause by itself when a connected phone has been away for too long."""
+        for pid, last in self.seen.items():
+            if pid in self.players and self.players[pid].connected and pid not in self.afk_since \
+                    and now - last > HEARTBEAT_TIMEOUT:
+                self.afk_since[pid] = (last + HEARTBEAT_TIMEOUT, "silent")  # frozen phone, dead wifi...
+        due = [
+            pid for pid, (since, _) in self.afk_since.items()
+            if pid in self.players and pid not in self.afk_ignored and now - since >= AFK_GRACE
+        ]
+        if due:
+            names = ", ".join(self.players[pid].name for pid in due)
+            self._freeze(None, "afk", now)
+            self._say(f"⏸ Pausa automática: {names} no responde. El anfitrión puede reanudar", None, "pause")
 
     # ------------------------------------------------------------------ views
 
@@ -1159,6 +1438,16 @@ class Game:
             "maxPlayers": self.max_players,
             "chooseTime": self.timing.choose,
             "saved": self.saved_summary() if self.phase in (LOBBY, FINISHED) else None,
+            "paused": self.paused,
+            "pausedBy": self.paused_by,
+            "pausedReason": self.paused_reason,
+            "afk": sorted(p for p in self.afk_since if p in self.players),
+            "pausedAt": self.pause_started,
+            "away": [
+                {"id": a.player.id, "name": a.player.name, "color": a.player.color, "avatar": a.player.avatar,
+                 "points": a.player.points, "reason": a.reason}
+                for a in self.away.values()
+            ],
         }
 
     def tv_view(self) -> dict[str, Any]:

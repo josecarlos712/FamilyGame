@@ -83,8 +83,12 @@ export function syncClock(serverNow) {
 export function serverNow() {
   return Date.now() / 1000 + offset;
 }
+let frozenAt = null; // while the match is paused, clocks stand still at this server time
+export function freezeClock(at) {
+  frozenAt = at ?? null;
+}
 export function secondsLeft(deadline) {
-  return deadline ? Math.max(0, deadline - serverNow()) : 0;
+  return deadline ? Math.max(0, deadline - (frozenAt ?? serverNow())) : 0;
 }
 
 // ----- dynamic question types --------------------------------------------------------

@@ -391,3 +391,153 @@ def test_cannot_save_without_a_match(registry: TypeRegistry, clock: Clock) -> No
     game.start(a, clock())
     with pytest.raises(GameError):
         game.save_and_exit(b, clock())  # only the host
+
+
+# ----- leaving, coming back, pause, late join --------------------------------------
+
+def started(registry: TypeRegistry, clock: Clock, players: int = 3):
+    game, ids = new_game(registry, players=players)
+    plain(game)
+    game.start(ids[0], clock())
+    return game, ids
+
+
+def test_leaving_keeps_the_state_out_of_the_ranking(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = started(registry, clock)
+    game.players[b].points, game.players[b].position = 300, 5
+    game.remove(b, b, clock())
+    assert b not in game.players and b not in game.ranking_ids()
+    assert game.away[b].reason == "left"
+    assert [x["id"] for x in game.tv_view()["away"]] == [b]
+    back = game.reclaim(b)
+    assert (back.points, back.position) == (300, 5) and b in game.ranking_ids()
+    assert not game.away
+
+
+def test_kicked_players_are_not_recognised_but_the_host_can_readmit(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = started(registry, clock)
+    game.players[b].points = 120
+    game.remove(b, a, clock())  # the host kicks b
+    assert game.away[b].reason == "kicked"
+    with pytest.raises(GameError):
+        game.reclaim(b)
+    with pytest.raises(GameError):
+        game.readmit(c, b)  # only the host
+    game.readmit(a, b)
+    assert game.players[b].points == 120 and not game.players[b].connected  # its phone reconnects by token
+
+
+def test_reserved_seats_count_and_the_host_can_free_them(registry: TypeRegistry, clock: Clock) -> None:
+    game, ids = started(registry, clock, players=6)
+    game.remove(ids[5], ids[5], clock())
+    with pytest.raises(GameError, match="reservadas"):
+        game.join("Otro", "#e599f7", ICON, clock())
+    game.forget_away(ids[0], ids[5])
+    game.join("Otro", "#e599f7", ICON, clock())
+
+
+def test_late_join_points_follow_the_host_rule(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = started(registry, clock, players=2)
+    game.players[a].points, game.players[b].points = 100, 300
+    assert game.join("Cero", C[4], ICON, clock()).points == 0
+    game.set_settings(a, {"lateJoin": "average"})
+    assert game.join("Media", C[5], ICON, clock()).points == round((100 + 300 + 0) / 3)
+    game.set_settings(a, {"lateJoin": "fixed", "latePoints": 250})
+    game.remove(game.order[-1], game.order[-1], clock())
+    assert game.join("Fijo", C[6], ICON, clock()).points == 250
+    with pytest.raises(GameError):
+        game.set_settings(a, {"lateJoin": "otra"})
+
+
+def test_pause_freezes_the_clock_for_everyone(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = started(registry, clock, players=2)
+    game.choose(game.chooser_id, game.offered[0], clock())
+    game.tick(clock())
+    assert game.phase == E.ANSWERING
+    deadline = game.current.deadline
+    game.pause(b, clock())  # not the host: anyone can
+    assert game.paused and game.paused_by == b
+    paused_at = clock()
+    game.tick(clock(50))  # far beyond the deadline
+    assert game.phase == E.ANSWERING
+    with pytest.raises(GameError, match="pausa"):
+        game.submit_answer(a, 0, clock())
+    resumed_at = clock()
+    game.unpause(a, resumed_at)
+    assert not game.paused and game.current.deadline == pytest.approx(deadline + (resumed_at - paused_at))
+    game.submit_answer(a, 0, clock(1))
+
+
+def test_host_change_is_announced(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = started(registry, clock)
+    game.disconnect(a, clock())
+    assert game.host_id == b
+    assert any("anfitrión" in e["text"] and e["kind"] == "host" for e in game.log)
+    game.set_host(b, c)
+    assert game.host_id == c
+
+
+def test_autosave_checkpoint_and_away_survive_a_roundtrip(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = started(registry, clock)
+    assert game.checkpoint == "save"
+    game.remove(c, c, clock())
+    snap = json.loads(json.dumps(game.snapshot(clock(), game.chooser_id)))
+    other, (x, y) = new_game(registry, players=2)
+    other.load_saved(snap)
+    assert c in other.away and other.away_reason(snap["players"][-1]["token"]) == "left"
+    other.resume(other.host_id or x, clock())
+    assert c in other.away and c not in other.players
+    other.reclaim(c)
+    assert c in other.players
+
+
+def test_afk_phone_pauses_the_match_and_only_the_host_resumes(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = started(registry, clock)  # a is the host
+    game.choose(game.chooser_id, game.offered[0], clock())
+    game.tick(clock())
+    game.presence(c, clock(), True)  # c sends heartbeats from now on
+    game.presence(c, clock(1), False)  # ...and locks the phone
+    game.tick(clock(2))
+    assert not game.paused  # grace period
+    game.tick(clock(3))
+    assert game.paused and game.paused_reason == "afk" and c in game.tv_view()["afk"]
+    with pytest.raises(GameError):
+        game.unpause(b, clock())  # not the host
+    game.unpause(a, clock())
+    assert not game.paused
+    game.tick(clock(30))
+    assert not game.paused  # the host chose to go on without c
+
+
+def test_returning_phone_and_dropped_connection(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = started(registry, clock)
+    game.presence(b, clock(), False)
+    game.presence(b, clock(1), True)  # back before the grace period ends
+    game.tick(clock(10))
+    assert not game.paused
+    game.disconnect(c, clock())  # closed the tab
+    game.tick(clock(5))
+    assert game.paused and game.paused_reason == "afk"
+    token = game.players[c].token
+    game.reconnect(token)
+    assert c not in game.tv_view()["afk"] and game.paused  # still paused until the host resumes
+    game.unpause(a, clock())
+    assert not game.paused
+
+
+def test_silent_heartbeat_counts_as_away_but_phones_without_one_do_not(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b) = started(registry, clock, players=2)
+    game.tick(clock(60))  # nobody ever sent a ping: bots and old clients are never flagged
+    assert not game.paused
+    game.presence(b, clock(), None)
+    game.tick(clock(E.HEARTBEAT_TIMEOUT + E.AFK_GRACE + 1))
+    assert game.paused and game.paused_reason == "afk"
+
+
+def test_manual_pause_can_be_resumed_by_who_paused_it(registry: TypeRegistry, clock: Clock) -> None:
+    game, (a, b, c) = started(registry, clock)
+    game.pause(b, clock())
+    with pytest.raises(GameError):
+        game.unpause(c, clock())
+    game.unpause(b, clock())
+    assert not game.paused

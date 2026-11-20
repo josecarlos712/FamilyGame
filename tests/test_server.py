@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import base64
+import contextlib
 from pathlib import Path
 
 import pytest
@@ -144,3 +145,77 @@ def test_saved_match_survives_a_restart(root: Path, tmp_path: Path) -> None:
         assert state["phase"] == "choosing" and state["saved"] is None
         assert c2.get(state["me"]["avatar"]["url"]).content.startswith(b"\xff\xd8")  # photo restored
     assert not (tmp_path / "partida_guardada.json").exists()
+
+
+def _join(c: TestClient, stack, name: str, color: str):
+    phone = stack.enter_context(c.websocket_connect("/ws/phone"))
+    phone.send_json({"t": "hello", "token": None})
+    welcome = recv_until(phone, "welcome")
+    phone.send_json({"t": "join", "name": name, "color": color, "avatar": {"kind": "icon", "value": "gato"}})
+    joined = recv_until(phone, "joined")
+    return phone, welcome, joined
+
+
+def _state(phone, until=lambda s: True) -> dict:
+    for _ in range(40):
+        state = recv_until(phone, "state")["state"]
+        if until(state):
+            return state
+    raise AssertionError("state not reached")
+
+
+def test_leave_come_back_by_address_kick_pause_and_autosave(root: Path, tmp_path: Path) -> None:
+    paths = Paths.from_root(root)
+    paths.data = tmp_path
+    app = create_app(AppConfig(), paths, check_internet=False)
+    with TestClient(app) as c, contextlib.ExitStack() as stack:
+        ana, _, ana_j = _join(c, stack, "Ana", "#ff6b6b")
+        luis, _, luis_j = _join(c, stack, "Luis", "#4dabf7")
+        ana.send_json({"t": "settings", "changes": {"disabled": ["mapas"]}})
+        ana.send_json({"t": "start"})
+        _state(ana, lambda s: s["phase"] == "choosing")
+        assert (tmp_path / "autoguardado.json").is_file()  # autosave at the question boundary
+
+        luis.send_json({"t": "leave"})  # Luis leaves mid-match
+        state = _state(ana, lambda s: s["away"])
+        assert [p["name"] for p in state["players"]] == ["Ana"] and state["away"][0]["reason"] == "left"
+        luis.close()
+
+        again = stack.enter_context(c.websocket_connect("/ws/phone"))  # same address, new phone session, no token
+        again.send_json({"t": "hello", "token": None})
+        welcome = recv_until(again, "welcome")
+        assert [x["name"] for x in welcome["claimable"]] == ["Luis"]  # recognised by address
+        again.send_json({"t": "claim", "player": welcome["claimable"][0]["id"]})
+        assert recv_until(again, "joined")["id"] == luis_j["id"]
+        assert not _state(ana, lambda s: not s["away"])["away"]
+
+        ana.send_json({"t": "pause"})  # anyone pauses; only the host resumes an automatic pause
+        assert _state(ana, lambda s: s["paused"])["pausedReason"] == "manual"
+        again.send_json({"t": "unpause"})
+        assert "anfitrión" in recv_until(again, "error")["msg"]
+        ana.send_json({"t": "unpause"})
+        assert not _state(ana, lambda s: not s["paused"])["paused"]
+
+        ana.send_json({"t": "kick", "player": luis_j["id"]})  # the host kicks Luis: no automatic recognition
+        _state(ana, lambda s: s["away"] and s["away"][0]["reason"] == "kicked")
+        fresh = stack.enter_context(c.websocket_connect("/ws/phone"))
+        fresh.send_json({"t": "hello", "token": None})
+        assert recv_until(fresh, "welcome")["claimable"] == []
+        stale = stack.enter_context(c.websocket_connect("/ws/phone"))
+        stale.send_json({"t": "hello", "token": luis_j["token"]})
+        assert recv_until(stale, "welcome")["kicked"] is True  # his phone is told, and keeps the token
+        ana.send_json({"t": "readmit", "player": luis_j["id"]})
+        stale.send_json({"t": "hello", "token": luis_j["token"]})
+        assert recv_until(stale, "welcome")["id"] == luis_j["id"]  # the host brought him back
+
+
+def test_same_player_in_two_tabs_gets_a_notice(client: TestClient) -> None:
+    with client.websocket_connect("/ws/phone") as first:
+        first.send_json({"t": "hello", "token": None})
+        recv_until(first, "welcome")
+        first.send_json({"t": "join", "name": "Ana", "color": "#ff6b6b", "avatar": {"kind": "icon", "value": "gato"}})
+        token = recv_until(first, "joined")["token"]
+        with client.websocket_connect("/ws/phone") as second:
+            second.send_json({"t": "hello", "token": token})
+            assert recv_until(second, "welcome")["id"] is not None
+            recv_until(first, "replaced")  # the older tab is told to step aside

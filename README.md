@@ -96,7 +96,36 @@ El anfitrión tiene en su móvil, durante la partida, el botón **«💾 Guardar
   haya unido después entra con 0 puntos. Solo hay una partida guardada (guardar otra la sustituye).
 - No se puede guardar durante un desempate.
 
-Se puede entrar a mitad de partida (con 0 puntos) mientras haya sitio (máximo 6).
+**Autoguardado:** al acabar cada pregunta se guarda solo en `data/autoguardado.json`. Si se va la
+luz o se cierra el programa, al volver a abrirlo el lobby ofrece continuar esa partida. Se borra
+cuando la partida termina o se vuelve al lobby sin más.
+
+## Salir, echar, volver y pausa
+
+El botón **👥** de la cabecera del móvil abre la pantalla **Jugadores**, en cualquier momento.
+
+- **Salir:** cualquiera puede salir de la partida. Su plaza queda reservada con sus puntos, casilla
+  y categorías cerradas, pero **desaparece de la clasificación** mientras esté fuera.
+- **Volver:** si vuelve a abrir el juego desde el mismo móvil (misma IP de la red local), aunque
+  escriba otro nombre, el juego le pregunta «¿Ya estabas jugando? Soy …» y recupera su estado.
+  Las IP solo se guardan en memoria, no en disco.
+- **Echar:** el anfitrión puede echar a alguien (móvil estropeado, por ejemplo). A quien se echa
+  **no** se le reconoce solo; su móvil le ofrece «Reintentar» o entrar como nuevo, y el anfitrión
+  puede **readmitirlo** (recupera su estado) o **liberar** su plaza. Si ya ha entrado con otro
+  móvil, el anfitrión puede decir «es él» y se le asigna el estado.
+- **Plazas:** las reservadas cuentan para el máximo de 6 hasta que el anfitrión las libera.
+- **Mando:** si el anfitrión se va o se desconecta, pasa al siguiente y la tele lo anuncia.
+  El anfitrión también puede dar el mando a otra persona.
+- **Dos pestañas:** si alguien abre el juego en otra pestaña, la anterior avisa y deja de funcionar;
+  «Usar esta pestaña» la recupera.
+- **Pausa:** cualquiera puede pausar con ⏸ (los relojes se congelan en la tele y los móviles).
+  La reanuda el anfitrión, o quien la pausó.
+- **Pausa automática por ausencia:** el móvil avisa cuando su pestaña se oculta (bloqueo de pantalla,
+  minimizar, cambiar de app), manda un latido cada 4 s y el servidor nota si se cierra la conexión
+  o el latido se corta 15 s. Con 4 s de margen, la partida se pausa sola y **solo el anfitrión**
+  reanuda. Al reanudar se sigue sin quien siga ausente (no vuelve a pausar por él).
+- **Quien entra con la partida empezada:** el anfitrión elige si empieza con 0 puntos, con la media
+  o con unos puntos fijos (en la pantalla Jugadores).
 
 ## Sonido
 

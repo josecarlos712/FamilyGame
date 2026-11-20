@@ -145,39 +145,75 @@ class GameServer:
         self._sent_version = -1
         self.join_url = f"http://{lan_ip()}:{config.port}/"
         self.save_file = paths.data / "partida_guardada.json"
+        self.autosave_file = paths.data / "autoguardado.json"
+        self._saved_path: Path | None = None  # file the match shown in the menu came from
+        self.last_ip: dict[str, str] = {}  # player id -> address of their phone (kept in memory only)
         self._load_saved_match()
 
     # ------------------------------------------------------------- saved match
 
     def _load_saved_match(self) -> None:
-        """Pick up a match saved in an earlier run (ignored if the file is broken)."""
-        if not self.save_file.is_file():
+        """Pick up a match stored in an earlier run: the newest of the manual save and the autosave."""
+        best: tuple[float, Path, dict[str, Any]] | None = None
+        for path in (self.save_file, self.autosave_file):
+            if not path.is_file():
+                continue
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+                if best is None or data["savedAt"] > best[0]:
+                    best = (data["savedAt"], path, data)
+            except (OSError, ValueError, KeyError, TypeError) as exc:
+                log.warning("%s no se puede leer (%s); lo ignoro", path.name, exc)
+        if best is None:
             return
+        _, path, data = best
         try:
-            data = json.loads(self.save_file.read_text(encoding="utf-8"))
             photos = data.pop("photos", {})
             self.game.load_saved(data)
+            self._saved_path = path
             for pid, (b64, mime) in photos.items():
                 self.photos[pid] = (base64.b64decode(b64), mime)
-        except (OSError, ValueError, KeyError, TypeError) as exc:
-            log.warning("partida_guardada.json no se puede leer (%s); la ignoro", exc)
+        except (ValueError, KeyError, TypeError) as exc:
+            log.warning("%s no es una partida válida (%s); la ignoro", path.name, exc)
             self.game.saved = None
 
-    def _write_saved_match(self, snapshot: dict[str, Any]) -> None:
-        """Store the match (with the players' photos) so it survives a restart."""
+    def _write_match(self, snapshot: dict[str, Any], path: Path) -> None:
+        """Store a match (with the players' photos) so it survives a restart."""
         photos = {
             p["id"]: [base64.b64encode(self.photos[p["id"]][0]).decode("ascii"), self.photos[p["id"]][1]]
             for p in snapshot["players"]
             if p["id"] in self.photos
         }
         self.paths.data.mkdir(parents=True, exist_ok=True)
-        tmp = self.save_file.with_suffix(".tmp")
+        tmp = path.with_suffix(".tmp")
         tmp.write_text(json.dumps({**snapshot, "photos": photos}, ensure_ascii=False), encoding="utf-8")
-        tmp.replace(self.save_file)
+        tmp.replace(path)
+
+    def _write_saved_match(self, snapshot: dict[str, Any]) -> None:
+        self._write_match(snapshot, self.save_file)
+        self._saved_path = self.save_file
 
     def _forget_saved_match(self) -> None:
-        with contextlib.suppress(OSError):
-            self.save_file.unlink()
+        """Delete the file the menu's saved match came from."""
+        if self._saved_path is not None:
+            with contextlib.suppress(OSError):
+                self._saved_path.unlink()
+            self._saved_path = None
+
+    def _process_checkpoint(self, now: float) -> None:
+        """Autosave at every question boundary; drop the autosave when the match is over."""
+        game = self.game
+        action, game.checkpoint = game.checkpoint, None
+        try:
+            if action == "save" and game.phase == "choosing":
+                snapshot = game.snapshot(now, game.chooser_id)
+                snapshot["auto"] = True
+                self._write_match(snapshot, self.autosave_file)
+            elif action == "clear":
+                with contextlib.suppress(OSError):
+                    self.autosave_file.unlink()
+        except OSError as exc:
+            log.warning("No se pudo escribir el autoguardado: %s", exc)
 
     # ----------------------------------------------------------------- info
 
@@ -247,6 +283,7 @@ class GameServer:
             async with self.lock:
                 try:
                     self.game.tick(time.time())
+                    self._process_checkpoint(time.time())
                     await self.broadcast()
                 except Exception:  # noqa: BLE001 - keep the game loop alive whatever happens
                     log.exception("Error en el bucle del juego")
@@ -259,7 +296,18 @@ class GameServer:
         for w in old:
             self.phones[w] = None
         self.phones[ws] = pid
+        self.last_ip[pid] = ws.client.host if ws.client else ""
         return old
+
+    def _claimable(self, ws: WebSocket) -> list[dict[str, Any]]:
+        """Players who left the match from this same address: the phone may take one back."""
+        ip = ws.client.host if ws.client else ""
+        return [
+            {"id": a.player.id, "name": a.player.name, "color": a.player.color,
+             "avatar": a.player.avatar, "points": a.player.points}
+            for a in self.game.away.values()
+            if a.reason == "left" and ip and self.last_ip.get(a.player.id) == ip
+        ]
 
     def _store_photo(self, pid: str, avatar: Any) -> None:
         if isinstance(avatar, dict) and avatar.get("kind") == "photo":
@@ -280,10 +328,23 @@ class GameServer:
             if player:
                 for old in self._bind(ws, player.id):
                     await self._send(old, {"t": "replaced"})
+            kicked = not player and isinstance(token, str) and game.away_reason(token) == "kicked"
             await self._send(ws, {
                 "t": "welcome", "id": player.id if player else None,
-                "token": player.token if player else None, **self.static_info(),
+                "token": player.token if player else None,
+                "claimable": [] if player or kicked else self._claimable(ws),
+                "kicked": kicked, **self.static_info(),
             })
+            return
+        if kind == "claim":  # a phone takes back the seat of someone who left from the same address
+            if pid:
+                raise GameError("Ya estás dentro")
+            target = str(msg.get("player"))
+            if target not in {c["id"] for c in self._claimable(ws)}:
+                raise GameError("No se puede recuperar esa plaza desde este móvil")
+            player = game.reclaim(target)
+            self._bind(ws, player.id)
+            await self._send(ws, {"t": "joined", "id": player.id, "token": player.token})
             return
         if kind == "join":
             if pid:
@@ -327,10 +388,30 @@ class GameServer:
             self._forget_saved_match()
         elif kind == "reload":
             self.reload_questions(pid)
+        elif kind == "ping":  # heartbeat; "visible" is False while the page is hidden
+            visible = msg.get("visible")
+            game.presence(pid, now, visible if isinstance(visible, bool) else None)
+        elif kind == "pause":
+            game.pause(pid, now)
+        elif kind == "unpause":
+            game.unpause(pid, now)
+        elif kind == "host":
+            game.set_host(pid, str(msg.get("player")))
+        elif kind == "readmit":
+            game.readmit(pid, str(msg.get("player")))
+        elif kind == "forget":
+            target = str(msg.get("player"))
+            game.forget_away(pid, target)
+            self.photos.pop(target, None)
+        elif kind == "assign":  # the host says a newcomer is really someone who left
+            target = str(msg.get("player"))
+            game.assign_away(pid, str(msg.get("new")), target)
+            self.photos.pop(target, None)
         elif kind in ("kick", "leave"):
             target = pid if kind == "leave" else str(msg.get("player"))
             game.remove(target, pid, now)
-            self.photos.pop(target, None)
+            if target not in game.away:  # their seat is reserved: keep the photo for when they return
+                self.photos.pop(target, None)
             for w, p in list(self.phones.items()):
                 if p == target:
                     self.phones[w] = None
@@ -357,6 +438,7 @@ class GameServer:
                     except (GameError, ValueError) as exc:
                         await self._send(ws, {"t": "error", "msg": str(exc)})
                     self.game.tick(time.time())
+                    self._process_checkpoint(time.time())
                     await self.broadcast(force=msg.get("t") == "hello" if isinstance(msg, dict) else False)
         except WebSocketDisconnect:
             pass

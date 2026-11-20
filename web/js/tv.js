@@ -1,7 +1,7 @@
 // Shared TV screen: lobby, board, questions, tie-break and podium.
 import { connect } from "./net.js";
 import {
-  h, fill, fmt, avatar, nameTag, secondsLeft, serverNow, loadType, snap, modeText,
+  h, fill, fmt, avatar, nameTag, secondsLeft, serverNow, freezeClock, loadType, snap, modeText,
   OPTION_COLORS, OPTION_LETTERS,
 } from "./ui.js";
 import { BoardView, CENTER, STAGE_W, STAGE_H } from "./board.js";
@@ -57,8 +57,28 @@ function render(s) {
     screen = make();
     fill(stage, screen.el);
   }
+  freezeClock(s.paused ? s.pausedAt : null);
   screen.update(s);
+  showPause(s);
   showToasts(s.log);
+}
+
+// ----- pause overlay ------------------------------------------------------------------------
+const pauseEl = h("div.pause-tv", { hidden: true });
+document.body.append(pauseEl);
+function showPause(s) {
+  pauseEl.hidden = !s.paused;
+  if (!s.paused) return;
+  const by = playerById(s.pausedBy);
+  const afk = s.afk.map(playerById).filter(Boolean);
+  fill(pauseEl, h("div.pause-tv-card",
+    h("p.pause-tv-icon", "⏸"),
+    h("h1", "Partida en pausa"),
+    s.pausedReason === "afk"
+      ? h("p", afk.length ? afk.map((p) => h("span.pause-name", { style: { "--c": p.color } }, avatar(p, 48), nameTag(p))) : "Alguien no responde",
+        h("small", "no responde: móvil bloqueado, pestaña oculta o sin conexión"))
+      : h("p", `${by ? by.name : "Alguien"} ha pausado la partida`),
+    h("small.pause-hint", "El anfitrión puede reanudar desde su móvil")));
 }
 
 // ----- sound ------------------------------------------------------------------------------

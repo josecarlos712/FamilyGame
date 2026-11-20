@@ -42,6 +42,8 @@ export function connect(path, { onMessage, onStatus }) {
       if (ws && ws.readyState === 1) ws.send(text);
       else queue.push(text);
     },
+    /** Send only if the socket is open (heartbeats must not pile up while offline). */
+    sendLive(obj) { if (ws && ws.readyState === 1) ws.send(JSON.stringify(obj)); },
     reopen() { if (ws) ws.close(); },
     close() { closedByUs = true; ws?.close(); },
   };

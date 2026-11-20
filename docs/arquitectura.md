@@ -122,3 +122,15 @@ la tele: `web/js/tv.js` compara el estado anterior con el nuevo y decide qué ef
 (`soundCues`). Los ajustes `music`, `sfx` y `volume` viven en `Settings` del motor, los cambia el
 anfitrión con el mensaje `settings` **en cualquier fase** (el resto de opciones solo en el lobby) y
 llegan a la tele en cada `state`.
+
+## Salidas, reconexión y pausa
+
+- `Game.away` guarda a quien sale durante una partida (`Away`: jugador, motivo `left`/`kicked`,
+  posición). `reclaim` (salió solo; lo reconoce el servidor por IP en `welcome.claimable` y el móvil
+  confirma con `claim`), `readmit`, `forget_away` y `assign_away` son acciones del anfitrión.
+- `Game.pause/unpause`: los relojes se congelan en `tick` y las vistas llevan `pausedAt` para que
+  tele y móviles paren también su cuenta atrás (`freezeClock` en `ui.js`).
+- Ausencia (`presence`, `_check_afk`): el móvil manda `ping` con `visible`; un cierre de conexión o un
+  latido silencioso de `HEARTBEAT_TIMEOUT` s también cuentan. Pasados `AFK_GRACE` s se pausa solo.
+- `Game.checkpoint` (`"save"`/`"clear"`) pide al servidor escribir o borrar `data/autoguardado.json`.
+- Mensajes nuevos del móvil: `ping`, `pause`, `unpause`, `host`, `readmit`, `forget`, `assign`, `claim`.

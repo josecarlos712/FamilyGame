@@ -1,7 +1,7 @@
 // Phone controller: profile, lobby (host settings), choosing, answering, results.
 import { connect } from "./net.js";
 import {
-  h, fill, fmt, avatar, nameTag, secondsLeft, loadType, snap, modeText,
+  h, fill, fmt, avatar, nameTag, secondsLeft, freezeClock, loadType, snap, modeText,
   OPTION_COLORS, OPTION_LETTERS,
 } from "./ui.js";
 
@@ -18,6 +18,8 @@ let state = null;
 let myId = null;
 let editing = false;
 let notice = "";
+let gate = null; // screens shown before the profile: claim a seat, kicked, opened in another tab
+let showPlayers = false; // the players panel is open
 let screen = null;
 let screenKey = "";
 
@@ -30,22 +32,36 @@ const net = connect("/ws/phone", {
     if (msg.t === "welcome") {
       info = msg;
       myId = msg.id;
-      if (!msg.id && store.get("token")) store.del("token");
+      if (msg.id) gate = null;
+      else if (msg.kicked) gate = { kind: "kicked" }; // keep the token: the host may readmit
+      else {
+        if (store.get("token")) store.del("token");
+        // someone who left from this same phone/address may take their seat back
+        gate = msg.claimable?.length ? { kind: "claim", list: msg.claimable } : null;
+      }
     } else if (msg.t === "joined") {
       myId = msg.id;
       store.set("token", msg.token);
       editing = false;
+      gate = null;
     } else if (msg.t === "state") {
       state = msg.state;
-      if (state.me) myId = state.me.id;
+      if (state.me) { myId = state.me.id; gate = null; }
       render();
     } else if (msg.t === "error") {
       toast(msg.msg);
-    } else if (["kicked", "left", "replaced"].includes(msg.t)) {
+    } else if (msg.t === "kicked") {
+      myId = null;
+      gate = { kind: "kicked" };
+      render(true);
+    } else if (msg.t === "replaced") { // the same player opened the game in another tab
+      myId = null;
+      gate = { kind: "replaced" };
+      render(true);
+    } else if (msg.t === "left") {
       store.del("token");
       myId = null;
-      notice = { kicked: "El anfitrión te ha sacado de la partida.", left: "Has salido de la partida.",
-        replaced: "Has abierto el juego en otra pestaña o móvil." }[msg.t];
+      notice = "Has salido de la partida. Si vuelves desde este móvil, podrás retomar tus puntos.";
       render(true);
     }
   },
@@ -78,6 +94,7 @@ function setTimer(fn) { timers.clear(); if (fn) timers.add(fn); }
 // ----- routing ---------------------------------------------------------------------------
 function keyFor() {
   if (!state) return "loading";
+  if (gate && (!state.me || ["replaced", "kicked"].includes(gate.kind))) return "gate:" + gate.kind;
   if (!state.me || editing) return "profile";
   const s = state;
   if (["reading", "answering", "reveal"].includes(s.phase) && s.question) return `q:${s.question.key}:${s.question.number}:${s.question.tiebreak}`;
@@ -90,7 +107,7 @@ function render(force = false) {
     screen?.destroy?.();
     screenKey = key;
     setTimer(null);
-    const make = key.startsWith("q:") ? questionScreen : {
+    const make = key.startsWith("q:") ? questionScreen : key.startsWith("gate:") ? gateScreen : {
       loading: () => ({ el: h("div.center-msg", "Conectando…"), update() {} }),
       profile: profileScreen, lobby: lobbyScreen, choosing: choosingScreen,
       board: boardScreen, tiebreak: tiebreakScreen, finished: finishedScreen,
@@ -100,6 +117,129 @@ function render(force = false) {
     window.scrollTo(0, 0);
   }
   screen.update?.(state);
+  freezeClock(state?.paused ? state.pausedAt : null);
+  if (state?.me) updateOverlay(state);
+  else { showPlayers = false; overlay.hidden = true; }
+}
+
+// ----- gates: claim a seat, kicked, opened in another tab ------------------------------------------
+function gateScreen() {
+  const g = gate;
+  const again = () => net.send({ t: "hello", token: store.get("token") });
+  const newPlayer = () => { gate = null; render(true); };
+  let body;
+  if (g.kind === "claim") {
+    body = [
+      h("h1.title", "¿Ya estabas jugando?"),
+      h("p.hint.center", "Hemos reconocido este móvil. Si eres uno de estos, recuperas tus puntos y tu sitio:"),
+      ...g.list.map((c) => h("button.btn.primary.block", { type: "button", onclick: () => net.send({ t: "claim", player: c.id }) },
+        avatar(c, 36), ` Soy ${c.name} · ${fmt(c.points)} pts`)),
+      h("button.btn.ghost.block", { type: "button", onclick: newPlayer }, "No, soy nuevo"),
+    ];
+  } else if (g.kind === "kicked") {
+    body = [
+      h("h1.title", "Te han sacado de la partida"),
+      h("p.hint.center", "Puede que haya sido por un problema técnico. Pide al anfitrión que te readmita y pulsa «Reintentar»: recuperarás tus puntos."),
+      h("button.btn.primary.block", { type: "button", onclick: again }, "Reintentar"),
+      h("button.btn.ghost.block", { type: "button", onclick: () => { store.del("token"); newPlayer(); } }, "Entrar como jugador nuevo"),
+    ];
+  } else {
+    body = [
+      h("h1.title", "Juego abierto en otra pestaña"),
+      h("p.hint.center", "Este jugador se ha abierto en otra pestaña o ventana de este móvil, y solo puede estar en una a la vez."),
+      h("button.btn.primary.block", { type: "button", onclick: () => { gate = null; again(); } }, "Usar esta pestaña"),
+    ];
+  }
+  return { el: h("div.screen.gate", body), update() {} };
+}
+
+// ----- presence: heartbeat + visibility so the match pauses if this phone goes away ------------------
+function sendPresence() {
+  if (myId) net.sendLive({ t: "ping", visible: !document.hidden });
+}
+setInterval(sendPresence, 4000);
+document.addEventListener("visibilitychange", sendPresence);
+
+// ----- pause overlay (everyone) and players panel -------------------------------------------------------
+const overlay = h("div.overlay", { hidden: true });
+document.body.append(overlay);
+
+function canResume(s) {
+  return s.me?.host || (s.pausedReason === "manual" && s.pausedBy === s.me?.id);
+}
+
+function updateOverlay(s) {
+  const panel = showPlayers && s.me ? playersPanel(s) : null;
+  const paused = !!(s.paused && s.me);
+  overlay.hidden = !(panel || paused);
+  if (panel) { fill(overlay, panel); return; }
+  if (!paused) { fill(overlay); return; }
+  const by = s.players.find((p) => p.id === s.pausedBy);
+  const afk = s.afk.map((id) => s.players.find((p) => p.id === id)?.name).filter(Boolean);
+  fill(overlay, h("div.pause-card",
+    h("p.pause-icon", "⏸"),
+    h("h1.title", "Partida en pausa"),
+    h("p.hint.center", s.pausedReason === "afk"
+      ? `${afk.length ? afk.join(", ") : "Alguien"} no responde (móvil bloqueado, pestaña oculta o sin conexión).`
+      : `${by ? by.name : "Alguien"} ha pausado la partida.`),
+    canResume(s)
+      ? h("button.btn.primary.block", { type: "button", onclick: () => net.send({ t: "unpause" }) }, "▶ Reanudar")
+      : h("p.waiting", s.pausedReason === "afk" ? "Esperando al anfitrión…" : "Esperando a quien la pausó o al anfitrión…"),
+    h("button.btn.ghost.block", { type: "button", onclick: () => { showPlayers = true; updateOverlay(state); } }, "👥 Jugadores")));
+}
+
+function playersPanel(s) {
+  const me = s.me;
+  const inMatch = !["lobby", "finished"].includes(s.phase);
+  const send = (t, extra = {}) => net.send({ t, ...extra });
+  const rows = s.players.map((p) => h("div.prow", avatar(p, 40), nameTag(p),
+    p.host ? h("span.tag", "👑") : null,
+    !p.connected ? h("span.tag.off", "desconectado") : null,
+    s.afk.includes(p.id) && p.connected ? h("span.tag.off", "ausente") : null,
+    inMatch ? h("small.muted", `${fmt(p.points)} pts`) : null,
+    me.host && p.id !== me.id ? h("span.prow-actions",
+      p.connected ? h("button.btn.ghost.mini", { type: "button", title: "Dar el mando", onclick: () => {
+        if (confirm(`¿Dar el mando de anfitrión a ${p.name}?`)) send("host", { player: p.id });
+      } }, "Mando") : null,
+      h("button.btn.danger.mini", { type: "button", onclick: () => {
+        if (confirm(`¿Sacar a ${p.name} de la partida? Podrás readmitirlo después.`)) send("kick", { player: p.id });
+      } }, "Echar")) : null));
+  const awayRow = (a) => {
+    const sel = h("select", s.players.filter((p) => p.id !== me.id).map((p) => h("option", { value: p.id }, p.name)));
+    return h("div.away-row",
+      h("div.prow", avatar(a, 40), h("span", a.name),
+        h("small.muted", `${fmt(a.points)} pts · ${a.reason === "kicked" ? "echado" : "salió"}`),
+        h("span.prow-actions",
+          h("button.btn.ghost.mini", { type: "button", onclick: () => send("readmit", { player: a.id }) }, "Readmitir"),
+          h("button.btn.danger.mini", { type: "button", onclick: () => {
+            if (confirm(`¿Liberar la plaza de ${a.name}? Pierde sus puntos.`)) send("forget", { player: a.id });
+          } }, "Liberar"))),
+      inMatch && s.players.length > 1 ? h("div.assign",
+        h("small.muted", "¿Es alguien que acaba de entrar con otro móvil?"),
+        h("span", sel, h("button.btn.ghost.mini", { type: "button", onclick: () => send("assign", { new: sel.value, player: a.id }) }, "Es él"))) : null);
+  };
+  const away = s.away?.length && me.host ? h("div.card",
+    h("p.card-title", "Fuera de la partida"),
+    h("p.hint", "Conservan sus puntos y su plaza. Quien se fue por su cuenta vuelve solo desde su móvil."),
+    s.away.map(awayRow)) : null;
+  const st = s.settings;
+  const late = me.host ? h("div.card",
+    h("p.card-title", "Quien entre con la partida empezada"),
+    h("div.seg",
+      ...[["zero", "0 puntos"], ["average", "La media"], ["fixed", "Fijo"]].map(([mode, label]) =>
+        h("button.seg-btn", { type: "button", class: st.lateJoin === mode ? "is-on" : "", onclick: () => send("settings", { changes: { lateJoin: mode } }) }, label))),
+    st.lateJoin === "fixed" ? stepper("Puntos de inicio", st.latePoints, 0, 5000, 50, (v) => send("settings", { changes: { latePoints: v } })) : null) : null;
+  return h("div.panel",
+    h("div.panel-head", h("h1.title", "Jugadores"),
+      h("button.btn.ghost.mini", { type: "button", onclick: () => { showPlayers = false; updateOverlay(state); } }, "✕ Cerrar")),
+    h("div.card", h("div.plist", rows)),
+    away, late,
+    h("button.btn.danger.block", { type: "button", onclick: () => {
+      if (confirm(inMatch ? "¿Salir de la partida? Si vuelves desde este móvil, recuperarás tus puntos." : "¿Salir de la partida?")) {
+        showPlayers = false;
+        send("leave");
+      }
+    } }, "Salir de la partida"));
 }
 
 // ----- header ------------------------------------------------------------------------------
@@ -110,7 +250,14 @@ function header(s, extra) {
     avatar(me, 44),
     h("div.bar-who", nameTag(me), h("small", s.phase === "lobby" ? (me.host ? "👑 Anfitrión" : "En el lobby") : `#${rank} · ${fmt(me.points)} pts`)),
     extra || null,
+    pauseButton(s),
+    h("button.btn.ghost.mini", { type: "button", "aria-label": "Jugadores", onclick: () => { showPlayers = true; updateOverlay(state); } }, "👥"),
     soundButton(s));
+}
+
+function pauseButton(s) {
+  if (["lobby", "finished"].includes(s.phase) || s.paused) return null;
+  return h("button.btn.ghost.mini", { type: "button", "aria-label": "Pausar la partida", onclick: () => net.send({ t: "pause" }) }, "⏸");
 }
 
 // The host mutes or unmutes the music on the TV from any screen.
@@ -222,7 +369,7 @@ function profileScreen() {
     } else net.send({ t: "join", ...payload });
   });
 
-  const full = state && !state.me && state.players.length >= state.maxPlayers;
+  const full = state && !state.me && state.players.length + (state.away?.length || 0) >= state.maxPlayers;
   const el = h("div.screen.profile",
     notice ? h("p.notice", notice) : null,
     h("h1.title", me ? "Tu perfil" : "¿Quién eres?"),
