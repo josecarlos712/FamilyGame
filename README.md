@@ -58,6 +58,19 @@ A mano: `.venv\Scripts\python src\main.py [--puerto 8765] [--sin-internet]`.
 
 ## Añadir preguntas (sin tocar código)
 
+La forma cómoda es el **editor de preguntas**: doble clic en **`editor.bat`**, elige categoría y
+mecánica, pega las preguntas en un texto sencillo, revísalas (usa el mismo validador que el juego) y
+pulsa «Añadir». Funciona aparte del juego. Formato y detalles en [docs/editor.md](docs/editor.md).
+
+```
+¿En qué año llegó Colón a América?
+- 1453
++ 1492
+- 1512
+tiempo: 10
+```
+
+También se pueden escribir los archivos a mano:
 Cada archivo `.toml` de la carpeta **`preguntas/`** es una categoría, es decir, un tema (puedes usar subcarpetas). Cada pregunta elige su mecánica con `tipo`
 (test, slider, rango, mapa, conoces); las de mapa se saltan solas sin clave de Google Maps.
 Copia `preguntas/_PLANTILLA.toml`, quítale el guion bajo y escribe. Ahí están documentados todos

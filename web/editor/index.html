@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editor de preguntas · FamilyGame</title>
+  <meta name="description" content="Pega preguntas en texto, revísalas con el validador del juego y añádelas a una categoría.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="/static/css/base.css">
+  <link rel="stylesheet" href="/static/editor/editor.css">
+  <script type="module" src="/static/editor/editor.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">?</span>
+      <div>
+        <h1>Editor de preguntas</h1>
+        <p class="muted" id="stats">Cargando…</p>
+      </div>
+    </div>
+    <button class="btn ghost small" id="reload" type="button" title="Vuelve a leer los tipos y las categorías del disco">Recargar del disco</button>
+  </header>
+
+  <main class="layout">
+    <section class="pane compose" aria-labelledby="compose-title">
+      <h2 id="compose-title" class="sr-only">Escribir preguntas</h2>
+
+      <div class="row">
+        <label class="field grow">
+          <span class="label">Categoría</span>
+          <select id="category"></select>
+        </label>
+        <button class="btn ghost small" id="toggle-new" type="button" aria-expanded="false" aria-controls="new-cat">Nueva categoría</button>
+      </div>
+
+      <fieldset class="new-cat" id="new-cat" hidden>
+        <legend class="label">Categoría nueva (se crea al añadir)</legend>
+        <label class="field grow"><span class="label">Nombre</span><input id="new-name" maxlength="40" placeholder="Música" autocomplete="off"></label>
+        <label class="field icon"><span class="label">Icono</span><input id="new-icon" maxlength="4" placeholder="🎵" autocomplete="off"></label>
+        <label class="field color"><span class="label">Color</span><input id="new-color" type="color" value="#4dabf7"></label>
+      </fieldset>
+
+      <div class="field">
+        <span class="label" id="mech-label">Mecánica</span>
+        <div class="segmented" id="types" role="radiogroup" aria-labelledby="mech-label"></div>
+      </div>
+
+      <details class="help" id="help" open>
+        <summary>Formato de <b id="help-name">…</b></summary>
+        <pre id="help-text"></pre>
+        <div class="help-actions">
+          <button class="btn ghost small" id="insert-example" type="button">Insertar ejemplo</button>
+          <button class="btn ghost small" id="copy-guide" type="button" title="Copia el formato de todas las mecánicas para pegarlo en un chat">Copiar guía completa</button>
+        </div>
+        <p class="muted tiny">Un bloque por pregunta, separados por una línea en blanco. Comunes a todas:
+          <code>tiempo: 15</code> · <code>lectura: 2</code> · <code>dificultad: 1-3</code> · <code>explicacion: …</code> · <code>imagen: img/x.jpg</code> ·
+          <code>tipo: mapa</code> para cambiar la mecánica de un bloque. Las líneas con <code>#</code> son comentarios.</p>
+      </details>
+
+      <label class="field editor-field">
+        <span class="label">Preguntas <span class="muted" id="line-count"></span></span>
+        <textarea id="text" spellcheck="true" placeholder="Pega aquí las preguntas formateadas…"></textarea>
+      </label>
+      <p class="muted tiny hint">Se revisa solo al escribir · <kbd>Ctrl</kbd>+<kbd>Enter</kbd> revisa ya · el borrador se guarda en este navegador.</p>
+    </section>
+
+    <section class="pane review" aria-labelledby="review-title">
+      <div class="review-bar">
+        <div>
+          <h2 id="review-title">Revisión</h2>
+          <p class="muted" id="summary">Pega preguntas a la izquierda.</p>
+        </div>
+        <button class="btn primary" id="add" type="button" disabled>Añadir</button>
+      </div>
+      <div class="notice" id="notice" role="status" hidden></div>
+      <ol class="cards" id="cards"></ol>
+    </section>
+  </main>
+</body>
+</html>

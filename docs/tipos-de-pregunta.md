@@ -11,6 +11,7 @@ question_types/
     tv.js       ← obligatorio: dibujo en la tele
     phone.js    ← obligatorio: controles del móvil
     style.css   ← opcional, se carga solo la primera vez que sale el tipo
+    editor.py   ← opcional: cómo se escribe en el editor de preguntas (docs/editor.md)
     ...         ← cualquier otro recurso (.js, .svg, .png, .json, .mp3...)
 ```
 
